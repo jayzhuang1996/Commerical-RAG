@@ -1,0 +1,29 @@
+--- SOURCE INFO ---
+Ticker: MRVL
+Layer: LAYER_A
+Period: Q4_2024
+Date: 2024-12-04
+Doc Type: quarterly_mda
+--- END INFO ---
+
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+
+There were no sales of unregistered equity securities during the three months ended November 2, 2024.
+
+Issuer Purchases of Equity Securities
+
+The following table presents details of our stock repurchases during the three months ended November 2, 2024 (in millions, except per share data):
+
+Period (1)Total Number of Shares PurchasedAverage Price Paid per ShareTotal Number of Shares Purchased as Part of Publicly Announced Plans or Programs Approximate Dollar Value of Shares that May Yet be Purchased Under the Plan or Programs (2)
+
+August 4, 2024 to August 31, 2024— $— — $2,974.5 
+
+September 1, 2024 to September 28, 20240.3 $73.03 0.3 $2,952.5 
+
+September 29, 2024 to November 2, 20242.3 $75.06 2.3 $2,774.5 
+
+Total2.6 $74.83 2.6 
+
+(1)The monthly periods presented above for the three months ended November 2, 2024, are based on our fiscal accounting periods which follow a quarterly 4-4-5 week fiscal accounting period.
+
+(2)On November 17, 2016, we announced that our Board of Directors had authorized a $1.0 billion stock repurchase plan with no fixed expiration. On October 16, 2018, we announced that our Board of Directors authorized a $700.0 million addition to the balance of our existing stock repurchase plan. On March 7, 2024, we announced that our Board of Directors authorized a $3.0 billion addition to the balance of its existing stock repurchase program. Our existing stock repurchase program had approximately $304.0 million of repurchase authority remaining as of October 16, 2018 prior to the approved addition. We intend to effect stock repurchases in accordance with the conditions of Rule 10b-18 under the Exchange Act, but may also make repurchases in the open market outside of Rule 10b-18 or in privately negotiated transactions. The stock repurchase program will be subject to market conditions and other factors and does not obligate us to repurchase any dollar amount or number of shares of our common stock and the repurchase program may be extended, modified, suspended or discontinued at any time.

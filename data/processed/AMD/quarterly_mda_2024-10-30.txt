@@ -1,0 +1,39 @@
+--- SOURCE INFO ---
+Ticker: AMD
+Layer: LAYER_A
+Period: Q4_2024
+Date: 2024-10-30
+Doc Type: quarterly_mda
+--- END INFO ---
+
+ITEM 2.UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS
+
+Issuer Purchases of Equity Securities
+
+We have an approved stock repurchase program authorizing repurchases of up to $12 billion of our common stock (Repurchase Program). We expect to fund repurchases through cash generated from operations. Our Repurchase Program does not obligate us to acquire any common stock, has no termination date and may be suspended or discontinued at any time.
+
+The following table provides information relating to our repurchase of common stock for the three months ended September 28, 2024:
+
+Total Number of Shares RepurchasedAverage Price Paid per ShareTotal Number of Shares Repurchased as Part of Publicly Announced ProgramMaximum Dollar Value of Shares That May Yet be Purchased Under the Program
+
+(In millions)
+
+Jun 30, 2024 to Jul 27, 2024823,790 $146.88 823,790 $5,078 
+
+Jul 28, 2024 to Aug 24, 2024930,003 $138.71 930,003 $4,949 
+
+Aug 25, 2024 to Sep 28, 2024— $— — $4,949 
+
+Total1,753,793 
+
+The amounts above do not include the 1% excise tax on stock repurchases enacted by the Inflation Reduction Act of 2022.
+
+Equity Award Share Withholding
+
+During the three months ended September 28, 2024, there were $459 million in employee withholding taxes due upon the vesting of net settled equity awards. We withheld approximately 3.2 million shares of common stock from employees in connection with such net share settlement at an average price of $145.48 per share. These shares may be deemed to be “issuer purchases” of shares.
+
+OTHER INFORMATION
+
+Rule 10b5-1 Trading Plans
+
+During the quarter ended September 28, 2024, none of our directors or officers (as defined in Rule 16a-1(f) under the Securities Exchange Act of 1934, as amended) adopted, modified or terminated a “Rule 10b5-1 trading arrangement” or a “non-Rule 10b5-1 trading arrangement”, as each term is defined in Item 408(a) of Regulation S-K.

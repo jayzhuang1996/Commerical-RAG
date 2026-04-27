@@ -1,0 +1,33 @@
+--- SOURCE INFO ---
+Ticker: QCOM
+Layer: LAYER_A
+Period: Q3_2025
+Date: 2025-07-30
+Doc Type: quarterly_mda
+--- END INFO ---
+
+ITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS
+
+Issuer Purchases of Equity Securities
+
+Our purchases of our common stock in the third quarter of fiscal 2025 were:
+
+Total Number of
+
+Shares Purchased
+
+Average Price Paid Per Share (1)Total Number of Shares Purchased as Part of Publicly Announced Plans or ProgramsApproximate Dollar Value of Shares that May Yet BePurchased Under the Plans or Programs (2)
+
+(In thousands)(In thousands)(In millions)
+
+March 31, 2025 to April 27, 20252,416 $139.27 2,416 $12,196 
+
+April 28, 2025 to May 25, 202510,802 145.16 10,802 10,628 
+
+May 26, 2025 to June 29, 20256,248 151.28 6,248 9,683 
+
+Total19,466 19,466 
+
+(1) Average Price Paid Per Share excludes cash paid for commissions.
+
+(2) On November 6, 2024, we announced a $15.0 billion stock repurchase program. The stock repurchase program has no expiration date. Shares withheld to satisfy statutory tax withholding requirements related to the vesting of share-based awards are not issued or considered stock repurchases under our stock repurchase program and, therefore, are excluded from the table above.

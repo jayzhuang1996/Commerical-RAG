@@ -1,0 +1,294 @@
+Table of contents                                         
+
+Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operation
+
+Unless the context otherwise indicates or requires, references to “the Company,” “Vertiv,” “we,” “us” and “our” refer to Vertiv Holdings Co, a Delaware corporation, and its consolidated subsidiaries; and “GSAH” refers to GS Acquisition Holdings Corp prior to the Business Combination. In addition, dollar amounts are stated in millions, except for per share amounts. You should read the following discussion and analysis of our financial condition and results of operations in conjunction with the Consolidated Financial Statements and the notes thereto included elsewhere in this Annual Report.
+
+We have omitted the discussion on our results of operations for the year ended December 31, 2023, which discussion was previously included in Item 7 of our 2024 Annual Report on Form 10-K, filed with the SEC on February 18, 2025.
+
+Overview
+
+We are a global leader in the design, manufacturing and servicing of critical digital infrastructure technology that powers, cools, deploys, secures and maintains electronics that process, store and transmit data. We primarily provide this technology to data centers, communication networks and commercial and industrial environments worldwide. We aim to help create a world where critical technologies always work, and where we empower the vital applications of the digital world.
+
+Outlook and Trends
+
+Below is a summary of trends and events that are currently affecting, or may in the future affect, our business, operations and short-term outlook:
+
+•Trade and Economic Uncertainty: The global trade and economic environment continues to evolve rapidly with the imposition of new U.S. tariffs and retaliatory tariffs being imposed by foreign countries. In response to these escalating pressures and the geopolitical and macroeconomic uncertainties surrounding global supply chains and customer demand, we continue to pursue our supply chain strategy of supplier and geographic resilience. This includes, but is not limited to, continuing to add regional sourcing and manufacturing capabilities and capacity to complement our existing global supply chain. We’re strengthening our supply base and manufacturing footprint in the U.S. and other strategic jurisdictions around the world as part of our overall capacity strategy to grow with customer demand in the U.S. and other jurisdictions.
+
+The imposition of U.S. tariffs and foreign country retaliatory tariffs, or the proposed imposition of additional or similar tariffs, in jurisdictions where we have manufacturing facilities or where our customers operate could increase our cost of doing business and could significantly impact our financial performance.
+
+We are continually analyzing and implementing strategic measures in an effort to minimize the financial and operational impacts of the new and proposed tariffs on our business operations, including, but not limited to, continued expansion of domestic manufacturing, alternative sourcing of components and parts regionally, increased sourcing of components and parts that qualify under applicable trade agreements, and continued evaluation of our ability to incorporate tariff impacts into pricing decisions for our products and services.
+
+We are also continually monitoring the evolving macroeconomic environment, including monitoring inflationary and recessionary pressures resulting from the ongoing tariffs and geopolitical climate. These additional pressures could significantly impact the labor markets, exchange rates, customer demand, supply chain, capital markets and other economic conditions in the jurisdictions we operate throughout 2026 and beyond. As we monitor this ever-changing situation, we have been adjusting, and will continue to adjust, our operational plans in an effort to mitigate the impact of these pressures on our business and financial performance.
+
+•Capacity Expansion: We have strategically invested in expanding our global capacity to meet both current and anticipated customer demand across key infrastructure segments. Since late 2021, Vertiv has more than doubled its manufacturing capacity for switchgear, busbar and integrated power solutions through the opening of new facilities and capacity increases at existing operations worldwide. These expansions support our ability to deliver critical power infrastructure at scale for data centers and other mission-critical applications amid accelerating demand, particularly driven by AI and high-performance computing workloads. 
+
+To further support growth in thermal management solutions, we opened a new state-of-the-art manufacturing facility and test laboratory in Pune, India in 2024. This site significantly enhances our ability to produce a broad range of cooling products — from in-row and wall-mount units to large direct expansion and free-cooling systems — while serving both domestic and global customers. 
+
+We expanded our domestic infrastructure solutions manufacturing footprint in 2024 with the addition of a 215,000-square-foot facility in Pelzer, South Carolina. This facility accelerates production of modular solutions, integrated power systems and other prefabricated infrastructure, enabling customers to reduce installation time and rapidly scale deployments. 
+
+Looking ahead, we anticipate continuing to invest in capacity globally to ensure that we provide the geographic presence and operational resiliency our customers require, with the ability to rapidly scale in response to evolving demand.
+
+In addition to organic capacity growth, we expanded our solution capabilities through strategic acquisitions aligned with demand trends. In August 2025, we acquired the Great Lakes Data Racks & Cabinets family of companies ("Great Lakes") for approximately $200 million, which enhances our rack, cabinet and integrated white-space infrastructure offerings, strengthening our position in delivering comprehensive solutions for AI, high-density computing, edge and hyperscale environments. Great Lakes’ manufacturing operations in the U.S. and Europe broaden our execution capacity and accelerate the availability of pre-engineered rack and integrated infrastructure systems that address market needs for performance, scalability, and faster time to deployment.
+
+•Artificial Intelligence: Increased maturity and adoption of AI and high-performance compute is currently impacting the data center industry and driving technology innovation leading to increased demand. We have invested in developing new product, services, and solutions to serve this growing industry. With this, we are increasing capacity to support additional demand for AI infrastructure as necessary, and we will continue to invest to support additional growth driven by AI.
+
+•Thermal Management Portfolio Expansion: We continue to invest in expansion of our thermal management portfolio and product capabilities to meet customer demand. The complexity of hybrid air and liquid cooling created by AI workloads presents significant opportunities for innovation within, and expansion of, the entire thermal chain to better optimize performance, power utilization, control, and heat re-use. Our investment and expansion efforts are directed at capturing new technologies across the entire thermal chain from chip to heat rejection, re-use, and more to meet growing demands. Further, we are focused on the continued growth and expansion of our portfolio geographically, as we leverage our best-in-class regional products and expand such offerings into other regions and globally.
+
+•Strengthened Services Capabilities: We continue to see attractive opportunities in our services business as customers increasingly prioritize reliability, performance optimization, and lifecycle management across more complex and mission-critical digital infrastructure environments. The growth of AI and high-density computing is further increasing the importance of services that support uptime, efficiency, and long-term system performance.
+
+Our services portfolio spans project-based and lifecycle offerings with an increasing emphasis on software-enabled and data-driven capabilities that allow us to engage earlier in the deployment cycle and remain embedded throughout the operational life of customer infrastructure.
+
+We have continued to enhance these capabilities through targeted investments and acquisitions. These acquisitions strengthen our software and automation capabilities, enabling advanced analytics, orchestration, and AI-driven insights across complex infrastructure environments. For example, our acquisition of Purge Rite Intermediate, LLC ("PurgeRite") in December 2025 expands our thermal services capabilities, supporting system cleanliness, reliability, and performance, particularly in liquid-cooled and hybrid cooling applications. Refer to "Note 2 - Acquisitions" for additional information on this acquisition. Together, these investments support our integrated systems-level approach and strengthen the value proposition of our services offering.
+
+•Strategic Partnerships: We continue to pursue strategic partnerships and investment opportunities that enhance our technology capabilities and support the delivery of scalable, resilient infrastructure solutions as customer requirements evolve. As data center and critical infrastructure environments become more power-dense and complex, collaboration across the ecosystem is increasingly important to meeting performance, efficiency, and reliability needs.
+
+Our partnership with NVIDIA supports the development of advanced power and thermal infrastructure aligned with next-generation AI and high-performance computing architectures, while our collaboration with Oklo reflects exploration of alternative energy solutions that could support future data center power requirements. In addition, our partnership with Caterpillar strengthens our capabilities in distributed power generation and backup solutions for critical infrastructure applications.
+
+38
+
+
+Collectively, these partnerships support Vertiv’s systems-level approach and enhance our ability to deliver integrated solutions across power, thermal, and digital infrastructure.
+
+•Need for Speed and Scale: As digital infrastructure requirements continue to accelerate—particularly for AI and high-density computing—customers are increasingly prioritizing speed of deployment and the ability to scale reliably across geographies. Time-to-market, consistency, and execution certainty have become critical decision factors as customers seek to bring capacity online faster while managing growing system complexity.
+
+We continue to invest in prefabricated, factory-integrated, and standardized infrastructure solutions designed to reduce on-site complexity and improve deployment efficiency. Our SmartRun overhead infrastructure portfolio accelerates data center build-outs through pre-engineered and modular power, busway, and integrated infrastructure solutions, enabling faster installation, improved quality, and greater scalability. In addition, Vertiv OneCore provides a standardized, repeatable architecture that integrates power, thermal, racks, software, and services into a unified systems framework, supporting consistent deployment and scalability across customer environments. These solutions shift a greater portion of engineering, assembly, and validation into the factory, reducing on-site installation complexity and reliance on scarce skilled labor, while improving deployment speed, consistency, and execution certainty.
+
+Together, these capabilities support Vertiv’s systems-level approach and enhance our ability to help customers deploy critical infrastructure faster, at scale, and with greater predictability as demand continues to grow.
+
+RESULTS OF OPERATIONS
+
+Year ended December 31, 2025 compared to year ended December 31, 2024
+
+(Dollars in millions)20252024$ Change% Change
+
+Net sales$10,229.9 $8,011.8 $2,218.1 27.7 %
+
+Cost of sales6,514.7 5,077.6 1,437.1 28.3 %
+
+Gross profit3,715.2 2,934.2 781.0 26.6 %
+
+Selling, general and administrative expenses1,617.8 1,374.0 243.8 17.7 %
+
+Amortization of intangibles200.4 184.2 16.2 8.8 %
+
+Restructuring costs54.5 5.3 49.2 928.3 %
+
+Foreign currency (gain) loss, net12.0 9.3 2.7 29.0 %
+
+Other operating expense (income)0.8 (6.0)6.8 113.3 %
+
+Operating profit (loss)1,829.7 1,367.4 462.3 33.8 %
+
+Interest expense, net86.1 150.4 (64.3)(42.8)%
+
+Loss on extinguishment of debt1.7 2.4 (0.7)(29.2)%
+
+Change in fair value of warrant liabilities— 449.2 (449.2)(100.0)%
+
+Income tax expense409.1 269.6 139.5 51.7 %
+
+Net income (loss)$1,332.8 $495.8 $837.0 168.8 %
+
+Net Sales
+
+Net sales were $10,229.9 in 2025, an increase of $2,218.1, or 27.7%, compared with $8,011.8 in 2024. The increase in sales was primarily driven by higher sales volumes and the positive impacts from foreign currency of $49.6. Product sales increased $1,961.8, which included positive impacts from foreign currency of $37.5. Services & spares sales increased $256.3, including the positive impacts from foreign currency of $12.1.
+
+Excluding intercompany sales, net sales were $6,386.3 in the Americas, $2,019.2 in Asia Pacific and $1,824.4 in Europe, Middle East & Africa. Movements in net sales by segment and offering are each detailed in the Business Segments section below.
+
+Cost of Sales
+
+Cost of sales were $6,514.7 in 2025, an increase of $1,437.1, or 28.3% compared to 2024. The increase in cost of sales was primarily driven by the impact of higher volumes. Gross profit was $3,715.2 in 2025, or 36.3% of sales, compared to $2,934.2, or 36.6% of sales in 2024. Margin was relatively flat as benefits from higher sales volume and improved price realization were offset by cost inflation, particularly related to tariffs.
+
+39
+
+
+Selling, General and Administrative Expenses
+
+Selling, general and administrative expenses (or “SG&A”) were $1,617.8 in 2025, an increase of $243.8, or 17.7% compared to 2024. The increase in SG&A was primarily driven by increased compensation costs. SG&A as a percentage of sales were 15.8% in 2025 compared with 17.1% in 2024.
+
+Other Operating Expenses
+
+The remaining other operating expenses include amortization of intangibles, restructuring costs, foreign currency (gain) loss, and other operating expense (income). These remaining operating expenses were $267.7 for 2025, which was a $74.9 increase from 2024. The increase was due to a $49.2 increase in restructuring costs, increased amortization of intangibles of $16.2, a $6.8 decrease in other operating expense (income) primarily due to mark-to-market losses associated with economic hedges, and a $2.7 increase in foreign currency loss.
+
+Change in Fair Value of Warrant Liabilities
+
+Change in fair value of warrant liabilities represents the mark-to-market fair value adjustments to the then outstanding private warrants. The change in fair value of the then outstanding private warrants during 2024 resulted in a loss of $449.2. Cote SPAC I LLC elected in December 2024 to exercise the remaining 5,266,667 outstanding private warrants on a cashless basis as permitted under the warrants, in exchange for which the Company issued 4,812,521 shares of Class A common stock. As of December 31, 2025 and 2024, there were no warrants outstanding.
+
+Interest Expense
+
+Interest expense, net, was $86.1 in 2025 compared to $150.4 in 2024. The $64.3 decrease is primarily driven by a $33.0 increase of interest income and a $26.1 reduction to interest expense as a result of our Term Loan amendments. To the extent interest rates continue to fluctuate our interest expense will change, although we expect these changes to be partially mitigated by our interest rate swaps and interest income.
+
+Income Tax Expense 
+
+Income tax expense was $409.1 in 2025 compared to $269.6 in 2024. The effective rate in 2025 was primarily influenced by the mix of income between our U.S. and non-U.S. operations and net changes in valuation allowance offset by discrete benefits related to stock compensation. In 2024, income tax expense was primarily influenced by the mix of income between our U.S. and non-U.S. operations, net of changes in valuation allowances and uncertain tax positions, and reflects the impact of non-deductible changes in fair value of warrant liabilities, as well as discrete tax adjustments related to legislation changes enacted in the period.
+
+Income tax expense in 2025 was $139.5 higher than 2024 primarily due to increased financial performance, changes in non-U.S tax holidays and incentives and the change in valuation allowance.
+
+Business Segments
+
+The following are business segment results for the years ended December 31, 2025 and 2024. Segment profitability is defined as operating profit (loss). Segment margin represents segment operating profit (loss) expressed as a percentage of segment net sales. For reconciliations of segment net sales and earnings to our consolidated results, see “Note 13 — Segment Information”, of our Consolidated Financial Statements. Segment net sales are presented excluding intercompany sales.
+
+Americas 
+
+(Dollars in millions)December 31, 2025December 31, 2024$ Change% Change
+
+Net sales$6,386.3 $4,500.6 $1,885.7 41.9 %
+
+Operating profit (loss)1,714.3 1,097.8 616.5 56.2 %
+
+Margin26.8 %24.4 %
+
+Americas net sales of $6,386.3 in 2025 increased $1,885.7, or 41.9%, from 2024. The increase in sales was primarily driven by higher sales volumes due to products increasing by $1,691.0 and sales of service & spares increasing by $194.7. The product growth was driven by broad-based strength across products and customer segments. Americas net sales were negatively impacted by foreign currency of approximately $6.3.
+
+Operating profit (loss) in 2025 was $1,714.3, an increase of $616.5, or 56.2%, compared with 2024. Margin increased primarily due to the mix of product and service sales in addition to operational leverage.
+
+40
+
+
+Asia Pacific 
+
+(Dollars in millions)December 31, 2025December 31, 2024$ Change% Change
+
+Net sales$2,019.2 $1,717.8 $301.4 17.5 %
+
+Operating profit (loss)222.1 175.2 46.9 26.8 %
+
+Margin11.0 %10.2 %
+
+Asia Pacific net sales of $2,019.2 in 2025 increased $301.4, or 17.5%, from 2024. The increase in sales was primarily driven by growth throughout the region, partially offset by the negative impact of foreign currency of approximately $11.5. Net sales of products improved by $262.4, and service & spares improved by $39.0.
+
+Operating profit (loss) in 2025 was $222.1, an increase of $46.9, or 26.8%, compared with 2024. Margin increased primarily driven by operational leverage, cost improvement actions, and geographical mix.
+
+Europe, Middle East & Africa
+
+(Dollars in millions)December 31, 2025December 31, 2024$ Change% Change
+
+Net sales$1,824.4 $1,793.4 $31.0 1.7 %
+
+Operating profit (loss)377.4 439.4 (62.0)(14.1)%
+
+Margin20.7 %24.5 %
+
+Europe, Middle East & Africa net sales of $1,824.4 in 2025 increased $31.0, or 1.7%, from 2024. Sales increases were positively impacted by foreign currency of approximately $67.4, with products increasing by $8.4, and service & spares increasing by $22.6. 
+
+Operating profit (loss) in 2025 was $377.4, a decrease of $62.0, or 14.1%, compared with 2024. Margin erosion was primarily due to the mix of product and service sales, operational inefficiencies, and increased capacity to support future global demand.
+
+Vertiv Corporate and Other
+
+Corporate and other costs include costs associated with our headquarters located in Westerville, Ohio, as well as centralized global functions including Finance, Treasury, Risk Management, Strategy & Marketing, IT, Legal, and global product platform development and offering management. Corporate and other costs were $283.7 and $160.8 in 2025 and 2024, respectively. Corporate and other costs increased $122.9 compared to 2024 primarily due to an increase in restructuring costs and an increase in certain employee related costs.
+
+Capital Resources and Liquidity
+
+Our primary future cash needs relate to working capital, operating activities, capital spending, strategic investments and debt service. 
+
+Our capital expenditures are primarily related to the maintenance of our long-term assets, as well as the investment in projects, such as capacity and facility expansion, that support growth and innovation to further our enterprise strategy. Our capital expenditures (including capitalized software) were $226.4 in 2025. We expect to have capital expenditures (including capitalized software) of $425 to $525 in 2026 in order to support capacity expansion across the business.
+
+We have additional obligations as part of our ordinary course of business, beyond those committed for capital expenditures, which consist of debt obligations, lease obligations, bank guarantees, bonds and other financial instruments. Refer to “Note 6 — Debt”, “Note 7 — Leases”, and “Note 16 — Commitments and Contingencies” of the accompanying consolidated financial statements for more information. In addition, we have uncertain tax positions that are further discussed in “Note 8 — Income Taxes” of the consolidated financial statements. We do not have any guarantees or other off-balance sheet financing arrangements, including variable interest entities, which could materially impact our financial condition or liquidity.
+
+We, through our subsidiaries, are party to certain indebtedness arrangements, including the Senior Secured Notes due 2028, with an outstanding principal amount of $850.0 as of December 31, 2025 (the “Notes”), the Term Loan due 2032, with an outstanding principal amount of $2,076.1 as of December 31, 2025 (the “Term Loan”), and the ABL Revolving Credit Facility due 2029, providing up to $800.0 of revolving borrowings, with separate sublimits for letters of credit and swingline borrowings and an uncommitted accordion of up to $200.0, for which none was outstanding as of December 31, 2025 (the “ABL Revolving Credit Facility” and collectively with the Term Loan, the “Senior Secured Credit Facilities”). Our Term Loan's maturity was extended from 2027 to 2032 through an amendment which was executed on August 12, 2025. 
+
+41
+
+
+See “Note 6 — Debt” of the consolidated financial statements for more detailed discussion of the material terms of the Notes and the Senior Secured Credit Facilities.
+
+At December 31, 2025, we had $1,728.4 in cash and cash equivalents and $99.5 in short-term investments, which includes amounts held outside of the U.S., primarily in Europe and Asia. Non-U.S. cash is generally available for repatriation without legal restrictions, subject to certain taxes, mainly withholding taxes. We are not asserting indefinite reinvestment of cash or outside basis for our non-U.S. subsidiaries due to the outstanding debt obligations in instances where alternative repatriation options, other than dividends, are not available. At December 31, 2025, Vertiv had $784.0 of availability (subject to customary borrowing base and other conditions) under the ABL Revolving Credit Facility, net of letters of credit outstanding in the aggregate principal amount of $16.0, and taking into account the borrowing base limitations set forth in the ABL Revolving Credit Facility.
+
+We believe our current cash and cash equivalent levels, augmented by availability under the ABL Revolving Credit Facility, will provide adequate near-term liquidity for the next 12 months of independent operations, as well as the resources necessary to invest for growth in existing businesses and manage our capital structure on a short- and long-term basis. We expect to continue to opportunistically access the capital and financing markets from time to time. Access to capital and the availability of financing on acceptable terms in the future will be affected by many factors, including our credit rating, economic conditions, and the overall liquidity of capital markets. There can be no assurance that we will continue to have access to the capital and financing markets on acceptable terms.
+
+Summary Statement of Cash Flows
+
+Year ended December 31, 2025 compared to year ended December 31, 2024
+
+(Dollars in millions)20252024$ Change% Change
+
+Net cash provided by (used for) operating activities$2,113.8 $1,319.3 $794.5 60.2 %
+
+Net cash provided by (used for) investing activities(1,500.8)(201.7)(1,299.1)644.1 
+
+Net cash provided by (used for) financing activities(72.3)(652.1)579.8 (88.9)
+
+Capital expenditures(220.0)(167.0)(53.0)31.7 
+
+Investments in capitalized software(6.4)(17.1)10.7 (62.6)
+
+Net Cash provided by (used for) Operating Activities
+
+Net cash provided by operating activities was $2,113.8 in 2025, a $794.5 increase in cash generation compared to 2024. Net income from operations of $1,332.8 included $383.0 of net non-cash expense items, consisting of depreciation and amortization of $308.6, deferred taxes of $22.6, non-cash stock based compensation expense of $45.9, and amortization of debt discount and issuance costs of $5.9. Trade working capital provided $339.3 in 2025 compared to $114.1 in 2024. 
+
+Net Cash provided by (used for) Investing Activities
+
+Net cash used for investing activities was $1,500.8 in 2025 compared to $201.7 in 2024. The increased use of cash in 2025 over the comparable period was primarily driven by the acquisition of businesses of $1,184.8 and net purchases of short-term investments of $89.6. 
+
+Net Cash provided by (used for) Financing Activities
+
+Net cash used by financing activities was $72.3 in 2025 compared to $652.1 of net cash used by financing activities in 2024. The decrease in cash used in 2025 was primarily the result of a $599.9 decrease in repurchases of common shares and a $6.6 decrease in proceeds from the exercise of employee stock options, offset by a $24.4 increase in dividend payments, and a $10.7 decrease in employee taxes paid for shares withheld. 
+
+Critical Accounting Estimates
+
+Our discussion and analysis of financial condition and results of operations is based upon our Consolidated Financial Statements, which have been prepared in accordance with accounting principles generally accepted in the United States ("U.S. GAAP"). The preparation of these financial statements requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and the disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of net sales and expenses during the reporting period. On an ongoing basis, management evaluates its estimates and judgments related to these assets, liabilities, net sales and expenses. We believe these estimates to be reasonable under the circumstances. Management bases its estimates and judgments on historical experience, expected future outcomes, and on various other factors that are believed to be 
+
+42
+
+
+reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities that are not readily apparent from other sources. Actual results may differ from these estimates.
+
+We believe that the following accounting estimates are critical to our financial results:
+
+Business Combinations
+
+We allocate the purchase price of acquired companies to tangible and intangible assets acquired and liabilities assumed based upon their estimated fair values at the acquisition date. The amount of purchase price which is in excess of the fair values of assets acquired and liabilities assumed is recognized as goodwill. The purchase price allocation process requires management to make significant estimates and assumptions with respect to intangible assets. Although we believe the assumptions and estimates we have made are reasonable, they are based in part on historical experience, market conditions and information obtained from management of the acquired companies, and are inherently uncertain. 
+
+The following are critical estimates in valuing intangible assets we have acquired or may acquire in the future and include but are not limited to: 
+
+•forecasted earnings before interest, taxes, depreciation, and amortization;
+
+•forecasted net sales;
+
+•customer attrition rates;
+
+•royalty rates; and
+
+•discount rates.
+
+Unanticipated events and circumstances may occur which may affect the accuracy or validity of such assumptions, estimates or actual results. Different assumptions may result in materially different values for assets acquired and liabilities assumed, which may impact our financial position and future results of operations.
+
+Goodwill
+
+We account for goodwill acquired in a business combination in conformity with current accounting guidance, which does not allow for goodwill to be amortized. We review goodwill for impairment annually in the fourth quarter or when events and circumstances indicate an impairment may have occurred. The impairment assessment for goodwill is performed at the reporting unit level. The Company’s five reporting units are comprised of the Americas; Greater China; India; Asia; and Europe, Middle East & Africa. For segment reporting Greater China, India and Asia are aggregated into one reportable business segment, refer to “Note 13 — Segment Information” of the accompanying consolidated financial statements for more information.
+
+We may assess our goodwill for impairment initially using a qualitative approach to determine whether it is more likely than not that the fair value of the reporting unit is greater than it’s carrying value. When performing a qualitative test, we assess various factors including industry and market conditions, macroeconomic conditions and performance of our businesses. If the results of the qualitative assessment indicate that it is not more likely than not that the fair value of the reporting unit is greater than it’s carrying value, a quantitative impairment analysis would be performed to determine if impairment is required. We may also elect to perform a quantitative analysis initially rather than using a qualitative approach.
+
+If a quantitative approach is required or elected, we test goodwill for impairment by comparing the estimated fair value of the reporting units to the related carrying value. The valuation methods used by us to estimate the fair value of each reporting unit include the discounted cash flow approach, the comparable public company approach and the comparable acquisition approach using a weighted approach of 40%, 40% and 20%, respectively. The discounted cash flow model requires several estimates and assumptions including future sales growth, earnings before interest, taxes, depreciation, and amortization (or “EBITDA”) margins, capital expenditures, a discount rate and a terminal net sales growth rate (the net sales growth rate for the period beyond the years forecasted by the reporting units) for each reporting unit. The comparable public company and comparable acquisition approaches require several assumptions, including EBITDA multiples for comparable companies and transactions that operate in the same markets as our reporting units. 
+
+We performed our annual goodwill impairment using the qualitative approach in the fourth quarter for each reporting unit. Based on the results of our qualitative impairment assessment, we concluded that it is more likely than not that the fair value of each reporting unit exceeded their carrying value and, therefore, our goodwill was not impaired, and no impairment charges were reported for the year ended December 31, 2025.
+
+43
+
+
+Revenue Recognition
+
+We recognize revenue from the sale of manufactured products and services when control of the promised goods or services are transferred to customers in an amount that reflects the consideration that we expect to be entitled to in exchange for those goods or services. Control is transferred when the customer has the ability to direct the use of and obtain benefits from the goods or services. The majority of our sales agreements contain performance obligations satisfied at a point in time when control is transferred to the customer. Sales for service contracts, including installation, inventory with no alternative use and an enforceable right of payment upon customer termination and other discrete services, generally are recognized over time as the services are provided. Payments received in advance for service arrangements or product delivery are recorded as deferred revenue and recognized in net sales when the revenue recognition criteria are met. Unbilled revenue is recorded when performance obligations have been satisfied, but we do not have present right to payment. 
+
+For agreements with multiple performance obligations, the Company is required to determine whether performance obligations specified in these agreements are distinct and should be accounted for as separate revenue transactions for recognition purposes. In these types of agreements we allocate sales price to each distinct obligation on a relative stand-alone selling price basis. The majority of revenue from arrangements with multiple performance obligations is recognized when tangible products are delivered, with smaller portions for associated installation and commissioning recognized shortly thereafter. Generally, contract duration is short term, and cancellation, termination or refund provisions apply only in the event of contract breach. These provisions have historically not been invoked. 
+
+Payment terms vary by the type and location of the customer and the products or services offered. Revenue from our sales have not been adjusted for the effects of a financing component as we expect that the period between when we transfer control of the product and when we receive payment to be one year or less. Sales, value add, and other taxes collected concurrent with revenue are excluded from sales. We record amounts billed to customers for shipping and handling in a sales transaction as revenue. Shipping and handling costs are treated as fulfillment costs and are included in costs of sales.
+
+We record reductions to sales for prompt payment discounts, customer and distributor incentives including rebates, and returns at the time of the initial sale. Rebates are estimated based on sales terms, historical experience, trend analysis, and projected market conditions in the various markets served. Returns are estimated at the time of the sale primarily based on historical experience and recorded gross on the consolidated balance sheet. 
+
+Sales commissions are expensed when the amortization period is less than a year and are generally not capitalized as they are typically earned at the completion of the contract when the customer is invoiced or when the customer pays Vertiv. We typically offer warranties that are consistent with standard warranties in the jurisdictions where we sell our goods and services. Our warranties are generally assurance type warranties for which we promise that our goods and services meet contract specifications. In limited circumstances, we sell warranties that extend the warranty coverage beyond the standard coverage offered on specific products. Sales for these separately-priced warranties are recorded based on their stand-alone selling price and are recognized as revenue over the length of the warranty period.
+
+Income Taxes
+
+We are subject to income taxes in the United States and numerous foreign jurisdictions. Judgment in the forecasting of taxable income using historical and projected future operating results is required in determining our provision for income taxes and the related assets and liabilities. The provision for income taxes includes income taxes paid, currently payable or receivable, and deferred taxes. Under U.S. GAAP, deferred tax assets and liabilities are determined based on differences between financial reporting and tax basis of assets and liabilities and are measured using enacted tax rates and laws that are expected to be in effect when the differences reverse. Deferred tax assets are also recognized for the estimated future effects of tax loss and credit carryforwards. The effect on deferred taxes of changes in tax rates is recognized in the period in which the enactment date occurs. Valuation allowances are established when necessary on a jurisdictional basis to reduce deferred tax assets to the amounts expected to be realized. Deferred taxes are not provided on the unremitted earnings of subsidiaries outside of the U.S. when it is expected that these earnings are indefinitely reinvested. In the event that the actual outcome of future tax consequences differs from our estimates and assumptions due to changes or future events such as tax legislation, geographic mix of earnings, completion of tax audits or earnings repatriation plans, the resulting change to the provision for income taxes could have a material effect on the Consolidated Statements of Earnings (Loss) and Consolidated Balance Sheets. 
+
+The recoverability of deferred tax assets and the recognition and measurement of uncertain tax positions are subject to our various assumptions and judgment. If actual results differ from our estimates made in establishing or maintaining valuation allowances against deferred tax assets, the resulting change in the valuation allowance would generally impact 
+
+44
+
+
+earnings. Additionally, the positions taken with regard to tax contingencies may be subject to audit and review by tax authorities, which may result in future taxes, interest and penalties. 
+
+In determining the recoverability of deferred tax assets, we give consideration to all available positive and negative evidence including reversals of deferred tax liabilities, projected future income, tax planning strategies and recent trends in financial results. We attach the most weight to historical earnings as they are more objectively verifiable compared to forecasts. In evaluating the objective evidence that historical results provide, we generally consider three years of cumulative income or loss at the jurisdictional taxpayer level as an important factor.

@@ -1,0 +1,77 @@
+--- SOURCE INFO ---
+Ticker: SNPS
+Layer: LAYER_G
+Period: Q3_2025
+Date: 2025-09-09
+Doc Type: quarterly_mda
+--- END INFO ---
+
+Item 2.Unregistered Sales of Equity Securities and Use of Proceeds
+
+The table below sets forth information regarding our repurchases of our common stock during the three months ended July 31, 2025:
+
+PeriodTotal number
+
+of shares
+
+purchased
+
+Average
+
+price paid
+
+per share
+
+Total
+
+number of
+
+shares
+
+purchased
+
+as part of
+
+publicly
+
+announced
+
+programs
+
+Maximum 
+
+approximate dollar
+
+value of shares
+
+that may yet be
+
+purchased
+
+under the
+
+programs (1)
+
+Month #1
+
+May 1, 2025 through May 31, 2025
+
+— $— — $194,276,393 
+
+Month #2
+
+June 1, 2025 through June 30, 2025
+
+— $— — $194,276,393 
+
+Month #3
+
+July 1, 2025 through July 31, 2025
+
+— $— — $194,276,393 
+
+Total— $— — $194,276,393 
+
+(1) In fiscal 2022, our Board of Directors approved a stock repurchase program (the Program) with authorization to purchase up to $1.5 billion of our common stock. As of July 31, 2025, $194.3 million remained available for future repurchases under the Program. However, in connection with the Ansys Merger, we have suspended the Program until we reduce our debt levels.
+
+See Note 14. Stock Repurchase Program of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report for more information on the Program.

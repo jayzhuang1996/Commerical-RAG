@@ -1,0 +1,47 @@
+--- SOURCE INFO ---
+Ticker: LRCX
+Layer: LAYER_D
+Period: Q4_2025
+Date: 2025-10-24
+Doc Type: quarterly_mda
+--- END INFO ---
+
+ITEM 2.    Unregistered Sales of Equity Securities and Use of Proceeds
+
+Repurchases of Company Shares
+
+In May 2024, the Board of Directors authorized management to repurchase up to an additional $10.0 billion of Common Stock; this authorization supplements the remaining balance from any prior authorization. These repurchases can be conducted on the open market or as private purchases and may include the use of derivative contracts with large financial institutions, in all cases subject to compliance with applicable law. This repurchase program has no termination date and may be suspended or discontinued at any time. 
+
+Accelerated Share Repurchase Agreements
+
+On April 30, 2025, we entered into accelerated share repurchase agreements (the "April 2025 ASRs") with two financial institutions to repurchase a total of $500 million of Common Stock. We took an initial delivery of approximately 5.2 million shares, which represented 75% of the prepayment amount divided by our closing stock price on April 30, 2025. The total number of shares received under the April 2025 ASRs was based upon the average daily volume weighted average price of our Common Stock during the repurchase period, less an agreed upon discount. Final settlement of the April 2025 ASRs occurred in September 2025, resulting in the receipt of approximately 317 thousand additional shares, which yielded a weighted-average share price of $93.98 for the transaction period, including the effects of a 1% excise tax under the Inflation Reduction Act.
+
+Share repurchases, including those under the repurchase program, are reflected in the table below. 
+
+PeriodTotal Numberof SharesRepurchasedAverage Price
+
+Paid per
+
+Share (1, 2)
+
+Total Number ofShares Purchasedas Part of PubliclyAnnounced Plans orProgramsAmountAvailableUnderRepurchaseProgram
+
+ (in thousands, except per share data)
+
+Available balance as of June 29, 2025$7,517,184 
+
+June 30, 2025 - July 27, 20251,815 $100.14 1,815 7,335,410 
+
+July 28, 2025 - August 24, 20253,701 $100.97 3,701 6,961,761 
+
+August 25, 2025 - September 28, 20254,170 (3)$112.69 4,170 (3)6,527,138 
+
+Quarter ended September 28, 20259,686 $105.67 (4)9,686 6,527,138 
+
+(1)    Average price paid per share excludes the effect of accelerated share repurchase activities. See additional disclosure above regarding our accelerated share repurchase activity during the fiscal year.
+
+(2)    Our net share repurchases are subject to a 1% excise tax under the Inflation Reduction Act. Excise tax incurred reduces the amount available under repurchase programs, as applicable, and is included in the cost of shares repurchased in the Condensed Consolidated Statement of Stockholders’ Equity and the calculation of the average price paid per share.
+
+(3)    Includes shares received at final settlement of accelerated share repurchase agreements; see additional disclosures above regarding our accelerated share repurchase activity during the fiscal year. 
+
+(4)    Average price paid per share presented is for the quarter ended September 28, 2025.

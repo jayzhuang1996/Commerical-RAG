@@ -1,0 +1,27 @@
+--- SOURCE INFO ---
+Ticker: ANET
+Layer: LAYER_E
+Period: Q4_2024
+Date: 2024-11-08
+Doc Type: quarterly_mda
+--- END INFO ---
+
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 
+
+(c) Issuer Purchase of Equity Securities
+
+In October 2021, our board of directors authorized a $1.0 billion stock repurchase program (the “Prior Repurchase Program”). This authorization allows us to repurchase shares of our common stock that will be funded from working capital and expires in the fourth quarter of 2024. In May 2024, our board of directors authorized an additional $1.2 billion stock repurchase program (the “New Repurchase Program” and together with the Existing Repurchase Program, the "Repurchase Programs"), which allows us to repurchase shares of our common stock to be funded from working capital. Repurchases under the Repurchase Programs may be made at management's discretion from time to time on the open market, through privately negotiated transactions, transactions structured through investment banking institutions, block purchase techniques, 10b5-1 trading plans, or a combination of the foregoing. The Repurchase Programs do not obligate us to acquire any of our common stock and may be suspended or discontinued by the company at any time without prior notice.  
+
+Our repurchases for the three months ended September 30, 2024 are disclosed as below (in thousands, except per share amounts). For further information on our repurchase activities during the quarter ended September 30, 2024, please refer to 
+
+Note 6. Stockholders' Equity and Stock-Based Compensation of the Notes to Consolidated Financial Statements included in Part I, Item 1, of this Quarterly Report on Form 10-Q.
+
+Total Number of Shares PurchasedAverage Price Paid Per ShareTotal Number of Shares Purchased as Part of Publicly Announced Plans or ProgramsApproximate Dollar Value of Shares That May Yet Be Purchased Under the Publicly Announced Plans or Programs
+
+July 1, 2024 - July 31, 2024— $— — $1,109,807 
+
+August 1, 2024 - August 31, 2024— — — 1,109,807 
+
+September 1, 2024 - September 30, 2024205 318.14 205 1,044,650 
+
+205 205

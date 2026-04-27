@@ -1,0 +1,745 @@
+                                                                     
+  Exhibit 99.1                                                       
+                                                                     
+   Arista Networks, Inc. Reports Fourth Quarter and Year End 2025    
+                          Financial Results                          
+                                                                     
+  SANTA CLARA, Calif.- February 12, 2026                             
+                                                                     
+-- Arista Networks, Inc. (NYSE: ANET), an industry leader in data-
+driven, client-to-cloud networking for large AI, data center, campus,
+and routing environments, today announced financial results for its
+fourth quarter and the full year ended December 31, 2025.
+
+“2025 was the year of validation of our Arista 2.0 momentum, as we
+hit the milestone of shipping a cumulative of 150 million ports,”
+stated Jayshree Ullal, Chairperson and CEO of Arista Networks. "We
+exceeded both our AI networking and campus expansion goals,
+delivering profitable growth and revenue of $9 billion."
+                                                                     
+   Fourth Quarter Financial Highlights                               
+                                                                     
+• Revenue of $2.488 billion, an increase of 7.8% compared to the
+third quarter of 2025, and an increase of 28.9% from the fourth
+quarter of 2024.
+
+• GAAP gross margin of 62.9%, compared to GAAP gross margin of 64.6%
+in the third quarter of 2025 and 63.8% in the fourth quarter of 2024.
+
+• Non-GAAP gross margin of 63.4%, compared to non-GAAP gross margin
+of 65.2% in the third quarter of 2025 and 64.2% in the fourth quarter
+of 2024.
+
+• GAAP net income of $955.8 million, or $0.75 per diluted share,
+compared to GAAP net income of $801.0 million, or $0.62 per diluted
+share, in the fourth quarter of 2024.
+
+• Non-GAAP net income of $1.047 billion, or $0.82 per diluted share,
+compared to non-GAAP net income of $849.6 million 1 , or $0.66 1 per
+diluted share, in the fourth quarter of 2024.
+                                                                     
+   Full Year Financial Highlights                                    
+                                                                     
+• Revenue of $9.006 billion, an increase of 28.6% compared to fiscal
+year 2024 .
+
+• GAAP gross margin of 64.1%, compared to GAAP gross margin of 64.1%
+in fiscal year 2024 .
+
+• Non-GAAP gross margin of 64.6%, compared to non-GAAP gross margin
+of 64.6% in fiscal year 2024 .
+• GAAP net income of $3.511 billion, or $2.75 per diluted share,
+compared to GAAP net income of $2.852 billion, or $2.23 per diluted
+share, in fiscal year 2024 .
+
+• Non-GAAP net income of $3.806 billion or $2.98 per diluted share,
+compared to non-GAAP net income of $2.971 billion 1 or $2.32 1 per
+diluted share, in fiscal year 2024 .
+
+“Our Q4 results underscore the strong operating leverage inherent in
+our model, providing a powerful exit rate as we head into 2026," said
+Chantelle Breithaupt, Arista’s CFO . "By pairing 29% revenue growth
+with a disciplined 47.5% operating margin, Arista achieved a historic
+milestone: surpassing $1 billion in quarterly net income.
+Congratulations to the team."
+                                                                     
+  Fourth Quarter Company Highlights                                  
+                                                                     
+• Arista Networks Unveiled Next Generation Data and AI Center
+Networks
+
+The R4 series platforms for AI, data center, and routed backbone
+deployment deliver high performance, low AI job completion times, low
+power consumption, and integrated security, while helping customers
+reduce total cost of ownership.
+
+• Arista Introduced Innovations for Massive Scale Campus Mobility
+1 Prior period amounts have been updated to conform to the current
+period presentation. Refer to the Reconciliation of Selected GAAP to
+Non-GAAP Financial Measures for details.
+                                  1                                  
+Arista Virtual Ethernet Segment with Proxy ARP (Arista VESPA) enables
+customers to deploy large-scale WLAN mobility domains.
+
+• Arista AVA uses Agentic AI to Streamline Network Operations
+
+Arista AVA (Autonomous Virtual Assist) was extended with additional
+agentic AI capabilities for use cases such as multi-domain event
+correlation, continuous monitoring, and network troubleshooting.
+
+• Arista Launched Cognitive Campus Switches for the Industrial Edge
+
+Arista’s new ruggedized platforms bring the power, reliability, and
+operational simplicity of EOS to demanding industrial or outdoor
+environments.
+                                                                     
+  Full Year Company Highlights                                       
+                                                                     
+• Arista introduced intelligent innovations for AI networking
+
+Capabilities such as Cluster Load Balancing (CLB) and CloudVision®
+Universal Network Observability™ (CV UNO™) maximize AI workload
+performance and deliver deep job-centric observability for enhanced
+troubleshooting.
+
+• Arista Networks to collaborate with industry leaders to deliver
+Ethernet for Scale-Up Networks (ESUN)
+
+ESUN was unveiled at the OCP Global Summit in October 2025 as an open
+OCP workstream committed to the goal of open standards-based
+solutions for scale-up, based on Ethernet, and open to all.
+
+• Arista Networks announced AI agents to streamline network
+operations
+
+With the combined power of open standards like MCP and the robust
+data and programmability of Arista's EOS and NetDL, organizations are
+empowered to build, manage, and secure the networks of the future.
+
+• Arista Networks Acquired the VeloCloud® SD-WAN Portfolio from
+Broadcom
+
+VeloCloud enables customers to securely and efficiently interconnect
+data centers and distributed campus/branch offices while
+complementing Arista's existing portfolio.
+
+• Arista Networks Recognized in the Leaders Quadrant of the 2025
+Gartner® Magic Quadrant™ for Data Center Switching, published on
+March 31, 2025,
+                                                                     
+  and in                                                             
+                                                                     
+the Visionaries Quadrant of the 2025 Gartner® Magic Quadrant™ for
+Enterprise Wired and Wireless LAN Infrastructure published on 25 June
+2025
+
+Gartner positioned Arista Networks as the vendor with the highest
+Ability to Execute in the Magic Quadrant™ for Data Center Switching .
+
+•
+                                                                     
+  Arista Networks Expanded its Executive Ranks                       
+                                                                     
+Todd Nightingale was appointed President and Chief Operating Office
+r, Kenneth Duda was promoted to President and Chief Technology
+Officer, and Tyson Lamoreaux was appointed Senior Vice President of
+Cloud and AI Networking.
+                                                                     
+   Financial Outlook                                                 
+                                                                     
+For the first quarter of 2026, we expect:
+• Revenue of approximately $2.6 billion;
+
+• Non-GAAP gross margin between approximately 62-63%; and
+
+• Non-GAAP operating margin of approximately 46%.
+Guidance for non-GAAP financial measures excludes certain items,
+including stock-based compensation expense, intangible asset
+amortization, and potential non-recurring charges or benefits. A
+reconciliation of non-GAAP guidance measures to corresponding GAAP
+measures is not available on a forward-looking basis without
+unreasonable effort because these exclusions can be uncertain or
+difficult to predict, including stock-based compensation expense
+which is impacted by the timing of employee stock transactions, the
+company’s future hiring
+
+and retention needs and the future fair market value of the company’s
+common stock. The actual amount of these exclusions will have a
+significant impact on the company’s GAAP gross margin and GAAP
+operating margin.
+
+Prepared Materials and Conference Call Information
+
+Arista's executives will discuss the fourth quarter and year end 2025
+financial results on a conference call at 1:30 p.m. Pacific time
+today. To listen to the call via telephone, dial (888) 330-2502 in
+the United States or +1 (240) 789-2713 from international locations.
+The Conference ID is 5655862
+                                                                     
+  .                                                                  
+                                                                     
+The financial results conference call will also be available via live
+webcast on Arista's investor relations website at
+https://investors.arista.com/ . Shortly after the conclusion of the
+conference call, a replay of the audio webcast will be available on
+Arista’s investor relations website. In addition, please refer to the
+Earnings Presentation at https://investors.arista.com/ for a summary
+of our financial results.
+                                                                     
+  Forward-Looking Statements                                         
+                                                                     
+This press release contains “forward-looking statements” regarding
+our future performance, including but not limited to quotations from
+management, statements in the section entitled “Financial Outlook,”
+such as estimates regarding revenue, non-GAAP gross margin, and non-
+GAAP operating margin for the first quarter of 2026, statements
+regarding Arista’s products, innovation, leadership and ability to
+execute and succeed in data-driven, client-to-cloud networking for
+AI, datacenter, campus, and routing environments. Forward-looking
+statements are subject to known and unknown risks, uncertainties,
+assumptions and other factors that could cause actual results,
+performance or achievements to differ materially from those
+anticipated in or implied by the forward-looking statements including
+but not limited to risks associated with: escalated or escalating
+U.S. tariffs and countermeasures and retaliatory actions taken by
+other countries; enhanced import/export restrictions, such as
+enhanced export controls the U.S. has adopted targeting trade with
+China, as well as countermeasures taken by affected countries; large
+purchases by a limited number of customers who represent a
+substantial portion of our revenue; adverse economic conditions ,
+continuing uncertain economic conditions or reduced information
+technology and network infrastructure spending ; the impact of sole
+or limited sources of supply, supply shortages and extended lead
+times or supply changes ; volatility in our revenue and revenue
+growth rates; variability in our gross margins ; variations in our
+results of operations ; the rapid evolution of the networking market;
+failure to successfully carry out new products and service offerings
+and expand into adjacent markets; intense competition and industry
+consolidation; expansion of our international sales and operations;
+investments in or acquisitions of other businesses, products or
+technologies; industry cyclicality; fluctuations in currency exchange
+rates; failure to raise additional capital on terms satisfactory to
+us; our inability to attract new large customers or sell additional
+products and services to our existing customers; inability to grow
+sales of switching and routing platforms which generate most of our
+product revenue; inability to increase market awareness or acceptance
+of our new products and services; decreases in the sales prices of
+our products and services; long and unpredictable sales cycles;
+inability to offer high quality support and services offerings;
+declines in maintenance renewals and support contracts by customers;
+product quality problems, defects, errors or vulnerabilities in our
+products; failure to anticipate technological shifts; insufficient
+component supply and inventory management; our reliance upon a
+predominant merchant silicon vendor; our dependence on third-party
+manufacturers to build our products; assertions by third parties of
+intellectual property ri ghts infringement, misappropriation or other
+violations; failure or inability to protect or assert our
+intellectual property rights; cybersecurity incidents and breaches of
+our cybersecurity systems, or other security or privacy breaches or
+incidents; failure to detect cybersecurity incidents; failure to
+comply with government law and regulations; issues in the development
+and use of artificial intelligence, combined with an uncertain
+regulatory environment; future decisions to reduce or discontinue
+repurchasing our common stock pursuant to our stock repurchase
+programs; and other future events. Additional risks and uncertainties
+that could affect us can be found in our most recent filings with the
+Securities and Exchange Commission, including, but not limited to,
+our annual report on Form 10-K and quarterly reports on Form 10-Q.
+You can locate these reports through our website at
+https://investors.arista.com/
+                                  3                                  
+and on the SEC’s website at https://www.sec.gov/. All forward-looking
+statements in this press release are based on information available
+to the company as of the date hereof, and we disclaim any obligation
+to publicly update or revise any forward-looking statement to reflect
+events that occur or circumstances that exist after the date on which
+they were made.
+                                                                     
+   Non-GAAP Financial Measures                                       
+                                                                     
+This press release and accompanying table contain certain non-GAAP
+financial measures, including non-GAAP gross profit, non-GAAP gross
+margin, non-GAAP income from operations, non-GAAP operating margin,
+non-GAAP net income, and non-GAAP diluted net income per share. These
+non-GAAP financial measures exclude stock-based compensation expense,
+intangible asset amortization, gains/losses on strategic investments,
+and the income tax effect of these non-GAAP exclusions, including the
+recognition of direct excess tax benefits associated with stock-based
+awards, as well as non-recurring adjustments to our tax provision
+resulting from the enactment of the One Big Beautiful Bill Act (“OBBB
+Act”). Effective the fourth quarter and fiscal year 2025, the Company
+updated its methodology for calculating the income tax effect of Non-
+GAAP adjustments. Previously, the Company’s calculation excluded all
+tax benefits associated with stock-based awards, consisting of both
+direct excess tax benefits and other discrete indirect effects. Under
+the updated methodology, the Company continues to exclude direct
+excess tax benefits but no longer excludes the discrete indirect
+effects of such awards. Management believes this change better aligns
+with industry practice and provides a more meaningful view of the
+Company’s effective tax rate. All prior period Non-GAAP results
+presented in this release have been recast to conform to the current
+period presentation.
+
+The company uses these non-GAAP financial measures internally in
+analyzing its financial results and believes that these non-GAAP
+financial measures are useful to investors as an additional tool to
+evaluate ongoing operating results and trends. In addition, these
+measures are the primary indicators management uses as a basis for
+its planning and forecasting for future periods.
+
+Non-GAAP financial measures are not meant to be considered in
+isolation or as a substitute for the comparable GAAP financial
+measures. Non-GAAP financial measures are subject to limitations and
+should be read only in conjunction with the company's consolidated
+financial statements prepared in accordance with GAAP. Non-GAAP
+financial measures do not have any standardized meaning and are,
+therefore, unlikely to be comparable to similarly titled measures
+presented by other companies. A description of these non-GAAP
+financial measures and a reconciliation of the company’s non-GAAP
+financial measures to their most directly comparable GAAP measures
+have been provided in the financial statement tables included in this
+press release, and investors are encouraged to review the
+reconciliation.
+
+Gartner®, Magic Quadrant™ for Data Center Switching, Andrew Lerner et
+al., 31 March 2025
+Gartner®, Magic Quadrant™ for Enterprise Wired and Wireless LAN
+Infrastructure, Mike Leibovitz et al., 25 June 2025
+
+GARTNER and MAGIC QUADRANT are trademarks of Gartner, Inc. and its
+affiliates.
+Gartner does not endorse any company, vendor, product or service
+depicted in its publications, and does not advise technology users to
+select only those vendors with the highest ratings or other
+designation.
+
+Gartner publications consist of the opinions of Gartner’s business
+and technology insights organization and should not be construed as
+statements of fact. Gartner disclaims all warranties, expressed or
+implied, with respect to this publication, including any warranties
+of merchantability or fitness for a particular purpose.
+
+The Gartner content described herein (the “Gartner Content”)
+represents research opinion or viewpoints published, as part of a
+syndicated subscription service, by Gartner, Inc. ("Gartner"), and is
+not a representation of fact. Gartner Content speaks as of its
+original publication date (and not as of the date of this Earnings
+Press Release), and the opinions expressed in the Gartner Content are
+subject to change without notice.
+                                                                     
+  About Arista Networks                                              
+                                                                     
+Arista Networks is an industry leader in data-driven, client-to-cloud
+networking for large AI, data center, campus, and routing
+environments. Its award-winning platforms deliver availability,
+agility, automation, analytics, and security through an advanced
+network operating stack. For more information, visit www.arista.com.
+
+ARISTA, CloudVision, and Etherlink are among the registered and
+unregistered trademarks of Arista Networks, Inc. in jurisdictions
+around the world. Other company names or product names may be
+trademarks of their respective owners. Additional information and
+resources can be found at www.arista.com.
+                                  5                                  
+                                                                     
+                        ARISTA NETWORKS, INC.                        
+                                                                     
+                                                                     
+             Condensed Consolidated Statements of Income             
+                                                                     
+         (Unaudited, in millions, except per share amounts)          
+                                                                     
+          Three                          Twel…                       
+          Mont…                          Mont…                       
+          Ended                          Ended                       
+          Dece…                          Dece…                       
+          31,                            31,                         
+  Rev…    2025            2024           2025            2024        
+ ─────────────────────────────────────────────────────────────────── 
+  Pro…    $      2,09…    $     1,60…    $      7,57…    $     5,8…  
+  Ser…           392.1          322.3           1,42…          1,1…  
+  Tot…           2,48…          1,93…           9,00…          7,0…  
+  rev…                                                               
+  Cost                                                               
+  of                                                                 
+  rev…                                                               
+  Pro…           853.2          643.6           2,97…          2,2…  
+  Ser…            70.8           55.8           258.3          212…  
+  Tot…                                                               
+  cost           924.0          699.4           3,23…          2,5…  
+  of                                                                 
+  rev…                                                               
+  Tot…                                                               
+  gro…           1,56…          1,23…           5,76…          4,4…  
+  pro…                                                               
+  Ope…                                                               
+  exp…                                                               
+  Res…                                                               
+  and            348.4          285.0           1,23…          996…  
+  dev…                                                               
+  Sal…                                                               
+  and            139.1          111.0           533.4          427…  
+  mar…                                                               
+  Gen…                                                               
+  and             43.4           35.4           141.9          122…  
+  adm…                                                               
+  Tot…                                                               
+  ope…           530.9          431.4           1,91…          1,5…  
+  exp…                                                               
+  Inc…                                                               
+  from           1,03…          799.6           3,85…          2,9…  
+  ope…                                                               
+  Oth…                                                               
+  inc…           104.5           89.4           393.6          320…  
+  net                                                                
+  Inc…                                                               
+  bef…           1,13…          889.0           4,24…          3,2…  
+  inc…                                                               
+  tax…                                                               
+  Pro…                                                               
+  for            181.6           88.0           738.3          413…  
+  inc…                                                               
+  tax…                                                               
+  Net     $      955.8    $     801.0    $      3,51…    $     2,8…  
+  inc…                                                               
+  Ear…                                                               
+  per                                                                
+  sha…                                                               
+  Bas…    $       0.76    $      0.64    $       2.79    $     2.27  
+  Dil…    $       0.75    $      0.62    $       2.75    $     2.23  
+  Wei…                                                               
+  com…                                                               
+  sha…                                                               
+  out…                                                               
+  Bas…           1,25…          1,26…           1,25…          1,2…  
+  Dil…           1,27…          1,28…           1,27…          1,2…  
+                                                                     
+                                                                     
+                        ARISTA NETWORKS, INC.                        
+                                                                     
+   Reconciliation of Selected GAAP to Non-GAAP Financial Measures    
+                                                                     
+ (Unaudited, in millions, except percentages and per share amounts)  
+                                                                     
+             Th…                             Tw…                     
+             Mo…                             Mo…                     
+             En…                             En…                     
+             De…                             De…                     
+        20…  31,       2024            2025  31,       2024          
+ ─────────────────────────────────────────────────────────────────── 
+  G…                                                                 
+  g…    $    1,…       $     1,…       $     5,…       $     4,…     
+  p…                                                                 
+  G…                                                                 
+  g…         62…  %          63…  %          64…  %          64…  %  
+  m…                                                                 
+  S…                                                                 
+  c…         7.6             4.3             26…             15…     
+  e…                                                                 
+  I…                                                                 
+  a…         7.0             4.2             19…             16…     
+  a…                                                                 
+  N…                                                                 
+  g…    $    1,…       $     1,…       $     5,…       $     4,…     
+  p…                                                                 
+  N…                                                                 
+  g…         63…  %          64…  %          64…  %          64…  %  
+  m…                                                                 
+  G…                                                                 
+  i…    $    1,…       $     79…       $     3,…       $     2,…     
+  f…                                                                 
+  o…                                                                 
+  G…                                                                 
+  o…         41…  %          41…  %          42…  %          42…  %  
+  m…                                                                 
+  S…                                                                 
+  c…         13…             10…             43…             35…     
+  e…                                                                 
+  I…                                                                 
+  a…         15…             6.7             41…             26…     
+  a…                                                                 
+  N…                                                                 
+  i…    $    1,…       $     90…       $     4,…       $     3,…     
+  f…                                                                 
+  o…                                                                 
+  N…                                                                 
+  o…         47…  %          47…  %          48…  %          47…  %  
+  m…                                                                 
+  G…                                                                 
+  n…    $    95…       $     80…       $     3,…       $     2,…     
+  i…                                                                 
+  S…                                                                 
+  c…         13…             10…             43…             35…     
+  e…                                                                 
+  I…                                                                 
+  a…         15…             6.7             41…             26…     
+  a…                                                                 
+  G…                                                                 
+  on         -2…               —             -1…             -1…     
+  s…                                                                 
+  i…                                                                 
+  T…                                                                 
+  i…         -1…               —             22…               —     
+  of                                                                 
+  O…                                                                 
+  T…                                                                 
+  b…                                                                 
+  on         -2…             -4…             -1…             -1…     
+  s…                                                                 
+  a…                                                                 
+  I…                                                                 
+  t…                                                                 
+  e…         -1…             -1…             -4…             -5…     
+  on                                                                 
+  n…                                                                 
+  e…                                                                 
+  N…                                                                 
+  n…    $    1,…       $     84…       $     3,…       $     2,…     
+  i…                                                                 
+  G…                                                                 
+  d…                                                                 
+  n…    $    0.…       $     0.…       $     2.…       $     2.…     
+  i…                                                                 
+  p…                                                                 
+  s…                                                                 
+  N…                                                                 
+  a…                                                                 
+  to         0.…             0.…             0.…             0.…     
+  n…                                                                 
+  i…                                                                 
+  N…                                                                 
+  d…                                                                 
+  n…    $    0.…       $     0.…       $     2.…       $     2.…     
+  i…                                                                 
+  p…                                                                 
+  s…                                                                 
+  W…                                                                 
+  s…                                                                 
+  u…                                                                 
+  in                                                                 
+  c…         1,…             1,…             1,…             1,…     
+  d…                                                                 
+  n…                                                                 
+  i…                                                                 
+  p…                                                                 
+  s…                                                                 
+  S…                                                                 
+  of                                                                 
+  S…                                                                 
+  C…                                                                 
+  E…                                                                 
+  C…                                                                 
+  of    $    7.6       $     4.3       $     26…       $     15…     
+  r…                                                                 
+  R…                                                                 
+  a…         75…             59…             26…             21…     
+  d…                                                                 
+  S…                                                                 
+  a…         32…             22…             10…             78…     
+  m…                                                                 
+  G…                                                                 
+  a…         17…             15…             47…             49…     
+  a…                                                                 
+  T…    $    13…       $     10…       $     43…       $     35…     
+                                                                     
+2 Prior period amounts have been updated to conform to the current
+period presentation to reflect the change in methodology for
+calculating non-GAAP income taxes associated with stock-based awards.
+The retrospective application of this change resulted in an increase
+to non-GAAP income of $19.5 million and $61.3 million for the three
+months and fiscal year ended December 31, 2024, respectively. The
+impact of this change on non-GAAP diluted net income per share was an
+increase of $0.01 and $0.05 for the three months and fiscal year
+ended December 31, 2024, respectively. Please refer to the
+discussions under "Non-GAAP Financial Measures" for further
+information with respect to this change.
+                                  7                                  
+                                                                     
+                        ARISTA NETWORKS, INC.                        
+                                                                     
+                                                                     
+                Condensed Consolidated Balance Sheets                
+                                                                     
+                      (Unaudited, in millions)                       
+                                                                     
+                          December 31, 2025       December 31, 2024  
+ ─────────────────────────────────────────────────────────────────── 
+  ASSETS                                                             
+  CURRENT ASSETS:                                                    
+  Cash and cash        $            1,963.9    $            2,762.4  
+  equivalents                                                        
+  Marketable                        8,779.1                 5,541.1  
+  securities                                                         
+  Accounts                          1,886.9                 1,140.5  
+  receivable, net                                                    
+  Inventories                       2,247.1                 1,834.6  
+  Prepaid expenses                                                   
+  and other current                 1,510.0                   632.3  
+  assets                                                             
+  Total current                    16,387.0                11,910.9  
+  assets                                                             
+  Property and                        203.1                    98.8  
+  equipment, net                                                     
+  Goodwill                            416.1                   268.5  
+  Deferred tax                      1,773.6                 1,440.4  
+  assets                                                             
+  Other assets                        668.8                   325.3  
+  TOTAL ASSETS         $           19,448.6    $           14,043.9  
+  LIABILITIES AND                                                    
+  STOCKHOLDERS’                                                      
+  EQUITY                                                             
+  CURRENT                                                            
+  LIABILITIES:                                                       
+  Accounts payable     $              651.7    $              381.1  
+  Accrued                             475.4                   435.3  
+  liabilities                                                        
+  Deferred revenue                  4,002.6                 1,727.3  
+  Other current                       246.8                   188.5  
+  liabilities                                                        
+  Total current                     5,376.5                 2,732.2  
+  liabilities                                                        
+  Deferred revenue,                 1,369.8                 1,064.1  
+  non-current                                                        
+  Other long-term                     331.8                   252.8  
+  liabilities                                                        
+  TOTAL LIABILITIES                 7,078.1                 4,049.1  
+  STOCKHOLDERS’                                                      
+  EQUITY:                                                            
+  Common stock                          0.1                     0.1  
+  Additional                        2,911.8                 2,465.4  
+  paid-in capital                                                    
+  Retained earnings                 9,446.6                 7,542.5  
+  Accumulated other                                                  
+  comprehensive                        12.0                   -13.2  
+  income                                                             
+  (loss)                                                             
+  TOTAL                                                              
+  STOCKHOLDERS’                    12,370.5                 9,994.8  
+  EQUITY                                                             
+  TOTAL LIABILITIES                                                  
+  AND STOCKHOLDERS’    $           19,448.6    $           14,043.9  
+  EQUITY                                                             
+                                                                     
+                                  8                                  
+                                                                     
+                        ARISTA NETWORKS, INC.                        
+                                                                     
+                                                                     
+           Condensed Consolidated Statements of Cash Flows           
+                                                                     
+                      (Unaudited, in millions)                       
+                                                                     
+                      Twelve Months                                  
+  CASH FLOWS FROM     Ended December                                 
+  OPERATING           31,                                            
+  ACTIVITIES:         2025                           2024            
+ ─────────────────────────────────────────────────────────────────── 
+  Net income          $                   3,511.4    $      2,852.1  
+  Adjustments to                                                     
+  reconcile net                                                      
+  income to                                                          
+  net cash                                                           
+  provided by                                                        
+  operating                                                          
+  activities:                                                        
+  Depreciation and                           72.6              62.0  
+  amortization                                                       
+  Stock-based                               439.2             355.4  
+  compensation                                                       
+  Deferred income                          -312.0            -492.9  
+  taxes                                                              
+  Other                                     -27.1             -53.6  
+  Changes in                                                         
+  operating assets                                                   
+  and                                                                
+  liabilities:                                                       
+  Accounts                                 -746.4            -106.1  
+  receivable, net                                                    
+  Inventories                              -412.5             110.6  
+  Other assets                             -937.4            -234.2  
+  Accounts payable                          260.5             -51.6  
+  Other                                     119.4              47.8  
+  liabilities                                                        
+  Deferred revenue                        2,452.0           1,285.2  
+  Income taxes,                             -47.8             -66.5  
+  net                                                                
+  Net cash                                                           
+  provided by                             4,371.9           3,708.2  
+  operating                                                          
+  activities                                                         
+  CASH FLOWS FROM                                                    
+  INVESTING                                                          
+  ACTIVITIES:                                                        
+  Proceeds from                                                      
+  maturities of                           3,432.5           2,058.6  
+  marketable                                                         
+  securities                                                         
+  Proceeds from                                                      
+  sale of                                   144.3              48.8  
+  marketable                                                         
+  securities                                                         
+  Purchases of                                                       
+  marketable                             -6,748.4          -4,526.1  
+  securities                                                         
+  Purchases of                                                       
+  property,                                                          
+  equipment and                            -119.5             -32.0  
+  intangible                                                         
+  assets                                                             
+  Cash paid for                                                      
+  business                                 -300.0                 —  
+  combination, net                                                   
+  of cash acquired                                                   
+  Other                                      14.9              -6.6  
+  Net cash used in                                                   
+  investing                              -3,576.2          -2,457.3  
+  activities                                                         
+  CASH FLOWS FROM                                                    
+  FINANCING                                                          
+  ACTIVITIES:                                                        
+  Proceeds from                                                      
+  issuance of                                                        
+  common stock                               57.7              60.2  
+  under equity                                                       
+  plans                                                              
+  Tax withholding                                                    
+  paid on behalf                                                     
+  of                                        -50.5             -58.4  
+  employees for                                                      
+  net share                                                          
+  settlement                                                         
+  Repurchase of                          -1,603.1            -423.6  
+  common stock                                                       
+  Net cash used in                                                   
+  financing                              -1,595.9            -421.8  
+  activities                                                         
+  Effect of                                                          
+  exchange rate                               1.7              -4.8  
+  changes                                                            
+  NET INCREASE                                                       
+  (DECREASE) IN                                                      
+  CASH, CASH                               -798.5             824.3  
+  EQUIVALENTS AND                                                    
+  RESTRICTED CASH                                                    
+  CASH, CASH                                                         
+  EQUIVALENTS AND                                                    
+  RESTRICTED                              2,763.8           1,939.5  
+  CASH —Beginning                                                    
+  of period                                                          
+  CASH, CASH                                                         
+  EQUIVALENTS AND                                                    
+  RESTRICTED          $                   1,965.3    $      2,763.8  
+  CASH —End of                                                       
+  period                                                             
+                                                                     
+                                  9                                  
+                         
+  Investor Contacts:     
+  Arista Networks, Inc.  
+  Investor Advocacy      
+  Rudolph Araujo         
+  Rod Hall               
+  +1 (408) 547-8080      
+  ir@arista.com          
+                         
+                                 10                                  

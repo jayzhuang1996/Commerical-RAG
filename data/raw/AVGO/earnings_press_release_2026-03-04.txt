@@ -1,0 +1,768 @@
+                                                                                           
+  Exhibit 99.1                                                                             
+                                                                                           
+  Broadcom Inc. Announces First Quarter Fiscal Year 2026 Financial Results and Quarterly   
+                                         Dividend                                          
+• Revenue of $19,311 million for the first quarter, up 29 percent from the prior year
+period
+
+• GAAP net income of $7,349 million for the first quarter; Non-GAAP net income of $10,185
+million for the first quarter
+
+• Adjusted EBITDA of $13,128 million for the first quarter, or 68 percent of revenue
+
+• GAAP diluted EPS of $1.50 for the first quarter; Non-GAAP diluted EPS of $2.05 for the
+first quarter
+
+• Cash from operations of $8,260 million for the first quarter, less capital expenditures
+of $250 million, resulted in $8,010 million of free cash flow, or 41 percent of revenue
+
+• Quarterly common stock dividend of $0.65 per share
+
+• Second quarter fiscal year 2026 revenue guidance of approximately $22.0 billion, an
+increase of 47 percent from the prior year period
+
+• Second quarter fiscal year 2026 Adjusted EBITDA guidance of approximately 68 percent of
+projected revenue (1)
+
+• New $10 billion share repurchase program
+                                                                                           
+  PALO ALTO, Calif. –                                                                      
+                                                                                           
+March 4, 2026
+                                                                                           
+  –                                                                                        
+                                                                                           
+Broadcom Inc. (Nasdaq: AVGO), a global technology leader that designs, develops and
+supplies semiconductor and infrastructure software solutions, today reported financial
+results for its first quarter of fiscal year 2026, ended February 1, 2026, provided
+guidance for its second quarter of fiscal year 2026 and announced its quarterly dividend.
+
+“Broadcom achieved record first quarter revenue on continued strength in AI semiconductor
+solutions. Q1 AI revenue of $8.4 billion grew 106% year-over-year, above our forecast,
+driven by robust demand for custom AI accelerators and AI networking,” said Hock Tan,
+President and CEO of Broadcom Inc. “Our AI revenue growth is accelerating, and we expect AI
+semiconductor revenue to be $10.7 billion in Q2.”
+
+“Consolidated revenue grew 29% year-over-year to a record $19.3 billion. Adjusted EBITDA
+increased 30% year-over-year to a record $13.1 billion, representing 68% of revenue. In Q2
+we expect revenue growth to increase 47% year-over-year to $22.0 billion, with adjusted
+EBITDA of 68%,” said Kirsten Spears, CFO of Broadcom Inc. “Consistent with our commitment
+to return excess cash to shareholders, we returned $10.9 billion in the first quarter
+through $3.1 billion of cash dividends and $7.8 billion of stock repurchases.”
+
+________________________________
+
+(1) The Company is not readily able to provide a reconciliation of the projected non-GAAP
+financial information presented to the relevant projected GAAP measure without unreasonable
+effort.
+                                             1                                             
+First Quarter Fiscal Year 2026 Financial Highlights
+                                                                                           
+      (D…                                                                                  
+      in                                                                                   
+      mi…                                                                                  
+      ex…                                                                                  
+      per                                                                                  
+      sh…         Q1         Q1                            Q1         Q1                   
+      da…  GAAP   26         25      Ch…            Non…   26         25      Ch…          
+ ───────────────────────────────────────────────────────────────────────────────────────── 
+  N…       $     19…    $  14,…           +29  %    $     19…    $  14,…           +29  %  
+  r…                                                                                       
+  N…       $     7,…    $  5,5…           +34  %    $     10…    $  7,8…           +30  %  
+  i…                                                                                       
+  E…                                                                                       
+  p…                                                                                       
+  c…       $     1.…    $  1.14           +32  %    $     2.…    $  1.60           +28  %  
+  s…                                                                                       
+  -                                                                                        
+  d…                                                                                       
+                                                                                           
+                                                                                           
+                        (Dollars in millions)      Q1 26        Q1 25      Change          
+ ───────────────────────────────────────────────────────────────────────────────────────── 
+  Cash flow from                               $   8,260    $   6,113              +35  %  
+  operations                                                                               
+  Adjusted EBITDA                              $  13,128    $  10,083              +30  %  
+  Free cash flow                               $   8,010    $   6,013              +33  %  
+                                                                                           
+                                                                                           
+  Net                                                                                      
+  revenue                                                                                  
+  by                                                                                       
+  segment                                                                                  
+  (Dollars                                                                                 
+  in                                                                                       
+  million…    Q1 26                      Q1 25                 Change                      
+ ───────────────────────────────────────────────────────────────────────────────────────── 
+  Semicon…    $      12,515     65  %             $   8,212               55  %    +52  %  
+  solutio…                                                                                 
+  Infrast…            6,796     35                    6,704               45        +1  %  
+  software                                                                                 
+  Total                                                                                    
+  net         $      19,311    100  %             $  14,916              100  %            
+  revenue                                                                                  
+                                                                                           
+The Company’s cash and cash equivalents at the end of the fiscal quarter were $14,174
+million, compared to $16,178 million at the end of the prior fiscal quarter.
+
+During the first fiscal quarter, the Company generated $8,260 million in cash from
+operations and spent $250 million on capital expenditures, resulting in $8,010 million of
+free cash flow.
+
+On December 31, 2025, the Company paid a cash dividend of $0.65 per share, totaling $3,086
+million.
+
+The differences between the Company’s GAAP and non-GAAP results are described generally
+under “Non-GAAP Financial Measures” below and presented in detail in the financial
+reconciliation tables attached to this release.
+                                                                                           
+  Second Quarter Fiscal Year 2026 Business Outlook                                         
+                                                                                           
+Based on current business trends and conditions, the outlook for the second quarter of
+fiscal year 2026, ending May 3, 2026, is expected to be as follows:
+
+• Second quarter revenue guidance of approximately $22.0 billion; and
+
+• Second quarter Adjusted EBITDA guidance of approximately 68 percent of projected revenue.
+
+The guidance provided above is only an estimate of what the Company believes is realizable
+as of the date of this release. The Company is not readily able to provide a reconciliation
+of projected Adjusted EBITDA to projected net income without unreasonable effort. Actual
+results will vary from the guidance and the variations may be material. The Company
+undertakes no intent or obligation to publicly update or revise any of these projections,
+whether as a result of new information, future events or otherwise, except as required by
+law.
+                                             2                                             
+                                                                                           
+  Quarterly Dividends                                                                      
+                                                                                           
+The Board of Directors of Broadcom has approved a quarterly cash dividend of $0.65 per
+share. The dividend is payable on March 31, 2026 to stockholders of record at the close of
+business (5:00 p.m. Eastern Time) on March 23, 2026.
+                                                                                           
+  New Share Repurchase Program                                                             
+                                                                                           
+The Board of Directors of Broadcom has authorized a new share repurchase program to
+repurchase up to $10 billion of its common stock through December 31, 2026. Repurchases
+under the new share repurchase authorization may be made through a variety of methods,
+including open market or privately negotiated purchases. The timing and amount of shares
+repurchased will depend on the stock price, business and market conditions, corporate and
+regulatory requirements, alternative investment opportunities, acquisition opportunities
+and other factors. Broadcom is not obligated to repurchase any specific amount of shares of
+common stock, and the share repurchase program may be suspended or terminated at any time.
+                                                                                           
+  Financial Results Conference Call                                                        
+                                                                                           
+Broadcom Inc. will host a conference call to review its financial results for the first
+quarter of fiscal year 2026 and to discuss the business outlook today at 2:00 p.m. Pacific
+Time.
+
+To Listen via Internet: The conference call can be accessed live online in the Investors
+section of the Broadcom website at https://investors.broadcom.com/.
+
+Replay: An audio replay of the conference call can be accessed for one year through the
+Investors section of Broadcom’s website at https://investors.broadcom.com/.
+                                                                                           
+  Non-GAAP Financial Measures                                                              
+                                                                                           
+The non-GAAP measures should not be considered as a substitute for, or superior to,
+measures of financial performance prepared in accordance with GAAP. A reconciliation
+between GAAP and non-GAAP financial data is included in the supplemental financial data
+attached to this press release to the extent available without unreasonable effort.
+Broadcom believes non-GAAP financial information provides additional insight into the
+Company’s on-going performance. Therefore, Broadcom provides this information to investors
+for a more consistent basis of comparison and to help them evaluate the results of the
+Company’s on-going operations and enable more meaningful period to period comparisons.
+
+In addition to GAAP reporting, Broadcom provides investors with net income, operating
+income, gross margin, operating expenses, cash flow and other data on a non-GAAP basis.
+This non-GAAP information excludes amortization of acquisition-related intangible assets,
+stock-based compensation expense, restructuring and other charges, acquisition-related
+costs, including integration costs, non-GAAP tax reconciling adjustments, and other
+adjustments. Management does not believe that these items are reflective of the Company’s
+underlying performance. Internally, these non-GAAP measures are significant measures used
+by management for purposes of evaluating the core operating performance of the Company,
+establishing internal budgets, calculating return on investment for development programs
+and growth initiatives, comparing performance with internal forecasts and targeted business
+                                             3                                             
+models, strategic planning, evaluating and valuing potential acquisition candidates and how
+their operations compare to the Company’s operations, and benchmarking performance
+externally against the Company’s competitors. The exclusion of these and other similar
+items from Broadcom’s non-GAAP financial results should not be interpreted as implying that
+these items are non-recurring, infrequent or unusual.
+
+Free cash flow measures have limitations as they omit certain components of the overall
+cash flow statement and do not represent the residual cash flow available for discretionary
+expenditures. Investors should not consider presentation of free cash flow measures as
+implying that stockholders have any right to such cash. Broadcom’s free cash flow may not
+be calculated in a manner comparable to similarly named measures used by other companies.
+                                                                                           
+  About Broadcom                                                                           
+                                                                                           
+Broadcom Inc. (NASDAQ: AVGO) is a technology leader that designs, develops, and supplies
+semiconductors and infrastructure software for global organizations’ complex, mission-
+critical needs. Broadcom combines long-term R&D investment with superb execution to deliver
+the best technology, at scale. Broadcom is a Delaware corporation headquartered in Palo
+Alto, CA. For more information, visit www.broadcom.com.
+
+Cautionary Note Regarding Forward-Looking Statements
+
+This announcement contains forward-looking statements (including within the meaning of
+Section 21E of the United States Securities Exchange Act of 1934, as amended, and Section
+27A of the United States Securities Act of 1933, as amended) concerning Broadcom. These
+statements include, but are not limited to, statements that address our expected future
+business and financial performance, our plans and expectations with regard to our share
+repurchases, and other statements identified by words such as “will,” “expect,” “believe,”
+“anticipate,” “estimate,” “should,” “intend,” “plan,” “potential,” “predict,” “project,”
+“aim,” and similar words, phrases or expressions. These forward-looking statements are
+based on current expectations and beliefs of Broadcom’s management, current information
+available to Broadcom’s management, and current market trends and market conditions and
+involve risks and uncertainties that may cause actual results to differ materially from
+those contained in forward-looking statements. Accordingly, undue reliance should not be
+placed on such statements.
+
+Particular uncertainties that could materially affect future results include risks
+associated with: global economic conditions and uncertainty; government regulations, trade
+restrictions and trade tensions; global political and economic conditions relating to our
+international operations; any loss of our significant customers and fluctuations in the
+timing and volume of significant customer demand; our dependence on contract manufacturing
+and outsourced supply chain; the slow or unsuccessful return on our investments, expansion
+of our business strategy or adoption of new business models; cyclicality in the
+semiconductor industry or in our target markets; dependence on senior management and our
+ability to attract and retain qualified personnel; our ability to protect against
+cybersecurity threats and a breach of security systems; our ability to accurately estimate
+customers’ demand and adjust our manufacturing and supply chain accordingly; our dependency
+on a limited number of suppliers; prolonged disruptions of our, our customers’ or our
+suppliers’ facilities or other significant operations; our ability to maintain appropriate
+manufacturing capacity and quality; our ability to continue winning business in the
+semiconductor solutions industry; dependence on and risks associated with distributors and
+other channel partners of our products; ability of our software products to manage and
+secure IT
+                                             4                                             
+infrastructures and environments; demand for our data center virtualization products and
+customer acceptance of our products, services and business strategy; compatibility of our
+software products with operating environments, platforms or third-party products; our
+ability to enter into satisfactory software license agreements; use of open source software
+in our products; sales to government customers; our ability to manage products and services
+lifecycles; our competitive performance; quarterly and annual fluctuations in operating
+results; our ability to maintain or improve gross margin; any acquisitions or dispositions
+we may make, such as delays, challenges and expenses associated with receiving governmental
+and regulatory approvals and satisfying other closing conditions, and with integrating
+acquired businesses with our existing businesses and our ability to achieve the benefits,
+growth prospects and synergies expected by such acquisitions; involvement in legal
+proceedings; our ability to protect our intellectual property and the unpredictability of
+any associated litigation expenses; any expenses or reputational damage associated with
+resolving customer product warranty and indemnification claims, or other undetected defects
+or bugs; our compliance with privacy and data security laws; corporate responsibility
+matters; our provision for income taxes and overall cash tax costs; our ability to maintain
+tax concessions in certain jurisdictions; potential tax liabilities as a result of
+acquiring VMware; our significant indebtedness and the need to generate sufficient cash
+flows to service and repay such debt; the amount and frequency of our share repurchase
+program; and other events and trends on a national, regional, industry-specific and global
+scale, including those of a political, economic, business, competitive and regulatory
+nature. We are not obligated to repurchase any specific amount of shares of common stock,
+and the share repurchase program may be suspended or terminated at any time.
+
+Our filings with the SEC, which are available without charge at the SEC’s website at
+https://www.sec.gov, discuss some of the important risk factors that may affect our
+business, results of operations and financial condition. Actual results may vary from the
+estimates provided. We undertake no intent or obligation to publicly update or revise any
+of the estimates and other forward-looking statements made in this announcement, whether as
+a result of new information, future events or otherwise, except as required by law.
+
+Contact:
+
+Ji Yoo
+
+Broadcom Inc.
+
+Investor Relations
+
+650-427-6000
+
+investor.relations@broadcom.com
+
+(AVGO-Q)
+                                             5                                             
+                                                                                           
+                                       BROADCOM INC.                                       
+                                                                                           
+                                                                                           
+                CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS — UNAUDITED                
+                                                                                           
+                           (IN MILLIONS, EXCEPT PER SHARE DATA)                            
+                                                                                           
+                       Fiscal Quarter     February 1,       November 2,       February 2,  
+                       Ended                     2026              2025              2025  
+ ───────────────────────────────────────────────────────────────────────────────────────── 
+  Net revenue          $                       19,311    $       18,015    $       14,916  
+  Cost of revenue:                                                                         
+  Cost of revenue                               4,679             4,213             3,273  
+  Amortization of                                                                          
+  acquisition-rela…                             1,462             1,545             1,484  
+  intangible assets                                                                        
+  Restructuring                                    13                 8                14  
+  charges                                                                                  
+  Total cost of                                 6,154             5,766             4,771  
+  revenue                                                                                  
+  Gross margin                                 13,157            12,249            10,145  
+  Research and                                  2,965             2,981             2,253  
+  development                                                                              
+  Selling, general                                                                         
+  and                                           1,019             1,107               949  
+  administrative                                                                           
+  Amortization of                                                                          
+  acquisition-rela…                               507               507               511  
+  intangible assets                                                                        
+  Restructuring and                               103               146               172  
+  other charges                                                                            
+  Total operating                               4,594             4,741             3,885  
+  expenses                                                                                 
+  Operating income                              8,563             7,508             6,260  
+  Interest expense                               -801              -761              -873  
+  Other income, net                               433               122               103  
+  Income before                                 8,195             6,869             5,490  
+  income taxes                                                                             
+  Provision for                                                                            
+  (benefit from)                                  846            -1,649               -13  
+  income                                                                                   
+  taxes                                                                                    
+  Net income           $                        7,349    $        8,518    $        5,503  
+  Net income per                                                                           
+  share:                                                                                   
+  Basic                $                         1.55    $         1.80    $         1.17  
+  Diluted              $                         1.50    $         1.74    $         1.14  
+  Weighted-average                                                                         
+  shares used in                                                                           
+  per                                                                                      
+  share                                                                                    
+  calculations:                                                                            
+  Basic                                         4,741             4,732             4,695  
+  Diluted                                       4,888             4,889             4,836  
+  Stock-based                                                                              
+  compensation                                                                             
+  expense:                                                                                 
+  Cost of revenue      $                          236    $          237    $          153  
+  Research and                                  1,447             1,456               822  
+  development                                                                              
+  Selling, general                                                                         
+  and                                             493               502               305  
+  administrative                                                                           
+  Total stock-based                                                                        
+  compensation         $                        2,176    $        2,195    $        1,280  
+  expense                                                                                  
+                                                                                           
+                                                                                           
+                                       BROADCOM INC.                                       
+                                                                                           
+                                                                                           
+                  FINANCIAL RECONCILIATION: GAAP TO NON-GAAP — UNAUDITED                   
+                                                                                           
+                                       (IN MILLIONS)                                       
+                                                                                           
+                       Fiscal Quarter     February 1,       November 2,       February 2,  
+                       Ended                     2026              2025              2025  
+ ───────────────────────────────────────────────────────────────────────────────────────── 
+  Gross margin on      $                       13,157    $       12,249    $       10,145  
+  GAAP basis                                                                               
+  Amortization of                                                                          
+  acquisition-rela…                             1,462             1,545             1,484  
+  intangible assets                                                                        
+  Stock-based                                                                              
+  compensation                                    236               237               153  
+  expense                                                                                  
+  Restructuring                                    13                 8                14  
+  charges                                                                                  
+  Gross margin on      $                       14,868    $       14,039    $       11,796  
+  non-GAAP basis                                                                           
+  Research and                                                                             
+  development on       $                        2,965    $        2,981    $        2,253  
+  GAAP basis                                                                               
+  Stock-based                                                                              
+  compensation                                  1,447             1,456               822  
+  expense                                                                                  
+  Research and                                                                             
+  development on       $                        1,518    $        1,525    $        1,431  
+  non-GAAP                                                                                 
+  basis                                                                                    
+  Selling, general                                                                         
+  and                                                                                      
+  administrative       $                        1,019    $        1,107    $          949  
+  expense on GAAP                                                                          
+  basis                                                                                    
+  Stock-based                                                                              
+  compensation                                    493               502               305  
+  expense                                                                                  
+  Acquisition-rela…                                 2                12               107  
+  costs                                                                                    
+  Selling, general                                                                         
+  and                                                                                      
+  administrative       $                          524    $          593    $          537  
+  expense on                                                                               
+  non-GAAP basis                                                                           
+  Total operating                                                                          
+  expenses on GAAP     $                        4,594    $        4,741    $        3,885  
+  basis                                                                                    
+  Amortization of                                                                          
+  acquisition-rela…                               507               507               511  
+  intangible assets                                                                        
+  Stock-based                                                                              
+  compensation                                  1,940             1,958             1,127  
+  expense                                                                                  
+  Restructuring and                               103               146               172  
+  other charges                                                                            
+  Acquisition-rela…                                 2                12               107  
+  costs                                                                                    
+  Total operating                                                                          
+  expenses on          $                        2,042    $        2,118    $        1,968  
+  non-GAAP                                                                                 
+  basis                                                                                    
+  Operating income     $                        8,563    $        7,508    $        6,260  
+  on GAAP basis                                                                            
+  Amortization of                                                                          
+  acquisition-rela…                             1,969             2,052             1,995  
+  intangible assets                                                                        
+  Stock-based                                                                              
+  compensation                                  2,176             2,195             1,280  
+  expense                                                                                  
+  Restructuring and                               116               154               186  
+  other charges                                                                            
+  Acquisition-rela…                                 2                12               107  
+  costs                                                                                    
+  Operating income     $                       12,826    $       11,921    $        9,828  
+  on non-GAAP basis                                                                        
+  Interest expense     $                         -801    $         -761    $         -873  
+  on GAAP basis                                                                            
+  Loss on debt                                     55                20                65  
+  extinguishment                                                                           
+  Interest expense     $                         -746    $         -741    $         -808  
+  on non-GAAP basis                                                                        
+  Other income, net    $                          433    $          122    $          103  
+  on GAAP basis                                                                            
+  Excise tax                                     -315                 —                 —  
+  benefit                                                                                  
+  (Gains) losses on                                 —                -6                 4  
+  investments                                                                              
+  Other                                             —                 —               -31  
+  Other income, net    $                          118    $          116    $           76  
+  on non-GAAP basis                                                                        
+                                                                                           
+                                                                                           
+                       Fiscal Quarter     February 1,       November 2,       February 2,  
+                       Ended                     2026              2025              2025  
+ ───────────────────────────────────────────────────────────────────────────────────────── 
+  Provision for                                                                            
+  (benefit from)                                                                           
+  income               $                          846    $       -1,649    $          -13  
+  taxes on GAAP                                                                            
+  basis                                                                                    
+  Non-GAAP tax                                                                             
+  reconciling                                   1,167             3,231             1,286  
+  adjustments(1)                                                                           
+  Provision for                                                                            
+  income taxes on      $                        2,013    $        1,582    $        1,273  
+  non-GAAP                                                                                 
+  basis                                                                                    
+  Net income on        $                        7,349    $        8,518    $        5,503  
+  GAAP basis                                                                               
+  Amortization of                                                                          
+  acquisition-rela…                             1,969             2,052             1,995  
+  intangible assets                                                                        
+  Stock-based                                                                              
+  compensation                                  2,176             2,195             1,280  
+  expense                                                                                  
+  Restructuring and                               116               154               186  
+  other charges                                                                            
+  Acquisition-rela…                                 2                12               107  
+  costs                                                                                    
+  Loss on debt                                     55                20                65  
+  extinguishment                                                                           
+  Excise tax                                     -315                 —                 —  
+  benefit                                                                                  
+  (Gains) losses on                                 —                -6                 4  
+  investments                                                                              
+  Other                                             —                 —               -31  
+  Non-GAAP tax                                                                             
+  reconciling                                  -1,167            -3,231            -1,286  
+  adjustments(1)                                                                           
+  Net income on        $                       10,185    $        9,714    $        7,823  
+  non-GAAP basis                                                                           
+  Net income on        $                        7,349    $        8,518    $        5,503  
+  GAAP basis                                                                               
+  Non-GAAP                                                                                 
+  Adjustments:                                                                             
+  Amortization of                                                                          
+  acquisition-rela…                             1,969             2,052             1,995  
+  intangible assets                                                                        
+  Stock-based                                                                              
+  compensation                                  2,176             2,195             1,280  
+  expense                                                                                  
+  Restructuring and                               116               154               186  
+  other charges                                                                            
+  Acquisition-rela…                                 2                12               107  
+  costs                                                                                    
+  Loss on debt                                     55                20                65  
+  extinguishment                                                                           
+  Excise tax                                     -315                 —                 —  
+  benefit                                                                                  
+  (Gains) losses on                                 —                -6                 4  
+  investments                                                                              
+  Other                                             —                 —               -31  
+  Non-GAAP tax                                                                             
+  reconciling                                  -1,167            -3,231            -1,286  
+  adjustments(1)                                                                           
+  Other                                                                                    
+  Adjustments:                                                                             
+  Interest expense                                746               741               808  
+  Provision for                                                                            
+  income taxes on                               2,013             1,582             1,273  
+  non-GAAP                                                                                 
+  basis                                                                                    
+  Depreciation                                    150               148               142  
+  Amortization of                                                                          
+  purchased                                                                                
+  intangibles                                      34                33                37  
+  and right-of-use                                                                         
+  assets                                                                                   
+  Adjusted EBITDA      $                       13,128    $       12,218    $       10,083  
+  Weighted-average                                                                         
+  shares used in                                                                           
+  per                                                                                      
+  share                                         4,888             4,889             4,836  
+  calculations -                                                                           
+  diluted on GAAP                                                                          
+  basis                                                                                    
+  Non-GAAP                                         69                80                59  
+  adjustment(2)                                                                            
+  Weighted-average                                                                         
+  shares used in                                                                           
+  per                                                                                      
+  share                                         4,957             4,969             4,895  
+  calculations -                                                                           
+  diluted on                                                                               
+  non-GAAP                                                                                 
+  basis                                                                                    
+  Net cash provided                                                                        
+  by operating         $                        8,260    $        7,703    $        6,113  
+  activities                                                                               
+  Purchases of                                                                             
+  property, plant                                -250              -237              -100  
+  and                                                                                      
+  equipment                                                                                
+  Free cash flow       $                        8,010    $        7,466    $        6,013  
+                                                                                           
+                                                                             
+                                               Fiscal Quarter Ending         
+ ─────────────────────────────────────────────────────────────────────────── 
+                                                              May 3,         
+  Expected average diluted share count(3):                      2026         
+  Weighted-average shares used in per share                           4,875  
+  calculation - diluted on GAAP basis                                        
+  Non-GAAP adjustment(2)                                                 69  
+  Weighted-average shares used in per share                           4,944  
+  calculation - diluted on non-GAAP basis                                    
+                                                                             
+                                                      
+  (1) For the fiscal quarter ended November 2, 2025,  
+  non-GAAP tax reconciling adjustments included a     
+  one-time discrete non-cash tax benefit of $2.1      
+  billion from the impact of lapses of statutes of    
+  limitations.                                        
+  (2) Non-GAAP adjustment for the number of shares    
+  used in the diluted per share calculations          
+  excludes the impact of stock-based compensation     
+  expense expected to be incurred in future periods   
+  and not yet recognized in the financial             
+  statements, which would otherwise be assumed to be  
+  used to repurchase shares under the GAAP treasury   
+  stock method.                                       
+  (3) Excludes the effects of potential share         
+  repurchases.                                        
+                                                      
+                                                                                           
+                                       BROADCOM INC.                                       
+                                                                                           
+                                                                                           
+                     CONDENSED CONSOLIDATED BALANCE SHEETS — UNAUDITED                     
+                                                                                           
+                                       (IN MILLIONS)                                       
+                                                                              
+                                               February 1,       November 2,  
+                                                      2026              2025  
+ ──────────────────────────────────────────────────────────────────────────── 
+  ASSETS                                                                      
+  Current assets:                                                             
+  Cash and cash equivalents                 $       14,174    $       16,178  
+  Trade accounts receivable, net                     8,460             7,145  
+  Inventory                                          2,962             2,270  
+  Other current assets                               6,466             5,980  
+  Total current assets                              32,062            31,573  
+  Long-term assets:                                                           
+  Property, plant and equipment, net                 2,599             2,530  
+  Goodwill                                          97,801            97,801  
+  Intangible assets, net                            30,302            32,273  
+  Other long-term assets                             7,139             6,915  
+  Total assets                              $      169,903    $      171,092  
+  LIABILITIES AND EQUITY                                                      
+  Current liabilities:                                                        
+  Accounts payable                          $        2,112    $        1,560  
+  Employee compensation and benefits                   864             2,129  
+  Short-term debt                                    2,252             3,152  
+  Other current liabilities                         11,631            11,673  
+  Total current liabilities                         16,859            18,514  
+  Long-term liabilities:                                                      
+  Long-term debt                                    63,805            61,984  
+  Other long-term liabilities                        9,367             9,302  
+  Total liabilities                                 90,031            89,800  
+  Stockholders’ equity:                                                       
+  Preferred stock                                        —                 —  
+  Common Stock                                           5                 5  
+  Additional paid-in capital                        73,135            71,308  
+  Retained earnings                                  6,520             9,761  
+  Accumulated other comprehensive income               212               218  
+  Total stockholders' equity                        79,872            81,292  
+  Total liabilities and equity              $      169,903    $      171,092  
+                                                                              
+                                                                                           
+  BROADCOM INC.                                                                            
+  CONDENSED                                                                                
+  CONSOLIDATED                                                                             
+  STATEMENTS OF                                                                            
+  CASH FLOWS —                                                                             
+  UNAUDITED                                                                                
+  (IN MILLIONS)                                                                            
+  Cash flows       Fiscal Quarter                                                          
+  from             Ended                                                                   
+  operating        February 1,                 November 2,            February 2,          
+  activities:      2026                        2025                   2025                 
+ ───────────────────────────────────────────────────────────────────────────────────────── 
+  Net income       $                  7,349    $             8,518    $             5,503  
+  Adjustments                                                                              
+  to reconcile                                                                             
+  net income to                                                                            
+  net cash                                                                                 
+  provided by                                                                              
+  operating                                                                                
+  activities:                                                                              
+  Amortization                                                                             
+  of intangible                                                                            
+  and                                 2,003                  2,085                  2,032  
+  right-of-use                                                                             
+  assets                                                                                   
+  Depreciation                          150                    148                    142  
+  Stock-based                         2,176                  2,195                  1,280  
+  compensation                                                                             
+  Deferred                                                                                 
+  taxes and                                                                                
+  other                                -455                 -3,025                   -696  
+  non-cash                                                                                 
+  taxes                                                                                    
+  Loss on debt                           55                     20                     65  
+  extinguishme…                                                                            
+  Non-cash                                                                                 
+  interest                               72                     71                     97  
+  expense                                                                                  
+  Other                                  15                     36                     41  
+  Changes in                                                                               
+  assets and                                                                               
+  liabilities,                                                                             
+  net                                                                                      
+  of                                                                                       
+  acquisitions                                                                             
+  and                                                                                      
+  disposals:                                                                               
+                                                                                           
+  Trade                                                                                    
+  accounts                           -1,315                   -651                   -539  
+  receivable,                                                                              
+  net                                                                                      
+  Inventory                            -692                    -90                   -148  
+  Accounts                              534                    118                    241  
+  payable                                                                                  
+  Employee                                                                                 
+  compensation                       -1,261                    410                   -908  
+  and benefits                                                                             
+  Other current                                                                            
+  assets and                           -692                   -809                     26  
+  current                                                                                  
+  liabilities                                                                              
+  Other                                                                                    
+  long-term                                                                                
+  assets and                            321                 -1,323                 -1,023  
+  long-term                                                                                
+  liabilities                                                                              
+  Net cash                                                                                 
+  provided by                         8,260                  7,703                  6,113  
+  operating                                                                                
+  activities                                                                               
+  Cash flows                                                                               
+  from                                                                                     
+  investing                                                                                
+  activities:                                                                              
+  Purchases of                                                                             
+  property,                            -250                   -237                   -100  
+  plant and                                                                                
+  equipment                                                                                
+  Purchases of                         -114                   -336                   -105  
+  investments                                                                              
+  Sales of                              244                    101                     18  
+  investments                                                                              
+  Other                                   5                    105                     13  
+  Net cash used                                                                            
+  in investing                         -115                   -367                   -174  
+  activities                                                                               
+  Cash flows                                                                               
+  from                                                                                     
+  financing                                                                                
+  activities:                                                                              
+  Proceeds from                                                                            
+  long-term                           4,474                  4,971                  2,986  
+  borrowings                                                                               
+  Payments on                                                                              
+  debt                               -3,650                 -3,638                 -8,090  
+  obligations                                                                              
+  Proceeds from                                                                            
+  (repayments                                                                              
+  of)                                     —                   -488                  3,980  
+  commercial                                                                               
+  paper, net                                                                               
+  Payments of                        -3,086                 -2,797                 -2,774  
+  dividends                                                                                
+  Repurchases                                                                              
+  of common                                                                                
+  stock -                            -7,850                      —                      —  
+  repurchase                                                                               
+  program                                                                                  
+  Shares                                                                                   
+  repurchased                                                                              
+  for tax                                 —                      —                 -2,036  
+  withholdings                                                                             
+  on vesting of                                                                            
+  equity awards                                                                            
+  Issuance of                             —                    103                      —  
+  common stock                                                                             
+  Other                                 -37                    -27                    -46  
+  Net cash used                                                                            
+  in financing                      -10,149                 -1,876                 -5,980  
+  activities                                                                               
+  Net change in                                                                            
+  cash and cash                      -2,004                  5,460                    -41  
+  equivalents                                                                              
+  Cash and cash                                                                            
+  equivalents                        16,178                 10,718                  9,348  
+  at beginning                                                                             
+  of period                                                                                
+  Cash and cash                                                                            
+  equivalents      $                 14,174    $            16,178    $             9,307  
+  at end of                                                                                
+  period                                                                                   
+  Supplemental                                                                             
+  disclosure of                                                                            
+  cash flow                                                                                
+  information:                                                                             
+  Cash paid for    $                    619    $               699    $               671  
+  interest                                                                                 
+  Cash paid for    $                    782    $               755    $               404  
+  income taxes                                                                             
+                                                                                           

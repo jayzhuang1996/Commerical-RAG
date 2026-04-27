@@ -1,0 +1,29 @@
+--- SOURCE INFO ---
+Ticker: AVGO
+Layer: LAYER_A
+Period: Q1_2026
+Date: 2026-03-11
+Doc Type: quarterly_mda
+--- END INFO ---
+
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+
+Issuer Purchases of Equity Securities
+
+The following table presents our repurchases during the fiscal quarter ended February 1, 2026 pursuant to a stock repurchase program to repurchase up to $10 billion of our common stock through December 31, 2025 authorized by our Board of Directors in the second quarter of fiscal year 2025, which was subsequently extended through December 31, 2026 and increased to $11 billion. 
+
+PeriodTotal Number of Shares PurchasedAverage Price per ShareTotal Number of Shares Purchased as Part of Publicly Announced PlanApproximate Dollar Value of Shares That May Yet Be Purchased Under the Plan
+
+(In millions, except per share data)
+
+November 3, 2025 - November 30, 2025— $— — $7,550 
+
+December 1, 2025 - December 28, 202515 $337.23 15 $2,550 
+
+December 29, 2025 - February 1, 20268 $345.40 8 $700 
+
+23 $340.15 23 
+
+Subsequent to the fiscal quarter ended February 1, 2026, our Board of Directors authorized a stock repurchase program to repurchase up to $10 billion of our common stock from time to time through December 31, 2026. 
+
+Repurchases under our stock repurchase programs may be made through a variety of methods, including open market or privately negotiated purchases. The timing and amount of shares repurchased will depend on the stock price, business and market conditions, corporate and regulatory requirements, alternative investment opportunities, acquisition opportunities and other factors. We are not obligated to repurchase any specific amount of shares of common stock, and the stock repurchase programs may be suspended or terminated at any time.

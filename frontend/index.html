@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast RAG - Graph Demo</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body { background-color: #0d1117; color: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; display: flex; height: 100vh; margin: 0; }
+        #left { width: 35%; padding: 2rem; box-sizing: border-box; overflow-y: auto; border-right: 1px solid #30363d; background-color: #161b22; }
+        #right { width: 65%; position: relative; background-color: #0d1117; }
+        h2 { margin-top: 0; color: #58a6ff; font-weight: 600; }
+        input[type="text"] { width: 100%; padding: 0.8rem; border-radius: 6px; border: 1px solid #30363d; background: #0d1117; color: white; margin-bottom: 1rem; box-sizing: border-box;}
+        button { padding: 0.8rem; width: 100%; background: #238636; color: white; border: 1px solid rgba(240,246,252,0.1); border-radius: 6px; font-weight: 600; cursor: pointer; transition: 0.2s; }
+        button:hover { background: #2ea043; }
+        #answer { margin-top: 2rem; line-height: 1.6; font-size: 0.95rem; }
+        .loading { color: #8b949e; font-style: italic; }
+        .sources { margin-top: 1.5rem; font-size: 0.85rem; color: #8b949e; border-top: 1px solid #30363d; padding-top: 1rem; }
+        
+        /* D3 Graph Styles */
+        #graph { width: 100%; height: 100%; }
+        .node circle { cursor: pointer; stroke: #0d1117; stroke-width: 2px; }
+        .node text { font-size: 13px; fill: #c9d1d9; font-family: monospace; pointer-events: none; text-anchor: middle; dy: -18; }
+        .link { fill: none; stroke: #444c56; stroke-width: 1.5px; opacity: 0.8; }
+        .link-label { font-size: 10px; fill: #8b949e; pointer-events: none; font-family: sans-serif; text-anchor: middle; }
+    </style>
+</head>
+<body>
+    <div id="left">
+        <h2>Podcast RAG Intelligence</h2>
+        <p style="font-size: 0.85rem; color: #8b949e; margin-bottom: 2rem;">Ask a question. The AI will answer on the left and draw the underlying reality graph on the right.</p>
+
+        <input type="text" id="query" placeholder="e.g. Who is Peter Steinberger?" value="Who is Peter Steinberger and what is his connection to OpenClaw?">
+        <button onclick="askQuestion()">Synthesize</button>
+        
+        <div id="answer"></div>
+    </div>
+    
+    <div id="right">
+        <svg id="graph"></svg>
+    </div>
+
+    <script>
+        async function askQuestion() {
+            const query = document.getElementById('query').value;
+            const answerDiv = document.getElementById('answer');
+            answerDiv.innerHTML = '<span class="loading">Consulting vector database and knowledge graph...</span>';
+            d3.select("#graph").selectAll("*").remove();
+
+            try {
+                // Hit the local API
+                const res = await fetch('http://localhost:8000/query', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question: query })
+                });
+                
+                const data = await res.json();
+                
+                // Render Text
+                let html = `<h3>Synthesis:</h3><p>${data.answer.replace(/\n/g, '<br/>')}</p>`;
+                if (data.sources && data.sources.length > 0) {
+                    html += `<div class="sources"><strong>Sources:</strong><ul>`;
+                    data.sources.forEach(s => {
+                        html += `<li>[${s.index}] ${s.title}</li>`;
+                    });
+                    html += `</ul></div>`;
+                }
+                answerDiv.innerHTML = html;
+
+                // Render Graph
+                if (data.graph_data && data.graph_data.length > 0) {
+                    drawGraph(data.graph_data);
+                } else {
+                    d3.select("#graph").html('<text x="40" y="40" fill="#8b949e" font-family="monospace">No factual relationships found for this query.</text>');
+                }
+            } catch (e) {
+                answerDiv.innerHTML = `<span style="color:#ff7b72; font-weight:bold;">Error: Could not connect to API. Is 'python api.py' running locally? (${e})</span>`;
+            }
+        }
+
+        // --- D3.js Force-Directed Graph Engine ---
+        function drawGraph(triples) {
+            const nodes = {};
+            const links = [];
+
+            // Parse dict array from API
+            triples.forEach(t => {
+                if (!nodes[t.subject]) nodes[t.subject] = { id: t.subject };
+                if (!nodes[t.object]) nodes[t.object] = { id: t.object };
+                links.push({ source: t.subject, target: t.object, label: t.verb });
+            });
+
+            const nodeArray = Object.values(nodes);
+            const width = document.getElementById('right').clientWidth;
+            const height = document.getElementById('right').clientHeight;
+            
+            const svg = d3.select("#graph")
+                .attr("viewBox", [0, 0, width, height]);
+
+            // Add directional arrows
+            svg.append("defs").append("marker")
+                .attr("id", "arrow")
+                .attr("viewBox", "0 -5 10 10")
+                .attr("refX", 25) // Offset from circle center
+                .attr("refY", 0)
+                .attr("markerWidth", 6)
+                .attr("markerHeight", 6)
+                .attr("orient", "auto")
+                .append("path")
+                .attr("fill", "#444c56")
+                .attr("d", "M0,-5L10,0L0,5");
+
+            const simulation = d3.forceSimulation(nodeArray)
+                .force("link", d3.forceLink(links).id(d => d.id).distance(180))
+                .force("charge", d3.forceManyBody().strength(-600)) // Push apart
+                .force("center", d3.forceCenter(width / 2, height / 2));
+
+            // Setup Links
+            const link = svg.append("g")
+                .selectAll("line")
+                .data(links)
+                .join("line")
+                .attr("class", "link")
+                .attr("marker-end", "url(#arrow)");
+
+            // Setup Link Labels (Verbs)
+            const linkLabel = svg.append("g")
+                .selectAll("text")
+                .data(links)
+                .join("text")
+                .attr("class", "link-label")
+                .attr("dy", -6)
+                .text(d => d.label);
+
+            // Setup Nodes
+            const node = svg.append("g")
+                .attr("class", "node")
+                .selectAll("g")
+                .data(nodeArray)
+                .join("g")
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
+
+            // Colored circles for nodes
+            node.append("circle")
+                .attr("r", 15)
+                .attr("fill", d => {
+                    // Make 'subject' nodes a different color than 'object' nodes if needed
+                    return "#58a6ff"; 
+                });
+
+            // Node Labels
+            node.append("text")
+                .attr("y", -20)
+                .text(d => d.id);
+
+            // Simulation Engine Tick
+            simulation.on("tick", () => {
+                link
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                linkLabel
+                    .attr("x", d => (d.source.x + d.target.x) / 2)
+                    .attr("y", d => (d.source.y + d.target.y) / 2);
+
+                node.attr("transform", d => `translate(${d.x},${d.y})`);
+            });
+
+            // Drag behaviors
+            function dragstarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x; d.fy = d.y;
+            }
+            function dragged(event, d) {
+                d.fx = event.x; d.fy = event.y;
+            }
+            function dragended(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null; d.fy = null;
+            }
+        }
+    </script>
+</body>
+</html>

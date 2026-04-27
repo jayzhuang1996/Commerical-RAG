@@ -1,0 +1,35 @@
+--- SOURCE INFO ---
+Ticker: STX
+Layer: UNKNOWN_LAYER
+Period: Q4_2025
+Date: 2025-10-31
+Doc Type: quarterly_mda
+--- END INFO ---
+
+ITEM 2.UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS
+
+Repurchases of Equity Securities
+
+All repurchases are effected as redemptions in accordance with our Constitution.
+
+The following table sets forth information with respect to all repurchases of our ordinary shares made during the fiscal quarter ended October 3, 2025, including statutory tax withholdings related to vesting of employee equity awards (in millions, except average price paid per share):
+
+PeriodTotal Number of Shares Repurchased (1)
+
+Average Price Paid per Share (1)
+
+Total Number of Shares Purchased as Part of Publicly Announced Plans or ProgramsApproximate Dollar Value of Shares that May Yet Be Purchased Under the Plans or Programs (2)
+
+June 28, 2025 through July 25, 2025— $— — $5,000 
+
+July 26, 2025 through August 29, 2025— — — 5,000 
+
+August 30, 2025 through October 3, 20250.5 190.39 0.2 4,971 
+
+Total0.5 0.2 $4,971 
+
+___________________________________
+
+(1) On May 22, 2025, we announced that our Board of Directors authorized us to repurchase up to $5.0 billion of our ordinary shares, from time to time, subject to market condition. As of October 3, 2025, $5.0 billion remained available for repurchase under the existing repurchase authorization limit authorized by our Board of Directors. Repurchase of shares pursuant to the repurchase program described above, as well as tax withholdings. 
+
+(2) Our share repurchase program has no expiration date and may be suspended at any time.

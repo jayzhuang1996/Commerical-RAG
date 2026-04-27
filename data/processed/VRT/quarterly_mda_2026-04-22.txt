@@ -1,0 +1,23 @@
+--- SOURCE INFO ---
+Ticker: VRT
+Layer: LAYER_F
+Period: Q2_2026
+Date: 2026-04-22
+Doc Type: quarterly_mda
+--- END INFO ---
+
+ITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS
+
+A) Recent Sales of Unregistered Securities
+
+None.
+
+B) Use of Proceeds from our Initial Public Offering of Common Stock
+
+Not applicable.
+
+C) Repurchases of Shares or of Company Equity Securities
+
+On November 29, 2023, the Board of Directors of the Company approved a stock repurchase program, which authorizes the repurchase of shares of Company Class A common stock in an aggregate amount of up to $3.0 billion through December 31, 2027. The stock repurchase program does not obligate the Company to repurchase any specific dollar amount or number of shares of Class A common stock and the Board's authorization of the program may be modified, suspended or discontinued at any time.
+
+As of March 31, 2026, $2.4 billion shares were available for repurchase. Vertiv did not undertake any share repurchases in the first quarter of 2026.

@@ -1,0 +1,11 @@
+--- SOURCE INFO ---
+Ticker: AVGO
+Layer: LAYER_A
+Period: Q3_2025
+Date: 2025-09-10
+Doc Type: quarterly_mda
+--- END INFO ---
+
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+
+None.

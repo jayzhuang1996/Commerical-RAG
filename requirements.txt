@@ -1,0 +1,33 @@
+# Financial Data Ingestion
+edgartools>=5.30.0
+PyYAML>=6.0
+python-dotenv>=1.0.0
+
+# GraphRAG & VectorDB
+lightrag
+chromadb>=0.4.15
+supabase
+networkx
+
+# AI & Orchestration
+openai
+anthropic
+langgraph
+langchain-openai
+langchain-core
+
+# API Support
+fastapi
+uvicorn
+pydantic
+
+# Utilities
+tqdm>=4.66.0
+rank_bm25>=0.2.2
+termcolor>=2.4.0
+aiofiles
+
+# Local Embedding Support
+transformers
+torch
+sentence-transformers

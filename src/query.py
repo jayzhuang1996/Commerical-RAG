@@ -1,0 +1,108 @@
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+import os
+import sys
+
+# Add project root to path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+app = FastAPI(title="NABR Semiconductor Intelligence API")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+from typing import List, Dict, Any
+
+class QueryRequest(BaseModel):
+    question: str
+
+class QueryResponse(BaseModel):
+    answer: str
+    graph_data: List[Dict[str, str]]
+    sources: List[Dict[str, Any]]
+
+# Lazy load so Uvicorn can start instantly
+_generate_answer_func = None
+
+def get_generate_answer():
+    global _generate_answer_func
+    if _generate_answer_func is None:
+        # Import the Phase 3 Agent
+        from agent.reasoning_agent import run_intelligence_briefing
+        _generate_answer_func = run_intelligence_briefing
+    return _generate_answer_func
+
+@app.get("/")
+def read_root():
+    return {"status": "online", "message": "NABR"}
+
+@app.post("/query", response_model=QueryResponse)
+async def query_rag(request: QueryRequest):
+    import asyncio
+    from retrieval.visual_utils import extract_visual_graph, extract_cluster_data
+    try:
+        loop = asyncio.get_event_loop()
+        def blocking_worker(question):
+            # 1. Get the intelligence briefing
+            get_ans = get_generate_answer()
+            answer_text = get_ans(question)
+            
+            # 2. Get the visual graph data
+            from src.retrieval.indexing_pipeline import rag
+            graph_viz = extract_visual_graph(rag, answer_text)
+            
+            # 3. Get cluster data
+            clusters = extract_cluster_data(rag)
+            
+            return {
+                "answer": answer_text,
+                "graph_data": graph_viz,
+                "sources": [] # We will populate this in Phase 5
+            }
+            
+        result = await loop.run_in_executor(None, blocking_worker, request.question)
+        return QueryResponse(
+            answer=result["answer"],
+            graph_data=result["graph_data"]["links"], # Sending edges for the Force Graph
+            sources=result["sources"]
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/communities")
+async def get_communities():
+    """
+    Returns the thematic clusters for the CommunityExplorer component.
+    Groups companies by their vertical layering.
+    """
+    from retrieval.visual_utils import extract_cluster_data
+    from src.retrieval.indexing_pipeline import rag
+    
+    # NEW: Ensure the graph is loaded from the data/index folder
+    await rag.initialize_storages()
+    
+    # In a real run, this would be computed from the Graph
+    clusters = extract_cluster_data(rag)
+    
+    # Format for the frontend StrategicInsightCard
+    formatted = []
+    for i, group in enumerate(clusters):
+        formatted.append({
+            "id": i,
+            "title": f"Thematic Group: {group['id']}",
+            "summary": f"Strategic vertical containing key players focused on {group['id'].lower()}.",
+            "nodes": [child["id"] for child in group["children"]]
+        })
+        
+    return {"communities": formatted}
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", "8000"))
+    uvicorn.run(app, host="0.0.0.0", port=port, log_level="info")

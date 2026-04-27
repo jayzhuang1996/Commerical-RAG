@@ -1,0 +1,13 @@
+--- SOURCE INFO ---
+Ticker: AVGO
+Layer: LAYER_A
+Period: Q1_2025
+Date: 2025-03-12
+Doc Type: quarterly_mda
+--- END INFO ---
+
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+
+Issuer Purchases of Equity Securities
+
+During the fiscal quarter ended February 2, 2025, we paid approximately $2,036 million in employee withholding taxes due upon the vesting of net settled equity awards. We withheld approximately 8 million shares of common stock from employees in connection with such net share settlement at an average price of $235.69 per share. These shares may be deemed to be “issuer purchases” of shares.

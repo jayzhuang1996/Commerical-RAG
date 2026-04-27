@@ -1,0 +1,43 @@
+--- SOURCE INFO ---
+Ticker: LRCX
+Layer: LAYER_D
+Period: Q2_2025
+Date: 2025-04-25
+Doc Type: quarterly_mda
+--- END INFO ---
+
+ITEM 2.    Unregistered Sales of Equity Securities and Use of Proceeds
+
+Repurchases of Company Shares
+
+In May 2024, the Board of Directors authorized management to repurchase up to an additional $10.0 billion of Common Stock; this authorization supplements the remaining balance from any prior authorization. These repurchases can be conducted on the open market or as private purchases and may include the use of derivative contracts with large financial institutions, in all cases subject to compliance with applicable law. This repurchase program has no termination date and may be suspended or discontinued at any time. 
+
+Share repurchases, including those under the repurchase program, are reflected in the table below. All references to share and per share amounts have been retroactively adjusted to reflect the effects of the stock split. See Note 1, “Basis of presentation,” to our Consolidated Financial Statements, included in Part I of this Form 10-Q for additional information.
+
+PeriodTotal Numberof SharesRepurchasedAverage Price
+
+Paid per
+
+Share (1)
+
+Total Number ofShares Purchasedas Part of PubliclyAnnounced Plans orProgramsAmountAvailableUnderRepurchaseProgram
+
+ (in thousands, except per share data)
+
+Available balance as of June 30, 2024$10,824,660 
+
+Quarter ended September 29, 202411,952 $83.97 11,952 9,821,006 
+
+Quarter ended December 29, 20248,336 $78.03 8,336 9,170,561 
+
+December 30, 2024 - January 26, 20251,103 $77.40 1,103 9,085,179 
+
+January 27, 2025 - February 23, 2025323 $77.85 323 9,060,067 
+
+February 24, 2025 - March 30, 20253,022 $78.10 3,022 8,824,012 
+
+Quarter ended March 30, 20254,448 $77.91 (2)4,448 $8,824,012 
+
+(1)    Our net share repurchases are subject to a 1% excise tax under the Inflation Reduction Act. Excise tax incurred reduces the amount available under repurchase programs, as applicable, and is included in the cost of shares repurchased in the Condensed Consolidated Statement of Stockholders’ Equity and the calculation of the average price paid per share.
+
+(2)    Average price paid per share presented is for the quarter ended March 30, 2025.

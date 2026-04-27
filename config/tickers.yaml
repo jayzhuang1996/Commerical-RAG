@@ -1,0 +1,47 @@
+# Semiconductor Intelligence Platform: Target Map
+# Categorized by Supply Chain Layer (The "Verticals")
+
+layers:
+  layer_a:
+    name: "Designers & Brains"
+    description: "Architects of the AI logic and GPU power."
+    tickers: ["NVDA", "AMD", "AVGO", "MRVL", "QCOM", "ARM"]
+
+  layer_b:
+    name: "Memory (HBM Bottleneck)"
+    description: "The data highway. High Bandwidth Memory is the current leading constraint."
+    tickers: ["MU", "WDC", "005930.KS", "SKHynix"] # Note: SKHynix needs special logic or manual text injection if not on SEC
+
+  layer_c:
+    name: "Foundry & Advanced Packaging (CoWoS)"
+    description: "The physical manufacturing. The world relies on 1-2 companies for packaging."
+    tickers: ["TSM", "INTC", "AMKR", "ASX"]
+
+  layer_d:
+    name: "Equipment & Lithography"
+    description: "Tools for the trade. You can't make 3nm chips without EUV."
+    tickers: ["ASML", "AMAT", "LRCX", "KLAC", "TER", "TOELY"]
+
+  layer_e:
+    name: "Networking & Optical Connectivity"
+    description: "The glue. Connecting 10,000 GPUs requires zero-latency networking."
+    tickers: ["ANET", "COHR", "LITE", "ALTR", "ALAB"]
+
+  layer_f:
+    name: "Power & Thermal Management"
+    description: "The energy floor. Cooling and powering a data center is the next big wall."
+    tickers: ["VRT", "MPWR", "TXN", "ADI", "ON", "MCHP"]
+
+  layer_g:
+    name: "Software & Infrastructure"
+    description: "The ecosystem builders."
+    tickers: ["SNPS", "CDNS", "SMCI", "DELL", "HPE"]
+
+# Sector-specific keywords for extraction
+extraction_focus:
+  - "Foundry capacity"
+  - "CoWoS packaging yields"
+  - "HBM3e production ramps"
+  - "Optical transceiver demand"
+  - "Macro risk (Trade bans)"
+  - "Fab utilization rates"

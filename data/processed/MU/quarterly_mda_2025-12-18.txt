@@ -1,0 +1,35 @@
+--- SOURCE INFO ---
+Ticker: MU
+Layer: LAYER_B
+Period: Q4_2025
+Date: 2025-12-18
+Doc Type: quarterly_mda
+--- END INFO ---
+
+ITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS
+
+In 2018, we announced that our Board of Directors authorized the discretionary repurchase of up to $10 billion of our outstanding common stock through open-market purchases, block trades, privately-negotiated transactions, derivative transactions, and/or pursuant to Rule 10b5-1 trading plans. The repurchase authorization has no expiration date, does not obligate us to acquire any common stock, and is subject to market conditions, restrictions applicable under our CHIPS Act direct funding agreements, and our ongoing determination of the best use of available cash. During the quarter ended November 27, 2025, we repurchased 1.3 million shares of our common stock under the authorization for $300 million, and as of November 27, 2025, $2.51 billion of the authorization remained available for the repurchase of our common stock. 
+
+Shares of common stock withheld as payment of withholding taxes upon the vesting of restricted stock are also treated as common stock repurchases. Shares withheld as payment of withholding taxes upon the vesting of restricted stock units are not considered repurchases for purposes of this Item and are not required to be reported.
+
+In the first quarter of 2026, shares purchased under the authorization and withheld as payment upon the vesting of restricted stock consisted of the following:
+
+PeriodTotal number of shares purchased(1)
+
+Average price paid per shareTotal number of shares purchased as part of publicly announced plans or programsApproximate dollar value of shares that may yet be purchased under publicly announced plans or programs (in millions)
+
+August 29, 2025 – September 25, 2025
+
+— $— — 
+
+September 26 2025 – October 23, 2025
+
+154,453 182.50 — 
+
+October 24, 2025 – November 27, 2025
+
+1,273,820 235.51 1,273,820 
+
+1,428,273 $229.78 1,273,820 $2,506
+
+(1) Includes 154,453 shares withheld as payment of withholding taxes upon the vesting of restricted stock awards.
