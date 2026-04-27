@@ -27,8 +27,12 @@ class QueryResponse(BaseModel):
     graph_data: List[Dict[str, str]]
     sources: List[Dict[str, Any]]
 
-# Lazy load so Uvicorn can start instantly
-_generate_answer_func = None
+@app.on_event("startup")
+async def startup_event():
+    print("🧠 Loading Knowledge Graph into Memory...")
+    from retrieval.indexing_pipeline import rag
+    await rag.initialize_storages()
+    print("✅ Graph Ready. Handshaking with Railway.")
 
 def get_generate_answer():
     global _generate_answer_func
@@ -82,9 +86,6 @@ async def get_communities():
     """
     from retrieval.visual_utils import extract_cluster_data
     from retrieval.indexing_pipeline import rag
-    
-    # NEW: Ensure the graph is loaded from the data/index folder
-    await rag.initialize_storages()
     
     # In a real run, this would be computed from the Graph
     clusters = extract_cluster_data(rag)
