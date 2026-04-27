@@ -76,8 +76,12 @@ def extract_cluster_data(rag_index) -> List[Dict[str, Any]]:
     
     clusters = []
     for layer_name, members in layers.items():
-        # Find which members of this layer are actually in our graph right now
-        found = [m for m in members if any(m in node for node in all_nodes)]
+        # Find which members of this layer are actually in our graph right now (case-insensitive check)
+        found = []
+        for m in members:
+            if any(m.lower() in node.lower() for node in all_nodes):
+                found.append(m)
+        
         if found:
             clusters.append({
                 "id": layer_name,

@@ -92,6 +92,7 @@ async def get_communities():
     
     # In a real run, this would be computed from the Graph
     clusters = extract_cluster_data(rag)
+    print(f"📊 Clusters Found: {len(clusters)}")
     
     # Format for the frontend StrategicInsightCard
     formatted = []
