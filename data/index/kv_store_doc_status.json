@@ -478,7 +478,8 @@
     }
   },
   "doc-640b8ee8b9f1d6c8b56dcf5a4511e94a": {
-    "status": "processing",
+    "status": "failed",
+    "error_msg": "C[1/15]: chunk-09305c77610bfec18789bdfc44505242: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1505403, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 15,
     "chunks_list": [
       "chunk-09305c77610bfec18789bdfc44505242",
@@ -500,11 +501,12 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q4_2025\nDate: 2025-12-18\nDoc Type: annual_risk\n--- END INFO ---\n\nITEM 1A.     RISK FACTORS\n\nOur business, operations and financial results are subject to various risks and uncertainties, includi...",
     "content_length": 90482,
     "created_at": "2026-04-27T05:03:52.475986+00:00",
-    "updated_at": "2026-04-27T12:01:02.615790+00:00",
+    "updated_at": "2026-04-27T12:07:30.940932+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_010352_1d518a93",
     "metadata": {
-      "processing_start_time": 1777291262
+      "processing_start_time": 1777291262,
+      "processing_end_time": 1777291650
     }
   },
   "doc-5d62a266a8d6df68a2672eb570383d0e": {
@@ -531,19 +533,20 @@
     }
   },
   "doc-4fe22c3df0c95dfd5e0bb46ade8554b0": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q1_2025\nDate: 2025-03-12\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\nDuring the fiscal q...",
-    "content_length": 622,
+    "status": "processing",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-4fe22c3df0c95dfd5e0bb46ade8554b0"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q1_2025\nDate: 2025-03-12\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\nDuring the fiscal q...",
+    "content_length": 622,
     "created_at": "2026-04-27T05:53:22.208098+00:00",
-    "updated_at": "2026-04-27T11:48:31.498110+00:00",
+    "updated_at": "2026-04-27T12:07:31.009254+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_015322_a49bc2b8",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777291651
+    }
   },
   "doc-db16028b865589c8deb5630190c22030": {
     "status": "pending",

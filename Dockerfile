@@ -27,5 +27,6 @@ COPY data/index/ ./data/index/
 ENV PYTHONPATH=/app/src
 ENV PYTHONUNBUFFERED=1
 
-# 5. Launch - Let Railway provide the PORT
+# 5. Launch - Force Port 8000
+EXPOSE 8000
 CMD ["python", "src/query.py"]
