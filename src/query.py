@@ -75,6 +75,7 @@ async def query_rag(request: QueryRequest):
         import traceback
         print("❌ CRITICAL ERROR IN CHAT ENDPOINT:")
         traceback.print_exc()
+        # Return the exact error so the frontend can intercept RATE LIMITs
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/api/communities")
@@ -83,24 +84,30 @@ async def get_communities():
     Returns the thematic clusters for the CommunityExplorer component.
     Groups companies by their vertical layering.
     """
-    from retrieval.visual_utils import extract_cluster_data
-    from retrieval.indexing_pipeline import rag
-    
-    # In a real run, this would be computed from the Graph
-    clusters = extract_cluster_data(rag)
-    print(f"📊 Clusters Found: {len(clusters)}")
-    
-    # Format for the frontend StrategicInsightCard
-    formatted = []
-    for i, group in enumerate(clusters):
-        formatted.append({
-            "id": i,
-            "title": f"Thematic Group: {group['id']}",
-            "summary": f"Strategic vertical containing key players focused on {group['id'].lower()}.",
-            "nodes": [child["id"] for child in group["children"]]
-        })
+    try:
+        from retrieval.visual_utils import extract_cluster_data
+        from retrieval.indexing_pipeline import rag
         
-    return {"communities": formatted}
+        # In a real run, this would be computed from the Graph
+        clusters = extract_cluster_data(rag)
+        print(f"📊 Clusters Found: {len(clusters)}")
+        
+        # Format for the frontend StrategicInsightCard
+        formatted = []
+        for i, group in enumerate(clusters):
+            formatted.append({
+                "id": i,
+                "title": f"Thematic Group: {group['id']}",
+                "summary": f"Strategic vertical containing key players focused on {group['id'].lower()}.",
+                "nodes": [child["id"] for child in group["children"]]
+            })
+            
+        return {"communities": formatted}
+    except Exception as e:
+        import traceback
+        print("❌ CRITICAL ERROR IN COMMUNITIES ENDPOINT:")
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/")
 async def root():
