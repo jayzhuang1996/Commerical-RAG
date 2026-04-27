@@ -27,6 +27,6 @@ COPY data/index/ ./data/index/
 ENV PYTHONPATH=/app/src
 ENV PYTHONUNBUFFERED=1
 
-# 5. Launch - Force Port 8000
-EXPOSE 8000
-CMD ["python", "src/query.py"]
+# 5. Launch - High-Stability Uvicorn CLI
+EXPOSE 8080
+CMD ["uvicorn", "src.query:app", "--host", "0.0.0.0", "--port", "8080"]
