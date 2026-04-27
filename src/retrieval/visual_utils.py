@@ -14,7 +14,10 @@ def extract_visual_graph(rag_index, query_results: str) -> Dict[str, Any]:
     """
     # 1. Access the internal NetworkX graph from LightRAG
     # This assumes the graphml has been loaded/built
-    full_graph = rag_index.chunk_entity_relation_graph
+    full_graph = getattr(rag_index.chunk_entity_relation_graph, '_graph', None)
+    
+    if not full_graph:
+        return {"nodes": [], "links": []}
     
     # 2. Find mention of entities in the results (simplistic for now)
     # In Phase 3, we can get the actual nodes from LightRAG's query result
@@ -61,8 +64,8 @@ def extract_cluster_data(rag_index) -> List[Dict[str, Any]]:
     
     # Try to load the graph if index exists
     try:
-        full_graph = rag_index.chunk_entity_relation_graph
-        all_nodes = list(full_graph.nodes())
+        full_graph = getattr(rag_index.chunk_entity_relation_graph, '_graph', None)
+        all_nodes = list(full_graph.nodes()) if full_graph else []
     except:
         all_nodes = []
 
