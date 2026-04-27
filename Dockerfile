@@ -11,9 +11,11 @@ RUN apt-get update && apt-get install -y \
 
 # 2. Copy and install requirements
 COPY requirements.txt .
-# Use cpu-only torch to save massive amounts of memory on Railway
 RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
 RUN pip install --no-cache-dir -r requirements.txt
+
+# Pre-download the embedding model to avoid startup timeouts
+RUN python -c "from transformers import AutoTokenizer, AutoModel; AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L6-v2'); AutoModel.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')"
 
 # 3. Copy code and graph
 COPY src/ ./src/
