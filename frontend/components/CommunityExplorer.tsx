@@ -18,7 +18,7 @@ export default function CommunityExplorer() {
   const [viewMode, setViewMode] = useState<'briefing' | 'visualization'>('briefing');
 
   useEffect(() => {
-    fetch('/api/communities')
+    fetch(`${process.env.NEXT_PUBLIC_API_URL || ''}/api/communities`)
       .then(r => r.json())
       .then(d => {
         setCommunities(d.communities || []);
