@@ -11,7 +11,7 @@ import os
 import asyncio
 from typing import TypedDict, List, Dict
 from langgraph.graph import StateGraph, START, END
-from src.retrieval.indexing_pipeline import rag, moonshot_model_complete
+from src.retrieval.indexing_pipeline import rag, openai_model_complete
 from lightrag import QueryParam
 
 # Define Agent State
@@ -74,7 +74,7 @@ async def analyst_node(state: AgentState):
     """
     
     # Use our stable LLM function
-    briefing = await moonshot_model_complete(prompt, system_prompt="You are an elite semiconductor investment analyst.")
+    briefing = await openai_model_complete(prompt, system_prompt="You are an elite semiconductor investment analyst.")
     
     return {"synthesized_answer": briefing}
 

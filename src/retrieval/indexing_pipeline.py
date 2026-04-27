@@ -26,30 +26,24 @@ PROCESSED_DATA_DIR = Path(__file__).parent.parent.parent / "data" / "processed"
 WORKING_DIR.mkdir(parents=True, exist_ok=True)
 
 # API Keys
-MOONSHOT_API_KEY = os.environ.get("MOONSHOT_API_KEY")
-MOONSHOT_BASE_URL = "https://api.moonshot.ai/v1"
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
-# Force LightRAG's internal OpenAI clients to use Moonshot
-os.environ["OPENAI_API_KEY"] = MOONSHOT_API_KEY
-os.environ["OPENAI_BASE_URL"] = MOONSHOT_BASE_URL
+# --- LLM Setup (OpenAI) ---
+# Adjust concurrency depending on OpenAI tier. 
+openai_semaphore = asyncio.Semaphore(3)
 
-# --- LLM Setup (Moonshot) ---
-# Global Semaphore to stay within Moonshot's concurrency limit (3)
-# Setting to 1 for absolute sequential safety during extraction
-moonshot_semaphore = asyncio.Semaphore(1)
-
-async def moonshot_model_complete(
+async def openai_model_complete(
     prompt, system_prompt=None, history_messages=[], **kwargs
 ) -> str:
-    """OpenAI-compatible wrapper for Moonshot with Strict Sequential Locking & Retry"""
+    """OpenAI wrapper with Rate Limit Resilience"""
     
-    async with moonshot_semaphore:
-        for attempt in range(5): # Up to 5 attempts
+    async with openai_semaphore:
+        for attempt in range(5): 
             try:
-                # Hard cooldown to clear any lingering organization concurrency
-                await asyncio.sleep(5.0)
+                # Small cooldown if needed
+                await asyncio.sleep(1.0)
                 
-                client = AsyncOpenAI(api_key=MOONSHOT_API_KEY, base_url=MOONSHOT_BASE_URL)
+                client = AsyncOpenAI(api_key=OPENAI_API_KEY)
                 
                 messages = []
                 if system_prompt:
@@ -60,7 +54,7 @@ async def moonshot_model_complete(
                 allowed_kwargs = {k: v for k, v in kwargs.items() if k in ["temperature", "top_p", "max_tokens"]}
                 
                 response = await client.chat.completions.create(
-                    model="moonshot-v1-8k",
+                    model="gpt-4o-mini",
                     messages=messages,
                     **allowed_kwargs
                 )
@@ -89,14 +83,14 @@ async def local_embedding(texts: list[str]) -> np.ndarray:
 # Initialize LightRAG
 rag = LightRAG(
     working_dir=str(WORKING_DIR),
-    llm_model_func=moonshot_model_complete,
-    llm_model_name="moonshot-v1-8k",
+    llm_model_func=openai_model_complete,
+    llm_model_name="gpt-4o-mini",
     embedding_func=EmbeddingFunc(
         embedding_dim=384, # all-MiniLM-L6-v2 dimension
         max_token_size=512,
         func=local_embedding
     ),
-    addon_params={"max_async_tasks": 1} # Stay within Moonshot's 3-concurrency limit
+    addon_params={"max_async_tasks": 3} 
 )
 
 async def build_graph():

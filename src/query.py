@@ -29,11 +29,6 @@ class QueryResponse(BaseModel):
 
 @app.on_event("startup")
 async def startup_event():
-    # Ensure Moonshot key is available for the underlying agent
-    if os.getenv("MOONSHOT_API_KEY") and not os.getenv("OPENAI_API_KEY"):
-        os.environ["OPENAI_API_KEY"] = os.getenv("MOONSHOT_API_KEY")
-        print("🔑 Mapped MOONSHOT_API_KEY to OPENAI_API_KEY for compatibility.")
-    
     print("🧠 Loading Knowledge Graph into Memory...")
     from retrieval.indexing_pipeline import rag
     await rag.initialize_storages()
