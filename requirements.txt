@@ -29,5 +29,3 @@ aiofiles
 
 # Local Embedding Support
 transformers
-torch
-sentence-transformers
