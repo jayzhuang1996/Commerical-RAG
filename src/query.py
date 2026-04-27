@@ -76,6 +76,9 @@ async def query_rag(request: QueryRequest):
             sources=result["sources"]
         )
     except Exception as e:
+        import traceback
+        print("❌ CRITICAL ERROR IN CHAT ENDPOINT:")
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/api/communities")

@@ -58,7 +58,6 @@ def extract_cluster_data(rag_index) -> List[Dict[str, Any]]:
     Groups companies found in the graph by their vertical.
     """
     import networkx as nx
-    from config.tickers import load_config # Existing helper if it exists
     
     # Try to load the graph if index exists
     try:
