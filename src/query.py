@@ -20,7 +20,7 @@ app.add_middleware(
 from typing import List, Dict, Any
 
 class QueryRequest(BaseModel):
-    question: str
+    query: str
 
 class QueryResponse(BaseModel):
     answer: str
@@ -42,19 +42,18 @@ def get_generate_answer():
 def read_root():
     return {"status": "online", "message": "NABR"}
 
-@app.post("/query", response_model=QueryResponse)
+@app.post("/api/chat", response_model=QueryResponse)
 async def query_rag(request: QueryRequest):
-    import asyncio
     from retrieval.visual_utils import extract_visual_graph, extract_cluster_data
     try:
         loop = asyncio.get_event_loop()
-        def blocking_worker(question):
+        def blocking_worker(query):
             # 1. Get the intelligence briefing
             get_ans = get_generate_answer()
-            answer_text = get_ans(question)
+            answer_text = get_ans(query)
             
             # 2. Get the visual graph data
-            from src.retrieval.indexing_pipeline import rag
+            from retrieval.indexing_pipeline import rag
             graph_viz = extract_visual_graph(rag, answer_text)
             
             # 3. Get cluster data
@@ -66,7 +65,7 @@ async def query_rag(request: QueryRequest):
                 "sources": [] # We will populate this in Phase 5
             }
             
-        result = await loop.run_in_executor(None, blocking_worker, request.question)
+        result = await loop.run_in_executor(None, blocking_worker, request.query)
         return QueryResponse(
             answer=result["answer"],
             graph_data=result["graph_data"]["links"], # Sending edges for the Force Graph
@@ -82,7 +81,7 @@ async def get_communities():
     Groups companies by their vertical layering.
     """
     from retrieval.visual_utils import extract_cluster_data
-    from src.retrieval.indexing_pipeline import rag
+    from retrieval.indexing_pipeline import rag
     
     # NEW: Ensure the graph is loaded from the data/index folder
     await rag.initialize_storages()
