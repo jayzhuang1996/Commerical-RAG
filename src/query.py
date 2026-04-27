@@ -29,6 +29,11 @@ class QueryResponse(BaseModel):
 
 @app.on_event("startup")
 async def startup_event():
+    # Ensure Moonshot key is available for the underlying agent
+    if os.getenv("MOONSHOT_API_KEY") and not os.getenv("OPENAI_API_KEY"):
+        os.environ["OPENAI_API_KEY"] = os.getenv("MOONSHOT_API_KEY")
+        print("🔑 Mapped MOONSHOT_API_KEY to OPENAI_API_KEY for compatibility.")
+    
     print("🧠 Loading Knowledge Graph into Memory...")
     from retrieval.indexing_pipeline import rag
     await rag.initialize_storages()
@@ -48,32 +53,20 @@ def read_root():
 
 @app.post("/api/chat", response_model=QueryResponse)
 async def query_rag(request: QueryRequest):
-    from retrieval.visual_utils import extract_visual_graph, extract_cluster_data
+    from retrieval.visual_utils import extract_visual_graph
     try:
-        loop = asyncio.get_event_loop()
-        def blocking_worker(query):
-            # 1. Get the intelligence briefing
-            get_ans = get_generate_answer()
-            answer_text = get_ans(query)
-            
-            # 2. Get the visual graph data
-            from retrieval.indexing_pipeline import rag
-            graph_viz = extract_visual_graph(rag, answer_text)
-            
-            # 3. Get cluster data
-            clusters = extract_cluster_data(rag)
-            
-            return {
-                "answer": answer_text,
-                "graph_data": graph_viz,
-                "sources": [] # We will populate this in Phase 5
-            }
-            
-        result = await loop.run_in_executor(None, blocking_worker, request.query)
+        # 1. Get the intelligence briefing (await the async agent)
+        get_ans = get_generate_answer()
+        answer_text = await get_ans(request.query)
+        
+        # 2. Get the visual graph data
+        from retrieval.indexing_pipeline import rag
+        graph_viz = extract_visual_graph(rag, answer_text)
+        
         return QueryResponse(
-            answer=result["answer"],
-            graph_data=result["graph_data"]["links"], # Sending edges for the Force Graph
-            sources=result["sources"]
+            answer=answer_text,
+            graph_data=graph_viz["links"],
+            sources=[]
         )
     except Exception as e:
         import traceback
