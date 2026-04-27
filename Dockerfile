@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
 # 2. Copy and install requirements
 COPY requirements.txt .
 RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+RUN pip install --no-cache-dir sentence-transformers
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Pre-download the embedding model to avoid startup timeouts
