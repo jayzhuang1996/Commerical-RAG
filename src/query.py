@@ -24,7 +24,7 @@ class QueryRequest(BaseModel):
 
 class QueryResponse(BaseModel):
     answer: str
-    graph_data: List[Dict[str, str]]
+    graph_data: List[Dict[str, Any]]
     sources: List[Dict[str, Any]]
 
 @app.on_event("startup")
