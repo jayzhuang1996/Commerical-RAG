@@ -17,6 +17,7 @@ from lightrag import QueryParam
 # Define Agent State
 class AgentState(TypedDict):
     query: str
+    filters: dict
     search_mode: str  # 'local', 'global', or 'hybrid'
     raw_context: str
     synthesized_answer: str
@@ -43,10 +44,13 @@ async def researcher_node(state: AgentState):
     print(f"🔎 [Researcher] Querying Context Graph for: '{state['query']}'")
     
     # Configure Query Parameters
-    # We use a high 'top_k' to ensure we capture cross-layer links
+    # We use a high 'top_k' to capture cross-layer links, but force 
+    # only_need_context=True to bypass LightRAG's internal LLM generation loop!
+    # This cuts latency literally in half.
     param = QueryParam(
         mode=state['search_mode'],
-        top_k=20
+        top_k=20,
+        only_need_context=True
     )
     
     # Call the LightRAG query engine
@@ -60,15 +64,23 @@ async def analyst_node(state: AgentState):
     """Synthesizes raw graph nodes into a professional briefing."""
     print("🧠 [Analyst] Synthesizing Strategic Intelligence...")
     
+    # Inject Filter constraints if any exist
+    restriction_text = ""
+    f = state.get('filters', {})
+    if f.get('quarters') or f.get('layers'):
+        restriction_text = f"\nRESTRICT FOCUS STRICTLY TO THESE PARAMETERS:\nQUARTERS: {', '.join(f.get('quarters', []))}\nLAYERS: {', '.join(f.get('layers', []))}\n"
+
     prompt = f"""You are the Head of Semiconductor Advisory. Synthesize the following raw intelligence into a high-level strategic briefing.
     
     USER QUERY: {state['query']}
+    {restriction_text}
+    
     RAW INTELLIGENCE TRACE:
     {state['raw_context']}
     
     ADVISORY STANDARDS:
     1. PRIORITIZE RECENCY: If you see conflicting data, the document with the most recent date (e.g. 2026 vs 2025) is the truth.
-    2. MAP THE IMPACT: If a bottleneck is found in Layer D (Equipment), explain how it will eventually hurt Layer A (Designers like NVIDIA).
+    2. MAP THE IMPACT: Explain how macro trends affect connected layers.
     3. NO BOILERPLATE: Start immediately with the answer. Use bolding for entities and metrics.
     4. CITE SOURCES: Mention the Ticker and Filing Date when providing facts.
     """
@@ -95,10 +107,11 @@ workflow.add_edge("analyst", END)
 # Compile the Engine
 engine = workflow.compile()
 
-async def run_intelligence_briefing(query: str):
+async def run_intelligence_briefing(query: str, filters: dict = None):
     """Entry point for the Phase 3 Agent."""
     initial_state = {
         "query": query,
+        "filters": filters or {},
         "search_mode": "local",
         "raw_context": "",
         "synthesized_answer": "",

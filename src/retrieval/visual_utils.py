@@ -20,19 +20,27 @@ def extract_visual_graph(rag_index, query_results: str) -> Dict[str, Any]:
         return {"nodes": [], "links": []}
     
     # 2. Find mention of entities in the results (simplistic for now)
-    # In Phase 3, we can get the actual nodes from LightRAG's query result
-    nodes_to_include = []
+    seed_nodes = []
     for node in full_graph.nodes():
         if node.lower() in query_results.lower():
-            nodes_to_include.append(node)
+            seed_nodes.append(node)
     
-    # If no nodes found, pick the most central ones
-    if not nodes_to_include:
+    # If no nodes found natively, pick central ones
+    if not seed_nodes:
         centrality = nx.degree_centrality(full_graph)
-        nodes_to_include = sorted(centrality, key=centrality.get, reverse=True)[:15]
+        seed_nodes = sorted(centrality, key=centrality.get, reverse=True)[:3]
 
-    # 3. Build sub-graph
-    subgraph = full_graph.subgraph(nodes_to_include)
+    # 3. Build a CONNECTED sub-graph. Instead of just grabbing isolated seeds,
+    # we expand 1 degree outwards from the seeds to ensure relationships exist.
+    connected_subgraph_nodes = set()
+    for seed in seed_nodes[:4]: # Limit to top 4 seeds to prevent blowout
+        try:
+            ego = nx.ego_graph(full_graph, seed, radius=1)
+            connected_subgraph_nodes.update(ego.nodes())
+        except:
+            pass
+            
+    subgraph = full_graph.subgraph(list(connected_subgraph_nodes))
     
     # 4. Format for ForceGraphVisualizer
     visual_data = {

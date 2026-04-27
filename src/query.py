@@ -21,6 +21,7 @@ from typing import List, Dict, Any
 
 class QueryRequest(BaseModel):
     query: str
+    filters: Dict[str, List[str]] = {}
 
 class QueryResponse(BaseModel):
     answer: str
@@ -55,7 +56,7 @@ async def query_rag(request: QueryRequest):
     try:
         # 1. Get the intelligence briefing (await the async agent)
         get_ans = get_generate_answer()
-        answer_text = await get_ans(request.query)
+        answer_text = await get_ans(request.query, request.filters)
         
         # 2. Get the visual graph data
         from retrieval.indexing_pipeline import rag

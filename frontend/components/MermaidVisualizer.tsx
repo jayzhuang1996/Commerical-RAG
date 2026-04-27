@@ -50,7 +50,9 @@ export default function MermaidVisualizer({ triples }: { triples: Triple[] }) {
         // Clean labels as well to avoid breaking the string literal syntax
         const subStr = (t.source || '').toString().replace(/["()\[\]\{\}]/g, '');
         const objStr = (t.target || '').toString().replace(/["()\[\]\{\}]/g, '');
-        const verbStr = (t.label || 'connected').toString().substring(0, 30).replace(/["()\[\]\{\}]/g, '');
+        let rawLabel = (t.label || 'connected').toString().replace(/["()\[\]\{\}]/g, '');
+        if (rawLabel.length > 45) rawLabel = rawLabel.substring(0, 45) + '...';
+        const verbStr = rawLabel;
         
         // Skip edges with completely empty nodes
         if (!subStr || !objStr) return;
