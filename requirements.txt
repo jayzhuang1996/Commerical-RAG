@@ -4,7 +4,7 @@ PyYAML>=6.0
 python-dotenv>=1.0.0
 
 # GraphRAG & VectorDB
-lightrag
+lightrag-hku
 chromadb>=0.4.15
 supabase
 networkx
