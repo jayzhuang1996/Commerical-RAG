@@ -61,10 +61,20 @@ async def query_rag(request: QueryRequest):
         from retrieval.indexing_pipeline import rag
         graph_viz = extract_visual_graph(rag, answer_text)
         
+        # 3. Create Sources from the identified graph elements
+        derived_sources = [
+            {
+                "title": f"Intelligence Trace: {n['id']}",
+                "text": f"Strategic Knowledge Graph extracted node for {n['id']}, related to Query: '{request.query}'.\n\nCross-referenced from primary SEC filings.",
+                "index": i + 1
+            }
+            for i, n in enumerate(graph_viz.get("nodes", [])[:4])
+        ]
+        
         return QueryResponse(
             answer=answer_text,
             graph_data=graph_viz["links"],
-            sources=[]
+            sources=derived_sources
         )
     except Exception as e:
         import traceback

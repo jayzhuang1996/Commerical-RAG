@@ -51,18 +51,19 @@ export default function ChatInterface() {
       const data = await res.json();
       if (!res.ok || data.error) throw new Error(data.error || 'Unknown error occurred');
 
-      const assistantMsg: Message = {
-        role: 'assistant',
-        content: data.answer,
-        sources: data.sources,
-        graph_data: data.graph_data,
-      };
-      
-      setMessages(prev => [...prev, assistantMsg]);
-      setActiveMessageIndex(messages.length + 1);
-      setIsTyping(true);
+      setMessages(prev => {
+        const newMessages = [...prev];
+        newMessages[newMessages.length - 1] = {
+          role: 'assistant',
+          content: data.answer,
+          graph_data: data.graph_data,
+          sources: data.sources
+        };
+        return newMessages;
+      });
+      setActiveMessageIndex(messages.length);
     } catch (err: any) {
-      setMessages(prev => [...prev, { role: 'error', content: err.message }]);
+      setMessages(prev => [...prev.slice(0, -1), { role: 'error', content: err.message }]);
     } finally {
       setLoading(false);
     }
@@ -71,7 +72,7 @@ export default function ChatInterface() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, isTyping]);
+  }, [messages]);
 
   const activeMsg = activeMessageIndex !== null ? messages[activeMessageIndex] : null;
 
@@ -122,15 +123,11 @@ export default function ChatInterface() {
                     msg.content
                   ) : (
                     <div className="prose-editorial">
-                      {i === activeMessageIndex && isTyping ? (
-                        <TypewriterText text={msg.content} onComplete={() => setIsTyping(false)} />
-                      ) : (
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.content}</ReactMarkdown>
-                      )}
+                      <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.content}</ReactMarkdown>
                     </div>
                   )}
 
-                  {msg.sources && msg.sources.length > 0 && !isTyping && (
+                  {msg.sources && msg.sources.length > 0 && (
                     <div style={{ marginTop: '24px', paddingTop: '16px', borderTop: '1px solid var(--border)' }}>
                       <p style={{ fontSize: '11px', textTransform: 'uppercase', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '12px' }}>Sources</p>
                       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
