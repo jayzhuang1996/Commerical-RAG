@@ -38,8 +38,8 @@ export default function MermaidVisualizer({ triples }: { triples: Triple[] }) {
       // Build flowchart syntax
       let graphDefinition = 'flowchart LR\n';
       
-      // Clean function to make valid mermaid IDs (extremely strict)
-      const clean = (s: string) => s.toString().replace(/[^a-zA-Z]/g, '_');
+      // Clean function to make valid mermaid IDs (extremely strict and null-safe)
+      const clean = (s: any) => (s || '').toString().replace(/[^a-zA-Z0-9]/g, '_');
       
       // Keep it minimal and readable (max 10 core relationships for split-screen)
       const visibleTriples = triples.slice(0, 10);
@@ -48,9 +48,12 @@ export default function MermaidVisualizer({ triples }: { triples: Triple[] }) {
         const subId = clean(t.source) + Math.floor(Math.random() * 1000);
         const objId = clean(t.target) + Math.floor(Math.random() * 1000);
         // Clean labels as well to avoid breaking the string literal syntax
-        const subStr = t.source.replace(/["()\[\]\{\}]/g, '');
-        const objStr = t.target.replace(/["()\[\]\{\}]/g, '');
-        const verbStr = t.label.substring(0, 30).replace(/["()\[\]\{\}]/g, '');
+        const subStr = (t.source || '').toString().replace(/["()\[\]\{\}]/g, '');
+        const objStr = (t.target || '').toString().replace(/["()\[\]\{\}]/g, '');
+        const verbStr = (t.label || 'connected').toString().substring(0, 30).replace(/["()\[\]\{\}]/g, '');
+        
+        // Skip edges with completely empty nodes
+        if (!subStr || !objStr) return;
         
         graphDefinition += `    ${subId}["${subStr}"] -->|"${verbStr}"| ${objId}["${objStr}"]\n`;
       });

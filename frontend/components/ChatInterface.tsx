@@ -11,7 +11,7 @@ interface Message {
   role: 'user' | 'assistant' | 'error';
   content: string;
   sources?: { index: number; video_id: string; title: string; text?: string; timestamp?: number }[];
-  graph_data?: { subject: string; verb: string; object: string }[];
+  graph_data?: { source: string; label: string; target: string }[];
 }
 
 const SUGGESTED = [
@@ -51,19 +51,18 @@ export default function ChatInterface() {
       const data = await res.json();
       if (!res.ok || data.error) throw new Error(data.error || 'Unknown error occurred');
 
-      setMessages(prev => {
-        const newMessages = [...prev];
-        newMessages[newMessages.length - 1] = {
+      setMessages(prev => [
+        ...prev,
+        {
           role: 'assistant',
           content: data.answer,
           graph_data: data.graph_data,
           sources: data.sources
-        };
-        return newMessages;
-      });
-      setActiveMessageIndex(messages.length);
+        }
+      ]);
+      setActiveMessageIndex(messages.length + 1);
     } catch (err: any) {
-      setMessages(prev => [...prev.slice(0, -1), { role: 'error', content: err.message }]);
+      setMessages(prev => [...prev, { role: 'error', content: err.message }]);
     } finally {
       setLoading(false);
     }
