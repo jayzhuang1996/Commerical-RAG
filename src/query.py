@@ -102,6 +102,15 @@ async def get_communities():
         
     return {"communities": formatted}
 
+@app.get("/")
+async def root():
+    return {
+        "name": "NABR Semiconductor Intelligence API",
+        "status": "active",
+        "version": "1.0",
+        "message": "The Context Graph is live."
+    }
+
 @app.get("/health")
 async def health_check():
     return {"status": "online", "engine": "NABR-v1"}
