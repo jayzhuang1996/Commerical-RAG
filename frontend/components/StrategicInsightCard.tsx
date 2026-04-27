@@ -5,7 +5,7 @@ import { RadialBarChart, RadialBar, ResponsiveContainer } from 'recharts';
 
 interface Props {
   community: {
-    id: number;
+    id: string;
     title: string;
     summary: string;
     nodes: string | string[];

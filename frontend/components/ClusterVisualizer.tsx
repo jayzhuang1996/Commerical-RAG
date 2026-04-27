@@ -3,7 +3,7 @@
 import { useMemo } from 'react';
 
 interface Community {
-  id: number;
+  id: string;
   title: string;
   summary: string;
   nodes: string | string[];

@@ -6,7 +6,7 @@ import StrategicInsightCard from './StrategicInsightCard';
 import ClusterVisualizer from './ClusterVisualizer';
 
 interface Community {
-  id: number;
+  id: string;
   title: string;
   summary: string;
   nodes: string | string[];
@@ -16,6 +16,7 @@ export default function CommunityExplorer() {
   const [communities, setCommunities] = useState<Community[]>([]);
   const [loading, setLoading] = useState(true);
   const [viewMode, setViewMode] = useState<'briefing' | 'visualization'>('briefing');
+  const [activeFilter, setActiveFilter] = useState<string>('All Sectors');
 
   useEffect(() => {
     fetch(`${process.env.NEXT_PUBLIC_API_URL || ''}/api/communities`)
@@ -51,6 +52,29 @@ export default function CommunityExplorer() {
           <h2 style={{ fontSize: '32px', fontWeight: 800, color: 'var(--text-primary)', fontFamily: 'var(--font-display)', maxWidth: '600px' }}>
             Macro Trends & Strategic Clusters
           </h2>
+          
+          {/* Business Filters */}
+          <div style={{ display: 'flex', gap: '8px', marginTop: '16px' }}>
+            {['All Sectors', 'Designers', 'Equipment', 'Foundry'].map(filter => (
+              <button
+                key={filter}
+                onClick={() => setActiveFilter(filter)}
+                style={{
+                  padding: '6px 12px',
+                  borderRadius: '16px',
+                  border: `1px solid ${activeFilter === filter ? 'var(--accent-main)' : 'var(--border)'}`,
+                  background: activeFilter === filter ? 'var(--accent-main)' : 'transparent',
+                  color: activeFilter === filter ? '#fff' : 'var(--text-secondary)',
+                  fontSize: '12px',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  transition: 'all 0.2s'
+                }}
+              >
+                {filter}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* View Toggle */}
@@ -100,7 +124,9 @@ export default function CommunityExplorer() {
 
       {viewMode === 'briefing' ? (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '32px' }}>
-          {communities.map((c, i) => (
+          {communities
+            .filter(c => activeFilter === 'All Sectors' || c.id === activeFilter)
+            .map((c, i) => (
             <StrategicInsightCard key={c.id} community={c} index={i} />
           ))}
         </div>

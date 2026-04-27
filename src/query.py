@@ -97,15 +97,59 @@ async def get_communities():
         clusters = extract_cluster_data(rag)
         print(f"📊 Clusters Found: {len(clusters)}")
         
+        # Map of business context for each layer
+        business_context = {
+            "Designers": {
+                "title": "Architects of Compute",
+                "summary": "This cluster controls the theoretical blueprint of AI and accelerated computing. Their strategic moat lies in software ecosystems (e.g. CUDA) and IP dominance.",
+                "insight": "High margin due to fabless model, but heavily dependent on advanced nodes.",
+                "tensions": "Vulnerable to IP theft, sovereign export restrictions, and pure dependency on external foundries."
+            },
+            "Equipment": {
+                "title": "Lithography & Foundational Tools",
+                "summary": "The physical bottleneck of Moore's Law. This cluster creates the billion-dollar EUV and etching machines required to print logic gates at the atomic (2nm) level.",
+                "insight": "Monopolistic moats (e.g., ASML in EUV) make them immune to traditional market competition.",
+                "tensions": "Geopolitically sensitive; sales to certain regions are often blocked by government decrees."
+            },
+            "Foundry": {
+                "title": "Apex Manufacturing",
+                "summary": "The ultimate execution layer. Foundries transform design IP into physical silicon using the equipment cluster.",
+                "insight": "Unprecedented CapEx requirements ($30B+ per fab) create an insurmountable barrier to entry.",
+                "tensions": "Geographical concentration risk in Taiwan threatens global AI supply chains if disrupted."
+            },
+            "Networking": {
+                "title": "Data Center Arteries",
+                "summary": "As AI clusters scale to 100,000+ GPUs, the internal data center network becomes the primary bottleneck. This tier provides the critical optical and ethernet switches.",
+                "insight": "Critical for sovereign AI data centers demanding 800G+ transceiver interconnect speeds.",
+                "tensions": "The ongoing InfiniBand vs. Ethernet standards war creates vendor lock-in friction."
+            }
+        }
+        
         # Format for the frontend StrategicInsightCard
         formatted = []
         for i, group in enumerate(clusters):
+            layer_id = group['id']
+            ctx = business_context.get(layer_id, {
+                "title": f"Thematic Group: {layer_id}",
+                "summary": f"Strategic vertical containing key players focused on {layer_id.lower()}.",
+                "insight": "Active market participant with established supply chains.",
+                "tensions": "Macroeconomic headwinds and supply constraints."
+            })
+            
+            payload = {
+                "summary": ctx["summary"],
+                "insight": ctx["insight"],
+                "tensions": ctx["tensions"]
+            }
+            import json
+            
             formatted.append({
-                "id": i,
-                "title": f"Thematic Group: {group['id']}",
-                "summary": f"Strategic vertical containing key players focused on {group['id'].lower()}.",
+                "id": layer_id,
+                "title": ctx["title"],
+                "summary": json.dumps(payload),
                 "nodes": [child["id"] for child in group["children"]]
             })
+
             
         return {"communities": formatted}
     except Exception as e:
