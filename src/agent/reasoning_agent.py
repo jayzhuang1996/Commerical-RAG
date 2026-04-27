@@ -122,10 +122,6 @@ async def run_intelligence_briefing(query: str, filters: dict = None):
     print("🚀 [NABR ENGINE] INITIATING STRATEGIC SYNTHESIS")
     print("═"*60)
     
-    # Ensure the Graph is loaded from disk
-    from src.retrieval.indexing_pipeline import rag
-    await rag.initialize_storages()
-    
     final_state = await engine.ainvoke(initial_state)
     
     print("\n" + "═"*60)

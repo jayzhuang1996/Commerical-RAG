@@ -65,9 +65,10 @@ async def query_rag(request: QueryRequest):
         # 3. Create Sources from the identified graph elements
         derived_sources = []
         for i, link in enumerate(graph_viz.get("links", [])[:5]):
+            origin_name = link.get('origin', 'SEC Integrated Filing')
             derived_sources.append({
-                "title": f"Source Map: {link['source']} ↔ {link['target']}",
-                "text": f"KNOWLEDGE GRAPH TRACE LOG\n\nRelationship verified between '{link['source']}' and '{link['target']}'.\n\nExtracted Context:\n{link['label']}\n\nDocument Origin: SEC Form 10-K / Q-Transcript",
+                "title": f"{origin_name} [{i+1}]",
+                "text": f"KNOWLEDGE GRAPH TRACE LOG\n\nRelationship verified between '{link['source']}' and '{link['target']}'.\n\nExtracted Context:\n{link['label']}\n\nDocument Origin: {origin_name}",
                 "index": i + 1
             })
         
