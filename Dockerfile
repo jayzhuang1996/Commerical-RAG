@@ -1,6 +1,3 @@
-# Infrastructure for Railway Deployment
-# Multi-process container for NABR Intelligence Platform
-
 FROM python:3.11-slim
 
 WORKDIR /app
@@ -12,21 +9,20 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# 2. Copy requirements and install
+# 2. Copy and install requirements
 COPY requirements.txt .
+# Use cpu-only torch to save massive amounts of memory on Railway
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 3. Copy source code and pre-built index (the "Brain")
+# 3. Copy code and graph
 COPY src/ ./src/
 COPY config/ ./config/
 COPY data/index/ ./data/index/
 
-# 4. Environment setup
+# 4. Environment
 ENV PYTHONPATH=/app/src
-ENV PORT=8000
+ENV PYTHONUNBUFFERED=1
 
-# 5. Expose port
-EXPOSE 8000
-
-# 6. Launch the Backend
+# 5. Launch - Let Railway provide the PORT
 CMD ["python", "src/query.py"]

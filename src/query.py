@@ -102,7 +102,13 @@ async def get_communities():
         
     return {"communities": formatted}
 
+@app.get("/health")
+async def health_check():
+    return {"status": "online", "engine": "NABR-v1"}
+
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.environ.get("PORT", "8000"))
+    # Railway passes the port as an environment variable
+    port = int(os.environ.get("PORT", 8080))
+    print(f"🚀 NABR Engine Starting on Port: {port}")
     uvicorn.run(app, host="0.0.0.0", port=port, log_level="info")
