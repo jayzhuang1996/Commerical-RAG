@@ -150,9 +150,6 @@ export default function Home() {
               }}>
                 <Layers size={18} color="var(--accent-main)" />
                 <span style={{ fontWeight: 600, fontSize: '16px', fontFamily: 'var(--font-display)' }}>Knowledge Clusters</span>
-                <span style={{ fontSize: '12px', color: 'var(--text-muted)', marginLeft: 'auto', fontFamily: 'var(--font-mono)' }}>
-                  Greedy Modularity · networkx
-                </span>
               </div>
               <div style={{ flex: 1, overflowY: 'auto' }}>
                 <CommunityExplorer />

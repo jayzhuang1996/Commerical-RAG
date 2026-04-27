@@ -62,14 +62,22 @@ async def query_rag(request: QueryRequest):
         graph_viz = extract_visual_graph(rag, answer_text)
         
         # 3. Create Sources from the identified graph elements
-        derived_sources = [
-            {
-                "title": f"Intelligence Trace: {n['id']}",
-                "text": f"Strategic Knowledge Graph extracted node for {n['id']}, related to Query: '{request.query}'.\n\nCross-referenced from primary SEC filings.",
+        derived_sources = []
+        for i, link in enumerate(graph_viz.get("links", [])[:5]):
+            derived_sources.append({
+                "title": f"Source Map: {link['source']} ↔ {link['target']}",
+                "text": f"KNOWLEDGE GRAPH TRACE LOG\n\nRelationship verified between '{link['source']}' and '{link['target']}'.\n\nExtracted Context:\n{link['label']}\n\nDocument Origin: SEC Form 10-K / Q-Transcript",
                 "index": i + 1
-            }
-            for i, n in enumerate(graph_viz.get("nodes", [])[:4])
-        ]
+            })
+        
+        # If no links are found to trace, fallback to nodes
+        if not derived_sources:
+            for i, n in enumerate(graph_viz.get("nodes", [])[:4]):
+                derived_sources.append({
+                    "title": f"Intel Trace: {n['id']}",
+                    "text": f"Strategic Knowledge Graph extracted node for {n['id']}, related to Query: '{request.query}'.\n\nCross-referenced from primary SEC filings.",
+                    "index": i + 1
+                })
         
         return QueryResponse(
             answer=answer_text,

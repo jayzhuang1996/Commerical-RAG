@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Send, Sparkles, BookOpen, Clock, Maximize2, Layout, List } from 'lucide-react';
+import { Send, Sparkles, BookOpen, Clock, Maximize2, Layout, List, Filter, CheckSquare, Square } from 'lucide-react';
 import MermaidVisualizer from './MermaidVisualizer';
 import TypewriterText from './TypewriterText';
 
@@ -26,6 +26,14 @@ export default function ChatInterface() {
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
   const [selectedSource, setSelectedSource] = useState<{ title: string; text: string; index: number; video_id: string; timestamp?: number } | null>(null);
+
+  // Filters State
+  const [activeQuarters, setActiveQuarters] = useState<string[]>([]);
+  const [activeLayers, setActiveLayers] = useState<string[]>([]);
+
+  const toggleFilter = (setFn: React.Dispatch<React.SetStateAction<string[]>>, val: string) => {
+    setFn(prev => prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]);
+  };
   
   // Animation/UI states
   const [isTyping, setIsTyping] = useState(false);
@@ -45,7 +53,10 @@ export default function ChatInterface() {
       const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || ''}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query: question }),
+        body: JSON.stringify({ 
+          query: question,
+          filters: { quarters: activeQuarters, layers: activeLayers }
+        }),
       });
       
       const data = await res.json();
@@ -78,7 +89,54 @@ export default function ChatInterface() {
   return (
     <div style={{ display: 'flex', height: '100%', width: '100%', gap: '0', position: 'relative', background: 'var(--bg-panel)' }}>
       
-      {/* Left Pane: Chat & Text (Splits if active graph) */}
+      {/* Far-Left Pane: Intelligence Filters */}
+      <div style={{ 
+        width: '220px', 
+        borderRight: '1px solid var(--border)', 
+        background: 'var(--bg-card)', 
+        padding: '24px 16px',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '32px'
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-primary)', fontWeight: 700, fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+          <Filter size={14} /> Global Filters
+        </div>
+
+        <div>
+          <p style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '12px' }}>REPORTING PERIOD</p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            {['Q1 2025', 'Q2 2025', 'Q3 2025', 'Q4 2025', 'Q1 2026', 'Q2 2026'].map(q => (
+              <button 
+                key={q} 
+                onClick={() => toggleFilter(setActiveQuarters, q)}
+                style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: activeQuarters.includes(q) ? 'var(--accent-main)' : 'var(--text-secondary)', cursor: 'pointer', fontSize: '13px', fontWeight: activeQuarters.includes(q) ? 600 : 500, textAlign: 'left', padding: '4px 0' }}
+              >
+                {activeQuarters.includes(q) ? <CheckSquare size={14} /> : <Square size={14} />}
+                {q}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <p style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '12px' }}>STRUCTURAL LAYER</p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            {['Designers', 'Foundry', 'Equipment', 'Networking'].map(l => (
+              <button 
+                key={l} 
+                onClick={() => toggleFilter(setActiveLayers, l)}
+                style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: activeLayers.includes(l) ? 'var(--accent-main)' : 'var(--text-secondary)', cursor: 'pointer', fontSize: '13px', fontWeight: activeLayers.includes(l) ? 600 : 500, textAlign: 'left', padding: '4px 0' }}
+              >
+                {activeLayers.includes(l) ? <CheckSquare size={14} /> : <Square size={14} />}
+                {l}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Center Pane: Chat & Text (Splits if active graph) */}
       <div style={{ 
         flex: activeMsg?.graph_data ? 1 : 1, 
         display: 'flex', 

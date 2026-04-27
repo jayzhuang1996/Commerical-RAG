@@ -194,5 +194,12 @@
     "create_time": 1777296599,
     "update_time": 1777296599,
     "_id": "doc-c22edc0f49803e029a935a9524737c28"
+  },
+  "doc-a0875cdce54018cd923f6cab7e6b6692": {
+    "content": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q1_2026\nDate: 2026-02-05\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1\n                                                                  \n  Investor Relations:                   Media Relations:          \n  Kevin Kessel, CFA                     Mike Dulin                \n  Vice President, Investor Relations    Corporate Communications  \n  (408) 875-6627                        michael.dulin@kla.com     \n  kevin.kessel@kla.com                                            \n                                                                  \nKLA Declares Regular Cash Dividend MILPITAS, Calif., Feb. 5, 2026 — The KLA Corporation\n(NASDAQ: KLAC) Board of Directors today declared a quarterly cash dividend of $1.90 per\nshare on its common stock, payable on March 3, 2026 to KLA shareholders of record as of the\nclose of business on Feb. 17, 2026. About KLA: KLA Corporation (“KLA”) develops industry-\nleading equipment and services that enable innovation throughout the electronics industry.\nWe provide advanced process control and process-enabling solutions for manufacturing wafers\nand reticles, integrated circuits, packaging and printed circuit boards. In close\ncollaboration with leading customers across the globe, our expert teams of physicists,\nengineers, data scientists and problem-solvers design solutions that move the world\nforward. Investors and others should note that KLA announces material financial information\nincluding SEC filings, press releases, public earnings calls and conference webcasts using\nan investor relations website ( ir.kla.com). Additional information may be found at:\nwww.kla.com.",
+    "file_path": "unknown_source",
+    "create_time": 1777300137,
+    "update_time": 1777300137,
+    "_id": "doc-a0875cdce54018cd923f6cab7e6b6692"
   }
 }

@@ -139,7 +139,7 @@ export default function CommunityExplorer() {
           overflow: 'hidden',
           boxShadow: 'var(--shadow-lg)'
         }}>
-          <ClusterVisualizer communities={communities} height={600} />
+          <ClusterVisualizer communities={communities.filter(c => activeFilter === 'All Sectors' || c.id === activeFilter)} height={600} />
         </div>
       )}
 
