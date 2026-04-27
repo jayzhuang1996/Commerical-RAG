@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from 'react';
 import mermaid from 'mermaid';
 
 interface Triple {
-  subject: string;
-  verb: string;
-  object: string;
+  source: string;
+  label: string;
+  target: string;
 }
 
 export default function MermaidVisualizer({ triples }: { triples: Triple[] }) {
@@ -45,12 +45,12 @@ export default function MermaidVisualizer({ triples }: { triples: Triple[] }) {
       const visibleTriples = triples.slice(0, 10);
       
       visibleTriples.forEach(t => {
-        const subId = clean(t.subject) + Math.floor(Math.random() * 1000);
-        const objId = clean(t.object) + Math.floor(Math.random() * 1000);
+        const subId = clean(t.source) + Math.floor(Math.random() * 1000);
+        const objId = clean(t.target) + Math.floor(Math.random() * 1000);
         // Clean labels as well to avoid breaking the string literal syntax
-        const subStr = t.subject.replace(/["()\[\]\{\}]/g, '');
-        const objStr = t.object.replace(/["()\[\]\{\}]/g, '');
-        const verbStr = t.verb.substring(0, 30).replace(/["()\[\]\{\}]/g, '');
+        const subStr = t.source.replace(/["()\[\]\{\}]/g, '');
+        const objStr = t.target.replace(/["()\[\]\{\}]/g, '');
+        const verbStr = t.label.substring(0, 30).replace(/["()\[\]\{\}]/g, '');
         
         graphDefinition += `    ${subId}["${subStr}"] -->|"${verbStr}"| ${objId}["${objStr}"]\n`;
       });

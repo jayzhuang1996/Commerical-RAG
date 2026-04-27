@@ -113,9 +113,12 @@ export default function ClusterVisualizer({ communities, height = 600 }: Props) 
             {/* 5. Macro Bubble */}
             <circle cx={b.x} cy={b.y} r={b.size} fill={`${b.color}15`} stroke={b.color} strokeWidth="2" style={{ transition: 'all 0.3s' }} className="macro-circle" />
             
-            <foreignObject x={b.x - b.size * 0.8} y={b.y - 12} width={b.size * 1.6} height={24}>
+            <foreignObject x={b.x - b.size + 10} y={b.y - b.size/2} width={(b.size - 10) * 2} height={b.size}>
               <div style={{
-                textAlign: 'center', color: 'var(--text-primary)', fontSize: '11px', fontWeight: 800, fontFamily: 'var(--font-display)', textShadow: '0 2px 4px rgba(0,0,0,0.5)', pointerEvents: 'none'
+                height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                textAlign: 'center', color: 'var(--text-primary)', fontSize: b.size > 60 ? '12px' : '10px', 
+                fontWeight: 800, fontFamily: 'var(--font-display)', textShadow: '0 2px 4px rgba(0,0,0,0.5)', 
+                pointerEvents: 'none', lineHeight: 1.2
               }}>
                 {b.title}
               </div>

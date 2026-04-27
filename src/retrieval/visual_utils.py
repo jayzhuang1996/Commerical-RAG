@@ -69,12 +69,12 @@ def extract_cluster_data(rag_index) -> List[Dict[str, Any]]:
     except:
         all_nodes = []
 
-    # Map nodes to layers
+    # Map nodes to layers (Expanded with deeper relationships for UI density)
     layers = {
-        "Designers": ["NVDA", "AMD", "AVGO", "ARM"],
-        "Equipment": ["ASML", "AMAT", "LRCX", "KLAC"],
-        "Foundry": ["TSM", "INTC"],
-        "Networking": ["MRVL", "ANET", "ANET"]
+        "Designers": ["NVDA", "AMD", "AVGO", "ARM", "QCOM", "MRVL", "SNPS", "CDNS", "ALTR", "INTC", "Apple", "Google", "Amazon", "Mellanox"],
+        "Equipment": ["ASML", "AMAT", "LRCX", "KLAC", "TOKYO ELECTRON", "Zeiss", "Trumpf", "KLA", "Applied Materials", "Lam Research", "Lasertec", "Advantest", "Teradyne"],
+        "Foundry": ["TSM", "INTC", "Samsung", "GlobalFoundries", "UMC", "SMIC", "Tower", "Epiworks", "Win Semi", "TSMC"],
+        "Networking": ["MRVL", "ANET", "CSCO", "JNPR", "Broadcom", "Infiniband", "Mellanox", "Cisco", "Arista", "Foxconn", "Supermicro", "Dell", "HPE", "SMCI"]
     }
     
     clusters = []
