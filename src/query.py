@@ -39,6 +39,9 @@ async def startup_event():
     await rag.initialize_storages()
     print("✅ Graph Ready. Handshaking with Railway.")
 
+# Lazy load so Uvicorn can start instantly
+_generate_answer_func = None
+
 def get_generate_answer():
     global _generate_answer_func
     if _generate_answer_func is None:
