@@ -174,14 +174,15 @@ async def analyst_node(state: AgentState):
     layer_note  = f"\n- VERTICALS: {', '.join(layers)}" if layers else ""
     period_note = f"\n- PERIODS: {', '.join(quarters)}" if quarters else ""
 
-    prompt = f"""You are the Head of Semiconductor Advisory at Element. Synthesize the context below into a strategic briefing.
+    prompt = f"""You are the Head of Semiconductor Advisory at Element. Synthesize the provided context into a strategic briefing.
 
 USER QUERY: {state['query']}{period_note}{layer_note}
 
 ⛔ ANTI-HALLUCINATION RULES:
-1. USE ONLY THE RAW INTELLIGENCE BELOW. NEVER use training data (especially about 2023).
-2. Every fact MUST be cited with (TICKER PERIOD).
-3. If the context is sparse, provide the best summary possible based on what IS there (e.g. mentions from equipment suppliers), but clearly state any data gaps.
+1. USE ONLY THE RAW INTELLIGENCE BELOW. NEVER use training data.
+2. Every fact MUST be cited with (TICKER PERIOD) — e.g. (NVDA Q1 2026).
+3. If the user asks about 2025/2026 and you see data for those years in the RAW INTELLIGENCE, you MUST summarize it. 
+4. If the user asks about 2023 and the RAW INTELLIGENCE is empty for 2023, state that no 2023 data is available. 
 
 RAW INTELLIGENCE:
 {context}

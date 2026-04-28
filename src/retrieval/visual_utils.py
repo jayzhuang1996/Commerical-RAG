@@ -159,6 +159,15 @@ def extract_visual_graph(rag_index, query_results: str, filters: dict = None) ->
         }
         for q in filters.get("quarters", []):
             quarter_periods.add(qmap.get(q, q.replace(" ", "_")))
+    
+    # Auto-detect year in query if no filters are active
+    if not quarter_periods and query_results:
+        for year in ["2023", "2025", "2026"]:
+            if year in query_results:
+                # Add all quarters for that year
+                for q_key, q_val in qmap.items():
+                    if year in q_key:
+                        quarter_periods.add(q_val)
 
     # Build chunk_id → period mapping from the text chunk store
     chunk_period_map: Dict[str, str] = {}
