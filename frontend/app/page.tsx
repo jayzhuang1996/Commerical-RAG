@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
-import { MessageSquare, Layers, BarChart2, Github } from 'lucide-react';
+import { MessageSquare, Layers, ArrowRight, Database, Shield, Zap } from 'lucide-react';
 
 const ChatInterface = dynamic(() => import('../components/ChatInterface'), { ssr: false });
 const CommunityExplorer = dynamic(() => import('../components/CommunityExplorer'), { ssr: false });
@@ -36,34 +36,38 @@ export default function Home() {
         {/* Slide 1: Problem Statement */}
         <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', padding: '80px 120px', position: 'relative', justifyContent: 'center' }}>
           <h1 style={{ fontSize: '38px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '64px', color: 'var(--text-primary)', letterSpacing: '-0.02em', textAlign: 'center', lineHeight: 1.3 }}>
-            150+ Annual Business Reviews Represent an Untapped Intelligence Moat
+            150+ Annual Business Reviews: The Untapped Intelligence Moat
           </h1>
-          <div style={{ display: 'flex', gap: '32px', width: '100%' }}>
+          <div style={{ display: 'flex', gap: '20px', width: '100%', alignItems: 'center' }}>
             
             <div style={boxStyle}>
               <h3 style={titleStyle}>1. The Fragmentation Challenge</h3>
               <ul style={listStyle}>
-                <li style={{ marginBottom: '16px' }}>Element conducts over 150 in-depth Business Reviews annually, representing an untapped gold mine of qualitative client data.</li>
-                <li style={{ marginBottom: '16px' }}>Currently, this high-signal intelligence is siloed across fragmented PDFs, slide decks, and localized team notes.</li>
-                <li>Strategic, cross-client context is physically lost immediately after the presentation concludes.</li>
+                <li style={{ marginBottom: '16px' }}>150+ in-depth BRs conducted annually</li>
+                <li style={{ marginBottom: '16px' }}>High-signal intelligence trapped in static PDFs & isolated slide decks</li>
+                <li>Strategic cross-client context permanently lost post-presentation</li>
               </ul>
             </div>
+
+            <ArrowRight size={32} color="var(--text-muted)" style={{ flexShrink: 0 }} />
 
             <div style={boxStyle}>
-              <h3 style={titleStyle}>2. The Commercial Opportunity</h3>
+              <h3 style={titleStyle}>2. The Commercial Moat</h3>
               <ul style={listStyle}>
-                <li style={{ marginBottom: '16px' }}>Proprietary client intelligence is our ultimate competitive differentiator.</li>
-                <li style={{ marginBottom: '16px' }}>Systematically aggregating macro-demands reveals hidden industry pain-points and shifting supply chain constraints.</li>
-                <li>Commercial teams can intuitively surface cross-referenced insights to formulate hyper-specific, data-backed client solutions.</li>
+                <li style={{ marginBottom: '16px' }}>Proprietary client intelligence = ultimate competitive barrier</li>
+                <li style={{ marginBottom: '16px' }}>Aggregated macro-demands reveal predictive industry shifts</li>
+                <li>Empowers commercial teams with hyper-specific, cross-referenced pitches</li>
               </ul>
             </div>
 
+            <ArrowRight size={32} color="var(--accent-main)" style={{ flexShrink: 0 }} />
+
             <div style={{...boxStyle, border: '2px solid var(--accent-main)', background: 'rgba(230,81,0,0.03)' }}>
-              <h3 style={titleStyle}>3. Enterprise AI Strategy Graph</h3>
+              <h3 style={titleStyle}><Database size={16} style={{ display: 'inline', marginRight: '8px', verticalAlign: '-2px' }}/>Enterprise AI Strategy Graph</h3>
               <ul style={listStyle}>
-                <li style={{ marginBottom: '16px' }}>An internal, conversational database specifically indexing our Business Reviews. Teams query it naturally, exactly like ChatGPT.</li>
-                <li style={{ marginBottom: '16px' }}><strong>The RAG Distinction:</strong> Standard ChatGPT cannot securely access or mathematically map our private client ecosystem.</li>
-                <li>This Retrieval-Augmented Generation (RAG) architecture natively links our unstructured, proprietary narratives into a secure corporate brain.</li>
+                <li style={{ marginBottom: '16px' }}>Conversational RAG database mapping private workflows</li>
+                <li style={{ marginBottom: '16px' }}><strong>Crucial Distinction:</strong> Public ChatGPT cannot securely index or mathematically map proprietary enterprise ecosystems</li>
+                <li>Directly links unstructured narratives into an instantly queryable brain</li>
               </ul>
             </div>
 
@@ -76,28 +80,36 @@ export default function Home() {
         {/* Page 2: Use Cases */}
         <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', padding: '80px 120px', position: 'relative', justifyContent: 'center' }}>
           <h1 style={{ fontSize: '38px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '64px', color: 'var(--text-primary)', letterSpacing: '-0.02em', textAlign: 'center', lineHeight: 1.3 }}>
-            Unlocking Shared Wallet Penetration and Macro-Level Clarity
+            Unlocking Shared Wallet Penetration & Macro-Clarity
           </h1>
           <div style={{ display: 'flex', gap: '32px', width: '100%', marginBottom: '40px' }}>
             <div style={boxStyle}>
               <h3 style={titleStyle}>Business Development</h3>
-              <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)', marginBottom: '12px' }}>Commercial teams rapidly identify relevant precedents and intersecting client challenges.</p>
-              <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>By deeply understanding unique client constraints, teams can walk into engagements equipped to aggressively drive shared wallet penetration.</p>
+              <ul style={listStyle}>
+                <li style={{ marginBottom: '12px' }}>Rapidly cross-reference adjacent client precedents</li>
+                <li style={{ marginBottom: '12px' }}>Surface intersecting structural pain points instantly</li>
+                <li>Walk into engagements fully equipped to drive aggressive shared wallet penetration</li>
+              </ul>
             </div>
             <div style={boxStyle}>
-              <h3 style={titleStyle}>Senior Leadership Formations</h3>
-              <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)', marginBottom: '12px' }}>Senior Leadership gains a top-down, mathematically unified view of shifting programmatic demands across the entire managed portfolio.</p>
-              <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>Identify emerging macro-trends organically rather than relying on delayed, anecdotal field reporting.</p>
+              <h3 style={titleStyle}>Commercial Leadership</h3>
+              <ul style={listStyle}>
+                <li style={{ marginBottom: '12px' }}>Top-down view of programmatic demand shifts</li>
+                <li style={{ marginBottom: '12px' }}>Mathematically unified insights across managed fleets</li>
+                <li>Replace delayed anecdotal reporting with organically extracted macro-trends</li>
+              </ul>
             </div>
             <div style={boxStyle}>
               <h3 style={titleStyle}>Qualitative Data Flywheel</h3>
-              <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)', marginBottom: '12px' }}>As we establish standardized data collection for future Business Review recordings, the intelligence ingestion scales.</p>
-              <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>The denser the proprietary vector network becomes, the wider our competitive advantage grows.</p>
+              <ul style={listStyle}>
+                <li style={{ marginBottom: '12px' }}>Scale ingestion via standardized future BR recordings</li>
+                <li>Compounding vector density exponentially widens our technical barrier-to-entry</li>
+              </ul>
             </div>
           </div>
           <div style={{ padding: '32px 40px', background: 'var(--bg-panel)', border: '1px solid var(--border)', borderLeft: '4px solid var(--text-primary)', borderRadius: '8px' }}>
-            <h3 style={{ fontSize: '18px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '8px', color: 'var(--text-primary)' }}>Strategic Timing</h3>
-            <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)', maxWidth: '900px' }}>The underlying graph architecture required to securely map highly qualitative, unstructured business narratives has officially reached enterprise maturity. We now have the technical capability to systematically structure our most valuable asset.</p>
+            <h3 style={{ fontSize: '18px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '8px', color: 'var(--text-primary)' }}><Zap size={16} style={{ display: 'inline', marginRight: '6px', verticalAlign: '-2px' }}/> Strategic Timing</h3>
+            <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)', maxWidth: '900px' }}>The underlying graph architecture required to securely map highly qualitative, unstructured business narratives has officially reached enterprise maturity. We now possess the capability to systematically structure our most valuable asset.</p>
           </div>
           <div style={{ position: 'absolute', bottom: '40px', left: '50%', transform: 'translateX(-50%)', fontSize: '13px', fontWeight: 600, color: 'var(--text-muted)', animation: 'bounce 2s infinite' }}>
             SCROLL DOWN ↓
@@ -109,35 +121,39 @@ export default function Home() {
           <h1 style={{ fontSize: '38px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '64px', color: 'var(--text-primary)', letterSpacing: '-0.02em', textAlign: 'center', lineHeight: 1.3 }}>
             Proving the Architecture: The Intelligence Sandbox
           </h1>
-          <div style={{ display: 'flex', gap: '32px', width: '100%' }}>
+          <div style={{ display: 'flex', gap: '20px', width: '100%', alignItems: 'center' }}>
             
             {/* Left Box: The Proxy Demo */}
             <div style={{ ...boxStyle, background: 'var(--bg-panel)' }}>
               <div style={{ display: 'inline-block', padding: '6px 12px', background: 'var(--border)', borderRadius: '24px', fontSize: '11px', fontWeight: 700, marginBottom: '20px' }}>PHASE 1: PROOF OF CONCEPT</div>
-              <h3 style={titleStyle}>Semiconductor Demo Sandbox</h3>
+              <h3 style={titleStyle}>Semiconductor Sandbox Demo</h3>
               <ul style={listStyle}>
-                <li style={{ marginBottom: '12px' }}><strong>The Proxy Setup:</strong> To demonstrate capability immediately, we built this demo sandbox using public Semiconductor industry datasets.</li>
-                <li style={{ marginBottom: '12px' }}><strong>The Purpose:</strong> This validates that the core GraphRAG engine can successfully extract and relate highly technical, non-uniform business logic.</li>
+                <li style={{ marginBottom: '12px' }}><strong>Setup:</strong> Modeled natively on public trading & earnings datasets</li>
+                <li style={{ marginBottom: '12px' }}><strong>Goal:</strong> Validate the core GraphRAG engine's ability to safely extract complex, highly technical business logic</li>
               </ul>
             </div>
             
+            <ArrowRight size={32} color="var(--text-muted)" style={{ flexShrink: 0 }} />
+
             {/* Middle Box: Barriers */}
             <div style={{ ...boxStyle, background: 'var(--bg-base)', border: '1px dashed var(--border)' }}>
-              <div style={{ display: 'inline-block', padding: '6px 12px', background: 'rgba(0,0,0,0.05)', borderRadius: '24px', fontSize: '11px', fontWeight: 700, marginBottom: '20px' }}>THE CURRENT BARRIER</div>
-              <h3 style={titleStyle}>Why not build on Element data today?</h3>
+              <div style={{ display: 'inline-block', padding: '6px 12px', background: 'rgba(0,0,0,0.05)', borderRadius: '24px', fontSize: '11px', fontWeight: 700, marginBottom: '20px' }}><Shield size={12} style={{ display: 'inline', marginRight: '4px', verticalAlign: '-1px' }}/>CURRENT STRUCTURAL BARRIERS</div>
+              <h3 style={titleStyle}>Why not Element data immediately?</h3>
               <ul style={listStyle}>
-                <li style={{ marginBottom: '12px' }}><strong>IT Infosec Clearances:</strong> Actual client data cannot be processed through experimental infrastructure without formal infosec pathways.</li>
-                <li style={{ marginBottom: '12px' }}><strong>Data Collection Velocity:</strong> Historically, we have not mandated the recording or automated transcription of all Business Reviews. The raw data pipeline needs to be activated before it can be ingested.</li>
+                <li style={{ marginBottom: '12px' }}><strong>Infosec Compliance:</strong> Private client workflows require formal security clearances prior to experimental ingestion</li>
+                <li style={{ marginBottom: '12px' }}><strong>Collection Velocity:</strong> Required historical pipeline of unified Business Review recordings must be activated</li>
               </ul>
             </div>
 
+            <ArrowRight size={32} color="var(--accent-main)" style={{ flexShrink: 0 }} />
+
             {/* Right Box: Target State */}
             <div style={{ ...boxStyle, border: '2px solid var(--accent-main)', background: '#fff', boxShadow: '0 20px 40px rgba(230,81,0,0.08)' }}>
-              <div style={{ display: 'inline-block', padding: '6px 12px', background: 'rgba(230,81,0,0.1)', color: 'var(--accent-main)', borderRadius: '24px', fontSize: '11px', fontWeight: 700, marginBottom: '20px' }}>THE TARGET END-STATE</div>
-              <h3 style={{ fontSize: '20px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '16px', color: '#111' }}>Enterprise AI Strategy Graph</h3>
+              <div style={{ display: 'inline-block', padding: '6px 12px', background: 'rgba(230,81,0,0.1)', color: 'var(--accent-main)', borderRadius: '24px', fontSize: '11px', fontWeight: 700, marginBottom: '20px' }}><Database size={12} style={{ display: 'inline', marginRight: '4px', verticalAlign: '-1px' }}/> THE TARGET END-STATE</div>
+              <h3 style={{ fontSize: '20px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '16px', color: '#111' }}>True Element Strategy Graph</h3>
               <ul style={{ ...listStyle, color: '#444' }}>
-                <li style={{ marginBottom: '12px' }}><strong>Resolution:</strong> A secure, internal conversational interface natively mapping genuine Element clients, fleets, and demands.</li>
-                <li style={{ marginBottom: '12px' }}><strong>Output Example:</strong> Senior Leadership queries "Which clients are actively delaying EV transitions due to infrastructure?", and receives a direct, sourced map of at-risk accounts.</li>
+                <li style={{ marginBottom: '12px' }}><strong>Resolution:</strong> A secured conversational network mapping genuine clients, fleets, and constraints</li>
+                <li style={{ marginBottom: '12px' }}><strong>Sample Target Output:</strong> <em>"Which clients are actively delaying EV deployments due to local infrastructure?"</em> → Exact impact map generated instantly.</li>
               </ul>
             </div>
 

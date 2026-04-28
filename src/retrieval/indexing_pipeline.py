@@ -28,24 +28,25 @@ WORKING_DIR.mkdir(parents=True, exist_ok=True)
 # API Keys
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
-# --- LLM Setup (Moonshot) ---
-# Adjust concurrency depending on Moonshot tier.
-moonshot_semaphore = asyncio.Semaphore(5)
-MOONSHOT_API_KEY = os.environ.get("MOONSHOT_API_KEY")
+# --- LLM Setup (OpenAI Throttled) ---
+# Hard throttle to 1 concurrent task to respect OpenAI's Minute-based TPM quota on lower tiers.
+openai_semaphore = asyncio.Semaphore(1)
 
 async def openai_model_complete(
     prompt, system_prompt=None, history_messages=[], **kwargs
 ) -> str:
-    """Moonshot API wrapper via OpenAI Client interface"""
+    """OpenAI API wrapper with strict rate-limit throttling"""
     
-    async with moonshot_semaphore:
+    async with openai_semaphore:
         for attempt in range(5): 
             try:
-                # Small cooldown
-                await asyncio.sleep(0.5)
+                # 🛑 CRITICAL THROTTLE: Force a 10-second pause between EVERY API call
+                # This explicitly prevents OpenAI from throwing a 429 TooManyRequests
+                # due to Tokens-Per-Minute (TPM) limits on complex RAG ingests.
+                print("   ⏳ Throttling: Pausing for 10 seconds to respect OpenAI TPM limit...")
+                await asyncio.sleep(10.0)
                 
-                # Point OpenAI client to Moonshot endpoint
-                client = AsyncOpenAI(api_key=MOONSHOT_API_KEY, base_url="https://api.moonshot.ai/v1")
+                client = AsyncOpenAI(api_key=OPENAI_API_KEY)
                 
                 messages = []
                 if system_prompt:
@@ -56,15 +57,15 @@ async def openai_model_complete(
                 allowed_kwargs = {k: v for k, v in kwargs.items() if k in ["temperature", "top_p", "max_tokens"]}
                 
                 response = await client.chat.completions.create(
-                    model="moonshot-v1-8k",
+                    model="gpt-4o-mini",
                     messages=messages,
                     **allowed_kwargs
                 )
                 return response.choices[0].message.content
             except Exception as e:
                 if "429" in str(e) and attempt < 4:
-                    print(f"⚠️ Rate limited. Cooling down for 10s... (Attempt {attempt+1}/5)")
-                    await asyncio.sleep(10.0)
+                    print(f"⚠️ OpenAI Rate limited. Cooling down for 30s... (Attempt {attempt+1}/5)")
+                    await asyncio.sleep(30.0)
                     continue
                 raise e
 
@@ -86,13 +87,13 @@ async def local_embedding(texts: list[str]) -> np.ndarray:
 rag = LightRAG(
     working_dir=str(WORKING_DIR),
     llm_model_func=openai_model_complete,
-    llm_model_name="moonshot-v1-8k",
+    llm_model_name="gpt-4o-mini",
     embedding_func=EmbeddingFunc(
         embedding_dim=384, # all-MiniLM-L6-v2 dimension
         max_token_size=512,
         func=local_embedding
     ),
-    addon_params={"max_async_tasks": 5} 
+    addon_params={"max_async_tasks": 1} 
 )
 
 async def build_graph():
