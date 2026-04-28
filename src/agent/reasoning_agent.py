@@ -11,7 +11,10 @@ import json
 from pathlib import Path
 from typing import TypedDict, List, Dict, Any
 from langgraph.graph import StateGraph, START, END
-from src.retrieval.indexing_pipeline import rag, openai_model_complete
+try:
+    from retrieval.indexing_pipeline import rag, openai_model_complete
+except ImportError:
+    from src.retrieval.indexing_pipeline import rag, openai_model_complete
 from lightrag import QueryParam
 
 CHUNK_STORE_PATH = Path(__file__).parent.parent.parent / "data" / "index" / "kv_store_text_chunks.json"
