@@ -53,21 +53,29 @@ async def architect_node(state: AgentState):
     quarters = f.get('quarters', [])
     layers   = f.get('layers',   [])
 
+    # If the user query mentions a vertical (e.g. "memory") but the filter isn't checked,
+    # we automatically check it for the retrieval step to bias results.
+    detected_layers = list(layers)
+    for l_key, l_tickers in VERTICAL_TICKER_MAP.items():
+        if l_key.lower().replace(' ', '').split('/')[0] in query.replace(' ', ''):
+            if l_key not in detected_layers:
+                detected_layers.append(l_key)
+
     aug = state['query']
     if quarters:
         date_terms = []
         for q in quarters:
             date_terms.extend(QUARTER_DATE_MAP.get(q, [q]))
-        aug += f" (focusing on: {', '.join(quarters)}, period markers: {', '.join(date_terms[:6])})"
-    if layers:
-        # Expand verticals to company names for query biasing
-        layer_companies = []
-        for layer in layers:
-            layer_companies.extend(VERTICAL_TICKER_MAP.get(layer, [layer]))
-        aug += f" (focus on companies: {', '.join(layer_companies)})"
+        aug += f" (Focus on periods: {', '.join(date_terms)})"
+    
+    if detected_layers:
+        ticker_bias = []
+        for l in detected_layers:
+            ticker_bias.extend(VERTICAL_TICKER_MAP.get(l, []))
+        if ticker_bias:
+            aug += f" (Prioritize data for: {', '.join(ticker_bias)})"
 
-    print(f"🗺️  [Architect] Mode={mode.upper()} | Quarters={quarters} | Layers={layers}")
-    print(f"🔑  [Architect] Augmented query: {aug[:120]}...")
+    print(f"📐 [Architect] Mode: {mode} | AugQuery: {aug}")
     return {"search_mode": mode, "augmented_query": aug}
 
 async def researcher_node(state: AgentState):
@@ -152,9 +160,12 @@ async def analyst_node(state: AgentState):
     print("🧠 [Analyst] Synthesizing...")
     context = state.get('filtered_context', '').strip()
     
-    # HARD BLOCK: If no data was found by the researcher/filter, do NOT let the LLM hallucinate.
+    # HARD BLOCK: Only if context is genuinely empty or a failure message.
     if not context or "[No data found" in context:
-        return {"synthesized_answer": f"I'm sorry, but I don't have any intelligence in the database for the selected scope. Please try adjusting your filters or asking about 2025/2026 data."}
+        # If the user specifically asked for 2023, be firm but helpful.
+        if "2023" in state['query']:
+            return {"synthesized_answer": "I'm sorry, but we don't have historical data for 2023 in the database. I can provide insights for 2025 and 2026 if you'd like."}
+        return {"synthesized_answer": "I found some sources, but they don't contain specific facts for that query. Try broadening your vertical filters."}
 
     f = state.get('filters', {})
     quarters = f.get('quarters', [])
@@ -163,24 +174,22 @@ async def analyst_node(state: AgentState):
     layer_note  = f"\n- VERTICALS: {', '.join(layers)}" if layers else ""
     period_note = f"\n- PERIODS: {', '.join(quarters)}" if quarters else ""
 
-    prompt = f"""⛔ TOP PRIORITY: USE ONLY THE RAW INTELLIGENCE BELOW. NEVER USE TRAINING DATA.
-
-You are the Head of Semiconductor Advisory at Element. Synthesize the provided context into a concise strategic briefing.
+    prompt = f"""You are the Head of Semiconductor Advisory at Element. Synthesize the context below into a strategic briefing.
 
 USER QUERY: {state['query']}{period_note}{layer_note}
 
-STRICT CONSTRAINTS:
-1. Every fact MUST be cited with (TICKER PERIOD). If it's not in the RAW INTELLIGENCE, do not mention it.
-2. If the intelligence mentions 2024 comparisons, you may include them, but NEVER invent 2023 standalone facts.
-3. Be direct. No "In 2023..." or "The market exhibited..." fluff. 
+⛔ ANTI-HALLUCINATION RULES:
+1. USE ONLY THE RAW INTELLIGENCE BELOW. NEVER use training data (especially about 2023).
+2. Every fact MUST be cited with (TICKER PERIOD).
+3. If the context is sparse, provide the best summary possible based on what IS there (e.g. mentions from equipment suppliers), but clearly state any data gaps.
 
-RAW INTELLIGENCE (The only source of truth):
+RAW INTELLIGENCE:
 {context}
 
 FORMAT:
-- Key insight in bold.
-- Bulleted strategic points.
-- Cite sources for every line.
+- Bold key findings.
+- Use bullet points.
+- Cited sources on every line.
 """
     briefing = await openai_model_complete(prompt, system_prompt="You are an elite analyst. You only speak from provided context. You refuse to use outside knowledge.")
     return {"synthesized_answer": briefing}
