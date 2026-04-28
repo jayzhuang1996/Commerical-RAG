@@ -10187,10 +10187,11 @@
       "chunk-050055b3bc468fa0d183c4f69822f018",
       "chunk-dcd60bd481d4c18ea8bb40251eca7fd9",
       "chunk-6757e425a6551576cf75d5c43bed978b",
-      "chunk-9ef724090f2a41e7cecef1f44f58528c"
+      "chunk-9ef724090f2a41e7cecef1f44f58528c",
+      "chunk-081b87bdfa5b7b9240b8010a59287465"
     ],
-    "count": 5,
-    "update_time": 1777383954,
+    "count": 6,
+    "update_time": 1777397901,
     "_id": "China<SEP>U.S."
   },
   "AI Racks and Systems<SEP>Semiconductor Solutions": {
@@ -13955,10 +13956,13 @@
     "chunk_ids": [
       "chunk-ab4fed2451ba98a9b8f9ac6037703d67",
       "chunk-ab882193480b8630b9d1e0533e552c81",
-      "chunk-fb486dfb56bf85d6ae14e7fb278c309f"
+      "chunk-fb486dfb56bf85d6ae14e7fb278c309f",
+      "chunk-f11cd3b79fa467dfdf377c21dcaf40e5",
+      "chunk-277358830cf4844ac04d954b37c93b92",
+      "chunk-846bdf1d395dc1649253880da1608056"
     ],
-    "count": 3,
-    "update_time": 1777397598,
+    "count": 6,
+    "update_time": 1777398038,
     "_id": "Board of Directors<SEP>Stock Repurchase Program"
   },
   "$10 Billion<SEP>Board of Directors": {
@@ -22562,11 +22566,11 @@
   },
   "China<SEP>Trade Restrictions": {
     "chunk_ids": [
-      "chunk-bd5ea776dd0bc037e9d5bef333467033"
+      "chunk-bd5ea776dd0bc037e9d5bef333467033",
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
     ],
-    "count": 1,
-    "create_time": 1777383103,
-    "update_time": 1777383103,
+    "count": 2,
+    "update_time": 1777397908,
     "_id": "China<SEP>Trade Restrictions"
   },
   "British Pound<SEP>U.S. Dollar": {
@@ -22589,11 +22593,11 @@
   },
   "Tariffs<SEP>Trade Restrictions": {
     "chunk_ids": [
-      "chunk-bd5ea776dd0bc037e9d5bef333467033"
+      "chunk-bd5ea776dd0bc037e9d5bef333467033",
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
     ],
-    "count": 1,
-    "create_time": 1777383103,
-    "update_time": 1777383103,
+    "count": 2,
+    "update_time": 1777397902,
     "_id": "Tariffs<SEP>Trade Restrictions"
   },
   "China<SEP>Suppliers": {
@@ -31284,11 +31288,11 @@
   },
   "Cyberattacks<SEP>Third-Party Vendors": {
     "chunk_ids": [
-      "chunk-d5339e2e4f44fef3ea1ab7f4965fff32"
+      "chunk-d5339e2e4f44fef3ea1ab7f4965fff32",
+      "chunk-efee087aea00c21f42847881e518eac1"
     ],
-    "count": 1,
-    "create_time": 1777385906,
-    "update_time": 1777385906,
+    "count": 2,
+    "update_time": 1777397902,
     "_id": "Cyberattacks<SEP>Third-Party Vendors"
   },
   "Employees<SEP>Talent Retention": {
@@ -43170,11 +43174,11 @@
   },
   "Ansys Merger<SEP>Stock Repurchase Program": {
     "chunk_ids": [
-      "chunk-fb486dfb56bf85d6ae14e7fb278c309f"
+      "chunk-fb486dfb56bf85d6ae14e7fb278c309f",
+      "chunk-e63de577d8e9d322320af706fe1ad486"
     ],
-    "count": 1,
-    "create_time": 1777397598,
-    "update_time": 1777397598,
+    "count": 2,
+    "update_time": 1777398015,
     "_id": "Ansys Merger<SEP>Stock Repurchase Program"
   },
   "Material Cash Requirements<SEP>Purchase Obligations": {
@@ -43206,11 +43210,12 @@
   },
   "Ansys Merger<SEP>SNPS": {
     "chunk_ids": [
-      "chunk-960b2bec6c132e3d91074f5f54e54630"
+      "chunk-960b2bec6c132e3d91074f5f54e54630",
+      "chunk-f11cd3b79fa467dfdf377c21dcaf40e5",
+      "chunk-277358830cf4844ac04d954b37c93b92"
     ],
-    "count": 1,
-    "create_time": 1777397598,
-    "update_time": 1777397598,
+    "count": 3,
+    "update_time": 1777397978,
     "_id": "Ansys Merger<SEP>SNPS"
   },
   "Debt Obligations<SEP>Long Term Accrued Income Taxes": {
@@ -43369,11 +43374,11 @@
   },
   "Design Automation Segment<SEP>EDA Solutions": {
     "chunk_ids": [
-      "chunk-4010638b7b766d69286ef378650f0286"
+      "chunk-4010638b7b766d69286ef378650f0286",
+      "chunk-55b539d5687bf58a9b73e07a0422cb72"
     ],
-    "count": 1,
-    "create_time": 1777397598,
-    "update_time": 1777397598,
+    "count": 2,
+    "update_time": 1777397901,
     "_id": "Design Automation Segment<SEP>EDA Solutions"
   },
   "Ansys<SEP>Customer Relationships": {
@@ -43663,5 +43668,989 @@
     "create_time": 1777397599,
     "update_time": 1777397599,
     "_id": "ABR<SEP>Synopsys"
+  },
+  "Income Taxes<SEP>U.S.": {
+    "chunk_ids": [
+      "chunk-b34b4d71321fd4ecd5d0a2979a9f764d"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Income Taxes<SEP>U.S."
+  },
+  "Corporate Sustainability Reporting Directive<SEP>European Union": {
+    "chunk_ids": [
+      "chunk-b34b4d71321fd4ecd5d0a2979a9f764d"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Corporate Sustainability Reporting Directive<SEP>European Union"
+  },
+  "Nasdaq Stock Market<SEP>SEC": {
+    "chunk_ids": [
+      "chunk-b34b4d71321fd4ecd5d0a2979a9f764d"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Nasdaq Stock Market<SEP>SEC"
+  },
+  "Debt Securities<SEP>Senior Notes": {
+    "chunk_ids": [
+      "chunk-b34b4d71321fd4ecd5d0a2979a9f764d"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Debt Securities<SEP>Senior Notes"
+  },
+  "Covenants<SEP>Indebtedness": {
+    "chunk_ids": [
+      "chunk-b34b4d71321fd4ecd5d0a2979a9f764d"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Covenants<SEP>Indebtedness"
+  },
+  "EDA Solutions<SEP>IP Solutions": {
+    "chunk_ids": [
+      "chunk-55b539d5687bf58a9b73e07a0422cb72"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "EDA Solutions<SEP>IP Solutions"
+  },
+  "Taxation<SEP>U.S.": {
+    "chunk_ids": [
+      "chunk-b34b4d71321fd4ecd5d0a2979a9f764d"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Taxation<SEP>U.S."
+  },
+  "California<SEP>Corporate Sustainability Reporting Directive": {
+    "chunk_ids": [
+      "chunk-b34b4d71321fd4ecd5d0a2979a9f764d"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "California<SEP>Corporate Sustainability Reporting Directive"
+  },
+  "Trade Restrictions<SEP>United States": {
+    "chunk_ids": [
+      "chunk-55b539d5687bf58a9b73e07a0422cb72",
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
+    ],
+    "count": 2,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Trade Restrictions<SEP>United States"
+  },
+  "BIS<SEP>Government Agencies": {
+    "chunk_ids": [
+      "chunk-55b539d5687bf58a9b73e07a0422cb72"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "BIS<SEP>Government Agencies"
+  },
+  "Customer Demand<SEP>Operating Costs": {
+    "chunk_ids": [
+      "chunk-55b539d5687bf58a9b73e07a0422cb72"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Customer Demand<SEP>Operating Costs"
+  },
+  "Semiconductor Industry<SEP>Trade Restrictions": {
+    "chunk_ids": [
+      "chunk-55b539d5687bf58a9b73e07a0422cb72",
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
+    ],
+    "count": 2,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Semiconductor Industry<SEP>Trade Restrictions"
+  },
+  "Synopsys<SEP>United States District Court for the Northern District of California": {
+    "chunk_ids": [
+      "chunk-fb7bbd5c5bf0f0f2827bf44f6118c7db"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Synopsys<SEP>United States District Court for the Northern District of California"
+  },
+  "Chinese Companies<SEP>EDA Solutions": {
+    "chunk_ids": [
+      "chunk-55b539d5687bf58a9b73e07a0422cb72"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Chinese Companies<SEP>EDA Solutions"
+  },
+  "Ansys S&A Software<SEP>Design Automation Segment": {
+    "chunk_ids": [
+      "chunk-55b539d5687bf58a9b73e07a0422cb72"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Ansys S&A Software<SEP>Design Automation Segment"
+  },
+  "Design IP Segment<SEP>Synopsys": {
+    "chunk_ids": [
+      "chunk-fb7bbd5c5bf0f0f2827bf44f6118c7db"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Design IP Segment<SEP>Synopsys"
+  },
+  "Competitive Factors<SEP>Design Automation Segment": {
+    "chunk_ids": [
+      "chunk-55b539d5687bf58a9b73e07a0422cb72"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Competitive Factors<SEP>Design Automation Segment"
+  },
+  "COVID-19 Pandemic<SEP>Synopsys": {
+    "chunk_ids": [
+      "chunk-fb7bbd5c5bf0f0f2827bf44f6118c7db"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "COVID-19 Pandemic<SEP>Synopsys"
+  },
+  "Ansys<SEP>Channel Partners": {
+    "chunk_ids": [
+      "chunk-081b87bdfa5b7b9240b8010a59287465"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Ansys<SEP>Channel Partners"
+  },
+  "Foreign Currency Exchange Rates<SEP>Renminbi": {
+    "chunk_ids": [
+      "chunk-081b87bdfa5b7b9240b8010a59287465"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Foreign Currency Exchange Rates<SEP>Renminbi"
+  },
+  "California<SEP>Synopsys": {
+    "chunk_ids": [
+      "chunk-fb7bbd5c5bf0f0f2827bf44f6118c7db"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "California<SEP>Synopsys"
+  },
+  "Ansys<SEP>Ansys Merger": {
+    "chunk_ids": [
+      "chunk-081b87bdfa5b7b9240b8010a59287465"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Ansys<SEP>Ansys Merger"
+  },
+  "Foreign Currency Exchange Rates<SEP>Yen": {
+    "chunk_ids": [
+      "chunk-081b87bdfa5b7b9240b8010a59287465"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Foreign Currency Exchange Rates<SEP>Yen"
+  },
+  "Tariffs<SEP>Trade Barriers": {
+    "chunk_ids": [
+      "chunk-081b87bdfa5b7b9240b8010a59287465"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Tariffs<SEP>Trade Barriers"
+  },
+  "Catastrophic Events<SEP>Synopsys": {
+    "chunk_ids": [
+      "chunk-fb7bbd5c5bf0f0f2827bf44f6118c7db"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Catastrophic Events<SEP>Synopsys"
+  },
+  "Ansys Merger<SEP>Stockholders": {
+    "chunk_ids": [
+      "chunk-17d69b500f228a10d6798e84a71b7eec"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Ansys Merger<SEP>Stockholders"
+  },
+  "Customers<SEP>IP Products": {
+    "chunk_ids": [
+      "chunk-17d69b500f228a10d6798e84a71b7eec"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Customers<SEP>IP Products"
+  },
+  "Divestitures<SEP>Revenue": {
+    "chunk_ids": [
+      "chunk-17d69b500f228a10d6798e84a71b7eec"
+    ],
+    "count": 1,
+    "create_time": 1777397901,
+    "update_time": 1777397901,
+    "_id": "Divestitures<SEP>Revenue"
+  },
+  "Litigation Proceedings<SEP>Synopsys": {
+    "chunk_ids": [
+      "chunk-fb7bbd5c5bf0f0f2827bf44f6118c7db"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Litigation Proceedings<SEP>Synopsys"
+  },
+  "Acquisitions<SEP>Ansys Merger": {
+    "chunk_ids": [
+      "chunk-17d69b500f228a10d6798e84a71b7eec"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Acquisitions<SEP>Ansys Merger"
+  },
+  "Securities Analysts<SEP>Stockholders": {
+    "chunk_ids": [
+      "chunk-17d69b500f228a10d6798e84a71b7eec"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Securities Analysts<SEP>Stockholders"
+  },
+  "Cybersecurity Threats<SEP>Sensitive Data": {
+    "chunk_ids": [
+      "chunk-efee087aea00c21f42847881e518eac1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Cybersecurity Threats<SEP>Sensitive Data"
+  },
+  "Monetary Damages<SEP>Synopsys": {
+    "chunk_ids": [
+      "chunk-fb7bbd5c5bf0f0f2827bf44f6118c7db"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Monetary Damages<SEP>Synopsys"
+  },
+  "Acquisitions<SEP>Financial Constraints": {
+    "chunk_ids": [
+      "chunk-17d69b500f228a10d6798e84a71b7eec"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Acquisitions<SEP>Financial Constraints"
+  },
+  "Stock Price<SEP>Stockholders": {
+    "chunk_ids": [
+      "chunk-17d69b500f228a10d6798e84a71b7eec"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Stock Price<SEP>Stockholders"
+  },
+  "Data Centers<SEP>Sensitive Data": {
+    "chunk_ids": [
+      "chunk-efee087aea00c21f42847881e518eac1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Data Centers<SEP>Sensitive Data"
+  },
+  "Cybersecurity Threats<SEP>Proprietary Technology": {
+    "chunk_ids": [
+      "chunk-efee087aea00c21f42847881e518eac1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Cybersecurity Threats<SEP>Proprietary Technology"
+  },
+  "Security Breaches<SEP>Sensitive Data": {
+    "chunk_ids": [
+      "chunk-efee087aea00c21f42847881e518eac1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Security Breaches<SEP>Sensitive Data"
+  },
+  "Intellectual Property<SEP>Proprietary Technology": {
+    "chunk_ids": [
+      "chunk-efee087aea00c21f42847881e518eac1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Intellectual Property<SEP>Proprietary Technology"
+  },
+  "AI Technologies<SEP>Cybersecurity Threats": {
+    "chunk_ids": [
+      "chunk-efee087aea00c21f42847881e518eac1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "AI Technologies<SEP>Cybersecurity Threats"
+  },
+  "Bureau of Industry and Security (BIS)<SEP>Trade Restrictions": {
+    "chunk_ids": [
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Bureau of Industry and Security (BIS)<SEP>Trade Restrictions"
+  },
+  "Cybersecurity Threats<SEP>Incident Response": {
+    "chunk_ids": [
+      "chunk-efee087aea00c21f42847881e518eac1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Cybersecurity Threats<SEP>Incident Response"
+  },
+  "Economies<SEP>Trade Restrictions": {
+    "chunk_ids": [
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Economies<SEP>Trade Restrictions"
+  },
+  "Cybersecurity Threats<SEP>Malicious Cyberattack Attempts": {
+    "chunk_ids": [
+      "chunk-efee087aea00c21f42847881e518eac1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Cybersecurity Threats<SEP>Malicious Cyberattack Attempts"
+  },
+  "Europe<SEP>Trade Restrictions": {
+    "chunk_ids": [
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Europe<SEP>Trade Restrictions"
+  },
+  "Fiscal Year 2025<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Fiscal Year 2025<SEP>Semiconductor Industry"
+  },
+  "Middle East<SEP>Trade Restrictions": {
+    "chunk_ids": [
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Middle East<SEP>Trade Restrictions"
+  },
+  "AI<SEP>Intellectual Property Laws": {
+    "chunk_ids": [
+      "chunk-7611194c018522261d1f3991ea13d779"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "AI<SEP>Intellectual Property Laws"
+  },
+  "Foreign Corrupt Practices Act<SEP>Trade Restrictions": {
+    "chunk_ids": [
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Foreign Corrupt Practices Act<SEP>Trade Restrictions"
+  },
+  "AI<SEP>Semiconductor and Electronics Industries": {
+    "chunk_ids": [
+      "chunk-7611194c018522261d1f3991ea13d779"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "AI<SEP>Semiconductor and Electronics Industries"
+  },
+  "Key Employees<SEP>Senior Management Team": {
+    "chunk_ids": [
+      "chunk-7611194c018522261d1f3991ea13d779"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Key Employees<SEP>Senior Management Team"
+  },
+  "Strategic Partnerships<SEP>Trade Restrictions": {
+    "chunk_ids": [
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Strategic Partnerships<SEP>Trade Restrictions"
+  },
+  "Ansys Merger<SEP>Senior Management Team": {
+    "chunk_ids": [
+      "chunk-7611194c018522261d1f3991ea13d779"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Ansys Merger<SEP>Senior Management Team"
+  },
+  "Compensation Packages<SEP>Key Employees": {
+    "chunk_ids": [
+      "chunk-7611194c018522261d1f3991ea13d779"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Compensation Packages<SEP>Key Employees"
+  },
+  "Intellectual Property Laws<SEP>Unauthorized Use": {
+    "chunk_ids": [
+      "chunk-7611194c018522261d1f3991ea13d779"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Intellectual Property Laws<SEP>Unauthorized Use"
+  },
+  "Intellectual Property Laws<SEP>Piracy": {
+    "chunk_ids": [
+      "chunk-7611194c018522261d1f3991ea13d779"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Intellectual Property Laws<SEP>Piracy"
+  },
+  "Competition<SEP>Key Employees": {
+    "chunk_ids": [
+      "chunk-7611194c018522261d1f3991ea13d779"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Competition<SEP>Key Employees"
+  },
+  "Equity-Based Compensation<SEP>Stockholders": {
+    "chunk_ids": [
+      "chunk-d51ffe8791338a58411ed60dc6ed13a4"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Equity-Based Compensation<SEP>Stockholders"
+  },
+  "S&A-Targeted Industries<SEP>Trade Restrictions": {
+    "chunk_ids": [
+      "chunk-2c46bfbec7744879604d0d66060e60a1"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "S&A-Targeted Industries<SEP>Trade Restrictions"
+  },
+  "Intellectual Property Laws<SEP>Litigation": {
+    "chunk_ids": [
+      "chunk-7611194c018522261d1f3991ea13d779"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Intellectual Property Laws<SEP>Litigation"
+  },
+  "Market Demand<SEP>Product Development": {
+    "chunk_ids": [
+      "chunk-d51ffe8791338a58411ed60dc6ed13a4"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Market Demand<SEP>Product Development"
+  },
+  "Key Employees<SEP>Senior Management": {
+    "chunk_ids": [
+      "chunk-d51ffe8791338a58411ed60dc6ed13a4"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Key Employees<SEP>Senior Management"
+  },
+  "Hardware Products<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-d51ffe8791338a58411ed60dc6ed13a4"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Hardware Products<SEP>Semiconductor Industry"
+  },
+  "Intellectual Property Rights<SEP>Products": {
+    "chunk_ids": [
+      "chunk-d51ffe8791338a58411ed60dc6ed13a4"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Intellectual Property Rights<SEP>Products"
+  },
+  "Product Development<SEP>Research and Development": {
+    "chunk_ids": [
+      "chunk-d51ffe8791338a58411ed60dc6ed13a4"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Product Development<SEP>Research and Development"
+  },
+  "Hardware Products<SEP>Prototyping Systems": {
+    "chunk_ids": [
+      "chunk-d51ffe8791338a58411ed60dc6ed13a4"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Hardware Products<SEP>Prototyping Systems"
+  },
+  "Q4_2025<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-de44d30f89cc1106a2371f3af63a2242"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Q4_2025<SEP>SNPS"
+  },
+  "Products<SEP>Third-Party Suppliers": {
+    "chunk_ids": [
+      "chunk-d51ffe8791338a58411ed60dc6ed13a4"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Products<SEP>Third-Party Suppliers"
+  },
+  "Macroeconomic Environment<SEP>Semiconductor and Electronics Industries": {
+    "chunk_ids": [
+      "chunk-de44d30f89cc1106a2371f3af63a2242"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Macroeconomic Environment<SEP>Semiconductor and Electronics Industries"
+  },
+  "Emulation Systems<SEP>Hardware Products": {
+    "chunk_ids": [
+      "chunk-d51ffe8791338a58411ed60dc6ed13a4"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Emulation Systems<SEP>Hardware Products"
+  },
+  "Annual Risk Report<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-de44d30f89cc1106a2371f3af63a2242"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Annual Risk Report<SEP>SNPS"
+  },
+  "Design Automation Segment<SEP>Semiconductor and Electronics Industries": {
+    "chunk_ids": [
+      "chunk-de44d30f89cc1106a2371f3af63a2242"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Design Automation Segment<SEP>Semiconductor and Electronics Industries"
+  },
+  "2025 Tariffs<SEP>Macroeconomic Environment": {
+    "chunk_ids": [
+      "chunk-de44d30f89cc1106a2371f3af63a2242"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "2025 Tariffs<SEP>Macroeconomic Environment"
+  },
+  "Foundries<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-de44d30f89cc1106a2371f3af63a2242"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Foundries<SEP>SNPS"
+  },
+  "Artificial Intelligence Sector<SEP>Semiconductor and Electronics Industries": {
+    "chunk_ids": [
+      "chunk-de44d30f89cc1106a2371f3af63a2242"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Artificial Intelligence Sector<SEP>Semiconductor and Electronics Industries"
+  },
+  "Ansys Merger<SEP>Debt": {
+    "chunk_ids": [
+      "chunk-e3fba833bc4ae633534b6e23f44bb5bc"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Ansys Merger<SEP>Debt"
+  },
+  "Open Source Licenses<SEP>Third-Party Intellectual Property": {
+    "chunk_ids": [
+      "chunk-e3fba833bc4ae633534b6e23f44bb5bc"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Open Source Licenses<SEP>Third-Party Intellectual Property"
+  },
+  "Credit Markets<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-de44d30f89cc1106a2371f3af63a2242"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Credit Markets<SEP>SNPS"
+  },
+  "High-Performance Computing Sector<SEP>Semiconductor and Electronics Industries": {
+    "chunk_ids": [
+      "chunk-de44d30f89cc1106a2371f3af63a2242"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "High-Performance Computing Sector<SEP>Semiconductor and Electronics Industries"
+  },
+  "$4.3 Billion Term Loan<SEP>Debt": {
+    "chunk_ids": [
+      "chunk-e3fba833bc4ae633534b6e23f44bb5bc"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "$4.3 Billion Term Loan<SEP>Debt"
+  },
+  "Customer Agreements<SEP>Third-Party Intellectual Property": {
+    "chunk_ids": [
+      "chunk-e3fba833bc4ae633534b6e23f44bb5bc"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Customer Agreements<SEP>Third-Party Intellectual Property"
+  },
+  "Debt<SEP>October 31, 2025": {
+    "chunk_ids": [
+      "chunk-e3fba833bc4ae633534b6e23f44bb5bc"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Debt<SEP>October 31, 2025"
+  },
+  "Infringement Claims<SEP>Third-Party Intellectual Property": {
+    "chunk_ids": [
+      "chunk-e3fba833bc4ae633534b6e23f44bb5bc"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Infringement Claims<SEP>Third-Party Intellectual Property"
+  },
+  "Credit Ratings<SEP>Debt": {
+    "chunk_ids": [
+      "chunk-e3fba833bc4ae633534b6e23f44bb5bc"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Credit Ratings<SEP>Debt"
+  },
+  "Licenses<SEP>Third-Party Intellectual Property": {
+    "chunk_ids": [
+      "chunk-e3fba833bc4ae633534b6e23f44bb5bc"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Licenses<SEP>Third-Party Intellectual Property"
+  },
+  "Infringement Claims<SEP>Royalty Arrangements": {
+    "chunk_ids": [
+      "chunk-e3fba833bc4ae633534b6e23f44bb5bc"
+    ],
+    "count": 1,
+    "create_time": 1777397902,
+    "update_time": 1777397902,
+    "_id": "Infringement Claims<SEP>Royalty Arrangements"
+  },
+  "Synopsys, Inc.<SEP>Tushar Jain": {
+    "chunk_ids": [
+      "chunk-568676f832900b5c7b0214c69502af60"
+    ],
+    "count": 1,
+    "create_time": 1777397930,
+    "update_time": 1777397930,
+    "_id": "Synopsys, Inc.<SEP>Tushar Jain"
+  },
+  "Cara Walker<SEP>Synopsys, Inc.": {
+    "chunk_ids": [
+      "chunk-568676f832900b5c7b0214c69502af60"
+    ],
+    "count": 1,
+    "create_time": 1777397930,
+    "update_time": 1777397930,
+    "_id": "Cara Walker<SEP>Synopsys, Inc."
+  },
+  "Accelerated Share Repurchase Agreement<SEP>Synopsys, Inc.": {
+    "chunk_ids": [
+      "chunk-568676f832900b5c7b0214c69502af60"
+    ],
+    "count": 1,
+    "create_time": 1777397931,
+    "update_time": 1777397931,
+    "_id": "Accelerated Share Repurchase Agreement<SEP>Synopsys, Inc."
+  },
+  "Synopsys, Inc.<SEP>The Bank of Nova Scotia": {
+    "chunk_ids": [
+      "chunk-568676f832900b5c7b0214c69502af60"
+    ],
+    "count": 1,
+    "create_time": 1777397931,
+    "update_time": 1777397931,
+    "_id": "Synopsys, Inc.<SEP>The Bank of Nova Scotia"
+  },
+  "Sunnyvale, Calif.<SEP>Synopsys, Inc.": {
+    "chunk_ids": [
+      "chunk-568676f832900b5c7b0214c69502af60"
+    ],
+    "count": 1,
+    "create_time": 1777397931,
+    "update_time": 1777397931,
+    "_id": "Sunnyvale, Calif.<SEP>Synopsys, Inc."
+  },
+  "$250 Million Accelerated Share Repurchase<SEP>Synopsys, Inc.": {
+    "chunk_ids": [
+      "chunk-568676f832900b5c7b0214c69502af60"
+    ],
+    "count": 1,
+    "create_time": 1777397931,
+    "update_time": 1777397931,
+    "_id": "$250 Million Accelerated Share Repurchase<SEP>Synopsys, Inc."
+  },
+  "Quarterly MDA<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-f11cd3b79fa467dfdf377c21dcaf40e5"
+    ],
+    "count": 1,
+    "create_time": 1777397953,
+    "update_time": 1777397953,
+    "_id": "Quarterly MDA<SEP>SNPS"
+  },
+  "SNPS<SEP>Stock Repurchase Program": {
+    "chunk_ids": [
+      "chunk-f11cd3b79fa467dfdf377c21dcaf40e5",
+      "chunk-277358830cf4844ac04d954b37c93b92",
+      "chunk-e63de577d8e9d322320af706fe1ad486"
+    ],
+    "count": 3,
+    "update_time": 1777398015,
+    "_id": "SNPS<SEP>Stock Repurchase Program"
+  },
+  "Q1 2025<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-f11cd3b79fa467dfdf377c21dcaf40e5"
+    ],
+    "count": 1,
+    "create_time": 1777397953,
+    "update_time": 1777397953,
+    "_id": "Q1 2025<SEP>SNPS"
+  },
+  "January 31, 2025<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-f11cd3b79fa467dfdf377c21dcaf40e5"
+    ],
+    "count": 1,
+    "create_time": 1777397953,
+    "update_time": 1777397953,
+    "_id": "January 31, 2025<SEP>SNPS"
+  },
+  "November 30, 2024<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-f11cd3b79fa467dfdf377c21dcaf40e5"
+    ],
+    "count": 1,
+    "create_time": 1777397954,
+    "update_time": 1777397954,
+    "_id": "November 30, 2024<SEP>SNPS"
+  },
+  "December 31, 2024<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-f11cd3b79fa467dfdf377c21dcaf40e5"
+    ],
+    "count": 1,
+    "create_time": 1777397954,
+    "update_time": 1777397954,
+    "_id": "December 31, 2024<SEP>SNPS"
+  },
+  "Q2 2025<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-277358830cf4844ac04d954b37c93b92"
+    ],
+    "count": 1,
+    "create_time": 1777397978,
+    "update_time": 1777397978,
+    "_id": "Q2 2025<SEP>SNPS"
+  },
+  "July 31, 2025<SEP>Q3_2025": {
+    "chunk_ids": [
+      "chunk-e63de577d8e9d322320af706fe1ad486"
+    ],
+    "count": 1,
+    "create_time": 1777398015,
+    "update_time": 1777398015,
+    "_id": "July 31, 2025<SEP>Q3_2025"
+  },
+  "2025-09-09<SEP>Q3_2025": {
+    "chunk_ids": [
+      "chunk-e63de577d8e9d322320af706fe1ad486"
+    ],
+    "count": 1,
+    "create_time": 1777398015,
+    "update_time": 1777398015,
+    "_id": "2025-09-09<SEP>Q3_2025"
+  },
+  "Ansys<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-846bdf1d395dc1649253880da1608056"
+    ],
+    "count": 1,
+    "create_time": 1777398038,
+    "update_time": 1777398038,
+    "_id": "Ansys<SEP>SNPS"
+  },
+  "SNPS<SEP>Securities Act": {
+    "chunk_ids": [
+      "chunk-846bdf1d395dc1649253880da1608056"
+    ],
+    "count": 1,
+    "create_time": 1777398038,
+    "update_time": 1777398038,
+    "_id": "SNPS<SEP>Securities Act"
+  },
+  "Ansys<SEP>Earnout Amounts": {
+    "chunk_ids": [
+      "chunk-846bdf1d395dc1649253880da1608056"
+    ],
+    "count": 1,
+    "create_time": 1777398038,
+    "update_time": 1777398038,
+    "_id": "Ansys<SEP>Earnout Amounts"
+  },
+  "Q1 2026<SEP>Stock Repurchase Program": {
+    "chunk_ids": [
+      "chunk-846bdf1d395dc1649253880da1608056"
+    ],
+    "count": 1,
+    "create_time": 1777398038,
+    "update_time": 1777398038,
+    "_id": "Q1 2026<SEP>Stock Repurchase Program"
+  },
+  "$1.5 Billion Stock Repurchase Authorization<SEP>Board of Directors": {
+    "chunk_ids": [
+      "chunk-846bdf1d395dc1649253880da1608056"
+    ],
+    "count": 1,
+    "create_time": 1777398038,
+    "update_time": 1777398038,
+    "_id": "$1.5 Billion Stock Repurchase Authorization<SEP>Board of Directors"
+  },
+  "Regulation D<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-846bdf1d395dc1649253880da1608056"
+    ],
+    "count": 1,
+    "create_time": 1777398038,
+    "update_time": 1777398038,
+    "_id": "Regulation D<SEP>SNPS"
+  },
+  "$2.0 Billion Stock Repurchase Authorization<SEP>Board of Directors": {
+    "chunk_ids": [
+      "chunk-846bdf1d395dc1649253880da1608056"
+    ],
+    "count": 1,
+    "create_time": 1777398038,
+    "update_time": 1777398038,
+    "_id": "$2.0 Billion Stock Repurchase Authorization<SEP>Board of Directors"
+  },
+  "Common Stock<SEP>SNPS": {
+    "chunk_ids": [
+      "chunk-846bdf1d395dc1649253880da1608056"
+    ],
+    "count": 1,
+    "create_time": 1777398038,
+    "update_time": 1777398038,
+    "_id": "Common Stock<SEP>SNPS"
   }
 }

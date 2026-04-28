@@ -2885,7 +2885,7 @@
     }
   },
   "doc-371df1c46e2a8ceb0abc709b24947308": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 11,
     "chunks_list": [
       "chunk-de44d30f89cc1106a2371f3af63a2242",
@@ -2903,11 +2903,118 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: SNPS\nLayer: LAYER_G\nPeriod: Q4_2025\nDate: 2025-12-22\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A.     Risk Factors\n\nFactors that May Affect Future Results\n\nDescriptions of risks associated with our business are set for...",
     "content_length": 68462,
     "created_at": "2026-04-28T17:33:20.412671+00:00",
-    "updated_at": "2026-04-28T17:33:20.458163+00:00",
+    "updated_at": "2026-04-28T17:38:28.138021+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_133320_ce12df3d",
     "metadata": {
-      "processing_start_time": 1777397600
+      "processing_start_time": 1777397600,
+      "processing_end_time": 1777397908
+    }
+  },
+  "doc-568676f832900b5c7b0214c69502af60": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-568676f832900b5c7b0214c69502af60"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SNPS\nLayer: LAYER_G\nPeriod: Q1_2026\nDate: 2026-03-02\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1\n\nNEWS RELEASE\n\nINVESTOR CONTACT:\n\nTushar Jain\n\nSynopsys, Inc.\n\n650-584-4289\n\nEDITORIAL CONTACT:\n\nCara Wal...",
+    "content_length": 2957,
+    "created_at": "2026-04-28T17:38:29.164071+00:00",
+    "updated_at": "2026-04-28T17:38:51.060183+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_133829_91c7ebcf",
+    "metadata": {
+      "processing_start_time": 1777397909,
+      "processing_end_time": 1777397931
+    }
+  },
+  "doc-f11cd3b79fa467dfdf377c21dcaf40e5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f11cd3b79fa467dfdf377c21dcaf40e5"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SNPS\nLayer: LAYER_G\nPeriod: Q1_2025\nDate: 2025-02-26\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.Unregistered Sales of Equity Securities and Use of Proceeds\n\nThe table below sets forth information regarding our repurc...",
+    "content_length": 1382,
+    "created_at": "2026-04-28T17:38:52.232937+00:00",
+    "updated_at": "2026-04-28T17:39:14.071728+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_133852_42509961",
+    "metadata": {
+      "processing_start_time": 1777397932,
+      "processing_end_time": 1777397954
+    }
+  },
+  "doc-277358830cf4844ac04d954b37c93b92": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-277358830cf4844ac04d954b37c93b92"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SNPS\nLayer: LAYER_G\nPeriod: Q2_2025\nDate: 2025-05-28\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.Unregistered Sales of Equity Securities and Use of Proceeds\n\nThe table below sets forth information regarding our repurc...",
+    "content_length": 1368,
+    "created_at": "2026-04-28T17:39:15.077206+00:00",
+    "updated_at": "2026-04-28T17:39:38.992639+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_133915_cbe3e488",
+    "metadata": {
+      "processing_start_time": 1777397955,
+      "processing_end_time": 1777397978
+    }
+  },
+  "doc-e63de577d8e9d322320af706fe1ad486": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e63de577d8e9d322320af706fe1ad486"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SNPS\nLayer: LAYER_G\nPeriod: Q3_2025\nDate: 2025-09-09\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.Unregistered Sales of Equity Securities and Use of Proceeds\n\nThe table below sets forth information regarding our repurc...",
+    "content_length": 1335,
+    "created_at": "2026-04-28T17:39:40.055137+00:00",
+    "updated_at": "2026-04-28T17:40:15.589358+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_133940_45f9968e",
+    "metadata": {
+      "processing_start_time": 1777397980,
+      "processing_end_time": 1777398015
+    }
+  },
+  "doc-846bdf1d395dc1649253880da1608056": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-846bdf1d395dc1649253880da1608056"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SNPS\nLayer: LAYER_G\nPeriod: Q1_2026\nDate: 2026-02-25\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.Unregistered Sales of Equity Securities and Use of Proceeds\n\n(a) Unregistered Sales of Equity Securities\n\nOn January 23,...",
+    "content_length": 1927,
+    "created_at": "2026-04-28T17:40:16.604947+00:00",
+    "updated_at": "2026-04-28T17:40:38.464107+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_134016_ad1d0ecc",
+    "metadata": {
+      "processing_start_time": 1777398016,
+      "processing_end_time": 1777398038
+    }
+  },
+  "doc-9a681ea3d0615e9cddac841fb8c8bad3": {
+    "status": "processing",
+    "chunks_count": 6,
+    "chunks_list": [
+      "chunk-fb667f9c34d7b27dfeaa2c171ea1abee",
+      "chunk-e71ca44218163585d7349bdb6fa90d17",
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82",
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29",
+      "chunk-036390b69ac235df2596dbcdfc06f76e",
+      "chunk-2065990bed72d8fafd2ab17ec531838a"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: STX\nLayer: UNKNOWN_LAYER\nPeriod: Q3_2025\nDate: 2025-08-01\nDoc Type: annual_business\n--- END INFO ---\n\nITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n\nThe following is a discus...",
+    "content_length": 30260,
+    "created_at": "2026-04-28T17:40:39.409186+00:00",
+    "updated_at": "2026-04-28T17:40:39.447975+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_134039_54d54b6a",
+    "metadata": {
+      "processing_start_time": 1777398039
     }
   }
 }

@@ -50,14 +50,14 @@ export default function ForceGraph({ triples }: Props) {
       degree.set(t.target, (degree.get(t.target) || 0) + 1);
     });
 
-    // Only include nodes with degree >= 2 (remove isolated singletons)
+    // Only exclude truly orphan nodes (degree = 0) — keep everything with at least 1 connection
     const validNodes = new Set<string>();
-    degree.forEach((deg, id) => { if (deg >= 2) validNodes.add(id); });
+    degree.forEach((deg, id) => { if (deg >= 1) validNodes.add(id); });
 
-    // Filter links to only those where BOTH endpoints are valid
     const links = triples
       .filter(t => t.source && t.target && t.source !== t.target
                 && validNodes.has(t.source) && validNodes.has(t.target))
+      .slice(0, 50)  // cap at 50 for performance
       .map(t => ({
         source: t.source,
         target: t.target,

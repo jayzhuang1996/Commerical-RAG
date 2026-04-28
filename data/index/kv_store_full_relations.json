@@ -21567,5 +21567,541 @@
     "create_time": 1777397599,
     "update_time": 1777397599,
     "_id": "doc-99cf6bede30e6b36c6fbe7caf90929a4"
+  },
+  "doc-371df1c46e2a8ceb0abc709b24947308": {
+    "relation_pairs": [
+      [
+        "California",
+        "Corporate Sustainability Reporting Directive"
+      ],
+      [
+        "Corporate Sustainability Reporting Directive",
+        "European Union"
+      ],
+      [
+        "Market Demand",
+        "Product Development"
+      ],
+      [
+        "Macroeconomic Environment",
+        "Semiconductor and Electronics Industries"
+      ],
+      [
+        "Compensation Packages",
+        "Key Employees"
+      ],
+      [
+        "Emulation Systems",
+        "Hardware Products"
+      ],
+      [
+        "Ansys",
+        "Channel Partners"
+      ],
+      [
+        "Acquisitions",
+        "Ansys Merger"
+      ],
+      [
+        "Bureau of Industry and Security (BIS)",
+        "Trade Restrictions"
+      ],
+      [
+        "Catastrophic Events",
+        "Synopsys"
+      ],
+      [
+        "Ansys Merger",
+        "Stockholders"
+      ],
+      [
+        "Litigation Proceedings",
+        "Synopsys"
+      ],
+      [
+        "Tariffs",
+        "Trade Barriers"
+      ],
+      [
+        "China",
+        "Trade Restrictions"
+      ],
+      [
+        "Securities Analysts",
+        "Stockholders"
+      ],
+      [
+        "Products",
+        "Third-Party Suppliers"
+      ],
+      [
+        "Divestitures",
+        "Revenue"
+      ],
+      [
+        "AI Technologies",
+        "Cybersecurity Threats"
+      ],
+      [
+        "Acquisitions",
+        "Financial Constraints"
+      ],
+      [
+        "Infringement Claims",
+        "Third-Party Intellectual Property"
+      ],
+      [
+        "Licenses",
+        "Third-Party Intellectual Property"
+      ],
+      [
+        "Ansys",
+        "Ansys Merger"
+      ],
+      [
+        "China",
+        "U.S."
+      ],
+      [
+        "Competition",
+        "Key Employees"
+      ],
+      [
+        "Product Development",
+        "Research and Development"
+      ],
+      [
+        "Economies",
+        "Trade Restrictions"
+      ],
+      [
+        "Ansys Merger",
+        "Debt"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Semiconductor Industry"
+      ],
+      [
+        "Intellectual Property Rights",
+        "Products"
+      ],
+      [
+        "Intellectual Property Laws",
+        "Litigation"
+      ],
+      [
+        "Data Centers",
+        "Sensitive Data"
+      ],
+      [
+        "High-Performance Computing Sector",
+        "Semiconductor and Electronics Industries"
+      ],
+      [
+        "Open Source Licenses",
+        "Third-Party Intellectual Property"
+      ],
+      [
+        "BIS",
+        "Government Agencies"
+      ],
+      [
+        "California",
+        "Synopsys"
+      ],
+      [
+        "Intellectual Property Laws",
+        "Piracy"
+      ],
+      [
+        "Foreign Corrupt Practices Act",
+        "Trade Restrictions"
+      ],
+      [
+        "Credit Markets",
+        "SNPS"
+      ],
+      [
+        "Foundries",
+        "SNPS"
+      ],
+      [
+        "Nasdaq Stock Market",
+        "SEC"
+      ],
+      [
+        "Ansys S&A Software",
+        "Design Automation Segment"
+      ],
+      [
+        "Design Automation Segment",
+        "Semiconductor and Electronics Industries"
+      ],
+      [
+        "Cyberattacks",
+        "Third-Party Vendors"
+      ],
+      [
+        "Q4_2025",
+        "SNPS"
+      ],
+      [
+        "Middle East",
+        "Trade Restrictions"
+      ],
+      [
+        "Customer Demand",
+        "Operating Costs"
+      ],
+      [
+        "Tariffs",
+        "Trade Restrictions"
+      ],
+      [
+        "Artificial Intelligence Sector",
+        "Semiconductor and Electronics Industries"
+      ],
+      [
+        "Customers",
+        "IP Products"
+      ],
+      [
+        "Security Breaches",
+        "Sensitive Data"
+      ],
+      [
+        "2025 Tariffs",
+        "Macroeconomic Environment"
+      ],
+      [
+        "Debt Securities",
+        "Senior Notes"
+      ],
+      [
+        "$4.3 Billion Term Loan",
+        "Debt"
+      ],
+      [
+        "Monetary Damages",
+        "Synopsys"
+      ],
+      [
+        "Competitive Factors",
+        "Design Automation Segment"
+      ],
+      [
+        "Infringement Claims",
+        "Royalty Arrangements"
+      ],
+      [
+        "Key Employees",
+        "Senior Management Team"
+      ],
+      [
+        "Covenants",
+        "Indebtedness"
+      ],
+      [
+        "Debt",
+        "October 31, 2025"
+      ],
+      [
+        "Hardware Products",
+        "Prototyping Systems"
+      ],
+      [
+        "Taxation",
+        "U.S."
+      ],
+      [
+        "Ansys Merger",
+        "Senior Management Team"
+      ],
+      [
+        "Strategic Partnerships",
+        "Trade Restrictions"
+      ],
+      [
+        "EDA Solutions",
+        "IP Solutions"
+      ],
+      [
+        "COVID-19 Pandemic",
+        "Synopsys"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Malicious Cyberattack Attempts"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Sensitive Data"
+      ],
+      [
+        "Customer Agreements",
+        "Third-Party Intellectual Property"
+      ],
+      [
+        "Europe",
+        "Trade Restrictions"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Proprietary Technology"
+      ],
+      [
+        "AI",
+        "Intellectual Property Laws"
+      ],
+      [
+        "Annual Risk Report",
+        "SNPS"
+      ],
+      [
+        "Design IP Segment",
+        "Synopsys"
+      ],
+      [
+        "Design Automation Segment",
+        "EDA Solutions"
+      ],
+      [
+        "Chinese Companies",
+        "EDA Solutions"
+      ],
+      [
+        "Key Employees",
+        "Senior Management"
+      ],
+      [
+        "Equity-Based Compensation",
+        "Stockholders"
+      ],
+      [
+        "AI",
+        "Semiconductor and Electronics Industries"
+      ],
+      [
+        "Trade Restrictions",
+        "United States"
+      ],
+      [
+        "Foreign Currency Exchange Rates",
+        "Yen"
+      ],
+      [
+        "S&A-Targeted Industries",
+        "Trade Restrictions"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Incident Response"
+      ],
+      [
+        "Synopsys",
+        "United States District Court for the Northern District of California"
+      ],
+      [
+        "Income Taxes",
+        "U.S."
+      ],
+      [
+        "Semiconductor Industry",
+        "Trade Restrictions"
+      ],
+      [
+        "Credit Ratings",
+        "Debt"
+      ],
+      [
+        "Hardware Products",
+        "Semiconductor Industry"
+      ],
+      [
+        "Intellectual Property",
+        "Proprietary Technology"
+      ],
+      [
+        "Stock Price",
+        "Stockholders"
+      ],
+      [
+        "Intellectual Property Laws",
+        "Unauthorized Use"
+      ],
+      [
+        "Foreign Currency Exchange Rates",
+        "Renminbi"
+      ]
+    ],
+    "count": 91,
+    "create_time": 1777397908,
+    "update_time": 1777397908,
+    "_id": "doc-371df1c46e2a8ceb0abc709b24947308"
+  },
+  "doc-568676f832900b5c7b0214c69502af60": {
+    "relation_pairs": [
+      [
+        "$250 Million Accelerated Share Repurchase",
+        "Synopsys, Inc."
+      ],
+      [
+        "Accelerated Share Repurchase Agreement",
+        "Synopsys, Inc."
+      ],
+      [
+        "Synopsys, Inc.",
+        "The Bank of Nova Scotia"
+      ],
+      [
+        "Synopsys, Inc.",
+        "Tushar Jain"
+      ],
+      [
+        "Sunnyvale, Calif.",
+        "Synopsys, Inc."
+      ],
+      [
+        "Cara Walker",
+        "Synopsys, Inc."
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777397931,
+    "update_time": 1777397931,
+    "_id": "doc-568676f832900b5c7b0214c69502af60"
+  },
+  "doc-f11cd3b79fa467dfdf377c21dcaf40e5": {
+    "relation_pairs": [
+      [
+        "December 31, 2024",
+        "SNPS"
+      ],
+      [
+        "Quarterly MDA",
+        "SNPS"
+      ],
+      [
+        "January 31, 2025",
+        "SNPS"
+      ],
+      [
+        "SNPS",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Ansys Merger",
+        "SNPS"
+      ],
+      [
+        "November 30, 2024",
+        "SNPS"
+      ],
+      [
+        "Board of Directors",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Q1 2025",
+        "SNPS"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777397954,
+    "update_time": 1777397954,
+    "_id": "doc-f11cd3b79fa467dfdf377c21dcaf40e5"
+  },
+  "doc-277358830cf4844ac04d954b37c93b92": {
+    "relation_pairs": [
+      [
+        "Q2 2025",
+        "SNPS"
+      ],
+      [
+        "Ansys Merger",
+        "SNPS"
+      ],
+      [
+        "SNPS",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Board of Directors",
+        "Stock Repurchase Program"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777397978,
+    "update_time": 1777397978,
+    "_id": "doc-277358830cf4844ac04d954b37c93b92"
+  },
+  "doc-e63de577d8e9d322320af706fe1ad486": {
+    "relation_pairs": [
+      [
+        "Ansys Merger",
+        "Stock Repurchase Program"
+      ],
+      [
+        "July 31, 2025",
+        "Q3_2025"
+      ],
+      [
+        "SNPS",
+        "Stock Repurchase Program"
+      ],
+      [
+        "2025-09-09",
+        "Q3_2025"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1777398015,
+    "update_time": 1777398015,
+    "_id": "doc-e63de577d8e9d322320af706fe1ad486"
+  },
+  "doc-846bdf1d395dc1649253880da1608056": {
+    "relation_pairs": [
+      [
+        "SNPS",
+        "Securities Act"
+      ],
+      [
+        "Ansys",
+        "Earnout Amounts"
+      ],
+      [
+        "Ansys",
+        "SNPS"
+      ],
+      [
+        "$1.5 Billion Stock Repurchase Authorization",
+        "Board of Directors"
+      ],
+      [
+        "Q1 2026",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Common Stock",
+        "SNPS"
+      ],
+      [
+        "Regulation D",
+        "SNPS"
+      ],
+      [
+        "Board of Directors",
+        "Stock Repurchase Program"
+      ],
+      [
+        "$2.0 Billion Stock Repurchase Authorization",
+        "Board of Directors"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777398038,
+    "update_time": 1777398038,
+    "_id": "doc-846bdf1d395dc1649253880da1608056"
   }
 }

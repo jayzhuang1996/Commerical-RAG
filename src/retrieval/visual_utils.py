@@ -188,7 +188,7 @@ def extract_visual_graph(rag_index, query_results: str, filters: dict = None) ->
             return score
         all_cross_edges.sort(key=relevance, reverse=True)
 
-    edges = all_cross_edges[:30]  # cap for readability
+    edges = all_cross_edges[:50]  # cap for readability
 
     # Build node degree map
     degree: Dict[str, int] = {}
