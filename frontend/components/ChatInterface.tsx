@@ -165,16 +165,97 @@ export default function ChatInterface() {
         {/* Messages */}
         <div style={{ flex: 1, overflowY: 'auto', padding: '32px' }}>
           {messages.length === 0 && (
-              <div style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto', padding: '100px 40px' }}>
-                <Sparkles size={40} color="var(--accent-main)" style={{ marginBottom: '24px', opacity: 0.6 }} />
-                <h2 style={{ fontSize: '24px', fontWeight: 600, color: 'var(--text-primary)', fontFamily: 'var(--font-display)', marginBottom: '12px' }}>Knowledge Graph Demo</h2>
-                <p style={{ fontSize: '14px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
-                  This sandbox demonstrates AI entity mapping using public <strong>Semiconductor Trading Filings</strong>.
-                  <br/><br/>
-                  Query the dataset to see how isolated data points are instantly cross-referenced.
+            <div style={{ maxWidth: '820px', margin: '0 auto', padding: '24px 0 40px' }}>
+
+              {/* Header */}
+              <div style={{ textAlign: 'center', marginBottom: '28px' }}>
+                <Sparkles size={28} color="var(--el-teal)" style={{ marginBottom: '10px', opacity: 0.85 }} />
+                <h2 style={{ fontSize: '20px', fontWeight: 700, color: 'var(--el-navy)', fontFamily: 'var(--font-display)', marginBottom: '6px' }}>
+                  Semiconductor Intelligence Sandbox
+                </h2>
+                <p style={{ fontSize: '13px', color: 'var(--text-muted)', letterSpacing: '0.04em' }}>
+                  Query below or explore how this demo maps to what we&apos;re building for Element
                 </p>
               </div>
+
+              {/* Analogy Bridge */}
+              <div style={{ display: 'flex', gap: '10px', marginBottom: '20px', alignItems: 'stretch' }}>
+                {/* Demo column */}
+                <div style={{ flex: 1, background: 'var(--bg-panel)', border: '1px solid var(--border)', borderRadius: '10px', padding: '18px 20px' }}>
+                  <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.08em', color: 'var(--el-slate)', marginBottom: '10px', textTransform: 'uppercase' }}>This Sandbox</div>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    {[
+                      { icon: '🏢', label: '20 semiconductor companies' },
+                      { icon: '📋', label: '10-K + earnings transcripts' },
+                      { icon: '📅', label: '4 rolling quarters (2024–2025)' },
+                      { icon: '📄', label: '~80 documents ingested' },
+                    ].map(({ icon, label }) => (
+                      <div key={label} style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13px', color: 'var(--text-secondary)' }}>
+                        <span style={{ fontSize: '15px' }}>{icon}</span>
+                        <span>{label}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Arrow bridge */}
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '4px', padding: '0 4px' }}>
+                  <div style={{ fontSize: '10px', fontWeight: 700, color: 'var(--el-teal)', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: '4px' }}>Equivalent</div>
+                  <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <div style={{ width: '20px', height: '2px', background: 'var(--el-teal)' }} />
+                    <div style={{ width: 0, height: 0, borderTop: '5px solid transparent', borderBottom: '5px solid transparent', borderLeft: '8px solid var(--el-teal)' }} />
+                  </div>
+                </div>
+
+                {/* Element column */}
+                <div style={{ flex: 1, background: 'rgba(0,215,210,0.05)', border: '1.5px solid rgba(0,215,210,0.3)', borderRadius: '10px', padding: '18px 20px' }}>
+                  <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.08em', color: 'var(--el-teal)', marginBottom: '10px', textTransform: 'uppercase' }}>Element Target State</div>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    {[
+                      { icon: '🏢', label: 'Element\'s managed accounts' },
+                      { icon: '📋', label: 'Business Review recordings & notes' },
+                      { icon: '📅', label: 'Ongoing quarterly cadence' },
+                      { icon: '📄', label: '150+ BRs → Corporate Memory Bank' },
+                    ].map(({ icon, label }) => (
+                      <div key={label} style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13px', color: 'var(--text-secondary)' }}>
+                        <span style={{ fontSize: '15px' }}>{icon}</span>
+                        <span>{label}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* Vertical Breakdown */}
+              <div style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)', borderRadius: '10px', padding: '18px 20px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '14px' }}>
+                  <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.08em', color: 'var(--el-slate)', textTransform: 'uppercase' }}>Semiconductor Verticals in this Sandbox</div>
+                  <div style={{ fontSize: '10px', color: 'var(--el-teal)', fontWeight: 600 }}>↔ Analogous to Element client sub-industries</div>
+                </div>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
+                  {[
+                    { vertical: 'AI / GPU', companies: ['NVDA', 'AMD', 'INTC'], color: '#05AFDC' },
+                    { vertical: 'Foundry / EMS', companies: ['TSM', 'SSNLF', 'GFS'], color: '#00D7D2' },
+                    { vertical: 'Equipment', companies: ['AMAT', 'LRCX', 'KLAC', 'ASML'], color: '#4B6478' },
+                    { vertical: 'Memory', companies: ['MU', 'WDC', 'STX'], color: '#82C341' },
+                    { vertical: 'Analog / Power', companies: ['TXN', 'ADI', 'MCHP', 'ON'], color: '#96BED2' },
+                    { vertical: 'Networking / RF', companies: ['AVGO', 'QCOM', 'MRVL'], color: '#192E44' },
+                  ].map(({ vertical, companies, color }) => (
+                    <div key={vertical} style={{ background: 'var(--bg-card)', borderRadius: '8px', padding: '12px 14px', borderLeft: `3px solid ${color}` }}>
+                      <div style={{ fontSize: '11px', fontWeight: 700, color: 'var(--el-navy)', marginBottom: '8px' }}>{vertical}</div>
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+                        {companies.map(c => (
+                          <span key={c} style={{ fontSize: '10px', fontWeight: 600, background: '#fff', border: '1px solid var(--border)', borderRadius: '4px', padding: '2px 6px', color: 'var(--el-slate)' }}>{c}</span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+            </div>
           )}
+
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '32px', maxWidth: '800px', margin: '0 auto' }}>
             {messages.map((msg, i) => (

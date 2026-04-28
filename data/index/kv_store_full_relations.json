@@ -12087,5 +12087,925 @@
     "create_time": 1777383540,
     "update_time": 1777383540,
     "_id": "doc-bfdf031da0ef4ad5de41000a428b4800"
+  },
+  "doc-47922f3385c7bd47262534ec33a4f74a": {
+    "relation_pairs": [
+      [
+        "Customer Base",
+        "Lam Research Corporation"
+      ],
+      [
+        "Breach of Representations",
+        "Litigation"
+      ],
+      [
+        "Product Capabilities",
+        "Semiconductor Manufacturers"
+      ],
+      [
+        "Export Licenses",
+        "U.S. Government"
+      ],
+      [
+        "Asia Pacific Region",
+        "Lam Research Corporation"
+      ],
+      [
+        "Goodwill",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Semiconductor Industry"
+      ],
+      [
+        "Interest Rates",
+        "Lam Research Corporation"
+      ],
+      [
+        "Corporate Governance",
+        "Regulatory Environment"
+      ],
+      [
+        "Semiconductor Manufacturers",
+        "Strategic Relationships"
+      ],
+      [
+        "Export License Requirements",
+        "U.S."
+      ],
+      [
+        "Geopolitical Tensions",
+        "Lam Research Corporation"
+      ],
+      [
+        "Customers",
+        "Tariffs"
+      ],
+      [
+        "Lam Research Corporation",
+        "Senior Notes"
+      ],
+      [
+        "Customer Demand",
+        "Economic Uncertainty"
+      ],
+      [
+        "Covenant Restrictions",
+        "Lam Research Corporation"
+      ],
+      [
+        "Corporate Governance",
+        "Fiduciary Duty"
+      ],
+      [
+        "Product Capabilities",
+        "R&D"
+      ],
+      [
+        "Lam Research Corporation",
+        "Production Costs"
+      ],
+      [
+        "Lam Research Corporation",
+        "Product Concentration"
+      ],
+      [
+        "China",
+        "U.S."
+      ],
+      [
+        "Deferred Tax Assets",
+        "Lam Research Corporation"
+      ],
+      [
+        "Capital Equipment Expenditures",
+        "Market Demand"
+      ],
+      [
+        "COVID-19 Pandemic",
+        "Global Health Crises"
+      ],
+      [
+        "Common Stock",
+        "Lam Research Corporation"
+      ],
+      [
+        "Customer Requirements",
+        "Lam Research Corporation"
+      ],
+      [
+        "Commercial Paper Program",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Customers",
+        "Export Controls"
+      ],
+      [
+        "Lam Research Corporation",
+        "Semiconductor Equipment Industry"
+      ],
+      [
+        "Customers",
+        "Semiconductor Manufacturers"
+      ],
+      [
+        "Critical Information Systems",
+        "Cybersecurity"
+      ],
+      [
+        "Derivative Lawsuits",
+        "Securities Exchange Act of 1934"
+      ],
+      [
+        "LRCX",
+        "Lam Research Corporation"
+      ],
+      [
+        "Restructuring Plan",
+        "Workforce Reduction"
+      ],
+      [
+        "Acquisition",
+        "Lam Research Corporation"
+      ],
+      [
+        "Accounts Receivable",
+        "Lam Research Corporation"
+      ],
+      [
+        "Disruption Factors",
+        "Lam Research Corporation"
+      ],
+      [
+        "Investment Risks",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Operational Risks"
+      ],
+      [
+        "Lam Research Corporation",
+        "Trade Issues"
+      ],
+      [
+        "Business Continuity Plans",
+        "Lam Research Corporation"
+      ],
+      [
+        "Euro",
+        "Lam Research Corporation"
+      ],
+      [
+        "Common Stock",
+        "Market Conditions"
+      ],
+      [
+        "Import or Export Approvals",
+        "Lam Research Corporation"
+      ],
+      [
+        "Information Technology Failures",
+        "Supply Disruptions"
+      ],
+      [
+        "Export License Requirements",
+        "Federal Reserve Policy Announcement"
+      ],
+      [
+        "Key Employees",
+        "Lam Research Corporation"
+      ],
+      [
+        "Asset Impairments",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "U.S."
+      ],
+      [
+        "Foreign Direct Product Rule",
+        "Lam Research Corporation"
+      ],
+      [
+        "Software-as-a-Service",
+        "Third-Party Vendors"
+      ],
+      [
+        "General Data Protection Regulation",
+        "Lam Research Corporation"
+      ],
+      [
+        "Customer Consolidation",
+        "Market Conditions"
+      ],
+      [
+        "Covenant Restrictions",
+        "Senior Notes"
+      ],
+      [
+        "Inflation",
+        "Lam Research Corporation"
+      ],
+      [
+        "Semiconductor Shortages",
+        "Supply Disruptions"
+      ],
+      [
+        "Lam Research Corporation",
+        "Machine Learning"
+      ],
+      [
+        "Lam Research Corporation",
+        "Supply Chain Risks"
+      ],
+      [
+        "Base Erosion and Profit Shifting 2.0",
+        "Organization for Economic Co-operation and Development"
+      ],
+      [
+        "Corporate Governance",
+        "Court of Chancery of the State of Delaware"
+      ],
+      [
+        "Foreign Currency Exchange Rate Fluctuations",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Reputational Damage"
+      ],
+      [
+        "Delaware",
+        "Lam Research Corporation"
+      ],
+      [
+        "Competitors",
+        "Semiconductor Capital Equipment Industry"
+      ],
+      [
+        "Derivative Instrument Arrangements",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Semiconductor Capital Equipment Industry"
+      ],
+      [
+        "China",
+        "Customers"
+      ],
+      [
+        "Climate Change",
+        "Natural Disasters"
+      ],
+      [
+        "Litigation",
+        "Substantial Damage Awards"
+      ],
+      [
+        "Lam Research Corporation",
+        "PFAS"
+      ],
+      [
+        "Inventory Balances",
+        "Lam Research Corporation"
+      ],
+      [
+        "COVID-19 Pandemic",
+        "Lam Research Corporation"
+      ],
+      [
+        "Semiconductor Capital Equipment Industry",
+        "Semiconductor Manufacturers"
+      ],
+      [
+        "Commercially Reasonable Terms",
+        "Litigation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Research and Development (R&D)"
+      ],
+      [
+        "Customer Demand",
+        "Economic Conditions"
+      ],
+      [
+        "Market Conditions",
+        "Securities Act of 1933"
+      ],
+      [
+        "Financial Results",
+        "Judgment by Governing Tax Authority"
+      ],
+      [
+        "Lam Research Corporation",
+        "Risk Factors"
+      ],
+      [
+        "Corporate Governance",
+        "State of California"
+      ],
+      [
+        "Environmental Regulations",
+        "Lam Research Corporation"
+      ],
+      [
+        "China",
+        "Lam Research Corporation"
+      ],
+      [
+        "Board of Directors",
+        "Common Stock"
+      ],
+      [
+        "Chinese Companies",
+        "U.S."
+      ],
+      [
+        "Insurance",
+        "Litigation"
+      ],
+      [
+        "Lam Research Corporation",
+        "U.S. Dollar"
+      ],
+      [
+        "Commercial Paper Program",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Lam Research Corporation",
+        "Technological Change"
+      ],
+      [
+        "Japanese Yen",
+        "Lam Research Corporation"
+      ],
+      [
+        "Semiconductor Manufacturing",
+        "Strategic Alliances"
+      ],
+      [
+        "Covenant Restrictions",
+        "Derivative Instrument Arrangements"
+      ],
+      [
+        "Employee Health and Safety",
+        "Lam Research Corporation"
+      ],
+      [
+        "Artificial Intelligence (AI)",
+        "Lam Research Corporation"
+      ],
+      [
+        "Climate Change",
+        "Lam Research Corporation"
+      ],
+      [
+        "Counterparty Financial Institutions",
+        "Derivative Instrument Arrangements"
+      ],
+      [
+        "Lam Research Corporation",
+        "Natural or Man-Made Disasters"
+      ],
+      [
+        "Intellectual Property Litigation",
+        "Lam Research Corporation"
+      ],
+      [
+        "Export License Requirements",
+        "Military End-Users"
+      ],
+      [
+        "Lam Research Corporation",
+        "Supply Chain"
+      ],
+      [
+        "Lam Research Corporation",
+        "Restructuring Plan"
+      ],
+      [
+        "Supply Disruptions",
+        "Transportation Interruptions"
+      ],
+      [
+        "Impairment Evaluation",
+        "Lam Research Corporation"
+      ],
+      [
+        "Natural Disasters",
+        "Supply Disruptions"
+      ],
+      [
+        "Key Customers",
+        "Lam Research Corporation"
+      ],
+      [
+        "Intellectual Property",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Regulatory Compliance"
+      ],
+      [
+        "Cybersecurity",
+        "Lam Research Corporation"
+      ],
+      [
+        "2025 Form 10-K",
+        "Lam Research Corporation"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "Lam Research Corporation"
+      ]
+    ],
+    "count": 110,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "doc-47922f3385c7bd47262534ec33a4f74a"
+  },
+  "doc-bf93340da7651815a5c2b27d7ff4aa94": {
+    "relation_pairs": [
+      [
+        "Korea",
+        "Revenue"
+      ],
+      [
+        "December 28, 2025",
+        "LAM Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "U.S. GAAP Operating Income"
+      ],
+      [
+        "Lam Research Corporation",
+        "Non-GAAP"
+      ],
+      [
+        "LAM Research Corporation",
+        "Long-Term Debt and Finance Lease Obligations"
+      ],
+      [
+        "Lam Research Corporation",
+        "Tim Archer"
+      ],
+      [
+        "Lam Research Corporation",
+        "Non-GAAP Operating Expenses"
+      ],
+      [
+        "Gross Margin",
+        "Lam"
+      ],
+      [
+        "June 29, 2025",
+        "LAM Research Corporation"
+      ],
+      [
+        "LAM Research Corporation",
+        "Total Assets"
+      ],
+      [
+        "Revenue",
+        "Taiwan"
+      ],
+      [
+        "Accounts Receivable, Net",
+        "LAM Research Corporation"
+      ],
+      [
+        "Inventories",
+        "LAM Research Corporation"
+      ],
+      [
+        "China",
+        "Revenue"
+      ],
+      [
+        "5.84 Billion",
+        "Lam Research Corporation"
+      ],
+      [
+        "Fortune 500",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "U.S. GAAP Operating Expenses"
+      ],
+      [
+        "Cash Flow Results",
+        "March 2026 Quarter"
+      ],
+      [
+        "Lam Research Corporation",
+        "Semiconductor Industry"
+      ],
+      [
+        "Japan",
+        "Lam"
+      ],
+      [
+        "Lam Research Corporation",
+        "Workforce Optimization Charges"
+      ],
+      [
+        "Common Shares",
+        "June 29, 2025"
+      ],
+      [
+        "Lam Research Corporation",
+        "Non-GAAP Operating Income"
+      ],
+      [
+        "EDC Related Liability Valuation",
+        "Lam Research Corporation"
+      ],
+      [
+        "LAM Research Corporation",
+        "March 29, 2026"
+      ],
+      [
+        "LAM Research Corporation",
+        "Total Liabilities"
+      ],
+      [
+        "Investor Relations",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Private Securities Litigation Reform Act of 1995"
+      ],
+      [
+        "Lam",
+        "Operating Margin"
+      ],
+      [
+        "Lam Research Corporation",
+        "U.S. GAAP"
+      ],
+      [
+        "Common Shares",
+        "LAM Research Corporation"
+      ],
+      [
+        "Common Shares",
+        "December 28, 2025"
+      ],
+      [
+        "Cash Flows from Financing Activities",
+        "March 30, 2025"
+      ],
+      [
+        "Common Shares",
+        "March 29, 2026"
+      ],
+      [
+        "Cash Flows from Financing Activities",
+        "LAM Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Supply Chain Cost Increases"
+      ],
+      [
+        "Lam",
+        "Net Income"
+      ],
+      [
+        "LAM Research Corporation",
+        "Total Liabilities and Stockholders Equity"
+      ],
+      [
+        "Goodwill and Intangible Assets",
+        "LAM Research Corporation"
+      ],
+      [
+        "Lam",
+        "March 2026 Quarter"
+      ],
+      [
+        "Current Portion of Long-Term Debt and Finance Lease Obligations",
+        "LAM Research Corporation"
+      ],
+      [
+        "Gross Margin",
+        "Revenue"
+      ],
+      [
+        "Lam Research Corporation",
+        "March 2026 Quarter"
+      ],
+      [
+        "Revenue",
+        "United States"
+      ],
+      [
+        "Revenue",
+        "Southeast Asia"
+      ],
+      [
+        "Lam Research Corporation",
+        "Non-GAAP Gross Margin"
+      ],
+      [
+        "LAM Research Corporation",
+        "Property and Equipment, Net"
+      ],
+      [
+        "Lam Research Corporation",
+        "U.S. GAAP Gross Margin"
+      ],
+      [
+        "Operating Expenses",
+        "Operating Income"
+      ],
+      [
+        "Lam Research Corporation",
+        "Securities and Exchange Commission"
+      ],
+      [
+        "AI-driven Demand",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam",
+        "Reliant® Product Line"
+      ],
+      [
+        "December 2025 Quarter",
+        "Lam"
+      ],
+      [
+        "Lam Research Corporation",
+        "NASDAQ"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "LAM Research Corporation"
+      ],
+      [
+        "35.0%",
+        "Lam Research Corporation"
+      ],
+      [
+        "Net Income",
+        "Net Income per Diluted Share"
+      ],
+      [
+        "Europe",
+        "Revenue"
+      ],
+      [
+        "Net Income",
+        "U.S. GAAP Net Income"
+      ],
+      [
+        "Lam Research Corporation",
+        "Ram Ganesh"
+      ],
+      [
+        "49.8%",
+        "Lam Research Corporation"
+      ],
+      [
+        "Operating Income",
+        "Operating Margin"
+      ],
+      [
+        "Lam Research Corporation",
+        "Non-GAAP Diluted EPS"
+      ],
+      [
+        "Cash Flows from Investing Activities",
+        "LAM Research Corporation"
+      ],
+      [
+        "LAM Research Corporation",
+        "Net Cash Provided by Operating Activities"
+      ],
+      [
+        "Net Income",
+        "Revenue"
+      ],
+      [
+        "LAM Research Corporation",
+        "Stockholders' Equity"
+      ],
+      [
+        "Net Income Per Diluted Share",
+        "U.S. GAAP"
+      ],
+      [
+        "December 2025 Quarter",
+        "March 2026 Quarter"
+      ]
+    ],
+    "count": 69,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "doc-bf93340da7651815a5c2b27d7ff4aa94"
+  },
+  "doc-3191ca3430af6704d0efb1e08d5e20ff": {
+    "relation_pairs": [
+      [
+        "Board of Directors",
+        "LRCX"
+      ],
+      [
+        "Excise Tax",
+        "Repurchase Program"
+      ],
+      [
+        "Excise Tax",
+        "Inflation Reduction Act"
+      ],
+      [
+        "LRCX",
+        "Q2 2025"
+      ],
+      [
+        "Board of Directors",
+        "May 2024"
+      ],
+      [
+        "LRCX",
+        "Repurchase Program"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777384162,
+    "update_time": 1777384162,
+    "_id": "doc-3191ca3430af6704d0efb1e08d5e20ff"
+  },
+  "doc-22b0c83655386e84dbab87969ca53f67": {
+    "relation_pairs": [
+      [
+        "Board of Directors",
+        "LRCX"
+      ],
+      [
+        "Common Stock",
+        "Shares Repurchased"
+      ],
+      [
+        "April 2025 ASRs",
+        "Common Stock"
+      ],
+      [
+        "Q4_2025",
+        "September 28, 2025"
+      ],
+      [
+        "Financial Institutions",
+        "LRCX"
+      ],
+      [
+        "LRCX",
+        "Share Repurchase Program"
+      ],
+      [
+        "Inflation Reduction Act",
+        "LRCX"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777384178,
+    "update_time": 1777384178,
+    "_id": "doc-22b0c83655386e84dbab87969ca53f67"
+  },
+  "doc-477a3fc5d9426898949b4faeadf5e84b": {
+    "relation_pairs": [
+      [
+        "LRCX",
+        "September 29, 2025"
+      ],
+      [
+        "LRCX",
+        "October 26, 2025"
+      ],
+      [
+        "317 Thousand Additional Shares",
+        "LRCX"
+      ],
+      [
+        "Board of Directors",
+        "LRCX"
+      ],
+      [
+        "1% Excise Tax",
+        "LRCX"
+      ],
+      [
+        "April 2025 ASRs",
+        "LRCX"
+      ],
+      [
+        "5.2 Million Shares",
+        "LRCX"
+      ],
+      [
+        "December 28, 2025",
+        "LRCX"
+      ],
+      [
+        "Financial Institutions",
+        "LRCX"
+      ],
+      [
+        "LRCX",
+        "November 23, 2025"
+      ],
+      [
+        "Derivative Contracts",
+        "LRCX"
+      ],
+      [
+        "June 29, 2025",
+        "LRCX"
+      ],
+      [
+        "Inflation Reduction Act",
+        "LRCX"
+      ],
+      [
+        "Common Stock",
+        "LRCX"
+      ],
+      [
+        "LRCX",
+        "September 28, 2025"
+      ],
+      [
+        "$500 Million",
+        "LRCX"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "doc-477a3fc5d9426898949b4faeadf5e84b"
+  },
+  "doc-db8c7c0462d54e45ab4ab3f43fa3abf2": {
+    "relation_pairs": [
+      [
+        "Common Stock",
+        "Weighted-Average Share Price"
+      ],
+      [
+        "$500.0 Million",
+        "Common Stock"
+      ],
+      [
+        "Board of Directors",
+        "LRCX"
+      ],
+      [
+        "$10.00 Billion",
+        "Board of Directors"
+      ],
+      [
+        "LRCX",
+        "Q2 2026"
+      ],
+      [
+        "1% Excise Tax",
+        "Common Stock"
+      ],
+      [
+        "Accelerated Share Repurchase Agreements",
+        "April 30, 2025"
+      ],
+      [
+        "Accelerated Share Repurchase Agreements",
+        "March 11, 2026"
+      ],
+      [
+        "$200.0 Million",
+        "Common Stock"
+      ],
+      [
+        "Accelerated Share Repurchase Agreements",
+        "Common Stock"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1777384240,
+    "update_time": 1777384240,
+    "_id": "doc-db8c7c0462d54e45ab4ab3f43fa3abf2"
   }
 }

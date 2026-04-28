@@ -1941,7 +1941,7 @@
     }
   },
   "doc-47922f3385c7bd47262534ec33a4f74a": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 14,
     "chunks_list": [
       "chunk-974727f2c7ddff30c5489bd40207f33e",
@@ -1962,11 +1962,128 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: LRCX\nLayer: LAYER_D\nPeriod: Q3_2025\nDate: 2025-08-11\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A.     Risk Factors\n\nIn addition to the other information in this Annual Report on Form 10-K (“2025 Form 10-K”), the follow...",
     "content_length": 81299,
     "created_at": "2026-04-28T13:39:01.393627+00:00",
-    "updated_at": "2026-04-28T13:39:01.436259+00:00",
+    "updated_at": "2026-04-28T13:45:55.565987+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_093901_62a4076a",
     "metadata": {
-      "processing_start_time": 1777383541
+      "processing_start_time": 1777383541,
+      "processing_end_time": 1777383955
+    }
+  },
+  "doc-bf93340da7651815a5c2b27d7ff4aa94": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-70808284909b7e9a72f485bfe3be1a10",
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0",
+      "chunk-127139813a156d2282ee87092e1dde89",
+      "chunk-fa3395a77979c6bececfc3898bbd026b",
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d",
+      "chunk-6bd095e85b776f054adf8ee05a9ad554",
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: LRCX\nLayer: LAYER_D\nPeriod: Q2_2026\nDate: 2026-04-22\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1                                                                             \n                            ...",
+    "content_length": 58341,
+    "created_at": "2026-04-28T13:45:56.239346+00:00",
+    "updated_at": "2026-04-28T13:49:05.243350+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_094556_b2975298",
+    "metadata": {
+      "processing_start_time": 1777383956,
+      "processing_end_time": 1777384145
+    }
+  },
+  "doc-3191ca3430af6704d0efb1e08d5e20ff": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3191ca3430af6704d0efb1e08d5e20ff"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: LRCX\nLayer: LAYER_D\nPeriod: Q2_2025\nDate: 2025-04-25\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    Unregistered Sales of Equity Securities and Use of Proceeds\n\nRepurchases of Company Shares\n\nIn May 2024, the Board o...",
+    "content_length": 2228,
+    "created_at": "2026-04-28T13:49:06.084472+00:00",
+    "updated_at": "2026-04-28T13:49:22.074418+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_094906_78da473c",
+    "metadata": {
+      "processing_start_time": 1777384146,
+      "processing_end_time": 1777384162
+    }
+  },
+  "doc-22b0c83655386e84dbab87969ca53f67": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-22b0c83655386e84dbab87969ca53f67"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: LRCX\nLayer: LAYER_D\nPeriod: Q4_2025\nDate: 2025-10-24\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    Unregistered Sales of Equity Securities and Use of Proceeds\n\nRepurchases of Company Shares\n\nIn May 2024, the Board o...",
+    "content_length": 3165,
+    "created_at": "2026-04-28T13:49:22.961218+00:00",
+    "updated_at": "2026-04-28T13:49:38.946167+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_094922_6e790b77",
+    "metadata": {
+      "processing_start_time": 1777384162,
+      "processing_end_time": 1777384178
+    }
+  },
+  "doc-477a3fc5d9426898949b4faeadf5e84b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: LRCX\nLayer: LAYER_D\nPeriod: Q1_2026\nDate: 2026-01-29\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    Unregistered Sales of Equity Securities and Use of Proceeds\n\nRepurchases of Company Shares\n\nIn May 2024, the Board o...",
+    "content_length": 3241,
+    "created_at": "2026-04-28T13:49:39.774005+00:00",
+    "updated_at": "2026-04-28T13:50:08.282912+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_094939_ff2bc774",
+    "metadata": {
+      "processing_start_time": 1777384179,
+      "processing_end_time": 1777384208
+    }
+  },
+  "doc-db8c7c0462d54e45ab4ab3f43fa3abf2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: LRCX\nLayer: LAYER_D\nPeriod: Q2_2026\nDate: 2026-04-23\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    Unregistered Sales of Equity Securities and Use of Proceeds\n\nRepurchases of Company Shares\n\nIn May 2024, the Board o...",
+    "content_length": 3876,
+    "created_at": "2026-04-28T13:50:08.927595+00:00",
+    "updated_at": "2026-04-28T13:50:40.383820+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_095008_4058897b",
+    "metadata": {
+      "processing_start_time": 1777384208,
+      "processing_end_time": 1777384240
+    }
+  },
+  "doc-1c58dcf3a878035069ab0b66af1ce965": {
+    "status": "processing",
+    "chunks_count": 10,
+    "chunks_list": [
+      "chunk-dd780670b38a4719e705f37b67576f23",
+      "chunk-26e82f7a587dd96e8ddc5ff0add6523b",
+      "chunk-785be21aab1ce0154c02b7414b3e2668",
+      "chunk-8b3a58c3fd3e9f0c29982cd302a2e298",
+      "chunk-9f5a57cac4d259c6397f39d029289009",
+      "chunk-000375b6ff2ca655296bfbfab18da116",
+      "chunk-d9057dab82729373ff48c4eca2d1c09d",
+      "chunk-57552a82d7486c74bdd6ea26866c5c38",
+      "chunk-dc0c48274857e52e72c855aa9006339a",
+      "chunk-e7df4dee0e944309db53bb21714d81b4"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MRVL\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-03-11\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion of ou...",
+    "content_length": 52001,
+    "created_at": "2026-04-28T13:50:41.052942+00:00",
+    "updated_at": "2026-04-28T13:50:41.086522+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_095041_0e0c97da",
+    "metadata": {
+      "processing_start_time": 1777384241
     }
   }
 }

@@ -1081,10 +1081,11 @@
       "chunk-625ca1cf50e3b24380c8601c96bdd7a3",
       "chunk-541097656a29c150756d08c4943ad8b0",
       "chunk-20ff684928510a0aa4726b57cf95bfc6",
-      "chunk-a607ffbfac50d0f1129f1e67cb61a773"
+      "chunk-a607ffbfac50d0f1129f1e67cb61a773",
+      "chunk-9c80e46c627253fff5d73f84146136c3"
     ],
-    "count": 5,
-    "update_time": 1777382151,
+    "count": 6,
+    "update_time": 1777383954,
     "_id": "Board of Directors<SEP>Common Stock"
   },
   "Financing Activities<SEP>Senior Notes": {
@@ -1941,11 +1942,11 @@
   },
   "Export Licenses<SEP>U.S. Government": {
     "chunk_ids": [
-      "chunk-85c73190292489fe36964fdd5fc32b0c"
+      "chunk-85c73190292489fe36964fdd5fc32b0c",
+      "chunk-4b5447c5672396b554236658ba7a2ba4"
     ],
-    "count": 1,
-    "create_time": 1777260135,
-    "update_time": 1777260135,
+    "count": 2,
+    "update_time": 1777383955,
     "_id": "Export Licenses<SEP>U.S. Government"
   },
   "Display Fabrication Equipment<SEP>Display Manufacturers": {
@@ -6055,11 +6056,11 @@
   },
   "Customers<SEP>Semiconductor Manufacturers": {
     "chunk_ids": [
-      "chunk-f289f6b7d44045ead3d7daa2790ff10b"
+      "chunk-f289f6b7d44045ead3d7daa2790ff10b",
+      "chunk-6ac75cf1fa25c3cbf9691d3366528164"
     ],
-    "count": 1,
-    "create_time": 1777307444,
-    "update_time": 1777307444,
+    "count": 2,
+    "update_time": 1777383955,
     "_id": "Customers<SEP>Semiconductor Manufacturers"
   },
   "Foundry/Logic Industry<SEP>Semiconductor Industry": {
@@ -10157,10 +10158,11 @@
       "chunk-eb9c473a56337b1bb1aca06b15d0259d",
       "chunk-050055b3bc468fa0d183c4f69822f018",
       "chunk-dcd60bd481d4c18ea8bb40251eca7fd9",
-      "chunk-6757e425a6551576cf75d5c43bed978b"
+      "chunk-6757e425a6551576cf75d5c43bed978b",
+      "chunk-9ef724090f2a41e7cecef1f44f58528c"
     ],
-    "count": 4,
-    "update_time": 1777382150,
+    "count": 5,
+    "update_time": 1777383954,
     "_id": "China<SEP>U.S."
   },
   "AI Racks and Systems<SEP>Semiconductor Solutions": {
@@ -20249,11 +20251,11 @@
   },
   "Customers<SEP>Tariffs": {
     "chunk_ids": [
-      "chunk-3ca4353a43bcb8671d00174ee0da3be0"
+      "chunk-3ca4353a43bcb8671d00174ee0da3be0",
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00"
     ],
-    "count": 1,
-    "create_time": 1777382153,
-    "update_time": 1777382153,
+    "count": 2,
+    "update_time": 1777383955,
     "_id": "Customers<SEP>Tariffs"
   },
   "AI Ethernet products<SEP>White Box Networking Vendors": {
@@ -24617,11 +24619,11 @@
     "chunk_ids": [
       "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e",
       "chunk-4f4a3122187e873b883c3ae983dcfbd1",
-      "chunk-40bdbcc57796bdfaf2433e0e540d9057"
+      "chunk-40bdbcc57796bdfaf2433e0e540d9057",
+      "chunk-554ce0be4e4ac8e5c17a5b305d3ceeca"
     ],
-    "count": 3,
-    "create_time": 1777383540,
-    "update_time": 1777383540,
+    "count": 4,
+    "update_time": 1777383954,
     "_id": "2025 Form 10-K<SEP>Lam Research Corporation"
   },
   "Consolidated Financial Statements<SEP>Long-Term Debt": {
@@ -24689,11 +24691,13 @@
   },
   "Lam Research Corporation<SEP>Semiconductor Industry": {
     "chunk_ids": [
-      "chunk-4f4a3122187e873b883c3ae983dcfbd1"
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1",
+      "chunk-974727f2c7ddff30c5489bd40207f33e",
+      "chunk-4b5447c5672396b554236658ba7a2ba4",
+      "chunk-127139813a156d2282ee87092e1dde89"
     ],
-    "count": 1,
-    "create_time": 1777383540,
-    "update_time": 1777383540,
+    "count": 4,
+    "update_time": 1777384144,
     "_id": "Lam Research Corporation<SEP>Semiconductor Industry"
   },
   "Fiscal Year 2024<SEP>Gross Margin": {
@@ -24752,11 +24756,11 @@
   },
   "Lam Research Corporation<SEP>Securities and Exchange Commission": {
     "chunk_ids": [
-      "chunk-4f4a3122187e873b883c3ae983dcfbd1"
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1",
+      "chunk-127139813a156d2282ee87092e1dde89"
     ],
-    "count": 1,
-    "create_time": 1777383540,
-    "update_time": 1777383540,
+    "count": 2,
+    "update_time": 1777384144,
     "_id": "Lam Research Corporation<SEP>Securities and Exchange Commission"
   },
   "Customer Support Business Group<SEP>Financial Condition and Results of Operations": {
@@ -24807,11 +24811,12 @@
   },
   "China<SEP>Lam Research Corporation": {
     "chunk_ids": [
-      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac"
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac",
+      "chunk-9ef724090f2a41e7cecef1f44f58528c",
+      "chunk-4b5447c5672396b554236658ba7a2ba4"
     ],
-    "count": 1,
-    "create_time": 1777383540,
-    "update_time": 1777383540,
+    "count": 3,
+    "update_time": 1777383954,
     "_id": "China<SEP>Lam Research Corporation"
   },
   "Fiscal Year 2024<SEP>Lam Research Corporation": {
@@ -24930,5 +24935,1839 @@
     "create_time": 1777383540,
     "update_time": 1777383540,
     "_id": "2025 Notes<SEP>Lam Research Corporation"
+  },
+  "COVID-19 Pandemic<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-554ce0be4e4ac8e5c17a5b305d3ceeca"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "COVID-19 Pandemic<SEP>Lam Research Corporation"
+  },
+  "COVID-19 Pandemic<SEP>Global Health Crises": {
+    "chunk_ids": [
+      "chunk-554ce0be4e4ac8e5c17a5b305d3ceeca"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "COVID-19 Pandemic<SEP>Global Health Crises"
+  },
+  "Business Continuity Plans<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-554ce0be4e4ac8e5c17a5b305d3ceeca"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Business Continuity Plans<SEP>Lam Research Corporation"
+  },
+  "Supply Disruptions<SEP>Transportation Interruptions": {
+    "chunk_ids": [
+      "chunk-a18f6c0f15bf423e7fa7709bcb1372ae"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Supply Disruptions<SEP>Transportation Interruptions"
+  },
+  "Lam Research Corporation<SEP>Product Concentration": {
+    "chunk_ids": [
+      "chunk-554ce0be4e4ac8e5c17a5b305d3ceeca"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Product Concentration"
+  },
+  "Semiconductor Shortages<SEP>Supply Disruptions": {
+    "chunk_ids": [
+      "chunk-a18f6c0f15bf423e7fa7709bcb1372ae"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Semiconductor Shortages<SEP>Supply Disruptions"
+  },
+  "Climate Change<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-554ce0be4e4ac8e5c17a5b305d3ceeca"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Climate Change<SEP>Lam Research Corporation"
+  },
+  "Information Technology Failures<SEP>Supply Disruptions": {
+    "chunk_ids": [
+      "chunk-a18f6c0f15bf423e7fa7709bcb1372ae"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Information Technology Failures<SEP>Supply Disruptions"
+  },
+  "Restructuring Plan<SEP>Workforce Reduction": {
+    "chunk_ids": [
+      "chunk-a18f6c0f15bf423e7fa7709bcb1372ae"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Restructuring Plan<SEP>Workforce Reduction"
+  },
+  "Lam Research Corporation<SEP>Natural or Man-Made Disasters": {
+    "chunk_ids": [
+      "chunk-554ce0be4e4ac8e5c17a5b305d3ceeca"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Natural or Man-Made Disasters"
+  },
+  "Climate Change<SEP>Natural Disasters": {
+    "chunk_ids": [
+      "chunk-a18f6c0f15bf423e7fa7709bcb1372ae"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Climate Change<SEP>Natural Disasters"
+  },
+  "Employee Health and Safety<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-554ce0be4e4ac8e5c17a5b305d3ceeca"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Employee Health and Safety<SEP>Lam Research Corporation"
+  },
+  "Natural Disasters<SEP>Supply Disruptions": {
+    "chunk_ids": [
+      "chunk-a18f6c0f15bf423e7fa7709bcb1372ae"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Natural Disasters<SEP>Supply Disruptions"
+  },
+  "Export License Requirements<SEP>U.S.": {
+    "chunk_ids": [
+      "chunk-9ef724090f2a41e7cecef1f44f58528c"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Export License Requirements<SEP>U.S."
+  },
+  "Import or Export Approvals<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-a18f6c0f15bf423e7fa7709bcb1372ae"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Import or Export Approvals<SEP>Lam Research Corporation"
+  },
+  "Export License Requirements<SEP>Military End-Users": {
+    "chunk_ids": [
+      "chunk-9ef724090f2a41e7cecef1f44f58528c"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Export License Requirements<SEP>Military End-Users"
+  },
+  "Lam Research Corporation<SEP>Restructuring Plan": {
+    "chunk_ids": [
+      "chunk-a18f6c0f15bf423e7fa7709bcb1372ae"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Restructuring Plan"
+  },
+  "Chinese Companies<SEP>U.S.": {
+    "chunk_ids": [
+      "chunk-9ef724090f2a41e7cecef1f44f58528c"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Chinese Companies<SEP>U.S."
+  },
+  "Export License Requirements<SEP>Federal Reserve Policy Announcement": {
+    "chunk_ids": [
+      "chunk-9ef724090f2a41e7cecef1f44f58528c"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Export License Requirements<SEP>Federal Reserve Policy Announcement"
+  },
+  "Environmental Regulations<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-9ef724090f2a41e7cecef1f44f58528c"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Environmental Regulations<SEP>Lam Research Corporation"
+  },
+  "Breach of Representations<SEP>Litigation": {
+    "chunk_ids": [
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Breach of Representations<SEP>Litigation"
+  },
+  "Corporate Governance<SEP>Regulatory Environment": {
+    "chunk_ids": [
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Corporate Governance<SEP>Regulatory Environment"
+  },
+  "Base Erosion and Profit Shifting 2.0<SEP>Organization for Economic Co-operation and Development": {
+    "chunk_ids": [
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Base Erosion and Profit Shifting 2.0<SEP>Organization for Economic Co-operation and Development"
+  },
+  "Corporate Governance<SEP>State of California": {
+    "chunk_ids": [
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Corporate Governance<SEP>State of California"
+  },
+  "Commercially Reasonable Terms<SEP>Litigation": {
+    "chunk_ids": [
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Commercially Reasonable Terms<SEP>Litigation"
+  },
+  "Intellectual Property<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-9ef724090f2a41e7cecef1f44f58528c",
+      "chunk-c13703eee607542a05209bc9ea387dab",
+      "chunk-4b5447c5672396b554236658ba7a2ba4"
+    ],
+    "count": 3,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Intellectual Property<SEP>Lam Research Corporation"
+  },
+  "Corporate Governance<SEP>Court of Chancery of the State of Delaware": {
+    "chunk_ids": [
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Corporate Governance<SEP>Court of Chancery of the State of Delaware"
+  },
+  "Litigation<SEP>Substantial Damage Awards": {
+    "chunk_ids": [
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Litigation<SEP>Substantial Damage Awards"
+  },
+  "Financial Results<SEP>Judgment by Governing Tax Authority": {
+    "chunk_ids": [
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Financial Results<SEP>Judgment by Governing Tax Authority"
+  },
+  "Foreign Direct Product Rule<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-9ef724090f2a41e7cecef1f44f58528c"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Foreign Direct Product Rule<SEP>Lam Research Corporation"
+  },
+  "Commercial Paper Program<SEP>Revolving Credit Facility": {
+    "chunk_ids": [
+      "chunk-9c80e46c627253fff5d73f84146136c3"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Commercial Paper Program<SEP>Revolving Credit Facility"
+  },
+  "Corporate Governance<SEP>Fiduciary Duty": {
+    "chunk_ids": [
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Corporate Governance<SEP>Fiduciary Duty"
+  },
+  "Insurance<SEP>Litigation": {
+    "chunk_ids": [
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Insurance<SEP>Litigation"
+  },
+  "Covenant Restrictions<SEP>Derivative Instrument Arrangements": {
+    "chunk_ids": [
+      "chunk-9c80e46c627253fff5d73f84146136c3"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Covenant Restrictions<SEP>Derivative Instrument Arrangements"
+  },
+  "Lam Research Corporation<SEP>Semiconductor Equipment Industry": {
+    "chunk_ids": [
+      "chunk-c13703eee607542a05209bc9ea387dab"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Semiconductor Equipment Industry"
+  },
+  "Software-as-a-Service<SEP>Third-Party Vendors": {
+    "chunk_ids": [
+      "chunk-c13703eee607542a05209bc9ea387dab"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Software-as-a-Service<SEP>Third-Party Vendors"
+  },
+  "Derivative Instrument Arrangements<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-9c80e46c627253fff5d73f84146136c3"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Derivative Instrument Arrangements<SEP>Lam Research Corporation"
+  },
+  "Covenant Restrictions<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-9c80e46c627253fff5d73f84146136c3"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Covenant Restrictions<SEP>Lam Research Corporation"
+  },
+  "Counterparty Financial Institutions<SEP>Derivative Instrument Arrangements": {
+    "chunk_ids": [
+      "chunk-9c80e46c627253fff5d73f84146136c3"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Counterparty Financial Institutions<SEP>Derivative Instrument Arrangements"
+  },
+  "Cybersecurity<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-c13703eee607542a05209bc9ea387dab"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Cybersecurity<SEP>Lam Research Corporation"
+  },
+  "Covenant Restrictions<SEP>Senior Notes": {
+    "chunk_ids": [
+      "chunk-9c80e46c627253fff5d73f84146136c3"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Covenant Restrictions<SEP>Senior Notes"
+  },
+  "Customer Base<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-c13703eee607542a05209bc9ea387dab"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Customer Base<SEP>Lam Research Corporation"
+  },
+  "Critical Information Systems<SEP>Cybersecurity": {
+    "chunk_ids": [
+      "chunk-c13703eee607542a05209bc9ea387dab"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Critical Information Systems<SEP>Cybersecurity"
+  },
+  "Lam Research Corporation<SEP>Supply Chain Risks": {
+    "chunk_ids": [
+      "chunk-c13703eee607542a05209bc9ea387dab"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Supply Chain Risks"
+  },
+  "Inflation<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-c13703eee607542a05209bc9ea387dab"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Inflation<SEP>Lam Research Corporation"
+  },
+  "Interest Rates<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-c13703eee607542a05209bc9ea387dab"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Interest Rates<SEP>Lam Research Corporation"
+  },
+  "Disruption Factors<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-c13703eee607542a05209bc9ea387dab"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Disruption Factors<SEP>Lam Research Corporation"
+  },
+  "LRCX<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "LRCX<SEP>Lam Research Corporation"
+  },
+  "Annual Report on Form 10-K<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Annual Report on Form 10-K<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>Risk Factors": {
+    "chunk_ids": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Risk Factors"
+  },
+  "Lam Research Corporation<SEP>Technological Change": {
+    "chunk_ids": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Technological Change"
+  },
+  "Lam Research Corporation<SEP>Research and Development (R&D)": {
+    "chunk_ids": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Research and Development (R&D)"
+  },
+  "Lam Research Corporation<SEP>Machine Learning": {
+    "chunk_ids": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Machine Learning"
+  },
+  "Artificial Intelligence (AI)<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Artificial Intelligence (AI)<SEP>Lam Research Corporation"
+  },
+  "Customer Requirements<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Customer Requirements<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>Production Costs": {
+    "chunk_ids": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Production Costs"
+  },
+  "Investment Risks<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Investment Risks<SEP>Lam Research Corporation"
+  },
+  "Derivative Lawsuits<SEP>Securities Exchange Act of 1934": {
+    "chunk_ids": [
+      "chunk-c3025a80ea68728e27d7e0411c4f96b7"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Derivative Lawsuits<SEP>Securities Exchange Act of 1934"
+  },
+  "Delaware<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-c3025a80ea68728e27d7e0411c4f96b7"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Delaware<SEP>Lam Research Corporation"
+  },
+  "Market Conditions<SEP>Securities Act of 1933": {
+    "chunk_ids": [
+      "chunk-c3025a80ea68728e27d7e0411c4f96b7"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Market Conditions<SEP>Securities Act of 1933"
+  },
+  "Common Stock<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-c3025a80ea68728e27d7e0411c4f96b7",
+      "chunk-fb7807573031e541cb590f5337081e3f"
+    ],
+    "count": 2,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Common Stock<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>Senior Notes": {
+    "chunk_ids": [
+      "chunk-c3025a80ea68728e27d7e0411c4f96b7"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Senior Notes"
+  },
+  "Common Stock<SEP>Market Conditions": {
+    "chunk_ids": [
+      "chunk-c3025a80ea68728e27d7e0411c4f96b7"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Common Stock<SEP>Market Conditions"
+  },
+  "Commercial Paper Program<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-c3025a80ea68728e27d7e0411c4f96b7"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Commercial Paper Program<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>Revolving Credit Facility": {
+    "chunk_ids": [
+      "chunk-c3025a80ea68728e27d7e0411c4f96b7"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Lam Research Corporation<SEP>Revolving Credit Facility"
+  },
+  "Impairment Evaluation<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-c3025a80ea68728e27d7e0411c4f96b7"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "Impairment Evaluation<SEP>Lam Research Corporation"
+  },
+  "China<SEP>Customers": {
+    "chunk_ids": [
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00"
+    ],
+    "count": 1,
+    "create_time": 1777383954,
+    "update_time": 1777383954,
+    "_id": "China<SEP>Customers"
+  },
+  "Lam Research Corporation<SEP>U.S.": {
+    "chunk_ids": [
+      "chunk-fb7807573031e541cb590f5337081e3f"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Lam Research Corporation<SEP>U.S."
+  },
+  "Key Employees<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-fb7807573031e541cb590f5337081e3f"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Key Employees<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>PFAS": {
+    "chunk_ids": [
+      "chunk-fb7807573031e541cb590f5337081e3f"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Lam Research Corporation<SEP>PFAS"
+  },
+  "Intellectual Property Litigation<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-fb7807573031e541cb590f5337081e3f"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Intellectual Property Litigation<SEP>Lam Research Corporation"
+  },
+  "Acquisition<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-fb7807573031e541cb590f5337081e3f"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Acquisition<SEP>Lam Research Corporation"
+  },
+  "Customers<SEP>Export Controls": {
+    "chunk_ids": [
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Customers<SEP>Export Controls"
+  },
+  "Lam Research Corporation<SEP>Regulatory Compliance": {
+    "chunk_ids": [
+      "chunk-fb7807573031e541cb590f5337081e3f"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Lam Research Corporation<SEP>Regulatory Compliance"
+  },
+  "Lam Research Corporation<SEP>U.S. Dollar": {
+    "chunk_ids": [
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Lam Research Corporation<SEP>U.S. Dollar"
+  },
+  "Japanese Yen<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Japanese Yen<SEP>Lam Research Corporation"
+  },
+  "Euro<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Euro<SEP>Lam Research Corporation"
+  },
+  "Semiconductor Manufacturing<SEP>Strategic Alliances": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Semiconductor Manufacturing<SEP>Strategic Alliances"
+  },
+  "Lam Research Corporation<SEP>Supply Chain": {
+    "chunk_ids": [
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Lam Research Corporation<SEP>Supply Chain"
+  },
+  "Customer Demand<SEP>Economic Uncertainty": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Customer Demand<SEP>Economic Uncertainty"
+  },
+  "Customer Consolidation<SEP>Market Conditions": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Customer Consolidation<SEP>Market Conditions"
+  },
+  "Geopolitical Tensions<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Geopolitical Tensions<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>Trade Issues": {
+    "chunk_ids": [
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Lam Research Corporation<SEP>Trade Issues"
+  },
+  "Foreign Currency Exchange Rate Fluctuations<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Foreign Currency Exchange Rate Fluctuations<SEP>Lam Research Corporation"
+  },
+  "Key Customers<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Key Customers<SEP>Lam Research Corporation"
+  },
+  "Customer Demand<SEP>Economic Conditions": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Customer Demand<SEP>Economic Conditions"
+  },
+  "Lam Research Corporation<SEP>Operational Risks": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Lam Research Corporation<SEP>Operational Risks"
+  },
+  "Semiconductor Capital Equipment Industry<SEP>Semiconductor Manufacturers": {
+    "chunk_ids": [
+      "chunk-6ac75cf1fa25c3cbf9691d3366528164"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Semiconductor Capital Equipment Industry<SEP>Semiconductor Manufacturers"
+  },
+  "Accounts Receivable<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Accounts Receivable<SEP>Lam Research Corporation"
+  },
+  "Competitors<SEP>Semiconductor Capital Equipment Industry": {
+    "chunk_ids": [
+      "chunk-6ac75cf1fa25c3cbf9691d3366528164"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Competitors<SEP>Semiconductor Capital Equipment Industry"
+  },
+  "Inventory Balances<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Inventory Balances<SEP>Lam Research Corporation"
+  },
+  "Capital Equipment Expenditures<SEP>Market Demand": {
+    "chunk_ids": [
+      "chunk-6ac75cf1fa25c3cbf9691d3366528164"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Capital Equipment Expenditures<SEP>Market Demand"
+  },
+  "Semiconductor Manufacturers<SEP>Strategic Relationships": {
+    "chunk_ids": [
+      "chunk-6ac75cf1fa25c3cbf9691d3366528164"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Semiconductor Manufacturers<SEP>Strategic Relationships"
+  },
+  "Deferred Tax Assets<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Deferred Tax Assets<SEP>Lam Research Corporation"
+  },
+  "Product Capabilities<SEP>Semiconductor Manufacturers": {
+    "chunk_ids": [
+      "chunk-6ac75cf1fa25c3cbf9691d3366528164"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Product Capabilities<SEP>Semiconductor Manufacturers"
+  },
+  "Asset Impairments<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Asset Impairments<SEP>Lam Research Corporation"
+  },
+  "Product Capabilities<SEP>R&D": {
+    "chunk_ids": [
+      "chunk-6ac75cf1fa25c3cbf9691d3366528164"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Product Capabilities<SEP>R&D"
+  },
+  "Goodwill<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Goodwill<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>Semiconductor Capital Equipment Industry": {
+    "chunk_ids": [
+      "chunk-6ac75cf1fa25c3cbf9691d3366528164"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Lam Research Corporation<SEP>Semiconductor Capital Equipment Industry"
+  },
+  "Lam Research Corporation<SEP>Reputational Damage": {
+    "chunk_ids": [
+      "chunk-4b5447c5672396b554236658ba7a2ba4"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Lam Research Corporation<SEP>Reputational Damage"
+  },
+  "Asia Pacific Region<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-4b5447c5672396b554236658ba7a2ba4"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "Asia Pacific Region<SEP>Lam Research Corporation"
+  },
+  "General Data Protection Regulation<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-4b5447c5672396b554236658ba7a2ba4"
+    ],
+    "count": 1,
+    "create_time": 1777383955,
+    "update_time": 1777383955,
+    "_id": "General Data Protection Regulation<SEP>Lam Research Corporation"
+  },
+  "LAM Research Corporation<SEP>March 29, 2026": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "LAM Research Corporation<SEP>March 29, 2026"
+  },
+  "December 28, 2025<SEP>LAM Research Corporation": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "December 28, 2025<SEP>LAM Research Corporation"
+  },
+  "June 29, 2025<SEP>LAM Research Corporation": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "June 29, 2025<SEP>LAM Research Corporation"
+  },
+  "LAM Research Corporation<SEP>Total Assets": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "LAM Research Corporation<SEP>Total Assets"
+  },
+  "LAM Research Corporation<SEP>Total Liabilities": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "LAM Research Corporation<SEP>Total Liabilities"
+  },
+  "LAM Research Corporation<SEP>Stockholders' Equity": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b",
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d"
+    ],
+    "count": 2,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "LAM Research Corporation<SEP>Stockholders' Equity"
+  },
+  "Cash and Cash Equivalents<SEP>LAM Research Corporation": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Cash and Cash Equivalents<SEP>LAM Research Corporation"
+  },
+  "Lam<SEP>March 2026 Quarter": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam<SEP>March 2026 Quarter"
+  },
+  "Accounts Receivable, Net<SEP>LAM Research Corporation": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Accounts Receivable, Net<SEP>LAM Research Corporation"
+  },
+  "Japan<SEP>Lam": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Japan<SEP>Lam"
+  },
+  "China<SEP>Revenue": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "China<SEP>Revenue"
+  },
+  "Inventories<SEP>LAM Research Corporation": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Inventories<SEP>LAM Research Corporation"
+  },
+  "Korea<SEP>Revenue": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Korea<SEP>Revenue"
+  },
+  "LAM Research Corporation<SEP>Property and Equipment, Net": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "LAM Research Corporation<SEP>Property and Equipment, Net"
+  },
+  "Revenue<SEP>Taiwan": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Revenue<SEP>Taiwan"
+  },
+  "Goodwill and Intangible Assets<SEP>LAM Research Corporation": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Goodwill and Intangible Assets<SEP>LAM Research Corporation"
+  },
+  "December 2025 Quarter<SEP>Lam": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "December 2025 Quarter<SEP>Lam"
+  },
+  "Revenue<SEP>United States": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Revenue<SEP>United States"
+  },
+  "Current Portion of Long-Term Debt and Finance Lease Obligations<SEP>LAM Research Corporation": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Current Portion of Long-Term Debt and Finance Lease Obligations<SEP>LAM Research Corporation"
+  },
+  "Gross Margin<SEP>Lam": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Gross Margin<SEP>Lam"
+  },
+  "Revenue<SEP>Southeast Asia": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Revenue<SEP>Southeast Asia"
+  },
+  "LAM Research Corporation<SEP>Long-Term Debt and Finance Lease Obligations": {
+    "chunk_ids": [
+      "chunk-fa3395a77979c6bececfc3898bbd026b"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "LAM Research Corporation<SEP>Long-Term Debt and Finance Lease Obligations"
+  },
+  "Lam<SEP>Operating Margin": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam<SEP>Operating Margin"
+  },
+  "Lam Research Corporation<SEP>Ram Ganesh": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>Ram Ganesh"
+  },
+  "Europe<SEP>Revenue": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Europe<SEP>Revenue"
+  },
+  "Lam<SEP>Net Income": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam<SEP>Net Income"
+  },
+  "Lam Research Corporation<SEP>U.S. GAAP": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17",
+      "chunk-70808284909b7e9a72f485bfe3be1a10"
+    ],
+    "count": 2,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>U.S. GAAP"
+  },
+  "Lam<SEP>Reliant® Product Line": {
+    "chunk_ids": [
+      "chunk-10b0762022fd41eb2ff3dadc5e1cfdf0"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam<SEP>Reliant® Product Line"
+  },
+  "Lam Research Corporation<SEP>Non-GAAP": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>Non-GAAP"
+  },
+  "Lam Research Corporation<SEP>Workforce Optimization Charges": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>Workforce Optimization Charges"
+  },
+  "EDC Related Liability Valuation<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "EDC Related Liability Valuation<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>U.S. GAAP Gross Margin": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>U.S. GAAP Gross Margin"
+  },
+  "Lam Research Corporation<SEP>Non-GAAP Gross Margin": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>Non-GAAP Gross Margin"
+  },
+  "Lam Research Corporation<SEP>U.S. GAAP Operating Expenses": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>U.S. GAAP Operating Expenses"
+  },
+  "Lam Research Corporation<SEP>Non-GAAP Operating Expenses": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>Non-GAAP Operating Expenses"
+  },
+  "Lam Research Corporation<SEP>U.S. GAAP Operating Income": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>U.S. GAAP Operating Income"
+  },
+  "Net Income Per Diluted Share<SEP>U.S. GAAP": {
+    "chunk_ids": [
+      "chunk-127139813a156d2282ee87092e1dde89"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Net Income Per Diluted Share<SEP>U.S. GAAP"
+  },
+  "Lam Research Corporation<SEP>Non-GAAP Operating Income": {
+    "chunk_ids": [
+      "chunk-03c010a060165959be196237eadbba17"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>Non-GAAP Operating Income"
+  },
+  "Fortune 500<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-127139813a156d2282ee87092e1dde89"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Fortune 500<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>NASDAQ": {
+    "chunk_ids": [
+      "chunk-127139813a156d2282ee87092e1dde89"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>NASDAQ"
+  },
+  "December 2025 Quarter<SEP>March 2026 Quarter": {
+    "chunk_ids": [
+      "chunk-70808284909b7e9a72f485bfe3be1a10"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "December 2025 Quarter<SEP>March 2026 Quarter"
+  },
+  "Cash Flow Results<SEP>March 2026 Quarter": {
+    "chunk_ids": [
+      "chunk-70808284909b7e9a72f485bfe3be1a10"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Cash Flow Results<SEP>March 2026 Quarter"
+  },
+  "Lam Research Corporation<SEP>Private Securities Litigation Reform Act of 1995": {
+    "chunk_ids": [
+      "chunk-127139813a156d2282ee87092e1dde89"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>Private Securities Litigation Reform Act of 1995"
+  },
+  "Investor Relations<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-127139813a156d2282ee87092e1dde89"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Investor Relations<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>Supply Chain Cost Increases": {
+    "chunk_ids": [
+      "chunk-127139813a156d2282ee87092e1dde89"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>Supply Chain Cost Increases"
+  },
+  "Lam Research Corporation<SEP>March 2026 Quarter": {
+    "chunk_ids": [
+      "chunk-70808284909b7e9a72f485bfe3be1a10"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>March 2026 Quarter"
+  },
+  "Common Shares<SEP>LAM Research Corporation": {
+    "chunk_ids": [
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Common Shares<SEP>LAM Research Corporation"
+  },
+  "Lam Research Corporation<SEP>Tim Archer": {
+    "chunk_ids": [
+      "chunk-70808284909b7e9a72f485bfe3be1a10"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Lam Research Corporation<SEP>Tim Archer"
+  },
+  "Common Shares<SEP>March 29, 2026": {
+    "chunk_ids": [
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Common Shares<SEP>March 29, 2026"
+  },
+  "AI-driven Demand<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-70808284909b7e9a72f485bfe3be1a10"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "AI-driven Demand<SEP>Lam Research Corporation"
+  },
+  "Common Shares<SEP>December 28, 2025": {
+    "chunk_ids": [
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "Common Shares<SEP>December 28, 2025"
+  },
+  "LAM Research Corporation<SEP>Total Liabilities and Stockholders Equity": {
+    "chunk_ids": [
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d"
+    ],
+    "count": 1,
+    "create_time": 1777384144,
+    "update_time": 1777384144,
+    "_id": "LAM Research Corporation<SEP>Total Liabilities and Stockholders Equity"
+  },
+  "5.84 Billion<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-70808284909b7e9a72f485bfe3be1a10"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "5.84 Billion<SEP>Lam Research Corporation"
+  },
+  "Common Shares<SEP>June 29, 2025": {
+    "chunk_ids": [
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Common Shares<SEP>June 29, 2025"
+  },
+  "LAM Research Corporation<SEP>Net Cash Provided by Operating Activities": {
+    "chunk_ids": [
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "LAM Research Corporation<SEP>Net Cash Provided by Operating Activities"
+  },
+  "49.8%<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-70808284909b7e9a72f485bfe3be1a10"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "49.8%<SEP>Lam Research Corporation"
+  },
+  "Net Income<SEP>Revenue": {
+    "chunk_ids": [
+      "chunk-6bd095e85b776f054adf8ee05a9ad554"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Net Income<SEP>Revenue"
+  },
+  "Cash Flows from Investing Activities<SEP>LAM Research Corporation": {
+    "chunk_ids": [
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Cash Flows from Investing Activities<SEP>LAM Research Corporation"
+  },
+  "Operating Expenses<SEP>Operating Income": {
+    "chunk_ids": [
+      "chunk-6bd095e85b776f054adf8ee05a9ad554"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Operating Expenses<SEP>Operating Income"
+  },
+  "35.0%<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-70808284909b7e9a72f485bfe3be1a10"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "35.0%<SEP>Lam Research Corporation"
+  },
+  "Net Income<SEP>U.S. GAAP Net Income": {
+    "chunk_ids": [
+      "chunk-6bd095e85b776f054adf8ee05a9ad554"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Net Income<SEP>U.S. GAAP Net Income"
+  },
+  "Cash Flows from Financing Activities<SEP>LAM Research Corporation": {
+    "chunk_ids": [
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Cash Flows from Financing Activities<SEP>LAM Research Corporation"
+  },
+  "Gross Margin<SEP>Revenue": {
+    "chunk_ids": [
+      "chunk-6bd095e85b776f054adf8ee05a9ad554"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Gross Margin<SEP>Revenue"
+  },
+  "Operating Income<SEP>Operating Margin": {
+    "chunk_ids": [
+      "chunk-6bd095e85b776f054adf8ee05a9ad554"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Operating Income<SEP>Operating Margin"
+  },
+  "Lam Research Corporation<SEP>Non-GAAP Diluted EPS": {
+    "chunk_ids": [
+      "chunk-70808284909b7e9a72f485bfe3be1a10"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Lam Research Corporation<SEP>Non-GAAP Diluted EPS"
+  },
+  "Net Income<SEP>Net Income per Diluted Share": {
+    "chunk_ids": [
+      "chunk-6bd095e85b776f054adf8ee05a9ad554"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Net Income<SEP>Net Income per Diluted Share"
+  },
+  "Cash Flows from Financing Activities<SEP>March 30, 2025": {
+    "chunk_ids": [
+      "chunk-2fd3b0643f6a85d2ad4530ffb325378d"
+    ],
+    "count": 1,
+    "create_time": 1777384145,
+    "update_time": 1777384145,
+    "_id": "Cash Flows from Financing Activities<SEP>March 30, 2025"
+  },
+  "Board of Directors<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-3191ca3430af6704d0efb1e08d5e20ff",
+      "chunk-22b0c83655386e84dbab87969ca53f67",
+      "chunk-477a3fc5d9426898949b4faeadf5e84b",
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "count": 4,
+    "update_time": 1777384240,
+    "_id": "Board of Directors<SEP>LRCX"
+  },
+  "Excise Tax<SEP>Repurchase Program": {
+    "chunk_ids": [
+      "chunk-3191ca3430af6704d0efb1e08d5e20ff"
+    ],
+    "count": 1,
+    "create_time": 1777384161,
+    "update_time": 1777384161,
+    "_id": "Excise Tax<SEP>Repurchase Program"
+  },
+  "Board of Directors<SEP>May 2024": {
+    "chunk_ids": [
+      "chunk-3191ca3430af6704d0efb1e08d5e20ff"
+    ],
+    "count": 1,
+    "create_time": 1777384162,
+    "update_time": 1777384162,
+    "_id": "Board of Directors<SEP>May 2024"
+  },
+  "LRCX<SEP>Repurchase Program": {
+    "chunk_ids": [
+      "chunk-3191ca3430af6704d0efb1e08d5e20ff"
+    ],
+    "count": 1,
+    "create_time": 1777384162,
+    "update_time": 1777384162,
+    "_id": "LRCX<SEP>Repurchase Program"
+  },
+  "Excise Tax<SEP>Inflation Reduction Act": {
+    "chunk_ids": [
+      "chunk-3191ca3430af6704d0efb1e08d5e20ff"
+    ],
+    "count": 1,
+    "create_time": 1777384162,
+    "update_time": 1777384162,
+    "_id": "Excise Tax<SEP>Inflation Reduction Act"
+  },
+  "LRCX<SEP>Q2 2025": {
+    "chunk_ids": [
+      "chunk-3191ca3430af6704d0efb1e08d5e20ff"
+    ],
+    "count": 1,
+    "create_time": 1777384162,
+    "update_time": 1777384162,
+    "_id": "LRCX<SEP>Q2 2025"
+  },
+  "April 2025 ASRs<SEP>Common Stock": {
+    "chunk_ids": [
+      "chunk-22b0c83655386e84dbab87969ca53f67"
+    ],
+    "count": 1,
+    "create_time": 1777384178,
+    "update_time": 1777384178,
+    "_id": "April 2025 ASRs<SEP>Common Stock"
+  },
+  "Q4_2025<SEP>September 28, 2025": {
+    "chunk_ids": [
+      "chunk-22b0c83655386e84dbab87969ca53f67"
+    ],
+    "count": 1,
+    "create_time": 1777384178,
+    "update_time": 1777384178,
+    "_id": "Q4_2025<SEP>September 28, 2025"
+  },
+  "Common Stock<SEP>Shares Repurchased": {
+    "chunk_ids": [
+      "chunk-22b0c83655386e84dbab87969ca53f67"
+    ],
+    "count": 1,
+    "create_time": 1777384178,
+    "update_time": 1777384178,
+    "_id": "Common Stock<SEP>Shares Repurchased"
+  },
+  "Inflation Reduction Act<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-22b0c83655386e84dbab87969ca53f67",
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 2,
+    "update_time": 1777384208,
+    "_id": "Inflation Reduction Act<SEP>LRCX"
+  },
+  "Financial Institutions<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-22b0c83655386e84dbab87969ca53f67",
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 2,
+    "update_time": 1777384208,
+    "_id": "Financial Institutions<SEP>LRCX"
+  },
+  "LRCX<SEP>Share Repurchase Program": {
+    "chunk_ids": [
+      "chunk-22b0c83655386e84dbab87969ca53f67"
+    ],
+    "count": 1,
+    "create_time": 1777384178,
+    "update_time": 1777384178,
+    "_id": "LRCX<SEP>Share Repurchase Program"
+  },
+  "Common Stock<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "Common Stock<SEP>LRCX"
+  },
+  "April 2025 ASRs<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "April 2025 ASRs<SEP>LRCX"
+  },
+  "June 29, 2025<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "June 29, 2025<SEP>LRCX"
+  },
+  "LRCX<SEP>September 28, 2025": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "LRCX<SEP>September 28, 2025"
+  },
+  "LRCX<SEP>September 29, 2025": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "LRCX<SEP>September 29, 2025"
+  },
+  "LRCX<SEP>October 26, 2025": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "LRCX<SEP>October 26, 2025"
+  },
+  "LRCX<SEP>November 23, 2025": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "LRCX<SEP>November 23, 2025"
+  },
+  "December 28, 2025<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "December 28, 2025<SEP>LRCX"
+  },
+  "Derivative Contracts<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "Derivative Contracts<SEP>LRCX"
+  },
+  "$500 Million<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "$500 Million<SEP>LRCX"
+  },
+  "5.2 Million Shares<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "5.2 Million Shares<SEP>LRCX"
+  },
+  "317 Thousand Additional Shares<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "317 Thousand Additional Shares<SEP>LRCX"
+  },
+  "1% Excise Tax<SEP>LRCX": {
+    "chunk_ids": [
+      "chunk-477a3fc5d9426898949b4faeadf5e84b"
+    ],
+    "count": 1,
+    "create_time": 1777384208,
+    "update_time": 1777384208,
+    "_id": "1% Excise Tax<SEP>LRCX"
+  },
+  "Accelerated Share Repurchase Agreements<SEP>Common Stock": {
+    "chunk_ids": [
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "count": 1,
+    "create_time": 1777384240,
+    "update_time": 1777384240,
+    "_id": "Accelerated Share Repurchase Agreements<SEP>Common Stock"
+  },
+  "1% Excise Tax<SEP>Common Stock": {
+    "chunk_ids": [
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "count": 1,
+    "create_time": 1777384240,
+    "update_time": 1777384240,
+    "_id": "1% Excise Tax<SEP>Common Stock"
+  },
+  "Accelerated Share Repurchase Agreements<SEP>March 11, 2026": {
+    "chunk_ids": [
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "count": 1,
+    "create_time": 1777384240,
+    "update_time": 1777384240,
+    "_id": "Accelerated Share Repurchase Agreements<SEP>March 11, 2026"
+  },
+  "LRCX<SEP>Q2 2026": {
+    "chunk_ids": [
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "count": 1,
+    "create_time": 1777384240,
+    "update_time": 1777384240,
+    "_id": "LRCX<SEP>Q2 2026"
+  },
+  "$10.00 Billion<SEP>Board of Directors": {
+    "chunk_ids": [
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "count": 1,
+    "create_time": 1777384240,
+    "update_time": 1777384240,
+    "_id": "$10.00 Billion<SEP>Board of Directors"
+  },
+  "$200.0 Million<SEP>Common Stock": {
+    "chunk_ids": [
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "count": 1,
+    "create_time": 1777384240,
+    "update_time": 1777384240,
+    "_id": "$200.0 Million<SEP>Common Stock"
+  },
+  "Accelerated Share Repurchase Agreements<SEP>April 30, 2025": {
+    "chunk_ids": [
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "count": 1,
+    "create_time": 1777384240,
+    "update_time": 1777384240,
+    "_id": "Accelerated Share Repurchase Agreements<SEP>April 30, 2025"
+  },
+  "$500.0 Million<SEP>Common Stock": {
+    "chunk_ids": [
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "count": 1,
+    "create_time": 1777384240,
+    "update_time": 1777384240,
+    "_id": "$500.0 Million<SEP>Common Stock"
+  },
+  "Common Stock<SEP>Weighted-Average Share Price": {
+    "chunk_ids": [
+      "chunk-db8c7c0462d54e45ab4ab3f43fa3abf2"
+    ],
+    "count": 1,
+    "create_time": 1777384240,
+    "update_time": 1777384240,
+    "_id": "Common Stock<SEP>Weighted-Average Share Price"
   }
 }
