@@ -21,6 +21,16 @@ QUARTER_DATE_MAP = {
     "Q2 2026": ["Q2_2026", "2026-04", "2026-05", "2026-06", "April 2026", "May 2026", "June 2026"],
 }
 
+# Maps each semiconductor vertical → company tickers in the dataset
+VERTICAL_TICKER_MAP = {
+    "AI / GPU":        ["NVDA", "AMD", "INTC"],
+    "Foundry / EMS":   ["TSM", "SSNLF", "GFS", "TSMC"],
+    "Equipment":       ["AMAT", "LRCX", "KLAC", "ASML"],
+    "Memory":          ["MU", "WDC", "STX"],
+    "Analog / Power":  ["TXN", "ADI", "MCHP", "ON"],
+    "Networking / RF": ["AVGO", "QCOM", "MRVL"],
+}
+
 class AgentState(TypedDict):
     query: str
     filters: dict
@@ -45,13 +55,16 @@ async def architect_node(state: AgentState):
 
     aug = state['query']
     if quarters:
-        # Append date terms so LightRAG's similarity search biases toward those chunks
         date_terms = []
         for q in quarters:
             date_terms.extend(QUARTER_DATE_MAP.get(q, [q]))
         aug += f" (focusing on: {', '.join(quarters)}, period markers: {', '.join(date_terms[:6])})"
     if layers:
-        aug += f" (restrict to semiconductor layers: {', '.join(layers)})"
+        # Expand verticals to company names for query biasing
+        layer_companies = []
+        for layer in layers:
+            layer_companies.extend(VERTICAL_TICKER_MAP.get(layer, [layer]))
+        aug += f" (focus on companies: {', '.join(layer_companies)})"
 
     print(f"🗺️  [Architect] Mode={mode.upper()} | Quarters={quarters} | Layers={layers}")
     print(f"🔑  [Architect] Augmented query: {aug[:120]}...")
@@ -84,35 +97,54 @@ async def filter_node(state: AgentState):
     quarters = state.get('filters', {}).get('quarters', [])
     raw = state['raw_context']
 
-    if not quarters:
-        # No filter active — pass everything through
-        print("🔓 [Filter] No quarter filter — passing full context")
+    # If neither quarter nor layer filters active, pass everything through
+    layers_raw = state.get('filters', {}).get('layers', [])
+    if not quarters and not layers_raw:
+        print("🔓 [Filter] No filters active — passing full context")
         return {"filtered_context": raw}
 
     allowed_periods = {QUARTER_PERIOD_MAP.get(q, q.replace(' ', '_')) for q in quarters}
-    print(f"🔒 [Filter] Enforcing periods: {allowed_periods}")
+    if allowed_periods:
+        print(f"🔒 [Filter] Enforcing periods: {allowed_periods}")
 
-    # LightRAG context is a mix of retrieved text blocks.
-    # Split on the SOURCE INFO header pattern to isolate each chunk.
+    # Also build allowed tickers from vertical filter
+    f = state.get('filters', {})
+    layers = f.get('layers', [])
+    allowed_tickers: set = set()
+    for layer in layers:
+        for ticker in VERTICAL_TICKER_MAP.get(layer, []):
+            allowed_tickers.add(ticker.upper())
+    if allowed_tickers:
+        print(f"🔒 [Filter] Enforcing verticals → tickers: {allowed_tickers}")
+
+    # Split on SOURCE INFO headers — enforce period AND ticker filters
     blocks = re.split(r'(?=--- SOURCE INFO ---)', raw)
     kept, dropped = [], 0
     for block in blocks:
         period_match = re.search(r'Period:\s*([\w_]+)', block)
+        ticker_match = re.search(r'Ticker:\s*(\w+)',    block)
+
         if period_match:
-            period = period_match.group(1)
-            if period in allowed_periods:
+            period    = period_match.group(1)
+            ticker    = ticker_match.group(1).upper() if ticker_match else None
+            period_ok = (not allowed_periods) or period in allowed_periods
+            ticker_ok = (not allowed_tickers) or (ticker and ticker in allowed_tickers)
+            if period_ok and ticker_ok:
                 kept.append(block)
             else:
                 dropped += 1
         else:
-            # No period tag — keep it (might be a summary header)
+            # No SOURCE INFO header — keep (LightRAG connector blocks)
             kept.append(block)
 
     filtered = ''.join(kept)
     print(f"🔒 [Filter] Kept {len(kept)} blocks, dropped {dropped} out-of-scope blocks")
 
     if not filtered.strip():
-        filtered = f"[No data found for the selected periods: {', '.join(quarters)}. No context available.]"
+        scope = ', '.join(quarters) if quarters else 'all periods'
+        if allowed_tickers:
+            scope += f" | {', '.join(layers)}"
+        filtered = f"[No data found for the selected scope: {scope}.]"
 
     return {"filtered_context": filtered}
 

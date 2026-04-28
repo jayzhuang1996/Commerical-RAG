@@ -174,17 +174,27 @@ export default function ChatInterface() {
 
         <details open>
           <summary style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, cursor: 'pointer', outline: 'none', userSelect: 'none', whiteSpace: 'nowrap' }}>
-            STRUCTURAL LAYER
+            SEMICONDUCTOR VERTICAL
           </summary>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginTop: '10px', paddingLeft: '8px', borderLeft: '2px solid var(--border)' }}>
-            {['Designers', 'Foundry', 'Equipment', 'Networking'].map(l => (
-              <button 
-                key={l} 
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', marginTop: '10px', paddingLeft: '8px', borderLeft: '2px solid var(--border)' }}>
+            {[
+              { id: 'AI / GPU',       tickers: 'NVDA · AMD · INTC' },
+              { id: 'Foundry / EMS',  tickers: 'TSM · SSNLF · GFS'  },
+              { id: 'Equipment',      tickers: 'AMAT · LRCX · KLAC'  },
+              { id: 'Memory',         tickers: 'MU · WDC · STX'      },
+              { id: 'Analog / Power', tickers: 'TXN · ADI · MCHP'    },
+              { id: 'Networking / RF',tickers: 'AVGO · QCOM · MRVL'  },
+            ].map(({ id: l, tickers }) => (
+              <button
+                key={l}
                 onClick={() => toggleFilter(setActiveLayers, l)}
-                style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: activeLayers.includes(l) ? 'var(--accent-main)' : 'var(--text-secondary)', cursor: 'pointer', fontSize: '13px', fontWeight: activeLayers.includes(l) ? 700 : 500, textAlign: 'left', padding: '5px 0', whiteSpace: 'nowrap' }}
+                style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '1px', background: activeLayers.includes(l) ? 'rgba(0,215,210,0.07)' : 'none', border: activeLayers.includes(l) ? '1px solid var(--el-teal)' : '1px solid transparent', borderRadius: '6px', color: activeLayers.includes(l) ? 'var(--accent-main)' : 'var(--text-secondary)', cursor: 'pointer', fontSize: '12px', fontWeight: activeLayers.includes(l) ? 700 : 500, textAlign: 'left', padding: '5px 8px', whiteSpace: 'nowrap', width: '100%', transition: 'all 0.15s' }}
               >
-                {activeLayers.includes(l) ? <CheckSquare size={14} /> : <Square size={14} />}
-                {l}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  {activeLayers.includes(l) ? <CheckSquare size={12} /> : <Square size={12} />}
+                  {l}
+                </div>
+                <div style={{ fontSize: '10px', color: activeLayers.includes(l) ? 'var(--el-teal)' : 'var(--text-muted)', paddingLeft: '18px', fontWeight: 400 }}>{tickers}</div>
               </button>
             ))}
           </div>

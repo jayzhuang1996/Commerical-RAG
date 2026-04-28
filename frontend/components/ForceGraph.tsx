@@ -1,7 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { useMemo, useCallback, useState, useRef } from 'react';
+import { useMemo, useCallback, useState, useRef, useEffect } from 'react';
 
 const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), { ssr: false });
 
@@ -38,11 +38,22 @@ const LEGEND = [
 export default function ForceGraph({ triples }: Props) {
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const [dims, setDims] = useState({ w: 600, h: 400 });
+
+  // Measure container on mount and resize
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const update = () => setDims({ w: el.clientWidth, h: el.clientHeight });
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   const graphData = useMemo(() => {
     if (!triples || triples.length === 0) return { nodes: [], links: [] };
 
-    // Count degree for each node
     const degree = new Map<string, number>();
     triples.forEach(t => {
       if (!t.source || !t.target || t.source === t.target) return;
@@ -50,14 +61,13 @@ export default function ForceGraph({ triples }: Props) {
       degree.set(t.target, (degree.get(t.target) || 0) + 1);
     });
 
-    // Only exclude truly orphan nodes (degree = 0) — keep everything with at least 1 connection
     const validNodes = new Set<string>();
     degree.forEach((deg, id) => { if (deg >= 1) validNodes.add(id); });
 
     const links = triples
       .filter(t => t.source && t.target && t.source !== t.target
                 && validNodes.has(t.source) && validNodes.has(t.target))
-      .slice(0, 50)  // cap at 50 for performance
+      .slice(0, 50)
       .map(t => ({
         source: t.source,
         target: t.target,
@@ -74,40 +84,44 @@ export default function ForceGraph({ triples }: Props) {
     return { nodes, links };
   }, [triples]);
 
-  // Node radius — generous sizing so labels are readable inside large hubs
-  const nodeRadius = (node: any) => Math.min(14 + node.degree * 3.5, 44);
+  // Radius: hub nodes get substantially bigger
+  const nodeRadius = (node: any) => Math.min(10 + node.degree * 2.8, 38);
 
   const nodeCanvasObject = useCallback((node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
     const isHov = node.id === hoveredNode;
-    const r = nodeRadius(node);
+    const r     = nodeRadius(node);
     const label = node.id as string;
 
-    // ── Circle fill ──────────────────────────────────────────────────────────
+    // ── Circle ──────────────────────────────────────────────────────────────
     ctx.beginPath();
     ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
     ctx.fillStyle   = isHov ? '#192E44' : '#FFFFFF';
     ctx.strokeStyle = isHov ? '#00D7D2' : '#192E44';
-    ctx.lineWidth   = isHov ? 2.5 / globalScale : 1.5 / globalScale;
+    ctx.lineWidth   = (isHov ? 2.5 : 1.5) / globalScale;
     ctx.fill();
     ctx.stroke();
 
-    // ── Label BELOW the circle (outside) ─────────────────────────────────────
-    const fontSize  = Math.max(10, Math.min(13, 13 / globalScale));
-    ctx.font        = `${isHov ? 700 : 600} ${fontSize}px 'DIN','Segoe UI',sans-serif`;
-    ctx.textAlign   = 'center';
-    ctx.textBaseline = 'top';
-    ctx.fillStyle   = isHov ? '#00D7D2' : '#192E44';
+    // ── Label INSIDE circle, centered ────────────────────────────────────────
+    // Font scales with zoom but has floor/ceiling
+    const baseFontSize = Math.min(r * 0.52, 12);
+    const fontSize     = Math.max(8, baseFontSize);
+    ctx.font           = `${isHov ? 700 : 600} ${fontSize}px 'DIN','Segoe UI',sans-serif`;
+    ctx.textAlign      = 'center';
+    ctx.textBaseline   = 'middle';
+    ctx.fillStyle      = isHov ? '#00D7D2' : '#192E44';
 
-    // Clip if needed
-    const maxChars = Math.floor((r * 2 + 8) / (fontSize * 0.6));
+    // Truncate to fit inside circle diameter
+    const maxWidth = r * 1.7;
     let txt = label;
-    if (txt.length > maxChars) txt = txt.slice(0, maxChars - 1) + '…';
-
-    ctx.fillText(txt, node.x, node.y + r + 3 / globalScale);
+    while (ctx.measureText(txt).width > maxWidth && txt.length > 2) {
+      txt = txt.slice(0, -1);
+    }
+    if (txt !== label) txt += '…';
+    ctx.fillText(txt, node.x, node.y);
   }, [hoveredNode]);
 
   const handleNodeHover = useCallback((node: any) => {
-    setHoveredNode(node ? node.id : null);
+    setHoveredNode(node ? (node.id as string) : null);
   }, []);
 
   if (!triples || triples.length === 0) {
@@ -147,7 +161,7 @@ export default function ForceGraph({ triples }: Props) {
         background: 'rgba(255,255,255,0.92)', borderRadius: '20px',
         padding: '5px 12px', border: '1px solid #E3E6EA',
       }}>
-        {graphData.nodes.length} companies · {graphData.links.length} connections
+        {graphData.nodes.length} companies · {graphData.links.length} edges
       </div>
 
       {/* Hint */}
@@ -155,9 +169,9 @@ export default function ForceGraph({ triples }: Props) {
         position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)',
         fontSize: '10px', color: '#94A3B8', zIndex: 10,
         background: 'rgba(255,255,255,0.85)', borderRadius: '20px', padding: '3px 12px',
-        border: '1px solid #E3E6EA',
+        border: '1px solid #E3E6EA', whiteSpace: 'nowrap',
       }}>
-        Drag · Scroll to zoom · Hover edge for detail
+        Drag · Scroll to zoom · Hover edge for insight
       </div>
 
       <ForceGraph2D
@@ -165,27 +179,27 @@ export default function ForceGraph({ triples }: Props) {
         nodeId="id"
         nodeCanvasObject={nodeCanvasObject}
         nodeCanvasObjectMode={() => 'replace'}
-        nodeVal={(node: any) => nodeRadius(node) * nodeRadius(node)}
+        nodeVal={(node: any) => nodeRadius(node) ** 2}
         linkColor={(link: any) => link.color || '#96BED2'}
-        linkWidth={(link: any) => link.type === 'supply' || link.type === 'partnership' ? 2.5 : 1.5}
-        linkDirectionalArrowLength={8}
+        linkWidth={(link: any) => ['supply', 'partnership'].includes(link.type) ? 2.5 : 1.5}
+        linkDirectionalArrowLength={6}
         linkDirectionalArrowRelPos={1}
         linkDirectionalArrowColor={(link: any) => link.color || '#96BED2'}
         linkLabel={(link: any) => {
-          const s = typeof link.source === 'object' ? link.source.id : link.source;
-          const t = typeof link.target === 'object' ? link.target.id : link.target;
-          const lbl = (link.label || '').slice(0, 180);
-          return `<div style="max-width:280px;padding:10px 14px;font-family:'Segoe UI',sans-serif;font-size:12px;line-height:1.65;background:#fff;border:1px solid #E3E6EA;border-radius:10px;box-shadow:0 4px 16px rgba(25,46,68,0.12)"><strong style="color:#192E44;display:block;margin-bottom:5px;font-size:12.5px">${s} → ${t}</strong><span style="color:#3C3C3C">${lbl}</span></div>`;
+          const s = typeof link.source === 'object' ? (link.source as any).id : link.source;
+          const t = typeof link.target === 'object' ? (link.target as any).id : link.target;
+          const lbl = ((link.label as string) || '').slice(0, 200);
+          return `<div style="max-width:280px;padding:10px 14px;font-family:'Segoe UI',sans-serif;font-size:12px;line-height:1.7;background:#fff;border:1px solid #dde3ea;border-radius:10px;box-shadow:0 4px 18px rgba(25,46,68,0.13);pointer-events:none"><strong style="color:#192E44;display:block;margin-bottom:5px">${s} → ${t}</strong><span style="color:#3C4A5A">${lbl}</span></div>`;
         }}
-        linkHoverPrecision={8}
+        linkHoverPrecision={6}
         onNodeHover={handleNodeHover}
-        onNodeClick={handleNodeHover}
+        onNodeClick={(node: any) => setHoveredNode(node?.id === hoveredNode ? null : node?.id)}
         backgroundColor="#F8F9FA"
-        width={containerRef.current?.clientWidth || 600}
-        height={containerRef.current?.clientHeight || 400}
-        cooldownTicks={150}
-        d3AlphaDecay={0.015}
-        d3VelocityDecay={0.35}
+        width={dims.w}
+        height={dims.h}
+        cooldownTicks={180}
+        d3AlphaDecay={0.012}
+        d3VelocityDecay={0.3}
       />
     </div>
   );
