@@ -1,29 +1,21 @@
 'use client';
 
-import { useEffect, useRef, useState, useCallback } from 'react';
+import dynamic from 'next/dynamic';
+import { useMemo, useCallback, useState, useRef } from 'react';
 
-interface GraphNode {
-  id: string;
-  degree?: number;
-  // d3 simulation adds these at runtime
-  x?: number;
-  y?: number;
-  vx?: number;
-  vy?: number;
-  fx?: number | null;
-  fy?: number | null;
-}
+// react-force-graph-2d uses browser APIs — must be dynamically imported
+const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), { ssr: false });
 
-interface GraphLink {
-  source: string | GraphNode;
-  target: string | GraphNode;
+interface Triple {
+  source: string;
+  target: string;
   label?: string;
   type?: string;
   color?: string;
 }
 
 interface Props {
-  triples: { source: string; label: string; target: string; type?: string; color?: string }[];
+  triples: Triple[];
 }
 
 const TYPE_COLORS: Record<string, string> = {
@@ -37,197 +29,96 @@ const TYPE_COLORS: Record<string, string> = {
 
 const LEGEND = [
   { type: 'supply',       label: 'Supply Chain' },
-  { type: 'partnership',  label: 'Partnership' },
-  { type: 'competitive',  label: 'Competitive' },
-  { type: 'geopolitical', label: 'Geopolitical Risk' },
-  { type: 'investment',   label: 'Investment / M&A' },
-  { type: 'related',      label: 'Related' },
+  { type: 'partnership',  label: 'Partnership'  },
+  { type: 'competitive',  label: 'Competitive'  },
+  { type: 'geopolitical', label: 'Geopolitical' },
+  { type: 'investment',   label: 'Investment'   },
+  { type: 'related',      label: 'Related'      },
 ];
 
 export default function ForceGraph({ triples }: Props) {
+  const [tooltip, setTooltip] = useState<{ x: number; y: number; html: string } | null>(null);
+  const [hoveredNode, setHoveredNode] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const canvasRef    = useRef<HTMLCanvasElement>(null);
-  const simRef       = useRef<any>(null);
 
-  const [tooltip, setTooltip]           = useState<{ x: number; y: number; text: string; type: string } | null>(null);
-  const [hoveredNode, setHoveredNode]   = useState<string | null>(null);
-  const [dimensions, setDimensions]     = useState({ w: 600, h: 400 });
+  const graphData = useMemo(() => {
+    if (!triples || triples.length === 0) return { nodes: [], links: [] };
 
-  // Build graph data from triples
-  const graphData = useCallback(() => {
-    const nodeMap = new Map<string, GraphNode>();
-    const links: GraphLink[] = [];
+    const nodeMap = new Map<string, { id: string; degree: number }>();
+    const links: any[] = [];
 
-    (triples || []).forEach(t => {
+    triples.forEach(t => {
       if (!t.source || !t.target || t.source === t.target) return;
       if (!nodeMap.has(t.source)) nodeMap.set(t.source, { id: t.source, degree: 0 });
       if (!nodeMap.has(t.target)) nodeMap.set(t.target, { id: t.target, degree: 0 });
-      nodeMap.get(t.source)!.degree! += 1;
-      nodeMap.get(t.target)!.degree! += 1;
-      links.push({ source: t.source, target: t.target, label: t.label, type: t.type || 'related', color: t.color || '#96BED2' });
+      nodeMap.get(t.source)!.degree++;
+      nodeMap.get(t.target)!.degree++;
+      links.push({
+        source: t.source,
+        target: t.target,
+        label:  t.label  || '',
+        type:   t.type   || 'related',
+        color:  t.color  || TYPE_COLORS[t.type || 'related'] || '#96BED2',
+      });
     });
 
     return { nodes: Array.from(nodeMap.values()), links };
   }, [triples]);
 
-  useEffect(() => {
-    const obs = new ResizeObserver(entries => {
-      for (const entry of entries) {
-        const { width, height } = entry.contentRect;
-        setDimensions({ w: Math.floor(width), h: Math.floor(height) });
+  const nodeCanvasObject = useCallback((node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
+    const isHov = node.id === hoveredNode;
+    const r = Math.min(5 + node.degree * 1.8, 20);
+    const label = node.id as string;
+    const fontSize = Math.max(10, 12 / globalScale);
+
+    // Circle
+    ctx.beginPath();
+    ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
+    ctx.fillStyle   = isHov ? '#192E44' : '#FFFFFF';
+    ctx.strokeStyle = isHov ? '#00D7D2' : '#192E44';
+    ctx.lineWidth   = isHov ? 2.5 / globalScale : 1.5 / globalScale;
+    ctx.fill();
+    ctx.stroke();
+
+    // Label — only render when zoomed in enough or on hover
+    if (globalScale > 0.6 || isHov) {
+      ctx.font         = `${isHov ? 700 : 500} ${fontSize}px 'DIN','Segoe UI',sans-serif`;
+      ctx.textAlign    = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle    = isHov ? '#FFFFFF' : '#192E44';
+
+      // Clip long labels inside the circle
+      const maxW = r * 1.6;
+      let txt = label;
+      while (ctx.measureText(txt).width > maxW && txt.length > 3) {
+        txt = txt.slice(0, -1);
       }
-    });
-    if (containerRef.current) obs.observe(containerRef.current);
-    return () => obs.disconnect();
+      if (txt !== label) txt += '…';
+      ctx.fillText(txt, node.x, node.y);
+    }
+  }, [hoveredNode]);
+
+  const handleNodeHover = useCallback((node: any) => {
+    setHoveredNode(node ? node.id : null);
   }, []);
 
-  useEffect(() => {
-    if (!canvasRef.current || !triples || triples.length === 0) return;
+  const handleLinkHover = useCallback((link: any, prevLink: any) => {
+    if (!link || !containerRef.current) { setTooltip(null); return; }
+    // We'll show tooltip at a fixed position — react-force-graph-2d doesn't expose
+    // mouse position in onLinkHover, so we read from the canvas mouse event via onMouseMove
+  }, []);
 
-    const { nodes, links } = graphData();
-    const canvas = canvasRef.current;
-    const ctx    = canvas.getContext('2d')!;
-    const W = dimensions.w;
-    const H = dimensions.h;
-    canvas.width  = W;
-    canvas.height = H;
+  const handleNodeClick = useCallback((node: any) => {
+    // Highlight by setting hovered
+    setHoveredNode(node.id === hoveredNode ? null : node.id);
+  }, [hoveredNode]);
 
-    // Lazy-load d3-force
-    import('d3-force').then(d3 => {
-      // Kill any existing simulation
-      if (simRef.current) simRef.current.stop();
-
-      const sim = d3.forceSimulation(nodes as any)
-        .force('link', d3.forceLink(links as any).id((d: any) => d.id).distance(120).strength(0.6))
-        .force('charge', d3.forceManyBody().strength(-300))
-        .force('center', d3.forceCenter(W / 2, H / 2))
-        .force('collision', d3.forceCollide().radius((d: any) => nodeRadius(d) + 8));
-
-      simRef.current = sim;
-
-      function nodeRadius(n: GraphNode) {
-        return Math.min(6 + (n.degree || 1) * 2, 22);
-      }
-
-      function draw() {
-        ctx.clearRect(0, 0, W, H);
-
-        // Draw edges
-        links.forEach((link: any) => {
-          const s = link.source as GraphNode;
-          const t = link.target as GraphNode;
-          if (!s.x || !t.x) return;
-
-          const isHovered = hoveredNode && (s.id === hoveredNode || t.id === hoveredNode);
-          ctx.beginPath();
-          ctx.moveTo(s.x, s.y!);
-          ctx.lineTo(t.x, t.y!);
-          ctx.strokeStyle = link.color || '#96BED2';
-          ctx.globalAlpha = isHovered ? 1 : (hoveredNode ? 0.15 : 0.55);
-          ctx.lineWidth   = isHovered ? 2.5 : 1.5;
-          ctx.stroke();
-
-          // Draw arrowhead
-          const angle = Math.atan2(t.y! - s.y!, t.x - s.x!);
-          const ar = nodeRadius(t as GraphNode) + 3;
-          const ax = t.x - ar * Math.cos(angle);
-          const ay = t.y! - ar * Math.sin(angle);
-          ctx.beginPath();
-          ctx.moveTo(ax, ay);
-          ctx.lineTo(ax - 8 * Math.cos(angle - 0.35), ay - 8 * Math.sin(angle - 0.35));
-          ctx.lineTo(ax - 8 * Math.cos(angle + 0.35), ay - 8 * Math.sin(angle + 0.35));
-          ctx.closePath();
-          ctx.fillStyle = link.color || '#96BED2';
-          ctx.fill();
-          ctx.globalAlpha = 1;
-        });
-
-        // Draw nodes
-        nodes.forEach((node: any) => {
-          if (!node.x) return;
-          const r = nodeRadius(node);
-          const isHov = node.id === hoveredNode;
-
-          ctx.beginPath();
-          ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
-          ctx.fillStyle   = isHov ? '#192E44' : '#FFFFFF';
-          ctx.strokeStyle = isHov ? '#00D7D2' : '#192E44';
-          ctx.lineWidth   = isHov ? 2.5 : 1.5;
-          ctx.globalAlpha = hoveredNode && !isHov ? 0.3 : 1;
-          ctx.fill();
-          ctx.stroke();
-
-          // Label
-          ctx.globalAlpha = hoveredNode && !isHov ? 0.2 : 1;
-          ctx.font        = `${isHov ? 700 : 500} ${Math.max(9, Math.min(r * 0.85, 12))}px 'DIN', 'Segoe UI', sans-serif`;
-          ctx.fillStyle   = isHov ? '#FFFFFF' : '#192E44';
-          ctx.textAlign   = 'center';
-          ctx.textBaseline = 'middle';
-          // Clip long labels
-          const maxChars = Math.floor(r * 2 / 5.5);
-          const label = node.id.length > maxChars ? node.id.slice(0, maxChars) + '…' : node.id;
-          ctx.fillText(label, node.x, node.y);
-          ctx.globalAlpha = 1;
-        });
-      }
-
-      sim.on('tick', draw);
-      sim.on('end', draw);
-    });
-
-    return () => { if (simRef.current) simRef.current.stop(); };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [triples, dimensions]);
-
-  // Hover detection
-  const handleMouseMove = useCallback((e: React.MouseEvent<HTMLCanvasElement>) => {
-    if (!canvasRef.current || !simRef.current) return;
-    const rect = canvasRef.current.getBoundingClientRect();
-    const mx = e.clientX - rect.left;
-    const my = e.clientY - rect.top;
-
-    const { nodes, links } = graphData();
-    const sim = simRef.current;
-    const simNodes: GraphNode[] = sim.nodes();
-
-    // Check node hover
-    let found: GraphNode | null = null;
-    for (const n of simNodes) {
-      const r = Math.min(6 + ((n as any).degree || 1) * 2, 22);
-      const dx = (n.x || 0) - mx;
-      const dy = (n.y || 0) - my;
-      if (Math.sqrt(dx * dx + dy * dy) < r + 4) { found = n; break; }
-    }
-
-    if (found) {
-      setHoveredNode(found.id);
-      // Find all edges touching this node
-      const edgeDescs = links
-        .filter((l: any) => {
-          const s = typeof l.source === 'object' ? l.source.id : l.source;
-          const t = typeof l.target === 'object' ? l.target.id : l.target;
-          return s === found!.id || t === found!.id;
-        })
-        .slice(0, 3)
-        .map((l: any) => {
-          const s = typeof l.source === 'object' ? l.source.id : l.source;
-          const t = typeof l.target === 'object' ? l.target.id : l.target;
-          const other = s === found!.id ? t : s;
-          return `→ ${other}: ${(l.label || '').slice(0, 90)}${(l.label || '').length > 90 ? '…' : ''}`;
-        });
-      setTooltip({
-        x: e.clientX - rect.left + 12,
-        y: e.clientY - rect.top - 8,
-        text: edgeDescs.join('\n'),
-        type: found.id,
-      });
-    } else {
-      setHoveredNode(null);
-      setTooltip(null);
-    }
-  }, [graphData]);
-
-  const handleMouseLeave = () => { setHoveredNode(null); setTooltip(null); };
+  // Manual mouse-move for tooltip on links
+  const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+    if (!containerRef.current) return;
+    const rect = containerRef.current.getBoundingClientRect();
+    setTooltip(prev => prev ? { ...prev, x: e.clientX - rect.left + 14, y: e.clientY - rect.top - 10 } : null);
+  }, []);
 
   if (!triples || triples.length === 0) {
     return (
@@ -238,53 +129,73 @@ export default function ForceGraph({ triples }: Props) {
   }
 
   return (
-    <div ref={containerRef} style={{ position: 'relative', width: '100%', height: '100%', background: 'var(--bg-base)', borderRadius: '8px', overflow: 'hidden' }}>
-
+    <div
+      ref={containerRef}
+      style={{ position: 'relative', width: '100%', height: '100%', background: 'var(--bg-base)', overflow: 'hidden', borderRadius: '8px' }}
+      onMouseMove={handleMouseMove}
+    >
       {/* Legend */}
-      <div style={{ position: 'absolute', top: '12px', left: '12px', display: 'flex', flexDirection: 'column', gap: '5px', zIndex: 10, background: 'rgba(255,255,255,0.9)', borderRadius: '8px', padding: '10px 12px', border: '1px solid var(--border)', backdropFilter: 'blur(6px)' }}>
+      <div style={{
+        position: 'absolute', top: '10px', left: '10px', zIndex: 10,
+        background: 'rgba(255,255,255,0.92)', borderRadius: '8px',
+        padding: '10px 12px', border: '1px solid var(--border)',
+        backdropFilter: 'blur(6px)', display: 'flex', flexDirection: 'column', gap: '5px',
+      }}>
+        <div style={{ fontSize: '9px', fontWeight: 700, color: 'var(--el-slate)', letterSpacing: '0.07em', marginBottom: '3px', textTransform: 'uppercase' }}>Relationship Type</div>
         {LEGEND.map(({ type, label }) => (
-          <div key={type} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '10px', color: 'var(--el-navy)', fontWeight: 500 }}>
-            <div style={{ width: '20px', height: '2px', background: TYPE_COLORS[type], borderRadius: '1px' }} />
+          <div key={type} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '10px', color: 'var(--el-navy)' }}>
+            <div style={{ width: '18px', height: '2px', background: TYPE_COLORS[type], borderRadius: '1px', flexShrink: 0 }} />
             {label}
           </div>
         ))}
       </div>
 
-      {/* Node count badge */}
-      <div style={{ position: 'absolute', top: '12px', right: '12px', fontSize: '10px', fontWeight: 700, color: 'var(--el-slate)', background: 'rgba(255,255,255,0.85)', borderRadius: '20px', padding: '4px 10px', border: '1px solid var(--border)', letterSpacing: '0.05em' }}>
-        {graphData().nodes.length} companies · {triples.length} relationships
+      {/* Stats badge */}
+      <div style={{
+        position: 'absolute', top: '10px', right: '10px', zIndex: 10,
+        fontSize: '10px', fontWeight: 700, color: 'var(--el-slate)',
+        background: 'rgba(255,255,255,0.85)', borderRadius: '20px',
+        padding: '4px 10px', border: '1px solid var(--border)',
+      }}>
+        {graphData.nodes.length} companies · {graphData.links.length} edges
       </div>
 
-      <canvas
-        ref={canvasRef}
-        style={{ display: 'block', width: '100%', height: '100%', cursor: hoveredNode ? 'pointer' : 'default' }}
-        onMouseMove={handleMouseMove}
-        onMouseLeave={handleMouseLeave}
-      />
+      {/* Hint */}
+      <div style={{
+        position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)',
+        fontSize: '10px', color: 'var(--el-slate)', zIndex: 10,
+        background: 'rgba(255,255,255,0.8)', borderRadius: '20px', padding: '3px 10px',
+      }}>
+        Drag nodes · Scroll to zoom · Click to highlight
+      </div>
 
-      {/* Tooltip */}
-      {tooltip && (
-        <div style={{
-          position: 'absolute',
-          left: Math.min(tooltip.x, dimensions.w - 280),
-          top: Math.max(tooltip.y, 8),
-          background: '#fff',
-          border: '1px solid var(--border)',
-          borderRadius: '8px',
-          padding: '10px 14px',
-          fontSize: '11.5px',
-          lineHeight: 1.6,
-          color: 'var(--el-navy)',
-          maxWidth: '260px',
-          boxShadow: '0 4px 16px rgba(25,46,68,0.12)',
-          pointerEvents: 'none',
-          zIndex: 20,
-          whiteSpace: 'pre-line',
-        }}>
-          <div style={{ fontWeight: 700, marginBottom: '6px', color: 'var(--el-navy)', fontSize: '12px' }}>{tooltip.type}</div>
-          {tooltip.text}
-        </div>
-      )}
+      <ForceGraph2D
+        graphData={graphData}
+        nodeId="id"
+        nodeCanvasObject={nodeCanvasObject}
+        nodeCanvasObjectMode={() => 'replace'}
+        nodeVal={(node: any) => Math.min(5 + node.degree * 1.8, 20)}
+        linkColor={(link: any) => link.color || '#96BED2'}
+        linkWidth={(link: any) => link.type === 'supply' || link.type === 'partnership' ? 2 : 1.5}
+        linkDirectionalArrowLength={6}
+        linkDirectionalArrowRelPos={1}
+        linkDirectionalArrowColor={(link: any) => link.color || '#96BED2'}
+        linkLabel={(link: any) => {
+          const s = typeof link.source === 'object' ? link.source.id : link.source;
+          const t = typeof link.target === 'object' ? link.target.id : link.target;
+          const lbl = (link.label || '').slice(0, 140);
+          return `<div style="max-width:240px;padding:8px 10px;font-size:11px;line-height:1.5;background:#fff;border:1px solid #e3e3e3;border-radius:6px;box-shadow:0 4px 12px rgba(0,0,0,0.12)"><strong style="color:#192E44">${s} → ${t}</strong><br/>${lbl}</div>`;
+        }}
+        linkHoverPrecision={6}
+        onNodeHover={handleNodeHover}
+        onNodeClick={handleNodeClick}
+        backgroundColor="transparent"
+        width={containerRef.current?.clientWidth || 600}
+        height={containerRef.current?.clientHeight || 400}
+        cooldownTicks={120}
+        d3AlphaDecay={0.02}
+        d3VelocityDecay={0.3}
+      />
     </div>
   );
 }

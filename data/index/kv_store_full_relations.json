@@ -16027,5 +16027,1741 @@
     "create_time": 1777392950,
     "update_time": 1777392950,
     "_id": "doc-deb89223df9ad7077b183a8e1e48dbbd"
+  },
+  "doc-67699b5bc38d58d90fea380b231cf812": {
+    "relation_pairs": [
+      [
+        "AI Regulations",
+        "European Union"
+      ],
+      [
+        "Supply-Chain Attacks",
+        "Third-Party Suppliers"
+      ],
+      [
+        "Financial Statements",
+        "Material Weakness"
+      ],
+      [
+        "Foundries",
+        "Third-Party Suppliers"
+      ],
+      [
+        "USG",
+        "United Arab Emirates"
+      ],
+      [
+        "22% of Total Revenue",
+        "Fiscal Year 2026"
+      ],
+      [
+        "GDPR",
+        "NVIDIA"
+      ],
+      [
+        "Large Language Models",
+        "NVIDIA AI Infrastructure"
+      ],
+      [
+        "Business Processes",
+        "Enterprise Resource Planning System"
+      ],
+      [
+        "Engineering Development Resources",
+        "Supply Chain Cost"
+      ],
+      [
+        "NVIDIA DRIVE",
+        "Research and Development Activities"
+      ],
+      [
+        "Market Demand",
+        "Products"
+      ],
+      [
+        "Pillar One",
+        "Two-Pillar Framework"
+      ],
+      [
+        "California",
+        "Natural Disasters"
+      ],
+      [
+        "Economic Conditions",
+        "Risk Factors"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "NVDA"
+      ],
+      [
+        "NVIDIA",
+        "Security Incidents"
+      ],
+      [
+        "AI Software Products",
+        "Product Liability Claims"
+      ],
+      [
+        "Pillar Two",
+        "Two-Pillar Framework"
+      ],
+      [
+        "AI",
+        "Data Privacy and Security Laws"
+      ],
+      [
+        "Compute & Networking Segment",
+        "OpenAI"
+      ],
+      [
+        "Natural Disasters",
+        "Public Health Issues"
+      ],
+      [
+        "Asia",
+        "Natural Disasters"
+      ],
+      [
+        "Accelerated Computing",
+        "NVIDIA AI Infrastructure"
+      ],
+      [
+        "Mellanox Acquisition",
+        "USG"
+      ],
+      [
+        "CCPA",
+        "Data Privacy"
+      ],
+      [
+        "Delaware General Corporation Law",
+        "NVIDIA"
+      ],
+      [
+        "Cyber-Attacks",
+        "Ransomware Attacks"
+      ],
+      [
+        "Data Center Products",
+        "Manufacturing Capabilities"
+      ],
+      [
+        "AI Software Products",
+        "Cybersecurity Incidents"
+      ],
+      [
+        "CSPs",
+        "Research and Development"
+      ],
+      [
+        "GFN Service",
+        "Security Incidents"
+      ],
+      [
+        "NVIDIA AI Enterprise",
+        "Research and Development Activities"
+      ],
+      [
+        "Architectural Transitions",
+        "Data Center Infrastructure"
+      ],
+      [
+        "OEMs",
+        "Tier 1 Automotive Suppliers"
+      ],
+      [
+        "Environmental Liabilities",
+        "Operating Costs"
+      ],
+      [
+        "China",
+        "USG"
+      ],
+      [
+        "Geopolitical Conflicts",
+        "State of Israel"
+      ],
+      [
+        "EMEA",
+        "Ukraine"
+      ],
+      [
+        "International Sales",
+        "Public Health Issues"
+      ],
+      [
+        "China",
+        "International Sales"
+      ],
+      [
+        "Company",
+        "Indirect Customers"
+      ],
+      [
+        "Cryptocurrency Mining",
+        "Gaming GPUs"
+      ],
+      [
+        "Regulatory Scrutiny",
+        "Security Incidents"
+      ],
+      [
+        "Customers",
+        "Partner Network"
+      ],
+      [
+        "AI Diffusion IFR",
+        "H200"
+      ],
+      [
+        "Competitors",
+        "NVIDIA AI Infrastructure"
+      ],
+      [
+        "Financial Institutions",
+        "Market-Wide Liquidity Problems"
+      ],
+      [
+        "Russia",
+        "Ukraine"
+      ],
+      [
+        "Gaming GPUs",
+        "USG"
+      ],
+      [
+        "Applications",
+        "Market Demand"
+      ],
+      [
+        "Breach",
+        "Personal Data"
+      ],
+      [
+        "Acquisition Integrations",
+        "Customer Support"
+      ],
+      [
+        "EU-U.S. Data Privacy Framework",
+        "General Data Protection Regulation"
+      ],
+      [
+        "Cloud Service Capacity",
+        "Research and Development Activities"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Users"
+      ],
+      [
+        "Manufacturing",
+        "Product Design"
+      ],
+      [
+        "IP Licensing Capabilities",
+        "Research and Development Activities"
+      ],
+      [
+        "Legal Proceedings",
+        "Tax Authorities"
+      ],
+      [
+        "French Competition Authority",
+        "GPU Market"
+      ],
+      [
+        "GeForce NOW",
+        "NVIDIA AI Infrastructure"
+      ],
+      [
+        "Climate Change",
+        "Sustainability-Related Laws"
+      ],
+      [
+        "AI Technologies",
+        "GPUs"
+      ],
+      [
+        "Cyber-attacks",
+        "Risk Factors"
+      ],
+      [
+        "AI Act",
+        "Foundation Models"
+      ],
+      [
+        "Action Plan",
+        "Chinese Government"
+      ],
+      [
+        "AI",
+        "European Union"
+      ],
+      [
+        "Manufacturing Lead Times",
+        "Risk Factors"
+      ],
+      [
+        "Business Investments",
+        "Regulatory Approvals"
+      ],
+      [
+        "Legal Proceedings",
+        "Litigation"
+      ],
+      [
+        "Customers",
+        "System Integrators"
+      ],
+      [
+        "Commercial Arrangements",
+        "Financial Guarantees"
+      ],
+      [
+        "China",
+        "NVIDIA"
+      ],
+      [
+        "H20 Products",
+        "Trump Administration"
+      ],
+      [
+        "Data Center Revenue",
+        "NVIDIA"
+      ],
+      [
+        "Data Privacy",
+        "Regulators"
+      ],
+      [
+        "Customers",
+        "Key Suppliers"
+      ],
+      [
+        "High-Speed Network Interconnects",
+        "NVIDIA"
+      ],
+      [
+        "Export Controls",
+        "NVIDIA"
+      ],
+      [
+        "DeepSeek",
+        "USG"
+      ],
+      [
+        "Competition",
+        "Risk Factors"
+      ],
+      [
+        "China Market",
+        "USG"
+      ],
+      [
+        "Company",
+        "Executives and Key Employees"
+      ],
+      [
+        "Business Operations",
+        "Regulatory Authorities"
+      ],
+      [
+        "Business Compliance",
+        "Foreign Corrupt Practices Act"
+      ],
+      [
+        "Downstream Users",
+        "Export Controls"
+      ],
+      [
+        "NVIDIA Omniverse",
+        "Research and Development Activities"
+      ],
+      [
+        "Groq, Inc.",
+        "Intellectual Property License Arrangement"
+      ],
+      [
+        "Key Suppliers",
+        "Users"
+      ],
+      [
+        "AI Technologies",
+        "January 1, 2026"
+      ],
+      [
+        "GAIN AI Act",
+        "Trump Administration"
+      ],
+      [
+        "Data Privacy",
+        "GDPR"
+      ],
+      [
+        "IP Rights",
+        "Patents"
+      ],
+      [
+        "Cryptocurrency Mining",
+        "Ethereum 2.0"
+      ],
+      [
+        "Qwen",
+        "USG"
+      ],
+      [
+        "Channel Partners",
+        "Data Center Products"
+      ],
+      [
+        "Investments",
+        "USG Securities"
+      ],
+      [
+        "AI Models",
+        "NVIDIA"
+      ],
+      [
+        "Customers",
+        "Fiscal Year 2026"
+      ],
+      [
+        "AI Diffusion IFR",
+        "USG"
+      ],
+      [
+        "AI Technologies",
+        "U.S. Department of Commerce"
+      ],
+      [
+        "Data Privacy",
+        "United States"
+      ],
+      [
+        "NVIDIA",
+        "Taiwan"
+      ],
+      [
+        "Saudi Arabia",
+        "USG"
+      ],
+      [
+        "IP Rights",
+        "United States"
+      ],
+      [
+        "Economic Sanctions",
+        "U.S. Government Bodies"
+      ],
+      [
+        "European Economic Area",
+        "General Data Protection Regulation"
+      ],
+      [
+        "Tax Authorities",
+        "Two-Pillar Framework"
+      ],
+      [
+        "Gaming Revenue",
+        "NVIDIA"
+      ],
+      [
+        "Geopolitical Tensions",
+        "Product Components"
+      ],
+      [
+        "AI",
+        "Trustworthy AI"
+      ],
+      [
+        "Delaware law",
+        "NVDA"
+      ],
+      [
+        "Delaware",
+        "NVIDIA"
+      ],
+      [
+        "NVIDIA",
+        "USG"
+      ],
+      [
+        "Macroeconomic Downturns",
+        "Volatility"
+      ],
+      [
+        "State of Israel",
+        "Third-Party Vendors"
+      ],
+      [
+        "Securities Analysts",
+        "Stock Price"
+      ],
+      [
+        "Fiscal Year 2027",
+        "Gaming"
+      ],
+      [
+        "Board of Directors",
+        "NVIDIA"
+      ],
+      [
+        "Component Prices",
+        "Supply Chain Cost"
+      ],
+      [
+        "H100 Integrated Circuits",
+        "USG"
+      ],
+      [
+        "Climate Change",
+        "Northern California"
+      ],
+      [
+        "Climate Change",
+        "GPU"
+      ],
+      [
+        "Acts of War",
+        "Natural Disasters"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "Risk Factors"
+      ],
+      [
+        "Export Control Laws",
+        "U.S. Department of Commerce"
+      ],
+      [
+        "GAIN AI Act",
+        "USG"
+      ],
+      [
+        "China",
+        "Cyberspace Administration of China"
+      ],
+      [
+        "Subcontractors",
+        "Suppliers"
+      ],
+      [
+        "Import Duties",
+        "Trade Sanctions"
+      ],
+      [
+        "Cloud Service Agreements",
+        "Market Share"
+      ],
+      [
+        "California Consumer Privacy Act",
+        "California Privacy Rights Act"
+      ],
+      [
+        "AI Software Products",
+        "Training Data"
+      ],
+      [
+        "AI Technologies",
+        "Compliance Costs"
+      ],
+      [
+        "Microsoft",
+        "NVIDIA"
+      ],
+      [
+        "Financial Institutions",
+        "Investments"
+      ],
+      [
+        "General Data Protection Regulation",
+        "Standard Contractual Clauses"
+      ],
+      [
+        "IP Rights",
+        "Trademark"
+      ],
+      [
+        "Data Privacy and Security Laws",
+        "United States"
+      ],
+      [
+        "14% of Total Revenue",
+        "Fiscal Year 2026"
+      ],
+      [
+        "Manufacturing",
+        "Natural Disasters"
+      ],
+      [
+        "Microsoft",
+        "NVDA"
+      ],
+      [
+        "NVIDIA",
+        "Shareholder Advocacy Groups"
+      ],
+      [
+        "USG",
+        "Vietnam"
+      ],
+      [
+        "H20 Integrated Circuits",
+        "USG"
+      ],
+      [
+        "Climate Change",
+        "Santa Clara, California"
+      ],
+      [
+        "Cash Flow",
+        "Extended Payment Terms"
+      ],
+      [
+        "California Consumer Privacy Act",
+        "United States"
+      ],
+      [
+        "Business Continuity",
+        "Economic Volatility"
+      ],
+      [
+        "IP Rights",
+        "Trade Secrets"
+      ],
+      [
+        "Product Liability Claims",
+        "Regulatory Agencies"
+      ],
+      [
+        "Executives and Key Employees",
+        "Labor Market"
+      ],
+      [
+        "H200 Products",
+        "USG"
+      ],
+      [
+        "NVIDIA",
+        "Proprietary Information"
+      ],
+      [
+        "Economic Volatility",
+        "Geopolitical Tensions"
+      ],
+      [
+        "Customer Support",
+        "E-Commerce"
+      ],
+      [
+        "Climate Change",
+        "Supply Chain Delays"
+      ],
+      [
+        "Foundries",
+        "Subcontractors"
+      ],
+      [
+        "European Economic Area",
+        "U.K. GDPR"
+      ],
+      [
+        "AI",
+        "European Commission"
+      ],
+      [
+        "Corporate Sustainability Practices",
+        "NVIDIA"
+      ],
+      [
+        "Product Configurations",
+        "Revenue Volatility"
+      ],
+      [
+        "NVIDIA",
+        "Networking Products"
+      ],
+      [
+        "Connected Vehicle Restrictions",
+        "USG"
+      ],
+      [
+        "A100 Integrated Circuits",
+        "USG"
+      ],
+      [
+        "NVIDIA",
+        "Shareholders"
+      ],
+      [
+        "NVIDIA",
+        "South Korea"
+      ],
+      [
+        "California Consumer Privacy Act",
+        "Data Privacy Impact Assessments"
+      ],
+      [
+        "Frontier Model Training",
+        "NVIDIA"
+      ],
+      [
+        "CSPs",
+        "Customers"
+      ],
+      [
+        "Cryptocurrency Mining",
+        "GPU Demand"
+      ],
+      [
+        "Microsoft",
+        "Xbox"
+      ],
+      [
+        "Data Center Products",
+        "NVIDIA AI Infrastructure"
+      ],
+      [
+        "KIMMI",
+        "USG"
+      ],
+      [
+        "NVIDIA AI Cloud Services",
+        "export controls"
+      ],
+      [
+        "China",
+        "Russia"
+      ]
+    ],
+    "count": 176,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "doc-67699b5bc38d58d90fea380b231cf812"
+  },
+  "doc-75c4066556b39c71a4698af295b7b2b4": {
+    "relation_pairs": [
+      [
+        "Amazon Web Services",
+        "NVIDIA Rubin Platform"
+      ],
+      [
+        "Diluted Net Income Per Share",
+        "Weighted Average Shares"
+      ],
+      [
+        "Fourth Quarter Fiscal 2026",
+        "NVIDIA"
+      ],
+      [
+        "Fiscal Year 2027",
+        "NVIDIA"
+      ],
+      [
+        "NVIDIA",
+        "Toshiya Hari"
+      ],
+      [
+        "Current Liabilities",
+        "NVIDIA Corporation"
+      ],
+      [
+        "NVIDIA",
+        "NVIDIA G-SYNC Pulsar"
+      ],
+      [
+        "GAAP",
+        "Tax Expense"
+      ],
+      [
+        "Deferred Income Tax Assets",
+        "NVIDIA Corporation"
+      ],
+      [
+        "Blackwell",
+        "NVIDIA"
+      ],
+      [
+        "NVIDIA Corporation",
+        "Non-GAAP"
+      ],
+      [
+        "Fiscal 2026",
+        "NVIDIA"
+      ],
+      [
+        "$62.3 Billion",
+        "NVIDIA"
+      ],
+      [
+        "Cash Flows",
+        "Operating Activities"
+      ],
+      [
+        "NVIDIA",
+        "NVIDIA DRIVE AV"
+      ],
+      [
+        "Cash Used in Investing Activities",
+        "Groq, Inc."
+      ],
+      [
+        "Cash Provided by Operating Activities",
+        "Net Income"
+      ],
+      [
+        "Cash Flows",
+        "Groq, Inc."
+      ],
+      [
+        "Humanoid",
+        "NVIDIA"
+      ],
+      [
+        "H2O Charges",
+        "NVIDIA Corporation"
+      ],
+      [
+        "NVIDIA",
+        "U.S. Department of Energy"
+      ],
+      [
+        "NVIDIA",
+        "Tech Mahindra"
+      ],
+      [
+        "Groq, Inc.",
+        "Market Securities"
+      ],
+      [
+        "NVIDIA",
+        "Shareholder Returns"
+      ],
+      [
+        "Boston Dynamics",
+        "NVIDIA"
+      ],
+      [
+        "Groq, Inc.",
+        "Net Cash Used in Financing Activities"
+      ],
+      [
+        "NVIDIA",
+        "NVIDIA DRIVE Hyperion"
+      ],
+      [
+        "NEURA Robotics",
+        "NVIDIA"
+      ],
+      [
+        "NVIDIA Corporation",
+        "Securities and Exchange Commission"
+      ],
+      [
+        "AI Compute",
+        "NVIDIA"
+      ],
+      [
+        "Caterpillar",
+        "NVIDIA"
+      ],
+      [
+        "NVIDIA",
+        "Total Liabilities"
+      ],
+      [
+        "NVIDIA",
+        "NVIDIA DGX Spark"
+      ],
+      [
+        "Earnings Per Share",
+        "Fiscal Year 2026"
+      ],
+      [
+        "GAAP Operating Expenses",
+        "Non-GAAP Operating Expenses"
+      ],
+      [
+        "$41.1 Billion",
+        "NVIDIA"
+      ],
+      [
+        "NVIDIA BlueField-4",
+        "NVIDIA Inference Context Memory Storage Platform"
+      ],
+      [
+        "Long-term Liabilities",
+        "NVIDIA"
+      ],
+      [
+        "Colette Kress",
+        "NVIDIA"
+      ],
+      [
+        "Current Liabilities",
+        "NVIDIA"
+      ],
+      [
+        "GAAP",
+        "NVIDIA Corporation"
+      ],
+      [
+        "Data Center Revenue",
+        "NVIDIA"
+      ],
+      [
+        "Goodwill",
+        "NVIDIA Corporation"
+      ],
+      [
+        "NVIDIA",
+        "NVIDIA RTX PRO 5000"
+      ],
+      [
+        "NVIDIA Corporation",
+        "Property and Equipment"
+      ],
+      [
+        "Cash Flows",
+        "Investment Activities"
+      ],
+      [
+        "NVIDIA Corporation",
+        "Total Liabilities"
+      ],
+      [
+        "$68.1 Billion",
+        "NVIDIA"
+      ],
+      [
+        "Current Assets",
+        "NVIDIA Corporation"
+      ],
+      [
+        "LG Electronics",
+        "NVIDIA"
+      ],
+      [
+        "Employee Stock Plans",
+        "Groq, Inc."
+      ],
+      [
+        "NVIDIA",
+        "Net Income"
+      ],
+      [
+        "Dassault Systèmes",
+        "NVIDIA"
+      ],
+      [
+        "NVIDIA Blackwell Platform",
+        "NVIDIA Rubin Platform"
+      ],
+      [
+        "GAAP",
+        "Non-GAAP"
+      ],
+      [
+        "$215.9 Billion",
+        "NVIDIA"
+      ],
+      [
+        "Cash Provided by Operating Activities",
+        "Principal Payments on Property and Equipment"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "Groq, Inc."
+      ],
+      [
+        "NVIDIA",
+        "NVIDIA DLSS 4.5"
+      ],
+      [
+        "Gaming Revenue",
+        "NVIDIA"
+      ],
+      [
+        "Acquisition-Related Costs",
+        "GAAP Gross Margin"
+      ],
+      [
+        "Franka Robotics",
+        "NVIDIA"
+      ],
+      [
+        "Cash Provided by Operating Activities",
+        "Purchases Related to Property and Equipment"
+      ],
+      [
+        "Fiscal 2027",
+        "NVIDIA"
+      ],
+      [
+        "Jensen Huang",
+        "NVIDIA"
+      ],
+      [
+        "Mercedes-Benz CLA",
+        "NVIDIA"
+      ],
+      [
+        "NVIDIA Corporation",
+        "Total Assets"
+      ],
+      [
+        "NVIDIA Corporation",
+        "Non-Marketable Equity Securities"
+      ],
+      [
+        "Grace Blackwell",
+        "NVIDIA"
+      ],
+      [
+        "Intangible Assets",
+        "NVIDIA Corporation"
+      ],
+      [
+        "NVIDIA",
+        "Professional Visualization Revenue"
+      ],
+      [
+        "Groq, Inc.",
+        "Repayment of Debt"
+      ],
+      [
+        "NVIDIA",
+        "NVIDIA RTX"
+      ],
+      [
+        "NVIDIA",
+        "Wipro"
+      ],
+      [
+        "Infosys",
+        "NVIDIA"
+      ],
+      [
+        "NVIDIA Corporation",
+        "Q1 FY2027 Outlook"
+      ],
+      [
+        "Meta",
+        "NVIDIA"
+      ],
+      [
+        "Fiscal 2026",
+        "NVIDIA Corporation"
+      ],
+      [
+        "Data Center",
+        "NVIDIA"
+      ],
+      [
+        "Common Stock Repurchase",
+        "Groq, Inc."
+      ],
+      [
+        "NVIDIA",
+        "Persistent"
+      ],
+      [
+        "Non-GAAP Gross Margin",
+        "Stock-Based Compensation Expense"
+      ],
+      [
+        "NVIDIA",
+        "Siemens"
+      ],
+      [
+        "Mylene Mangalindan",
+        "NVIDIA"
+      ],
+      [
+        "Free Cash Flow",
+        "Operating Activities"
+      ],
+      [
+        "Acquisition-Related Costs",
+        "Non-GAAP Operating Expenses"
+      ],
+      [
+        "Gross Margin",
+        "Operating Income"
+      ],
+      [
+        "GAAP Gross Margin",
+        "Non-GAAP Gross Margin"
+      ],
+      [
+        "Automotive Revenue",
+        "NVIDIA"
+      ],
+      [
+        "Net Income",
+        "Operating Income"
+      ],
+      [
+        "NVIDIA",
+        "NVIDIA Alpamayo"
+      ],
+      [
+        "NVIDIA",
+        "Vera Rubin"
+      ],
+      [
+        "Acquisition-Related Costs",
+        "NVIDIA Corporation"
+      ],
+      [
+        "NVIDIA",
+        "NVIDIA Earth-2"
+      ],
+      [
+        "NVIDIA Nemotron 3",
+        "agentic AI"
+      ]
+    ],
+    "count": 95,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "doc-75c4066556b39c71a4698af295b7b2b4"
+  },
+  "doc-cfd3eead054c237a6d6473be70621acd": {
+    "relation_pairs": [
+      [
+        "NVDA",
+        "Quarterly MDA"
+      ],
+      [
+        "Inflation Reduction Act of 2022",
+        "NVDA"
+      ],
+      [
+        "NVDA",
+        "Unregistered Sales of Equity Securities"
+      ],
+      [
+        "RSU Awards",
+        "Tax Withholding Obligations"
+      ],
+      [
+        "Equity Securities",
+        "Share Repurchase Program"
+      ],
+      [
+        "NVDA",
+        "Share Repurchase Program"
+      ],
+      [
+        "Board of Directors",
+        "NVDA"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777393786,
+    "update_time": 1777393786,
+    "_id": "doc-cfd3eead054c237a6d6473be70621acd"
+  },
+  "doc-b8294be7a878d2c201b53fee897a4a9e": {
+    "relation_pairs": [
+      [
+        "NVDA",
+        "Rule 10b5-1"
+      ],
+      [
+        "Employee Equity Incentive Program",
+        "NVDA"
+      ],
+      [
+        "Fiscal Years 2025 and 2026",
+        "NVDA"
+      ],
+      [
+        "March 14, 2025",
+        "NVDA"
+      ],
+      [
+        "NVDA",
+        "Share Repurchase Program"
+      ],
+      [
+        "March 24, 2025",
+        "NVDA"
+      ],
+      [
+        "Cash Dividends",
+        "Fiscal Years 2025 and 2026"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777393811,
+    "update_time": 1777393811,
+    "_id": "doc-b8294be7a878d2c201b53fee897a4a9e"
+  },
+  "doc-7db00cad61ef04227193022a9b1523c3": {
+    "relation_pairs": [
+      [
+        "387,158 Shares",
+        "Employee Equity Incentive Program"
+      ],
+      [
+        "NVDA",
+        "Pre-established Trading Plan"
+      ],
+      [
+        "Employee Equity Incentive Program",
+        "NVDA"
+      ],
+      [
+        "Fiscal Year 2026",
+        "NVDA"
+      ],
+      [
+        "NVDA",
+        "Second Quarter of Fiscal Year 2026"
+      ],
+      [
+        "First Half of Fiscal Year 2026",
+        "NVDA"
+      ],
+      [
+        "August 26, 2025",
+        "Board of Directors"
+      ],
+      [
+        "Board of Directors",
+        "NVDA"
+      ],
+      [
+        "89,338 Shares",
+        "Employee Equity Incentive Program"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777393851,
+    "update_time": 1777393851,
+    "_id": "doc-7db00cad61ef04227193022a9b1523c3"
+  },
+  "doc-60bc9d9582eb7db06fc5c5569fe25194": {
+    "relation_pairs": [
+      [
+        "GAIN AI Act",
+        "USG"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "Marketable Securities"
+      ],
+      [
+        "Compute & Networking Segment",
+        "Fiscal Year 2026"
+      ],
+      [
+        "Automotive Revenue",
+        "Self-Driving Platforms"
+      ],
+      [
+        "Cash Used in Financing Activities",
+        "Share Repurchase Program"
+      ],
+      [
+        "Managements Discussion and Analysis of Financial Condition and Results of Operations",
+        "Outstanding Indebtedness"
+      ],
+      [
+        "DGX Spark",
+        "Professional Visualization Revenue"
+      ],
+      [
+        "Form 10-Q",
+        "Results of Operations"
+      ],
+      [
+        "Blackwell Architectures",
+        "NVIDIA Corporation"
+      ],
+      [
+        "Interest Income",
+        "Net Income"
+      ],
+      [
+        "Fiscal Years 2026 and 2025",
+        "Outstanding Indebtedness"
+      ],
+      [
+        "Blackwell Architecture",
+        "Fiscal Year 2026"
+      ],
+      [
+        "Fiscal Year 2026",
+        "Other Income"
+      ],
+      [
+        "Research and Development Expenses",
+        "Total Operating Expenses"
+      ],
+      [
+        "Fiscal Year 2026",
+        "Interest Income"
+      ],
+      [
+        "Board of Directors",
+        "Share Repurchase Program"
+      ],
+      [
+        "Compute & Networking Segment",
+        "Customer A"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Operating Expenses"
+      ],
+      [
+        "Financial Condition",
+        "Form 10-Q"
+      ],
+      [
+        "Delaware",
+        "NVIDIA Corporation"
+      ],
+      [
+        "California",
+        "NVIDIA Corporation"
+      ],
+      [
+        "Anthropic",
+        "Commercial Paper Program"
+      ],
+      [
+        "NVIDIA Corporation",
+        "Santa Clara"
+      ],
+      [
+        "Data Center Revenue",
+        "Revenue"
+      ],
+      [
+        "Fiscal Year 2026",
+        "Third Quarter"
+      ],
+      [
+        "Blackwell Ultra",
+        "GB200"
+      ],
+      [
+        "Compute & Networking Segment",
+        "Customer C"
+      ],
+      [
+        "Net Income",
+        "Total Other Income, Net"
+      ],
+      [
+        "NVLink",
+        "Networking Revenue"
+      ],
+      [
+        "China",
+        "H20 Product"
+      ],
+      [
+        "Outstanding Indebtedness",
+        "Unrecognized Tax Benefits"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "Investment Policy"
+      ],
+      [
+        "Compute & Networking Segment",
+        "Indirect Customers"
+      ],
+      [
+        "Fiscal Year 2025",
+        "H20 Excess Inventory"
+      ],
+      [
+        "Form 10-Q",
+        "NVIDIA Corporation"
+      ],
+      [
+        "H20 Product",
+        "U.S. Government"
+      ],
+      [
+        "Fiscal Year 2026",
+        "Income Tax Expense"
+      ],
+      [
+        "Compute & Networking Segment",
+        "Direct Customers"
+      ],
+      [
+        "Fiscal Year 2026",
+        "Operating Expenses"
+      ],
+      [
+        "Blackwell",
+        "Graphics"
+      ],
+      [
+        "Fiscal Year 2026",
+        "Quarterly Report on Form 10-Q"
+      ],
+      [
+        "Commercial Paper Program",
+        "Outstanding Indebtedness"
+      ],
+      [
+        "H20",
+        "USG"
+      ],
+      [
+        "Operating Income",
+        "Professional Visualization Revenue"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Income Tax Expense"
+      ],
+      [
+        "Blackwell",
+        "Hopper HGX Systems"
+      ],
+      [
+        "Fiscal Year 2026",
+        "Total Operating Expenses"
+      ],
+      [
+        "Cash Provided by Operating Activities",
+        "Cash Used in Investing Activities"
+      ],
+      [
+        "Form 10-Q",
+        "Risk Factors"
+      ],
+      [
+        "Sales, General and Administrative Expenses",
+        "Total Operating Expenses"
+      ],
+      [
+        "Compute & Networking Segment",
+        "Customer B"
+      ],
+      [
+        "Compute & Networking",
+        "Fiscal Year 2026"
+      ],
+      [
+        "Interest Expense",
+        "Net Income"
+      ],
+      [
+        "Blackwell",
+        "Gaming Revenue"
+      ],
+      [
+        "AI Diffusion",
+        "USG"
+      ],
+      [
+        "Operating Expenses",
+        "Operating Income"
+      ],
+      [
+        "Direct Customers",
+        "NVIDIA"
+      ],
+      [
+        "Commercial Paper Program",
+        "Intel Corporation"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "Valuation Allowance"
+      ],
+      [
+        "Compute & Networking Segment",
+        "Customer D"
+      ],
+      [
+        "Share Repurchase Program",
+        "U.S. Inflation Reduction Act of 2022"
+      ],
+      [
+        "Fiscal Year 2026",
+        "OBBBA"
+      ],
+      [
+        "Outstanding Indebtedness",
+        "Total Long-Term Portion"
+      ],
+      [
+        "Blackwell",
+        "Professional Visualization Revenue"
+      ],
+      [
+        "Gross Margin",
+        "Gross Profit"
+      ],
+      [
+        "Fiscal Year 2026",
+        "Interest Expense"
+      ],
+      [
+        "Net Income",
+        "Revenue"
+      ]
+    ],
+    "count": 67,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "doc-60bc9d9582eb7db06fc5c5569fe25194"
+  },
+  "doc-4494c55803edc8c9a98bf6dcf411d031": {
+    "relation_pairs": [
+      [
+        "Annual Report",
+        "Intellectual Property Portfolio"
+      ],
+      [
+        "Fiscal 2024",
+        "Fiscal 2025"
+      ],
+      [
+        "Fiscal 2025",
+        "Tax Withholdings"
+      ],
+      [
+        "$1.1 Billion",
+        "September 28, 2025"
+      ],
+      [
+        "Goodwill",
+        "Long-Lived Assets"
+      ],
+      [
+        "Fiscal 2025",
+        "QCT Segment"
+      ],
+      [
+        "Gross Margin",
+        "QTL (Qualcomm Technology Licensing)"
+      ],
+      [
+        "$1.0 Billion",
+        "Fiscal 2024"
+      ],
+      [
+        "EBT",
+        "QCT Segment"
+      ],
+      [
+        "Net Income",
+        "One Big Beautiful Bill Act (OBBB)"
+      ],
+      [
+        "Capital Return Program",
+        "Fiscal 2025"
+      ],
+      [
+        "FDII Deduction",
+        "OBBB"
+      ],
+      [
+        "$9.0 Billion",
+        "Fiscal 2025"
+      ],
+      [
+        "CAMT",
+        "OBBB"
+      ],
+      [
+        "OBBB",
+        "tax benefits"
+      ],
+      [
+        "OBBB",
+        "U.S. Repatriation Tax"
+      ],
+      [
+        "Semiconductor Industry",
+        "U.S./China Trade Relations"
+      ],
+      [
+        "Fiscal 2025",
+        "Unsecured Fixed-Rate Notes"
+      ],
+      [
+        "QSI Segment",
+        "marketable securities"
+      ],
+      [
+        "QCT Segment",
+        "Snapdragon Platforms"
+      ],
+      [
+        "Debt Programs",
+        "Liquidity and Capital Resources"
+      ],
+      [
+        "Annual Report",
+        "Regulatory Authorities"
+      ],
+      [
+        "$664 Million",
+        "Interest Expense"
+      ],
+      [
+        "QTL (Qualcomm Technology Licensing)",
+        "Revenues"
+      ],
+      [
+        "$8.9 Billion",
+        "Fiscal 2024"
+      ],
+      [
+        "Cash Paid for Acquisitions",
+        "Fiscal 2025"
+      ],
+      [
+        "$231 Million",
+        "$70 Million"
+      ],
+      [
+        "Annual Report",
+        "Integrated Circuit Products"
+      ],
+      [
+        "QCT (Qualcomm CDMA Technologies)",
+        "Revenues"
+      ],
+      [
+        "Alphawave IP Group plc",
+        "Cash and Cash Equivalents"
+      ],
+      [
+        "Goodwill",
+        "QCT Reporting Units"
+      ],
+      [
+        "Annual Report",
+        "Semiconductor Industry"
+      ],
+      [
+        "Fiscal 2025",
+        "QCOM"
+      ],
+      [
+        "$1.1 Billion",
+        "$142 Million"
+      ],
+      [
+        "Fiscal 2025",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Cash Dividends",
+        "Payments to Repurchase Shares"
+      ],
+      [
+        "Capital Expenditures",
+        "Payments to Repurchase Shares"
+      ],
+      [
+        "Common Stock",
+        "Fiscal 2025"
+      ],
+      [
+        "Apple",
+        "Samsung"
+      ],
+      [
+        "Advanced Supply Agreement Payments",
+        "Fiscal 2025"
+      ],
+      [
+        "Goodwill",
+        "QTL Reporting Units"
+      ],
+      [
+        "Alphawave",
+        "September 28, 2025"
+      ],
+      [
+        "OBBB",
+        "United States"
+      ],
+      [
+        "Fiscal 2025",
+        "QTL Segment"
+      ],
+      [
+        "Alphawave",
+        "Annual Report"
+      ],
+      [
+        "Apple",
+        "QCT Revenues"
+      ],
+      [
+        "EBT",
+        "QTL Segment"
+      ],
+      [
+        "Fiscal 2023",
+        "Fiscal 2024"
+      ],
+      [
+        "$2,759",
+        "$3,110"
+      ],
+      [
+        "Financial Condition",
+        "Liquidity and Capital Resources"
+      ],
+      [
+        "Common Stock",
+        "Employee Stock Purchase Plan"
+      ],
+      [
+        "$10.5 Billion",
+        "$15.1 Billion"
+      ],
+      [
+        "QTL Segment",
+        "Transsion"
+      ],
+      [
+        "FDDEI",
+        "Income Taxes"
+      ],
+      [
+        "Income Taxes",
+        "Legal and Regulatory Proceedings"
+      ],
+      [
+        "$15.1 Billion",
+        "September 28, 2025"
+      ],
+      [
+        "Annual Report",
+        "Risk Factors"
+      ],
+      [
+        "$1.2 Billion",
+        "Fiscal 2025"
+      ],
+      [
+        "Deferred Tax Assets",
+        "Valuation Allowance"
+      ]
+    ],
+    "count": 59,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "doc-4494c55803edc8c9a98bf6dcf411d031"
   }
 }

@@ -203,10 +203,11 @@
       "chunk-3f2ce3a4f3492cdc62d91339c8332500",
       "chunk-f50e3434e5c216500628bf58a9da4be1",
       "chunk-2bcf7035b2263b22ce2270c9abedd363",
-      "chunk-8b3a58c3fd3e9f0c29982cd302a2e298"
+      "chunk-8b3a58c3fd3e9f0c29982cd302a2e298",
+      "chunk-d2d8e2c353215b61c18efc977d781831"
     ],
-    "count": 4,
-    "update_time": 1777384494,
+    "count": 5,
+    "update_time": 1777394340,
     "_id": "Deferred Tax Assets<SEP>Valuation Allowance"
   },
   "Investments<SEP>Non-Marketable Equity Securities": {
@@ -656,10 +657,13 @@
       "chunk-ed2b32ad29a09feed46df0c963169feb",
       "chunk-71dff42efadaa177f60791628d62844c",
       "chunk-3fdce1044a2c44a0e983bbcf60375f53",
-      "chunk-0644a249b2d47b7e49a78f4bf359cb71"
+      "chunk-0644a249b2d47b7e49a78f4bf359cb71",
+      "chunk-9b09a1803ee2d2cee6197990dba07225",
+      "chunk-ae103a3eee27a7dfe46c5edc5f9bad0b",
+      "chunk-d2d8e2c353215b61c18efc977d781831"
     ],
-    "count": 5,
-    "update_time": 1777382543,
+    "count": 8,
+    "update_time": 1777394331,
     "_id": "Fiscal 2024<SEP>Fiscal 2025"
   },
   "Foundry<SEP>Semiconductor Systems": {
@@ -8779,11 +8783,11 @@
   },
   "Jensen Huang<SEP>NVIDIA": {
     "chunk_ids": [
-      "chunk-0fc487cdc1541b708566fbf837bf0441"
+      "chunk-0fc487cdc1541b708566fbf837bf0441",
+      "chunk-4e532e31d6cab4e835b347d22fb903ce"
     ],
-    "count": 1,
-    "create_time": 1777308178,
-    "update_time": 1777308178,
+    "count": 2,
+    "update_time": 1777393765,
     "_id": "Jensen Huang<SEP>NVIDIA"
   },
   "Samsung<SEP>Young Hyun Jun": {
@@ -9378,10 +9382,11 @@
   },
   "Gross Margin<SEP>Operating Income": {
     "chunk_ids": [
-      "chunk-7df88c2c7b38c5eb12580560b4e0dc2d"
+      "chunk-7df88c2c7b38c5eb12580560b4e0dc2d",
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7"
     ],
-    "count": 1,
-    "update_time": 1777380500,
+    "count": 2,
+    "update_time": 1777393764,
     "_id": "Gross Margin<SEP>Operating Income"
   },
   "Provision for Income Taxes<SEP>Singapore": {
@@ -9659,10 +9664,11 @@
   "Cash Flows<SEP>Operating Activities": {
     "chunk_ids": [
       "chunk-20ff684928510a0aa4726b57cf95bfc6",
-      "chunk-88fbdee009d132142f267759b80b8fcd"
+      "chunk-88fbdee009d132142f267759b80b8fcd",
+      "chunk-2fac1738508415243234f056f0757da5"
     ],
-    "count": 2,
-    "update_time": 1777381884,
+    "count": 3,
+    "update_time": 1777393764,
     "_id": "Cash Flows<SEP>Operating Activities"
   },
   "Cash Flows<SEP>Investing Activities": {
@@ -11631,10 +11637,11 @@
   },
   "AI<SEP>European Union": {
     "chunk_ids": [
-      "chunk-7268957cde14a4d3b9ad39486be2220a"
+      "chunk-7268957cde14a4d3b9ad39486be2220a",
+      "chunk-6547968472918d94509807757ea4a104"
     ],
-    "count": 1,
-    "update_time": 1777380727,
+    "count": 2,
+    "update_time": 1777393458,
     "_id": "AI<SEP>European Union"
   },
   "IP Rights<SEP>Legal Jurisdictions": {
@@ -12576,10 +12583,11 @@
     "chunk_ids": [
       "chunk-dd14fb5ebc4062cace68cd9e6a1bf084",
       "chunk-88f2b4d088361dd806e394a19506ee8f",
-      "chunk-ed2b32ad29a09feed46df0c963169feb"
+      "chunk-ed2b32ad29a09feed46df0c963169feb",
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
     ],
-    "count": 3,
-    "update_time": 1777382543,
+    "count": 4,
+    "update_time": 1777393457,
     "_id": "Russia<SEP>Ukraine"
   },
   "Arm China<SEP>U.K.": {
@@ -14371,11 +14379,11 @@
   },
   "Net Income<SEP>Operating Income": {
     "chunk_ids": [
-      "chunk-eddee67b369c229f33b13b2d39309da9"
+      "chunk-eddee67b369c229f33b13b2d39309da9",
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7"
     ],
-    "count": 1,
-    "create_time": 1777381025,
-    "update_time": 1777381025,
+    "count": 2,
+    "update_time": 1777393764,
     "_id": "Net Income<SEP>Operating Income"
   },
   "Interest Expense<SEP>Loss on Debt Extinguishment": {
@@ -16522,10 +16530,11 @@
   "IP Rights<SEP>Patents": {
     "chunk_ids": [
       "chunk-4f075ac62ff92ae30a48578e40574de9",
-      "chunk-883fa267b425453e9fcdb6f40c0bbe98"
+      "chunk-883fa267b425453e9fcdb6f40c0bbe98",
+      "chunk-6547968472918d94509807757ea4a104"
     ],
-    "count": 2,
-    "update_time": 1777383104,
+    "count": 3,
+    "update_time": 1777393458,
     "_id": "IP Rights<SEP>Patents"
   },
   "Intel Corporation<SEP>S&P 500 IT Index": {
@@ -16575,11 +16584,11 @@
   },
   "IP Rights<SEP>Trade Secrets": {
     "chunk_ids": [
-      "chunk-4f075ac62ff92ae30a48578e40574de9"
+      "chunk-4f075ac62ff92ae30a48578e40574de9",
+      "chunk-6547968472918d94509807757ea4a104"
     ],
-    "count": 1,
-    "create_time": 1777381775,
-    "update_time": 1777381775,
+    "count": 2,
+    "update_time": 1777393458,
     "_id": "IP Rights<SEP>Trade Secrets"
   },
   "Non-Practicing Entities<SEP>R2 Semiconductor, Inc.": {
@@ -19637,11 +19646,11 @@
   },
   "California Consumer Privacy Act<SEP>California Privacy Rights Act": {
     "chunk_ids": [
-      "chunk-4745e08e8ad64a5ebc8a1bec6520d4f8"
+      "chunk-4745e08e8ad64a5ebc8a1bec6520d4f8",
+      "chunk-3a5c34130d80dd1e4cc274dd236747ac"
     ],
-    "count": 1,
-    "create_time": 1777382152,
-    "update_time": 1777382152,
+    "count": 2,
+    "update_time": 1777393459,
     "_id": "California Consumer Privacy Act<SEP>California Privacy Rights Act"
   },
   "Digital Personal Data Protection Act<SEP>India": {
@@ -21450,11 +21459,11 @@
   },
   "Common Stock<SEP>Employee Stock Purchase Plan": {
     "chunk_ids": [
-      "chunk-5ff8c5ead4252ae2a31532cc82caa936"
+      "chunk-5ff8c5ead4252ae2a31532cc82caa936",
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
     ],
-    "count": 1,
-    "create_time": 1777382544,
-    "update_time": 1777382544,
+    "count": 2,
+    "update_time": 1777394339,
     "_id": "Common Stock<SEP>Employee Stock Purchase Plan"
   },
   "Facilities and Other Infrastructure Costs<SEP>Fiscal 2025": {
@@ -26373,11 +26382,11 @@
   },
   "Net Income<SEP>Revenue": {
     "chunk_ids": [
-      "chunk-6bd095e85b776f054adf8ee05a9ad554"
+      "chunk-6bd095e85b776f054adf8ee05a9ad554",
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
     ],
-    "count": 1,
-    "create_time": 1777384145,
-    "update_time": 1777384145,
+    "count": 2,
+    "update_time": 1777394101,
     "_id": "Net Income<SEP>Revenue"
   },
   "Cash Flows from Investing Activities<SEP>LAM Research Corporation": {
@@ -26392,10 +26401,11 @@
   "Operating Expenses<SEP>Operating Income": {
     "chunk_ids": [
       "chunk-6bd095e85b776f054adf8ee05a9ad554",
-      "chunk-000375b6ff2ca655296bfbfab18da116"
+      "chunk-000375b6ff2ca655296bfbfab18da116",
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
     ],
-    "count": 2,
-    "update_time": 1777384494,
+    "count": 3,
+    "update_time": 1777394101,
     "_id": "Operating Expenses<SEP>Operating Income"
   },
   "35.0%<SEP>Lam Research Corporation": {
@@ -26961,11 +26971,11 @@
   },
   "Common Stock<SEP>Fiscal 2025": {
     "chunk_ids": [
-      "chunk-e7df4dee0e944309db53bb21714d81b4"
+      "chunk-e7df4dee0e944309db53bb21714d81b4",
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
     ],
-    "count": 1,
-    "create_time": 1777384493,
-    "update_time": 1777384493,
+    "count": 2,
+    "update_time": 1777394339,
     "_id": "Common Stock<SEP>Fiscal 2025"
   },
   "Equity Incentive Plans<SEP>Fiscal 2026": {
@@ -29069,11 +29079,11 @@
   },
   "Mylene Mangalindan<SEP>NVIDIA": {
     "chunk_ids": [
-      "chunk-5aea8d0340e63f6c2ca28b951603b5f3"
+      "chunk-5aea8d0340e63f6c2ca28b951603b5f3",
+      "chunk-049b76888ee596abbac6cb4feb996482"
     ],
-    "count": 1,
-    "create_time": 1777385139,
-    "update_time": 1777385139,
+    "count": 2,
+    "update_time": 1777393764,
     "_id": "Mylene Mangalindan<SEP>NVIDIA"
   },
   "Ashish Saran<SEP>Marvell": {
@@ -29087,11 +29097,11 @@
   },
   "NVIDIA<SEP>Toshiya Hari": {
     "chunk_ids": [
-      "chunk-5aea8d0340e63f6c2ca28b951603b5f3"
+      "chunk-5aea8d0340e63f6c2ca28b951603b5f3",
+      "chunk-049b76888ee596abbac6cb4feb996482"
     ],
-    "count": 1,
-    "create_time": 1777385139,
-    "update_time": 1777385139,
+    "count": 2,
+    "update_time": 1777393764,
     "_id": "NVIDIA<SEP>Toshiya Hari"
   },
   "Marvell<SEP>SEC": {
@@ -32117,11 +32127,11 @@
   },
   "Cash Provided by Operating Activities<SEP>Net Income": {
     "chunk_ids": [
-      "chunk-c17f952b6fe7479f7e8fcf1e71fb7355"
+      "chunk-c17f952b6fe7479f7e8fcf1e71fb7355",
+      "chunk-999e49912c8620e1b5c01f22ea8775a1"
     ],
-    "count": 1,
-    "create_time": 1777392752,
-    "update_time": 1777392752,
+    "count": 2,
+    "update_time": 1777393765,
     "_id": "Cash Provided by Operating Activities<SEP>Net Income"
   },
   "Government Incentives<SEP>Investing Activities": {
@@ -32780,5 +32790,3574 @@
     "create_time": 1777392950,
     "update_time": 1777392950,
     "_id": "CDBU<SEP>Other Business Units"
+  },
+  "Key Suppliers<SEP>Users": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Key Suppliers<SEP>Users"
+  },
+  "Financial Institutions<SEP>Investments": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Financial Institutions<SEP>Investments"
+  },
+  "China<SEP>International Sales": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "China<SEP>International Sales"
+  },
+  "Cyber-Attacks<SEP>Ransomware Attacks": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Cyber-Attacks<SEP>Ransomware Attacks"
+  },
+  "Customers<SEP>Key Suppliers": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Customers<SEP>Key Suppliers"
+  },
+  "Investments<SEP>USG Securities": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Investments<SEP>USG Securities"
+  },
+  "Financial Institutions<SEP>Market-Wide Liquidity Problems": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Financial Institutions<SEP>Market-Wide Liquidity Problems"
+  },
+  "International Sales<SEP>Public Health Issues": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "International Sales<SEP>Public Health Issues"
+  },
+  "Acts of War<SEP>Natural Disasters": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Acts of War<SEP>Natural Disasters"
+  },
+  "Cybersecurity Threats<SEP>Users": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Cybersecurity Threats<SEP>Users"
+  },
+  "Subcontractors<SEP>Suppliers": {
+    "chunk_ids": [
+      "chunk-55a927e309eb005240570ef1505a3d57"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Subcontractors<SEP>Suppliers"
+  },
+  "CSPs<SEP>Customers": {
+    "chunk_ids": [
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "CSPs<SEP>Customers"
+  },
+  "OEMs<SEP>Tier 1 Automotive Suppliers": {
+    "chunk_ids": [
+      "chunk-55a927e309eb005240570ef1505a3d57"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "OEMs<SEP>Tier 1 Automotive Suppliers"
+  },
+  "Manufacturing<SEP>Natural Disasters": {
+    "chunk_ids": [
+      "chunk-55a927e309eb005240570ef1505a3d57"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Manufacturing<SEP>Natural Disasters"
+  },
+  "AI Software Products<SEP>Product Liability Claims": {
+    "chunk_ids": [
+      "chunk-55a927e309eb005240570ef1505a3d57"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "AI Software Products<SEP>Product Liability Claims"
+  },
+  "Foundries<SEP>Subcontractors": {
+    "chunk_ids": [
+      "chunk-55a927e309eb005240570ef1505a3d57"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Foundries<SEP>Subcontractors"
+  },
+  "State of Israel<SEP>Third-Party Vendors": {
+    "chunk_ids": [
+      "chunk-3e029386736dd1580481690f40d00e34"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "State of Israel<SEP>Third-Party Vendors"
+  },
+  "Product Liability Claims<SEP>Regulatory Agencies": {
+    "chunk_ids": [
+      "chunk-55a927e309eb005240570ef1505a3d57"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Product Liability Claims<SEP>Regulatory Agencies"
+  },
+  "AI Software Products<SEP>Cybersecurity Incidents": {
+    "chunk_ids": [
+      "chunk-55a927e309eb005240570ef1505a3d57"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "AI Software Products<SEP>Cybersecurity Incidents"
+  },
+  "Climate Change<SEP>Northern California": {
+    "chunk_ids": [
+      "chunk-3e029386736dd1580481690f40d00e34"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Climate Change<SEP>Northern California"
+  },
+  "Manufacturing<SEP>Product Design": {
+    "chunk_ids": [
+      "chunk-55a927e309eb005240570ef1505a3d57"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Manufacturing<SEP>Product Design"
+  },
+  "Geopolitical Conflicts<SEP>State of Israel": {
+    "chunk_ids": [
+      "chunk-3e029386736dd1580481690f40d00e34"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Geopolitical Conflicts<SEP>State of Israel"
+  },
+  "CSPs<SEP>Research and Development": {
+    "chunk_ids": [
+      "chunk-3e029386736dd1580481690f40d00e34"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "CSPs<SEP>Research and Development"
+  },
+  "AI Software Products<SEP>Training Data": {
+    "chunk_ids": [
+      "chunk-55a927e309eb005240570ef1505a3d57"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "AI Software Products<SEP>Training Data"
+  },
+  "Climate Change<SEP>Santa Clara, California": {
+    "chunk_ids": [
+      "chunk-3e029386736dd1580481690f40d00e34"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Climate Change<SEP>Santa Clara, California"
+  },
+  "Economic Volatility<SEP>Geopolitical Tensions": {
+    "chunk_ids": [
+      "chunk-3e029386736dd1580481690f40d00e34"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Economic Volatility<SEP>Geopolitical Tensions"
+  },
+  "AI Technologies<SEP>January 1, 2026": {
+    "chunk_ids": [
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "AI Technologies<SEP>January 1, 2026"
+  },
+  "Climate Change<SEP>Sustainability-Related Laws": {
+    "chunk_ids": [
+      "chunk-3e029386736dd1580481690f40d00e34"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Climate Change<SEP>Sustainability-Related Laws"
+  },
+  "Geopolitical Tensions<SEP>Product Components": {
+    "chunk_ids": [
+      "chunk-3e029386736dd1580481690f40d00e34"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Geopolitical Tensions<SEP>Product Components"
+  },
+  "Business Continuity<SEP>Economic Volatility": {
+    "chunk_ids": [
+      "chunk-3e029386736dd1580481690f40d00e34"
+    ],
+    "count": 1,
+    "create_time": 1777393457,
+    "update_time": 1777393457,
+    "_id": "Business Continuity<SEP>Economic Volatility"
+  },
+  "AI Technologies<SEP>U.S. Department of Commerce": {
+    "chunk_ids": [
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "AI Technologies<SEP>U.S. Department of Commerce"
+  },
+  "NVIDIA AI Cloud Services<SEP>export controls": {
+    "chunk_ids": [
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "NVIDIA AI Cloud Services<SEP>export controls"
+  },
+  "Economic Sanctions<SEP>U.S. Government Bodies": {
+    "chunk_ids": [
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Economic Sanctions<SEP>U.S. Government Bodies"
+  },
+  "EMEA<SEP>Ukraine": {
+    "chunk_ids": [
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "EMEA<SEP>Ukraine"
+  },
+  "Import Duties<SEP>Trade Sanctions": {
+    "chunk_ids": [
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Import Duties<SEP>Trade Sanctions"
+  },
+  "Export Control Laws<SEP>U.S. Department of Commerce": {
+    "chunk_ids": [
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Export Control Laws<SEP>U.S. Department of Commerce"
+  },
+  "AI Technologies<SEP>GPUs": {
+    "chunk_ids": [
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "AI Technologies<SEP>GPUs"
+  },
+  "Downstream Users<SEP>Export Controls": {
+    "chunk_ids": [
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Downstream Users<SEP>Export Controls"
+  },
+  "China Market<SEP>USG": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "China Market<SEP>USG"
+  },
+  "AI Technologies<SEP>Compliance Costs": {
+    "chunk_ids": [
+      "chunk-c5cb8d9bb45ed68458e501e851d79604"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "AI Technologies<SEP>Compliance Costs"
+  },
+  "H20 Products<SEP>Trump Administration": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "H20 Products<SEP>Trump Administration"
+  },
+  "AI Diffusion IFR<SEP>USG": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "AI Diffusion IFR<SEP>USG"
+  },
+  "Export Controls<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e",
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 2,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Export Controls<SEP>NVIDIA"
+  },
+  "GAIN AI Act<SEP>USG": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e",
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
+    ],
+    "count": 2,
+    "update_time": 1777394101,
+    "_id": "GAIN AI Act<SEP>USG"
+  },
+  "AI Diffusion IFR<SEP>H200": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "AI Diffusion IFR<SEP>H200"
+  },
+  "NVIDIA<SEP>Networking Products": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "NVIDIA<SEP>Networking Products"
+  },
+  "DeepSeek<SEP>USG": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "DeepSeek<SEP>USG"
+  },
+  "GAIN AI Act<SEP>Trump Administration": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "GAIN AI Act<SEP>Trump Administration"
+  },
+  "Qwen<SEP>USG": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Qwen<SEP>USG"
+  },
+  "KIMMI<SEP>USG": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "KIMMI<SEP>USG"
+  },
+  "Action Plan<SEP>Chinese Government": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Action Plan<SEP>Chinese Government"
+  },
+  "Gaming GPUs<SEP>USG": {
+    "chunk_ids": [
+      "chunk-3fe7a25d291c4a3546389311d2f7665e"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Gaming GPUs<SEP>USG"
+  },
+  "NVIDIA<SEP>USG": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "NVIDIA<SEP>USG"
+  },
+  "Connected Vehicle Restrictions<SEP>USG": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Connected Vehicle Restrictions<SEP>USG"
+  },
+  "NVIDIA<SEP>Taiwan": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "NVIDIA<SEP>Taiwan"
+  },
+  "NVIDIA<SEP>South Korea": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "NVIDIA<SEP>South Korea"
+  },
+  "China<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "China<SEP>NVIDIA"
+  },
+  "AI<SEP>Data Privacy and Security Laws": {
+    "chunk_ids": [
+      "chunk-6547968472918d94509807757ea4a104"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "AI<SEP>Data Privacy and Security Laws"
+  },
+  "Corporate Sustainability Practices<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Corporate Sustainability Practices<SEP>NVIDIA"
+  },
+  "Gaming Revenue<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4",
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 2,
+    "update_time": 1777393765,
+    "_id": "Gaming Revenue<SEP>NVIDIA"
+  },
+  "IP Rights<SEP>United States": {
+    "chunk_ids": [
+      "chunk-6547968472918d94509807757ea4a104"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "IP Rights<SEP>United States"
+  },
+  "AI<SEP>European Commission": {
+    "chunk_ids": [
+      "chunk-6547968472918d94509807757ea4a104"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "AI<SEP>European Commission"
+  },
+  "Data Center Revenue<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4",
+      "chunk-4e532e31d6cab4e835b347d22fb903ce"
+    ],
+    "count": 2,
+    "update_time": 1777393765,
+    "_id": "Data Center Revenue<SEP>NVIDIA"
+  },
+  "Data Privacy and Security Laws<SEP>United States": {
+    "chunk_ids": [
+      "chunk-6547968472918d94509807757ea4a104"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Data Privacy and Security Laws<SEP>United States"
+  },
+  "AI<SEP>Trustworthy AI": {
+    "chunk_ids": [
+      "chunk-6547968472918d94509807757ea4a104"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "AI<SEP>Trustworthy AI"
+  },
+  "NVIDIA<SEP>Shareholder Advocacy Groups": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "NVIDIA<SEP>Shareholder Advocacy Groups"
+  },
+  "Data Privacy<SEP>GDPR": {
+    "chunk_ids": [
+      "chunk-7381dd771ba874ed843a7ae1b211a96a"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Data Privacy<SEP>GDPR"
+  },
+  "IP Rights<SEP>Trademark": {
+    "chunk_ids": [
+      "chunk-6547968472918d94509807757ea4a104"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "IP Rights<SEP>Trademark"
+  },
+  "High-Speed Network Interconnects<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "High-Speed Network Interconnects<SEP>NVIDIA"
+  },
+  "Legal Proceedings<SEP>Tax Authorities": {
+    "chunk_ids": [
+      "chunk-7381dd771ba874ed843a7ae1b211a96a"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Legal Proceedings<SEP>Tax Authorities"
+  },
+  "CCPA<SEP>Data Privacy": {
+    "chunk_ids": [
+      "chunk-7381dd771ba874ed843a7ae1b211a96a"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "CCPA<SEP>Data Privacy"
+  },
+  "Pillar One<SEP>Two-Pillar Framework": {
+    "chunk_ids": [
+      "chunk-7381dd771ba874ed843a7ae1b211a96a"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Pillar One<SEP>Two-Pillar Framework"
+  },
+  "Frontier Model Training<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Frontier Model Training<SEP>NVIDIA"
+  },
+  "Data Privacy<SEP>Regulators": {
+    "chunk_ids": [
+      "chunk-7381dd771ba874ed843a7ae1b211a96a"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Data Privacy<SEP>Regulators"
+  },
+  "Breach<SEP>Personal Data": {
+    "chunk_ids": [
+      "chunk-7381dd771ba874ed843a7ae1b211a96a"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Breach<SEP>Personal Data"
+  },
+  "Legal Proceedings<SEP>Litigation": {
+    "chunk_ids": [
+      "chunk-7381dd771ba874ed843a7ae1b211a96a"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Legal Proceedings<SEP>Litigation"
+  },
+  "Tax Authorities<SEP>Two-Pillar Framework": {
+    "chunk_ids": [
+      "chunk-7381dd771ba874ed843a7ae1b211a96a"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Tax Authorities<SEP>Two-Pillar Framework"
+  },
+  "China<SEP>USG": {
+    "chunk_ids": [
+      "chunk-9c6739621ab1d783a141df5ef0dc109c"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "China<SEP>USG"
+  },
+  "Pillar Two<SEP>Two-Pillar Framework": {
+    "chunk_ids": [
+      "chunk-7381dd771ba874ed843a7ae1b211a96a"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Pillar Two<SEP>Two-Pillar Framework"
+  },
+  "Mellanox Acquisition<SEP>USG": {
+    "chunk_ids": [
+      "chunk-9c6739621ab1d783a141df5ef0dc109c"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Mellanox Acquisition<SEP>USG"
+  },
+  "China<SEP>Russia": {
+    "chunk_ids": [
+      "chunk-9c6739621ab1d783a141df5ef0dc109c"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "China<SEP>Russia"
+  },
+  "A100 Integrated Circuits<SEP>USG": {
+    "chunk_ids": [
+      "chunk-9c6739621ab1d783a141df5ef0dc109c"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "A100 Integrated Circuits<SEP>USG"
+  },
+  "Financial Statements<SEP>Material Weakness": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Financial Statements<SEP>Material Weakness"
+  },
+  "H100 Integrated Circuits<SEP>USG": {
+    "chunk_ids": [
+      "chunk-9c6739621ab1d783a141df5ef0dc109c"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "H100 Integrated Circuits<SEP>USG"
+  },
+  "Securities Analysts<SEP>Stock Price": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Securities Analysts<SEP>Stock Price"
+  },
+  "Business Operations<SEP>Regulatory Authorities": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Business Operations<SEP>Regulatory Authorities"
+  },
+  "H20 Integrated Circuits<SEP>USG": {
+    "chunk_ids": [
+      "chunk-9c6739621ab1d783a141df5ef0dc109c"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "H20 Integrated Circuits<SEP>USG"
+  },
+  "Business Compliance<SEP>Foreign Corrupt Practices Act": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "Business Compliance<SEP>Foreign Corrupt Practices Act"
+  },
+  "AI Regulations<SEP>European Union": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393458,
+    "update_time": 1777393458,
+    "_id": "AI Regulations<SEP>European Union"
+  },
+  "H200 Products<SEP>USG": {
+    "chunk_ids": [
+      "chunk-9c6739621ab1d783a141df5ef0dc109c"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "H200 Products<SEP>USG"
+  },
+  "Data Privacy<SEP>United States": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Data Privacy<SEP>United States"
+  },
+  "French Competition Authority<SEP>GPU Market": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "French Competition Authority<SEP>GPU Market"
+  },
+  "AI Act<SEP>Foundation Models": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "AI Act<SEP>Foundation Models"
+  },
+  "Saudi Arabia<SEP>USG": {
+    "chunk_ids": [
+      "chunk-9c6739621ab1d783a141df5ef0dc109c"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Saudi Arabia<SEP>USG"
+  },
+  "Cash Flow<SEP>Extended Payment Terms": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Cash Flow<SEP>Extended Payment Terms"
+  },
+  "Macroeconomic Downturns<SEP>Volatility": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Macroeconomic Downturns<SEP>Volatility"
+  },
+  "Environmental Liabilities<SEP>Operating Costs": {
+    "chunk_ids": [
+      "chunk-7bf4d5828361b9717a129c0e0296890f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Environmental Liabilities<SEP>Operating Costs"
+  },
+  "California Consumer Privacy Act<SEP>United States": {
+    "chunk_ids": [
+      "chunk-3a5c34130d80dd1e4cc274dd236747ac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "California Consumer Privacy Act<SEP>United States"
+  },
+  "European Economic Area<SEP>General Data Protection Regulation": {
+    "chunk_ids": [
+      "chunk-3a5c34130d80dd1e4cc274dd236747ac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "European Economic Area<SEP>General Data Protection Regulation"
+  },
+  "USG<SEP>United Arab Emirates": {
+    "chunk_ids": [
+      "chunk-9c6739621ab1d783a141df5ef0dc109c"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "USG<SEP>United Arab Emirates"
+  },
+  "China<SEP>Cyberspace Administration of China": {
+    "chunk_ids": [
+      "chunk-3a5c34130d80dd1e4cc274dd236747ac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "China<SEP>Cyberspace Administration of China"
+  },
+  "General Data Protection Regulation<SEP>Standard Contractual Clauses": {
+    "chunk_ids": [
+      "chunk-3a5c34130d80dd1e4cc274dd236747ac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "General Data Protection Regulation<SEP>Standard Contractual Clauses"
+  },
+  "European Economic Area<SEP>U.K. GDPR": {
+    "chunk_ids": [
+      "chunk-3a5c34130d80dd1e4cc274dd236747ac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "European Economic Area<SEP>U.K. GDPR"
+  },
+  "USG<SEP>Vietnam": {
+    "chunk_ids": [
+      "chunk-9c6739621ab1d783a141df5ef0dc109c"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "USG<SEP>Vietnam"
+  },
+  "Compute & Networking Segment<SEP>OpenAI": {
+    "chunk_ids": [
+      "chunk-8262a743174d8bd5517415df36ff565b"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Compute & Networking Segment<SEP>OpenAI"
+  },
+  "22% of Total Revenue<SEP>Fiscal Year 2026": {
+    "chunk_ids": [
+      "chunk-8262a743174d8bd5517415df36ff565b"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "22% of Total Revenue<SEP>Fiscal Year 2026"
+  },
+  "California Consumer Privacy Act<SEP>Data Privacy Impact Assessments": {
+    "chunk_ids": [
+      "chunk-3a5c34130d80dd1e4cc274dd236747ac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "California Consumer Privacy Act<SEP>Data Privacy Impact Assessments"
+  },
+  "EU-U.S. Data Privacy Framework<SEP>General Data Protection Regulation": {
+    "chunk_ids": [
+      "chunk-3a5c34130d80dd1e4cc274dd236747ac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "EU-U.S. Data Privacy Framework<SEP>General Data Protection Regulation"
+  },
+  "Climate Change<SEP>GPU": {
+    "chunk_ids": [
+      "chunk-8262a743174d8bd5517415df36ff565b"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Climate Change<SEP>GPU"
+  },
+  "Business Investments<SEP>Regulatory Approvals": {
+    "chunk_ids": [
+      "chunk-8262a743174d8bd5517415df36ff565b"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Business Investments<SEP>Regulatory Approvals"
+  },
+  "NVIDIA<SEP>Shareholders": {
+    "chunk_ids": [
+      "chunk-0da5c42c02de4cb89dfe1305eac6a282"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "NVIDIA<SEP>Shareholders"
+  },
+  "14% of Total Revenue<SEP>Fiscal Year 2026": {
+    "chunk_ids": [
+      "chunk-8262a743174d8bd5517415df36ff565b"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "14% of Total Revenue<SEP>Fiscal Year 2026"
+  },
+  "Climate Change<SEP>Supply Chain Delays": {
+    "chunk_ids": [
+      "chunk-8262a743174d8bd5517415df36ff565b"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Climate Change<SEP>Supply Chain Delays"
+  },
+  "Cryptocurrency Mining<SEP>GPU Demand": {
+    "chunk_ids": [
+      "chunk-0da5c42c02de4cb89dfe1305eac6a282"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Cryptocurrency Mining<SEP>GPU Demand"
+  },
+  "Microsoft<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-0da5c42c02de4cb89dfe1305eac6a282"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Microsoft<SEP>NVIDIA"
+  },
+  "Data Center Products<SEP>NVIDIA AI Infrastructure": {
+    "chunk_ids": [
+      "chunk-048aa42dfe246d84799444148f96ecac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Data Center Products<SEP>NVIDIA AI Infrastructure"
+  },
+  "Delaware<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-0da5c42c02de4cb89dfe1305eac6a282"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Delaware<SEP>NVIDIA"
+  },
+  "Microsoft<SEP>Xbox": {
+    "chunk_ids": [
+      "chunk-0da5c42c02de4cb89dfe1305eac6a282"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Microsoft<SEP>Xbox"
+  },
+  "Fiscal Year 2027<SEP>Gaming": {
+    "chunk_ids": [
+      "chunk-048aa42dfe246d84799444148f96ecac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Fiscal Year 2027<SEP>Gaming"
+  },
+  "Natural Disasters<SEP>Public Health Issues": {
+    "chunk_ids": [
+      "chunk-048aa42dfe246d84799444148f96ecac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Natural Disasters<SEP>Public Health Issues"
+  },
+  "Competitors<SEP>NVIDIA AI Infrastructure": {
+    "chunk_ids": [
+      "chunk-048aa42dfe246d84799444148f96ecac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Competitors<SEP>NVIDIA AI Infrastructure"
+  },
+  "Delaware General Corporation Law<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-0da5c42c02de4cb89dfe1305eac6a282"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Delaware General Corporation Law<SEP>NVIDIA"
+  },
+  "Channel Partners<SEP>Data Center Products": {
+    "chunk_ids": [
+      "chunk-048aa42dfe246d84799444148f96ecac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Channel Partners<SEP>Data Center Products"
+  },
+  "GeForce NOW<SEP>NVIDIA AI Infrastructure": {
+    "chunk_ids": [
+      "chunk-048aa42dfe246d84799444148f96ecac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "GeForce NOW<SEP>NVIDIA AI Infrastructure"
+  },
+  "Annual Report on Form 10-K<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-64395f7efa9909f4a6f1d9dceb7b400f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Annual Report on Form 10-K<SEP>NVDA"
+  },
+  "Board of Directors<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-0da5c42c02de4cb89dfe1305eac6a282"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Board of Directors<SEP>NVIDIA"
+  },
+  "Data Center Products<SEP>Manufacturing Capabilities": {
+    "chunk_ids": [
+      "chunk-048aa42dfe246d84799444148f96ecac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Data Center Products<SEP>Manufacturing Capabilities"
+  },
+  "Accelerated Computing<SEP>NVIDIA AI Infrastructure": {
+    "chunk_ids": [
+      "chunk-048aa42dfe246d84799444148f96ecac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Accelerated Computing<SEP>NVIDIA AI Infrastructure"
+  },
+  "Delaware law<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-64395f7efa9909f4a6f1d9dceb7b400f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Delaware law<SEP>NVDA"
+  },
+  "Annual Report on Form 10-K<SEP>Risk Factors": {
+    "chunk_ids": [
+      "chunk-64395f7efa9909f4a6f1d9dceb7b400f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Annual Report on Form 10-K<SEP>Risk Factors"
+  },
+  "Large Language Models<SEP>NVIDIA AI Infrastructure": {
+    "chunk_ids": [
+      "chunk-048aa42dfe246d84799444148f96ecac"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Large Language Models<SEP>NVIDIA AI Infrastructure"
+  },
+  "Microsoft<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-64395f7efa9909f4a6f1d9dceb7b400f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Microsoft<SEP>NVDA"
+  },
+  "Competition<SEP>Risk Factors": {
+    "chunk_ids": [
+      "chunk-64395f7efa9909f4a6f1d9dceb7b400f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Competition<SEP>Risk Factors"
+  },
+  "Groq, Inc.<SEP>Intellectual Property License Arrangement": {
+    "chunk_ids": [
+      "chunk-ab9a3eded9cdb2972a35be89916d6e95"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Groq, Inc.<SEP>Intellectual Property License Arrangement"
+  },
+  "NVIDIA AI Enterprise<SEP>Research and Development Activities": {
+    "chunk_ids": [
+      "chunk-ab9a3eded9cdb2972a35be89916d6e95"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "NVIDIA AI Enterprise<SEP>Research and Development Activities"
+  },
+  "Manufacturing Lead Times<SEP>Risk Factors": {
+    "chunk_ids": [
+      "chunk-64395f7efa9909f4a6f1d9dceb7b400f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Manufacturing Lead Times<SEP>Risk Factors"
+  },
+  "Cloud Service Agreements<SEP>Market Share": {
+    "chunk_ids": [
+      "chunk-ab9a3eded9cdb2972a35be89916d6e95"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Cloud Service Agreements<SEP>Market Share"
+  },
+  "NVIDIA Omniverse<SEP>Research and Development Activities": {
+    "chunk_ids": [
+      "chunk-ab9a3eded9cdb2972a35be89916d6e95"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "NVIDIA Omniverse<SEP>Research and Development Activities"
+  },
+  "Acquisition Integrations<SEP>Customer Support": {
+    "chunk_ids": [
+      "chunk-ab9a3eded9cdb2972a35be89916d6e95"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Acquisition Integrations<SEP>Customer Support"
+  },
+  "Cyber-attacks<SEP>Risk Factors": {
+    "chunk_ids": [
+      "chunk-64395f7efa9909f4a6f1d9dceb7b400f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Cyber-attacks<SEP>Risk Factors"
+  },
+  "NVIDIA DRIVE<SEP>Research and Development Activities": {
+    "chunk_ids": [
+      "chunk-ab9a3eded9cdb2972a35be89916d6e95"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "NVIDIA DRIVE<SEP>Research and Development Activities"
+  },
+  "Customer Support<SEP>E-Commerce": {
+    "chunk_ids": [
+      "chunk-ab9a3eded9cdb2972a35be89916d6e95"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Customer Support<SEP>E-Commerce"
+  },
+  "Product Configurations<SEP>Revenue Volatility": {
+    "chunk_ids": [
+      "chunk-811f15fc2eb3bdd5be475acc4c7663c2"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Product Configurations<SEP>Revenue Volatility"
+  },
+  "Architectural Transitions<SEP>Data Center Infrastructure": {
+    "chunk_ids": [
+      "chunk-811f15fc2eb3bdd5be475acc4c7663c2"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Architectural Transitions<SEP>Data Center Infrastructure"
+  },
+  "Economic Conditions<SEP>Risk Factors": {
+    "chunk_ids": [
+      "chunk-64395f7efa9909f4a6f1d9dceb7b400f"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Economic Conditions<SEP>Risk Factors"
+  },
+  "IP Licensing Capabilities<SEP>Research and Development Activities": {
+    "chunk_ids": [
+      "chunk-ab9a3eded9cdb2972a35be89916d6e95"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "IP Licensing Capabilities<SEP>Research and Development Activities"
+  },
+  "Engineering Development Resources<SEP>Supply Chain Cost": {
+    "chunk_ids": [
+      "chunk-811f15fc2eb3bdd5be475acc4c7663c2"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Engineering Development Resources<SEP>Supply Chain Cost"
+  },
+  "Cryptocurrency Mining<SEP>Gaming GPUs": {
+    "chunk_ids": [
+      "chunk-811f15fc2eb3bdd5be475acc4c7663c2"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Cryptocurrency Mining<SEP>Gaming GPUs"
+  },
+  "Foundries<SEP>Third-Party Suppliers": {
+    "chunk_ids": [
+      "chunk-811f15fc2eb3bdd5be475acc4c7663c2"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Foundries<SEP>Third-Party Suppliers"
+  },
+  "Market Demand<SEP>Products": {
+    "chunk_ids": [
+      "chunk-811f15fc2eb3bdd5be475acc4c7663c2"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Market Demand<SEP>Products"
+  },
+  "Cloud Service Capacity<SEP>Research and Development Activities": {
+    "chunk_ids": [
+      "chunk-ab9a3eded9cdb2972a35be89916d6e95"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Cloud Service Capacity<SEP>Research and Development Activities"
+  },
+  "Component Prices<SEP>Supply Chain Cost": {
+    "chunk_ids": [
+      "chunk-811f15fc2eb3bdd5be475acc4c7663c2"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Component Prices<SEP>Supply Chain Cost"
+  },
+  "Cryptocurrency Mining<SEP>Ethereum 2.0": {
+    "chunk_ids": [
+      "chunk-811f15fc2eb3bdd5be475acc4c7663c2"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Cryptocurrency Mining<SEP>Ethereum 2.0"
+  },
+  "Customers<SEP>Fiscal Year 2026": {
+    "chunk_ids": [
+      "chunk-ace00fdd31cfec40a3509f338c129c27"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Customers<SEP>Fiscal Year 2026"
+  },
+  "Applications<SEP>Market Demand": {
+    "chunk_ids": [
+      "chunk-811f15fc2eb3bdd5be475acc4c7663c2"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Applications<SEP>Market Demand"
+  },
+  "Commercial Arrangements<SEP>Financial Guarantees": {
+    "chunk_ids": [
+      "chunk-ace00fdd31cfec40a3509f338c129c27"
+    ],
+    "count": 1,
+    "create_time": 1777393459,
+    "update_time": 1777393459,
+    "_id": "Commercial Arrangements<SEP>Financial Guarantees"
+  },
+  "Executives and Key Employees<SEP>Labor Market": {
+    "chunk_ids": [
+      "chunk-ace00fdd31cfec40a3509f338c129c27"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "Executives and Key Employees<SEP>Labor Market"
+  },
+  "Business Processes<SEP>Enterprise Resource Planning System": {
+    "chunk_ids": [
+      "chunk-ace00fdd31cfec40a3509f338c129c27"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "Business Processes<SEP>Enterprise Resource Planning System"
+  },
+  "Customers<SEP>Partner Network": {
+    "chunk_ids": [
+      "chunk-ace00fdd31cfec40a3509f338c129c27"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "Customers<SEP>Partner Network"
+  },
+  "Company<SEP>Indirect Customers": {
+    "chunk_ids": [
+      "chunk-ace00fdd31cfec40a3509f338c129c27"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "Company<SEP>Indirect Customers"
+  },
+  "Supply-Chain Attacks<SEP>Third-Party Suppliers": {
+    "chunk_ids": [
+      "chunk-2463b1f3e027672a09f3f1eb64a1bef5"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "Supply-Chain Attacks<SEP>Third-Party Suppliers"
+  },
+  "NVIDIA<SEP>Security Incidents": {
+    "chunk_ids": [
+      "chunk-2463b1f3e027672a09f3f1eb64a1bef5"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "NVIDIA<SEP>Security Incidents"
+  },
+  "Customers<SEP>System Integrators": {
+    "chunk_ids": [
+      "chunk-ace00fdd31cfec40a3509f338c129c27"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "Customers<SEP>System Integrators"
+  },
+  "GFN Service<SEP>Security Incidents": {
+    "chunk_ids": [
+      "chunk-2463b1f3e027672a09f3f1eb64a1bef5"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "GFN Service<SEP>Security Incidents"
+  },
+  "AI Models<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-2463b1f3e027672a09f3f1eb64a1bef5"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "AI Models<SEP>NVIDIA"
+  },
+  "California<SEP>Natural Disasters": {
+    "chunk_ids": [
+      "chunk-2463b1f3e027672a09f3f1eb64a1bef5"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "California<SEP>Natural Disasters"
+  },
+  "Company<SEP>Executives and Key Employees": {
+    "chunk_ids": [
+      "chunk-ace00fdd31cfec40a3509f338c129c27"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "Company<SEP>Executives and Key Employees"
+  },
+  "Regulatory Scrutiny<SEP>Security Incidents": {
+    "chunk_ids": [
+      "chunk-2463b1f3e027672a09f3f1eb64a1bef5"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "Regulatory Scrutiny<SEP>Security Incidents"
+  },
+  "NVIDIA<SEP>Proprietary Information": {
+    "chunk_ids": [
+      "chunk-2463b1f3e027672a09f3f1eb64a1bef5"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "NVIDIA<SEP>Proprietary Information"
+  },
+  "Asia<SEP>Natural Disasters": {
+    "chunk_ids": [
+      "chunk-2463b1f3e027672a09f3f1eb64a1bef5"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "Asia<SEP>Natural Disasters"
+  },
+  "GDPR<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-2463b1f3e027672a09f3f1eb64a1bef5"
+    ],
+    "count": 1,
+    "create_time": 1777393460,
+    "update_time": 1777393460,
+    "_id": "GDPR<SEP>NVIDIA"
+  },
+  "Fiscal 2027<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-ba4954aec13a644ec55d9b0e67835a00",
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 2,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Fiscal 2027<SEP>NVIDIA"
+  },
+  "GAAP Gross Margin<SEP>Non-GAAP Gross Margin": {
+    "chunk_ids": [
+      "chunk-ba4954aec13a644ec55d9b0e67835a00"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "GAAP Gross Margin<SEP>Non-GAAP Gross Margin"
+  },
+  "GAAP Operating Expenses<SEP>Non-GAAP Operating Expenses": {
+    "chunk_ids": [
+      "chunk-ba4954aec13a644ec55d9b0e67835a00"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "GAAP Operating Expenses<SEP>Non-GAAP Operating Expenses"
+  },
+  "Cash Flows<SEP>Groq, Inc.": {
+    "chunk_ids": [
+      "chunk-da711b37b8ccf5f220a63221dc07ce03"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Cash Flows<SEP>Groq, Inc."
+  },
+  "Non-GAAP Gross Margin<SEP>Stock-Based Compensation Expense": {
+    "chunk_ids": [
+      "chunk-ba4954aec13a644ec55d9b0e67835a00"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Non-GAAP Gross Margin<SEP>Stock-Based Compensation Expense"
+  },
+  "Acquisition-Related Costs<SEP>GAAP Gross Margin": {
+    "chunk_ids": [
+      "chunk-ba4954aec13a644ec55d9b0e67835a00"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Acquisition-Related Costs<SEP>GAAP Gross Margin"
+  },
+  "Common Stock Repurchase<SEP>Groq, Inc.": {
+    "chunk_ids": [
+      "chunk-da711b37b8ccf5f220a63221dc07ce03"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Common Stock Repurchase<SEP>Groq, Inc."
+  },
+  "Acquisition-Related Costs<SEP>Non-GAAP Operating Expenses": {
+    "chunk_ids": [
+      "chunk-ba4954aec13a644ec55d9b0e67835a00"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Acquisition-Related Costs<SEP>Non-GAAP Operating Expenses"
+  },
+  "Employee Stock Plans<SEP>Groq, Inc.": {
+    "chunk_ids": [
+      "chunk-da711b37b8ccf5f220a63221dc07ce03"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Employee Stock Plans<SEP>Groq, Inc."
+  },
+  "Groq, Inc.<SEP>Repayment of Debt": {
+    "chunk_ids": [
+      "chunk-da711b37b8ccf5f220a63221dc07ce03"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Groq, Inc.<SEP>Repayment of Debt"
+  },
+  "Cash and Cash Equivalents<SEP>Groq, Inc.": {
+    "chunk_ids": [
+      "chunk-da711b37b8ccf5f220a63221dc07ce03"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Cash and Cash Equivalents<SEP>Groq, Inc."
+  },
+  "NVIDIA Corporation<SEP>Securities and Exchange Commission": {
+    "chunk_ids": [
+      "chunk-049b76888ee596abbac6cb4feb996482"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA Corporation<SEP>Securities and Exchange Commission"
+  },
+  "Grace Blackwell<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-049b76888ee596abbac6cb4feb996482"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Grace Blackwell<SEP>NVIDIA"
+  },
+  "Cash Used in Investing Activities<SEP>Groq, Inc.": {
+    "chunk_ids": [
+      "chunk-da711b37b8ccf5f220a63221dc07ce03"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Cash Used in Investing Activities<SEP>Groq, Inc."
+  },
+  "NVIDIA Blackwell Platform<SEP>NVIDIA Rubin Platform": {
+    "chunk_ids": [
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA Blackwell Platform<SEP>NVIDIA Rubin Platform"
+  },
+  "NVIDIA<SEP>Vera Rubin": {
+    "chunk_ids": [
+      "chunk-049b76888ee596abbac6cb4feb996482"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>Vera Rubin"
+  },
+  "Groq, Inc.<SEP>Net Cash Used in Financing Activities": {
+    "chunk_ids": [
+      "chunk-da711b37b8ccf5f220a63221dc07ce03"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Groq, Inc.<SEP>Net Cash Used in Financing Activities"
+  },
+  "Amazon Web Services<SEP>NVIDIA Rubin Platform": {
+    "chunk_ids": [
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Amazon Web Services<SEP>NVIDIA Rubin Platform"
+  },
+  "Blackwell<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-049b76888ee596abbac6cb4feb996482",
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 2,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Blackwell<SEP>NVIDIA"
+  },
+  "NVIDIA BlueField-4<SEP>NVIDIA Inference Context Memory Storage Platform": {
+    "chunk_ids": [
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA BlueField-4<SEP>NVIDIA Inference Context Memory Storage Platform"
+  },
+  "NVIDIA Nemotron 3<SEP>agentic AI": {
+    "chunk_ids": [
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA Nemotron 3<SEP>agentic AI"
+  },
+  "Fiscal Year 2027<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Fiscal Year 2027<SEP>NVIDIA"
+  },
+  "Earnings Per Share<SEP>Fiscal Year 2026": {
+    "chunk_ids": [
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Earnings Per Share<SEP>Fiscal Year 2026"
+  },
+  "NVIDIA Corporation<SEP>Q1 FY2027 Outlook": {
+    "chunk_ids": [
+      "chunk-dcc5044b844b3fd22b5df9dcf58e75b4"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA Corporation<SEP>Q1 FY2027 Outlook"
+  },
+  "Data Center<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Data Center<SEP>NVIDIA"
+  },
+  "GAAP<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-dcc5044b844b3fd22b5df9dcf58e75b4"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "GAAP<SEP>NVIDIA Corporation"
+  },
+  "Meta<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Meta<SEP>NVIDIA"
+  },
+  "NVIDIA Corporation<SEP>Non-GAAP": {
+    "chunk_ids": [
+      "chunk-dcc5044b844b3fd22b5df9dcf58e75b4"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA Corporation<SEP>Non-GAAP"
+  },
+  "Groq, Inc.<SEP>Market Securities": {
+    "chunk_ids": [
+      "chunk-2fac1738508415243234f056f0757da5"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Groq, Inc.<SEP>Market Securities"
+  },
+  "NVIDIA<SEP>U.S. Department of Energy": {
+    "chunk_ids": [
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7",
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 2,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>U.S. Department of Energy"
+  },
+  "H2O Charges<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-dcc5044b844b3fd22b5df9dcf58e75b4"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "H2O Charges<SEP>NVIDIA Corporation"
+  },
+  "Current Liabilities<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-2fac1738508415243234f056f0757da5"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Current Liabilities<SEP>NVIDIA"
+  },
+  "Cash Flows<SEP>Investment Activities": {
+    "chunk_ids": [
+      "chunk-2fac1738508415243234f056f0757da5"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Cash Flows<SEP>Investment Activities"
+  },
+  "Fiscal 2026<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-dcc5044b844b3fd22b5df9dcf58e75b4"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Fiscal 2026<SEP>NVIDIA Corporation"
+  },
+  "NVIDIA<SEP>Net Income": {
+    "chunk_ids": [
+      "chunk-2fac1738508415243234f056f0757da5"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>Net Income"
+  },
+  "Acquisition-Related Costs<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-dcc5044b844b3fd22b5df9dcf58e75b4"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Acquisition-Related Costs<SEP>NVIDIA Corporation"
+  },
+  "NVIDIA<SEP>Total Liabilities": {
+    "chunk_ids": [
+      "chunk-2fac1738508415243234f056f0757da5"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>Total Liabilities"
+  },
+  "Long-term Liabilities<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-2fac1738508415243234f056f0757da5"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Long-term Liabilities<SEP>NVIDIA"
+  },
+  "NVIDIA<SEP>NVIDIA Earth-2": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>NVIDIA Earth-2"
+  },
+  "Infosys<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "Infosys<SEP>NVIDIA"
+  },
+  "NVIDIA<SEP>Persistent": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>Persistent"
+  },
+  "NVIDIA<SEP>Tech Mahindra": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>Tech Mahindra"
+  },
+  "NVIDIA<SEP>Wipro": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>Wipro"
+  },
+  "NVIDIA<SEP>NVIDIA DLSS 4.5": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>NVIDIA DLSS 4.5"
+  },
+  "NVIDIA<SEP>NVIDIA G-SYNC Pulsar": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>NVIDIA G-SYNC Pulsar"
+  },
+  "NVIDIA<SEP>NVIDIA RTX": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>NVIDIA RTX"
+  },
+  "NVIDIA<SEP>NVIDIA RTX PRO 5000": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>NVIDIA RTX PRO 5000"
+  },
+  "NVIDIA<SEP>NVIDIA DGX Spark": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>NVIDIA DGX Spark"
+  },
+  "NVIDIA<SEP>NVIDIA Alpamayo": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393764,
+    "update_time": 1777393764,
+    "_id": "NVIDIA<SEP>NVIDIA Alpamayo"
+  },
+  "Mercedes-Benz CLA<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Mercedes-Benz CLA<SEP>NVIDIA"
+  },
+  "NVIDIA<SEP>NVIDIA DRIVE AV": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "NVIDIA<SEP>NVIDIA DRIVE AV"
+  },
+  "NVIDIA<SEP>NVIDIA DRIVE Hyperion": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "NVIDIA<SEP>NVIDIA DRIVE Hyperion"
+  },
+  "Boston Dynamics<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Boston Dynamics<SEP>NVIDIA"
+  },
+  "Caterpillar<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Caterpillar<SEP>NVIDIA"
+  },
+  "Franka Robotics<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Franka Robotics<SEP>NVIDIA"
+  },
+  "Humanoid<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Humanoid<SEP>NVIDIA"
+  },
+  "LG Electronics<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "LG Electronics<SEP>NVIDIA"
+  },
+  "NEURA Robotics<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "NEURA Robotics<SEP>NVIDIA"
+  },
+  "NVIDIA<SEP>Siemens": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "NVIDIA<SEP>Siemens"
+  },
+  "GAAP<SEP>Non-GAAP": {
+    "chunk_ids": [
+      "chunk-999e49912c8620e1b5c01f22ea8775a1"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "GAAP<SEP>Non-GAAP"
+  },
+  "Dassault Systèmes<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Dassault Systèmes<SEP>NVIDIA"
+  },
+  "Free Cash Flow<SEP>Operating Activities": {
+    "chunk_ids": [
+      "chunk-999e49912c8620e1b5c01f22ea8775a1"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Free Cash Flow<SEP>Operating Activities"
+  },
+  "Diluted Net Income Per Share<SEP>Weighted Average Shares": {
+    "chunk_ids": [
+      "chunk-999e49912c8620e1b5c01f22ea8775a1"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Diluted Net Income Per Share<SEP>Weighted Average Shares"
+  },
+  "Colette Kress<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Colette Kress<SEP>NVIDIA"
+  },
+  "GAAP<SEP>Tax Expense": {
+    "chunk_ids": [
+      "chunk-999e49912c8620e1b5c01f22ea8775a1"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "GAAP<SEP>Tax Expense"
+  },
+  "Fiscal 2026<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Fiscal 2026<SEP>NVIDIA"
+  },
+  "NVIDIA Corporation<SEP>Total Assets": {
+    "chunk_ids": [
+      "chunk-3dbbf032a2278523bc981ca20823661e"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "NVIDIA Corporation<SEP>Total Assets"
+  },
+  "Cash Provided by Operating Activities<SEP>Purchases Related to Property and Equipment": {
+    "chunk_ids": [
+      "chunk-999e49912c8620e1b5c01f22ea8775a1"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Cash Provided by Operating Activities<SEP>Purchases Related to Property and Equipment"
+  },
+  "NVIDIA Corporation<SEP>Total Liabilities": {
+    "chunk_ids": [
+      "chunk-3dbbf032a2278523bc981ca20823661e"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "NVIDIA Corporation<SEP>Total Liabilities"
+  },
+  "Cash Provided by Operating Activities<SEP>Principal Payments on Property and Equipment": {
+    "chunk_ids": [
+      "chunk-999e49912c8620e1b5c01f22ea8775a1"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Cash Provided by Operating Activities<SEP>Principal Payments on Property and Equipment"
+  },
+  "NVIDIA<SEP>Professional Visualization Revenue": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "NVIDIA<SEP>Professional Visualization Revenue"
+  },
+  "Current Assets<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-3dbbf032a2278523bc981ca20823661e"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Current Assets<SEP>NVIDIA Corporation"
+  },
+  "Automotive Revenue<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Automotive Revenue<SEP>NVIDIA"
+  },
+  "Current Liabilities<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-3dbbf032a2278523bc981ca20823661e"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Current Liabilities<SEP>NVIDIA Corporation"
+  },
+  "Fourth Quarter Fiscal 2026<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-4e532e31d6cab4e835b347d22fb903ce"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Fourth Quarter Fiscal 2026<SEP>NVIDIA"
+  },
+  "NVIDIA Corporation<SEP>Property and Equipment": {
+    "chunk_ids": [
+      "chunk-3dbbf032a2278523bc981ca20823661e"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "NVIDIA Corporation<SEP>Property and Equipment"
+  },
+  "Goodwill<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-3dbbf032a2278523bc981ca20823661e"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Goodwill<SEP>NVIDIA Corporation"
+  },
+  "Intangible Assets<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-3dbbf032a2278523bc981ca20823661e"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Intangible Assets<SEP>NVIDIA Corporation"
+  },
+  "Deferred Income Tax Assets<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-3dbbf032a2278523bc981ca20823661e"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "Deferred Income Tax Assets<SEP>NVIDIA Corporation"
+  },
+  "NVIDIA<SEP>Shareholder Returns": {
+    "chunk_ids": [
+      "chunk-4e532e31d6cab4e835b347d22fb903ce"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "NVIDIA<SEP>Shareholder Returns"
+  },
+  "NVIDIA Corporation<SEP>Non-Marketable Equity Securities": {
+    "chunk_ids": [
+      "chunk-3dbbf032a2278523bc981ca20823661e"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "NVIDIA Corporation<SEP>Non-Marketable Equity Securities"
+  },
+  "AI Compute<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-4e532e31d6cab4e835b347d22fb903ce"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "AI Compute<SEP>NVIDIA"
+  },
+  "$68.1 Billion<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-4e532e31d6cab4e835b347d22fb903ce"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "$68.1 Billion<SEP>NVIDIA"
+  },
+  "$215.9 Billion<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-4e532e31d6cab4e835b347d22fb903ce"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "$215.9 Billion<SEP>NVIDIA"
+  },
+  "$62.3 Billion<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-4e532e31d6cab4e835b347d22fb903ce"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "$62.3 Billion<SEP>NVIDIA"
+  },
+  "$41.1 Billion<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-4e532e31d6cab4e835b347d22fb903ce"
+    ],
+    "count": 1,
+    "create_time": 1777393765,
+    "update_time": 1777393765,
+    "_id": "$41.1 Billion<SEP>NVIDIA"
+  },
+  "NVDA<SEP>Share Repurchase Program": {
+    "chunk_ids": [
+      "chunk-cfd3eead054c237a6d6473be70621acd",
+      "chunk-b8294be7a878d2c201b53fee897a4a9e"
+    ],
+    "count": 2,
+    "update_time": 1777393811,
+    "_id": "NVDA<SEP>Share Repurchase Program"
+  },
+  "RSU Awards<SEP>Tax Withholding Obligations": {
+    "chunk_ids": [
+      "chunk-cfd3eead054c237a6d6473be70621acd"
+    ],
+    "count": 1,
+    "create_time": 1777393786,
+    "update_time": 1777393786,
+    "_id": "RSU Awards<SEP>Tax Withholding Obligations"
+  },
+  "Equity Securities<SEP>Share Repurchase Program": {
+    "chunk_ids": [
+      "chunk-cfd3eead054c237a6d6473be70621acd"
+    ],
+    "count": 1,
+    "create_time": 1777393786,
+    "update_time": 1777393786,
+    "_id": "Equity Securities<SEP>Share Repurchase Program"
+  },
+  "Board of Directors<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-cfd3eead054c237a6d6473be70621acd",
+      "chunk-7db00cad61ef04227193022a9b1523c3"
+    ],
+    "count": 2,
+    "update_time": 1777393851,
+    "_id": "Board of Directors<SEP>NVDA"
+  },
+  "Inflation Reduction Act of 2022<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-cfd3eead054c237a6d6473be70621acd"
+    ],
+    "count": 1,
+    "create_time": 1777393786,
+    "update_time": 1777393786,
+    "_id": "Inflation Reduction Act of 2022<SEP>NVDA"
+  },
+  "NVDA<SEP>Unregistered Sales of Equity Securities": {
+    "chunk_ids": [
+      "chunk-cfd3eead054c237a6d6473be70621acd"
+    ],
+    "count": 1,
+    "create_time": 1777393786,
+    "update_time": 1777393786,
+    "_id": "NVDA<SEP>Unregistered Sales of Equity Securities"
+  },
+  "NVDA<SEP>Quarterly MDA": {
+    "chunk_ids": [
+      "chunk-cfd3eead054c237a6d6473be70621acd"
+    ],
+    "count": 1,
+    "create_time": 1777393786,
+    "update_time": 1777393786,
+    "_id": "NVDA<SEP>Quarterly MDA"
+  },
+  "NVDA<SEP>Rule 10b5-1": {
+    "chunk_ids": [
+      "chunk-b8294be7a878d2c201b53fee897a4a9e"
+    ],
+    "count": 1,
+    "create_time": 1777393811,
+    "update_time": 1777393811,
+    "_id": "NVDA<SEP>Rule 10b5-1"
+  },
+  "Fiscal Years 2025 and 2026<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-b8294be7a878d2c201b53fee897a4a9e"
+    ],
+    "count": 1,
+    "create_time": 1777393811,
+    "update_time": 1777393811,
+    "_id": "Fiscal Years 2025 and 2026<SEP>NVDA"
+  },
+  "Employee Equity Incentive Program<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-b8294be7a878d2c201b53fee897a4a9e",
+      "chunk-7db00cad61ef04227193022a9b1523c3"
+    ],
+    "count": 2,
+    "update_time": 1777393851,
+    "_id": "Employee Equity Incentive Program<SEP>NVDA"
+  },
+  "Cash Dividends<SEP>Fiscal Years 2025 and 2026": {
+    "chunk_ids": [
+      "chunk-b8294be7a878d2c201b53fee897a4a9e"
+    ],
+    "count": 1,
+    "create_time": 1777393811,
+    "update_time": 1777393811,
+    "_id": "Cash Dividends<SEP>Fiscal Years 2025 and 2026"
+  },
+  "March 14, 2025<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-b8294be7a878d2c201b53fee897a4a9e"
+    ],
+    "count": 1,
+    "create_time": 1777393811,
+    "update_time": 1777393811,
+    "_id": "March 14, 2025<SEP>NVDA"
+  },
+  "March 24, 2025<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-b8294be7a878d2c201b53fee897a4a9e"
+    ],
+    "count": 1,
+    "create_time": 1777393811,
+    "update_time": 1777393811,
+    "_id": "March 24, 2025<SEP>NVDA"
+  },
+  "Fiscal Year 2026<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-7db00cad61ef04227193022a9b1523c3"
+    ],
+    "count": 1,
+    "create_time": 1777393851,
+    "update_time": 1777393851,
+    "_id": "Fiscal Year 2026<SEP>NVDA"
+  },
+  "August 26, 2025<SEP>Board of Directors": {
+    "chunk_ids": [
+      "chunk-7db00cad61ef04227193022a9b1523c3"
+    ],
+    "count": 1,
+    "create_time": 1777393851,
+    "update_time": 1777393851,
+    "_id": "August 26, 2025<SEP>Board of Directors"
+  },
+  "NVDA<SEP>Second Quarter of Fiscal Year 2026": {
+    "chunk_ids": [
+      "chunk-7db00cad61ef04227193022a9b1523c3"
+    ],
+    "count": 1,
+    "create_time": 1777393851,
+    "update_time": 1777393851,
+    "_id": "NVDA<SEP>Second Quarter of Fiscal Year 2026"
+  },
+  "387,158 Shares<SEP>Employee Equity Incentive Program": {
+    "chunk_ids": [
+      "chunk-7db00cad61ef04227193022a9b1523c3"
+    ],
+    "count": 1,
+    "create_time": 1777393851,
+    "update_time": 1777393851,
+    "_id": "387,158 Shares<SEP>Employee Equity Incentive Program"
+  },
+  "First Half of Fiscal Year 2026<SEP>NVDA": {
+    "chunk_ids": [
+      "chunk-7db00cad61ef04227193022a9b1523c3"
+    ],
+    "count": 1,
+    "create_time": 1777393851,
+    "update_time": 1777393851,
+    "_id": "First Half of Fiscal Year 2026<SEP>NVDA"
+  },
+  "89,338 Shares<SEP>Employee Equity Incentive Program": {
+    "chunk_ids": [
+      "chunk-7db00cad61ef04227193022a9b1523c3"
+    ],
+    "count": 1,
+    "create_time": 1777393851,
+    "update_time": 1777393851,
+    "_id": "89,338 Shares<SEP>Employee Equity Incentive Program"
+  },
+  "NVDA<SEP>Pre-established Trading Plan": {
+    "chunk_ids": [
+      "chunk-7db00cad61ef04227193022a9b1523c3"
+    ],
+    "count": 1,
+    "create_time": 1777393851,
+    "update_time": 1777393851,
+    "_id": "NVDA<SEP>Pre-established Trading Plan"
+  },
+  "Fiscal Year 2025<SEP>H20 Excess Inventory": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2025<SEP>H20 Excess Inventory"
+  },
+  "Blackwell Architecture<SEP>Fiscal Year 2026": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Blackwell Architecture<SEP>Fiscal Year 2026"
+  },
+  "Gross Margin<SEP>Gross Profit": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Gross Margin<SEP>Gross Profit"
+  },
+  "Direct Customers<SEP>NVIDIA": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Direct Customers<SEP>NVIDIA"
+  },
+  "Compute & Networking Segment<SEP>Fiscal Year 2026": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Compute & Networking Segment<SEP>Fiscal Year 2026"
+  },
+  "Fiscal Year 2026<SEP>Operating Expenses": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2026<SEP>Operating Expenses"
+  },
+  "Compute & Networking Segment<SEP>Direct Customers": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Compute & Networking Segment<SEP>Direct Customers"
+  },
+  "Fiscal Year 2025<SEP>Operating Expenses": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2025<SEP>Operating Expenses"
+  },
+  "Compute & Networking Segment<SEP>Indirect Customers": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Compute & Networking Segment<SEP>Indirect Customers"
+  },
+  "Fiscal Year 2026<SEP>Income Tax Expense": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2026<SEP>Income Tax Expense"
+  },
+  "Compute & Networking Segment<SEP>Customer A": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Compute & Networking Segment<SEP>Customer A"
+  },
+  "Fiscal Year 2025<SEP>Income Tax Expense": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2025<SEP>Income Tax Expense"
+  },
+  "Fiscal Year 2026<SEP>OBBBA": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2026<SEP>OBBBA"
+  },
+  "Compute & Networking Segment<SEP>Customer B": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Compute & Networking Segment<SEP>Customer B"
+  },
+  "Fiscal Year 2026<SEP>Interest Income": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2026<SEP>Interest Income"
+  },
+  "Research and Development Expenses<SEP>Total Operating Expenses": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Research and Development Expenses<SEP>Total Operating Expenses"
+  },
+  "Compute & Networking Segment<SEP>Customer C": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Compute & Networking Segment<SEP>Customer C"
+  },
+  "Fiscal Year 2026<SEP>Interest Expense": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2026<SEP>Interest Expense"
+  },
+  "H20<SEP>USG": {
+    "chunk_ids": [
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "H20<SEP>USG"
+  },
+  "Sales, General and Administrative Expenses<SEP>Total Operating Expenses": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Sales, General and Administrative Expenses<SEP>Total Operating Expenses"
+  },
+  "Compute & Networking Segment<SEP>Customer D": {
+    "chunk_ids": [
+      "chunk-53699e595f949b5dbc36eba95b8540ba"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Compute & Networking Segment<SEP>Customer D"
+  },
+  "Fiscal Year 2026<SEP>Other Income": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2026<SEP>Other Income"
+  },
+  "AI Diffusion<SEP>USG": {
+    "chunk_ids": [
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "AI Diffusion<SEP>USG"
+  },
+  "Blackwell Ultra<SEP>GB200": {
+    "chunk_ids": [
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Blackwell Ultra<SEP>GB200"
+  },
+  "Blackwell<SEP>Gaming Revenue": {
+    "chunk_ids": [
+      "chunk-8a7a0efb10af801b527e894945d5c70c",
+      "chunk-ccce723b2fff123e57368920f1e77f41"
+    ],
+    "count": 2,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Blackwell<SEP>Gaming Revenue"
+  },
+  "NVLink<SEP>Networking Revenue": {
+    "chunk_ids": [
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "NVLink<SEP>Networking Revenue"
+  },
+  "DGX Spark<SEP>Professional Visualization Revenue": {
+    "chunk_ids": [
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "DGX Spark<SEP>Professional Visualization Revenue"
+  },
+  "Fiscal Year 2026<SEP>Total Operating Expenses": {
+    "chunk_ids": [
+      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2026<SEP>Total Operating Expenses"
+  },
+  "Fiscal Year 2026<SEP>Third Quarter": {
+    "chunk_ids": [
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2026<SEP>Third Quarter"
+  },
+  "Fiscal Years 2026 and 2025<SEP>Outstanding Indebtedness": {
+    "chunk_ids": [
+      "chunk-26c02766fd830d80e0d8ac22ad8cbd20"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Years 2026 and 2025<SEP>Outstanding Indebtedness"
+  },
+  "Data Center Revenue<SEP>Revenue": {
+    "chunk_ids": [
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Data Center Revenue<SEP>Revenue"
+  },
+  "Operating Income<SEP>Professional Visualization Revenue": {
+    "chunk_ids": [
+      "chunk-8a7a0efb10af801b527e894945d5c70c"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Operating Income<SEP>Professional Visualization Revenue"
+  },
+  "Commercial Paper Program<SEP>Outstanding Indebtedness": {
+    "chunk_ids": [
+      "chunk-26c02766fd830d80e0d8ac22ad8cbd20"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Commercial Paper Program<SEP>Outstanding Indebtedness"
+  },
+  "NVIDIA Corporation<SEP>Santa Clara": {
+    "chunk_ids": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "NVIDIA Corporation<SEP>Santa Clara"
+  },
+  "Managements Discussion and Analysis of Financial Condition and Results of Operations<SEP>Outstanding Indebtedness": {
+    "chunk_ids": [
+      "chunk-26c02766fd830d80e0d8ac22ad8cbd20"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Managements Discussion and Analysis of Financial Condition and Results of Operations<SEP>Outstanding Indebtedness"
+  },
+  "Commercial Paper Program<SEP>Intel Corporation": {
+    "chunk_ids": [
+      "chunk-26c02766fd830d80e0d8ac22ad8cbd20"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Commercial Paper Program<SEP>Intel Corporation"
+  },
+  "California<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "California<SEP>NVIDIA Corporation"
+  },
+  "Outstanding Indebtedness<SEP>Total Long-Term Portion": {
+    "chunk_ids": [
+      "chunk-26c02766fd830d80e0d8ac22ad8cbd20"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Outstanding Indebtedness<SEP>Total Long-Term Portion"
+  },
+  "Anthropic<SEP>Commercial Paper Program": {
+    "chunk_ids": [
+      "chunk-26c02766fd830d80e0d8ac22ad8cbd20"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Anthropic<SEP>Commercial Paper Program"
+  },
+  "H20 Product<SEP>U.S. Government": {
+    "chunk_ids": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "H20 Product<SEP>U.S. Government"
+  },
+  "Delaware<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Delaware<SEP>NVIDIA Corporation"
+  },
+  "Outstanding Indebtedness<SEP>Unrecognized Tax Benefits": {
+    "chunk_ids": [
+      "chunk-26c02766fd830d80e0d8ac22ad8cbd20"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Outstanding Indebtedness<SEP>Unrecognized Tax Benefits"
+  },
+  "China<SEP>H20 Product": {
+    "chunk_ids": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "China<SEP>H20 Product"
+  },
+  "Blackwell Architectures<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Blackwell Architectures<SEP>NVIDIA Corporation"
+  },
+  "Cash and Cash Equivalents<SEP>Valuation Allowance": {
+    "chunk_ids": [
+      "chunk-6a3d52ac251cc9acae0cd396a6b775cb"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Cash and Cash Equivalents<SEP>Valuation Allowance"
+  },
+  "Board of Directors<SEP>Share Repurchase Program": {
+    "chunk_ids": [
+      "chunk-6a3d52ac251cc9acae0cd396a6b775cb"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Board of Directors<SEP>Share Repurchase Program"
+  },
+  "Form 10-Q<SEP>NVIDIA Corporation": {
+    "chunk_ids": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Form 10-Q<SEP>NVIDIA Corporation"
+  },
+  "Cash and Cash Equivalents<SEP>Marketable Securities": {
+    "chunk_ids": [
+      "chunk-6a3d52ac251cc9acae0cd396a6b775cb"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Cash and Cash Equivalents<SEP>Marketable Securities"
+  },
+  "Fiscal Year 2026<SEP>Quarterly Report on Form 10-Q": {
+    "chunk_ids": [
+      "chunk-6a3d52ac251cc9acae0cd396a6b775cb"
+    ],
+    "count": 1,
+    "create_time": 1777394101,
+    "update_time": 1777394101,
+    "_id": "Fiscal Year 2026<SEP>Quarterly Report on Form 10-Q"
+  },
+  "Share Repurchase Program<SEP>U.S. Inflation Reduction Act of 2022": {
+    "chunk_ids": [
+      "chunk-6a3d52ac251cc9acae0cd396a6b775cb"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Share Repurchase Program<SEP>U.S. Inflation Reduction Act of 2022"
+  },
+  "Cash Provided by Operating Activities<SEP>Cash Used in Investing Activities": {
+    "chunk_ids": [
+      "chunk-6a3d52ac251cc9acae0cd396a6b775cb"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Cash Provided by Operating Activities<SEP>Cash Used in Investing Activities"
+  },
+  "Financial Condition<SEP>Form 10-Q": {
+    "chunk_ids": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Financial Condition<SEP>Form 10-Q"
+  },
+  "Cash and Cash Equivalents<SEP>Investment Policy": {
+    "chunk_ids": [
+      "chunk-6a3d52ac251cc9acae0cd396a6b775cb"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Cash and Cash Equivalents<SEP>Investment Policy"
+  },
+  "Blackwell<SEP>Professional Visualization Revenue": {
+    "chunk_ids": [
+      "chunk-ccce723b2fff123e57368920f1e77f41"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Blackwell<SEP>Professional Visualization Revenue"
+  },
+  "Cash Used in Financing Activities<SEP>Share Repurchase Program": {
+    "chunk_ids": [
+      "chunk-6a3d52ac251cc9acae0cd396a6b775cb"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Cash Used in Financing Activities<SEP>Share Repurchase Program"
+  },
+  "Form 10-Q<SEP>Results of Operations": {
+    "chunk_ids": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Form 10-Q<SEP>Results of Operations"
+  },
+  "Automotive Revenue<SEP>Self-Driving Platforms": {
+    "chunk_ids": [
+      "chunk-ccce723b2fff123e57368920f1e77f41"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Automotive Revenue<SEP>Self-Driving Platforms"
+  },
+  "Compute & Networking<SEP>Fiscal Year 2026": {
+    "chunk_ids": [
+      "chunk-ccce723b2fff123e57368920f1e77f41"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Compute & Networking<SEP>Fiscal Year 2026"
+  },
+  "Blackwell<SEP>Hopper HGX Systems": {
+    "chunk_ids": [
+      "chunk-ccce723b2fff123e57368920f1e77f41"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Blackwell<SEP>Hopper HGX Systems"
+  },
+  "Interest Income<SEP>Net Income": {
+    "chunk_ids": [
+      "chunk-ccce723b2fff123e57368920f1e77f41"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Interest Income<SEP>Net Income"
+  },
+  "Form 10-Q<SEP>Risk Factors": {
+    "chunk_ids": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Form 10-Q<SEP>Risk Factors"
+  },
+  "Blackwell<SEP>Graphics": {
+    "chunk_ids": [
+      "chunk-ccce723b2fff123e57368920f1e77f41"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Blackwell<SEP>Graphics"
+  },
+  "Interest Expense<SEP>Net Income": {
+    "chunk_ids": [
+      "chunk-ccce723b2fff123e57368920f1e77f41"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Interest Expense<SEP>Net Income"
+  },
+  "Net Income<SEP>Total Other Income, Net": {
+    "chunk_ids": [
+      "chunk-ccce723b2fff123e57368920f1e77f41"
+    ],
+    "count": 1,
+    "create_time": 1777394102,
+    "update_time": 1777394102,
+    "_id": "Net Income<SEP>Total Other Income, Net"
+  },
+  "Fiscal 2025<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-9b09a1803ee2d2cee6197990dba07225"
+    ],
+    "count": 1,
+    "create_time": 1777394331,
+    "update_time": 1777394331,
+    "_id": "Fiscal 2025<SEP>QCOM"
+  },
+  "QCT (Qualcomm CDMA Technologies)<SEP>Revenues": {
+    "chunk_ids": [
+      "chunk-9b09a1803ee2d2cee6197990dba07225"
+    ],
+    "count": 1,
+    "create_time": 1777394331,
+    "update_time": 1777394331,
+    "_id": "QCT (Qualcomm CDMA Technologies)<SEP>Revenues"
+  },
+  "Net Income<SEP>One Big Beautiful Bill Act (OBBB)": {
+    "chunk_ids": [
+      "chunk-9b09a1803ee2d2cee6197990dba07225"
+    ],
+    "count": 1,
+    "create_time": 1777394331,
+    "update_time": 1777394331,
+    "_id": "Net Income<SEP>One Big Beautiful Bill Act (OBBB)"
+  },
+  "QTL (Qualcomm Technology Licensing)<SEP>Revenues": {
+    "chunk_ids": [
+      "chunk-9b09a1803ee2d2cee6197990dba07225"
+    ],
+    "count": 1,
+    "create_time": 1777394331,
+    "update_time": 1777394331,
+    "_id": "QTL (Qualcomm Technology Licensing)<SEP>Revenues"
+  },
+  "OBBB<SEP>U.S. Repatriation Tax": {
+    "chunk_ids": [
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
+    ],
+    "count": 1,
+    "create_time": 1777394331,
+    "update_time": 1777394331,
+    "_id": "OBBB<SEP>U.S. Repatriation Tax"
+  },
+  "Gross Margin<SEP>QTL (Qualcomm Technology Licensing)": {
+    "chunk_ids": [
+      "chunk-9b09a1803ee2d2cee6197990dba07225"
+    ],
+    "count": 1,
+    "create_time": 1777394331,
+    "update_time": 1777394331,
+    "_id": "Gross Margin<SEP>QTL (Qualcomm Technology Licensing)"
+  },
+  "Cash Dividends<SEP>Payments to Repurchase Shares": {
+    "chunk_ids": [
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
+    ],
+    "count": 1,
+    "create_time": 1777394331,
+    "update_time": 1777394331,
+    "_id": "Cash Dividends<SEP>Payments to Repurchase Shares"
+  },
+  "Capital Expenditures<SEP>Payments to Repurchase Shares": {
+    "chunk_ids": [
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
+    ],
+    "count": 1,
+    "create_time": 1777394331,
+    "update_time": 1777394331,
+    "_id": "Capital Expenditures<SEP>Payments to Repurchase Shares"
+  },
+  "Fiscal 2023<SEP>Fiscal 2024": {
+    "chunk_ids": [
+      "chunk-9b09a1803ee2d2cee6197990dba07225"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "Fiscal 2023<SEP>Fiscal 2024"
+  },
+  "Fiscal 2025<SEP>Unsecured Fixed-Rate Notes": {
+    "chunk_ids": [
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "Fiscal 2025<SEP>Unsecured Fixed-Rate Notes"
+  },
+  "OBBB<SEP>United States": {
+    "chunk_ids": [
+      "chunk-ae103a3eee27a7dfe46c5edc5f9bad0b"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "OBBB<SEP>United States"
+  },
+  "Fiscal 2025<SEP>Revolving Credit Facility": {
+    "chunk_ids": [
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "Fiscal 2025<SEP>Revolving Credit Facility"
+  },
+  "$2,759<SEP>$3,110": {
+    "chunk_ids": [
+      "chunk-ae103a3eee27a7dfe46c5edc5f9bad0b"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "$2,759<SEP>$3,110"
+  },
+  "$231 Million<SEP>$70 Million": {
+    "chunk_ids": [
+      "chunk-ae103a3eee27a7dfe46c5edc5f9bad0b"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "$231 Million<SEP>$70 Million"
+  },
+  "$664 Million<SEP>Interest Expense": {
+    "chunk_ids": [
+      "chunk-ae103a3eee27a7dfe46c5edc5f9bad0b"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "$664 Million<SEP>Interest Expense"
+  },
+  "Capital Return Program<SEP>Fiscal 2025": {
+    "chunk_ids": [
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "Capital Return Program<SEP>Fiscal 2025"
+  },
+  "OBBB<SEP>tax benefits": {
+    "chunk_ids": [
+      "chunk-ae103a3eee27a7dfe46c5edc5f9bad0b"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "OBBB<SEP>tax benefits"
+  },
+  "Goodwill<SEP>Long-Lived Assets": {
+    "chunk_ids": [
+      "chunk-d2d8e2c353215b61c18efc977d781831"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "Goodwill<SEP>Long-Lived Assets"
+  },
+  "Income Taxes<SEP>Legal and Regulatory Proceedings": {
+    "chunk_ids": [
+      "chunk-d2d8e2c353215b61c18efc977d781831"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "Income Taxes<SEP>Legal and Regulatory Proceedings"
+  },
+  "Fiscal 2025<SEP>Tax Withholdings": {
+    "chunk_ids": [
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "Fiscal 2025<SEP>Tax Withholdings"
+  },
+  "Goodwill<SEP>QCT Reporting Units": {
+    "chunk_ids": [
+      "chunk-d2d8e2c353215b61c18efc977d781831"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "Goodwill<SEP>QCT Reporting Units"
+  },
+  "CAMT<SEP>OBBB": {
+    "chunk_ids": [
+      "chunk-d2d8e2c353215b61c18efc977d781831"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "CAMT<SEP>OBBB"
+  },
+  "FDDEI<SEP>Income Taxes": {
+    "chunk_ids": [
+      "chunk-d2d8e2c353215b61c18efc977d781831"
+    ],
+    "count": 1,
+    "create_time": 1777394339,
+    "update_time": 1777394339,
+    "_id": "FDDEI<SEP>Income Taxes"
+  },
+  "Cash Paid for Acquisitions<SEP>Fiscal 2025": {
+    "chunk_ids": [
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Cash Paid for Acquisitions<SEP>Fiscal 2025"
+  },
+  "Alphawave<SEP>Annual Report": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Alphawave<SEP>Annual Report"
+  },
+  "Goodwill<SEP>QTL Reporting Units": {
+    "chunk_ids": [
+      "chunk-d2d8e2c353215b61c18efc977d781831"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Goodwill<SEP>QTL Reporting Units"
+  },
+  "Advanced Supply Agreement Payments<SEP>Fiscal 2025": {
+    "chunk_ids": [
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Advanced Supply Agreement Payments<SEP>Fiscal 2025"
+  },
+  "Annual Report<SEP>Integrated Circuit Products": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Annual Report<SEP>Integrated Circuit Products"
+  },
+  "Alphawave<SEP>September 28, 2025": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Alphawave<SEP>September 28, 2025"
+  },
+  "$9.0 Billion<SEP>Fiscal 2025": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "$9.0 Billion<SEP>Fiscal 2025"
+  },
+  "$8.9 Billion<SEP>Fiscal 2024": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "$8.9 Billion<SEP>Fiscal 2024"
+  },
+  "Annual Report<SEP>Regulatory Authorities": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Annual Report<SEP>Regulatory Authorities"
+  },
+  "$15.1 Billion<SEP>September 28, 2025": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "$15.1 Billion<SEP>September 28, 2025"
+  },
+  "$1.2 Billion<SEP>Fiscal 2025": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "$1.2 Billion<SEP>Fiscal 2025"
+  },
+  "$1.0 Billion<SEP>Fiscal 2024": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "$1.0 Billion<SEP>Fiscal 2024"
+  },
+  "Annual Report<SEP>Intellectual Property Portfolio": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Annual Report<SEP>Intellectual Property Portfolio"
+  },
+  "$1.1 Billion<SEP>September 28, 2025": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "$1.1 Billion<SEP>September 28, 2025"
+  },
+  "$10.5 Billion<SEP>$15.1 Billion": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "$10.5 Billion<SEP>$15.1 Billion"
+  },
+  "QCT Segment<SEP>Snapdragon Platforms": {
+    "chunk_ids": [
+      "chunk-2a5c85a7e78de75f7347de7225f562d0"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "QCT Segment<SEP>Snapdragon Platforms"
+  },
+  "QTL Segment<SEP>Transsion": {
+    "chunk_ids": [
+      "chunk-2a5c85a7e78de75f7347de7225f562d0"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "QTL Segment<SEP>Transsion"
+  },
+  "QSI Segment<SEP>marketable securities": {
+    "chunk_ids": [
+      "chunk-2a5c85a7e78de75f7347de7225f562d0"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "QSI Segment<SEP>marketable securities"
+  },
+  "$1.1 Billion<SEP>$142 Million": {
+    "chunk_ids": [
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "$1.1 Billion<SEP>$142 Million"
+  },
+  "FDII Deduction<SEP>OBBB": {
+    "chunk_ids": [
+      "chunk-2a5c85a7e78de75f7347de7225f562d0"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "FDII Deduction<SEP>OBBB"
+  },
+  "Fiscal 2025<SEP>QCT Segment": {
+    "chunk_ids": [
+      "chunk-2a5c85a7e78de75f7347de7225f562d0"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Fiscal 2025<SEP>QCT Segment"
+  },
+  "Apple<SEP>QCT Revenues": {
+    "chunk_ids": [
+      "chunk-ee1962e37a7286d86f05253ab614f42d"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Apple<SEP>QCT Revenues"
+  },
+  "Semiconductor Industry<SEP>U.S./China Trade Relations": {
+    "chunk_ids": [
+      "chunk-ee1962e37a7286d86f05253ab614f42d"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Semiconductor Industry<SEP>U.S./China Trade Relations"
+  },
+  "EBT<SEP>QCT Segment": {
+    "chunk_ids": [
+      "chunk-2a5c85a7e78de75f7347de7225f562d0"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "EBT<SEP>QCT Segment"
+  },
+  "Fiscal 2025<SEP>QTL Segment": {
+    "chunk_ids": [
+      "chunk-2a5c85a7e78de75f7347de7225f562d0"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Fiscal 2025<SEP>QTL Segment"
+  },
+  "Alphawave IP Group plc<SEP>Cash and Cash Equivalents": {
+    "chunk_ids": [
+      "chunk-ee1962e37a7286d86f05253ab614f42d"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Alphawave IP Group plc<SEP>Cash and Cash Equivalents"
+  },
+  "Apple<SEP>Samsung": {
+    "chunk_ids": [
+      "chunk-ee1962e37a7286d86f05253ab614f42d"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Apple<SEP>Samsung"
+  },
+  "Annual Report<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-ee1962e37a7286d86f05253ab614f42d"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Annual Report<SEP>Semiconductor Industry"
+  },
+  "Financial Condition<SEP>Liquidity and Capital Resources": {
+    "chunk_ids": [
+      "chunk-ee1962e37a7286d86f05253ab614f42d"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Financial Condition<SEP>Liquidity and Capital Resources"
+  },
+  "EBT<SEP>QTL Segment": {
+    "chunk_ids": [
+      "chunk-2a5c85a7e78de75f7347de7225f562d0"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "EBT<SEP>QTL Segment"
+  },
+  "Annual Report<SEP>Risk Factors": {
+    "chunk_ids": [
+      "chunk-ee1962e37a7286d86f05253ab614f42d"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Annual Report<SEP>Risk Factors"
+  },
+  "Debt Programs<SEP>Liquidity and Capital Resources": {
+    "chunk_ids": [
+      "chunk-ee1962e37a7286d86f05253ab614f42d"
+    ],
+    "count": 1,
+    "create_time": 1777394340,
+    "update_time": 1777394340,
+    "_id": "Debt Programs<SEP>Liquidity and Capital Resources"
   }
 }

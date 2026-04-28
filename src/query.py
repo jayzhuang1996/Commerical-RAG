@@ -53,34 +53,95 @@ def read_root():
 @app.post("/api/chat", response_model=QueryResponse)
 async def query_rag(request: QueryRequest):
     from retrieval.visual_utils import extract_visual_graph
+    import json, re, os
     try:
-        # 1. Get the intelligence briefing (await the async agent)
+        # 1. Intelligence briefing
         get_ans = get_generate_answer()
         answer_text = await get_ans(request.query, request.filters)
-        
-        # 2. Get the visual graph data
+
+        # 2. Visual graph (cross-company relationships)
         from retrieval.indexing_pipeline import rag
         graph_viz = extract_visual_graph(rag, answer_text)
-        
-        # 3. Create Sources from the identified graph elements
+
+        # 3. Real source chunks ─────────────────────────────────────────────
+        # Load the text chunk store once per request (it's an in-process JSON file)
+        chunk_store_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            "..", "data", "index", "kv_store_text_chunks.json"
+        )
+        chunk_store = {}
+        try:
+            with open(chunk_store_path, "r") as f:
+                chunk_store = json.load(f)
+        except Exception:
+            pass
+
+        def _parse_source_info(content: str):
+            """Extract Ticker, Period, DocType from the SOURCE INFO header."""
+            ticker  = re.search(r"Ticker:\s*(\w+)",   content)
+            period  = re.search(r"Period:\s*([\w_]+)", content)
+            dtype   = re.search(r"Doc Type:\s*([\w_]+)", content)
+            date    = re.search(r"Date:\s*([\d-]+)",   content)
+            return {
+                "ticker":  ticker.group(1)  if ticker  else "Unknown",
+                "period":  period.group(1).replace("_", " ") if period  else "",
+                "doctype": dtype.group(1).replace("_", " ")  if dtype   else "Filing",
+                "date":    date.group(1)    if date    else "",
+            }
+
+        def _clean_content(content: str) -> str:
+            """Strip the SOURCE INFO header, return the raw paragraph text."""
+            # Remove the metadata header block
+            content = re.sub(r"--- SOURCE INFO ---.*?--- END INFO ---\s*", "", content, flags=re.DOTALL)
+            return content.strip()
+
+        # Find chunks relevant to the answer by matching company/entity names
+        # Pull up to 5 most relevant chunks
+        answer_lower = answer_text.lower()
+        scored: list = []
+        for cid, cdata in chunk_store.items():
+            if not isinstance(cdata, dict):
+                continue
+            raw = cdata.get("content", "")
+            if not raw:
+                continue
+            info = _parse_source_info(raw)
+            text = _clean_content(raw)
+            if not text:
+                continue
+            # Score by how many answer words appear in the chunk
+            score = sum(1 for word in answer_lower.split() if len(word) > 5 and word in text.lower())
+            # Boost chunks whose period matches the active filter
+            quarters = request.filters.get("quarters", [])
+            if quarters and info["period"].replace("_", " ") in " ".join(quarters):
+                score += 10
+            scored.append((score, cid, info, text))
+
+        scored.sort(key=lambda x: x[0], reverse=True)
+        top_chunks = scored[:5]
+
         derived_sources = []
-        for i, link in enumerate(graph_viz.get("links", [])[:5]):
-            origin_name = link.get('origin', 'SEC Integrated Filing')
+        for i, (score, cid, info, text) in enumerate(top_chunks):
+            label = f"{info['ticker']} {info['doctype']} {info['period']}" if info['ticker'] != 'Unknown' else f"SEC Filing [{i+1}]"
+            # Trim to a readable window (~600 chars)
+            snippet = text[:600] + ("…" if len(text) > 600 else "")
             derived_sources.append({
-                "title": f"{origin_name} [{i+1}]",
-                "text": f"KNOWLEDGE GRAPH TRACE LOG\n\nRelationship verified between '{link['source']}' and '{link['target']}'.\n\nExtracted Context:\n{link['label']}\n\nDocument Origin: {origin_name}",
-                "index": i + 1
+                "title": f"[{i+1}] {label}",
+                "text":  snippet,
+                "index": i + 1,
+                "video_id": cid,
             })
-        
-        # If no links are found to trace, fallback to nodes
+
+        # Fallback if nothing scored
         if not derived_sources:
-            for i, n in enumerate(graph_viz.get("nodes", [])[:4]):
+            for i, link in enumerate(graph_viz.get("links", [])[:5]):
                 derived_sources.append({
-                    "title": f"Intel Trace: {n['id']}",
-                    "text": f"Strategic Knowledge Graph extracted node for {n['id']}, related to Query: '{request.query}'.\n\nCross-referenced from primary SEC filings.",
-                    "index": i + 1
+                    "title": f"[{i+1}] {link.get('source','')} ↔ {link.get('target','')}",
+                    "text":  link.get("label", "No detail available."),
+                    "index": i + 1,
+                    "video_id": "",
                 })
-        
+
         return QueryResponse(
             answer=answer_text,
             graph_data=graph_viz["links"],
@@ -90,7 +151,6 @@ async def query_rag(request: QueryRequest):
         import traceback
         print("❌ CRITICAL ERROR IN CHAT ENDPOINT:")
         traceback.print_exc()
-        # Return the exact error so the frontend can intercept RATE LIMITs
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/api/communities")

@@ -2393,7 +2393,7 @@
     }
   },
   "doc-67699b5bc38d58d90fea380b231cf812": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 19,
     "chunks_list": [
       "chunk-64395f7efa9909f4a6f1d9dceb7b400f",
@@ -2419,11 +2419,172 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: NVDA\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-02-25\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A. Risk Factors\n\nThe following risk factors should be considered in addition to the other information in this Annual Report...",
     "content_length": 114876,
     "created_at": "2026-04-28T16:15:50.854382+00:00",
-    "updated_at": "2026-04-28T16:15:50.906986+00:00",
+    "updated_at": "2026-04-28T16:24:20.383236+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_121550_3362bc2f",
     "metadata": {
-      "processing_start_time": 1777392950
+      "processing_start_time": 1777392950,
+      "processing_end_time": 1777393460
+    }
+  },
+  "doc-75c4066556b39c71a4698af295b7b2b4": {
+    "status": "processed",
+    "chunks_count": 10,
+    "chunks_list": [
+      "chunk-4e532e31d6cab4e835b347d22fb903ce",
+      "chunk-cd7600ab8b4a5205a67aa1cddfd9f4d7",
+      "chunk-d497e9ab395d5962a18cb2bb51f206ee",
+      "chunk-049b76888ee596abbac6cb4feb996482",
+      "chunk-3dbbf032a2278523bc981ca20823661e",
+      "chunk-2fac1738508415243234f056f0757da5",
+      "chunk-da711b37b8ccf5f220a63221dc07ce03",
+      "chunk-999e49912c8620e1b5c01f22ea8775a1",
+      "chunk-dcc5044b844b3fd22b5df9dcf58e75b4",
+      "chunk-ba4954aec13a644ec55d9b0e67835a00"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: NVDA\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-02-25\nDoc Type: earnings_press_release\n--- END INFO ---\n\nNVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026           \n• Record quarterly revenue of $68.1 b...",
+    "content_length": 89624,
+    "created_at": "2026-04-28T16:24:21.164677+00:00",
+    "updated_at": "2026-04-28T16:29:25.600883+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_122421_fa88d2e3",
+    "metadata": {
+      "processing_start_time": 1777393461,
+      "processing_end_time": 1777393765
+    }
+  },
+  "doc-cfd3eead054c237a6d6473be70621acd": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-cfd3eead054c237a6d6473be70621acd"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: NVDA\nLayer: LAYER_A\nPeriod: Q4_2024\nDate: 2024-11-20\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\nWe repurchased 92 m...",
+    "content_length": 2906,
+    "created_at": "2026-04-28T16:29:26.410865+00:00",
+    "updated_at": "2026-04-28T16:29:46.904542+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_122926_d426d450",
+    "metadata": {
+      "processing_start_time": 1777393766,
+      "processing_end_time": 1777393786
+    }
+  },
+  "doc-b8294be7a878d2c201b53fee897a4a9e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b8294be7a878d2c201b53fee897a4a9e"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: NVDA\nLayer: LAYER_A\nPeriod: Q2_2025\nDate: 2025-05-28\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\nWe repurchased 126 ...",
+    "content_length": 3619,
+    "created_at": "2026-04-28T16:29:47.640948+00:00",
+    "updated_at": "2026-04-28T16:30:11.217568+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_122947_dff50e75",
+    "metadata": {
+      "processing_start_time": 1777393787,
+      "processing_end_time": 1777393811
+    }
+  },
+  "doc-7db00cad61ef04227193022a9b1523c3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7db00cad61ef04227193022a9b1523c3"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: NVDA\nLayer: LAYER_A\nPeriod: Q3_2025\nDate: 2025-08-27\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\n37\n\nWe repurchased ...",
+    "content_length": 3666,
+    "created_at": "2026-04-28T16:30:12.026103+00:00",
+    "updated_at": "2026-04-28T16:30:51.784125+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_123012_989a4f07",
+    "metadata": {
+      "processing_start_time": 1777393812,
+      "processing_end_time": 1777393851
+    }
+  },
+  "doc-60bc9d9582eb7db06fc5c5569fe25194": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-28e8aff01724b9e2452e4db7e114d222",
+      "chunk-8a7a0efb10af801b527e894945d5c70c",
+      "chunk-ccce723b2fff123e57368920f1e77f41",
+      "chunk-53699e595f949b5dbc36eba95b8540ba",
+      "chunk-120ad10078f172fd82d9f8fee9c4989e",
+      "chunk-6a3d52ac251cc9acae0cd396a6b775cb",
+      "chunk-26c02766fd830d80e0d8ac22ad8cbd20"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: NVDA\nLayer: LAYER_A\nPeriod: Q4_2025\nDate: 2025-11-19\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Management's Discussion and Analysis of Financial Condition and Results of Operations\n\nForward-Looking Statements \n\nThi...",
+    "content_length": 33025,
+    "created_at": "2026-04-28T16:30:52.586521+00:00",
+    "updated_at": "2026-04-28T16:35:02.365304+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_123052_2df2e211",
+    "metadata": {
+      "processing_start_time": 1777393852,
+      "processing_end_time": 1777394102
+    }
+  },
+  "doc-4494c55803edc8c9a98bf6dcf411d031": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-9b09a1803ee2d2cee6197990dba07225",
+      "chunk-ae103a3eee27a7dfe46c5edc5f9bad0b",
+      "chunk-2a5c85a7e78de75f7347de7225f562d0",
+      "chunk-ee1962e37a7286d86f05253ab614f42d",
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4",
+      "chunk-5eee0cc2f5399caeac340fb2f22859f9",
+      "chunk-d2d8e2c353215b61c18efc977d781831"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: QCOM\nLayer: LAYER_A\nPeriod: Q4_2025\nDate: 2025-11-05\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion and a...",
+    "content_length": 36484,
+    "created_at": "2026-04-28T16:35:03.188168+00:00",
+    "updated_at": "2026-04-28T16:39:00.586478+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_123503_d3d3adea",
+    "metadata": {
+      "processing_start_time": 1777394103,
+      "processing_end_time": 1777394340
+    }
+  },
+  "doc-8ec1271cdbf221ec93e01ab718f35cd5": {
+    "status": "processing",
+    "chunks_count": 22,
+    "chunks_list": [
+      "chunk-93c837d9497bcf348ac686ca7e3bb612",
+      "chunk-4f4c9cef59bbe33ec0679329ddf60e59",
+      "chunk-894e59ceb4d895582bde5a0be6aa369f",
+      "chunk-55b50c6f93fbf55a8c458d1f642a1593",
+      "chunk-4f4afa3d6990de6588b412054e3e14ba",
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf",
+      "chunk-9295a1db86494346eb28cafea73517cf",
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd",
+      "chunk-3194117d1563dbb617f653b3e356d875",
+      "chunk-a2562ca09853e3aec0cde0bc2cfd5f85",
+      "chunk-c9e38ad37beb7f441e24230ad9ce91d5",
+      "chunk-a9fcd8e5b4390e8261000c8909836896",
+      "chunk-632f7d2a01e8195d63e9d7124a9a0c3b",
+      "chunk-19874e494604a8a0e11d78069ed6d5b9",
+      "chunk-a0180d290a07e625f90aca81cf70c37e",
+      "chunk-0f0bd29d475052365adb063bc3a1f712",
+      "chunk-ac8a59c6dd2808fcedc6f644677b6cb7",
+      "chunk-f04a2fc7e5f763861ace9bff2279a87a",
+      "chunk-641d729437a0db3f7058ab86056dc584",
+      "chunk-ba40b6b7fd09e59a54d8910c67f23856",
+      "chunk-cb09c5933b84b05d65f8f2f9258aff49",
+      "chunk-7656d1e5a7a7739e056ce57c5845e86a"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: QCOM\nLayer: LAYER_A\nPeriod: Q4_2025\nDate: 2025-11-05\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A. Risk Factors\n\nYou should consider each of the following factors in evaluating our business and our prospects, any of whi...",
+    "content_length": 132798,
+    "created_at": "2026-04-28T16:39:01.425017+00:00",
+    "updated_at": "2026-04-28T16:39:01.480851+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_123901_d8e783b0",
+    "metadata": {
+      "processing_start_time": 1777394341
     }
   }
 }
