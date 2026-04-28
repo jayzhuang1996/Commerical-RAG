@@ -222,7 +222,7 @@ export default function ForceGraph({ triples }: Props) {
         graphData={graphData}
         nodeId="id"
         nodeCanvasObject={nodeCanvasObject}
-        nodeCanvasObjectMode={() => 'replace'}
+        nodeCanvasObjectMode={(_node: any) => 'replace'}
         nodeVal={(node: any) => nodeRadius(node) ** 2}
         linkColor={(link: any) => link.color || '#96BED2'}
         linkWidth={selectedLink ? (l => l === selectedLink ? 6 : 2) : 4}
