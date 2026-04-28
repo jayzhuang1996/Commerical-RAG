@@ -140,10 +140,10 @@ EDGE_COLORS = {
 }
 
 # ── Main extraction ────────────────────────────────────────────────────────────
-def extract_visual_graph(rag_index, query_results: str, filters: dict = None) -> Dict[str, Any]:
+def extract_visual_graph(rag_index, original_query: str, filters: dict = None) -> Dict[str, Any]:
     """
     Returns ONLY cross-company edges, classified by type, deduplicated,
-    and filtered by quarter if active.
+    and filtered by quarter/year mentioned in original_query.
     """
     full_graph = getattr(rag_index.chunk_entity_relation_graph, '_graph', None)
     if not full_graph:
@@ -161,9 +161,9 @@ def extract_visual_graph(rag_index, query_results: str, filters: dict = None) ->
             quarter_periods.add(qmap.get(q, q.replace(" ", "_")))
     
     # Auto-detect year in query if no filters are active
-    if not quarter_periods and query_results:
+    if not quarter_periods and original_query:
         for year in ["2023", "2025", "2026"]:
-            if year in query_results:
+            if year in original_query:
                 # Add all quarters for that year
                 for q_key, q_val in qmap.items():
                     if year in q_key:
@@ -203,12 +203,10 @@ def extract_visual_graph(rag_index, query_results: str, filters: dict = None) ->
             raw_chunk_ids = data.get("source_id", "")
             chunk_ids = [c.strip().strip('"').strip("'") for c in raw_chunk_ids.split(",") if c.strip()]
             periods = {chunk_period_map.get(cid) for cid in chunk_ids if cid in chunk_period_map}
-            # If we detect 2023 in the query, we want an empty graph. 
-            # periods will contain 2025/2026 data, quarter_periods will contain 2023. Intersection will be empty.
             if not periods.intersection(quarter_periods):
                 continue
-        elif query_results and "2023" in query_results.lower():
-            # Hard-clear for 2023 if no other periods selected
+        elif original_query and "2023" in original_query:
+            # Explicitly block all edges for 2023 as we have no data
             continue
 
         seen_pairs.add(pair)
@@ -220,8 +218,8 @@ def extract_visual_graph(rag_index, query_results: str, filters: dict = None) ->
         })
 
     # Sort by query relevance
-    if query_results:
-        q_lower = query_results.lower()
+    if original_query:
+        q_lower = original_query.lower()
         def relevance(e):
             score = 0
             if e["source"].lower() in q_lower: score += 2

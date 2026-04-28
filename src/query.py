@@ -61,7 +61,7 @@ async def query_rag(request: QueryRequest):
 
         # 2. Visual graph (cross-company relationships)
         from retrieval.indexing_pipeline import rag
-        graph_viz = extract_visual_graph(rag, answer_text, filters=dict(request.filters))
+        graph_viz = extract_visual_graph(rag, request.query, filters=dict(request.filters))
 
         # 3. Real source chunks ─────────────────────────────────────────────
         chunk_store_path = os.path.join(
@@ -137,11 +137,9 @@ async def query_rag(request: QueryRequest):
         scored = [s for s in scored if s[0] >= 10]
 
         # Pick top 5, max 2 chunks per ticker
-        seen_tickers: dict = {}
-        top_chunks = []
-        for entry in scored:
-            t = entry[2]["ticker"] or "?"
-            seen_tickers[t] = seen_tickers.get(t, 0)
+        # FILTER: Only keep chunks with a baseline relevancy score
+        scored = [s for s in scored if s[0] >= 10]
+
         # Pick top 5, max 2 chunks per ticker
         seen_tickers: dict = {}
         top_chunks = []
