@@ -40,9 +40,10 @@ export default function ForceGraph({ triples }: Props) {
   const [hoveredLink, setHoveredLink] = useState<any>(null);
   const [mousePos, setMousePos]       = useState({ x: 0, y: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
+  const fgRef        = useRef<any>(null);
   const [dims, setDims] = useState({ w: 600, h: 400 });
 
-  // Resize observer
+  // ResizeObserver — drives canvas size
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
@@ -53,16 +54,34 @@ export default function ForceGraph({ triples }: Props) {
     return () => ro.disconnect();
   }, []);
 
-  // Track mouse for tooltip positioning
+  // Mouse position for tooltip
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
-    const handler = (e: MouseEvent) => {
-      const rect = el.getBoundingClientRect();
-      setMousePos({ x: e.clientX - rect.left, y: e.clientY - rect.top });
+    const h = (e: MouseEvent) => {
+      const r = el.getBoundingClientRect();
+      setMousePos({ x: e.clientX - r.left, y: e.clientY - r.top });
     };
-    el.addEventListener('mousemove', handler);
-    return () => el.removeEventListener('mousemove', handler);
+    el.addEventListener('mousemove', h);
+    return () => el.removeEventListener('mousemove', h);
+  }, []);
+
+  // After graph loads — tighten d3 forces for dense clustering
+  const handleEngineStop = useCallback(() => {
+    if (!fgRef.current) return;
+    const fg = fgRef.current;
+    // Zoom to fit all nodes with padding
+    fg.zoomToFit(400, 40);
+  }, []);
+
+  const handleRef = useCallback((ref: any) => {
+    if (!ref) return;
+    fgRef.current = ref;
+    // Short link distance creates the tight cluster look
+    const linkForce = ref.d3Force('link');
+    if (linkForce) linkForce.distance(50);
+    const chargeForce = ref.d3Force('charge');
+    if (chargeForce) chargeForce.strength(-180);
   }, []);
 
   const graphData = useMemo(() => {
@@ -81,7 +100,7 @@ export default function ForceGraph({ triples }: Props) {
     const links = triples
       .filter(t => t.source && t.target && t.source !== t.target
                 && validNodes.has(t.source) && validNodes.has(t.target))
-      .slice(0, 50)
+      .slice(0, 60)
       .map(t => ({
         source: t.source,
         target: t.target,
@@ -98,8 +117,8 @@ export default function ForceGraph({ triples }: Props) {
     return { nodes, links };
   }, [triples]);
 
-  // LARGE nodes — base 36px, scales with degree, max 72px
-  const nodeRadius = (node: any) => Math.min(36 + node.degree * 5, 72);
+  // Radius — hub nodes larger, leaves small — matches screenshot
+  const nodeRadius = (node: any) => Math.min(10 + node.degree * 3, 44);
 
   const nodeCanvasObject = useCallback((node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
     const isHov = node.id === hoveredNode;
@@ -111,47 +130,31 @@ export default function ForceGraph({ triples }: Props) {
     ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
     ctx.fillStyle   = isHov ? '#192E44' : '#FFFFFF';
     ctx.strokeStyle = isHov ? '#00D7D2' : '#192E44';
-    ctx.lineWidth   = (isHov ? 3 : 2) / globalScale;
+    ctx.lineWidth   = (isHov ? 2.5 : 1.8) / globalScale;
     ctx.fill();
     ctx.stroke();
 
-    // ── Text — try to fit in 1-2 lines inside the circle ─────────────────────
-    const fontSize   = Math.max(11, Math.min(r * 0.36, 15));
-    const lineHeight = fontSize * 1.25;
-    ctx.font         = `${isHov ? 700 : 600} ${fontSize}px 'Segoe UI','DIN',sans-serif`;
+    // ── Label inside, fits to circle ─────────────────────────────────────────
+    const fontSize = Math.max(9, Math.min(r * 0.42, 13));
+    ctx.font         = `${isHov ? 700 : 600} ${fontSize}px 'Segoe UI',sans-serif`;
     ctx.textAlign    = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillStyle    = isHov ? '#00D7D2' : '#192E44';
 
-    const maxW = r * 1.65;           // available width per line
-    const words = label.split(' ');
-
-    if (words.length === 1 || ctx.measureText(label).width <= maxW) {
-      // Single line — truncate if still too wide
-      let txt = label;
-      while (ctx.measureText(txt).width > maxW && txt.length > 2) txt = txt.slice(0, -1);
-      if (txt !== label) txt += '…';
-      ctx.fillText(txt, node.x, node.y);
-    } else {
-      // Try to split into 2 lines at the best word boundary
-      let best1 = words[0], best2 = words.slice(1).join(' ');
-      for (let i = 1; i < words.length - 1; i++) {
-        const l1 = words.slice(0, i + 1).join(' ');
-        const l2 = words.slice(i + 1).join(' ');
-        if (ctx.measureText(l1).width <= maxW && ctx.measureText(l2).width <= maxW) {
-          best1 = l1; best2 = l2;
-        }
+    const maxW = r * 1.6;
+    // Try full label first
+    let txt = label;
+    if (ctx.measureText(txt).width > maxW) {
+      // Try first word only
+      const firstWord = label.split(' ')[0];
+      txt = firstWord;
+      // Still truncate if needed
+      while (ctx.measureText(txt + '.').width > maxW && txt.length > 2) {
+        txt = txt.slice(0, -1);
       }
-      // Truncate each line if still overflows
-      let t1 = best1, t2 = best2;
-      while (ctx.measureText(t1).width > maxW && t1.length > 2) t1 = t1.slice(0, -1);
-      while (ctx.measureText(t2).width > maxW && t2.length > 2) t2 = t2.slice(0, -1);
-      if (t1 !== best1) t1 += '…';
-      if (t2 !== best2) t2 += '…';
-
-      ctx.fillText(t1, node.x, node.y - lineHeight / 2);
-      ctx.fillText(t2, node.x, node.y + lineHeight / 2);
+      if (txt !== firstWord) txt += '.';
     }
+    ctx.fillText(txt, node.x, node.y);
   }, [hoveredNode]);
 
   if (!triples || triples.length === 0) {
@@ -162,8 +165,8 @@ export default function ForceGraph({ triples }: Props) {
     );
   }
 
-  // Tooltip flip: if near right edge, show to the left
-  const ttLeft = mousePos.x + 14;
+  // Tooltip: flip left if near right edge
+  const ttLeft = mousePos.x > dims.w - 320 ? mousePos.x - 300 : mousePos.x + 14;
   const ttTop  = Math.max(10, mousePos.y - 20);
 
   return (
@@ -208,56 +211,57 @@ export default function ForceGraph({ triples }: Props) {
         Drag · Scroll to zoom · Hover edge for insight
       </div>
 
-      {/* Custom edge tooltip overlay */}
+      {/* Edge insight tooltip */}
       {hoveredLink && (
         <div style={{
           position: 'absolute',
-          left: Math.min(ttLeft, dims.w - 300),
-          top: ttTop,
+          left:  ttLeft,
+          top:   ttTop,
           zIndex: 20,
           maxWidth: '290px',
           padding: '10px 14px',
           background: '#fff',
-          border: '1px solid #dde3ea',
+          border: '1px solid #D1D9E0',
           borderRadius: '10px',
-          boxShadow: '0 4px 18px rgba(25,46,68,0.14)',
+          boxShadow: '0 4px 20px rgba(25,46,68,0.15)',
           pointerEvents: 'none',
           fontSize: '12px',
           lineHeight: '1.7',
         }}>
-          <strong style={{ color: '#192E44', display: 'block', marginBottom: '5px', fontSize: '12.5px' }}>
+          <div style={{ color: '#192E44', fontWeight: 700, marginBottom: '5px', fontSize: '12.5px' }}>
             {(typeof hoveredLink.source === 'object' ? hoveredLink.source.id : hoveredLink.source)}
             {' → '}
             {(typeof hoveredLink.target === 'object' ? hoveredLink.target.id : hoveredLink.target)}
-          </strong>
-          <span style={{ color: '#3C4A5A' }}>
-            {((hoveredLink.label as string) || 'Relationship detected').slice(0, 220)}
-          </span>
+          </div>
+          <div style={{ color: '#3C4A5A' }}>
+            {((hoveredLink.label as string) || 'Relationship detected from filings').slice(0, 240)}
+          </div>
         </div>
       )}
 
       <ForceGraph2D
+        ref={handleRef}
         graphData={graphData}
         nodeId="id"
         nodeCanvasObject={nodeCanvasObject}
         nodeCanvasObjectMode={() => 'replace'}
         nodeVal={(node: any) => nodeRadius(node) ** 2}
         linkColor={(link: any) => link.color || '#96BED2'}
-        linkWidth={(link: any) => ['supply', 'partnership'].includes(link.type) ? 2.5 : 1.5}
-        linkDirectionalArrowLength={8}
+        linkWidth={3}
+        linkDirectionalArrowLength={6}
         linkDirectionalArrowRelPos={1}
         linkDirectionalArrowColor={(link: any) => link.color || '#96BED2'}
-        linkLabel=""
-        linkHoverPrecision={4}
-        onLinkHover={(link: any) => setHoveredLink(link || null)}
-        onNodeHover={(node: any) => setHoveredNode(node ? node.id : null)}
+        linkHoverPrecision={12}
+        onLinkHover={(link: any) => setHoveredLink(link ?? null)}
+        onNodeHover={(node: any) => setHoveredNode(node ? (node.id as string) : null)}
         onNodeClick={(node: any) => setHoveredNode(node?.id === hoveredNode ? null : node?.id)}
+        onEngineStop={handleEngineStop}
         backgroundColor="#F8F9FA"
         width={dims.w}
         height={dims.h}
-        cooldownTicks={180}
-        d3AlphaDecay={0.012}
-        d3VelocityDecay={0.3}
+        cooldownTicks={200}
+        d3AlphaDecay={0.01}
+        d3VelocityDecay={0.25}
       />
     </div>
   );
