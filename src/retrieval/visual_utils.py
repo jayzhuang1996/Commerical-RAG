@@ -103,8 +103,11 @@ def extract_visual_graph(rag_index, query_results: str) -> Dict[str, Any]:
         visual_data["nodes"].append({"id": node, "group": group})
         
     for source, target, data in subgraph.edges(data=True):
-        chunk_id = data.get("source_id", "unknown")
-        origin = source_map.get(chunk_id, "SEC Integrated Filing")
+        raw_chunk_ids = data.get("source_id", "unknown")
+        # Ensure we just grab the first chunk_id if LightRAG concatenated multiple docs
+        first_chunk_id = raw_chunk_ids.split(",")[0].replace('"', '').replace("'", "").strip()
+        
+        origin = source_map.get(first_chunk_id, "SEC Integrated Filing")
         
         visual_data["links"].append({
             "source": source,

@@ -14,6 +14,18 @@ interface Message {
   graph_data?: { source: string; label: string; target: string }[];
 }
 
+const getAnswer = async (question: string, activeQuarters: string[], activeLayers: string[]) => {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || ''}/api/chat`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ 
+      query: question,
+      filters: { quarters: activeQuarters, layers: activeLayers }
+    }),
+  });
+  return res.json();
+};
+
 const SUGGESTED = [
   "What is the 2027 roadmap for NVIDIA's Rubin and Blackwell platforms?",
   "Map the supply chain links and potential bottlenecks between ASML and TSMC.",
@@ -103,9 +115,11 @@ export default function ChatInterface() {
           <Filter size={14} /> Global Filters
         </div>
 
-        <div>
-          <p style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '12px' }}>REPORTING PERIOD</p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <details>
+          <summary style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, cursor: 'pointer', outline: 'none', userSelect: 'none' }}>
+            REPORTING PERIOD (CLICK TO EXPAND)
+          </summary>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px', paddingLeft: '8px', borderLeft: '2px solid var(--border)' }}>
             {['Q1 2025', 'Q2 2025', 'Q3 2025', 'Q4 2025', 'Q1 2026', 'Q2 2026'].map(q => (
               <button 
                 key={q} 
@@ -117,11 +131,13 @@ export default function ChatInterface() {
               </button>
             ))}
           </div>
-        </div>
+        </details>
 
-        <div>
-          <p style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '12px' }}>STRUCTURAL LAYER</p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <details>
+          <summary style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, cursor: 'pointer', outline: 'none', userSelect: 'none' }}>
+            STRUCTURAL LAYER (CLICK TO EXPAND)
+          </summary>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px', paddingLeft: '8px', borderLeft: '2px solid var(--border)' }}>
             {['Designers', 'Foundry', 'Equipment', 'Networking'].map(l => (
               <button 
                 key={l} 
@@ -133,7 +149,7 @@ export default function ChatInterface() {
               </button>
             ))}
           </div>
-        </div>
+        </details>
       </div>
 
       {/* Center Pane: Chat & Text (Splits if active graph) */}
@@ -149,18 +165,28 @@ export default function ChatInterface() {
         {/* Messages */}
         <div style={{ flex: 1, overflowY: 'auto', padding: '32px' }}>
           {messages.length === 0 && (
-            <div style={{ height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '24px', paddingBottom: '60px' }}>
-              <div style={{ textAlign: 'center' }}>
-                <Sparkles size={48} color="var(--accent-main)" style={{ marginBottom: '16px', opacity: 0.8 }} />
-                <h2 style={{ fontSize: '24px', fontWeight: 700, color: 'var(--text-primary)', fontFamily: 'var(--font-display)' }}>Intelligence Chat</h2>
-                <p style={{ color: 'var(--text-muted)', fontSize: '14px', maxWidth: '400px', margin: '8px auto' }}>Analyze thematic clusters and relationship graphs in real-time.</p>
+              <div style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto', padding: '40px' }}>
+                <Sparkles size={48} color="var(--accent-main)" style={{ marginBottom: '24px', opacity: 0.8 }} />
+                <h2 style={{ fontSize: '32px', fontWeight: 700, color: 'var(--text-primary)', fontFamily: 'var(--font-display)', marginBottom: '16px' }}>Client Insight Engine: Element Fleet Demo</h2>
+                <div style={{ background: 'var(--bg-panel)', padding: '32px', borderRadius: '16px', border: '1px solid var(--border)', textAlign: 'left', marginTop: '32px' }}>
+                  <p style={{ fontSize: '15px', lineHeight: '1.6', color: 'var(--text-secondary)', marginBottom: '24px' }}>
+                    <strong style={{ color: 'var(--text-primary)' }}>Executive Dashboard Pilot</strong><br/><br/>
+                    We are using public semiconductor filings as a high-density, mathematical proving ground. This interface demonstrates what happens when you ingest <strong>years of unstructured data</strong> into a strategic vector network.
+                  </p>
+                  
+                  <div style={{ display: 'flex', gap: '16px', borderTop: '1px solid var(--border)', paddingTop: '24px' }}>
+                     <div style={{ flex: 1 }}>
+                       <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '8px' }}>The Concept</p>
+                       <p style={{ fontSize: '13px', color: 'var(--text-muted)', lineHeight: '1.5' }}>Imagine pouring 150+ historical Business Reviews, Client Strategy decks, and Analyst calls into this Engine.</p>
+                     </div>
+                     <div style={{ width: '1px', background: 'var(--border)' }}></div>
+                     <div style={{ flex: 1 }}>
+                       <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '8px' }}>The Value</p>
+                       <p style={{ fontSize: '13px', color: 'var(--text-muted)', lineHeight: '1.5' }}>Senior leadership and Hunters can instantly cross-reference hidden industry pain-points or client demands that normally get lost in local files.</p>
+                     </div>
+                  </div>
+                </div>
               </div>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px', maxWidth: '600px' }}>
-                {SUGGESTED.map((s, i) => (
-                  <button key={i} className="suggestion-chip" onClick={() => { setQuery(s); handleSubmit(s); }}>{s}</button>
-                ))}
-              </div>
-            </div>
           )}
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '32px', maxWidth: '800px', margin: '0 auto' }}>
@@ -211,17 +237,46 @@ export default function ChatInterface() {
 
         {/* Input */}
         <div style={{ padding: '24px 32px', borderTop: '1px solid var(--border)', background: 'var(--bg-panel)' }}>
-          <form onSubmit={e => { e.preventDefault(); handleSubmit(); }} style={{ display: 'flex', gap: '12px', maxWidth: '800px', margin: '0 auto' }}>
-            <input
-              type="text"
+          <form onSubmit={e => { e.preventDefault(); handleSubmit(); }} style={{ display: 'flex', gap: '12px', maxWidth: '800px', margin: '0 auto', alignItems: 'flex-end' }}>
+            <textarea
               value={query}
               onChange={e => setQuery(e.target.value)}
-              placeholder="Ask anything..."
+              onKeyDown={e => {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                  e.preventDefault();
+                  if (query.trim() && !loading) handleSubmit();
+                }
+              }}
+              placeholder="Query the Intelligence Database..."
               disabled={loading}
               className="chat-input"
+              rows={3}
+              style={{
+                width: '100%',
+                padding: '16px',
+                borderRadius: '12px',
+                border: '1px solid var(--border)',
+                background: 'var(--bg-base)',
+                color: 'var(--text-primary)',
+                fontSize: '15px',
+                resize: 'none',
+                fontFamily: 'inherit',
+                lineHeight: '1.5'
+              }}
             />
-            <button type="submit" disabled={loading || !query.trim()} className="send-button">
-              <Send size={18} color={query.trim() ? '#fff' : 'var(--text-muted)'} />
+            <button type="submit" disabled={loading || !query.trim()} className="send-button" style={{
+              height: '48px',
+              width: '48px',
+              borderRadius: '50%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              background: query.trim() ? 'var(--accent-main)' : 'var(--border)',
+              border: 'none',
+              cursor: query.trim() ? 'pointer' : 'not-allowed',
+              transition: 'background 0.2s'
+            }}>
+              <Send size={20} color={query.trim() ? '#fff' : 'var(--text-muted)'} />
             </button>
           </form>
         </div>

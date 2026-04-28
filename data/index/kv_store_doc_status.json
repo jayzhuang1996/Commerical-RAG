@@ -352,7 +352,7 @@
   },
   "doc-fb1fde295160ad2250494cce02ebb07b": {
     "status": "failed",
-    "error_msg": "Request timed out.",
+    "error_msg": "C[37/45]: chunk-e93e15b4141cb7def18652c3c8a45d8e: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1504383, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 45,
     "chunks_list": [
       "chunk-3de34ec76f3a0a44857b72c2f6e55416",
@@ -404,17 +404,16 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: ARM\nLayer: LAYER_A\nPeriod: Q2_2025\nDate: 2025-05-28\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 3.    Key Information\n\nA.    [Reserved]\n\nB.    Capitalization and indebtedness\n\nNot applicable.\n\nC.    Reasons for the offer ...",
     "content_length": 272014,
     "created_at": "2026-04-27T04:01:38.382189+00:00",
-    "updated_at": "2026-04-27T15:38:42.961105+00:00",
+    "updated_at": "2026-04-27T17:48:33.905388+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_000138_a1cfa11f",
     "metadata": {
-      "processing_start_time": 1777303974,
-      "processing_end_time": 1777304322
+      "processing_start_time": 1777310677,
+      "processing_end_time": 1777312113
     }
   },
   "doc-907468a5364512a188636b1b56d460c3": {
-    "status": "failed",
-    "error_msg": "C[1/4]: chunk-2d1f6742e80ed84d267cfe46fa7c9e31: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1505403, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
+    "status": "processed",
     "chunks_count": 4,
     "chunks_list": [
       "chunk-2d1f6742e80ed84d267cfe46fa7c9e31",
@@ -425,16 +424,17 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: ARM\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-03-24\nDoc Type: earnings_press_release\n--- END INFO ---\n\nArm Expands Compute Platform to Silicon Products in Historic Company First         \n                                   ...",
     "content_length": 23744,
     "created_at": "2026-04-27T04:24:48.744658+00:00",
-    "updated_at": "2026-04-27T15:34:15.390635+00:00",
+    "updated_at": "2026-04-27T16:42:58.584907+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_002448_71aee1e9",
     "metadata": {
-      "processing_start_time": 1777303974,
-      "processing_end_time": 1777304055
+      "processing_start_time": 1777307871,
+      "processing_end_time": 1777308178
     }
   },
   "doc-bb36fab71686f431e4ce3731f5e093ae": {
-    "status": "processing",
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-bb36fab71686f431e4ce3731f5e093ae: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1505696, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-bb36fab71686f431e4ce3731f5e093ae"
@@ -442,15 +442,17 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: ASML\nLayer: LAYER_D\nPeriod: Q2_2026\nDate: 2026-04-23\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1                                                                             \n                            ...",
     "content_length": 5132,
     "created_at": "2026-04-27T04:34:31.731761+00:00",
-    "updated_at": "2026-04-27T15:34:15.400117+00:00",
+    "updated_at": "2026-04-27T17:47:16.766589+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_003431_da0c04c6",
     "metadata": {
-      "processing_start_time": 1777304055
+      "processing_start_time": 1777310677,
+      "processing_end_time": 1777312036
     }
   },
   "doc-be6012d4490b311c332210488579b21e": {
-    "status": "processing",
+    "status": "failed",
+    "error_msg": "C[1/9]: chunk-5128d467897e9a6a1ea6d801c0966d6e: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1504388, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 9,
     "chunks_list": [
       "chunk-5128d467897e9a6a1ea6d801c0966d6e",
@@ -466,17 +468,17 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q4_2025\nDate: 2025-12-18\nDoc Type: annual_business\n--- END INFO ---\n\nITEM 7.     MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n\nThis Management’s Discussi...",
     "content_length": 49536,
     "created_at": "2026-04-27T04:50:02.330057+00:00",
-    "updated_at": "2026-04-27T15:38:42.988467+00:00",
+    "updated_at": "2026-04-27T17:53:42.321020+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_005002_ff07f127",
     "metadata": {
-      "processing_start_time": 1777304322
+      "processing_start_time": 1777312036,
+      "processing_end_time": 1777312422
     }
   },
   "doc-640b8ee8b9f1d6c8b56dcf5a4511e94a": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q4_2025\nDate: 2025-12-18\nDoc Type: annual_risk\n--- END INFO ---\n\nITEM 1A.     RISK FACTORS\n\nOur business, operations and financial results are subject to various risks and uncertainties, includi...",
-    "content_length": 90482,
+    "status": "failed",
+    "error_msg": "C[1/15]: chunk-09305c77610bfec18789bdfc44505242: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1504378, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 15,
     "chunks_list": [
       "chunk-09305c77610bfec18789bdfc44505242",
@@ -495,17 +497,20 @@
       "chunk-4ffb6ca21b9e1992311d5ea2722c2f55",
       "chunk-f1d26aff29032e66965549a44d8a5643"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q4_2025\nDate: 2025-12-18\nDoc Type: annual_risk\n--- END INFO ---\n\nITEM 1A.     RISK FACTORS\n\nOur business, operations and financial results are subject to various risks and uncertainties, includi...",
+    "content_length": 90482,
     "created_at": "2026-04-27T05:03:52.475986+00:00",
-    "updated_at": "2026-04-27T15:32:54.677521+00:00",
+    "updated_at": "2026-04-27T17:58:52.359917+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_010352_1d518a93",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777312113,
+      "processing_end_time": 1777312732
+    }
   },
   "doc-5d62a266a8d6df68a2672eb570383d0e": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-03-04\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1                                                                             \n                            ...",
-    "content_length": 63677,
+    "status": "failed",
+    "error_msg": "C[1/8]: chunk-3bba57ca7db1179105f2714d5fa2f79b: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1504390, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 8,
     "chunks_list": [
       "chunk-3bba57ca7db1179105f2714d5fa2f79b",
@@ -517,77 +522,92 @@
       "chunk-49ecc61fbb17ccb3a4f86faecc7dbe50",
       "chunk-d4f3a99d3019490d0bf692c1a4227a55"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-03-04\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1                                                                             \n                            ...",
+    "content_length": 63677,
     "created_at": "2026-04-27T05:26:00.426096+00:00",
-    "updated_at": "2026-04-27T15:32:54.677585+00:00",
+    "updated_at": "2026-04-27T18:04:51.549969+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_012600_c3e5feaa",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777312422,
+      "processing_end_time": 1777313091
+    }
   },
   "doc-4fe22c3df0c95dfd5e0bb46ade8554b0": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q1_2025\nDate: 2025-03-12\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\nDuring the fiscal q...",
-    "content_length": 622,
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-4fe22c3df0c95dfd5e0bb46ade8554b0: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1503319, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-4fe22c3df0c95dfd5e0bb46ade8554b0"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q1_2025\nDate: 2025-03-12\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\nDuring the fiscal q...",
+    "content_length": 622,
     "created_at": "2026-04-27T05:53:22.208098+00:00",
-    "updated_at": "2026-04-27T15:32:54.677648+00:00",
+    "updated_at": "2026-04-27T18:10:00.924991+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_015322_a49bc2b8",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777312732,
+      "processing_end_time": 1777313400
+    }
   },
   "doc-db16028b865589c8deb5630190c22030": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q2_2025\nDate: 2025-06-11\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\nThe following table...",
-    "content_length": 1793,
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-db16028b865589c8deb5630190c22030: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1503575, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-db16028b865589c8deb5630190c22030"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q2_2025\nDate: 2025-06-11\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\nThe following table...",
+    "content_length": 1793,
     "created_at": "2026-04-27T06:26:31.215023+00:00",
-    "updated_at": "2026-04-27T15:32:54.677710+00:00",
+    "updated_at": "2026-04-27T18:11:18.614764+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_022631_1262ff51",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777313091,
+      "processing_end_time": 1777313478
+    }
   },
   "doc-f1585698465a222f7fe085213a2892ab": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q3_2025\nDate: 2025-09-10\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nNone.",
-    "content_length": 197,
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-f1585698465a222f7fe085213a2892ab: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1503231, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-f1585698465a222f7fe085213a2892ab"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q3_2025\nDate: 2025-09-10\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nNone.",
+    "content_length": 197,
     "created_at": "2026-04-27T06:57:54.781882+00:00",
-    "updated_at": "2026-04-27T15:32:54.677778+00:00",
+    "updated_at": "2026-04-27T18:12:36.418225+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_025754_bf99e5f5",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777313400,
+      "processing_end_time": 1777313556
+    }
   },
   "doc-ab4fed2451ba98a9b8f9ac6037703d67": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-03-11\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\nThe following table...",
-    "content_length": 1790,
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-ab4fed2451ba98a9b8f9ac6037703d67: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1503612, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-ab4fed2451ba98a9b8f9ac6037703d67"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: AVGO\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-03-11\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nIssuer Purchases of Equity Securities\n\nThe following table...",
+    "content_length": 1790,
     "created_at": "2026-04-27T07:29:49.650099+00:00",
-    "updated_at": "2026-04-27T15:32:54.677843+00:00",
+    "updated_at": "2026-04-27T18:13:54.042842+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_032949_8ea09b75",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777313478,
+      "processing_end_time": 1777313634
+    }
   },
   "doc-4c92ddfbda6d40994ad4c0e9a965d022": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q1_2026\nDate: 2026-01-23\nDoc Type: annual_risk\n--- END INFO ---\n\nThe following summarizes what we believe to be the material factors that make an investment in our securities speculative or risk...",
-    "content_length": 104992,
+    "status": "failed",
+    "error_msg": "C[1/18]: chunk-8d9c25644243f4d529d06cf43465d4b4: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1504378, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 18,
     "chunks_list": [
       "chunk-8d9c25644243f4d529d06cf43465d4b4",
@@ -609,17 +629,20 @@
       "chunk-3f3f89d8600dc47683c5a1aa5536fbdd",
       "chunk-b3870e0011c1346b31d80d034b455ee5"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q1_2026\nDate: 2026-01-23\nDoc Type: annual_risk\n--- END INFO ---\n\nThe following summarizes what we believe to be the material factors that make an investment in our securities speculative or risk...",
+    "content_length": 104992,
     "created_at": "2026-04-27T08:03:05.439798+00:00",
-    "updated_at": "2026-04-27T15:32:54.677919+00:00",
+    "updated_at": "2026-04-27T18:15:11.967094+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_040305_cf43c412",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777313556,
+      "processing_end_time": 1777313711
+    }
   },
   "doc-e7978c9e303ad77a6cb4edeefa5f61bc": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q2_2026\nDate: 2026-04-23\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1\n                                                                                           \n  Intel Corpo...",
-    "content_length": 99249,
+    "status": "failed",
+    "error_msg": "C[1/11]: chunk-433658da14495378bbd17c93b4779dda: RateLimitError: Error code: 429 - {'error': {'message': 'Your account org-1cce9bc11616498ca09b64349e386461 / proj-63a2bcbc109a4932bf7aca52b31a98f7 <ak-f7r4jho9wzbi11b9zj31> request reached organization TPD rate limit, current: 1504324, limit: 1500000', 'type': 'rate_limit_reached_error'}}",
     "chunks_count": 11,
     "chunks_list": [
       "chunk-b480c5210abfe43758664694d9847802",
@@ -634,77 +657,87 @@
       "chunk-8c8b11e6e7ac041b153cb06a5d6714a1",
       "chunk-7953fde635f26daca7c212affde7869c"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q2_2026\nDate: 2026-04-23\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1\n                                                                                           \n  Intel Corpo...",
+    "content_length": 99249,
     "created_at": "2026-04-27T08:36:54.923285+00:00",
-    "updated_at": "2026-04-27T15:32:54.678005+00:00",
+    "updated_at": "2026-04-27T18:20:20.613778+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_043654_4cd1dff7",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777313634,
+      "processing_end_time": 1777314020
+    }
   },
   "doc-f60be1d369008dda0461cefaf2ff61fa": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q2_2025\nDate: 2025-04-25\nDoc Type: quarterly_mda\n--- END INFO ---\n\nIssuer Purchases of Equity Securities\n\nWe have an ongoing authorization, originally approved by our Board of Directors in 2005 ...",
-    "content_length": 3259,
+    "status": "processed",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-f60be1d369008dda0461cefaf2ff61fa"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q2_2025\nDate: 2025-04-25\nDoc Type: quarterly_mda\n--- END INFO ---\n\nIssuer Purchases of Equity Securities\n\nWe have an ongoing authorization, originally approved by our Board of Directors in 2005 ...",
+    "content_length": 3259,
     "created_at": "2026-04-27T09:21:46.740504+00:00",
-    "updated_at": "2026-04-27T15:32:54.678069+00:00",
+    "updated_at": "2026-04-27T16:05:39.015262+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_052146_b8b3797d",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777305668,
+      "processing_end_time": 1777305939
+    }
   },
   "doc-c4845686f7704c5c80e402305d19f7ce": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q3_2025\nDate: 2025-07-24\nDoc Type: quarterly_mda\n--- END INFO ---\n\nIssuer Purchases of Equity Securities\n\nWe have an ongoing authorization, originally approved by our Board of Directors in 2005 ...",
-    "content_length": 3969,
+    "status": "processed",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-c4845686f7704c5c80e402305d19f7ce"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q3_2025\nDate: 2025-07-24\nDoc Type: quarterly_mda\n--- END INFO ---\n\nIssuer Purchases of Equity Securities\n\nWe have an ongoing authorization, originally approved by our Board of Directors in 2005 ...",
+    "content_length": 3969,
     "created_at": "2026-04-27T10:15:35.541020+00:00",
-    "updated_at": "2026-04-27T15:32:54.678144+00:00",
+    "updated_at": "2026-04-27T16:05:53.121617+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_061535_bb7cd051",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777305814,
+      "processing_end_time": 1777305953
+    }
   },
   "doc-77d86694dce1fc1e9c3d3ac3bab4c5be": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q4_2025\nDate: 2025-11-06\nDoc Type: quarterly_mda\n--- END INFO ---\n\nIssuer Purchases of Equity Securities\n\nWe have an ongoing authorization, originally approved by our Board of Directors in 2005 ...",
-    "content_length": 3279,
+    "status": "processed",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-77d86694dce1fc1e9c3d3ac3bab4c5be"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q4_2025\nDate: 2025-11-06\nDoc Type: quarterly_mda\n--- END INFO ---\n\nIssuer Purchases of Equity Securities\n\nWe have an ongoing authorization, originally approved by our Board of Directors in 2005 ...",
+    "content_length": 3279,
     "created_at": "2026-04-27T11:01:57.229836+00:00",
-    "updated_at": "2026-04-27T15:32:54.678231+00:00",
+    "updated_at": "2026-04-27T16:07:17.759408+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_070157_2a2ce2ac",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777305939,
+      "processing_end_time": 1777306037
+    }
   },
   "doc-01ee832930ff813d9db8fa5bfa02507e": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q2_2026\nDate: 2026-04-24\nDoc Type: quarterly_mda\n--- END INFO ---\n\nIssuer Purchases of Equity Securities\n\nWe have an ongoing authorization, originally approved by our Board of Directors in 2005 ...",
-    "content_length": 2568,
+    "status": "processed",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-01ee832930ff813d9db8fa5bfa02507e"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q2_2026\nDate: 2026-04-24\nDoc Type: quarterly_mda\n--- END INFO ---\n\nIssuer Purchases of Equity Securities\n\nWe have an ongoing authorization, originally approved by our Board of Directors in 2005 ...",
+    "content_length": 2568,
     "created_at": "2026-04-27T11:48:31.474361+00:00",
-    "updated_at": "2026-04-27T15:32:54.678292+00:00",
+    "updated_at": "2026-04-27T16:07:18.871371+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_074831_ca4e37c4",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777305953,
+      "processing_end_time": 1777306038
+    }
   },
   "doc-42f53a7a013b4ea3f40ae02d0580650e": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q3_2025\nDate: 2025-08-08\nDoc Type: annual_business\n--- END INFO ---\n\nITEM  7.MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n\nThe following discussion of ou...",
-    "content_length": 52334,
+    "status": "processed",
     "chunks_count": 10,
     "chunks_list": [
       "chunk-4612ab0f41075ef25aa4070b5715ec41",
@@ -718,17 +751,19 @@
       "chunk-bfac3dde6482c2f8fd9ea0e0c659c15b",
       "chunk-bb113ac9e0cc9e74e5cc817ec0cd9a79"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q3_2025\nDate: 2025-08-08\nDoc Type: annual_business\n--- END INFO ---\n\nITEM  7.MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n\nThe following discussion of ou...",
+    "content_length": 52334,
     "created_at": "2026-04-27T12:39:10.878861+00:00",
-    "updated_at": "2026-04-27T15:32:54.678354+00:00",
+    "updated_at": "2026-04-27T16:22:42.387182+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_083910_5257eb21",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777306038,
+      "processing_end_time": 1777306962
+    }
   },
   "doc-c22edc0f49803e029a935a9524737c28": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q3_2025\nDate: 2025-08-08\nDoc Type: annual_risk\n--- END INFO ---\n\nITEM  1A.RISK FACTORS \n\nA description of factors that could materially affect our business, financial condition or operating resu...",
-    "content_length": 124775,
+    "status": "processed",
     "chunks_count": 20,
     "chunks_list": [
       "chunk-6e39760d10a53b7326a952678788b4f5",
@@ -752,36 +787,93 @@
       "chunk-706c3addabed1cbc496a03d35fbb0b1b",
       "chunk-25056dc4aba0a40a47c338bbf9630c33"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q3_2025\nDate: 2025-08-08\nDoc Type: annual_risk\n--- END INFO ---\n\nITEM  1A.RISK FACTORS \n\nA description of factors that could materially affect our business, financial condition or operating resu...",
+    "content_length": 124775,
     "created_at": "2026-04-27T13:29:59.934728+00:00",
-    "updated_at": "2026-04-27T15:32:54.678437+00:00",
+    "updated_at": "2026-04-27T16:30:46.774923+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_092959_4f3c003c",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777306039,
+      "processing_end_time": 1777307446
+    }
   },
   "doc-a0875cdce54018cd923f6cab7e6b6692": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q1_2026\nDate: 2026-02-05\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1\n                                                                  \n  Investor Relations:                 ...",
-    "content_length": 1688,
+    "status": "processed",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-a0875cdce54018cd923f6cab7e6b6692"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q1_2026\nDate: 2026-02-05\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1\n                                                                  \n  Investor Relations:                 ...",
+    "content_length": 1688,
     "created_at": "2026-04-27T14:28:57.998506+00:00",
-    "updated_at": "2026-04-27T15:32:54.678517+00:00",
+    "updated_at": "2026-04-27T16:25:38.511358+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_102857_cecda624",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777306962,
+      "processing_end_time": 1777307138
+    }
   },
   "doc-5683e0e31bc2c33bc785c82d9af45ff5": {
-    "status": "pending",
+    "status": "processed",
+    "chunks_count": 13,
+    "chunks_list": [
+      "chunk-6430e92774e5a3f258ef2544910d4dd5",
+      "chunk-e3082390d4ae9b34c69f94e2ec0135c5",
+      "chunk-db3fcbe26ec52d22abad5f9f0435fea6",
+      "chunk-d780eacfb91e291d22055bf3aca31fa3",
+      "chunk-1329332311e82d0b2cc6f7232bfaa092",
+      "chunk-b7969877a8fd0841863c700fea233da5",
+      "chunk-d5d617bafedeb6760bbc60c5e3993fb7",
+      "chunk-e28f2689bd6a5fe65b47f7c31f1a8adc",
+      "chunk-19032b9d0addd28842932a48ea8fd697",
+      "chunk-8fa5ffd55eec85058d06665add3afcd3",
+      "chunk-541097656a29c150756d08c4943ad8b0",
+      "chunk-fcbd467e0d3d2d1e90e50929e4ef4372",
+      "chunk-6914852673b586e472efa313d90a7cbf"
+    ],
     "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q1_2025\nDate: 2025-01-31\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n\nSPECIAL NOTE REGARDING FORWAR...",
     "content_length": 61698,
     "created_at": "2026-04-27T15:32:54.621106+00:00",
-    "updated_at": "2026-04-27T15:32:54.621117+00:00",
+    "updated_at": "2026-04-27T16:37:50.846297+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_113254_b42d0e70",
-    "chunks_list": []
+    "metadata": {
+      "processing_start_time": 1777307138,
+      "processing_end_time": 1777307870
+    }
+  },
+  "doc-0292dbc49bc4382dc3bccb8e9b403c95": {
+    "status": "processing",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0292dbc49bc4382dc3bccb8e9b403c95"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q2_2025\nDate: 2025-05-01\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nEquity Repurchase Plans\n\nThe following is a summary of ...",
+    "content_length": 1971,
+    "created_at": "2026-04-27T16:37:51.360893+00:00",
+    "updated_at": "2026-04-27T18:15:11.980494+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260427_123751_f3987531",
+    "metadata": {
+      "processing_start_time": 1777313711
+    }
+  },
+  "doc-e87a4f351685e936b673b5d8beb0687a": {
+    "status": "processing",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e87a4f351685e936b673b5d8beb0687a"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q4_2025\nDate: 2025-10-31\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nEquity Repurchase Plans\n\nThe following is a summary of ...",
+    "content_length": 1980,
+    "created_at": "2026-04-27T17:24:37.741056+00:00",
+    "updated_at": "2026-04-27T18:20:20.656620+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260427_132437_a39ac6f2",
+    "metadata": {
+      "processing_start_time": 1777314020
+    }
   }
 }

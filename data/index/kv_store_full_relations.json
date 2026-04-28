@@ -1566,989 +1566,2725 @@
   "doc-144cc534028ba5aa46e63302766af73e": {
     "relation_pairs": [
       [
-        "$452 million",
-        "Leases"
-      ],
-      [
-        "Japan",
-        "Pillar Two"
-      ],
-      [
-        "Ordinary Shares",
-        "RSUs"
-      ],
-      [
-        "RSUs",
-        "Share-based Compensation"
-      ],
-      [
-        "Consolidated Income Statements",
-        "Fiscal Year Ended March 31, 2024"
-      ],
-      [
-        "Accounting Standards Codification 606",
-        "Estimates on Sales-Based Royalty Revenue Accruals"
-      ],
-      [
-        "Accounting Standards Codification 606",
-        "Evaluation of the standalone selling price"
-      ],
-      [
-        "AI",
-        "Chat Features"
-      ],
-      [
-        "Bureau of Industry and Security",
-        "Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits"
-      ],
-      [
-        "Companys Performance Conditions",
-        "Consolidated Income Statements"
-      ],
-      [
-        "Ampere Computing Holdings LLC",
-        "Income (Loss) from Equity Investments"
-      ],
-      [
-        "Arm",
-        "Vehicles"
-      ],
-      [
-        "Managements Discussion and Analysis of Financial Condition and Results of Operations",
-        "Net Cash Provided by (Used for) Financing Activities"
-      ],
-      [
-        "Companys ADSs",
-        "Nasdaq"
-      ],
-      [
-        "Company",
-        "Contract Liabilities"
-      ],
-      [
-        "Company",
-        "Employment Taxes Payable"
-      ],
-      [
-        "Design Information",
-        "License"
-      ],
-      [
-        "Company",
-        "Pillar Two"
-      ],
-      [
-        "Critical Accounting Estimates",
-        "IPO Prospectus"
-      ],
-      [
-        "Revenue from Related Parties",
-        "Total revenue"
-      ],
-      [
-        "Arm CPUs",
-        "Digital TVs"
-      ],
-      [
-        "Arm CPUs",
-        "Smartphones"
-      ],
-      [
-        "Income (Loss) before Income Taxes",
-        "Income Tax Benefit (Expense)"
-      ],
-      [
-        "Income Tax Benefit (Expense)",
-        "U.S."
-      ],
-      [
-        "Cost of Sales",
-        "Gross Profit (Loss)"
-      ],
-      [
-        "Equity Method Investments",
-        "NAV"
-      ],
-      [
-        "Goodwill",
-        "Income Method"
-      ],
-      [
-        "Consolidated Financial Statements",
-        "Item 8. Financial Information-Note 1 - Description of Business and Summary of Significant Accounting Policies"
-      ],
-      [
-        "European Union",
-        "Pillar Two"
-      ],
-      [
-        "AI",
-        "Arm"
-      ],
-      [
-        "ARM",
-        "Qualcomm"
-      ],
-      [
-        "Annual Report",
-        "Consolidated Financial Statements"
-      ],
-      [
-        "Arm",
-        "IoT Microprocessors"
-      ],
-      [
-        "Arm",
-        "Tablets"
-      ],
-      [
-        "Non-marketable securities",
-        "Valuation of Equity Investments Measured at Fair Value"
-      ],
-      [
-        "Pillar Two",
-        "U.S."
-      ],
-      [
-        "Geopolitical Events",
-        "Global Inflation"
-      ],
-      [
-        "Geopolitical Events",
-        "War in Ukraine"
-      ],
-      [
-        "Arm Flexible Access",
-        "Tape-Out"
-      ],
-      [
-        "Ampere",
-        "Fair Value"
-      ],
-      [
-        "Design Information",
-        "Semiconductor Chips"
-      ],
-      [
-        "Contractual Obligations and Commitments",
-        "Leases"
-      ],
-      [
-        "$912 million",
-        "Purchase Obligations"
-      ],
-      [
         "ARM",
         "Q2_2025"
-      ],
-      [
-        "BIS Entity List",
-        "Bureau of Industry and Security"
-      ],
-      [
-        "AI",
-        "Driving and Parking Assist"
-      ],
-      [
-        "IPO",
-        "Ordinary Shares"
-      ],
-      [
-        "ARM",
-        "annual_business"
-      ],
-      [
-        "Income (Loss) Before Income Taxes",
-        "Net Income (Loss)"
-      ],
-      [
-        "Disposal, Restructuring and Other Operating Expenses",
-        "Selling, General and Administrative Expenses"
-      ],
-      [
-        "ASC 606",
-        "Revenue Recognition"
-      ],
-      [
-        "Equity Method Investments",
-        "Impairments"
-      ],
-      [
-        "ARM",
-        "LAYER_A"
-      ],
-      [
-        "Monte Carlo simulation model",
-        "PSUs"
-      ],
-      [
-        "Revenue from Sales to Customers Outside of the U.S.",
-        "U.S."
-      ],
-      [
-        "Company",
-        "Deferred Taxes"
-      ],
-      [
-        "Licensee",
-        "Royalties"
-      ],
-      [
-        "Arm",
-        "Arm's CSS Solutions"
-      ],
-      [
-        "Acetone Limited",
-        "Fair Value"
-      ],
-      [
-        "Company",
-        "Government Research Grants"
-      ],
-      [
-        "Accounts Receivable",
-        "Company"
-      ],
-      [
-        "Accrued Compensation and Benefits",
-        "Company"
-      ],
-      [
-        "Deferred Income Taxes",
-        "GAAP"
-      ],
-      [
-        "Global Demand for Semiconductor Products",
-        "Macroeconomic Environment"
-      ],
-      [
-        "Arm",
-        "Data Centers"
-      ],
-      [
-        "IPLA",
-        "PRC"
-      ],
-      [
-        "ARM",
-        "SEC"
-      ],
-      [
-        "Company",
-        "Property and Equipment"
-      ],
-      [
-        "Company",
-        "Short-Term Investments"
-      ],
-      [
-        "GAAP",
-        "Income Tax Benefit (Expense)"
-      ],
-      [
-        "ARM",
-        "Public Company Expenses"
-      ],
-      [
-        "Board of Directors",
-        "Ordinary Shares"
-      ],
-      [
-        "ARM",
-        "Qualcomm TLA"
-      ],
-      [
-        "Chip Sales",
-        "Royalty Reports"
-      ],
-      [
-        "Global Demand for Semiconductor Products",
-        "Semiconductor Industry"
-      ],
-      [
-        "Arm",
-        "Arm China"
-      ],
-      [
-        "Semiconductor Chips",
-        "Software Development Tools"
-      ],
-      [
-        "Employee-related Expenses",
-        "Research and Development"
-      ],
-      [
-        "Geopolitical Events",
-        "Supply Chain Disruptions"
-      ],
-      [
-        "Arm",
-        "New High-Growth Markets"
-      ],
-      [
-        "IPLA",
-        "U.S."
-      ],
-      [
-        "Accounting Standards Codification 606",
-        "Determination of distinct performance obligations"
-      ],
-      [
-        "Company",
-        "Income Tax Expense"
-      ],
-      [
-        "OECD",
-        "Pillar Two"
-      ],
-      [
-        "Ordinary Shares",
-        "PSUs"
-      ],
-      [
-        "Arm China",
-        "Bureau of Industry and Security"
-      ],
-      [
-        "Company",
-        "United Kingdom"
-      ],
-      [
-        "Arm",
-        "Edge"
-      ],
-      [
-        "Arm",
-        "Cloud"
-      ],
-      [
-        "Goodwill",
-        "Reporting Unit"
-      ],
-      [
-        "PSUs",
-        "Share-based Compensation"
-      ],
-      [
-        "Geopolitical Events",
-        "Interest Rates"
-      ],
-      [
-        "Government Grants",
-        "Research and Development"
-      ],
-      [
-        "Employee-related Expenses",
-        "Selling, General and Administrative Expenses"
-      ],
-      [
-        "ARM",
-        "Sarbanes-Oxley Act of 2002"
-      ],
-      [
-        "Income Tax Benefit (Expense)",
-        "U.K."
-      ],
-      [
-        "Arm China",
-        "Cost of Sales"
-      ],
-      [
-        "PSUs",
-        "Relative TSR"
-      ],
-      [
-        "Nasdaq",
-        "RSUs"
-      ],
-      [
-        "Impairments",
-        "Non-marketable Securities"
-      ],
-      [
-        "ARM",
-        "Directors and Officers Insurance"
-      ],
-      [
-        "Supply Chain",
-        "War in Ukraine"
-      ],
-      [
-        "Arm",
-        "Networking Equipment"
-      ],
-      [
-        "NAV",
-        "Non-marketable Securities"
-      ],
-      [
-        "Geopolitical Events",
-        "Trade Conflicts"
-      ],
-      [
-        "Pillar Two",
-        "U.K."
-      ],
-      [
-        "Arm",
-        "Thermostats"
-      ],
-      [
-        "Arm",
-        "PCs"
-      ],
-      [
-        "Arm-powered chips",
-        "Semiconductor Industry"
-      ],
-      [
-        "License and Other Revenue",
-        "Total revenue"
-      ],
-      [
-        "Estimates on Sales-Based Royalty Revenue Accruals",
-        "Royalty Statements"
-      ],
-      [
-        "2025-05-28",
-        "ARM"
-      ],
-      [
-        "Company",
-        "March 31, 2025"
-      ],
-      [
-        "Company",
-        "Equity Investments"
-      ],
-      [
-        "ARM",
-        "Nuvia"
-      ],
-      [
-        "OECD",
-        "U.K."
-      ],
-      [
-        "Accounting Standards Codification 606",
-        "Consolidated Financial Statements"
-      ],
-      [
-        "Arm Total Access",
-        "Tape-Out"
-      ],
-      [
-        "ARM",
-        "Special Note Regarding Forward-Looking Statements"
-      ],
-      [
-        "Income Tax Benefit (Expense)",
-        "U.K.'s \"Patent Box\""
-      ],
-      [
-        "Arm China",
-        "IPLA"
-      ],
-      [
-        "Foreign Exchange Rates",
-        "Geopolitical Events"
-      ],
-      [
-        "Company",
-        "GAAP"
-      ],
-      [
-        "Arm China",
-        "Disposal, Restructuring and Other Operating Expenses"
-      ],
-      [
-        "Revenue from Related Parties",
-        "SoftBank Group"
       ],
       [
         "Company",
         "Form 20-F"
       ],
       [
-        "Supply Chain",
-        "Trade Conflicts"
+        "Determination of distinct performance obligations",
+        "Licensing Arrangements"
       ],
       [
-        "Accounting Standards Codification 606",
-        "Assessment of contract combination criteria"
+        "Determination of distinct performance obligations",
+        "Revenue Recognition"
       ],
       [
-        "$6 million",
-        "Net Cash Provided by (Used for) Financing Activities"
+        "Annual Report",
+        "Consolidated Financial Statements"
       ],
       [
-        "ARM",
-        "Item 3. Key Information-D. Risk Factors"
+        "IPLA",
+        "RTL-based CSSs"
+      ],
+      [
+        "Cost-Plus Margin Approach",
+        "Evaluation of the standalone selling price"
+      ],
+      [
+        "Design Information",
+        "Licensed Products"
+      ],
+      [
+        "License and Other Revenue",
+        "Total revenue"
+      ],
+      [
+        "Arm China",
+        "IPLA"
+      ],
+      [
+        "Chiplets",
+        "IPLA"
+      ],
+      [
+        "Revenue from external customers",
+        "Royalty Revenue"
+      ],
+      [
+        "Determination of distinct performance obligations",
+        "Forward-looking Information"
+      ],
+      [
+        "NAV",
+        "Non-marketable Securities"
       ],
       [
         "Consolidated Income Statements",
-        "Disposal, Restructuring and Other Operating Expenses"
+        "Share-based Compensation"
       ],
       [
-        "Estimates on Sales-Based Royalty Revenue Accruals",
+        "Research and Development",
+        "Selling, General and Administrative Expenses"
+      ],
+      [
+        "Market Disruptions",
+        "War in Ukraine"
+      ],
+      [
+        "Managements Discussion and Analysis of Financial Condition and Results of Operations",
+        "Net Cash Provided by (Used for) Financing Activities"
+      ],
+      [
+        "Arm",
         "Licensees"
       ],
       [
-        "Royalties",
-        "Royalty Reports"
+        "Company",
+        "IPO"
+      ],
+      [
+        "ARM",
+        "SEC"
+      ],
+      [
+        "ARM",
+        "Qualcomm License"
+      ],
+      [
+        "ARM",
+        "Qualcomm TLA"
+      ],
+      [
+        "Japan",
+        "Pillar Two"
+      ],
+      [
+        "Arm",
+        "Thermostats"
+      ],
+      [
+        "Global Demand for Semiconductor Products",
+        "Semiconductor Industry"
       ],
       [
         "Bureau of Industry and Security",
         "U.S. Department of Commerce"
       ],
       [
-        "Consolidated Income Statements",
-        "Fiscal Year Ended March 31, 2025"
-      ],
-      [
-        "Cost of Sales",
-        "Research and Development"
-      ],
-      [
-        "Arm",
-        "Smart Cameras"
-      ],
-      [
-        "Fair Value Accounting",
-        "Income (Loss) from Equity Investments"
-      ],
-      [
-        "Operating Expenses",
-        "Operating Income (Loss)"
-      ],
-      [
-        "Company",
-        "Tax Credits"
-      ],
-      [
-        "Arm",
-        "Smartphones"
-      ],
-      [
-        "Contractual Obligations and Commitments",
-        "Purchase Obligations"
+        "Licensed Products",
+        "Royalties"
       ],
       [
         "ARM",
-        "Nuvia ALA"
-      ],
-      [
-        "Revenue from External Customers",
-        "Total revenue"
-      ],
-      [
-        "Customer Support Services",
-        "License Agreement"
+        "IoT"
       ],
       [
         "Bureau of Industry and Security",
         "Framework for Artificial Intelligence Diffusion"
       ],
       [
-        "Royalty Revenue",
-        "Total revenue"
-      ]
-    ],
-    "count": 147,
-    "create_time": 1777262955,
-    "update_time": 1777262955,
-    "_id": "doc-144cc534028ba5aa46e63302766af73e"
-  },
-  "doc-dd7521f9a2af5468bfd407a10851d384": {
-    "relation_pairs": [
-      [
-        "Cash, Cash Equivalents, and Marketable Securities",
-        "Liquidity and Capital Resources"
+        "Research and Development",
+        "Third Parties"
       ],
       [
-        "Liquidity and Capital Resources",
-        "U.S."
+        "GAAP",
+        "Income Taxes"
       ],
       [
-        "Cash Flows",
-        "Investing Activities"
+        "Accounting Standards Codification 606",
+        "Revenue Recognition"
       ],
       [
-        "General and Administrative Expenses",
-        "Professional Fees"
-      ],
-      [
-        "Management",
-        "Unrecognized Tax Benefits"
-      ],
-      [
-        "Effective Tax Rate",
-        "Stock-Based Compensation"
-      ],
-      [
-        "Investing Activities",
-        "VeloCloud"
-      ],
-      [
-        "AI Networks",
-        "Liquidity and Capital Resources"
-      ],
-      [
-        "Operating Expenses",
-        "Research and Development Expenses"
-      ],
-      [
-        "Tax Examination",
-        "Unrecognized Tax Benefits"
-      ],
-      [
-        "Arista",
-        "Evaluation Inventory"
-      ],
-      [
-        "Arista",
-        "Supplier Liabilities"
-      ],
-      [
-        "Common Stock",
-        "Financing Activities"
-      ],
-      [
-        "Deferred Revenue Balances",
-        "Revenue"
-      ],
-      [
-        "Accounts Receivable",
-        "Operating Activities"
-      ],
-      [
-        "Cost of Revenue",
-        "Product Revenue"
-      ],
-      [
-        "Cost of Revenue",
-        "Net Excess/Obsolete Inventory"
-      ],
-      [
-        "Arista",
-        "Forward-looking Statements"
-      ],
-      [
-        "Consolidated Financial Statements",
-        "U.S. GAAP"
-      ],
-      [
-        "Revenue",
-        "Revenue by Geography"
-      ],
-      [
-        "Common Stock",
-        "Employee Equity Incentive Plans"
-      ],
-      [
-        "Cash Flows from Financing Activities",
-        "Common Stock Repurchases"
-      ],
-      [
-        "Annual Report on Form 10-K",
-        "Recently Adopted Accounting Pronouncements"
-      ],
-      [
-        "Personnel Costs",
-        "Research and Development Expenses"
-      ],
-      [
-        "Operating Activities",
-        "Stock-Based Compensation Expenses"
-      ],
-      [
-        "Gross Profit",
-        "Revenue"
-      ],
-      [
-        "Off-balance Sheet Arrangements",
-        "Unconsolidated Entities"
-      ],
-      [
-        "Cost of Revenue",
-        "Gross Margin"
-      ],
-      [
-        "Operating Expenses",
-        "Sales and Marketing Expenses"
-      ],
-      [
-        "AI and Specialty Providers",
-        "Arista"
-      ],
-      [
-        "New Product Introduction Costs",
-        "Research and Development Expenses"
-      ],
-      [
-        "AI Centers",
-        "Arista"
-      ],
-      [
-        "Annual Report on Form 10-K",
-        "IRC Section 174"
-      ],
-      [
-        "Deferred Income Taxes",
-        "Operating Activities"
-      ],
-      [
-        "Provision for Income Taxes",
-        "U.S."
-      ],
-      [
-        "Capital Expenditures",
-        "Property Project"
-      ],
-      [
-        "Arista",
-        "Cloud and AI Titans"
-      ],
-      [
-        "Annual Business",
-        "Arista"
-      ],
-      [
-        "Cost of Revenue",
-        "Gross Profit"
-      ],
-      [
-        "Arista",
-        "Enterprise"
-      ],
-      [
-        "Personnel Costs",
+        "Chiplets",
         "Research and Development"
       ],
       [
-        "Revenue Recognition",
-        "SSP"
+        "Income Tax Benefit (Expense)",
+        "U.K."
       ],
       [
-        "Cash Flows",
-        "Operating Activities"
+        "Board of Directors",
+        "Ordinary Share Valuations"
       ],
       [
-        "Pre-Tax Income",
-        "Provision for Income Taxes"
+        "ARM",
+        "U.S. District Court for the District of Delaware"
       ],
       [
-        "Annual Report on Form 10-K",
-        "Liquidity and Capital Resources"
+        "Delivery",
+        "License"
       ],
       [
-        "PCS Contracts",
-        "Service Revenue"
+        "Arm",
+        "Industrial Robotics"
       ],
       [
-        "Global Economic and Business Activities",
-        "Supply Chain"
+        "Bureau of Industry and Security",
+        "Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits"
       ],
       [
-        "Personnel Costs",
-        "Sales and Marketing Expenses"
+        "Company",
+        "Pillar Two"
       ],
       [
-        "Arista",
-        "Income Taxes"
+        "Contractual Payments",
+        "License"
       ],
       [
-        "Arista",
-        "Network Data Lake"
-      ],
-      [
-        "Capital Expenditures",
-        "Cash Flows from Investing Activities"
-      ],
-      [
-        "OBBB Act",
-        "U.S."
-      ],
-      [
-        "Interest Income",
-        "Other Income (Expense), Net"
-      ],
-      [
-        "Form 10-K",
-        "Income Taxes"
-      ],
-      [
-        "Liquidity and Capital Resources",
-        "Santa Clara, California"
-      ],
-      [
-        "Cash Flows",
-        "Financing Activities"
-      ],
-      [
-        "Common Stock",
-        "New Repurchase Program"
-      ],
-      [
-        "Customer Demand",
-        "Product Revenue"
-      ],
-      [
-        "Non-Americas Revenues",
-        "Service Revenue"
-      ],
-      [
-        "Equity-Based Compensation",
-        "Provision for Income Taxes"
-      ],
-      [
-        "EOS Software",
-        "Products"
-      ],
-      [
-        "Arista",
-        "Campus Centers"
-      ],
-      [
-        "Contract Manufacturers",
-        "Purchase Obligations"
-      ],
-      [
-        "Effective Tax Rate",
-        "State Taxes"
-      ],
-      [
-        "Liquidity and Capital Resources",
-        "Marketable Securities"
-      ],
-      [
-        "Arista",
-        "Core"
-      ],
-      [
-        "Arista",
-        "WAN Centers"
-      ],
-      [
-        "Leases",
-        "Operating Lease Arrangements"
-      ],
-      [
-        "Property Project",
-        "Santa Clara"
-      ],
-      [
-        "AI Ethernet Market",
-        "Customer Trials"
-      ],
-      [
-        "Contract Manufacturers",
-        "Supply Chain"
-      ],
-      [
-        "Interest Income",
-        "Provision for Income Taxes"
-      ],
-      [
-        "Customer Demand",
-        "Switching and Routing Platforms"
-      ],
-      [
-        "Arista",
-        "Risk Factors"
-      ],
-      [
-        "Common Stock",
-        "Prior Repurchase Program"
-      ],
-      [
-        "Arista",
-        "Inventory Valuation"
-      ],
-      [
-        "Deferred Tax Assets",
-        "Income Taxes"
-      ],
-      [
-        "Arista",
-        "Extensible Operating System"
-      ],
-      [
-        "Deferred Income Taxes",
-        "Deferred Tax Assets"
-      ],
-      [
-        "Integrated Circuits",
-        "Purchase Obligations"
-      ],
-      [
-        "Taxable Temporary Differences",
+        "Income Taxes",
         "Unrecognized Tax Benefits"
       ],
       [
-        "Research and Development",
-        "Sales and Marketing"
-      ],
-      [
-        "Foreign Jurisdictions",
-        "U.S."
-      ],
-      [
-        "Arista",
+        "Arm",
         "Data Centers"
       ],
       [
-        "Deferred Tax Assets",
-        "Valuation Allowance"
+        "Consolidated Income Statements",
+        "Deferred Tax Assets"
       ],
       [
-        "Arista",
-        "Centers of Data Strategy"
+        "Consolidated Financial Statements",
+        "Item 8. Financial Information-Note 1 - Description of Business and Summary of Significant Accounting Policies"
       ],
       [
-        "Tax Planning Strategies",
+        "Contractual Obligations and Commitments",
+        "Purchase Obligations"
+      ],
+      [
+        "Related Parties",
+        "Royalty Revenue"
+      ],
+      [
+        "Arm CSS",
+        "Research and Development"
+      ],
+      [
+        "ARM",
+        "Sarbanes-Oxley Act of 2002"
+      ],
+      [
+        "Fair Value Hierarchy",
+        "Level 3"
+      ],
+      [
+        "RSUs",
+        "Share-based Compensation"
+      ],
+      [
+        "2025-05-28",
+        "ARM"
+      ],
+      [
+        "Geopolitical Events",
+        "Global Inflation"
+      ],
+      [
+        "Geopolitical Pressures",
+        "War in Ukraine"
+      ],
+      [
+        "ARM",
+        "SoC"
+      ],
+      [
+        "Global Demand for Semiconductor Products",
+        "Macroeconomic Environment"
+      ],
+      [
+        "ARM",
+        "Directors and Officers Insurance"
+      ],
+      [
+        "End Chip Solutions",
+        "IPLA"
+      ],
+      [
+        "Evaluation of the standalone selling price",
+        "Support, Maintenance Services, and Training Services"
+      ],
+      [
+        "Geopolitical Events",
+        "Supply Chain Disruptions"
+      ],
+      [
+        "Ampere",
+        "Fair Value Option"
+      ],
+      [
+        "Arm China",
+        "Disposal, Restructuring and Other Operating Expenses, Net"
+      ],
+      [
+        "Arm",
+        "Smartphones"
+      ],
+      [
+        "Estimates on Sales-Based Royalty Revenue Accruals",
+        "Macroeconomic Effects"
+      ],
+      [
+        "Disposal, Restructuring and Other Operating Expenses, Net",
+        "Employee Termination Benefits"
+      ],
+      [
+        "Company",
+        "Deferred Tax Assets"
+      ],
+      [
+        "ASC 606",
+        "Revenue Recognition"
+      ],
+      [
+        "Company",
+        "Deferred Tax Liabilities"
+      ],
+      [
+        "Arm",
+        "Networking Equipment"
+      ],
+      [
+        "Arm",
+        "Vehicles"
+      ],
+      [
+        "Goodwill",
+        "Impairment of Goodwill"
+      ],
+      [
+        "ADSs",
+        "Ordinary Share Valuations"
+      ],
+      [
+        "Arm Flexible Access",
+        "Tape-Out"
+      ],
+      [
+        "PSUs",
+        "Relative TSR"
+      ],
+      [
+        "Royalty Revenue",
+        "Total revenue"
+      ],
+      [
+        "Next Generation Products",
+        "Research and Development"
+      ],
+      [
+        "ARM",
+        "annual_business"
+      ],
+      [
+        "End Chip Solutions",
+        "Research and Development"
+      ],
+      [
+        "Acetone Limited",
+        "Fair Value Option"
+      ],
+      [
+        "Ampere Computing Holdings LLC",
+        "Income (Loss) from Equity Investments"
+      ],
+      [
+        "OECD",
+        "Pillar Two"
+      ],
+      [
+        "Income Taxes",
+        "United Kingdom"
+      ],
+      [
+        "Pillar Two",
+        "U.S."
+      ],
+      [
+        "Assessment of contract combination criteria",
+        "Determination of distinct performance obligations"
+      ],
+      [
+        "PSUs",
+        "Share-based Compensation"
+      ],
+      [
+        "Cost of Sales",
+        "Professional and Design Services"
+      ],
+      [
+        "Government Grants",
+        "Research and Development"
+      ],
+      [
+        "Cost of Sales",
+        "Research and Development"
+      ],
+      [
+        "Determination of distinct performance obligations",
+        "Evaluation of the standalone selling price"
+      ],
+      [
+        "Revenue from related parties",
+        "Royalty Revenue"
+      ],
+      [
+        "Revenue",
+        "USD"
+      ],
+      [
+        "Arm",
+        "Royalty Rate"
+      ],
+      [
+        "Non-marketable securities",
+        "Valuation of Equity Investments Measured at Fair Value"
+      ],
+      [
+        "OECD",
+        "U.K."
+      ],
+      [
+        "GDSII-based CSSs",
+        "IPLA"
+      ],
+      [
+        "Arm China",
+        "U.S."
+      ],
+      [
+        "Arm",
+        "Design Wins"
+      ],
+      [
+        "Contractual Obligations and Commitments",
+        "Leases"
+      ],
+      [
+        "Impairment of Investments",
+        "Non-marketable Equity Securities"
+      ],
+      [
+        "Trade Conflicts",
+        "U.S."
+      ],
+      [
+        "ARM",
+        "LAYER_A"
+      ],
+      [
+        "Arm",
+        "Drones"
+      ],
+      [
+        "GAAP",
+        "IPLA"
+      ],
+      [
+        "Arm China",
+        "PRC"
+      ],
+      [
+        "Geopolitical Events",
+        "Interest Rates"
+      ],
+      [
+        "European Union",
+        "Pillar Two"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Estimates and assumptions"
+      ],
+      [
+        "Contract Termination Costs",
+        "Disposal, Restructuring and Other Operating Expenses, Net"
+      ],
+      [
+        "Equity Method Investments",
+        "NAV"
+      ],
+      [
+        "Critical Accounting Estimates",
+        "IPO Prospectus"
+      ],
+      [
+        "Geopolitical Events",
+        "Macroeconomic Environment"
+      ],
+      [
+        "IPLA",
+        "U.S."
+      ],
+      [
+        "ARM",
+        "Nuvia"
+      ],
+      [
+        "IPO",
+        "Ordinary Share Valuations"
+      ],
+      [
+        "License and Other Revenue",
+        "Revenue from external customers"
+      ],
+      [
+        "IPLA",
+        "PRC"
+      ],
+      [
+        "Arm",
+        "Tablets"
+      ],
+      [
+        "License and Other Revenue",
+        "Revenue from related parties"
+      ],
+      [
+        "Arm-powered Chips",
+        "Royalty Revenue"
+      ],
+      [
+        "East Asia",
+        "Semiconductor Manufacturing"
+      ],
+      [
+        "Company's Future Success",
+        "Global Demand for Semiconductor Products"
+      ],
+      [
+        "Estimates on Sales-Based Royalty Revenue Accruals",
+        "Revenue Recognition"
+      ],
+      [
+        "ARM",
+        "Nuvia Technology"
+      ],
+      [
+        "Pillar Two",
+        "U.K."
+      ],
+      [
+        "Arm",
+        "Smart Cameras"
+      ],
+      [
+        "ARM",
+        "Qualcomm"
+      ],
+      [
+        "Evaluation of the standalone selling price",
+        "Residual Approach"
+      ],
+      [
+        "Income Tax Benefit (Expense)",
+        "U.S."
+      ],
+      [
+        "Geopolitical Pressures",
+        "PRC-Taiwan Relations"
+      ],
+      [
+        "Arm",
+        "PCs"
+      ],
+      [
+        "External Customers",
+        "Royalty Revenue"
+      ],
+      [
+        "Company",
+        "Nasdaq"
+      ],
+      [
+        "Revenue",
+        "U.S."
+      ],
+      [
+        "Geopolitical Events",
+        "Geopolitical Pressures"
+      ],
+      [
+        "GAAP",
+        "Income Tax Benefit (Expense)"
+      ]
+    ],
+    "count": 136,
+    "create_time": 1777262498,
+    "update_time": 1777262498,
+    "_id": "doc-144cc534028ba5aa46e63302766af73e"
+  },
+  "doc-f60be1d369008dda0461cefaf2ff61fa": {
+    "relation_pairs": [
+      [
+        "Exchange Act",
+        "Rule 10b5-1"
+      ],
+      [
+        "INTC",
+        "March 29, 2025"
+      ],
+      [
+        "INTC",
+        "Section 13(r)"
+      ],
+      [
+        "2005",
+        "INTC"
+      ],
+      [
+        "$110.0 billion",
+        "INTC"
+      ],
+      [
+        "Common Stock",
+        "INTC"
+      ],
+      [
+        "INTC",
+        "Rule 10b5-1"
+      ],
+      [
+        "INTC",
+        "RSUs"
+      ],
+      [
+        "$7.2 billion",
+        "INTC"
+      ],
+      [
+        "Board of Directors",
+        "INTC"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1777305939,
+    "update_time": 1777305939,
+    "_id": "doc-f60be1d369008dda0461cefaf2ff61fa"
+  },
+  "doc-c4845686f7704c5c80e402305d19f7ce": {
+    "relation_pairs": [
+      [
+        "Consolidated Condensed Financial Statements",
+        "INTC"
+      ],
+      [
+        "$110.0 billion",
+        "INTC"
+      ],
+      [
+        "INTC",
+        "RSUs"
+      ],
+      [
+        "$7.2 billion",
+        "INTC"
+      ],
+      [
+        "2006 Equity Incentive Plan (EIP)",
+        "INTC"
+      ],
+      [
+        "Board of Directors",
+        "INTC"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777305953,
+    "update_time": 1777305953,
+    "_id": "doc-c4845686f7704c5c80e402305d19f7ce"
+  },
+  "doc-77d86694dce1fc1e9c3d3ac3bab4c5be": {
+    "relation_pairs": [
+      [
+        "Exchange Act",
+        "Rule 10b5-1"
+      ],
+      [
+        "INTC",
+        "September 27, 2025"
+      ],
+      [
+        "Consolidated Condensed Financial Statements",
+        "INTC"
+      ],
+      [
+        "$110.0 billion",
+        "INTC"
+      ],
+      [
+        "INTC",
+        "Rule 10b5-1"
+      ],
+      [
+        "INTC",
+        "RSUs"
+      ],
+      [
+        "$7.2 billion",
+        "INTC"
+      ],
+      [
+        "Board of Directors",
+        "INTC"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777306037,
+    "update_time": 1777306037,
+    "_id": "doc-77d86694dce1fc1e9c3d3ac3bab4c5be"
+  },
+  "doc-01ee832930ff813d9db8fa5bfa02507e": {
+    "relation_pairs": [
+      [
+        "Exchange Act",
+        "Rule 10b5-1"
+      ],
+      [
+        "INTC",
+        "March 28, 2026"
+      ],
+      [
+        "INTC",
+        "Section 13(r)"
+      ],
+      [
+        "FSB",
+        "U.S. Secretary of State"
+      ],
+      [
+        "General License 1B",
+        "INTC"
+      ],
+      [
+        "$110.0 billion",
+        "INTC"
+      ],
+      [
+        "Common Stock",
+        "INTC"
+      ],
+      [
+        "INTC",
+        "Rule 10b5-1"
+      ],
+      [
+        "INTC",
+        "RSUs"
+      ],
+      [
+        "$7.2 billion",
+        "INTC"
+      ],
+      [
+        "FSB",
+        "INTC"
+      ],
+      [
+        "Board of Directors",
+        "INTC"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1777306038,
+    "update_time": 1777306038,
+    "_id": "doc-01ee832930ff813d9db8fa5bfa02507e"
+  },
+  "doc-42f53a7a013b4ea3f40ae02d0580650e": {
+    "relation_pairs": [
+      [
+        "Facility-Related Expenses",
+        "SG&A Expenses"
+      ],
+      [
+        "Liquidity",
+        "Working Capital"
+      ],
+      [
+        "Material Cash Requirements",
+        "Senior Notes"
+      ],
+      [
+        "$5.95 Billion",
+        "Senior Notes"
+      ],
+      [
+        "$1.50 Billion",
+        "Revolving Credit Facility"
+      ],
+      [
+        "PCB and Component Inspection",
+        "Revenues"
+      ],
+      [
+        "Effective tax rate",
+        "Pillar Two"
+      ],
+      [
+        "Income Tax Payable",
+        "Material Cash Requirements"
+      ],
+      [
+        "$1.31 Billion",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Revenues",
+        "Wafer Inspection"
+      ],
+      [
+        "Diluted Net Income Per Share",
+        "KLA"
+      ],
+      [
+        "KLA",
+        "Taiwan"
+      ],
+      [
+        "Interest Payments",
+        "Material Cash Requirements"
+      ],
+      [
+        "$904.6 Million",
+        "Cash Dividends"
+      ],
+      [
+        "COVID-19 Pandemic",
+        "China"
+      ],
+      [
+        "Finite-Lived Purchased Intangible Assets",
+        "Undiscounted Future Cash Flows"
+      ],
+      [
+        "Goodwill and Purchased Intangible Assets Impairment",
+        "PCB Business"
+      ],
+      [
+        "Consolidated Subsidiaries",
+        "Guarantee Arrangements"
+      ],
+      [
+        "$773.0 Million",
+        "Cash Dividends"
+      ],
+      [
+        "Employee-Related Expenses",
+        "R&D Expenses"
+      ],
+      [
+        "KLA",
+        "Net Income Attributable to KLA"
+      ],
+      [
+        "China",
+        "Revenues"
+      ],
+      [
+        "Effective tax rate",
+        "Employee stock activity"
+      ],
+      [
+        "Product Development",
+        "R&D Expenses"
+      ],
+      [
+        "Revenues",
+        "Specialty Semiconductor Process"
+      ],
+      [
+        "KLA",
+        "Liquidity and Capital Resources"
+      ],
+      [
+        "KLA",
+        "U.S. Government"
+      ],
+      [
+        "Cash, Cash Equivalents and Marketable Securities",
+        "Net increase in cash and cash equivalents"
+      ],
+      [
+        "Costs of Revenues",
+        "Gross Margin"
+      ],
+      [
+        "R&D Expenses",
+        "Technological Innovation"
+      ],
+      [
+        "Material Cash Requirements",
+        "Purchase Commitments"
+      ],
+      [
+        "Impairment Charge",
+        "Operating Cash Flows"
+      ],
+      [
+        "Asia",
+        "Revenues"
+      ],
+      [
+        "KLA",
+        "Revenue Recognition"
+      ],
+      [
+        "Goodwill and Purchased Intangible Assets Impairment",
+        "Internal Reorganization"
+      ],
+      [
+        "Deferred Compensation Plan",
+        "Material Cash Requirements"
+      ],
+      [
+        "Credit Ratings",
+        "S&P"
+      ],
+      [
+        "Export License",
+        "U.S. Entity List"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Revenue Increase"
+      ],
+      [
+        "Revenues",
+        "Semiconductor Process Control"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Off-Balance Sheet Arrangements"
+      ],
+      [
+        "Credit Ratings",
+        "Moodys"
+      ],
+      [
+        "$1.74 Billion",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Effective tax rate",
+        "Tax legislation"
+      ],
+      [
+        "Gross Margin",
+        "Research and Development"
+      ],
+      [
+        "Company",
+        "Deferred Tax Assets"
+      ],
+      [
+        "Fiscal Year 2025",
+        "KLA"
+      ],
+      [
+        "Effective tax rate",
+        "R&D credits"
+      ],
+      [
+        "Cash, Cash Equivalents and Marketable Securities",
+        "Effect of exchange rate changes on cash and cash equivalents"
+      ],
+      [
+        "Cash and cash equivalents",
+        "Total cash, cash equivalents and marketable securities"
+      ],
+      [
+        "Income before income taxes",
+        "Provision for income taxes"
+      ],
+      [
+        "PCB and Component Inspection",
+        "Services"
+      ],
+      [
+        "Cash, Cash Equivalents and Marketable Securities",
+        "Net cash provided by operating activities"
+      ],
+      [
+        "Commerce Department",
+        "KLAC"
+      ],
+      [
+        "Company",
+        "Income Taxes"
+      ],
+      [
+        "$3.79 Billion",
+        "Financing Activities"
+      ],
+      [
+        "Effective tax rate",
+        "Executive Deferred Savings Plan"
+      ],
+      [
+        "Credit Ratings",
+        "Fitch"
+      ],
+      [
+        "Goodwill impairment charge",
+        "Provision for income taxes"
+      ],
+      [
+        "Marketable securities",
+        "Total cash, cash equivalents and marketable securities"
+      ],
+      [
+        "PCB and Display Operating Segment",
+        "Restructuring Charges"
+      ],
+      [
+        "Credits and Incentives",
+        "Variable Consideration"
+      ],
+      [
+        "$2.15 Billion",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Factoring Arrangements",
+        "Trade Receivables"
+      ],
+      [
+        "Company",
         "Unrecognized Tax Benefits"
       ],
       [
-        "Special Purpose Entities",
-        "Structured Finance"
+        "Cash, Cash Equivalents and Marketable Securities",
+        "Net cash used in investing activities"
       ],
       [
-        "Deferred Revenue",
-        "Operating Activities"
+        "Financial Covenants",
+        "Revolving Credit Facility"
       ],
       [
-        "Accounts Payable",
-        "Operating Activities"
+        "China",
+        "KLA"
       ],
       [
-        "Contracts",
-        "PCS"
+        "Patterning",
+        "Revenues"
       ],
       [
-        "Deferred Income Taxes",
-        "Stock-Based Compensation Expenses"
+        "Gross Margin",
+        "Total Revenues"
       ],
       [
-        "Product Revenue",
-        "Service Revenue"
+        "Material Cash Requirements",
+        "Principal Note"
       ],
       [
-        "Cost of Revenue",
-        "Service Revenue"
+        "Cash, Cash Equivalents and Marketable Securities",
+        "Net cash used in financing activities"
       ],
       [
-        "Arista",
-        "Ethernet Switching"
+        "Fiscal Year 2024",
+        "Fiscal Year 2025"
       ],
       [
-        "Business Acquisition",
-        "Cash Flows from Investing Activities"
+        "Product Maintenance",
+        "Service Revenues"
+      ],
+      [
+        "$202.5 Million",
+        "Investing Activities"
+      ],
+      [
+        "KLAC",
+        "U.S. Entity List"
+      ],
+      [
+        "Company",
+        "Valuation Allowance"
+      ],
+      [
+        "China",
+        "Taiwan"
+      ],
+      [
+        "Dividends",
+        "KLA"
+      ],
+      [
+        "Revenues",
+        "Services"
+      ],
+      [
+        "Installed Base",
+        "Service Revenues"
+      ],
+      [
+        "KLA",
+        "Part I Item 1A Risk Factors"
+      ],
+      [
+        "China",
+        "Chinese Government Initiatives"
+      ],
+      [
+        "Material Cash Requirements",
+        "Operating Lease Obligation"
+      ],
+      [
+        "Fiscal Year 2024",
+        "KLA"
+      ],
+      [
+        "AI Infrastructure Buildout",
+        "Semiconductor Process Control"
+      ],
+      [
+        "Samsung Electronics Co., Ltd.",
+        "Taiwan Semiconductor Manufacturing Company Limited"
+      ],
+      [
+        "KLA",
+        "Share Repurchases"
+      ],
+      [
+        "Fiscal Year 2023",
+        "Fiscal Year 2024"
+      ],
+      [
+        "Debt Obligations",
+        "Senior Notes"
+      ],
+      [
+        "Revenue",
+        "Volume Purchase Agreements"
+      ],
+      [
+        "China",
+        "U.S. Export Controls and Regulations"
+      ],
+      [
+        "Fluctuations in Foreign Currency Exchange Rates",
+        "Service Revenues"
+      ],
+      [
+        "Effective tax rate",
+        "Tax planning strategies"
+      ],
+      [
+        "Effective tax rate",
+        "Pre-tax income"
+      ],
+      [
+        "Effective tax rate",
+        "Non-deductible expenses"
       ]
     ],
     "count": 96,
-    "create_time": 1777263401,
-    "update_time": 1777263401,
-    "_id": "doc-dd7521f9a2af5468bfd407a10851d384"
+    "create_time": 1777306962,
+    "update_time": 1777306962,
+    "_id": "doc-42f53a7a013b4ea3f40ae02d0580650e"
+  },
+  "doc-a0875cdce54018cd923f6cab7e6b6692": {
+    "relation_pairs": [
+      [
+        "KLA Corporation",
+        "NASDAQ: KLAC"
+      ],
+      [
+        "KLA Corporation",
+        "Mike Dulin"
+      ],
+      [
+        "KLA Corporation",
+        "ir.kla.com"
+      ],
+      [
+        "$1.90 Dividend",
+        "KLA Corporation"
+      ],
+      [
+        "KLA Corporation",
+        "www.kla.com"
+      ],
+      [
+        "$1.90 Dividend",
+        "Feb. 17, 2026"
+      ],
+      [
+        "$1.90 Dividend",
+        "March 3, 2026"
+      ],
+      [
+        "KLA Corporation",
+        "Kevin Kessel"
+      ],
+      [
+        "$1.90 Dividend",
+        "Board of Directors"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1777307138,
+    "update_time": 1777307138,
+    "_id": "doc-a0875cdce54018cd923f6cab7e6b6692"
+  },
+  "doc-c22edc0f49803e029a935a9524737c28": {
+    "relation_pairs": [
+      [
+        "Corporate Alternative Minimum Tax",
+        "Inflation Reduction Act"
+      ],
+      [
+        "ESG",
+        "State of California"
+      ],
+      [
+        "Acquisitions",
+        "Customer Base"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "IT Systems"
+      ],
+      [
+        "Inflation Reduction Act",
+        "Organization for Economic Co-operation and Development"
+      ],
+      [
+        "Euro",
+        "exchange rate fluctuations"
+      ],
+      [
+        "Company",
+        "Key Personnel"
+      ],
+      [
+        "Intellectual Property Rights",
+        "International Business"
+      ],
+      [
+        "KLA",
+        "Operational Difficulties"
+      ],
+      [
+        "Fitch Inc.",
+        "Senior Notes"
+      ],
+      [
+        "Strategic Alliances",
+        "Suppliers"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Operational Difficulties"
+      ],
+      [
+        "Company",
+        "Third-Party Service Providers"
+      ],
+      [
+        "Patent Applications",
+        "U.S. and International Patents"
+      ],
+      [
+        "Proprietary Technology",
+        "U.S. and International Patents"
+      ],
+      [
+        "Business Plan",
+        "Key Suppliers"
+      ],
+      [
+        "Factoring Arrangements",
+        "Financial Institutions"
+      ],
+      [
+        "Custom Electronic and Mechanical Components",
+        "Key Suppliers"
+      ],
+      [
+        "PCB Industries",
+        "Technology Industry"
+      ],
+      [
+        "KLAC",
+        "Q3_2025"
+      ],
+      [
+        "Ransomware Event",
+        "Suppliers"
+      ],
+      [
+        "China",
+        "Commerce"
+      ],
+      [
+        "Government Funding",
+        "Strategic Development Programs"
+      ],
+      [
+        "2025-08-08",
+        "KLAC"
+      ],
+      [
+        "Manufacturing Capacity",
+        "Semiconductor Manufacturers"
+      ],
+      [
+        "AI",
+        "Our Competitors"
+      ],
+      [
+        "AI",
+        "United States"
+      ],
+      [
+        "Global Intangible Low-Taxed Income",
+        "U.S."
+      ],
+      [
+        "Customer Orders",
+        "Macroeconomic Changes"
+      ],
+      [
+        "ESG",
+        "KLAC"
+      ],
+      [
+        "Financial Institutions",
+        "hedges"
+      ],
+      [
+        "Base Erosion and Profit Shifting",
+        "Organization for Economic Co-operation and Development"
+      ],
+      [
+        "AI",
+        "KLAC"
+      ],
+      [
+        "KLA",
+        "Singapore"
+      ],
+      [
+        "Process Control and Yield Management Products",
+        "Semiconductor Industry"
+      ],
+      [
+        "Inspection Products",
+        "Proprietary Technology"
+      ],
+      [
+        "Pricing Strategies",
+        "U.S. Tariffs"
+      ],
+      [
+        "Semiconductor Industry",
+        "Technology Industry"
+      ],
+      [
+        "ESG",
+        "GHG Emissions"
+      ],
+      [
+        "Trade War",
+        "U.S. Tariffs"
+      ],
+      [
+        "Joint Development Programs",
+        "Product Development"
+      ],
+      [
+        "Foundry/Logic Customers",
+        "Memory Customers"
+      ],
+      [
+        "Hezbollah",
+        "Iran"
+      ],
+      [
+        "Proprietary Technology",
+        "Trade Secrets"
+      ],
+      [
+        "Advanced DRAM IC",
+        "China"
+      ],
+      [
+        "Customers",
+        "Worldwide Industry Condition"
+      ],
+      [
+        "IP Disputes",
+        "Legal Proceedings"
+      ],
+      [
+        "Product Shipment",
+        "Revenues"
+      ],
+      [
+        "S&P Global Ratings",
+        "Senior Notes"
+      ],
+      [
+        "Business Partners",
+        "Legal Proceedings"
+      ],
+      [
+        "Israeli Shekel",
+        "exchange rate fluctuations"
+      ],
+      [
+        "Exclusive and Non-Exclusive Licenses",
+        "Proprietary Technology"
+      ],
+      [
+        "Critical Information Systems",
+        "Enterprise Resource Planning System"
+      ],
+      [
+        "Collaborative Technology Development Efforts",
+        "Product R&D"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Financial and Management Information"
+      ],
+      [
+        "2022 BIS Rules",
+        "Export Administration Regulations"
+      ],
+      [
+        "2024 BIS Rules",
+        "Advanced DRAM IC"
+      ],
+      [
+        "Singapore",
+        "tax jurisdiction"
+      ],
+      [
+        "Business Plan",
+        "Credit Agreement"
+      ],
+      [
+        "Acquisitions",
+        "Goodwill"
+      ],
+      [
+        "GHG Emissions",
+        "SBTi"
+      ],
+      [
+        "Steel",
+        "U.S. Tariffs"
+      ],
+      [
+        "Global Trade Issues",
+        "International Business"
+      ],
+      [
+        "International Business",
+        "Macroeconomic Conditions"
+      ],
+      [
+        "Japanese Yen",
+        "exchange rate fluctuations"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Cybersecurity Vulnerabilities",
+        "Patches"
+      ],
+      [
+        "Investigations",
+        "Semiconductors"
+      ],
+      [
+        "Customer Deliveries",
+        "Operational Model"
+      ],
+      [
+        "Renewable Electricity Usage",
+        "Revolving Credit Facility"
+      ],
+      [
+        "International Political Instability",
+        "Operations"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Suppliers"
+      ],
+      [
+        "2022 BIS Rules",
+        "China"
+      ],
+      [
+        "2025 BIS Rules",
+        "Commerce"
+      ],
+      [
+        "Business Closures",
+        "Customer Base"
+      ],
+      [
+        "Confidentiality Agreements",
+        "Trade Secrets"
+      ],
+      [
+        "IT Systems",
+        "KLA"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Government Funding"
+      ],
+      [
+        "AI",
+        "Our Customers"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Cybersecurity Vulnerabilities"
+      ],
+      [
+        "Volume Purchase Agreements",
+        "revenue recognition"
+      ],
+      [
+        "California",
+        "Earthquake"
+      ],
+      [
+        "Key Suppliers",
+        "Proprietary IP"
+      ],
+      [
+        "KLAC",
+        "annual_risk"
+      ],
+      [
+        "Israel",
+        "emergency conditions"
+      ],
+      [
+        "Lithography",
+        "Technology Advancement"
+      ],
+      [
+        "Collaborators",
+        "Strategic Partners"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Insurance"
+      ],
+      [
+        "Corporate Laws",
+        "cash dividends"
+      ],
+      [
+        "KLAC",
+        "credit markets"
+      ],
+      [
+        "Collaborative Technology Development Efforts",
+        "Proprietary Technology"
+      ],
+      [
+        "Credit Agreement",
+        "Prior Revolving Credit Facility"
+      ],
+      [
+        "Inventory Write-Offs",
+        "Restructuring Charges"
+      ],
+      [
+        "Net Controlled Foreign Corporation Tested Income",
+        "One Big Beautiful Bill Act"
+      ],
+      [
+        "Energy Shortages",
+        "Operations"
+      ],
+      [
+        "Foreign-Derived Intangible Income",
+        "One Big Beautiful Bill Act"
+      ],
+      [
+        "Commerce",
+        "Investigations"
+      ],
+      [
+        "Investment Portfolio",
+        "U.S."
+      ],
+      [
+        "Asset Impairment",
+        "Goodwill"
+      ],
+      [
+        "Pillar Two",
+        "Singapore"
+      ],
+      [
+        "Aluminum",
+        "U.S. Tariffs"
+      ],
+      [
+        "Global Intangible Low-Taxed Income",
+        "One Big Beautiful Bill Act"
+      ],
+      [
+        "Confidential Information",
+        "Cybersecurity Incidents"
+      ],
+      [
+        "Customer-Specific Commitments",
+        "Volume Purchase Agreements"
+      ],
+      [
+        "Foundry/Logic Industry",
+        "Semiconductor Industry"
+      ],
+      [
+        "Russia",
+        "U.S."
+      ],
+      [
+        "U.S.",
+        "U.S. Tariffs"
+      ],
+      [
+        "Organization for Economic Co-operation and Development",
+        "Pillar Two"
+      ],
+      [
+        "Belarus",
+        "European Union"
+      ],
+      [
+        "Global Financial Markets",
+        "Investment Portfolio"
+      ],
+      [
+        "IP Rights",
+        "indemnification"
+      ],
+      [
+        "R&D",
+        "Revenues"
+      ],
+      [
+        "Credit Agreement",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Court of Chancery of the State of Delaware",
+        "KLAC"
+      ],
+      [
+        "Hedging Instruments",
+        "International Business"
+      ],
+      [
+        "Geopolitical Tensions",
+        "Operations"
+      ],
+      [
+        "KLAC",
+        "Senior Notes"
+      ],
+      [
+        "Economic Environment",
+        "Revenue Shortfall"
+      ],
+      [
+        "Business Plan",
+        "Lead-Times"
+      ],
+      [
+        "Bylaws",
+        "Company"
+      ],
+      [
+        "Capital and Financial Markets",
+        "Global Financial Markets"
+      ],
+      [
+        "KLA",
+        "Third-Party Providers"
+      ],
+      [
+        "U.S. Department of Commerce",
+        "U.S. Tariffs"
+      ],
+      [
+        "Competitors Products",
+        "Customers"
+      ],
+      [
+        "Moodys Investors Service",
+        "Senior Notes"
+      ],
+      [
+        "Market Acceptance",
+        "Technology Advancement"
+      ],
+      [
+        "Belarus",
+        "U.S."
+      ],
+      [
+        "Complexity",
+        "Customer Remedies"
+      ],
+      [
+        "Corporate Consolidation",
+        "Customer Base"
+      ],
+      [
+        "Proprietary Technology",
+        "Trademarks"
+      ],
+      [
+        "Business Plan",
+        "Revolving Credit Facility"
+      ],
+      [
+        "KLAC",
+        "capital equipment"
+      ],
+      [
+        "2023 BIS Rules",
+        "Commerce"
+      ],
+      [
+        "Key Suppliers",
+        "Rare Earth Minerals"
+      ],
+      [
+        "Manufacturing Facilities",
+        "Suppliers"
+      ],
+      [
+        "Acquisitions",
+        "Suppliers"
+      ],
+      [
+        "Customers",
+        "Second-Source Suppliers"
+      ],
+      [
+        "Restructuring Charges",
+        "Workforce Changes"
+      ],
+      [
+        "Common Stock",
+        "market volatility"
+      ],
+      [
+        "Corporate and Government Debt Securities",
+        "market interest rates"
+      ],
+      [
+        "European Union",
+        "Russia"
+      ],
+      [
+        "Competitors Products",
+        "Semiconductor Manufacturers"
+      ],
+      [
+        "Credit Agreement",
+        "Senior Notes"
+      ],
+      [
+        "IP disputes",
+        "KLAC"
+      ],
+      [
+        "KLAC",
+        "global demand"
+      ],
+      [
+        "Export Control Regulations",
+        "U.S."
+      ],
+      [
+        "Federal and State Income Tax Laws",
+        "cash dividends"
+      ],
+      [
+        "Board of Directors",
+        "Stockholders"
+      ],
+      [
+        "Prior Revolving Credit Facility",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Chinese Government",
+        "Rare Earth Minerals"
+      ],
+      [
+        "Cost-Effectiveness",
+        "Technology Advancement"
+      ],
+      [
+        "Company",
+        "Government Actions"
+      ],
+      [
+        "Customers",
+        "Semiconductor Manufacturers"
+      ],
+      [
+        "ESG",
+        "SBTi"
+      ],
+      [
+        "China",
+        "U.S. Entity List"
+      ],
+      [
+        "Critical Information Systems",
+        "System Failures"
+      ],
+      [
+        "KLAC",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Operations",
+        "Terrorism"
+      ],
+      [
+        "Acquisitions",
+        "Unforeseen Obligations"
+      ],
+      [
+        "Business Plan",
+        "Senior Notes"
+      ],
+      [
+        "Board of Directors",
+        "cash dividends"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "IP Rights"
+      ],
+      [
+        "Foreign-Derived Deduction Eligible Income",
+        "One Big Beautiful Bill Act"
+      ],
+      [
+        "Customers",
+        "Process Control and Yield Management Products"
+      ],
+      [
+        "2022 BIS Rules",
+        "Commerce"
+      ],
+      [
+        "Confidential Information",
+        "KLA"
+      ],
+      [
+        "Hamas",
+        "Iran"
+      ],
+      [
+        "2023 BIS Rules",
+        "D1, D4 and/or D5 countries"
+      ],
+      [
+        "Operations",
+        "Public Health Crises"
+      ],
+      [
+        "Copper",
+        "U.S. Tariffs"
+      ],
+      [
+        "Customer Acceptance",
+        "Operational Matters"
+      ],
+      [
+        "Goodwill",
+        "Impairment Charge"
+      ],
+      [
+        "U.S. Department of Commerce",
+        "U.S. Export Administration Regulations"
+      ],
+      [
+        "Economic Sanctions",
+        "U.S."
+      ],
+      [
+        "KLAC",
+        "electronic devices"
+      ],
+      [
+        "Huawei",
+        "U.S. Entity List"
+      ],
+      [
+        "Governmental Law Enforcement Agencies",
+        "Legal Proceedings"
+      ],
+      [
+        "Pound Sterling",
+        "exchange rate fluctuations"
+      ],
+      [
+        "Foreign-Derived Intangible Income",
+        "U.S."
+      ],
+      [
+        "GHG Emissions",
+        "Revolving Credit Facility"
+      ],
+      [
+        "AI",
+        "IP"
+      ],
+      [
+        "End-of-Life Parts",
+        "Inventory Write-Off"
+      ],
+      [
+        "Debt and Equity Investments",
+        "Investment Portfolio"
+      ],
+      [
+        "Cybersecurity Risks",
+        "KLA"
+      ],
+      [
+        "KLA",
+        "Singapore Economic Development Board"
+      ],
+      [
+        "Customers",
+        "Local Markets"
+      ],
+      [
+        "Inspection Products",
+        "Revenues"
+      ],
+      [
+        "KLAC",
+        "LAYER_D"
+      ],
+      [
+        "2024 BIS Rules",
+        "Commerce"
+      ],
+      [
+        "Cost Controls",
+        "Operational Model"
+      ],
+      [
+        "Cyber Incidents",
+        "Third-Party Service Providers"
+      ],
+      [
+        "R&D",
+        "Semiconductor Industry"
+      ],
+      [
+        "Customers",
+        "U.S. Tariffs"
+      ],
+      [
+        "Insurance Providers",
+        "Operations"
+      ],
+      [
+        "Copyright Protection",
+        "Proprietary Technology"
+      ],
+      [
+        "Goodwill",
+        "Purchased Intangible Assets"
+      ],
+      [
+        "AI",
+        "Cybersecurity Incidents"
+      ],
+      [
+        "PCB Industry",
+        "R&D"
+      ],
+      [
+        "ESG",
+        "European Union"
+      ],
+      [
+        "Revolving Credit Facility",
+        "debt obligations"
+      ],
+      [
+        "Asset Impairment",
+        "Purchased Intangible Assets"
+      ],
+      [
+        "U.S.",
+        "tax jurisdiction"
+      ],
+      [
+        "Climate Change",
+        "Natural Catastrophic Events"
+      ],
+      [
+        "Operations",
+        "War"
+      ],
+      [
+        "Operational Adjustments",
+        "U.S. Tariffs"
+      ],
+      [
+        "R&D",
+        "capital requirements"
+      ],
+      [
+        "GHG Protocol",
+        "Scope 1, 2 and 3 Emissions"
+      ],
+      [
+        "Accounting Standards",
+        "Taxation Rules"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Cybersecurity Threats"
+      ]
+    ],
+    "count": 209,
+    "create_time": 1777307446,
+    "update_time": 1777307446,
+    "_id": "doc-c22edc0f49803e029a935a9524737c28"
+  },
+  "doc-5683e0e31bc2c33bc785c82d9af45ff5": {
+    "relation_pairs": [
+      [
+        "Fitch Inc.",
+        "Rating AgencyRating"
+      ],
+      [
+        "Facility-Related Expenses",
+        "SG&A Expenses"
+      ],
+      [
+        "December 31, 2023",
+        "Specialty Semiconductor Process Segment"
+      ],
+      [
+        "Artificial Intelligence",
+        "KLA"
+      ],
+      [
+        "Effective Tax Rate",
+        "Non-deductible Goodwill Impairment"
+      ],
+      [
+        "Interest Expense",
+        "Senior Notes"
+      ],
+      [
+        "KLA",
+        "Light-Emitting Diode"
+      ],
+      [
+        "Equity Incentive Plans",
+        "Stock Repurchases"
+      ],
+      [
+        "KLAC",
+        "Peoples Republic of China"
+      ],
+      [
+        "PCB and Component Inspection",
+        "Settlement"
+      ],
+      [
+        "Display Business",
+        "Major FPD Customer"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "Goodwill and Purchased Intangible Assets"
+      ],
+      [
+        "KLAC",
+        "quarterly_mda"
+      ],
+      [
+        "December 31, 2024",
+        "Working Capital"
+      ],
+      [
+        "Interest Income",
+        "Net Cash Provided by Operating Activities"
+      ],
+      [
+        "Specialty Semiconductor Process",
+        "Total revenues for reportable segments"
+      ],
+      [
+        "Financial Position",
+        "Fitch Inc."
+      ],
+      [
+        "Audit Committee",
+        "Management"
+      ],
+      [
+        "Fitch Inc.",
+        "Material Acquisitions"
+      ],
+      [
+        "R&D Expenses",
+        "Semiconductor Process Control Segment"
+      ],
+      [
+        "Bureau of Industry and Security",
+        "U.S. Department of Commerce"
+      ],
+      [
+        "2023 BIS Rules",
+        "KLA"
+      ],
+      [
+        "Foreign Currency Exchange Rates",
+        "Segment revenues"
+      ],
+      [
+        "KLA",
+        "Semiconductor"
+      ],
+      [
+        "Fitch Inc.",
+        "Semiconductor Industry"
+      ],
+      [
+        "Material Cash Requirements",
+        "Semiconductor Industry"
+      ],
+      [
+        "KLA",
+        "Microelectromechanical Systems"
+      ],
+      [
+        "Capital Expenditures",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Rating AgencyRating",
+        "S&P Global Ratings"
+      ],
+      [
+        "Flat Panel Displays",
+        "KLA"
+      ],
+      [
+        "Net Cash Provided by (Used in) Investing Activities",
+        "Net Cash Provided by Operating Activities"
+      ],
+      [
+        "Effective Tax Rate",
+        "Goodwill Impairment Charge"
+      ],
+      [
+        "PCB and Component Inspection",
+        "Total revenues for reportable segments"
+      ],
+      [
+        "Product Revenues",
+        "Service Revenues"
+      ],
+      [
+        "Electronic Components",
+        "KLA"
+      ],
+      [
+        "Fiscal 2024",
+        "Goodwill Impairment Tests"
+      ],
+      [
+        "Goodwill and Purchased Intangible Assets Impairment",
+        "PCB Business"
+      ],
+      [
+        "Condensed Consolidated Financial Statements",
+        "Revolving Credit Facility"
+      ],
+      [
+        "KLAC",
+        "Q1_2025"
+      ],
+      [
+        "Revolving Credit Facility",
+        "Working Capital Needs"
+      ],
+      [
+        "December 31, 2024",
+        "PCB and Component Inspection Segment"
+      ],
+      [
+        "China",
+        "Product Revenues"
+      ],
+      [
+        "Product Revenues",
+        "Specialty Semiconductor Process"
+      ],
+      [
+        "Customer and Other Collections",
+        "Net Cash Provided by Operating Activities"
+      ],
+      [
+        "Employee-Related Expenses",
+        "R&D Expenses"
+      ],
+      [
+        "Fitch Inc.",
+        "Semiconductor Capital Equipment Industry"
+      ],
+      [
+        "2022 BIS Rules",
+        "KLA"
+      ],
+      [
+        "Export Licenses",
+        "Supply Chain"
+      ],
+      [
+        "Interest Expense",
+        "Total Revenues"
+      ],
+      [
+        "Gross Margin",
+        "PCB and Component Inspection Segment"
+      ],
+      [
+        "Condensed Consolidated Financial Statements",
+        "Senior Notes"
+      ],
+      [
+        "Product Revenues",
+        "Semiconductor Process Control"
+      ],
+      [
+        "KLA",
+        "Printed Circuit Boards"
+      ],
+      [
+        "December 31, 2023",
+        "PCB and Component Inspection Segment"
+      ],
+      [
+        "Other Expense (Income), Net",
+        "Total Revenues"
+      ],
+      [
+        "Display Business",
+        "PCB and Component Inspection"
+      ],
+      [
+        "U.S.",
+        "Wafer Fab Equipment Manufacturers"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "Total Cash, Cash Equivalents and Marketable Securities"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Consulting Costs",
+        "SG&A Expenses"
+      ],
+      [
+        "Compound Semiconductor",
+        "KLA"
+      ],
+      [
+        "Net Cash Provided by Operating Activities",
+        "Other Tax Payments"
+      ],
+      [
+        "2024 BIS Rules",
+        "KLA"
+      ],
+      [
+        "Deposition",
+        "Specialty Semiconductor Process"
+      ],
+      [
+        "December 31, 2024",
+        "Semiconductor Process Control Segment"
+      ],
+      [
+        "Gross Margin",
+        "R&D Expenses"
+      ],
+      [
+        "PCB and Component Inspection Segment",
+        "R&D Expenses"
+      ],
+      [
+        "Credit Agreement",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Deferred Tax Liabilities",
+        "Tax Expense"
+      ],
+      [
+        "Promotional Expenses",
+        "SG&A Expenses"
+      ],
+      [
+        "Employee-Related Expenses",
+        "SG&A Expenses"
+      ],
+      [
+        "R&D Expenses",
+        "Specialty Semiconductor Process Segment"
+      ],
+      [
+        "Economic Environment",
+        "Fitch Inc."
+      ],
+      [
+        "Engineering Project Material Costs",
+        "R&D Expenses"
+      ],
+      [
+        "Accounts Payable Payments",
+        "Cash Flows Provided by (Used in) Investing Activities"
+      ],
+      [
+        "Defect Inspection",
+        "Semiconductor Process Control"
+      ],
+      [
+        "SG&A Expenses",
+        "Travel Expenses"
+      ],
+      [
+        "Gross Margin",
+        "Semiconductor Process Control Segment"
+      ],
+      [
+        "Employee-Related Payments",
+        "Net Cash Provided by Operating Activities"
+      ],
+      [
+        "Goodwill Impairment",
+        "Purchased Intangible Assets"
+      ],
+      [
+        "December 31, 2023",
+        "Semiconductor Process Control Segment"
+      ],
+      [
+        "Fiscal 2025",
+        "Goodwill Impairment Tests"
+      ],
+      [
+        "Outstanding Debt",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Semiconductor Process Control",
+        "Total revenues for reportable segments"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Form 10-K"
+      ],
+      [
+        "Contractual Obligations",
+        "Revolving Credit Facility"
+      ],
+      [
+        "2024",
+        "June 30, 2024"
+      ],
+      [
+        "Board of Directors",
+        "Common Stock"
+      ],
+      [
+        "Advanced Packaging",
+        "KLA"
+      ],
+      [
+        "KLAC",
+        "NASDAQ"
+      ],
+      [
+        "Employee Stock Activity",
+        "Tax Expense"
+      ],
+      [
+        "Product Maintenance",
+        "Service Revenues"
+      ],
+      [
+        "Goodwill Impairment Tests",
+        "PCB and Component Inspection"
+      ],
+      [
+        "KLAC",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Environmental, Social and Governance",
+        "KLAC"
+      ],
+      [
+        "KLA",
+        "Specialty Semiconductor Devices"
+      ],
+      [
+        "China",
+        "Wafer Fab Equipment Manufacturers"
+      ],
+      [
+        "Form 10-Q",
+        "Goodwill and Purchased Intangible Assets"
+      ],
+      [
+        "2024",
+        "December 31, 2024"
+      ],
+      [
+        "Etching",
+        "Specialty Semiconductor Process"
+      ],
+      [
+        "Percentage of Total Assets",
+        "Total Cash, Cash Equivalents and Marketable Securities"
+      ],
+      [
+        "KLAC",
+        "Securities Exchange Act of 1934"
+      ],
+      [
+        "PCB and Component Inspection",
+        "Product Revenues"
+      ],
+      [
+        "Executive Deferred Savings Plan",
+        "Tax Effects"
+      ],
+      [
+        "Global Economy",
+        "Material Cash Requirements"
+      ],
+      [
+        "Moodys Investors Service",
+        "Rating AgencyRating"
+      ],
+      [
+        "Goodwill Impairment Tests",
+        "Specialty Semiconductor Process"
+      ],
+      [
+        "Depreciation Expense",
+        "R&D Expenses"
+      ],
+      [
+        "Marketable Securities",
+        "Total Cash, Cash Equivalents and Marketable Securities"
+      ],
+      [
+        "Audit Committee",
+        "Board of Directors"
+      ],
+      [
+        "Patterning",
+        "Semiconductor Process Control"
+      ],
+      [
+        "Marketable Securities",
+        "Revolving Credit Facility"
+      ],
+      [
+        "KLA",
+        "Power Devices"
+      ],
+      [
+        "Accounts Payable Payments",
+        "Net Cash Provided by Operating Activities"
+      ],
+      [
+        "KLAC",
+        "Ukraine"
+      ],
+      [
+        "Pre-tax Income",
+        "R&D Credits"
+      ],
+      [
+        "KLAC",
+        "Securities Act of 1933"
+      ],
+      [
+        "Employee Stock Purchase Program",
+        "Stock Repurchases"
+      ],
+      [
+        "Indenture",
+        "Senior Notes"
+      ],
+      [
+        "Cash Dividends",
+        "Revolving Credit Facility"
+      ],
+      [
+        "December 31, 2024",
+        "Specialty Semiconductor Process Segment"
+      ],
+      [
+        "Revolving Credit Facility",
+        "Stock Repurchases"
+      ],
+      [
+        "Income before Income Taxes",
+        "Provision for Income Taxes"
+      ],
+      [
+        "Net Cash Provided by Operating Activities",
+        "Net Cash Used in Financing Activities"
+      ],
+      [
+        "Integrated Circuits",
+        "KLA"
+      ],
+      [
+        "IC Manufacturers",
+        "Semiconductor Fabrication Process"
+      ],
+      [
+        "2025 BIS Rules",
+        "KLA"
+      ],
+      [
+        "Bureau of Industry and Security",
+        "KLAC"
+      ],
+      [
+        "Income Tax Payments",
+        "Net Cash Provided by Operating Activities"
+      ],
+      [
+        "Product Revenues",
+        "Taiwan"
+      ],
+      [
+        "Business Strategy",
+        "Fitch Inc."
+      ],
+      [
+        "Goodwill",
+        "Goodwill Impairment"
+      ],
+      [
+        "Export Licenses",
+        "Product Shipment"
+      ],
+      [
+        "Government Incentives",
+        "Revenues"
+      ],
+      [
+        "Tax Expense",
+        "Unremitted Earnings"
+      ],
+      [
+        "Electronic Device Industries",
+        "Material Cash Requirements"
+      ],
+      [
+        "KLAC",
+        "Layer D"
+      ],
+      [
+        "Gross Margin",
+        "Specialty Semiconductor Process Segment"
+      ],
+      [
+        "Corporate Allocations",
+        "Segment revenues"
+      ],
+      [
+        "KLA",
+        "R&D"
+      ]
+    ],
+    "count": 140,
+    "create_time": 1777307870,
+    "update_time": 1777307870,
+    "_id": "doc-5683e0e31bc2c33bc785c82d9af45ff5"
+  },
+  "doc-907468a5364512a188636b1b56d460c3": {
+    "relation_pairs": [
+      [
+        "Arm Holdings plc",
+        "earnings_press_release"
+      ],
+      [
+        "Noh-Jung Kwak",
+        "SK Hynix"
+      ],
+      [
+        "Arm",
+        "Arm Limited"
+      ],
+      [
+        "AI Data Centers",
+        "Arm"
+      ],
+      [
+        "Microsoft Azure",
+        "Rani Borkar"
+      ],
+      [
+        "Micron Technology",
+        "Sanjay Mehrotra"
+      ],
+      [
+        "Arm Holdings plc",
+        "NASDAQ"
+      ],
+      [
+        "Arm",
+        "Strategic Investments"
+      ],
+      [
+        "Agentic AI",
+        "Arm AGI CPU"
+      ],
+      [
+        "Samsung",
+        "Young Hyun Jun"
+      ],
+      [
+        "Arm AGI CPU",
+        "Arm Neoverse V3"
+      ],
+      [
+        "Arm Holdings plc",
+        "Meta"
+      ],
+      [
+        "AWS",
+        "Graviton"
+      ],
+      [
+        "Arm",
+        "Semiconductor and Electronics Industries"
+      ],
+      [
+        "Arm",
+        "Meta"
+      ],
+      [
+        "Arm",
+        "Arm's Architecture"
+      ],
+      [
+        "Meta",
+        "Meta Training and Inference Accelerator"
+      ],
+      [
+        "Arm",
+        "Microsoft Azure"
+      ],
+      [
+        "Arm",
+        "Litigation"
+      ],
+      [
+        "Arm",
+        "Cerebras"
+      ],
+      [
+        "Arm",
+        "Arm's Licensing Agreements"
+      ],
+      [
+        "Acquisitions",
+        "Arm"
+      ],
+      [
+        "Arm Holdings plc",
+        "LAYER_A"
+      ],
+      [
+        "Arm Holdings plc",
+        "Q1_2026"
+      ],
+      [
+        "Arm",
+        "Samsung"
+      ],
+      [
+        "Axion CPUs",
+        "Google"
+      ],
+      [
+        "Arm",
+        "Arm's Proprietary Products"
+      ],
+      [
+        "Arm Compute Subsystems",
+        "Arm Holdings plc"
+      ],
+      [
+        "Arm",
+        "Arm's Security Controls"
+      ],
+      [
+        "Arm",
+        "NVIDIA"
+      ],
+      [
+        "Arm AGI CPU",
+        "Arm Holdings plc"
+      ],
+      [
+        "Arm",
+        "Third Parties"
+      ],
+      [
+        "Jensen Huang",
+        "NVIDIA"
+      ],
+      [
+        "Arm",
+        "Senior Management Personnel"
+      ],
+      [
+        "Dr. Kevin Zhang",
+        "TSMC"
+      ]
+    ],
+    "count": 35,
+    "create_time": 1777308178,
+    "update_time": 1777308178,
+    "_id": "doc-907468a5364512a188636b1b56d460c3"
   }
 }
