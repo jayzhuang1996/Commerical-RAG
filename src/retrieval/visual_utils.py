@@ -60,19 +60,47 @@ CANONICAL = {
     "samsung electronics": "Samsung",
     "samsung": "Samsung",
     "globalfoundries": "GlobalFoundries",
+    "global foundries": "GlobalFoundries",
     "asml holding": "ASML",
+    "asml holding n.v.": "ASML",
     "asml": "ASML",
     "synopsys": "Synopsys",
     "cadence design": "Cadence",
+    "cadence design systems": "Cadence",
     "cadence": "Cadence",
     "cdns": "Cadence",
     "microsoft": "Microsoft",
+    "microsoft corporation": "Microsoft",
     "meta platforms": "Meta",
+    "meta platforms, inc.": "Meta",
     "meta": "Meta",
     "google": "Google",
+    "alphabet": "Google",
     "amazon": "Amazon",
     "apple": "Apple",
-}
+    "apple inc.": "Apple",
+    "apple inc": "Apple",
+    # ticker aliases
+    "intc": "Intel",
+    "nvda": "NVIDIA",
+    "tsm": "TSMC",
+    "mu": "Micron",
+    "amat": "Applied Materials",
+    "lrcx": "Lam Research",
+    "avgo": "Broadcom",
+    "qcom": "Qualcomm",
+    "mrvl": "Marvell",
+    "smci": "Super Micro",
+    "snps": "Synopsys",
+    "anet": "Arista Networks",
+    "vrt": "Vertiv",
+    "super micro": "Super Micro",
+    "supermicro": "Super Micro",
+    "micron technology, inc.": "Micron",
+    "qualcomm incorporated": "Qualcomm",
+    "qualcomm technologies": "Qualcomm",
+    "marvell technology group": "Marvell",
+
 
 def _canonical(name: str) -> str:
     return CANONICAL.get(name.lower().strip(), name.strip())
@@ -219,13 +247,12 @@ def extract_cluster_data(rag_index) -> List[Dict[str, Any]]:
         all_nodes = []
 
     layers = {
-        "Designers":  ["NVDA", "AMD", "AVGO", "ARM", "QCOM", "MRVL", "SNPS", "CDNS",
-                       "INTC", "Apple", "Google", "Amazon", "Mellanox"],
-        "Equipment":  ["ASML", "AMAT", "LRCX", "KLAC", "TOKYO ELECTRON", "KLA",
-                       "Applied Materials", "Lam Research", "Advantest", "Teradyne"],
-        "Foundry":    ["TSM", "INTC", "Samsung", "GlobalFoundries", "UMC", "SMIC", "TSMC"],
-        "Networking": ["MRVL", "ANET", "CSCO", "Broadcom", "Cisco", "Arista",
-                       "Supermicro", "Dell", "HPE", "SMCI"],
+        "AI / GPU":        ["NVDA", "AMD", "INTC", "Apple", "Google", "Amazon", "Meta", "Microsoft"],
+        "Foundry / EMS":   ["TSMC", "Samsung", "GlobalFoundries", "UMC", "SMIC", "TSM"],
+        "Equipment":       ["ASML", "Applied Materials", "Lam Research", "KLA", "AMAT", "LRCX", "KLAC"],
+        "Memory":          ["Micron", "SK Hynix", "Western Digital", "Seagate", "MU", "WDC", "STX"],
+        "Analog / Power":  ["Texas Instruments", "Analog Devices", "Microchip", "ON Semiconductor", "TXN", "ADI", "MCHP", "ON"],
+        "Networking / RF": ["Broadcom", "Qualcomm", "Marvell", "Arista", "AVGO", "QCOM", "MRVL", "ANET"],
     }
 
     clusters = []

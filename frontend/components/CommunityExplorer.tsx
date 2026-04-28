@@ -55,7 +55,7 @@ export default function CommunityExplorer() {
           
           {/* Business Filters */}
           <div style={{ display: 'flex', gap: '8px', marginTop: '16px' }}>
-            {['All Sectors', 'Designers', 'Equipment', 'Foundry'].map(filter => (
+            {['All Sectors', 'AI / GPU', 'Foundry / EMS', 'Equipment', 'Memory', 'Analog / Power', 'Networking / RF'].map(filter => (
               <button
                 key={filter}
                 onClick={() => setActiveFilter(filter)}

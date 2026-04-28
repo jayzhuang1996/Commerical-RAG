@@ -192,27 +192,39 @@ async def get_communities():
         
         # Map of business context for each layer
         business_context = {
-            "Designers": {
+            "AI / GPU": {
                 "title": "Architects of Compute",
-                "summary": "This cluster controls the theoretical blueprint of AI and accelerated computing. Their strategic moat lies in software ecosystems (e.g. CUDA) and IP dominance.",
+                "summary": "This cluster controls the theoretical blueprint of AI and accelerated computing. Their strategic moat lies in software ecosystems (e.g., CUDA) and IP dominance.",
                 "insight": "High margin due to fabless model, but heavily dependent on advanced nodes.",
                 "tensions": "Vulnerable to IP theft, sovereign export restrictions, and pure dependency on external foundries."
             },
-            "Equipment": {
-                "title": "Lithography & Foundational Tools",
-                "summary": "The physical bottleneck of Moore's Law. This cluster creates the billion-dollar EUV and etching machines required to print logic gates at the atomic (2nm) level.",
-                "insight": "Monopolistic moats (e.g., ASML in EUV) make them immune to traditional market competition.",
-                "tensions": "Geopolitically sensitive; sales to certain regions are often blocked by government decrees."
-            },
-            "Foundry": {
+            "Foundry / EMS": {
                 "title": "Apex Manufacturing",
                 "summary": "The ultimate execution layer. Foundries transform design IP into physical silicon using the equipment cluster.",
                 "insight": "Unprecedented CapEx requirements ($30B+ per fab) create an insurmountable barrier to entry.",
                 "tensions": "Geographical concentration risk in Taiwan threatens global AI supply chains if disrupted."
             },
-            "Networking": {
+            "Equipment": {
+                "title": "Lithography & Foundational Tools",
+                "summary": "The physical bottleneck of Moore's Law. This cluster creates the billion-dollar EUV and etching machines required to print logic gates at the atomic level.",
+                "insight": "Monopolistic moats (e.g., ASML in EUV) make them immune to traditional market competition.",
+                "tensions": "Geopolitically sensitive; sales to certain regions are often blocked by government decrees."
+            },
+            "Memory": {
+                "title": "Data Retention & Storage",
+                "summary": "Provides the essential high-bandwidth memory (HBM) and storage architectures necessary to feed data to advanced GPUs.",
+                "insight": "Currently experiencing a super-cycle driven by AI demand for HBM3 and HBM3E.",
+                "tensions": "Historically highly cyclical and capital intensive; extremely sensitive to supply-demand imbalances."
+            },
+            "Analog / Power": {
+                "title": "Real-World Interfaces & Power",
+                "summary": "Translates continuous real-world signals into digital data and manages power delivery for high-performance computing systems.",
+                "insight": "Less dependent on bleeding-edge nodes, offering longer product lifecycles and stable cash flows.",
+                "tensions": "Highly exposed to automotive and industrial macroeconomic cycles."
+            },
+            "Networking / RF": {
                 "title": "Data Center Arteries",
-                "summary": "As AI clusters scale to 100,000+ GPUs, the internal data center network becomes the primary bottleneck. This tier provides the critical optical and ethernet switches.",
+                "summary": "As AI clusters scale, the internal network becomes the primary bottleneck. This tier provides critical optical and ethernet switches.",
                 "insight": "Critical for sovereign AI data centers demanding 800G+ transceiver interconnect speeds.",
                 "tensions": "The ongoing InfiniBand vs. Ethernet standards war creates vendor lock-in friction."
             }
