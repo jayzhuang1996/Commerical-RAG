@@ -28,22 +28,24 @@ WORKING_DIR.mkdir(parents=True, exist_ok=True)
 # API Keys
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
-# --- LLM Setup (OpenAI) ---
-# Adjust concurrency depending on OpenAI tier. 
-openai_semaphore = asyncio.Semaphore(3)
+# --- LLM Setup (Moonshot) ---
+# Adjust concurrency depending on Moonshot tier.
+moonshot_semaphore = asyncio.Semaphore(5)
+MOONSHOT_API_KEY = os.environ.get("MOONSHOT_API_KEY")
 
 async def openai_model_complete(
     prompt, system_prompt=None, history_messages=[], **kwargs
 ) -> str:
-    """OpenAI wrapper with Rate Limit Resilience"""
+    """Moonshot API wrapper via OpenAI Client interface"""
     
-    async with openai_semaphore:
+    async with moonshot_semaphore:
         for attempt in range(5): 
             try:
-                # Small cooldown if needed
-                await asyncio.sleep(1.0)
+                # Small cooldown
+                await asyncio.sleep(0.5)
                 
-                client = AsyncOpenAI(api_key=OPENAI_API_KEY)
+                # Point OpenAI client to Moonshot endpoint
+                client = AsyncOpenAI(api_key=MOONSHOT_API_KEY, base_url="https://api.moonshot.cn/v1")
                 
                 messages = []
                 if system_prompt:
@@ -54,7 +56,7 @@ async def openai_model_complete(
                 allowed_kwargs = {k: v for k, v in kwargs.items() if k in ["temperature", "top_p", "max_tokens"]}
                 
                 response = await client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model="moonshot-v1-8k",
                     messages=messages,
                     **allowed_kwargs
                 )
@@ -84,13 +86,13 @@ async def local_embedding(texts: list[str]) -> np.ndarray:
 rag = LightRAG(
     working_dir=str(WORKING_DIR),
     llm_model_func=openai_model_complete,
-    llm_model_name="gpt-4o-mini",
+    llm_model_name="moonshot-v1-8k",
     embedding_func=EmbeddingFunc(
         embedding_dim=384, # all-MiniLM-L6-v2 dimension
         max_token_size=512,
         func=local_embedding
     ),
-    addon_params={"max_async_tasks": 3} 
+    addon_params={"max_async_tasks": 5} 
 )
 
 async def build_graph():

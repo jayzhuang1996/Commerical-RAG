@@ -165,27 +165,14 @@ export default function ChatInterface() {
         {/* Messages */}
         <div style={{ flex: 1, overflowY: 'auto', padding: '32px' }}>
           {messages.length === 0 && (
-              <div style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto', padding: '40px' }}>
-                <Sparkles size={48} color="var(--accent-main)" style={{ marginBottom: '24px', opacity: 0.8 }} />
-                <h2 style={{ fontSize: '32px', fontWeight: 700, color: 'var(--text-primary)', fontFamily: 'var(--font-display)', marginBottom: '16px' }}>Client Insight Engine: Element Fleet Demo</h2>
-                <div style={{ background: 'var(--bg-panel)', padding: '32px', borderRadius: '16px', border: '1px solid var(--border)', textAlign: 'left', marginTop: '32px' }}>
-                  <p style={{ fontSize: '15px', lineHeight: '1.6', color: 'var(--text-secondary)', marginBottom: '24px' }}>
-                    <strong style={{ color: 'var(--text-primary)' }}>Executive Dashboard Pilot</strong><br/><br/>
-                    We are using public semiconductor filings as a high-density, mathematical proving ground. This interface demonstrates what happens when you ingest <strong>years of unstructured data</strong> into a strategic vector network.
-                  </p>
-                  
-                  <div style={{ display: 'flex', gap: '16px', borderTop: '1px solid var(--border)', paddingTop: '24px' }}>
-                     <div style={{ flex: 1 }}>
-                       <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '8px' }}>The Concept</p>
-                       <p style={{ fontSize: '13px', color: 'var(--text-muted)', lineHeight: '1.5' }}>Imagine pouring 150+ historical Business Reviews, Client Strategy decks, and Analyst calls into this Engine.</p>
-                     </div>
-                     <div style={{ width: '1px', background: 'var(--border)' }}></div>
-                     <div style={{ flex: 1 }}>
-                       <p style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '8px' }}>The Value</p>
-                       <p style={{ fontSize: '13px', color: 'var(--text-muted)', lineHeight: '1.5' }}>Senior leadership and Hunters can instantly cross-reference hidden industry pain-points or client demands that normally get lost in local files.</p>
-                     </div>
-                  </div>
-                </div>
+              <div style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto', padding: '100px 40px' }}>
+                <Sparkles size={40} color="var(--accent-main)" style={{ marginBottom: '24px', opacity: 0.6 }} />
+                <h2 style={{ fontSize: '24px', fontWeight: 600, color: 'var(--text-primary)', fontFamily: 'var(--font-display)', marginBottom: '12px' }}>Knowledge Graph Demo</h2>
+                <p style={{ fontSize: '14px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
+                  This sandbox demonstrates AI entity mapping using public <strong>Semiconductor Trading Filings</strong>.
+                  <br/><br/>
+                  Query the dataset to see how isolated data points are instantly cross-referenced.
+                </p>
               </div>
           )}
 

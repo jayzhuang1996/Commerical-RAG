@@ -14,6 +14,54 @@ const NAV = [
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('chat');
+  const [showIntro, setShowIntro] = useState(true);
+
+  if (showIntro) {
+    return (
+      <div style={{ height: '100vh', overflowY: 'auto', scrollSnapType: 'y mandatory', scrollBehavior: 'smooth' }}>
+        <style dangerouslySetInnerHTML={{__html: `
+          @keyframes bounce { 0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 40% {transform: translateY(-10px);} 60% {transform: translateY(-5px);} }
+        `}} />
+        
+        {/* Slide 1: Problem Statement */}
+        <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '40px', background: 'var(--bg-base)' }}>
+          <h1 style={{ fontSize: '48px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '24px', letterSpacing: '-0.02em', color: 'var(--text-primary)' }}>The Data Fragmentation Problem</h1>
+          <p style={{ fontSize: '20px', maxWidth: '800px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>
+            Every year, our teams conduct over <strong>150+ in-depth Business Reviews</strong> and Client Strategy sessions. 
+            However, this highly strategic, qualitative insight is trapped in PDFs, slide decks, and isolated emails. 
+          </p>
+          <p style={{ fontSize: '20px', maxWidth: '800px', lineHeight: 1.6, color: 'var(--text-secondary)', marginTop: '24px' }}>
+            When Senior Leadership or Hunters need to identify emerging demands across the industry or pitch a hyper-specific solution, the historical context is dead. The insight is simply lost.
+          </p>
+          <div style={{ marginTop: '80px', animation: 'bounce 2s infinite', fontSize: '14px', fontWeight: 600, color: 'var(--text-muted)' }}>
+            ↓ SCROLL DOWN
+          </div>
+        </div>
+
+        {/* Slide 2: The Solution Engine */}
+        <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '40px', background: 'var(--bg-panel)' }}>
+          <div style={{ width: '64px', height: '64px', background: 'var(--accent-main)', borderRadius: '16px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '32px', boxShadow: '0 10px 30px rgba(230,81,0,0.2)' }}>
+            <Layers size={32} color="#fff" />
+          </div>
+          <h1 style={{ fontSize: '48px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '24px', letterSpacing: '-0.02em', color: 'var(--text-primary)' }}>The Element Insight Engine</h1>
+          <p style={{ fontSize: '20px', maxWidth: '800px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>
+            We propose an AI-native <strong>Corporate Memory Bank</strong>. An engine that organically digests unstructured narratives from past engagements and mathematically links the ideas together.
+          </p>
+          <p style={{ fontSize: '20px', maxWidth: '800px', lineHeight: 1.6, color: 'var(--text-secondary)', marginTop: '24px' }}>
+            <em>Because client data is strictly confidential,</em> we built this sandbox using public <strong>Semiconductor industry filings</strong>. It serves as a structural proving ground to demonstrate the extreme density of insight we can extract.
+          </p>
+          <button 
+            onClick={() => setShowIntro(false)} 
+            style={{ marginTop: '64px', padding: '16px 40px', fontSize: '16px', fontWeight: 600, background: 'var(--accent-main)', color: '#fff', border: 'none', borderRadius: '32px', cursor: 'pointer', transition: 'transform 0.2s', boxShadow: 'var(--shadow-md)' }}
+            onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+            onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+          >
+            Enter the Engine Sandbox
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div style={{
