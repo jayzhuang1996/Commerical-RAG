@@ -3019,7 +3019,7 @@
     }
   },
   "doc-ea88a7035bff930c1085e868f2dcad48": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 17,
     "chunks_list": [
       "chunk-c570cd74c0581c2e191c5dc289053810",
@@ -3043,11 +3043,498 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: STX\nLayer: UNKNOWN_LAYER\nPeriod: Q3_2025\nDate: 2025-08-01\nDoc Type: annual_risk\n--- END INFO ---\n\nITEM 1A.RISK FACTORS\n\nSummary of Risk Factors\n\nThe following is a summary of the principal risks and uncertainties that coul...",
     "content_length": 106214,
     "created_at": "2026-04-28T17:43:48.936811+00:00",
-    "updated_at": "2026-04-28T17:43:48.994514+00:00",
+    "updated_at": "2026-04-28T17:50:13.930499+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_134348_312580ea",
     "metadata": {
-      "processing_start_time": 1777398228
+      "processing_start_time": 1777398228,
+      "processing_end_time": 1777398613
+    }
+  },
+  "doc-75552bdfd8c909c7b73d1e775ca40129": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-75552bdfd8c909c7b73d1e775ca40129"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: STX\nLayer: UNKNOWN_LAYER\nPeriod: Q1_2026\nDate: 2026-02-19\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1\n\nInvestor Relations Contact:\n\nShanye Hudson, (510) 661-1600\n\nshanye.hudson@seagate.com\n\nMedia Contac...",
+    "content_length": 4364,
+    "created_at": "2026-04-28T17:50:15.016908+00:00",
+    "updated_at": "2026-04-28T17:50:33.155200+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_135015_dfe5c6d7",
+    "metadata": {
+      "processing_start_time": 1777398615,
+      "processing_end_time": 1777398633
+    }
+  },
+  "doc-80a1a8d76dba10fcfee7cd00ae25480b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-80a1a8d76dba10fcfee7cd00ae25480b"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: STX\nLayer: UNKNOWN_LAYER\nPeriod: Q1_2025\nDate: 2025-01-24\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nRepurchases of Equity Securities\n\nAll repurchases are ...",
+    "content_length": 1342,
+    "created_at": "2026-04-28T17:50:34.120651+00:00",
+    "updated_at": "2026-04-28T17:50:50.617507+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_135034_dbe58004",
+    "metadata": {
+      "processing_start_time": 1777398634,
+      "processing_end_time": 1777398650
+    }
+  },
+  "doc-1eec026ed575cc69fe423b100d27350c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1eec026ed575cc69fe423b100d27350c"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: STX\nLayer: UNKNOWN_LAYER\nPeriod: Q2_2025\nDate: 2025-05-02\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nRepurchases of Equity Securities\n\nAll repurchases are ...",
+    "content_length": 1333,
+    "created_at": "2026-04-28T17:50:51.765860+00:00",
+    "updated_at": "2026-04-28T17:51:14.336622+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_135051_29bab554",
+    "metadata": {
+      "processing_start_time": 1777398651,
+      "processing_end_time": 1777398674
+    }
+  },
+  "doc-73eecb7a83d36a061dd8dfb721724b4d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-73eecb7a83d36a061dd8dfb721724b4d"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: STX\nLayer: UNKNOWN_LAYER\nPeriod: Q4_2025\nDate: 2025-10-31\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nRepurchases of Equity Securities\n\nAll repurchases are ...",
+    "content_length": 1608,
+    "created_at": "2026-04-28T17:51:15.432858+00:00",
+    "updated_at": "2026-04-28T17:51:32.097302+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_135115_7ae012d1",
+    "metadata": {
+      "processing_start_time": 1777398675,
+      "processing_end_time": 1777398692
+    }
+  },
+  "doc-98c392b6e4b7145a5e0617061b5137d8": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-98c392b6e4b7145a5e0617061b5137d8"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: STX\nLayer: UNKNOWN_LAYER\nPeriod: Q1_2026\nDate: 2026-01-30\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nRepurchases of Equity Securities\n\nAll repurchases are ...",
+    "content_length": 1635,
+    "created_at": "2026-04-28T17:51:33.135609+00:00",
+    "updated_at": "2026-04-28T17:52:09.006245+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_135133_092d571a",
+    "metadata": {
+      "processing_start_time": 1777398693,
+      "processing_end_time": 1777398729
+    }
+  },
+  "doc-a55002e2d1a678c5706741e572c2bbd5": {
+    "status": "processed",
+    "chunks_count": 8,
+    "chunks_list": [
+      "chunk-c38de5d68a970714041a9d4b06427024",
+      "chunk-714e8a2034b6311c5e8071f75da40f12",
+      "chunk-e533a6acc38ae4c3828bfc6a98520262",
+      "chunk-703c8711fe41ad123822aaa6eb3f17f0",
+      "chunk-95746a10b92dc058cf34357a349efb99",
+      "chunk-534ea718944bc6b911ec906f8b14ff8c",
+      "chunk-62e17e737578b742269fc292ccf9cef6",
+      "chunk-a36ed92affa81f034e9abe19f50e506a"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: TSM\nLayer: LAYER_C\nPeriod: Q2_2026\nDate: 2026-04-16\nDoc Type: annual_business\n--- END INFO ---\n\nITEM 5.OPERATING AND FINANCIAL REVIEWS AND PROSPECTS\n\nThe following discussion covers items for and a comparison between the f...",
+    "content_length": 37275,
+    "created_at": "2026-04-28T17:52:10.116922+00:00",
+    "updated_at": "2026-04-28T17:55:41.513346+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_135210_38317339",
+    "metadata": {
+      "processing_start_time": 1777398730,
+      "processing_end_time": 1777398941
+    }
+  },
+  "doc-93291fdc85358b60aed62dc28d40df67": {
+    "status": "processed",
+    "chunks_count": 11,
+    "chunks_list": [
+      "chunk-b17ce007d9c000056fe141eabdc0173b",
+      "chunk-52a1fa5bda7614157aa7e81f1c58e6ea",
+      "chunk-48a6132e550af07b846ba52f1a9795b8",
+      "chunk-a4be6af224d1da229c406aa8a18d5beb",
+      "chunk-238d9c9f8f1bc5a49793c5b5d0df2ca7",
+      "chunk-0492f64f0aa26a5bd7d8748671990041",
+      "chunk-b8c76a3f40a065aec09a55338845e2cb",
+      "chunk-c931c9f30ca7b59badef0684849a1b42",
+      "chunk-3a20646363cce5efb8b3c35c83c54d46",
+      "chunk-2928f59dd7e866b117af345aa960a032",
+      "chunk-2c4efa4742a463f7efaa516394ef9f04"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: TSM\nLayer: LAYER_C\nPeriod: Q2_2026\nDate: 2026-04-16\nDoc Type: annual_risk\n--- END INFO ---\n\nITEM 3.KEY INFORMATION\n\nCapitalization and Indebtedness \n\nNot applicable. \n\nReasons for the Offer and Use of Proceeds \n\nNot applic...",
+    "content_length": 62280,
+    "created_at": "2026-04-28T17:55:42.611307+00:00",
+    "updated_at": "2026-04-28T18:01:10.301133+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_135542_50eeb657",
+    "metadata": {
+      "processing_start_time": 1777398942,
+      "processing_end_time": 1777399270
+    }
+  },
+  "doc-d201180bdbfab678a4874ba1d9b7b627": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-d201180bdbfab678a4874ba1d9b7b627",
+      "chunk-0b4d9c985ae02e721a0c3f6582f1211c"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: TSM\nLayer: LAYER_C\nPeriod: Q2_2026\nDate: 2026-04-16\nDoc Type: earnings_press_release\n--- END INFO ---\n\nTSMC Reports First Quarter EPS of NT$22.08                         \n                                                   ...",
+    "content_length": 5710,
+    "created_at": "2026-04-28T18:01:11.411464+00:00",
+    "updated_at": "2026-04-28T18:02:07.531958+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_140111_86de96ee",
+    "metadata": {
+      "processing_start_time": 1777399271,
+      "processing_end_time": 1777399327
+    }
+  },
+  "doc-b003c0ca41aea1a55e319f242ae8bc49": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-1bb081ee33cd47d2f37c5bca2eba2a97",
+      "chunk-94768a955e18ec83a2761fc5f8bfe86e",
+      "chunk-df695cc47c868b88607206fee2f91fe5",
+      "chunk-cb6c69ac76e404a4462c6513e0b52c93",
+      "chunk-18fa367ae020071c758fa523fe44d3ac",
+      "chunk-26ad8134c6e117d6a762e09e6ef14a67",
+      "chunk-1d0ea79f9e26f4c7542e4c98ffa05233"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: VRT\nLayer: LAYER_F\nPeriod: Q1_2026\nDate: 2026-02-13\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7. Management’s Discussion and Analysis of Financial Condition and Results of Operation\n\nUnless the context otherwise ind...",
+    "content_length": 38191,
+    "created_at": "2026-04-28T18:02:08.592671+00:00",
+    "updated_at": "2026-04-28T18:05:40.339469+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_140208_e6ef886b",
+    "metadata": {
+      "processing_start_time": 1777399328,
+      "processing_end_time": 1777399540
+    }
+  },
+  "doc-1196b2a9979a467aaf7ef1df3860dd68": {
+    "status": "processed",
+    "chunks_count": 14,
+    "chunks_list": [
+      "chunk-b08700f41690a82b99a1e322031d0a17",
+      "chunk-0f6efec1c2136f7dcb7b1e577e786fd3",
+      "chunk-67a493d775516f26f70f7d6dc314d8ef",
+      "chunk-cdb662babbc06df0d8ab02b660615b44",
+      "chunk-e6e896596fa4c73d0c207da6e9750e34",
+      "chunk-8d323f9713402b75f2e9bdcbd5066867",
+      "chunk-31054d7859ffdd3cbcc9507b7a872886",
+      "chunk-c0788593b396e298d706ac56da516e99",
+      "chunk-34fc6d8da86613bc9202ee2813b4637a",
+      "chunk-20f2c44ece51210aa79845fce2d50bb4",
+      "chunk-aab6dd8526b02902a2c518b62c3ff5bc",
+      "chunk-8191c0d6652e1c042a9f646b7af870b2",
+      "chunk-6e8c2f00d200ba588586f1b6086216e2",
+      "chunk-56fec8b40a356ca51ff32fa3f02c0a41"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: VRT\nLayer: LAYER_F\nPeriod: Q1_2026\nDate: 2026-02-13\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A. Risk Factors\n\nAn investment in our securities involves risks and uncertainties. You should carefully consider the followi...",
+    "content_length": 86811,
+    "created_at": "2026-04-28T18:05:41.557002+00:00",
+    "updated_at": "2026-04-28T18:15:23.388826+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_140541_36b96241",
+    "metadata": {
+      "processing_start_time": 1777399541,
+      "processing_end_time": 1777400123
+    }
+  },
+  "doc-6daff7e1df4580ad85fb71a6dc364407": {
+    "status": "processed",
+    "chunks_count": 10,
+    "chunks_list": [
+      "chunk-0277b19b1b1218000b6fe9a14c384c41",
+      "chunk-fbd54fa93b98f9b2145e9f963b76201c",
+      "chunk-bdac72a1fd5351bc328c4b82c6bd3261",
+      "chunk-d658eedc0c74327d518005754914ebd3",
+      "chunk-4677aeb458dea731c08a80e2886d5cbd",
+      "chunk-088137a0325072d729853555d873801c",
+      "chunk-d86d474e07970daed5a99fdf9ac55e64",
+      "chunk-dc98dfa2eaf66247deb006959e51aab3",
+      "chunk-804ff48c6e8dd437e637e3ec5dfad966",
+      "chunk-a3217824ec3f34a1df5ec40a3272dd60"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: VRT\nLayer: LAYER_F\nPeriod: Q2_2026\nDate: 2026-04-22\nDoc Type: earnings_press_release\n--- END INFO ---\n\nVertiv Reports Strong First Quarter with Diluted EPS Growth of 136% \n  (Adjusted Diluted EPS Growth of +83%); Raises Fu...",
+    "content_length": 68535,
+    "created_at": "2026-04-28T18:15:24.678971+00:00",
+    "updated_at": "2026-04-28T18:19:49.331279+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_141524_9cd43290",
+    "metadata": {
+      "processing_start_time": 1777400124,
+      "processing_end_time": 1777400389
+    }
+  },
+  "doc-d41d6cd12a33d44981e9106bcacb7673": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d41d6cd12a33d44981e9106bcacb7673"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: VRT\nLayer: LAYER_F\nPeriod: Q2_2025\nDate: 2025-04-23\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nA) Recent Sales of Unregistered Securities\n\nNone.\n\nB) Use o...",
+    "content_length": 1015,
+    "created_at": "2026-04-28T18:19:50.504959+00:00",
+    "updated_at": "2026-04-28T18:20:26.452874+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_141950_862cb1f9",
+    "metadata": {
+      "processing_start_time": 1777400390,
+      "processing_end_time": 1777400426
+    }
+  },
+  "doc-d0f03653f102862eff81ecd3592b9840": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d0f03653f102862eff81ecd3592b9840"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: VRT\nLayer: LAYER_F\nPeriod: Q3_2025\nDate: 2025-07-30\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nA) Recent Sales of Unregistered Securities\n\nNone.\n\nB) Use o...",
+    "content_length": 993,
+    "created_at": "2026-04-28T18:20:27.574166+00:00",
+    "updated_at": "2026-04-28T18:20:53.684331+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_142027_08baea62",
+    "metadata": {
+      "processing_start_time": 1777400427,
+      "processing_end_time": 1777400453
+    }
+  },
+  "doc-acec512d7fd6fa6fcd844f5aea9b4c97": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-acec512d7fd6fa6fcd844f5aea9b4c97"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: VRT\nLayer: LAYER_F\nPeriod: Q4_2025\nDate: 2025-10-22\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nA) Recent Sales of Unregistered Securities\n\nNone.\n\nB) Use o...",
+    "content_length": 998,
+    "created_at": "2026-04-28T18:20:54.772715+00:00",
+    "updated_at": "2026-04-28T18:21:14.336937+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_142054_3108397f",
+    "metadata": {
+      "processing_start_time": 1777400454,
+      "processing_end_time": 1777400474
+    }
+  },
+  "doc-0517f6674dc5f8eaea4d41d719115e26": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0517f6674dc5f8eaea4d41d719115e26"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: VRT\nLayer: LAYER_F\nPeriod: Q2_2026\nDate: 2026-04-22\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nA) Recent Sales of Unregistered Securities\n\nNone.\n\nB) Use o...",
+    "content_length": 1024,
+    "created_at": "2026-04-28T18:21:15.794017+00:00",
+    "updated_at": "2026-04-28T18:21:37.502802+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_142115_732381fc",
+    "metadata": {
+      "processing_start_time": 1777400475,
+      "processing_end_time": 1777400497
+    }
+  },
+  "doc-e8a0bf04fdd852317f1f74c068df0454": {
+    "status": "processed",
+    "chunks_count": 12,
+    "chunks_list": [
+      "chunk-71735668820649afed9a0989b05e2491",
+      "chunk-90a743649204ee2497b970fdf52ea70b",
+      "chunk-457cf71e8dd05e523ce852a8e0781802",
+      "chunk-ddf6f3c31a02d6c98bdaddcff2634458",
+      "chunk-1b819a782b012fd83e1a733593efb548",
+      "chunk-a95b5b82b80c003a5495316d2287e6c3",
+      "chunk-287c864d3b3335950255800be49765d2",
+      "chunk-860e147e476c0e9913da0a29aa0ff4d7",
+      "chunk-c1fe85dcc37016a2304f441b3f7d0b08",
+      "chunk-db41cebe4da808a59c9b06f638ed317b",
+      "chunk-9625f7613c980973449af04019c32150",
+      "chunk-ce05aca0d34adbc15a2e7cefb1ae56dd"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: WDC\nLayer: LAYER_B\nPeriod: Q3_2025\nDate: 2025-08-14\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7.     Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion an...",
+    "content_length": 58745,
+    "created_at": "2026-04-28T18:21:38.721824+00:00",
+    "updated_at": "2026-04-28T18:27:26.947083+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_142138_9a2bfcd8",
+    "metadata": {
+      "processing_start_time": 1777400498,
+      "processing_end_time": 1777400846
+    }
+  },
+  "doc-91f51ed068ef726264d27ae0ce4b812d": {
+    "status": "processed",
+    "chunks_count": 14,
+    "chunks_list": [
+      "chunk-523fa4420d5c67fbe700a41b780ac298",
+      "chunk-48d7580b11645619bd43987d74d38fe8",
+      "chunk-b56cc4601b707c42aaf64cbe4a0d5349",
+      "chunk-fec4a5a185b5a00bf72bbcb3b27d7739",
+      "chunk-272cf55c649b0bf90d1675674f096fae",
+      "chunk-358e05a84706ef2ab78e488871fd3b65",
+      "chunk-befa8172a36dc5fe0cd39b22baae09b9",
+      "chunk-892d327488a364953791d370fe84894f",
+      "chunk-986ea657688168b788965a7f95ce198d",
+      "chunk-139d5520cf5870f9bd3594ad30981820",
+      "chunk-ae9dd97a54a1e5c6f6cd9cdd873f78f0",
+      "chunk-d4aad624b5aeba081231b378f60dc4b0",
+      "chunk-8bfeb2df2182e3ea2fc982ed01bd28a9",
+      "chunk-274e971de83260673fa2becf3197eb45"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: WDC\nLayer: LAYER_B\nPeriod: Q3_2025\nDate: 2025-08-14\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A.    Risk Factors   \n\nOur business can be affected by a number of risks and uncertainties, any of which could cause materia...",
+    "content_length": 81933,
+    "created_at": "2026-04-28T18:27:28.211098+00:00",
+    "updated_at": "2026-04-28T18:35:45.197080+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_142728_eaf83f3a",
+    "metadata": {
+      "processing_start_time": 1777400848,
+      "processing_end_time": 1777401345
+    }
+  },
+  "doc-d12245682c8ac892423a491ac142011a": {
+    "status": "processed",
+    "chunks_count": 9,
+    "chunks_list": [
+      "chunk-933d4f26260725e1ae2918686d545dcf",
+      "chunk-a718ecf5518543bbc6f2650286c4d2f6",
+      "chunk-b7b78f129fc3d210d8e078e286021873",
+      "chunk-2f76c9a3c9cfc00484b5c71f09228df2",
+      "chunk-deec6ccfb959f82604ff7efbb509b4dc",
+      "chunk-318c9e02bb838089b8a89edb93f5ca05",
+      "chunk-0dee6dde6003620ec2cdee3a8bdac6ae",
+      "chunk-08e33a1a387cc844d5829877783fc1b5",
+      "chunk-585184232485ddfd28e336d1da4c53fd"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: WDC\nLayer: LAYER_B\nPeriod: Q1_2026\nDate: 2026-01-29\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1                                                                             \n                             ...",
+    "content_length": 76860,
+    "created_at": "2026-04-28T18:35:46.430731+00:00",
+    "updated_at": "2026-04-28T18:40:21.259658+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_143546_56e8bc47",
+    "metadata": {
+      "processing_start_time": 1777401346,
+      "processing_end_time": 1777401621
+    }
+  },
+  "doc-27a3c2895264b5b81f37095a0a0a473b": {
+    "status": "processed",
+    "chunks_count": 12,
+    "chunks_list": [
+      "chunk-b320b9e55f97957867fd00e204f878da",
+      "chunk-2ab1eb8d2e61b102b8f77dc1ed043582",
+      "chunk-20de55bb79ee1a4fbf38c36b723d749a",
+      "chunk-109bc6e9881f0aa01773b937fef31bb0",
+      "chunk-f3c2cda28eb18c970492b24ff82098c8",
+      "chunk-c33cce145f5f13806f6f4b82880e81ce",
+      "chunk-99b4bd28adda8a5ba2358ad7f4c06e4c",
+      "chunk-4f8d0b7b75cc5aa0715f53ffa73646ce",
+      "chunk-ed1eac600000053053d6a33b015fb08d",
+      "chunk-f9f4ac499658a6b787dd5d8acff169e9",
+      "chunk-410929f4050ccedf6b38a761de837c65",
+      "chunk-fa34bb2458bb4b073e1e5b99ba2ac9eb"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: WDC\nLayer: LAYER_B\nPeriod: Q1_2025\nDate: 2025-01-31\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.    Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion and a...",
+    "content_length": 56483,
+    "created_at": "2026-04-28T18:40:22.502971+00:00",
+    "updated_at": "2026-04-28T18:45:48.251162+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_144022_55d6d983",
+    "metadata": {
+      "processing_start_time": 1777401622,
+      "processing_end_time": 1777401948
+    }
+  },
+  "doc-4e5385d0fec8697e45ed4b0db41008bd": {
+    "status": "processed",
+    "chunks_count": 10,
+    "chunks_list": [
+      "chunk-ba92c18ea1e8db2c9544c1fb2e78ff34",
+      "chunk-e2829a31e86efe0a99d6801fa3a0ad35",
+      "chunk-d229983fa4bd73122e32d401344b768a",
+      "chunk-1ae60de2648717f0783ca920248ada13",
+      "chunk-007ea8b21a2c3d8e378e23bbb39cf4e6",
+      "chunk-4b3a8907d4cd1a6f04d1a53970097b90",
+      "chunk-5a2802cde015964ba55bb7c39c633e24",
+      "chunk-6f2107197e1079f9132502bb672ce9cd",
+      "chunk-aea38a12477cdd5e0de5e0b1aaf079a8",
+      "chunk-c76ffc36864c6ec69000e835e434d707"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: WDC\nLayer: LAYER_B\nPeriod: Q2_2025\nDate: 2025-05-02\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.    Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion and a...",
+    "content_length": 48327,
+    "created_at": "2026-04-28T18:45:49.437790+00:00",
+    "updated_at": "2026-04-28T18:50:26.332639+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_144549_38bce9b1",
+    "metadata": {
+      "processing_start_time": 1777401949,
+      "processing_end_time": 1777402226
+    }
+  },
+  "doc-78fc471fc790a74c720a6d474dd4bef2": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-b1d681c11f6de91388b5aaddb83916a2",
+      "chunk-7c15d348689e860952097f94bd34ba66",
+      "chunk-d64e9218f91430034edb34cdd3ab617e",
+      "chunk-f753da4211a18c38f8024aa53a4f5eb5",
+      "chunk-5b250cb547686fbb5f3188b7018bfd97",
+      "chunk-0400f60e9c44d413201c672adb1b815f",
+      "chunk-74a7c760e3d52a59188864943e645aba"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: WDC\nLayer: LAYER_B\nPeriod: Q4_2025\nDate: 2025-10-31\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.    Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion and a...",
+    "content_length": 34815,
+    "created_at": "2026-04-28T18:50:27.623594+00:00",
+    "updated_at": "2026-04-28T18:53:34.151741+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_145027_2005efea",
+    "metadata": {
+      "processing_start_time": 1777402227,
+      "processing_end_time": 1777402414
+    }
+  },
+  "doc-92b885ea4cd93f2ad7c6702138e03db2": {
+    "status": "processed",
+    "chunks_count": 9,
+    "chunks_list": [
+      "chunk-56b2b689c62355a3d518d89f6ff3b908",
+      "chunk-724554029f88438bb4f7d756921f6c03",
+      "chunk-7a7fd9f3c9276914850354f22ef0b8c6",
+      "chunk-869ccaad0533b2c84d8774140ade2c38",
+      "chunk-9737ab77aa39f4c88ed681341d1cd809",
+      "chunk-63c1f248e3ba4f1333afcdf0c84f2eff",
+      "chunk-bd4b0c178e770640591f8e47e1476688",
+      "chunk-dad4cc9b80508a5390682f29ed2362c3",
+      "chunk-8fcae780b6b5f7faa4661df1b49513c3"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: WDC\nLayer: LAYER_B\nPeriod: Q1_2026\nDate: 2026-01-30\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.    Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion and a...",
+    "content_length": 40269,
+    "created_at": "2026-04-28T18:53:35.484826+00:00",
+    "updated_at": "2026-04-28T18:57:30.767760+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_145335_de3102ac",
+    "metadata": {
+      "processing_start_time": 1777402415,
+      "processing_end_time": 1777402650
     }
   }
 }

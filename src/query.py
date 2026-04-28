@@ -69,15 +69,6 @@ async def query_rag(request: QueryRequest):
                 "video_id": "", # Placeholder for backward compatibility
             })
 
-        # Fallback to graph links only if NO text sources found
-        if not formatted_sources:
-            for i, link in enumerate(graph_viz.get("links", [])[:5]):
-                formatted_sources.append({
-                    "title":    f"{link.get('source','')} ↔ {link.get('target','')}",
-                    "text":     link.get("description", "No detail available."),
-                    "index":    i + 1,
-                    "video_id": "",
-                })
 
         return QueryResponse(
             answer=answer_text,

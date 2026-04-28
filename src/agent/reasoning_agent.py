@@ -8,10 +8,39 @@ import os
 import asyncio
 import re
 import json
+from pathlib import Path
 from typing import TypedDict, List, Dict, Any
 from langgraph.graph import StateGraph, START, END
 from src.retrieval.indexing_pipeline import rag, openai_model_complete
 from lightrag import QueryParam
+
+CHUNK_STORE_PATH = Path(__file__).parent.parent.parent / "data" / "index" / "kv_store_text_chunks.json"
+_chunk_store: dict = {}
+
+def _load_chunk_store():
+    global _chunk_store
+    if not _chunk_store and CHUNK_STORE_PATH.exists():
+        with open(CHUNK_STORE_PATH) as f:
+            _chunk_store = json.load(f)
+
+def _lookup_chunk_metadata(content_snippet: str) -> dict:
+    """Find SOURCE INFO metadata by matching a content snippet against the chunk store."""
+    _load_chunk_store()
+    snippet = content_snippet[:200].strip()
+    for chunk in _chunk_store.values():
+        c = chunk.get("content", "")
+        # Strip the header to get the actual text, then compare
+        clean = re.sub(r"--- SOURCE INFO ---.*?--- END INFO ---\s*", "", c, flags=re.DOTALL).strip()
+        if snippet and snippet[:100] in clean:
+            ticker = re.search(r"Ticker:\s*(\w+)", c)
+            period = re.search(r"Period:\s*([\w_]+)", c)
+            dtype  = re.search(r"Doc Type:\s*([\w_]+)", c)
+            return {
+                "ticker": ticker.group(1) if ticker else "Unknown",
+                "period": period.group(1).replace("_", " ") if period else "Unknown",
+                "doc_type": dtype.group(1).replace("_", " ") if dtype else "Filing",
+            }
+    return {"ticker": "Unknown", "period": "Unknown", "doc_type": "Filing"}
 
 # Maps each semiconductor vertical → company tickers in the dataset
 VERTICAL_TICKER_MAP = {
@@ -57,40 +86,59 @@ async def researcher_node(state: AgentState):
     param = QueryParam(mode=state['search_mode'], top_k=20, only_need_context=True)
     response = await rag.aquery(state['augmented_query'], param=param)
     raw = response if isinstance(response, str) else str(response)
-    
-    # Parse the raw context into a list of structured sources for the UI
-    # This ensures the [1], [2] in the LLM output matches the UI sources list.
-    blocks = re.split(r'(?=--- SOURCE INFO ---)', raw)
+
     sources = []
     clean_context_parts = []
-    
-    for block in blocks:
-        if "--- SOURCE INFO ---" not in block: continue
-        
-        ticker = re.search(r"Ticker:\s*(\w+)",    block)
-        period = re.search(r"Period:\s*([\w_]+)", block)
-        dtype  = re.search(r"Doc Type:\s*([\w_]+)", block)
-        
-        t = ticker.group(1) if ticker else "Unknown"
-        p = period.group(1).replace("_", " ") if period else "Unknown"
-        d = dtype.group(1).replace("_", " ") if dtype else "Filing"
-        
-        # Clean the text (remove the header)
-        text = re.sub(r"--- SOURCE INFO ---.*?--- END INFO ---\s*", "", block, flags=re.DOTALL).strip()
-        if not text: continue
-        
+
+    # LightRAG returns chunks as JSON objects in the context string.
+    # Extract them and resolve metadata from the chunk store.
+    chunk_pattern = re.compile(r'\{[^{}]*?"content"\s*:\s*"((?:[^"\\]|\\.)*)"\s*\}', re.DOTALL)
+    seen_snippets = set()
+    for m in chunk_pattern.finditer(raw):
+        text = m.group(1).replace('\\"', '"').replace('\\n', '\n').replace('\\t', '\t').strip()
+        if not text or len(text) < 50:
+            continue
+        snippet_key = text[:80]
+        if snippet_key in seen_snippets:
+            continue
+        seen_snippets.add(snippet_key)
+
+        # If the chunk itself contains the SOURCE INFO header, parse it directly.
+        inline_ticker = re.search(r"Ticker:\s*(\w+)", text)
+        inline_period = re.search(r"Period:\s*([\w_]+)", text)
+        inline_dtype  = re.search(r"Doc Type:\s*([\w_]+)", text)
+        if inline_ticker:
+            t = inline_ticker.group(1)
+            p = inline_period.group(1).replace("_", " ") if inline_period else "Unknown"
+            d = inline_dtype.group(1).replace("_", " ") if inline_dtype else "Filing"
+        else:
+            meta = _lookup_chunk_metadata(text)
+            t = meta["ticker"]
+            p = meta["period"]
+            d = meta["doc_type"]
+
+        # Strip any header from the display text
+        display_text = re.sub(r"--- SOURCE INFO ---.*?--- END INFO ---\s*", "", text, flags=re.DOTALL).strip()
+        if not display_text:
+            continue
+
         idx = len(sources) + 1
         sources.append({
             "title": f"{t} · {d} · {p}",
-            "text": text,
-            "index": idx
+            "text": display_text[:2000],
+            "index": idx,
         })
-        # Add a numeric label to the context so the LLM knows which index is which
-        clean_context_parts.append(f"SOURCE [{idx}] ({t} {p}):\n{text}\n")
+        clean_context_parts.append(f"SOURCE [{idx}] ({t} {d} {p}):\n{display_text[:2000]}\n")
+
+    # If chunk parsing found nothing, fall back to passing raw context so the
+    # LLM always has content (avoids "no Raw Intelligence" response).
+    if not clean_context_parts:
+        print("⚠️  [Researcher] No structured chunks found – using raw context as fallback.")
+        clean_context_parts = [raw]
 
     return {
         "raw_context": "\n".join(clean_context_parts),
-        "sources": sources
+        "sources": sources,
     }
 
 async def analyst_node(state: AgentState):
