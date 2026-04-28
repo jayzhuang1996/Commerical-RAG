@@ -67,16 +67,6 @@ export default function ForceGraph({ triples }: Props) {
     return () => el.removeEventListener('mousemove', h);
   }, []);
 
-  // Tighten d3 forces once graph is ready for dense cluster look
-  useEffect(() => {
-    const fg = fgRef.current;
-    if (!fg) return;
-    const linkForce = fg.d3Force('link');
-    if (linkForce) linkForce.distance(50);
-    const chargeForce = fg.d3Force('charge');
-    if (chargeForce) chargeForce.strength(-180);
-  }, [graphData]);
-
   const handleEngineStop = useCallback(() => {
     fgRef.current?.zoomToFit(400, 40);
   }, []);
@@ -112,6 +102,16 @@ export default function ForceGraph({ triples }: Props) {
     }));
 
     return { nodes, links };
+  }, [triples]);
+
+  // Tighten d3 forces whenever graph data changes
+  useEffect(() => {
+    const fg = fgRef.current;
+    if (!fg) return;
+    const lf = fg.d3Force('link');
+    if (lf) lf.distance(50);
+    const cf = fg.d3Force('charge');
+    if (cf) cf.strength(-180);
   }, [triples]);
 
   // Radius — hub nodes larger, leaves small — matches screenshot
