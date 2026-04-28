@@ -17763,5 +17763,1069 @@
     "create_time": 1777394340,
     "update_time": 1777394340,
     "_id": "doc-4494c55803edc8c9a98bf6dcf411d031"
+  },
+  "doc-8ec1271cdbf221ec93e01ab718f35cd5": {
+    "relation_pairs": [
+      [
+        "Open Source Licensing Obligations",
+        "Open Source Software"
+      ],
+      [
+        "Cyber-Attacks",
+        "Manufacturing Operations"
+      ],
+      [
+        "Integrated Circuits",
+        "Manufacturing Capability"
+      ],
+      [
+        "Exporting Licensing Agreements",
+        "Licensing Business"
+      ],
+      [
+        "Regulations",
+        "Risk Factors"
+      ],
+      [
+        "Annual Report",
+        "Legal Proceedings"
+      ],
+      [
+        "Global Economic Conditions",
+        "Trade Policy"
+      ],
+      [
+        "Environmental Compliance",
+        "Manufacturing Facilities"
+      ],
+      [
+        "Government Agencies",
+        "United States"
+      ],
+      [
+        "Governmental Investigations",
+        "Licensees"
+      ],
+      [
+        "Premium-Tier Devices",
+        "QCT"
+      ],
+      [
+        "4G Integrated Circuit Products",
+        "Huawei"
+      ],
+      [
+        "Market Competition",
+        "Supply Chain"
+      ],
+      [
+        "QCT",
+        "Refurbished Devices"
+      ],
+      [
+        "Defects",
+        "Product Liability Claims"
+      ],
+      [
+        "Chipset Products",
+        "Security Vulnerabilities"
+      ],
+      [
+        "Integrated Circuit Products",
+        "Mobile Computing Devices"
+      ],
+      [
+        "Cybersecurity Certifications",
+        "Technology"
+      ],
+      [
+        "Manufacturing Facilities",
+        "Regulatory Penalties"
+      ],
+      [
+        "Competitors",
+        "Customers"
+      ],
+      [
+        "Manufacturing Operations",
+        "Manufacturing Processes"
+      ],
+      [
+        "Debt",
+        "Organization for Economic Co-operation and Development (OECD)"
+      ],
+      [
+        "Chipset Products",
+        "Product Defects"
+      ],
+      [
+        "Manufacturing Facilities",
+        "Natural Disasters"
+      ],
+      [
+        "Intellectual Property",
+        "Semiconductor Industry"
+      ],
+      [
+        "Litigation",
+        "Management Resources"
+      ],
+      [
+        "Cyber-Attacks",
+        "Manufacturing Facilities"
+      ],
+      [
+        "Broadcom",
+        "Integrated Circuit Products"
+      ],
+      [
+        "Innovative Technologies",
+        "Mobile Computing Devices"
+      ],
+      [
+        "Chinese Government",
+        "Semiconductor Industry"
+      ],
+      [
+        "OEMs",
+        "Royalty Agreements"
+      ],
+      [
+        "Intellectual Property Policies",
+        "Standard-Essential Patents"
+      ],
+      [
+        "India",
+        "Singapore"
+      ],
+      [
+        "Product Quality",
+        "Strategic Transactions"
+      ],
+      [
+        "Product Defects",
+        "Technology Development"
+      ],
+      [
+        "Manufacturing Facilities",
+        "Supply Chain Disruptions"
+      ],
+      [
+        "Tax Liabilities",
+        "United States"
+      ],
+      [
+        "Chipset Manufacturers",
+        "Patent License Agreements"
+      ],
+      [
+        "QCOM",
+        "Qualcomm"
+      ],
+      [
+        "Open Source Software",
+        "business risks"
+      ],
+      [
+        "Cyber-Attacks",
+        "Intellectual Property"
+      ],
+      [
+        "5G Technology",
+        "Innovative Technologies"
+      ],
+      [
+        "Automotive",
+        "Data Center"
+      ],
+      [
+        "Integrated Circuit Products",
+        "Non-Chinese OEM Customers"
+      ],
+      [
+        "Intellectual Property",
+        "Qualcomm"
+      ],
+      [
+        "Licensees",
+        "Patent Licensing Practices"
+      ],
+      [
+        "Product Liability Claims",
+        "Security Vulnerabilities"
+      ],
+      [
+        "Annual Report",
+        "Qualcomm"
+      ],
+      [
+        "Manufacturing Operations",
+        "Trade Policies"
+      ],
+      [
+        "Climate Change",
+        "Manufacturing Facilities"
+      ],
+      [
+        "Chipset Products",
+        "U.S./China Trade Tensions"
+      ],
+      [
+        "Annual Report",
+        "Cybersecurity Program"
+      ],
+      [
+        "Regulations",
+        "U.S./China Trade Tensions"
+      ],
+      [
+        "Manufacturing Capacity",
+        "Third-Party Suppliers"
+      ],
+      [
+        "Foundry Suppliers",
+        "Integrated Circuits"
+      ],
+      [
+        "California",
+        "San Diego"
+      ],
+      [
+        "Apple",
+        "Semiconductor Industry"
+      ],
+      [
+        "Integrated Circuit Products",
+        "Semiconductor Industry"
+      ],
+      [
+        "Raw Materials",
+        "Third-Party Suppliers"
+      ],
+      [
+        "Cybersecurity Program",
+        "IT Systems"
+      ],
+      [
+        "Chinese Government",
+        "U.S. Government"
+      ],
+      [
+        "China",
+        "United States"
+      ],
+      [
+        "Governmental Investigations",
+        "Litigation"
+      ],
+      [
+        "AI Technologies",
+        "Intellectual Property"
+      ],
+      [
+        "Competitors",
+        "Employees"
+      ],
+      [
+        "Asia",
+        "Suppliers"
+      ],
+      [
+        "Alternate Suppliers",
+        "Manufacturing Capability"
+      ],
+      [
+        "Global Economic Conditions",
+        "Semiconductor Industry"
+      ],
+      [
+        "Qualcomm",
+        "U.S./China Trade Tensions"
+      ],
+      [
+        "Natural Disasters",
+        "Third-Party Suppliers"
+      ],
+      [
+        "5G",
+        "Qualcomm"
+      ],
+      [
+        "IT Systems",
+        "Third-Party Software"
+      ],
+      [
+        "Health Crises",
+        "Manufacturing Facilities"
+      ],
+      [
+        "Automotive Industry",
+        "Mobile Handsets"
+      ],
+      [
+        "Antitrust Laws",
+        "Company"
+      ],
+      [
+        "OEMs",
+        "Patent Exhaustion Claims"
+      ],
+      [
+        "ADAS/AD Functions",
+        "High-Risk Applications"
+      ],
+      [
+        "Chinese OEMs",
+        "Semiconductor Industry"
+      ],
+      [
+        "5G Technology",
+        "Cellular Communications Technologies"
+      ],
+      [
+        "Capacity Commitments",
+        "Manufacturing Costs"
+      ],
+      [
+        "Regulations",
+        "Tariffs"
+      ],
+      [
+        "Integrated Circuit Products",
+        "Supply Strategies"
+      ],
+      [
+        "Corporate Governance",
+        "Employment and Human Capital"
+      ],
+      [
+        "Patent License Agreements",
+        "Royalty Rates"
+      ],
+      [
+        "Company Stock Price",
+        "Open Source Software"
+      ],
+      [
+        "Intellectual Property",
+        "Litigation"
+      ],
+      [
+        "China",
+        "OEMs"
+      ],
+      [
+        "China",
+        "Emerging Regions"
+      ],
+      [
+        "2040 Net-Zero Global GHG Emissions Commitment",
+        "ESG-Related Targets"
+      ],
+      [
+        "Chipset Licensing Revenues",
+        "Economic Conditions"
+      ],
+      [
+        "Employees",
+        "Intellectual Property"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Malicious Actors"
+      ],
+      [
+        "Health Crises",
+        "Manufacturing Operations"
+      ],
+      [
+        "Artificial Intelligence",
+        "Home Automation"
+      ],
+      [
+        "Apple",
+        "MDM Products"
+      ],
+      [
+        "Customers in China",
+        "Integrated Circuit Products"
+      ],
+      [
+        "Market Volatility",
+        "Securities Litigation"
+      ],
+      [
+        "Cybersecurity Program",
+        "Malicious Actors"
+      ],
+      [
+        "Customers",
+        "Vendors"
+      ],
+      [
+        "Licensees",
+        "Litigation"
+      ],
+      [
+        "Public Disclosure and Reporting",
+        "Sustainability-related Data"
+      ],
+      [
+        "5G Technologies",
+        "Patent Portfolio"
+      ],
+      [
+        "Chipset Foundries",
+        "Litigation"
+      ],
+      [
+        "Defects",
+        "Security Vulnerabilities"
+      ],
+      [
+        "Licensing Revenues",
+        "Patent License Agreements"
+      ],
+      [
+        "Raw Materials",
+        "Suppliers"
+      ],
+      [
+        "OEMs",
+        "Royalty Rates"
+      ],
+      [
+        "SDOs",
+        "Standard-Essential Patents"
+      ],
+      [
+        "Monetary Damages",
+        "Semiconductor Industry"
+      ],
+      [
+        "Korea",
+        "Taiwan"
+      ],
+      [
+        "Chipset Sales",
+        "Customer Relationships"
+      ],
+      [
+        "Integrated Circuit Products",
+        "Xiaomi"
+      ],
+      [
+        "China",
+        "Qualcomm"
+      ],
+      [
+        "AI",
+        "Cybersecurity Program"
+      ],
+      [
+        "Foundry Suppliers",
+        "Supply Chain"
+      ],
+      [
+        "Integrated Circuit Products",
+        "Semiconductor Companies"
+      ],
+      [
+        "Natural Disasters",
+        "Suppliers"
+      ],
+      [
+        "Integrated Circuits",
+        "Raw Materials"
+      ],
+      [
+        "Financial Condition",
+        "Licensees"
+      ],
+      [
+        "Intellectual Property",
+        "License Agreements"
+      ],
+      [
+        "Germany",
+        "Taiwan"
+      ],
+      [
+        "Chinese Licensees",
+        "Integrated Circuit Products"
+      ],
+      [
+        "Europe",
+        "Manufacturing Facilities"
+      ],
+      [
+        "Integrated Circuit Products",
+        "Mobile Handsets"
+      ],
+      [
+        "Financial Results",
+        "Market Price"
+      ],
+      [
+        "Manufacturing Facilities",
+        "RFFE Modules"
+      ],
+      [
+        "Apple",
+        "Integrated Circuit Products"
+      ],
+      [
+        "Asia",
+        "Manufacturing Facilities"
+      ],
+      [
+        "Innovative Technologies",
+        "Semiconductor Companies"
+      ],
+      [
+        "Performance, Quality or Yield Specifications",
+        "Third-Party Suppliers"
+      ],
+      [
+        "Intellectual Property",
+        "Patent Law Changes"
+      ],
+      [
+        "Litigation",
+        "Semiconductor Assembly and Test Service Providers"
+      ],
+      [
+        "Artificial Intelligence",
+        "Consumer Demand"
+      ],
+      [
+        "Semiconductor Industry",
+        "U.S. Government"
+      ],
+      [
+        "Integrated Circuit Products",
+        "Third-Party Suppliers"
+      ],
+      [
+        "Customer Demand",
+        "Integrated Circuits"
+      ],
+      [
+        "Investment",
+        "Manufacturing Processes"
+      ],
+      [
+        "Product Liability",
+        "Risks Related to Product Defects or Security Vulnerabilities"
+      ],
+      [
+        "Global Semiconductor Industry",
+        "Manufacturing Capability"
+      ],
+      [
+        "Licensing Agreements",
+        "Smartphone Market"
+      ],
+      [
+        "Licensing Business",
+        "Patent Portfolio"
+      ],
+      [
+        "OECD",
+        "Pillar Two Framework"
+      ],
+      [
+        "Competitors",
+        "Product Safety Standards"
+      ],
+      [
+        "Chinese Government",
+        "Integrated Circuit Products"
+      ],
+      [
+        "Device Share",
+        "Licensees"
+      ],
+      [
+        "Chipset Manufacturers",
+        "FRAND Licensing Commitments"
+      ],
+      [
+        "5G Technology",
+        "Research and Development"
+      ],
+      [
+        "Annual Risk Report",
+        "Qualcomm"
+      ],
+      [
+        "Integrated Circuit Products",
+        "Samsung"
+      ],
+      [
+        "Financial Condition",
+        "Research and Development"
+      ],
+      [
+        "Strategic Transactions",
+        "United States"
+      ],
+      [
+        "Employment Candidates",
+        "Foreign National Graduates"
+      ],
+      [
+        "Automotive Industry",
+        "Customer Field Actions"
+      ],
+      [
+        "Litigation",
+        "Product Sales"
+      ],
+      [
+        "Financial Condition",
+        "Market Competition"
+      ],
+      [
+        "Litigation",
+        "United States International Trade Commission"
+      ],
+      [
+        "Licensing Agreements",
+        "Transaction Costs"
+      ],
+      [
+        "China",
+        "Government Agencies"
+      ],
+      [
+        "Countries",
+        "Tax Uncertainty"
+      ],
+      [
+        "Chinese OEMs",
+        "Integrated Circuit Products"
+      ],
+      [
+        "Health Crises",
+        "Third-Party Suppliers"
+      ],
+      [
+        "Automotive Industry",
+        "Product Defects"
+      ],
+      [
+        "Market Competition",
+        "Semiconductor Industry"
+      ],
+      [
+        "Manufacturing Facilities",
+        "RF Filter Products"
+      ],
+      [
+        "Delivery Obligations",
+        "Integrated Circuits"
+      ],
+      [
+        "Licensing Agreements",
+        "Patent Technology"
+      ],
+      [
+        "Intellectual Property",
+        "Licensing Business"
+      ],
+      [
+        "Geopolitical Conflict",
+        "Suppliers"
+      ],
+      [
+        "Legal Proceedings",
+        "Regulatory Challenges"
+      ],
+      [
+        "China",
+        "U.S./China Trade Tensions"
+      ],
+      [
+        "High-Risk Applications",
+        "Security Vulnerabilities"
+      ],
+      [
+        "Government Agencies",
+        "U.S./China Relations"
+      ]
+    ],
+    "count": 172,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "doc-8ec1271cdbf221ec93e01ab718f35cd5"
+  },
+  "doc-68ab89f7c30efebf3608c9d4bfcc2852": {
+    "relation_pairs": [
+      [
+        "Other Items",
+        "Qualcomm"
+      ],
+      [
+        "Qualcomm Incorporated",
+        "Total Revenues"
+      ],
+      [
+        "Operating Activities",
+        "Qualcomm Incorporated"
+      ],
+      [
+        "Form 10-Q",
+        "SEC"
+      ],
+      [
+        "Qualcomm",
+        "Total Cash and Cash Equivalents"
+      ],
+      [
+        "Cristiano Amon",
+        "Qualcomm"
+      ],
+      [
+        "First Quarter Fiscal 2026",
+        "Qualcomm"
+      ],
+      [
+        "Qualcomm",
+        "Snapdragon"
+      ],
+      [
+        "Acquisition-Related Charges",
+        "Non-GAAP Results"
+      ],
+      [
+        "Net Income",
+        "Qualcomm Incorporated"
+      ],
+      [
+        "Qualcomm Incorporated",
+        "Trade Accounts Payable"
+      ],
+      [
+        "QTL",
+        "Qualcomm"
+      ],
+      [
+        "GAAP",
+        "Qualcomm"
+      ],
+      [
+        "GAAP Results",
+        "Non-GAAP Results"
+      ],
+      [
+        "Fiscal 2029",
+        "Qualcomm"
+      ],
+      [
+        "Accounts Receivable",
+        "Qualcomm Incorporated"
+      ],
+      [
+        "Qualcomm",
+        "Tax Withholdings"
+      ],
+      [
+        "Acquisition-Related Charges",
+        "Qualcomm"
+      ],
+      [
+        "Qualcomm",
+        "Restructuring Costs"
+      ],
+      [
+        "Fiscal 2026",
+        "Non-GAAP Results"
+      ],
+      [
+        "Alphawave IP Group plc",
+        "Qualcomm"
+      ],
+      [
+        "European Commission",
+        "Non-GAAP Results"
+      ],
+      [
+        "Alphawave Semi",
+        "Qualcomm"
+      ],
+      [
+        "Common Stock Repurchases",
+        "Qualcomm"
+      ],
+      [
+        "Mauricio Lopez-Hodoyan",
+        "Qualcomm"
+      ],
+      [
+        "Qualcomm",
+        "Securities and Exchange Commission"
+      ],
+      [
+        "Deferred Compensation Plan",
+        "Non-GAAP Results"
+      ],
+      [
+        "QSI",
+        "Qualcomm"
+      ],
+      [
+        "First Quarter Fiscal 2026",
+        "Qualcomm Incorporated"
+      ],
+      [
+        "Fiscal 2026",
+        "Qualcomm"
+      ],
+      [
+        "QCT",
+        "Qualcomm"
+      ],
+      [
+        "Non-GAAP Tax Rate",
+        "Qualcomm"
+      ],
+      [
+        "Qualcomm",
+        "U.S./China Trade Tensions"
+      ],
+      [
+        "Net Cash Used by Financing Activities",
+        "Qualcomm"
+      ],
+      [
+        "Qualcomm Incorporated",
+        "Share-Based Compensation Expense"
+      ],
+      [
+        "Interest Expense",
+        "Non-GAAP Results"
+      ],
+      [
+        "Cash Dividends",
+        "Qualcomm"
+      ],
+      [
+        "Deferred Compensation Plan",
+        "Qualcomm"
+      ],
+      [
+        "Dividends Paid",
+        "Qualcomm"
+      ],
+      [
+        "Form 10-Q",
+        "Qualcomm"
+      ],
+      [
+        "First Quarter Fiscal 2026",
+        "Record Revenues"
+      ],
+      [
+        "Non-GAAP Financial Measures",
+        "Qualcomm"
+      ],
+      [
+        "Intellectual Property",
+        "Qualcomm"
+      ],
+      [
+        "Qualcomm",
+        "Total Stockholders Equity"
+      ],
+      [
+        "Interest Expense",
+        "Qualcomm"
+      ],
+      [
+        "February 4, 2026",
+        "Qualcomm"
+      ],
+      [
+        "Non-GAAP Results",
+        "Restructuring-Related Charges"
+      ],
+      [
+        "Inventories",
+        "Qualcomm Incorporated"
+      ],
+      [
+        "China",
+        "Qualcomm"
+      ],
+      [
+        "Non-GAAP",
+        "Qualcomm"
+      ],
+      [
+        "Premium-Tier Handset Devices",
+        "Qualcomm"
+      ],
+      [
+        "Total Current Assets",
+        "Total Liabilities"
+      ],
+      [
+        "Qualcomm",
+        "Stock Repurchases and Retirements"
+      ]
+    ],
+    "count": 53,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "doc-68ab89f7c30efebf3608c9d4bfcc2852"
+  },
+  "doc-de18f4e1db6f4c79408f616bb154e4c5": {
+    "relation_pairs": [
+      [
+        "QCOM",
+        "Stock Repurchase Program"
+      ],
+      [
+        "First Quarter",
+        "Fiscal Year 2025"
+      ],
+      [
+        "November 6, 2024",
+        "QCOM"
+      ],
+      [
+        "October 12, 2021",
+        "QCOM"
+      ],
+      [
+        "QCOM",
+        "Quarterly MDA"
+      ],
+      [
+        "First Quarter",
+        "QCOM"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777395146,
+    "update_time": 1777395146,
+    "_id": "doc-de18f4e1db6f4c79408f616bb154e4c5"
+  },
+  "doc-c69c676a8bc81449f3a8767ff8d791ba": {
+    "relation_pairs": [
+      [
+        "Fiscal 2025",
+        "QCOM"
+      ],
+      [
+        "Average Price Paid Per Share",
+        "QCOM"
+      ],
+      [
+        "Approximate Dollar Value of Shares",
+        "QCOM"
+      ],
+      [
+        "QCOM",
+        "Stock Repurchase Program"
+      ],
+      [
+        "QCOM",
+        "Total Number of Shares Purchased"
+      ],
+      [
+        "QCOM",
+        "Quarterly MDA"
+      ],
+      [
+        "April 30, 2025",
+        "Quarterly MDA"
+      ],
+      [
+        "Equity Securities",
+        "QCOM"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777395172,
+    "update_time": 1777395172,
+    "_id": "doc-c69c676a8bc81449f3a8767ff8d791ba"
+  },
+  "doc-80dffce4214987d66642aed55944aaa2": {
+    "relation_pairs": [
+      [
+        "Average Price Paid Per Share",
+        "QCOM"
+      ],
+      [
+        "QCOM",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Fiscal 2025",
+        "Q3 2025"
+      ],
+      [
+        "Q3 2025",
+        "QCOM"
+      ],
+      [
+        "QCOM",
+        "Total Number of Shares Purchased"
+      ],
+      [
+        "Q3 2025",
+        "Quarterly MDA"
+      ],
+      [
+        "LAYER A",
+        "Quarterly MDA"
+      ],
+      [
+        "Approximate Dollar Value of Shares",
+        "QCOM"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777395192,
+    "update_time": 1777395192,
+    "_id": "doc-80dffce4214987d66642aed55944aaa2"
+  },
+  "doc-6432d62e23ef5e58d14d1ac2c562842c": {
+    "relation_pairs": [
+      [
+        "Average Price Paid Per Share",
+        "QCOM"
+      ],
+      [
+        "QCOM",
+        "Shares Purchased"
+      ],
+      [
+        "QCOM",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Equity Securities",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Common Stock",
+        "QCOM"
+      ],
+      [
+        "Fiscal Year 2026",
+        "QCOM"
+      ],
+      [
+        "Publicly Announced Plans or Programs",
+        "QCOM"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777395209,
+    "update_time": 1777395209,
+    "_id": "doc-6432d62e23ef5e58d14d1ac2c562842c"
   }
 }

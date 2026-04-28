@@ -23,6 +23,61 @@ COMPANIES = [
     "google", "amazon", "apple", "ibm", "umc", "tower semiconductor",
 ]
 
+# ── Canonical company name normalization ─────────────────────────────────────
+# Collapses variants like "Lam Research Corporation" → "Lam Research"
+CANONICAL = {
+    "lam research corporation": "Lam Research",
+    "lam research": "Lam Research",
+    "intel corporation": "Intel",
+    "intel": "Intel",
+    "nvidia corporation": "NVIDIA",
+    "nvidia": "NVIDIA",
+    "applied materials, inc.": "Applied Materials",
+    "applied materials": "Applied Materials",
+    "taiwan semiconductor manufacturing": "TSMC",
+    "taiwan semiconductor": "TSMC",
+    "tsmc": "TSMC",
+    "tsm": "TSMC",
+    "broadcom inc.": "Broadcom",
+    "broadcom inc": "Broadcom",
+    "broadcom": "Broadcom",
+    "arm holdings": "Arm",
+    "arm": "Arm",
+    "kla corporation": "KLA",
+    "klac": "KLA",
+    "kla": "KLA",
+    "qualcomm incorporated": "Qualcomm",
+    "qualcomm": "Qualcomm",
+    "qcom": "Qualcomm",
+    "marvell technology": "Marvell",
+    "mrvl": "Marvell",
+    "advanced micro devices": "AMD",
+    "amd": "AMD",
+    "sk hynix": "SK Hynix",
+    "hynix": "SK Hynix",
+    "micron technology": "Micron",
+    "micron": "Micron",
+    "samsung electronics": "Samsung",
+    "samsung": "Samsung",
+    "globalfoundries": "GlobalFoundries",
+    "asml holding": "ASML",
+    "asml": "ASML",
+    "synopsys": "Synopsys",
+    "cadence design": "Cadence",
+    "cadence": "Cadence",
+    "cdns": "Cadence",
+    "microsoft": "Microsoft",
+    "meta platforms": "Meta",
+    "meta": "Meta",
+    "google": "Google",
+    "amazon": "Amazon",
+    "apple": "Apple",
+}
+
+def _canonical(name: str) -> str:
+    return CANONICAL.get(name.lower().strip(), name.strip())
+
+
 def _is_company(name: str) -> bool:
     n = name.lower().strip()
     return any(c in n for c in COMPANIES)
@@ -57,28 +112,72 @@ EDGE_COLORS = {
 }
 
 # ── Main extraction ────────────────────────────────────────────────────────────
-def extract_visual_graph(rag_index, query_results: str) -> Dict[str, Any]:
+def extract_visual_graph(rag_index, query_results: str, filters: dict = None) -> Dict[str, Any]:
     """
-    Returns ONLY cross-company edges, classified by relationship type.
-    Used by the ForceGraph frontend visualizer.
+    Returns ONLY cross-company edges, classified by type, deduplicated,
+    and filtered by quarter if active.
     """
     full_graph = getattr(rag_index.chunk_entity_relation_graph, '_graph', None)
     if not full_graph:
         return {"nodes": [], "links": []}
 
-    # 1. Collect all cross-company edges from the full graph
+    # Build chunk→period map for edge filtering
+    quarter_periods: set = set()
+    if filters:
+        qmap = {
+            "Q1 2025": "Q1_2025", "Q2 2025": "Q2_2025",
+            "Q3 2025": "Q3_2025", "Q4 2025": "Q4_2025",
+            "Q1 2026": "Q1_2026", "Q2 2026": "Q2_2026",
+        }
+        for q in filters.get("quarters", []):
+            quarter_periods.add(qmap.get(q, q.replace(" ", "_")))
+
+    # Build chunk_id → period mapping from the text chunk store
+    chunk_period_map: Dict[str, str] = {}
+    try:
+        import json, os
+        store_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            "..", "..", "data", "index", "kv_store_text_chunks.json"
+        )
+        with open(store_path) as f:
+            store = json.load(f)
+        for cid, cdata in store.items():
+            if isinstance(cdata, dict):
+                content = cdata.get("content", "")
+                m = re.search(r"Period:\s*([\w_]+)", content)
+                if m:
+                    chunk_period_map[cid] = m.group(1)
+    except Exception:
+        pass
+
+    # Collect cross-company edges, applying canonical names and period filter
+    seen_pairs: set = set()
     all_cross_edges = []
     for u, v, data in full_graph.edges(data=True):
-        if _is_company(u) and _is_company(v) and u.lower() != v.lower():
-            desc = data.get("description", "")
-            all_cross_edges.append({
-                "source": u,
-                "target": v,
-                "description": desc,
-                "type": _classify_edge(desc),
-            })
+        cu, cv = _canonical(u), _canonical(v)
+        if not _is_company(cu) or not _is_company(cv): continue
+        if cu == cv: continue
+        pair = tuple(sorted([cu, cv]))
+        if pair in seen_pairs: continue  # deduplicate undirected duplicates
 
-    # 2. If a query was made, prioritise edges whose nodes appear in the answer
+        # Period filter: check if any source chunk matches
+        if quarter_periods:
+            raw_chunk_ids = data.get("source_id", "")
+            chunk_ids = [c.strip().strip('"').strip("'") for c in raw_chunk_ids.split(",") if c.strip()]
+            periods = {chunk_period_map.get(cid) for cid in chunk_ids if cid in chunk_period_map}
+            if not periods.intersection(quarter_periods):
+                continue  # edge not from a matching quarter
+
+        seen_pairs.add(pair)
+        desc = data.get("description", "")
+        all_cross_edges.append({
+            "source": cu, "target": cv,
+            "description": desc,
+            "type": _classify_edge(desc),
+        })
+
+    # Sort by query relevance
     if query_results:
         q_lower = query_results.lower()
         def relevance(e):
@@ -89,34 +188,25 @@ def extract_visual_graph(rag_index, query_results: str) -> Dict[str, Any]:
             return score
         all_cross_edges.sort(key=relevance, reverse=True)
 
-    # Limit to top 60 for performance
-    edges = all_cross_edges[:60]
+    edges = all_cross_edges[:30]  # cap for readability
 
-    # 3. Build unique node list from the kept edges
-    node_ids = set()
-    for e in edges:
-        node_ids.add(e["source"])
-        node_ids.add(e["target"])
-
-    # Degree within this subgraph (for node sizing)
+    # Build node degree map
     degree: Dict[str, int] = {}
     for e in edges:
         degree[e["source"]] = degree.get(e["source"], 0) + 1
         degree[e["target"]] = degree.get(e["target"], 0) + 1
 
-    nodes = [{"id": nid, "degree": degree.get(nid, 1)} for nid in node_ids]
-
+    nodes = [{"id": nid, "degree": degree.get(nid, 1)} for nid in degree]
     links = [
         {
             "source": e["source"],
             "target": e["target"],
-            "label":  e["description"][:200],   # truncate for JSON size
+            "label":  e["description"][:200],
             "type":   e["type"],
             "color":  EDGE_COLORS[e["type"]],
         }
         for e in edges
     ]
-
     return {"nodes": nodes, "links": links}
 
 

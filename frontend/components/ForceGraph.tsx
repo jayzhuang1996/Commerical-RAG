@@ -183,8 +183,8 @@ export default function ForceGraph({ triples }: Props) {
         linkLabel={(link: any) => {
           const s = typeof link.source === 'object' ? link.source.id : link.source;
           const t = typeof link.target === 'object' ? link.target.id : link.target;
-          const lbl = (link.label || '').slice(0, 140);
-          return `<div style="max-width:240px;padding:8px 10px;font-size:11px;line-height:1.5;background:#fff;border:1px solid #e3e3e3;border-radius:6px;box-shadow:0 4px 12px rgba(0,0,0,0.12)"><strong style="color:#192E44">${s} → ${t}</strong><br/>${lbl}</div>`;
+          const lbl = (link.label || '').slice(0, 160);
+          return `<div style="max-width:260px;padding:10px 12px;font-family:'Segoe UI',sans-serif;font-size:12px;line-height:1.6;background:#fff;border:1px solid #e3e3e3;border-radius:8px;box-shadow:0 4px 16px rgba(25,46,68,0.14)"><strong style="color:#192E44;display:block;margin-bottom:4px">${s} → ${t}</strong><span style="color:#3C3C3C">${lbl}</span></div>`;
         }}
         linkHoverPrecision={6}
         onNodeHover={handleNodeHover}

@@ -61,7 +61,7 @@ async def query_rag(request: QueryRequest):
 
         # 2. Visual graph (cross-company relationships)
         from retrieval.indexing_pipeline import rag
-        graph_viz = extract_visual_graph(rag, answer_text)
+        graph_viz = extract_visual_graph(rag, answer_text, filters=dict(request.filters))
 
         # 3. Real source chunks ─────────────────────────────────────────────
         # Load the text chunk store once per request (it's an in-process JSON file)

@@ -1852,10 +1852,11 @@
       "chunk-b85ec976f34913889413e19b8bcf3a78",
       "chunk-9bf6029098cad4038c77d1ed792d6580",
       "chunk-bd5ea776dd0bc037e9d5bef333467033",
-      "chunk-7525d68603373348fa20b45cca57f5cb"
+      "chunk-7525d68603373348fa20b45cca57f5cb",
+      "chunk-ba40b6b7fd09e59a54d8910c67f23856"
     ],
-    "count": 6,
-    "update_time": 1777385093,
+    "count": 7,
+    "update_time": 1777394912,
     "_id": "China<SEP>United States"
   },
   "Global Trade<SEP>Tariffs": {
@@ -16115,11 +16116,11 @@
   },
   "Regulations<SEP>Risk Factors": {
     "chunk_ids": [
-      "chunk-9320c446656cc2fe78421ce8ddd32029"
+      "chunk-9320c446656cc2fe78421ce8ddd32029",
+      "chunk-cb09c5933b84b05d65f8f2f9258aff49"
     ],
-    "count": 1,
-    "create_time": 1777381774,
-    "update_time": 1777381774,
+    "count": 2,
+    "update_time": 1777394912,
     "_id": "Regulations<SEP>Risk Factors"
   },
   "Compliance Costs<SEP>Laws": {
@@ -27846,11 +27847,12 @@
   },
   "Intellectual Property<SEP>Litigation": {
     "chunk_ids": [
-      "chunk-02a4c78eba0be223cbda366fad2d721c"
+      "chunk-02a4c78eba0be223cbda366fad2d721c",
+      "chunk-ac8a59c6dd2808fcedc6f644677b6cb7",
+      "chunk-f04a2fc7e5f763861ace9bff2279a87a"
     ],
-    "count": 1,
-    "create_time": 1777385092,
-    "update_time": 1777385092,
+    "count": 3,
+    "update_time": 1777394912,
     "_id": "Intellectual Property<SEP>Litigation"
   },
   "Federal Subcontractors<SEP>U.S. Government": {
@@ -28395,11 +28397,11 @@
   },
   "Competitors<SEP>Customers": {
     "chunk_ids": [
-      "chunk-8f3735be491de3893571b4029be91cff"
+      "chunk-8f3735be491de3893571b4029be91cff",
+      "chunk-4f4afa3d6990de6588b412054e3e14ba"
     ],
-    "count": 1,
-    "create_time": 1777385092,
-    "update_time": 1777385092,
+    "count": 2,
+    "update_time": 1777394913,
     "_id": "Competitors<SEP>Customers"
   },
   "AMD<SEP>Xilinx, Inc.": {
@@ -28881,11 +28883,11 @@
   },
   "AI Technologies<SEP>Intellectual Property": {
     "chunk_ids": [
-      "chunk-4560ad4ee409d44e948094dbd506bb50"
+      "chunk-4560ad4ee409d44e948094dbd506bb50",
+      "chunk-f04a2fc7e5f763861ace9bff2279a87a"
     ],
-    "count": 1,
-    "create_time": 1777385093,
-    "update_time": 1777385093,
+    "count": 2,
+    "update_time": 1777394913,
     "_id": "AI Technologies<SEP>Intellectual Property"
   },
   "Data Center End Market<SEP>Marvell": {
@@ -35867,11 +35869,11 @@
   },
   "Fiscal 2025<SEP>QCOM": {
     "chunk_ids": [
-      "chunk-9b09a1803ee2d2cee6197990dba07225"
+      "chunk-9b09a1803ee2d2cee6197990dba07225",
+      "chunk-c69c676a8bc81449f3a8767ff8d791ba"
     ],
-    "count": 1,
-    "create_time": 1777394331,
-    "update_time": 1777394331,
+    "count": 2,
+    "update_time": 1777395172,
     "_id": "Fiscal 2025<SEP>QCOM"
   },
   "QCT (Qualcomm CDMA Technologies)<SEP>Revenues": {
@@ -36359,5 +36361,2151 @@
     "create_time": 1777394340,
     "update_time": 1777394340,
     "_id": "Debt Programs<SEP>Liquidity and Capital Resources"
+  },
+  "Korea<SEP>Taiwan": {
+    "chunk_ids": [
+      "chunk-ba40b6b7fd09e59a54d8910c67f23856"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Korea<SEP>Taiwan"
+  },
+  "India<SEP>Singapore": {
+    "chunk_ids": [
+      "chunk-ba40b6b7fd09e59a54d8910c67f23856"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "India<SEP>Singapore"
+  },
+  "Regulations<SEP>Tariffs": {
+    "chunk_ids": [
+      "chunk-ba40b6b7fd09e59a54d8910c67f23856"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Regulations<SEP>Tariffs"
+  },
+  "Market Volatility<SEP>Securities Litigation": {
+    "chunk_ids": [
+      "chunk-ba40b6b7fd09e59a54d8910c67f23856"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Market Volatility<SEP>Securities Litigation"
+  },
+  "Financial Results<SEP>Market Price": {
+    "chunk_ids": [
+      "chunk-ba40b6b7fd09e59a54d8910c67f23856"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Financial Results<SEP>Market Price"
+  },
+  "Germany<SEP>Taiwan": {
+    "chunk_ids": [
+      "chunk-ba40b6b7fd09e59a54d8910c67f23856"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Germany<SEP>Taiwan"
+  },
+  "Debt<SEP>Organization for Economic Co-operation and Development (OECD)": {
+    "chunk_ids": [
+      "chunk-cb09c5933b84b05d65f8f2f9258aff49"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Debt<SEP>Organization for Economic Co-operation and Development (OECD)"
+  },
+  "Corporate Governance<SEP>Employment and Human Capital": {
+    "chunk_ids": [
+      "chunk-cb09c5933b84b05d65f8f2f9258aff49"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Corporate Governance<SEP>Employment and Human Capital"
+  },
+  "Public Disclosure and Reporting<SEP>Sustainability-related Data": {
+    "chunk_ids": [
+      "chunk-cb09c5933b84b05d65f8f2f9258aff49"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Public Disclosure and Reporting<SEP>Sustainability-related Data"
+  },
+  "Regulations<SEP>U.S./China Trade Tensions": {
+    "chunk_ids": [
+      "chunk-cb09c5933b84b05d65f8f2f9258aff49"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Regulations<SEP>U.S./China Trade Tensions"
+  },
+  "Defects<SEP>Product Liability Claims": {
+    "chunk_ids": [
+      "chunk-ac8a59c6dd2808fcedc6f644677b6cb7"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Defects<SEP>Product Liability Claims"
+  },
+  "Intellectual Property<SEP>Patent Law Changes": {
+    "chunk_ids": [
+      "chunk-ac8a59c6dd2808fcedc6f644677b6cb7"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Intellectual Property<SEP>Patent Law Changes"
+  },
+  "Product Liability Claims<SEP>Security Vulnerabilities": {
+    "chunk_ids": [
+      "chunk-ac8a59c6dd2808fcedc6f644677b6cb7"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Product Liability Claims<SEP>Security Vulnerabilities"
+  },
+  "Automotive Industry<SEP>Customer Field Actions": {
+    "chunk_ids": [
+      "chunk-ac8a59c6dd2808fcedc6f644677b6cb7"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Automotive Industry<SEP>Customer Field Actions"
+  },
+  "Defects<SEP>Security Vulnerabilities": {
+    "chunk_ids": [
+      "chunk-ac8a59c6dd2808fcedc6f644677b6cb7"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Defects<SEP>Security Vulnerabilities"
+  },
+  "Artificial Intelligence<SEP>Home Automation": {
+    "chunk_ids": [
+      "chunk-ac8a59c6dd2808fcedc6f644677b6cb7"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Artificial Intelligence<SEP>Home Automation"
+  },
+  "High-Risk Applications<SEP>Security Vulnerabilities": {
+    "chunk_ids": [
+      "chunk-ac8a59c6dd2808fcedc6f644677b6cb7"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "High-Risk Applications<SEP>Security Vulnerabilities"
+  },
+  "Licensing Agreements<SEP>Patent Technology": {
+    "chunk_ids": [
+      "chunk-19874e494604a8a0e11d78069ed6d5b9"
+    ],
+    "count": 1,
+    "create_time": 1777394912,
+    "update_time": 1777394912,
+    "_id": "Licensing Agreements<SEP>Patent Technology"
+  },
+  "5G Technology<SEP>Cellular Communications Technologies": {
+    "chunk_ids": [
+      "chunk-19874e494604a8a0e11d78069ed6d5b9"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "5G Technology<SEP>Cellular Communications Technologies"
+  },
+  "ADAS/AD Functions<SEP>High-Risk Applications": {
+    "chunk_ids": [
+      "chunk-ac8a59c6dd2808fcedc6f644677b6cb7"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "ADAS/AD Functions<SEP>High-Risk Applications"
+  },
+  "Licensing Agreements<SEP>Smartphone Market": {
+    "chunk_ids": [
+      "chunk-19874e494604a8a0e11d78069ed6d5b9"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Licensing Agreements<SEP>Smartphone Market"
+  },
+  "Market Competition<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-19874e494604a8a0e11d78069ed6d5b9"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Market Competition<SEP>Semiconductor Industry"
+  },
+  "Artificial Intelligence<SEP>Consumer Demand": {
+    "chunk_ids": [
+      "chunk-19874e494604a8a0e11d78069ed6d5b9"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Artificial Intelligence<SEP>Consumer Demand"
+  },
+  "Market Competition<SEP>Supply Chain": {
+    "chunk_ids": [
+      "chunk-19874e494604a8a0e11d78069ed6d5b9"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Market Competition<SEP>Supply Chain"
+  },
+  "5G Technology<SEP>Research and Development": {
+    "chunk_ids": [
+      "chunk-19874e494604a8a0e11d78069ed6d5b9"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "5G Technology<SEP>Research and Development"
+  },
+  "Intellectual Property<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-4f4c9cef59bbe33ec0679329ddf60e59"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Intellectual Property<SEP>Semiconductor Industry"
+  },
+  "Financial Condition<SEP>Market Competition": {
+    "chunk_ids": [
+      "chunk-19874e494604a8a0e11d78069ed6d5b9"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Financial Condition<SEP>Market Competition"
+  },
+  "Apple<SEP>MDM Products": {
+    "chunk_ids": [
+      "chunk-4f4c9cef59bbe33ec0679329ddf60e59"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Apple<SEP>MDM Products"
+  },
+  "Chinese OEMs<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-4f4c9cef59bbe33ec0679329ddf60e59"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chinese OEMs<SEP>Semiconductor Industry"
+  },
+  "Open Source Software<SEP>business risks": {
+    "chunk_ids": [
+      "chunk-4f4c9cef59bbe33ec0679329ddf60e59"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Open Source Software<SEP>business risks"
+  },
+  "Apple<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-4f4c9cef59bbe33ec0679329ddf60e59"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Apple<SEP>Semiconductor Industry"
+  },
+  "Integrated Circuit Products<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-4f4c9cef59bbe33ec0679329ddf60e59"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Integrated Circuit Products<SEP>Semiconductor Industry"
+  },
+  "Semiconductor Industry<SEP>U.S. Government": {
+    "chunk_ids": [
+      "chunk-4f4c9cef59bbe33ec0679329ddf60e59"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Semiconductor Industry<SEP>U.S. Government"
+  },
+  "Customers in China<SEP>Integrated Circuit Products": {
+    "chunk_ids": [
+      "chunk-55b50c6f93fbf55a8c458d1f642a1593"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Customers in China<SEP>Integrated Circuit Products"
+  },
+  "Chinese Government<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-4f4c9cef59bbe33ec0679329ddf60e59"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chinese Government<SEP>Semiconductor Industry"
+  },
+  "4G Integrated Circuit Products<SEP>Huawei": {
+    "chunk_ids": [
+      "chunk-55b50c6f93fbf55a8c458d1f642a1593"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "4G Integrated Circuit Products<SEP>Huawei"
+  },
+  "Integrated Circuit Products<SEP>Mobile Handsets": {
+    "chunk_ids": [
+      "chunk-55b50c6f93fbf55a8c458d1f642a1593",
+      "chunk-894e59ceb4d895582bde5a0be6aa369f"
+    ],
+    "count": 2,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Integrated Circuit Products<SEP>Mobile Handsets"
+  },
+  "Chinese Government<SEP>U.S. Government": {
+    "chunk_ids": [
+      "chunk-55b50c6f93fbf55a8c458d1f642a1593",
+      "chunk-894e59ceb4d895582bde5a0be6aa369f",
+      "chunk-a0180d290a07e625f90aca81cf70c37e"
+    ],
+    "count": 3,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chinese Government<SEP>U.S. Government"
+  },
+  "Automotive<SEP>Data Center": {
+    "chunk_ids": [
+      "chunk-55b50c6f93fbf55a8c458d1f642a1593"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Automotive<SEP>Data Center"
+  },
+  "Chinese OEMs<SEP>Integrated Circuit Products": {
+    "chunk_ids": [
+      "chunk-55b50c6f93fbf55a8c458d1f642a1593",
+      "chunk-894e59ceb4d895582bde5a0be6aa369f"
+    ],
+    "count": 2,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chinese OEMs<SEP>Integrated Circuit Products"
+  },
+  "Integrated Circuit Products<SEP>Non-Chinese OEM Customers": {
+    "chunk_ids": [
+      "chunk-55b50c6f93fbf55a8c458d1f642a1593"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Integrated Circuit Products<SEP>Non-Chinese OEM Customers"
+  },
+  "Governmental Investigations<SEP>Licensees": {
+    "chunk_ids": [
+      "chunk-a9fcd8e5b4390e8261000c8909836896"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Governmental Investigations<SEP>Licensees"
+  },
+  "Chinese Licensees<SEP>Integrated Circuit Products": {
+    "chunk_ids": [
+      "chunk-55b50c6f93fbf55a8c458d1f642a1593"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chinese Licensees<SEP>Integrated Circuit Products"
+  },
+  "Licensees<SEP>Litigation": {
+    "chunk_ids": [
+      "chunk-a9fcd8e5b4390e8261000c8909836896"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Licensees<SEP>Litigation"
+  },
+  "SDOs<SEP>Standard-Essential Patents": {
+    "chunk_ids": [
+      "chunk-a9fcd8e5b4390e8261000c8909836896"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "SDOs<SEP>Standard-Essential Patents"
+  },
+  "Governmental Investigations<SEP>Litigation": {
+    "chunk_ids": [
+      "chunk-a9fcd8e5b4390e8261000c8909836896"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Governmental Investigations<SEP>Litigation"
+  },
+  "Intellectual Property Policies<SEP>Standard-Essential Patents": {
+    "chunk_ids": [
+      "chunk-a9fcd8e5b4390e8261000c8909836896"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Intellectual Property Policies<SEP>Standard-Essential Patents"
+  },
+  "Licensees<SEP>Patent Licensing Practices": {
+    "chunk_ids": [
+      "chunk-a9fcd8e5b4390e8261000c8909836896"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Licensees<SEP>Patent Licensing Practices"
+  },
+  "Device Share<SEP>Licensees": {
+    "chunk_ids": [
+      "chunk-a9fcd8e5b4390e8261000c8909836896"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Device Share<SEP>Licensees"
+  },
+  "Automotive Industry<SEP>Mobile Handsets": {
+    "chunk_ids": [
+      "chunk-4f4afa3d6990de6588b412054e3e14ba"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Automotive Industry<SEP>Mobile Handsets"
+  },
+  "Financial Condition<SEP>Licensees": {
+    "chunk_ids": [
+      "chunk-a9fcd8e5b4390e8261000c8909836896"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Financial Condition<SEP>Licensees"
+  },
+  "2040 Net-Zero Global GHG Emissions Commitment<SEP>ESG-Related Targets": {
+    "chunk_ids": [
+      "chunk-4f4afa3d6990de6588b412054e3e14ba"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "2040 Net-Zero Global GHG Emissions Commitment<SEP>ESG-Related Targets"
+  },
+  "Product Quality<SEP>Strategic Transactions": {
+    "chunk_ids": [
+      "chunk-4f4afa3d6990de6588b412054e3e14ba"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Product Quality<SEP>Strategic Transactions"
+  },
+  "Financial Condition<SEP>Research and Development": {
+    "chunk_ids": [
+      "chunk-a9fcd8e5b4390e8261000c8909836896"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Financial Condition<SEP>Research and Development"
+  },
+  "Customers<SEP>Vendors": {
+    "chunk_ids": [
+      "chunk-4f4afa3d6990de6588b412054e3e14ba"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Customers<SEP>Vendors"
+  },
+  "Chipset Products<SEP>U.S./China Trade Tensions": {
+    "chunk_ids": [
+      "chunk-0f0bd29d475052365adb063bc3a1f712"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chipset Products<SEP>U.S./China Trade Tensions"
+  },
+  "Competitors<SEP>Product Safety Standards": {
+    "chunk_ids": [
+      "chunk-4f4afa3d6990de6588b412054e3e14ba"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Competitors<SEP>Product Safety Standards"
+  },
+  "Chipset Products<SEP>Product Defects": {
+    "chunk_ids": [
+      "chunk-0f0bd29d475052365adb063bc3a1f712"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chipset Products<SEP>Product Defects"
+  },
+  "Chipset Products<SEP>Security Vulnerabilities": {
+    "chunk_ids": [
+      "chunk-0f0bd29d475052365adb063bc3a1f712"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chipset Products<SEP>Security Vulnerabilities"
+  },
+  "Product Defects<SEP>Technology Development": {
+    "chunk_ids": [
+      "chunk-0f0bd29d475052365adb063bc3a1f712"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Product Defects<SEP>Technology Development"
+  },
+  "Automotive Industry<SEP>Product Defects": {
+    "chunk_ids": [
+      "chunk-0f0bd29d475052365adb063bc3a1f712"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Automotive Industry<SEP>Product Defects"
+  },
+  "Cybersecurity Threats<SEP>Malicious Actors": {
+    "chunk_ids": [
+      "chunk-0f0bd29d475052365adb063bc3a1f712"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Cybersecurity Threats<SEP>Malicious Actors"
+  },
+  "Product Liability<SEP>Risks Related to Product Defects or Security Vulnerabilities": {
+    "chunk_ids": [
+      "chunk-0f0bd29d475052365adb063bc3a1f712"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Product Liability<SEP>Risks Related to Product Defects or Security Vulnerabilities"
+  },
+  "Global Economic Conditions<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-641d729437a0db3f7058ab86056dc584"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Global Economic Conditions<SEP>Semiconductor Industry"
+  },
+  "Global Economic Conditions<SEP>Trade Policy": {
+    "chunk_ids": [
+      "chunk-641d729437a0db3f7058ab86056dc584"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Global Economic Conditions<SEP>Trade Policy"
+  },
+  "Company Stock Price<SEP>Open Source Software": {
+    "chunk_ids": [
+      "chunk-641d729437a0db3f7058ab86056dc584"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Company Stock Price<SEP>Open Source Software"
+  },
+  "Chipset Sales<SEP>Customer Relationships": {
+    "chunk_ids": [
+      "chunk-641d729437a0db3f7058ab86056dc584"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chipset Sales<SEP>Customer Relationships"
+  },
+  "Monetary Damages<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-641d729437a0db3f7058ab86056dc584"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Monetary Damages<SEP>Semiconductor Industry"
+  },
+  "Open Source Licensing Obligations<SEP>Open Source Software": {
+    "chunk_ids": [
+      "chunk-641d729437a0db3f7058ab86056dc584"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Open Source Licensing Obligations<SEP>Open Source Software"
+  },
+  "Chipset Licensing Revenues<SEP>Economic Conditions": {
+    "chunk_ids": [
+      "chunk-641d729437a0db3f7058ab86056dc584"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chipset Licensing Revenues<SEP>Economic Conditions"
+  },
+  "Intellectual Property<SEP>License Agreements": {
+    "chunk_ids": [
+      "chunk-f04a2fc7e5f763861ace9bff2279a87a"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Intellectual Property<SEP>License Agreements"
+  },
+  "Litigation<SEP>United States International Trade Commission": {
+    "chunk_ids": [
+      "chunk-f04a2fc7e5f763861ace9bff2279a87a"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Litigation<SEP>United States International Trade Commission"
+  },
+  "Litigation<SEP>Management Resources": {
+    "chunk_ids": [
+      "chunk-f04a2fc7e5f763861ace9bff2279a87a"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Litigation<SEP>Management Resources"
+  },
+  "Chipset Foundries<SEP>Litigation": {
+    "chunk_ids": [
+      "chunk-f04a2fc7e5f763861ace9bff2279a87a"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Chipset Foundries<SEP>Litigation"
+  },
+  "Litigation<SEP>Semiconductor Assembly and Test Service Providers": {
+    "chunk_ids": [
+      "chunk-f04a2fc7e5f763861ace9bff2279a87a"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Litigation<SEP>Semiconductor Assembly and Test Service Providers"
+  },
+  "Litigation<SEP>Product Sales": {
+    "chunk_ids": [
+      "chunk-f04a2fc7e5f763861ace9bff2279a87a"
+    ],
+    "count": 1,
+    "create_time": 1777394913,
+    "update_time": 1777394913,
+    "_id": "Litigation<SEP>Product Sales"
+  },
+  "Qualcomm<SEP>U.S./China Trade Tensions": {
+    "chunk_ids": [
+      "chunk-93c837d9497bcf348ac686ca7e3bb612",
+      "chunk-ac759d7ce346cdc05ca6f8f5193c92b9"
+    ],
+    "count": 2,
+    "update_time": 1777395119,
+    "_id": "Qualcomm<SEP>U.S./China Trade Tensions"
+  },
+  "5G<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-93c837d9497bcf348ac686ca7e3bb612"
+    ],
+    "count": 1,
+    "create_time": 1777394914,
+    "update_time": 1777394914,
+    "_id": "5G<SEP>Qualcomm"
+  },
+  "Annual Risk Report<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-93c837d9497bcf348ac686ca7e3bb612"
+    ],
+    "count": 1,
+    "create_time": 1777394914,
+    "update_time": 1777394914,
+    "_id": "Annual Risk Report<SEP>Qualcomm"
+  },
+  "Intellectual Property<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-93c837d9497bcf348ac686ca7e3bb612",
+      "chunk-ac759d7ce346cdc05ca6f8f5193c92b9"
+    ],
+    "count": 2,
+    "update_time": 1777395119,
+    "_id": "Intellectual Property<SEP>Qualcomm"
+  },
+  "QCOM<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-93c837d9497bcf348ac686ca7e3bb612"
+    ],
+    "count": 1,
+    "create_time": 1777394914,
+    "update_time": 1777394914,
+    "_id": "QCOM<SEP>Qualcomm"
+  },
+  "Annual Report<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-93c837d9497bcf348ac686ca7e3bb612"
+    ],
+    "count": 1,
+    "create_time": 1777394914,
+    "update_time": 1777394914,
+    "_id": "Annual Report<SEP>Qualcomm"
+  },
+  "Tax Liabilities<SEP>United States": {
+    "chunk_ids": [
+      "chunk-cb09c5933b84b05d65f8f2f9258aff49"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Tax Liabilities<SEP>United States"
+  },
+  "China<SEP>OEMs": {
+    "chunk_ids": [
+      "chunk-ba40b6b7fd09e59a54d8910c67f23856"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "China<SEP>OEMs"
+  },
+  "Strategic Transactions<SEP>United States": {
+    "chunk_ids": [
+      "chunk-4f4afa3d6990de6588b412054e3e14ba"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Strategic Transactions<SEP>United States"
+  },
+  "China<SEP>U.S./China Trade Tensions": {
+    "chunk_ids": [
+      "chunk-cb09c5933b84b05d65f8f2f9258aff49"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "China<SEP>U.S./China Trade Tensions"
+  },
+  "Integrated Circuit Products<SEP>Third-Party Suppliers": {
+    "chunk_ids": [
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Integrated Circuit Products<SEP>Third-Party Suppliers"
+  },
+  "Government Agencies<SEP>United States": {
+    "chunk_ids": [
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Government Agencies<SEP>United States"
+  },
+  "China<SEP>Emerging Regions": {
+    "chunk_ids": [
+      "chunk-0f0bd29d475052365adb063bc3a1f712"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "China<SEP>Emerging Regions"
+  },
+  "Natural Disasters<SEP>Third-Party Suppliers": {
+    "chunk_ids": [
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Natural Disasters<SEP>Third-Party Suppliers"
+  },
+  "Integrated Circuit Products<SEP>Supply Strategies": {
+    "chunk_ids": [
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Integrated Circuit Products<SEP>Supply Strategies"
+  },
+  "China<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-93c837d9497bcf348ac686ca7e3bb612",
+      "chunk-ac759d7ce346cdc05ca6f8f5193c92b9"
+    ],
+    "count": 2,
+    "update_time": 1777395119,
+    "_id": "China<SEP>Qualcomm"
+  },
+  "Health Crises<SEP>Third-Party Suppliers": {
+    "chunk_ids": [
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Health Crises<SEP>Third-Party Suppliers"
+  },
+  "Government Agencies<SEP>U.S./China Relations": {
+    "chunk_ids": [
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Government Agencies<SEP>U.S./China Relations"
+  },
+  "Cybersecurity Program<SEP>IT Systems": {
+    "chunk_ids": [
+      "chunk-a2562ca09853e3aec0cde0bc2cfd5f85"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Cybersecurity Program<SEP>IT Systems"
+  },
+  "Manufacturing Capacity<SEP>Third-Party Suppliers": {
+    "chunk_ids": [
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Manufacturing Capacity<SEP>Third-Party Suppliers"
+  },
+  "China<SEP>Government Agencies": {
+    "chunk_ids": [
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "China<SEP>Government Agencies"
+  },
+  "Annual Report<SEP>Cybersecurity Program": {
+    "chunk_ids": [
+      "chunk-a2562ca09853e3aec0cde0bc2cfd5f85"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Annual Report<SEP>Cybersecurity Program"
+  },
+  "Competitors<SEP>Employees": {
+    "chunk_ids": [
+      "chunk-a2562ca09853e3aec0cde0bc2cfd5f85"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Competitors<SEP>Employees"
+  },
+  "Cybersecurity Certifications<SEP>Technology": {
+    "chunk_ids": [
+      "chunk-a2562ca09853e3aec0cde0bc2cfd5f85"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Cybersecurity Certifications<SEP>Technology"
+  },
+  "Raw Materials<SEP>Third-Party Suppliers": {
+    "chunk_ids": [
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Raw Materials<SEP>Third-Party Suppliers"
+  },
+  "IT Systems<SEP>Third-Party Software": {
+    "chunk_ids": [
+      "chunk-a2562ca09853e3aec0cde0bc2cfd5f85"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "IT Systems<SEP>Third-Party Software"
+  },
+  "AI<SEP>Cybersecurity Program": {
+    "chunk_ids": [
+      "chunk-a2562ca09853e3aec0cde0bc2cfd5f85"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "AI<SEP>Cybersecurity Program"
+  },
+  "Employees<SEP>Intellectual Property": {
+    "chunk_ids": [
+      "chunk-a2562ca09853e3aec0cde0bc2cfd5f85"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Employees<SEP>Intellectual Property"
+  },
+  "Global Semiconductor Industry<SEP>Manufacturing Capability": {
+    "chunk_ids": [
+      "chunk-9295a1db86494346eb28cafea73517cf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Global Semiconductor Industry<SEP>Manufacturing Capability"
+  },
+  "Foundry Suppliers<SEP>Integrated Circuits": {
+    "chunk_ids": [
+      "chunk-9295a1db86494346eb28cafea73517cf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Foundry Suppliers<SEP>Integrated Circuits"
+  },
+  "Performance, Quality or Yield Specifications<SEP>Third-Party Suppliers": {
+    "chunk_ids": [
+      "chunk-e553faa98ef2d6c80d9c692057ef0faf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Performance, Quality or Yield Specifications<SEP>Third-Party Suppliers"
+  },
+  "Capacity Commitments<SEP>Manufacturing Costs": {
+    "chunk_ids": [
+      "chunk-9295a1db86494346eb28cafea73517cf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Capacity Commitments<SEP>Manufacturing Costs"
+  },
+  "Cybersecurity Program<SEP>Malicious Actors": {
+    "chunk_ids": [
+      "chunk-a2562ca09853e3aec0cde0bc2cfd5f85"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Cybersecurity Program<SEP>Malicious Actors"
+  },
+  "Alternate Suppliers<SEP>Manufacturing Capability": {
+    "chunk_ids": [
+      "chunk-9295a1db86494346eb28cafea73517cf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Alternate Suppliers<SEP>Manufacturing Capability"
+  },
+  "Foundry Suppliers<SEP>Supply Chain": {
+    "chunk_ids": [
+      "chunk-9295a1db86494346eb28cafea73517cf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Foundry Suppliers<SEP>Supply Chain"
+  },
+  "Apple<SEP>Integrated Circuit Products": {
+    "chunk_ids": [
+      "chunk-894e59ceb4d895582bde5a0be6aa369f"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Apple<SEP>Integrated Circuit Products"
+  },
+  "Integrated Circuits<SEP>Manufacturing Capability": {
+    "chunk_ids": [
+      "chunk-9295a1db86494346eb28cafea73517cf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Integrated Circuits<SEP>Manufacturing Capability"
+  },
+  "Integrated Circuit Products<SEP>Samsung": {
+    "chunk_ids": [
+      "chunk-894e59ceb4d895582bde5a0be6aa369f"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Integrated Circuit Products<SEP>Samsung"
+  },
+  "Premium-Tier Devices<SEP>QCT": {
+    "chunk_ids": [
+      "chunk-894e59ceb4d895582bde5a0be6aa369f"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Premium-Tier Devices<SEP>QCT"
+  },
+  "Customer Demand<SEP>Integrated Circuits": {
+    "chunk_ids": [
+      "chunk-9295a1db86494346eb28cafea73517cf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Customer Demand<SEP>Integrated Circuits"
+  },
+  "Integrated Circuit Products<SEP>Xiaomi": {
+    "chunk_ids": [
+      "chunk-894e59ceb4d895582bde5a0be6aa369f"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Integrated Circuit Products<SEP>Xiaomi"
+  },
+  "QCT<SEP>Refurbished Devices": {
+    "chunk_ids": [
+      "chunk-894e59ceb4d895582bde5a0be6aa369f"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "QCT<SEP>Refurbished Devices"
+  },
+  "Health Crises<SEP>Manufacturing Operations": {
+    "chunk_ids": [
+      "chunk-3194117d1563dbb617f653b3e356d875"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Health Crises<SEP>Manufacturing Operations"
+  },
+  "Integrated Circuits<SEP>Raw Materials": {
+    "chunk_ids": [
+      "chunk-9295a1db86494346eb28cafea73517cf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Integrated Circuits<SEP>Raw Materials"
+  },
+  "Chinese Government<SEP>Integrated Circuit Products": {
+    "chunk_ids": [
+      "chunk-894e59ceb4d895582bde5a0be6aa369f",
+      "chunk-a0180d290a07e625f90aca81cf70c37e"
+    ],
+    "count": 2,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Chinese Government<SEP>Integrated Circuit Products"
+  },
+  "Asia<SEP>Suppliers": {
+    "chunk_ids": [
+      "chunk-3194117d1563dbb617f653b3e356d875"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Asia<SEP>Suppliers"
+  },
+  "Cyber-Attacks<SEP>Manufacturing Operations": {
+    "chunk_ids": [
+      "chunk-3194117d1563dbb617f653b3e356d875"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Cyber-Attacks<SEP>Manufacturing Operations"
+  },
+  "Delivery Obligations<SEP>Integrated Circuits": {
+    "chunk_ids": [
+      "chunk-9295a1db86494346eb28cafea73517cf"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Delivery Obligations<SEP>Integrated Circuits"
+  },
+  "Natural Disasters<SEP>Suppliers": {
+    "chunk_ids": [
+      "chunk-3194117d1563dbb617f653b3e356d875"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Natural Disasters<SEP>Suppliers"
+  },
+  "Manufacturing Operations<SEP>Trade Policies": {
+    "chunk_ids": [
+      "chunk-3194117d1563dbb617f653b3e356d875"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Manufacturing Operations<SEP>Trade Policies"
+  },
+  "Cyber-Attacks<SEP>Intellectual Property": {
+    "chunk_ids": [
+      "chunk-3194117d1563dbb617f653b3e356d875"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Cyber-Attacks<SEP>Intellectual Property"
+  },
+  "Investment<SEP>Manufacturing Processes": {
+    "chunk_ids": [
+      "chunk-3194117d1563dbb617f653b3e356d875"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "Investment<SEP>Manufacturing Processes"
+  },
+  "OECD<SEP>Pillar Two Framework": {
+    "chunk_ids": [
+      "chunk-7656d1e5a7a7739e056ce57c5845e86a"
+    ],
+    "count": 1,
+    "create_time": 1777394918,
+    "update_time": 1777394918,
+    "_id": "OECD<SEP>Pillar Two Framework"
+  },
+  "Raw Materials<SEP>Suppliers": {
+    "chunk_ids": [
+      "chunk-3194117d1563dbb617f653b3e356d875"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Raw Materials<SEP>Suppliers"
+  },
+  "Countries<SEP>Tax Uncertainty": {
+    "chunk_ids": [
+      "chunk-7656d1e5a7a7739e056ce57c5845e86a"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Countries<SEP>Tax Uncertainty"
+  },
+  "Licensing Business<SEP>Patent Portfolio": {
+    "chunk_ids": [
+      "chunk-c9e38ad37beb7f441e24230ad9ce91d5"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Licensing Business<SEP>Patent Portfolio"
+  },
+  "Manufacturing Operations<SEP>Manufacturing Processes": {
+    "chunk_ids": [
+      "chunk-3194117d1563dbb617f653b3e356d875"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Manufacturing Operations<SEP>Manufacturing Processes"
+  },
+  "California<SEP>San Diego": {
+    "chunk_ids": [
+      "chunk-c9e38ad37beb7f441e24230ad9ce91d5"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "California<SEP>San Diego"
+  },
+  "OEMs<SEP>Royalty Agreements": {
+    "chunk_ids": [
+      "chunk-c9e38ad37beb7f441e24230ad9ce91d5"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "OEMs<SEP>Royalty Agreements"
+  },
+  "Geopolitical Conflict<SEP>Suppliers": {
+    "chunk_ids": [
+      "chunk-3194117d1563dbb617f653b3e356d875"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Geopolitical Conflict<SEP>Suppliers"
+  },
+  "Employment Candidates<SEP>Foreign National Graduates": {
+    "chunk_ids": [
+      "chunk-c9e38ad37beb7f441e24230ad9ce91d5"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Employment Candidates<SEP>Foreign National Graduates"
+  },
+  "5G Technologies<SEP>Patent Portfolio": {
+    "chunk_ids": [
+      "chunk-c9e38ad37beb7f441e24230ad9ce91d5"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "5G Technologies<SEP>Patent Portfolio"
+  },
+  "Intellectual Property<SEP>Licensing Business": {
+    "chunk_ids": [
+      "chunk-c9e38ad37beb7f441e24230ad9ce91d5"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Intellectual Property<SEP>Licensing Business"
+  },
+  "Licensing Revenues<SEP>Patent License Agreements": {
+    "chunk_ids": [
+      "chunk-c9e38ad37beb7f441e24230ad9ce91d5"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Licensing Revenues<SEP>Patent License Agreements"
+  },
+  "Innovative Technologies<SEP>Mobile Computing Devices": {
+    "chunk_ids": [
+      "chunk-a0180d290a07e625f90aca81cf70c37e"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Innovative Technologies<SEP>Mobile Computing Devices"
+  },
+  "Exporting Licensing Agreements<SEP>Licensing Business": {
+    "chunk_ids": [
+      "chunk-c9e38ad37beb7f441e24230ad9ce91d5"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Exporting Licensing Agreements<SEP>Licensing Business"
+  },
+  "Integrated Circuit Products<SEP>Mobile Computing Devices": {
+    "chunk_ids": [
+      "chunk-a0180d290a07e625f90aca81cf70c37e"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Integrated Circuit Products<SEP>Mobile Computing Devices"
+  },
+  "5G Technology<SEP>Innovative Technologies": {
+    "chunk_ids": [
+      "chunk-a0180d290a07e625f90aca81cf70c37e"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "5G Technology<SEP>Innovative Technologies"
+  },
+  "Asia<SEP>Manufacturing Facilities": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Asia<SEP>Manufacturing Facilities"
+  },
+  "Broadcom<SEP>Integrated Circuit Products": {
+    "chunk_ids": [
+      "chunk-a0180d290a07e625f90aca81cf70c37e"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Broadcom<SEP>Integrated Circuit Products"
+  },
+  "Innovative Technologies<SEP>Semiconductor Companies": {
+    "chunk_ids": [
+      "chunk-a0180d290a07e625f90aca81cf70c37e"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Innovative Technologies<SEP>Semiconductor Companies"
+  },
+  "Europe<SEP>Manufacturing Facilities": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Europe<SEP>Manufacturing Facilities"
+  },
+  "Integrated Circuit Products<SEP>Semiconductor Companies": {
+    "chunk_ids": [
+      "chunk-a0180d290a07e625f90aca81cf70c37e"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Integrated Circuit Products<SEP>Semiconductor Companies"
+  },
+  "Environmental Compliance<SEP>Manufacturing Facilities": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Environmental Compliance<SEP>Manufacturing Facilities"
+  },
+  "Climate Change<SEP>Manufacturing Facilities": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Climate Change<SEP>Manufacturing Facilities"
+  },
+  "Manufacturing Facilities<SEP>Natural Disasters": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Manufacturing Facilities<SEP>Natural Disasters"
+  },
+  "Patent License Agreements<SEP>Royalty Rates": {
+    "chunk_ids": [
+      "chunk-632f7d2a01e8195d63e9d7124a9a0c3b"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Patent License Agreements<SEP>Royalty Rates"
+  },
+  "Manufacturing Facilities<SEP>Regulatory Penalties": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Manufacturing Facilities<SEP>Regulatory Penalties"
+  },
+  "Chipset Manufacturers<SEP>Patent License Agreements": {
+    "chunk_ids": [
+      "chunk-632f7d2a01e8195d63e9d7124a9a0c3b"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Chipset Manufacturers<SEP>Patent License Agreements"
+  },
+  "OEMs<SEP>Royalty Rates": {
+    "chunk_ids": [
+      "chunk-632f7d2a01e8195d63e9d7124a9a0c3b"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "OEMs<SEP>Royalty Rates"
+  },
+  "Manufacturing Facilities<SEP>Supply Chain Disruptions": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Manufacturing Facilities<SEP>Supply Chain Disruptions"
+  },
+  "Legal Proceedings<SEP>Regulatory Challenges": {
+    "chunk_ids": [
+      "chunk-632f7d2a01e8195d63e9d7124a9a0c3b"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Legal Proceedings<SEP>Regulatory Challenges"
+  },
+  "Chipset Manufacturers<SEP>FRAND Licensing Commitments": {
+    "chunk_ids": [
+      "chunk-632f7d2a01e8195d63e9d7124a9a0c3b"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Chipset Manufacturers<SEP>FRAND Licensing Commitments"
+  },
+  "Health Crises<SEP>Manufacturing Facilities": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Health Crises<SEP>Manufacturing Facilities"
+  },
+  "Annual Report<SEP>Legal Proceedings": {
+    "chunk_ids": [
+      "chunk-632f7d2a01e8195d63e9d7124a9a0c3b"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Annual Report<SEP>Legal Proceedings"
+  },
+  "OEMs<SEP>Patent Exhaustion Claims": {
+    "chunk_ids": [
+      "chunk-632f7d2a01e8195d63e9d7124a9a0c3b"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "OEMs<SEP>Patent Exhaustion Claims"
+  },
+  "Licensing Agreements<SEP>Transaction Costs": {
+    "chunk_ids": [
+      "chunk-632f7d2a01e8195d63e9d7124a9a0c3b"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Licensing Agreements<SEP>Transaction Costs"
+  },
+  "Antitrust Laws<SEP>Company": {
+    "chunk_ids": [
+      "chunk-632f7d2a01e8195d63e9d7124a9a0c3b"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Antitrust Laws<SEP>Company"
+  },
+  "Cyber-Attacks<SEP>Manufacturing Facilities": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Cyber-Attacks<SEP>Manufacturing Facilities"
+  },
+  "Manufacturing Facilities<SEP>RFFE Modules": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Manufacturing Facilities<SEP>RFFE Modules"
+  },
+  "Manufacturing Facilities<SEP>RF Filter Products": {
+    "chunk_ids": [
+      "chunk-e5eac210d8f91371bb2d91ef94058cfd"
+    ],
+    "count": 1,
+    "create_time": 1777394919,
+    "update_time": 1777394919,
+    "_id": "Manufacturing Facilities<SEP>RF Filter Products"
+  },
+  "Qualcomm<SEP>Securities and Exchange Commission": {
+    "chunk_ids": [
+      "chunk-08bc5dbb66627534aa2335529b98bf12"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Qualcomm<SEP>Securities and Exchange Commission"
+  },
+  "QCT<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-08bc5dbb66627534aa2335529b98bf12",
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 2,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "QCT<SEP>Qualcomm"
+  },
+  "QTL<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-08bc5dbb66627534aa2335529b98bf12",
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 2,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "QTL<SEP>Qualcomm"
+  },
+  "European Commission<SEP>Non-GAAP Results": {
+    "chunk_ids": [
+      "chunk-6c8fcd4b50ad879b4ef8cf313a203720"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "European Commission<SEP>Non-GAAP Results"
+  },
+  "Alphawave IP Group plc<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-08bc5dbb66627534aa2335529b98bf12"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Alphawave IP Group plc<SEP>Qualcomm"
+  },
+  "Deferred Compensation Plan<SEP>Non-GAAP Results": {
+    "chunk_ids": [
+      "chunk-6c8fcd4b50ad879b4ef8cf313a203720"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Deferred Compensation Plan<SEP>Non-GAAP Results"
+  },
+  "Fiscal 2026<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-08bc5dbb66627534aa2335529b98bf12",
+      "chunk-19bcdfafaec9931793fabc1d6dd58fa4",
+      "chunk-ac759d7ce346cdc05ca6f8f5193c92b9"
+    ],
+    "count": 3,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Fiscal 2026<SEP>Qualcomm"
+  },
+  "Interest Expense<SEP>Non-GAAP Results": {
+    "chunk_ids": [
+      "chunk-6c8fcd4b50ad879b4ef8cf313a203720"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Interest Expense<SEP>Non-GAAP Results"
+  },
+  "February 4, 2026<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-08bc5dbb66627534aa2335529b98bf12"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "February 4, 2026<SEP>Qualcomm"
+  },
+  "Acquisition-Related Charges<SEP>Non-GAAP Results": {
+    "chunk_ids": [
+      "chunk-6c8fcd4b50ad879b4ef8cf313a203720"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Acquisition-Related Charges<SEP>Non-GAAP Results"
+  },
+  "First Quarter Fiscal 2026<SEP>Qualcomm Incorporated": {
+    "chunk_ids": [
+      "chunk-dc6cff1d40daab8349e017cf57cf840c"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "First Quarter Fiscal 2026<SEP>Qualcomm Incorporated"
+  },
+  "Non-GAAP<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-08bc5dbb66627534aa2335529b98bf12"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Non-GAAP<SEP>Qualcomm"
+  },
+  "Fiscal 2026<SEP>Non-GAAP Results": {
+    "chunk_ids": [
+      "chunk-6c8fcd4b50ad879b4ef8cf313a203720"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Fiscal 2026<SEP>Non-GAAP Results"
+  },
+  "Net Income<SEP>Qualcomm Incorporated": {
+    "chunk_ids": [
+      "chunk-dc6cff1d40daab8349e017cf57cf840c"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Net Income<SEP>Qualcomm Incorporated"
+  },
+  "Qualcomm<SEP>Snapdragon": {
+    "chunk_ids": [
+      "chunk-08bc5dbb66627534aa2335529b98bf12"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Qualcomm<SEP>Snapdragon"
+  },
+  "Non-GAAP Results<SEP>Restructuring-Related Charges": {
+    "chunk_ids": [
+      "chunk-6c8fcd4b50ad879b4ef8cf313a203720"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Non-GAAP Results<SEP>Restructuring-Related Charges"
+  },
+  "Qualcomm Incorporated<SEP>Total Revenues": {
+    "chunk_ids": [
+      "chunk-dc6cff1d40daab8349e017cf57cf840c"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Qualcomm Incorporated<SEP>Total Revenues"
+  },
+  "Fiscal 2029<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-08bc5dbb66627534aa2335529b98bf12"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Fiscal 2029<SEP>Qualcomm"
+  },
+  "Operating Activities<SEP>Qualcomm Incorporated": {
+    "chunk_ids": [
+      "chunk-dc6cff1d40daab8349e017cf57cf840c"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Operating Activities<SEP>Qualcomm Incorporated"
+  },
+  "First Quarter Fiscal 2026<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-8f5bd6a7de301b8fd8e2728f7b64724b",
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 2,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "First Quarter Fiscal 2026<SEP>Qualcomm"
+  },
+  "Accounts Receivable<SEP>Qualcomm Incorporated": {
+    "chunk_ids": [
+      "chunk-dc6cff1d40daab8349e017cf57cf840c"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Accounts Receivable<SEP>Qualcomm Incorporated"
+  },
+  "Cristiano Amon<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-8f5bd6a7de301b8fd8e2728f7b64724b"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Cristiano Amon<SEP>Qualcomm"
+  },
+  "First Quarter Fiscal 2026<SEP>Record Revenues": {
+    "chunk_ids": [
+      "chunk-8f5bd6a7de301b8fd8e2728f7b64724b"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "First Quarter Fiscal 2026<SEP>Record Revenues"
+  },
+  "Inventories<SEP>Qualcomm Incorporated": {
+    "chunk_ids": [
+      "chunk-dc6cff1d40daab8349e017cf57cf840c"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Inventories<SEP>Qualcomm Incorporated"
+  },
+  "Mauricio Lopez-Hodoyan<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-8f5bd6a7de301b8fd8e2728f7b64724b"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Mauricio Lopez-Hodoyan<SEP>Qualcomm"
+  },
+  "Qualcomm Incorporated<SEP>Trade Accounts Payable": {
+    "chunk_ids": [
+      "chunk-dc6cff1d40daab8349e017cf57cf840c"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Qualcomm Incorporated<SEP>Trade Accounts Payable"
+  },
+  "Cash Dividends<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-8f5bd6a7de301b8fd8e2728f7b64724b"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Cash Dividends<SEP>Qualcomm"
+  },
+  "GAAP Results<SEP>Non-GAAP Results": {
+    "chunk_ids": [
+      "chunk-19bcdfafaec9931793fabc1d6dd58fa4"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "GAAP Results<SEP>Non-GAAP Results"
+  },
+  "Qualcomm Incorporated<SEP>Share-Based Compensation Expense": {
+    "chunk_ids": [
+      "chunk-dc6cff1d40daab8349e017cf57cf840c"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Qualcomm Incorporated<SEP>Share-Based Compensation Expense"
+  },
+  "Common Stock Repurchases<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-8f5bd6a7de301b8fd8e2728f7b64724b"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Common Stock Repurchases<SEP>Qualcomm"
+  },
+  "Alphawave Semi<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-8f5bd6a7de301b8fd8e2728f7b64724b"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Alphawave Semi<SEP>Qualcomm"
+  },
+  "Non-GAAP Tax Rate<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-19bcdfafaec9931793fabc1d6dd58fa4"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Non-GAAP Tax Rate<SEP>Qualcomm"
+  },
+  "Deferred Compensation Plan<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-19bcdfafaec9931793fabc1d6dd58fa4"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Deferred Compensation Plan<SEP>Qualcomm"
+  },
+  "Total Current Assets<SEP>Total Liabilities": {
+    "chunk_ids": [
+      "chunk-ac759d7ce346cdc05ca6f8f5193c92b9"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Total Current Assets<SEP>Total Liabilities"
+  },
+  "Other Items<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-19bcdfafaec9931793fabc1d6dd58fa4"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Other Items<SEP>Qualcomm"
+  },
+  "Acquisition-Related Charges<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-19bcdfafaec9931793fabc1d6dd58fa4"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Acquisition-Related Charges<SEP>Qualcomm"
+  },
+  "Qualcomm<SEP>Restructuring Costs": {
+    "chunk_ids": [
+      "chunk-19bcdfafaec9931793fabc1d6dd58fa4"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Qualcomm<SEP>Restructuring Costs"
+  },
+  "Interest Expense<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-19bcdfafaec9931793fabc1d6dd58fa4"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Interest Expense<SEP>Qualcomm"
+  },
+  "Form 10-Q<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-ac759d7ce346cdc05ca6f8f5193c92b9"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Form 10-Q<SEP>Qualcomm"
+  },
+  "Qualcomm<SEP>Total Stockholders Equity": {
+    "chunk_ids": [
+      "chunk-ac759d7ce346cdc05ca6f8f5193c92b9"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Qualcomm<SEP>Total Stockholders Equity"
+  },
+  "Form 10-Q<SEP>SEC": {
+    "chunk_ids": [
+      "chunk-ac759d7ce346cdc05ca6f8f5193c92b9"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Form 10-Q<SEP>SEC"
+  },
+  "Premium-Tier Handset Devices<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-ac759d7ce346cdc05ca6f8f5193c92b9"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Premium-Tier Handset Devices<SEP>Qualcomm"
+  },
+  "Non-GAAP Financial Measures<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Non-GAAP Financial Measures<SEP>Qualcomm"
+  },
+  "GAAP<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "GAAP<SEP>Qualcomm"
+  },
+  "QSI<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "QSI<SEP>Qualcomm"
+  },
+  "Qualcomm<SEP>Stock Repurchases and Retirements": {
+    "chunk_ids": [
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Qualcomm<SEP>Stock Repurchases and Retirements"
+  },
+  "Dividends Paid<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Dividends Paid<SEP>Qualcomm"
+  },
+  "Qualcomm<SEP>Tax Withholdings": {
+    "chunk_ids": [
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Qualcomm<SEP>Tax Withholdings"
+  },
+  "Qualcomm<SEP>Total Cash and Cash Equivalents": {
+    "chunk_ids": [
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Qualcomm<SEP>Total Cash and Cash Equivalents"
+  },
+  "Net Cash Used by Financing Activities<SEP>Qualcomm": {
+    "chunk_ids": [
+      "chunk-3524ff0240deaaf490d073516247a0b6"
+    ],
+    "count": 1,
+    "create_time": 1777395119,
+    "update_time": 1777395119,
+    "_id": "Net Cash Used by Financing Activities<SEP>Qualcomm"
+  },
+  "QCOM<SEP>Stock Repurchase Program": {
+    "chunk_ids": [
+      "chunk-de18f4e1db6f4c79408f616bb154e4c5",
+      "chunk-c69c676a8bc81449f3a8767ff8d791ba",
+      "chunk-80dffce4214987d66642aed55944aaa2",
+      "chunk-6432d62e23ef5e58d14d1ac2c562842c"
+    ],
+    "count": 4,
+    "update_time": 1777395209,
+    "_id": "QCOM<SEP>Stock Repurchase Program"
+  },
+  "First Quarter<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-de18f4e1db6f4c79408f616bb154e4c5"
+    ],
+    "count": 1,
+    "create_time": 1777395146,
+    "update_time": 1777395146,
+    "_id": "First Quarter<SEP>Fiscal Year 2025"
+  },
+  "QCOM<SEP>Quarterly MDA": {
+    "chunk_ids": [
+      "chunk-de18f4e1db6f4c79408f616bb154e4c5",
+      "chunk-c69c676a8bc81449f3a8767ff8d791ba"
+    ],
+    "count": 2,
+    "update_time": 1777395172,
+    "_id": "QCOM<SEP>Quarterly MDA"
+  },
+  "October 12, 2021<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-de18f4e1db6f4c79408f616bb154e4c5"
+    ],
+    "count": 1,
+    "create_time": 1777395146,
+    "update_time": 1777395146,
+    "_id": "October 12, 2021<SEP>QCOM"
+  },
+  "November 6, 2024<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-de18f4e1db6f4c79408f616bb154e4c5"
+    ],
+    "count": 1,
+    "create_time": 1777395146,
+    "update_time": 1777395146,
+    "_id": "November 6, 2024<SEP>QCOM"
+  },
+  "First Quarter<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-de18f4e1db6f4c79408f616bb154e4c5"
+    ],
+    "count": 1,
+    "create_time": 1777395146,
+    "update_time": 1777395146,
+    "_id": "First Quarter<SEP>QCOM"
+  },
+  "April 30, 2025<SEP>Quarterly MDA": {
+    "chunk_ids": [
+      "chunk-c69c676a8bc81449f3a8767ff8d791ba"
+    ],
+    "count": 1,
+    "create_time": 1777395172,
+    "update_time": 1777395172,
+    "_id": "April 30, 2025<SEP>Quarterly MDA"
+  },
+  "Equity Securities<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-c69c676a8bc81449f3a8767ff8d791ba"
+    ],
+    "count": 1,
+    "create_time": 1777395172,
+    "update_time": 1777395172,
+    "_id": "Equity Securities<SEP>QCOM"
+  },
+  "Average Price Paid Per Share<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-c69c676a8bc81449f3a8767ff8d791ba",
+      "chunk-80dffce4214987d66642aed55944aaa2",
+      "chunk-6432d62e23ef5e58d14d1ac2c562842c"
+    ],
+    "count": 3,
+    "update_time": 1777395209,
+    "_id": "Average Price Paid Per Share<SEP>QCOM"
+  },
+  "QCOM<SEP>Total Number of Shares Purchased": {
+    "chunk_ids": [
+      "chunk-c69c676a8bc81449f3a8767ff8d791ba",
+      "chunk-80dffce4214987d66642aed55944aaa2"
+    ],
+    "count": 2,
+    "update_time": 1777395191,
+    "_id": "QCOM<SEP>Total Number of Shares Purchased"
+  },
+  "Approximate Dollar Value of Shares<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-c69c676a8bc81449f3a8767ff8d791ba",
+      "chunk-80dffce4214987d66642aed55944aaa2"
+    ],
+    "count": 2,
+    "update_time": 1777395192,
+    "_id": "Approximate Dollar Value of Shares<SEP>QCOM"
+  },
+  "LAYER A<SEP>Quarterly MDA": {
+    "chunk_ids": [
+      "chunk-80dffce4214987d66642aed55944aaa2"
+    ],
+    "count": 1,
+    "create_time": 1777395191,
+    "update_time": 1777395191,
+    "_id": "LAYER A<SEP>Quarterly MDA"
+  },
+  "Q3 2025<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-80dffce4214987d66642aed55944aaa2"
+    ],
+    "count": 1,
+    "create_time": 1777395191,
+    "update_time": 1777395191,
+    "_id": "Q3 2025<SEP>QCOM"
+  },
+  "Q3 2025<SEP>Quarterly MDA": {
+    "chunk_ids": [
+      "chunk-80dffce4214987d66642aed55944aaa2"
+    ],
+    "count": 1,
+    "create_time": 1777395191,
+    "update_time": 1777395191,
+    "_id": "Q3 2025<SEP>Quarterly MDA"
+  },
+  "Fiscal 2025<SEP>Q3 2025": {
+    "chunk_ids": [
+      "chunk-80dffce4214987d66642aed55944aaa2"
+    ],
+    "count": 1,
+    "create_time": 1777395191,
+    "update_time": 1777395191,
+    "_id": "Fiscal 2025<SEP>Q3 2025"
+  },
+  "Equity Securities<SEP>Stock Repurchase Program": {
+    "chunk_ids": [
+      "chunk-6432d62e23ef5e58d14d1ac2c562842c"
+    ],
+    "count": 1,
+    "create_time": 1777395209,
+    "update_time": 1777395209,
+    "_id": "Equity Securities<SEP>Stock Repurchase Program"
+  },
+  "Fiscal Year 2026<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-6432d62e23ef5e58d14d1ac2c562842c"
+    ],
+    "count": 1,
+    "create_time": 1777395209,
+    "update_time": 1777395209,
+    "_id": "Fiscal Year 2026<SEP>QCOM"
+  },
+  "Common Stock<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-6432d62e23ef5e58d14d1ac2c562842c"
+    ],
+    "count": 1,
+    "create_time": 1777395209,
+    "update_time": 1777395209,
+    "_id": "Common Stock<SEP>QCOM"
+  },
+  "QCOM<SEP>Shares Purchased": {
+    "chunk_ids": [
+      "chunk-6432d62e23ef5e58d14d1ac2c562842c"
+    ],
+    "count": 1,
+    "create_time": 1777395209,
+    "update_time": 1777395209,
+    "_id": "QCOM<SEP>Shares Purchased"
+  },
+  "Publicly Announced Plans or Programs<SEP>QCOM": {
+    "chunk_ids": [
+      "chunk-6432d62e23ef5e58d14d1ac2c562842c"
+    ],
+    "count": 1,
+    "create_time": 1777395209,
+    "update_time": 1777395209,
+    "_id": "Publicly Announced Plans or Programs<SEP>QCOM"
   }
 }

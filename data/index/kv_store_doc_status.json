@@ -2551,7 +2551,7 @@
     }
   },
   "doc-8ec1271cdbf221ec93e01ab718f35cd5": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 22,
     "chunks_list": [
       "chunk-93c837d9497bcf348ac686ca7e3bb612",
@@ -2580,11 +2580,128 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: QCOM\nLayer: LAYER_A\nPeriod: Q4_2025\nDate: 2025-11-05\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A. Risk Factors\n\nYou should consider each of the following factors in evaluating our business and our prospects, any of whi...",
     "content_length": 132798,
     "created_at": "2026-04-28T16:39:01.425017+00:00",
-    "updated_at": "2026-04-28T16:39:01.480851+00:00",
+    "updated_at": "2026-04-28T16:48:39.736643+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_123901_d8e783b0",
     "metadata": {
-      "processing_start_time": 1777394341
+      "processing_start_time": 1777394341,
+      "processing_end_time": 1777394919
+    }
+  },
+  "doc-68ab89f7c30efebf3608c9d4bfcc2852": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-8f5bd6a7de301b8fd8e2728f7b64724b",
+      "chunk-08bc5dbb66627534aa2335529b98bf12",
+      "chunk-ac759d7ce346cdc05ca6f8f5193c92b9",
+      "chunk-dc6cff1d40daab8349e017cf57cf840c",
+      "chunk-3524ff0240deaaf490d073516247a0b6",
+      "chunk-19bcdfafaec9931793fabc1d6dd58fa4",
+      "chunk-6c8fcd4b50ad879b4ef8cf313a203720"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: QCOM\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-02-04\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1                                                                             \n                            ...",
+    "content_length": 51472,
+    "created_at": "2026-04-28T16:48:40.630600+00:00",
+    "updated_at": "2026-04-28T16:51:59.900592+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_124840_0d3532c1",
+    "metadata": {
+      "processing_start_time": 1777394920,
+      "processing_end_time": 1777395119
+    }
+  },
+  "doc-de18f4e1db6f4c79408f616bb154e4c5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-de18f4e1db6f4c79408f616bb154e4c5"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: QCOM\nLayer: LAYER_A\nPeriod: Q1_2025\nDate: 2025-02-05\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nIssuer Purchases of Equity Securities\n\nOur purchases of ou...",
+    "content_length": 1589,
+    "created_at": "2026-04-28T16:52:00.783525+00:00",
+    "updated_at": "2026-04-28T16:52:26.962001+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_125200_deb982b5",
+    "metadata": {
+      "processing_start_time": 1777395120,
+      "processing_end_time": 1777395146
+    }
+  },
+  "doc-c69c676a8bc81449f3a8767ff8d791ba": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c69c676a8bc81449f3a8767ff8d791ba"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: QCOM\nLayer: LAYER_A\nPeriod: Q2_2025\nDate: 2025-04-30\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nIssuer Purchases of Equity Securities\n\nOur purchases of ou...",
+    "content_length": 1260,
+    "created_at": "2026-04-28T16:52:27.819726+00:00",
+    "updated_at": "2026-04-28T16:52:52.285296+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_125227_45be4d01",
+    "metadata": {
+      "processing_start_time": 1777395147,
+      "processing_end_time": 1777395172
+    }
+  },
+  "doc-80dffce4214987d66642aed55944aaa2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-80dffce4214987d66642aed55944aaa2"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: QCOM\nLayer: LAYER_A\nPeriod: Q3_2025\nDate: 2025-07-30\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nIssuer Purchases of Equity Securities\n\nOur purchases of ou...",
+    "content_length": 1236,
+    "created_at": "2026-04-28T16:52:53.266192+00:00",
+    "updated_at": "2026-04-28T16:53:12.030178+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_125253_ee85a45b",
+    "metadata": {
+      "processing_start_time": 1777395173,
+      "processing_end_time": 1777395192
+    }
+  },
+  "doc-6432d62e23ef5e58d14d1ac2c562842c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6432d62e23ef5e58d14d1ac2c562842c"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: QCOM\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-02-04\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nIssuer Purchases of Equity Securities\n\nOur purchases of ou...",
+    "content_length": 1254,
+    "created_at": "2026-04-28T16:53:12.868181+00:00",
+    "updated_at": "2026-04-28T16:53:29.359672+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_125312_40f11df8",
+    "metadata": {
+      "processing_start_time": 1777395192,
+      "processing_end_time": 1777395209
+    }
+  },
+  "doc-420258c78a57df852c22bc2fe808eb43": {
+    "status": "processing",
+    "chunks_count": 10,
+    "chunks_list": [
+      "chunk-f623bee92ab601c185c2b3cb0be1e004",
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da",
+      "chunk-235d7b98ae6bc97ba7e1bf3888ddf022",
+      "chunk-bb3ea795aa615515be956c46cce98807",
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9",
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033",
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb",
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d",
+      "chunk-df6ba51ccfe3ced8afe085cf48037d14",
+      "chunk-e0083fd68679130e02045719a84d5b78"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SMCI\nLayer: LAYER_G\nPeriod: Q3_2025\nDate: 2025-08-28\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7.        Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussio...",
+    "content_length": 48757,
+    "created_at": "2026-04-28T16:53:30.177458+00:00",
+    "updated_at": "2026-04-28T16:53:30.218966+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_125330_fcbc1175",
+    "metadata": {
+      "processing_start_time": 1777395210
     }
   }
 }
