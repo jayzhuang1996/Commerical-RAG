@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Send, Sparkles, BookOpen, Clock, Maximize2, Layout, List, Filter, CheckSquare, Square } from 'lucide-react';
-import MermaidVisualizer from './MermaidVisualizer';
+import ForceGraph from './ForceGraph';
 import TypewriterText from './TypewriterText';
 
 interface Message {
@@ -364,7 +364,7 @@ export default function ChatInterface() {
             <span style={{ fontWeight: 600, fontSize: '14px', fontFamily: 'var(--font-display)' }}>Structural Relationship Map</span>
           </div>
           <div style={{ flex: 1, minHeight: 0 }}>
-            <MermaidVisualizer triples={activeMsg.graph_data} />
+            <ForceGraph triples={activeMsg.graph_data} />
           </div>
         </div>
       )}

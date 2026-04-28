@@ -2062,7 +2062,7 @@
     }
   },
   "doc-1c58dcf3a878035069ab0b66af1ce965": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 10,
     "chunks_list": [
       "chunk-dd780670b38a4719e705f37b67576f23",
@@ -2079,11 +2079,351 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: MRVL\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-03-11\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion of ou...",
     "content_length": 52001,
     "created_at": "2026-04-28T13:50:41.052942+00:00",
-    "updated_at": "2026-04-28T13:50:41.086522+00:00",
+    "updated_at": "2026-04-28T13:54:54.716793+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_095041_0e0c97da",
     "metadata": {
-      "processing_start_time": 1777384241
+      "processing_start_time": 1777384241,
+      "processing_end_time": 1777384494
+    }
+  },
+  "doc-fe56bf6804cd94c5be25a8467888e6f3": {
+    "status": "processed",
+    "chunks_count": 25,
+    "chunks_list": [
+      "chunk-13e686658c1f66f25921b0ea1a988375",
+      "chunk-f9e640cc1b083672599ff3f1874f16e0",
+      "chunk-43b64603c99fbba7980305299d5c3bf5",
+      "chunk-4560ad4ee409d44e948094dbd506bb50",
+      "chunk-97522229b156fdd8afaae4cdfa185bd7",
+      "chunk-8f3735be491de3893571b4029be91cff",
+      "chunk-f2d912b30ab2071ba2ff4e10b52e5c46",
+      "chunk-461c7dbb139b6fce8546537d811b4d8c",
+      "chunk-fa8979aea0c3695865fe3d4e7afe3e08",
+      "chunk-f1c7e8c80fce64102493929c4f5ebcd5",
+      "chunk-177d3dab0d4c95be40afc944429acc5b",
+      "chunk-7525d68603373348fa20b45cca57f5cb",
+      "chunk-6786a7881996710822737f36bc8e3197",
+      "chunk-4648bec13d475d80f3997abe7449f86e",
+      "chunk-0d0fe58042979c40ccd95363a29934ca",
+      "chunk-061157364233346d88728de03623a29f",
+      "chunk-d031fe660096b6eabb393b4d38342a42",
+      "chunk-61c1fe3bf80efcc03499f45a944b3ca5",
+      "chunk-a92822bebeadf2665bab6700cf470c94",
+      "chunk-c699188abdc2357473daba122dbd0286",
+      "chunk-c646154c6876ae4a82a1edb244784e4b",
+      "chunk-02a4c78eba0be223cbda366fad2d721c",
+      "chunk-ab882193480b8630b9d1e0533e552c81",
+      "chunk-c4f987338cf0ab3509653a45d36bfb89",
+      "chunk-1bbdd7e6af0c4ddf0f62c05397ccef99"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MRVL\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-03-11\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A. Risk Factors\n\nInvesting in our common stock involves a high degree of risk. You should carefully consider the material r...",
+    "content_length": 150595,
+    "created_at": "2026-04-28T13:54:55.373403+00:00",
+    "updated_at": "2026-04-28T14:04:54.122668+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_095455_032fa322",
+    "metadata": {
+      "processing_start_time": 1777384495,
+      "processing_end_time": 1777385094
+    }
+  },
+  "doc-6520315804c9ff177485587bd013f7d8": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-4a3575649cbd04217e86c9562ddf2ca4",
+      "chunk-5aea8d0340e63f6c2ca28b951603b5f3"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MRVL\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-03-31\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1\n\nNVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink\n\nFusion\n\nCollaboration Delivers Great...",
+    "content_length": 9112,
+    "created_at": "2026-04-28T14:04:54.913435+00:00",
+    "updated_at": "2026-04-28T14:05:39.992302+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_100454_ec72c72b",
+    "metadata": {
+      "processing_start_time": 1777385094,
+      "processing_end_time": 1777385139
+    }
+  },
+  "doc-e33f1fe4021688852038fbe97b5d757f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e33f1fe4021688852038fbe97b5d757f"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MRVL\nLayer: LAYER_A\nPeriod: Q4_2024\nDate: 2024-12-04\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nThere were no sales of unregistered equity securities duri...",
+    "content_length": 2223,
+    "created_at": "2026-04-28T14:05:40.678442+00:00",
+    "updated_at": "2026-04-28T14:06:00.624794+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_100540_a73c5311",
+    "metadata": {
+      "processing_start_time": 1777385140,
+      "processing_end_time": 1777385160
+    }
+  },
+  "doc-7c758e5f75d9ca3121188d4d5edc8ad1": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7c758e5f75d9ca3121188d4d5edc8ad1"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MRVL\nLayer: LAYER_A\nPeriod: Q2_2025\nDate: 2025-05-30\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nThere were no sales of unregistered equity securities duri...",
+    "content_length": 2191,
+    "created_at": "2026-04-28T14:06:01.307113+00:00",
+    "updated_at": "2026-04-28T14:06:42.720829+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_100601_675c6d52",
+    "metadata": {
+      "processing_start_time": 1777385161,
+      "processing_end_time": 1777385202
+    }
+  },
+  "doc-9b064e60faa1e7f7fbee30fe87e24ab8": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-9b064e60faa1e7f7fbee30fe87e24ab8"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MRVL\nLayer: LAYER_A\nPeriod: Q3_2025\nDate: 2025-08-29\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nThere were no sales of unregistered equity securities duri...",
+    "content_length": 2194,
+    "created_at": "2026-04-28T14:06:43.451939+00:00",
+    "updated_at": "2026-04-28T14:07:00.136481+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_100643_9d3cd12b",
+    "metadata": {
+      "processing_start_time": 1777385203,
+      "processing_end_time": 1777385220
+    }
+  },
+  "doc-44662c446934c234c277cbc20437032d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-44662c446934c234c277cbc20437032d"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MRVL\nLayer: LAYER_A\nPeriod: Q4_2025\nDate: 2025-12-03\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nThere were no sales of unregistered equity securities duri...",
+    "content_length": 2978,
+    "created_at": "2026-04-28T14:07:00.828178+00:00",
+    "updated_at": "2026-04-28T14:07:17.799096+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_100700_c0e15b30",
+    "metadata": {
+      "processing_start_time": 1777385220,
+      "processing_end_time": 1777385237
+    }
+  },
+  "doc-97c106b8cffe60bffed783b7aa9795bd": {
+    "status": "processed",
+    "chunks_count": 8,
+    "chunks_list": [
+      "chunk-4d38aa9602c5b51e2de4e062cfdcfa45",
+      "chunk-e6eed0a70bf9a4a945dbb01fb159154a",
+      "chunk-6f9b4d84174e696d87b713a81eaa7996",
+      "chunk-9150e054060a3e324d1aa983f54ddf88",
+      "chunk-7ac539d637684886ee4c18e2ead802a6",
+      "chunk-9a433f540f201b907f34c80fb737d476",
+      "chunk-33fa353960fefa31d2de56958069ba96",
+      "chunk-9c4a46e978588373f225790f6bc74699"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MU\nLayer: LAYER_B\nPeriod: Q4_2025\nDate: 2025-10-03\nDoc Type: annual_business\n--- END INFO ---\n\nITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n\nThis discussion should be read i...",
+    "content_length": 41093,
+    "created_at": "2026-04-28T14:07:18.560848+00:00",
+    "updated_at": "2026-04-28T14:11:06.236248+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_100718_3a3780b7",
+    "metadata": {
+      "processing_start_time": 1777385238,
+      "processing_end_time": 1777385466
+    }
+  },
+  "doc-685a48043272a25ba9191ab756746b43": {
+    "status": "processed",
+    "chunks_count": 17,
+    "chunks_list": [
+      "chunk-ae5c04da3ffce6d64374fc53a7c0d70e",
+      "chunk-4bbd6a185b45fe138c9275d2b5130763",
+      "chunk-4cef2eb91fe5760c6eb1123d8fc42db3",
+      "chunk-1a0016b4e535f222ed0f04f154e0aac2",
+      "chunk-e3dd40239b7e44edbfa4e57c3565984e",
+      "chunk-6d485f483427924a0ddae3e28d1db971",
+      "chunk-d33bf4c301f90ea14329e67ae00ca8ad",
+      "chunk-2f38b1094bc36177634bbc4ee45738e8",
+      "chunk-77b1e79005cc4cbd35b42d8756864c8a",
+      "chunk-d5339e2e4f44fef3ea1ab7f4965fff32",
+      "chunk-eba6c718f8437e9b398885afb9a877f4",
+      "chunk-6bbbdda64edbd66a613207a6b17a6518",
+      "chunk-f47f4f45a78a25594ffde67796e44e79",
+      "chunk-46ed4796f6877dc0b01814bf1b7ca39f",
+      "chunk-5d3c0a8f856dccddb10774eb40b87f2d",
+      "chunk-ba6e337006ba379d971fe80896e05b9b",
+      "chunk-380d82a56cd99435a62da06b39fb2bb0"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MU\nLayer: LAYER_B\nPeriod: Q4_2025\nDate: 2025-10-03\nDoc Type: annual_risk\n--- END INFO ---\n\nITEM 1A. RISK FACTORS\n\nIn addition to the factors discussed elsewhere in this Annual Report on Form 10-K, this section discusses im...",
+    "content_length": 102499,
+    "created_at": "2026-04-28T14:11:07.193806+00:00",
+    "updated_at": "2026-04-28T14:18:34.681192+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_101107_57ffa325",
+    "metadata": {
+      "processing_start_time": 1777385467,
+      "processing_end_time": 1777385914
+    }
+  },
+  "doc-f40a596a8f48db7956c1b0e91adfaf00": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-b4413a24135057e750f1ebc7c6ec9e60",
+      "chunk-7a1b622b331c3748ebf7ef24c2df70d6"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MU\nLayer: LAYER_B\nPeriod: Q2_2026\nDate: 2026-04-01\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1\nMarch 31, 2026\n\nMicron Announces the Pricing of the Cash Tender Offers for Any and All of Certain\nOutstandi...",
+    "content_length": 10858,
+    "created_at": "2026-04-28T14:18:35.478054+00:00",
+    "updated_at": "2026-04-28T14:19:17.620803+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_101835_416801cf",
+    "metadata": {
+      "processing_start_time": 1777385915,
+      "processing_end_time": 1777385957
+    }
+  },
+  "doc-4e2c59cf1125c770e20dcf235373a4bb": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-0086584718027ac68cedaf31c3ce0afc",
+      "chunk-b35618801fbe7563111fdf5fd8451930",
+      "chunk-f8100ac84e911592c53ce3466cb2c926",
+      "chunk-2dbb6c0136f78cac650a29ecf4ddd862",
+      "chunk-b1e9d219748569cf8a6c21aa122632ad",
+      "chunk-11688780722718866269d4df75c28609",
+      "chunk-d127c9d92161d8bdeb37da69541b015c"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MU\nLayer: LAYER_B\nPeriod: Q1_2025\nDate: 2025-03-21\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n\nThis discussion should be read in ...",
+    "content_length": 31138,
+    "created_at": "2026-04-28T14:19:18.399502+00:00",
+    "updated_at": "2026-04-28T14:22:27.722765+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_101918_9ed891eb",
+    "metadata": {
+      "processing_start_time": 1777385958,
+      "processing_end_time": 1777386147
+    }
+  },
+  "doc-b1601c0bc3b28477c1dac6537bf9b1dc": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-ba80c14124658acce30216ac42f7d18c",
+      "chunk-fe9aa7c08dd83f08795670369fde6163",
+      "chunk-eafdb985a0a0b3a45138c342db5716a8",
+      "chunk-2f909bad46ea18a340f1631c661dee65",
+      "chunk-b952b9ad7a0a7310632dd6da1cd94021",
+      "chunk-4aa7ef2f67b8eb2ead39c284e809eefa",
+      "chunk-c17f952b6fe7479f7e8fcf1e71fb7355"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MU\nLayer: LAYER_B\nPeriod: Q2_2025\nDate: 2025-06-26\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n\nThis discussion should be read in ...",
+    "content_length": 33274,
+    "created_at": "2026-04-28T14:22:28.516656+00:00",
+    "updated_at": "2026-04-28T16:12:33.098611+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_102228_64296f26",
+    "metadata": {
+      "processing_start_time": 1777392509,
+      "processing_end_time": 1777392753
+    }
+  },
+  "doc-a5102f4c3d5a363dbb049474de8c34aa": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a5102f4c3d5a363dbb049474de8c34aa"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MU\nLayer: LAYER_B\nPeriod: Q4_2025\nDate: 2025-12-18\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nIn 2018, we announced that our Board of Directors authorized...",
+    "content_length": 2109,
+    "created_at": "2026-04-28T16:08:29.350427+00:00",
+    "updated_at": "2026-04-28T16:11:32.217506+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_120829_b88e5fdd",
+    "metadata": {
+      "processing_start_time": 1777392509,
+      "processing_end_time": 1777392692
+    }
+  },
+  "doc-deb89223df9ad7077b183a8e1e48dbbd": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-38ba9873bc49156084d2dcf7f9b7bc2b",
+      "chunk-33c8a0d3c5c24e99e09f911e5b80eded",
+      "chunk-8cec3e112ab61299fa64bb94d76b4de0",
+      "chunk-45232f192fe2abe9df6bd09b0a91fc6d",
+      "chunk-c10499ff12209f3b8f2de7c6150a4c0d",
+      "chunk-f35e3594b6f795393f04a85fb9a7521a",
+      "chunk-1851899f1a39b5a55c22aac6baa6702d"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: MU\nLayer: LAYER_B\nPeriod: Q1_2026\nDate: 2026-03-19\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n\nThis discussion should be read in ...",
+    "content_length": 30185,
+    "created_at": "2026-04-28T16:12:33.864817+00:00",
+    "updated_at": "2026-04-28T16:15:50.120800+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_121233_bb4ea99c",
+    "metadata": {
+      "processing_start_time": 1777392753,
+      "processing_end_time": 1777392950
+    }
+  },
+  "dup-d1132144996be25c6832e9d84e18eb51": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-316cbcd54391d7eb99438a4882eec1b1",
+    "content_length": 34255,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T16:15:50.845706+00:00",
+    "updated_at": "2026-04-28T16:15:50.845709+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_121550_a95cdb5a",
+    "error_msg": "Content already exists. Original doc_id: doc-316cbcd54391d7eb99438a4882eec1b1, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-316cbcd54391d7eb99438a4882eec1b1",
+      "original_track_id": "insert_20260426_204802_76801e88"
+    }
+  },
+  "doc-67699b5bc38d58d90fea380b231cf812": {
+    "status": "processing",
+    "chunks_count": 19,
+    "chunks_list": [
+      "chunk-64395f7efa9909f4a6f1d9dceb7b400f",
+      "chunk-ab9a3eded9cdb2972a35be89916d6e95",
+      "chunk-048aa42dfe246d84799444148f96ecac",
+      "chunk-811f15fc2eb3bdd5be475acc4c7663c2",
+      "chunk-55a927e309eb005240570ef1505a3d57",
+      "chunk-ba87b0f217fb7bcaf5f90a08e91539b7",
+      "chunk-2463b1f3e027672a09f3f1eb64a1bef5",
+      "chunk-3e029386736dd1580481690f40d00e34",
+      "chunk-8262a743174d8bd5517415df36ff565b",
+      "chunk-ace00fdd31cfec40a3509f338c129c27",
+      "chunk-7bf4d5828361b9717a129c0e0296890f",
+      "chunk-c5cb8d9bb45ed68458e501e851d79604",
+      "chunk-9c6739621ab1d783a141df5ef0dc109c",
+      "chunk-3fe7a25d291c4a3546389311d2f7665e",
+      "chunk-177ec8896e6ebb0020d832d4ad9ca0a4",
+      "chunk-6547968472918d94509807757ea4a104",
+      "chunk-3a5c34130d80dd1e4cc274dd236747ac",
+      "chunk-7381dd771ba874ed843a7ae1b211a96a",
+      "chunk-0da5c42c02de4cb89dfe1305eac6a282"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: NVDA\nLayer: LAYER_A\nPeriod: Q1_2026\nDate: 2026-02-25\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A. Risk Factors\n\nThe following risk factors should be considered in addition to the other information in this Annual Report...",
+    "content_length": 114876,
+    "created_at": "2026-04-28T16:15:50.854382+00:00",
+    "updated_at": "2026-04-28T16:15:50.906986+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_121550_3362bc2f",
+    "metadata": {
+      "processing_start_time": 1777392950
     }
   }
 }
