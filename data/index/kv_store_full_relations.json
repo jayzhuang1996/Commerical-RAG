@@ -11859,5 +11859,233 @@
     "create_time": 1777383287,
     "update_time": 1777383287,
     "_id": "doc-aebaa8b8f02fb277d7eeae3030ea5a02"
+  },
+  "doc-bfdf031da0ef4ad5de41000a428b4800": {
+    "relation_pairs": [
+      [
+        "Consolidated Financial Statements",
+        "Finance Leases"
+      ],
+      [
+        "Lam Research Corporation",
+        "Uncertain Tax Positions"
+      ],
+      [
+        "Customer Support Business Group",
+        "Lam Research Corporation"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Operating Leases"
+      ],
+      [
+        "Semiconductor Industry",
+        "Wafer Fabrication Equipment"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Gross Margin"
+      ],
+      [
+        "Common Stock Repurchases",
+        "Fiscal Year 2025"
+      ],
+      [
+        "DRAM",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Revenue"
+      ],
+      [
+        "Customer Support Business Group",
+        "Financial Condition and Results of Operations"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Long-Term Debt"
+      ],
+      [
+        "10-K",
+        "Lam Research Corporation"
+      ],
+      [
+        "Critical Accounting Policies",
+        "Lam Research Corporation"
+      ],
+      [
+        "2025 Form 10-K",
+        "Selling, General, and Administrative"
+      ],
+      [
+        "June 29, 2025",
+        "Open Purchase Orders"
+      ],
+      [
+        "Cash Flows from Operating Activities",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Gross Margin",
+        "Lam Research Corporation"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Restructuring Plan"
+      ],
+      [
+        "Income Tax Expense",
+        "One Big Beautiful Bill Act"
+      ],
+      [
+        "Critical Accounting Policies",
+        "Inventory Valuation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Semiconductor Industry"
+      ],
+      [
+        "2025 Notes",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Total Operating Expenses"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Form 10-K"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "NVM"
+      ],
+      [
+        "Open Purchase Orders",
+        "Purchase Orders"
+      ],
+      [
+        "California",
+        "Deferred Income Taxes"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Transition Tax Liability"
+      ],
+      [
+        "Employee Severance and Separation Costs",
+        "Restructuring Plan"
+      ],
+      [
+        "Dividends Paid",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Interest Expense",
+        "Interest Income"
+      ],
+      [
+        "Cash Flows from Financing Activities",
+        "Fiscal Year 2025"
+      ],
+      [
+        "2025 Form 10-K",
+        "Research and Development"
+      ],
+      [
+        "Fiscal Year 2023",
+        "Gross Margin"
+      ],
+      [
+        "Korea",
+        "Lam Research Corporation"
+      ],
+      [
+        "2025 Form 10-K",
+        "Advance Deposits"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Gross Margin"
+      ],
+      [
+        "2025 Form 10-K",
+        "Gross Margin"
+      ],
+      [
+        "Deferred Income Taxes",
+        "Valuation Allowance"
+      ],
+      [
+        "Lam Research Corporation",
+        "Net Income"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Fiscal Year 2026"
+      ],
+      [
+        "One Big Beautiful Bill Act",
+        "U.S. President Donald Trump"
+      ],
+      [
+        "Deferred Income Taxes",
+        "Global Intangible Low-Taxed Income (GILTI)"
+      ],
+      [
+        "2025 Form 10-K",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Securities and Exchange Commission"
+      ],
+      [
+        "Critical Accounting Policies",
+        "Revenue Recognition"
+      ],
+      [
+        "China",
+        "Lam Research Corporation"
+      ],
+      [
+        "Fiscal Year 2023",
+        "Restructuring Plan"
+      ],
+      [
+        "Deferred Income Taxes",
+        "Lam Research Corporation"
+      ],
+      [
+        "Fiscal Year 2023",
+        "Lam Research Corporation"
+      ],
+      [
+        "Lam Research Corporation",
+        "Logic Devices"
+      ],
+      [
+        "2025 Form 10-K",
+        "Restructuring Charges"
+      ],
+      [
+        "Cash Flows from Investing Activities",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Lam Research Corporation"
+      ]
+    ],
+    "count": 55,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "doc-bfdf031da0ef4ad5de41000a428b4800"
   }
 }

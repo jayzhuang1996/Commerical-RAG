@@ -91,11 +91,11 @@
   },
   "Income Tax Expense<SEP>One Big Beautiful Bill Act": {
     "chunk_ids": [
-      "chunk-db98b1c09ec551c8a83f9131498334c6"
+      "chunk-db98b1c09ec551c8a83f9131498334c6",
+      "chunk-2725c6348566925d28592418e83522ee"
     ],
-    "count": 1,
-    "create_time": 1777252931,
-    "update_time": 1777252931,
+    "count": 2,
+    "update_time": 1777383540,
     "_id": "Income Tax Expense<SEP>One Big Beautiful Bill Act"
   },
   "Financial Results<SEP>Publicly-Held Equity Securities": {
@@ -7873,11 +7873,11 @@
   },
   "Consolidated Financial Statements<SEP>Form 10-K": {
     "chunk_ids": [
-      "chunk-1329332311e82d0b2cc6f7232bfaa092"
+      "chunk-1329332311e82d0b2cc6f7232bfaa092",
+      "chunk-6a85fc6b24bbbe3eb5473e7f317c3b93"
     ],
-    "count": 1,
-    "create_time": 1777307869,
-    "update_time": 1777307869,
+    "count": 2,
+    "update_time": 1777383540,
     "_id": "Consolidated Financial Statements<SEP>Form 10-K"
   },
   "Display Business<SEP>PCB and Component Inspection": {
@@ -24450,5 +24450,485 @@
     "create_time": 1777383287,
     "update_time": 1777383287,
     "_id": "KLAC<SEP>Publicly Announced Plans"
+  },
+  "Consolidated Financial Statements<SEP>Fiscal Year 2026": {
+    "chunk_ids": [
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0"
+    ],
+    "count": 1,
+    "create_time": 1777383539,
+    "update_time": 1777383539,
+    "_id": "Consolidated Financial Statements<SEP>Fiscal Year 2026"
+  },
+  "Deferred Income Taxes<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0"
+    ],
+    "count": 1,
+    "create_time": 1777383539,
+    "update_time": 1777383539,
+    "_id": "Deferred Income Taxes<SEP>Lam Research Corporation"
+  },
+  "Critical Accounting Policies<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0"
+    ],
+    "count": 1,
+    "create_time": 1777383539,
+    "update_time": 1777383539,
+    "_id": "Critical Accounting Policies<SEP>Lam Research Corporation"
+  },
+  "California<SEP>Deferred Income Taxes": {
+    "chunk_ids": [
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0"
+    ],
+    "count": 1,
+    "create_time": 1777383539,
+    "update_time": 1777383539,
+    "_id": "California<SEP>Deferred Income Taxes"
+  },
+  "10-K<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "10-K<SEP>Lam Research Corporation"
+  },
+  "Critical Accounting Policies<SEP>Revenue Recognition": {
+    "chunk_ids": [
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Critical Accounting Policies<SEP>Revenue Recognition"
+  },
+  "Deferred Income Taxes<SEP>Global Intangible Low-Taxed Income (GILTI)": {
+    "chunk_ids": [
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Deferred Income Taxes<SEP>Global Intangible Low-Taxed Income (GILTI)"
+  },
+  "Fiscal Year 2023<SEP>Restructuring Plan": {
+    "chunk_ids": [
+      "chunk-2725c6348566925d28592418e83522ee"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Fiscal Year 2023<SEP>Restructuring Plan"
+  },
+  "Lam Research Corporation<SEP>Uncertain Tax Positions": {
+    "chunk_ids": [
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Lam Research Corporation<SEP>Uncertain Tax Positions"
+  },
+  "Critical Accounting Policies<SEP>Inventory Valuation": {
+    "chunk_ids": [
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Critical Accounting Policies<SEP>Inventory Valuation"
+  },
+  "Deferred Income Taxes<SEP>Valuation Allowance": {
+    "chunk_ids": [
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Deferred Income Taxes<SEP>Valuation Allowance"
+  },
+  "Fiscal Year 2024<SEP>Restructuring Plan": {
+    "chunk_ids": [
+      "chunk-2725c6348566925d28592418e83522ee"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Fiscal Year 2024<SEP>Restructuring Plan"
+  },
+  "Interest Expense<SEP>Interest Income": {
+    "chunk_ids": [
+      "chunk-2725c6348566925d28592418e83522ee"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Interest Expense<SEP>Interest Income"
+  },
+  "Employee Severance and Separation Costs<SEP>Restructuring Plan": {
+    "chunk_ids": [
+      "chunk-2725c6348566925d28592418e83522ee"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Employee Severance and Separation Costs<SEP>Restructuring Plan"
+  },
+  "Open Purchase Orders<SEP>Purchase Orders": {
+    "chunk_ids": [
+      "chunk-6a85fc6b24bbbe3eb5473e7f317c3b93"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Open Purchase Orders<SEP>Purchase Orders"
+  },
+  "One Big Beautiful Bill Act<SEP>U.S. President Donald Trump": {
+    "chunk_ids": [
+      "chunk-2725c6348566925d28592418e83522ee"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "One Big Beautiful Bill Act<SEP>U.S. President Donald Trump"
+  },
+  "Consolidated Financial Statements<SEP>Transition Tax Liability": {
+    "chunk_ids": [
+      "chunk-6a85fc6b24bbbe3eb5473e7f317c3b93"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Consolidated Financial Statements<SEP>Transition Tax Liability"
+  },
+  "June 29, 2025<SEP>Open Purchase Orders": {
+    "chunk_ids": [
+      "chunk-6a85fc6b24bbbe3eb5473e7f317c3b93"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "June 29, 2025<SEP>Open Purchase Orders"
+  },
+  "2025 Form 10-K<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e",
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1",
+      "chunk-40bdbcc57796bdfaf2433e0e540d9057"
+    ],
+    "count": 3,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "2025 Form 10-K<SEP>Lam Research Corporation"
+  },
+  "Consolidated Financial Statements<SEP>Long-Term Debt": {
+    "chunk_ids": [
+      "chunk-6a85fc6b24bbbe3eb5473e7f317c3b93"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Consolidated Financial Statements<SEP>Long-Term Debt"
+  },
+  "2025 Form 10-K<SEP>Advance Deposits": {
+    "chunk_ids": [
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "2025 Form 10-K<SEP>Advance Deposits"
+  },
+  "Consolidated Financial Statements<SEP>Operating Leases": {
+    "chunk_ids": [
+      "chunk-6a85fc6b24bbbe3eb5473e7f317c3b93"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Consolidated Financial Statements<SEP>Operating Leases"
+  },
+  "2025 Form 10-K<SEP>Gross Margin": {
+    "chunk_ids": [
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "2025 Form 10-K<SEP>Gross Margin"
+  },
+  "Consolidated Financial Statements<SEP>Finance Leases": {
+    "chunk_ids": [
+      "chunk-6a85fc6b24bbbe3eb5473e7f317c3b93"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Consolidated Financial Statements<SEP>Finance Leases"
+  },
+  "Fiscal Year 2025<SEP>Gross Margin": {
+    "chunk_ids": [
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Fiscal Year 2025<SEP>Gross Margin"
+  },
+  "2025 Form 10-K<SEP>Research and Development": {
+    "chunk_ids": [
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "2025 Form 10-K<SEP>Research and Development"
+  },
+  "Lam Research Corporation<SEP>Semiconductor Industry": {
+    "chunk_ids": [
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Lam Research Corporation<SEP>Semiconductor Industry"
+  },
+  "Fiscal Year 2024<SEP>Gross Margin": {
+    "chunk_ids": [
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Fiscal Year 2024<SEP>Gross Margin"
+  },
+  "2025 Form 10-K<SEP>Selling, General, and Administrative": {
+    "chunk_ids": [
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "2025 Form 10-K<SEP>Selling, General, and Administrative"
+  },
+  "Semiconductor Industry<SEP>Wafer Fabrication Equipment": {
+    "chunk_ids": [
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Semiconductor Industry<SEP>Wafer Fabrication Equipment"
+  },
+  "Customer Support Business Group<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Customer Support Business Group<SEP>Lam Research Corporation"
+  },
+  "Fiscal Year 2023<SEP>Gross Margin": {
+    "chunk_ids": [
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Fiscal Year 2023<SEP>Gross Margin"
+  },
+  "2025 Form 10-K<SEP>Restructuring Charges": {
+    "chunk_ids": [
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "2025 Form 10-K<SEP>Restructuring Charges"
+  },
+  "Lam Research Corporation<SEP>Securities and Exchange Commission": {
+    "chunk_ids": [
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Lam Research Corporation<SEP>Securities and Exchange Commission"
+  },
+  "Customer Support Business Group<SEP>Financial Condition and Results of Operations": {
+    "chunk_ids": [
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Customer Support Business Group<SEP>Financial Condition and Results of Operations"
+  },
+  "Lam Research Corporation<SEP>NVM": {
+    "chunk_ids": [
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Lam Research Corporation<SEP>NVM"
+  },
+  "DRAM<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "DRAM<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>Logic Devices": {
+    "chunk_ids": [
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Lam Research Corporation<SEP>Logic Devices"
+  },
+  "Fiscal Year 2025<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac",
+      "chunk-40bdbcc57796bdfaf2433e0e540d9057"
+    ],
+    "count": 2,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Fiscal Year 2025<SEP>Lam Research Corporation"
+  },
+  "China<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "China<SEP>Lam Research Corporation"
+  },
+  "Fiscal Year 2024<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Fiscal Year 2024<SEP>Lam Research Corporation"
+  },
+  "Cash Flows from Operating Activities<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-40bdbcc57796bdfaf2433e0e540d9057"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Cash Flows from Operating Activities<SEP>Fiscal Year 2025"
+  },
+  "Fiscal Year 2023<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Fiscal Year 2023<SEP>Lam Research Corporation"
+  },
+  "Cash Flows from Investing Activities<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-40bdbcc57796bdfaf2433e0e540d9057"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Cash Flows from Investing Activities<SEP>Fiscal Year 2025"
+  },
+  "Korea<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Korea<SEP>Lam Research Corporation"
+  },
+  "Cash Flows from Financing Activities<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-40bdbcc57796bdfaf2433e0e540d9057"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Cash Flows from Financing Activities<SEP>Fiscal Year 2025"
+  },
+  "Lam Research Corporation<SEP>Revenue": {
+    "chunk_ids": [
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Lam Research Corporation<SEP>Revenue"
+  },
+  "Common Stock Repurchases<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-40bdbcc57796bdfaf2433e0e540d9057"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Common Stock Repurchases<SEP>Fiscal Year 2025"
+  },
+  "Lam Research Corporation<SEP>Net Income": {
+    "chunk_ids": [
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Lam Research Corporation<SEP>Net Income"
+  },
+  "Dividends Paid<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-40bdbcc57796bdfaf2433e0e540d9057"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Dividends Paid<SEP>Fiscal Year 2025"
+  },
+  "Gross Margin<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Gross Margin<SEP>Lam Research Corporation"
+  },
+  "Lam Research Corporation<SEP>Total Operating Expenses": {
+    "chunk_ids": [
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "Lam Research Corporation<SEP>Total Operating Expenses"
+  },
+  "2025 Notes<SEP>Lam Research Corporation": {
+    "chunk_ids": [
+      "chunk-40bdbcc57796bdfaf2433e0e540d9057"
+    ],
+    "count": 1,
+    "create_time": 1777383540,
+    "update_time": 1777383540,
+    "_id": "2025 Notes<SEP>Lam Research Corporation"
   }
 }

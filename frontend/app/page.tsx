@@ -221,7 +221,6 @@ export default function Home() {
               <ul style={listStyle}>
                 <li style={{ marginBottom: '10px' }}>Ask any business question in plain English → system scans all 150+ BRs instantly → structured, sourced answer returned</li>
                 <li style={{ marginBottom: '10px' }}>No spreadsheets. No digging. No guesswork.</li>
-                <li style={{ marginBottom: '10px' }}><strong>Why not just ChatGPT?</strong> Even with SharePoint access, ChatGPT cannot map relationships across private documents or surface cross-client patterns</li>
                 <li><em>"Which clients face EV delay risk due to infrastructure?"</em><br />→ Pinpoint account map. In seconds.</li>
               </ul>
             </div>

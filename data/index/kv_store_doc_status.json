@@ -1918,7 +1918,7 @@
     }
   },
   "doc-bfdf031da0ef4ad5de41000a428b4800": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 7,
     "chunks_list": [
       "chunk-4f4a3122187e873b883c3ae983dcfbd1",
@@ -1932,11 +1932,41 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: LRCX\nLayer: LAYER_D\nPeriod: Q3_2025\nDate: 2025-08-11\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7.    Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion of...",
     "content_length": 32055,
     "created_at": "2026-04-28T13:34:48.098032+00:00",
-    "updated_at": "2026-04-28T13:34:48.134413+00:00",
+    "updated_at": "2026-04-28T13:39:00.600907+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_093448_410ef982",
     "metadata": {
-      "processing_start_time": 1777383288
+      "processing_start_time": 1777383288,
+      "processing_end_time": 1777383540
+    }
+  },
+  "doc-47922f3385c7bd47262534ec33a4f74a": {
+    "status": "processing",
+    "chunks_count": 14,
+    "chunks_list": [
+      "chunk-974727f2c7ddff30c5489bd40207f33e",
+      "chunk-6ac75cf1fa25c3cbf9691d3366528164",
+      "chunk-e3fd11873ac51b47b63e348f0ff0cc0c",
+      "chunk-c13703eee607542a05209bc9ea387dab",
+      "chunk-4b5447c5672396b554236658ba7a2ba4",
+      "chunk-8ca1e1fda1ba6e2624c254951a92bf00",
+      "chunk-a18f6c0f15bf423e7fa7709bcb1372ae",
+      "chunk-554ce0be4e4ac8e5c17a5b305d3ceeca",
+      "chunk-fb7807573031e541cb590f5337081e3f",
+      "chunk-9ef724090f2a41e7cecef1f44f58528c",
+      "chunk-26aa81cc3b2a6d392d011e4f50a44063",
+      "chunk-c3025a80ea68728e27d7e0411c4f96b7",
+      "chunk-9c80e46c627253fff5d73f84146136c3",
+      "chunk-3d00078b9a10fa5a6bb5dafe7a94ac26"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: LRCX\nLayer: LAYER_D\nPeriod: Q3_2025\nDate: 2025-08-11\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A.     Risk Factors\n\nIn addition to the other information in this Annual Report on Form 10-K (“2025 Form 10-K”), the follow...",
+    "content_length": 81299,
+    "created_at": "2026-04-28T13:39:01.393627+00:00",
+    "updated_at": "2026-04-28T13:39:01.436259+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093901_62a4076a",
+    "metadata": {
+      "processing_start_time": 1777383541
     }
   }
 }
