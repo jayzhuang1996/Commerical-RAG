@@ -29,20 +29,23 @@ def _load_chunk_store():
 def _lookup_chunk_metadata(content_snippet: str) -> dict:
     """Find SOURCE INFO metadata by matching a content snippet against the chunk store."""
     _load_chunk_store()
-    snippet = content_snippet[:200].strip()
-    for chunk in _chunk_store.values():
-        c = chunk.get("content", "")
-        # Strip the header to get the actual text, then compare
-        clean = re.sub(r"--- SOURCE INFO ---.*?--- END INFO ---\s*", "", c, flags=re.DOTALL).strip()
-        if snippet and snippet[:100] in clean:
-            ticker = re.search(r"Ticker:\s*(\w+)", c)
-            period = re.search(r"Period:\s*([\w_]+)", c)
-            dtype  = re.search(r"Doc Type:\s*([\w_]+)", c)
-            return {
-                "ticker": ticker.group(1) if ticker else "Unknown",
-                "period": period.group(1).replace("_", " ") if period else "Unknown",
-                "doc_type": dtype.group(1).replace("_", " ") if dtype else "Filing",
-            }
+    # Try progressively shorter snippets for a match
+    for length in (120, 60, 30):
+        needle = content_snippet[:length].strip()
+        if not needle:
+            continue
+        for chunk in _chunk_store.values():
+            c = chunk.get("content", "")
+            clean = re.sub(r"--- SOURCE INFO ---.*?--- END INFO ---\s*", "", c, flags=re.DOTALL).strip()
+            if needle in clean:
+                ticker = re.search(r"Ticker:\s*(\w+)", c)
+                period = re.search(r"Period:\s*([\w_]+)", c)
+                dtype  = re.search(r"Doc Type:\s*([\w_]+)", c)
+                return {
+                    "ticker": ticker.group(1) if ticker else "Unknown",
+                    "period": period.group(1).replace("_", " ") if period else "Unknown",
+                    "doc_type": dtype.group(1).replace("_", " ") if dtype else "Filing",
+                }
     return {"ticker": "Unknown", "period": "Unknown", "doc_type": "Filing"}
 
 # Maps each semiconductor vertical → company tickers in the dataset
@@ -148,15 +151,16 @@ async def analyst_node(state: AgentState):
     print("🧠 [Analyst] Synthesizing with strict evidentiary grounding...")
     context = state['raw_context']
     
-    prompt = f"""You are a Strategic Analyst. Summarize the provided Raw Intelligence into a detailed briefing.
+    prompt = f"""You are a Strategic Analyst. Answer ONLY using the Raw Intelligence sources below.
 
 USER QUERY: {state['query']}
 
-STRICT RULES FOR VERACITY:
-1. Use direct quotations for every major metric or fact.
-2. Every sentence MUST be cited with the numeric source marker, e.g., "NVIDIA reported that 'Blackwell demand is strong' [1]."
-3. Ensure the numeric marker [x] matches the SOURCE [x] label in the Raw Intelligence below.
-4. If you use a quote, enclose it in double quotes.
+STRICT RULES — VIOLATION IS NOT ALLOWED:
+1. ONLY use information that appears in the Raw Intelligence sources below. Do NOT use any external knowledge.
+2. If the Raw Intelligence does not contain information relevant to the query, respond ONLY with: "No data available in the current dataset for this query."
+3. Every factual sentence MUST cite its source with [x] matching the SOURCE [x] label below.
+4. Use direct quotes for metrics and key claims.
+5. Never invent, infer, or extrapolate facts not present in the sources.
 
 RAW INTELLIGENCE:
 {context}
@@ -166,8 +170,8 @@ FORMAT:
 - Bullet points for each major insight.
 """
     briefing = await openai_model_complete(
-        prompt, 
-        system_prompt="You are a high-fidelity analyst. You prioritize direct evidence and quotations. You never synthesize without a citation."
+        prompt,
+        system_prompt="You are a strict evidence-only analyst. You never use knowledge outside the provided sources. If sources are empty or irrelevant, say so directly."
     )
     return {"synthesized_answer": briefing}
 
