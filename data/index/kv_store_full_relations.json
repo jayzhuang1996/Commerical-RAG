@@ -19203,5 +19203,2369 @@
     "create_time": 1777395553,
     "update_time": 1777395553,
     "_id": "doc-420258c78a57df852c22bc2fe808eb43"
+  },
+  "doc-cc181ae539eec936fc57f4fba66824c7": {
+    "relation_pairs": [
+      [
+        "Fiscal Year 2025",
+        "SMCI"
+      ],
+      [
+        "Company",
+        "Financial Guidance"
+      ],
+      [
+        "Information Technology Infrastructure",
+        "SMCI"
+      ],
+      [
+        "EU General Data Protection Regulation 2016/679",
+        "SMCI"
+      ],
+      [
+        "Business Operations",
+        "Laws and Regulations"
+      ],
+      [
+        "Act on the Protection of Personal Information",
+        "SMCI"
+      ],
+      [
+        "Company Products",
+        "Suppliers"
+      ],
+      [
+        "Economic Hardship",
+        "Total IT Solutions"
+      ],
+      [
+        "Bill Liang",
+        "Leadtek"
+      ],
+      [
+        "Belarus",
+        "United States"
+      ],
+      [
+        "SMCI",
+        "Tax Rate"
+      ],
+      [
+        "Deferred Tax Assets",
+        "SMCI"
+      ],
+      [
+        "Q3 2025",
+        "SMCI"
+      ],
+      [
+        "Common Stock",
+        "SMCI"
+      ],
+      [
+        "Russia",
+        "United States"
+      ],
+      [
+        "Total IT Solutions",
+        "U.S."
+      ],
+      [
+        "Ablecom",
+        "Yih-Shyan (Wally) Liaw"
+      ],
+      [
+        "2029 Convertible Notes",
+        "2029 Convertible Notes Indenture"
+      ],
+      [
+        "Personal Information",
+        "SMCI"
+      ],
+      [
+        "Certificate of Incorporation",
+        "Common Stock"
+      ],
+      [
+        "Environmental, Social and Governance (ESG)",
+        "SMCI"
+      ],
+      [
+        "Charles Liang",
+        "Chien-Tsun Chang"
+      ],
+      [
+        "Investor Confidence",
+        "SMCI"
+      ],
+      [
+        "Chinas Personal Information Protection Law",
+        "SMCI"
+      ],
+      [
+        "SMCI",
+        "Taiwan"
+      ],
+      [
+        "Ablecom",
+        "Compuware"
+      ],
+      [
+        "Negative Publicity",
+        "SMCI"
+      ],
+      [
+        "Common Stock",
+        "Inquent Reports"
+      ],
+      [
+        "NVIDIA A100 and H100",
+        "U.S. Export Restrictions"
+      ],
+      [
+        "Chassis",
+        "SMCI"
+      ],
+      [
+        "Consumer Advocacy Groups",
+        "Data Privacy and Protection Laws"
+      ],
+      [
+        "Russia",
+        "SMCI"
+      ],
+      [
+        "Company Policies",
+        "U.S. Foreign Corrupt Practices Act (FCPA)"
+      ],
+      [
+        "SMCI",
+        "Supply Chain Challenges"
+      ],
+      [
+        "Cash Dividends",
+        "Common Stock"
+      ],
+      [
+        "AI Industry",
+        "Company Success"
+      ],
+      [
+        "Company",
+        "Research and Development"
+      ],
+      [
+        "Federal Reserve",
+        "Total IT Solutions"
+      ],
+      [
+        "Manufacturing Products",
+        "Suppliers"
+      ],
+      [
+        "Bill Liang",
+        "Steve Liang"
+      ],
+      [
+        "Ablecom",
+        "SMCI"
+      ],
+      [
+        "Data Protection Authorities",
+        "SMCI"
+      ],
+      [
+        "Ukraine",
+        "United States"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Suppliers"
+      ],
+      [
+        "Business",
+        "Economic Conditions"
+      ],
+      [
+        "Internal Control over Financial Reporting",
+        "Sarbanes-Oxley Act of 2002"
+      ],
+      [
+        "Company Products",
+        "Market Competition"
+      ],
+      [
+        "Bylaws",
+        "Common Stock"
+      ],
+      [
+        "Business Compliance",
+        "U.S. Foreign Corrupt Practices Act"
+      ],
+      [
+        "CPUs",
+        "Market Volatility"
+      ],
+      [
+        "Internal Control over Financial Reporting",
+        "SMCI"
+      ],
+      [
+        "Company Reputation",
+        "Employee Misconduct"
+      ],
+      [
+        "Compuware",
+        "Leadtek"
+      ],
+      [
+        "Key Employees",
+        "SMCI"
+      ],
+      [
+        "Company Policies",
+        "Data Privacy and Protection Laws"
+      ],
+      [
+        "Malaysia",
+        "SMCI"
+      ],
+      [
+        "Business",
+        "Credit Markets"
+      ],
+      [
+        "Common Stock",
+        "Executive Officers and Directors"
+      ],
+      [
+        "Business",
+        "Distributors"
+      ],
+      [
+        "Report",
+        "SMCI"
+      ],
+      [
+        "Company",
+        "Reputational Harm"
+      ],
+      [
+        "2029 Convertible Notes Indenture",
+        "SMCI"
+      ],
+      [
+        "COVID-19 Pandemic",
+        "Global Supply Chain"
+      ],
+      [
+        "AI Tools",
+        "Workforce"
+      ],
+      [
+        "2028 Convertible Notes",
+        "2028 Convertible Notes Indenture"
+      ],
+      [
+        "SMCI",
+        "U.S. Treasury"
+      ],
+      [
+        "California Consumer Privacy Act",
+        "Total IT Solutions"
+      ],
+      [
+        "Fiscal Year 2024",
+        "SMCI"
+      ],
+      [
+        "Material Weaknesses",
+        "SMCI"
+      ],
+      [
+        "Company",
+        "Competition"
+      ],
+      [
+        "Delinquent Reports",
+        "Management Attention"
+      ],
+      [
+        "China",
+        "United States"
+      ],
+      [
+        "2030 Convertible Notes Indenture",
+        "SMCI"
+      ],
+      [
+        "GPUs",
+        "Market Volatility"
+      ],
+      [
+        "2029 Convertible Notes",
+        "SMCI"
+      ],
+      [
+        "Charles Liang",
+        "Steve Liang"
+      ],
+      [
+        "Large Language Models",
+        "SMCI"
+      ],
+      [
+        "COVID-19",
+        "Legal Proceedings"
+      ],
+      [
+        "Market Volatility",
+        "SMCI"
+      ],
+      [
+        "June 30, 2025",
+        "Material Weaknesses"
+      ],
+      [
+        "Office of Foreign Assets Control",
+        "SMCI"
+      ],
+      [
+        "China",
+        "SMCI"
+      ],
+      [
+        "Management Attention",
+        "Negative Publicity"
+      ],
+      [
+        "2028 Convertible Notes",
+        "Taiwan"
+      ],
+      [
+        "SMCI",
+        "U.S. Commerce Departments Bureau of Industry and Security"
+      ],
+      [
+        "Hong Kong",
+        "U.S. Export Restrictions"
+      ],
+      [
+        "Financial Condition",
+        "Global Operating Business"
+      ],
+      [
+        "Charles Liang",
+        "October 2018 Loan"
+      ],
+      [
+        "Cyber Threats",
+        "Total IT Solutions"
+      ],
+      [
+        "Memory",
+        "SMCI"
+      ],
+      [
+        "Charles Liang",
+        "SMCI"
+      ],
+      [
+        "SMCI",
+        "U.S. Policies"
+      ],
+      [
+        "Company Policies",
+        "Delaware Law"
+      ],
+      [
+        "AI Technology",
+        "Investment Risk"
+      ],
+      [
+        "Common Stock",
+        "Investors"
+      ],
+      [
+        "Malaysian Subsidiary",
+        "Pillar Two"
+      ],
+      [
+        "$4.8 Billion Indebtedness",
+        "Master Colocation Service Agreement (MCSA)"
+      ],
+      [
+        "AI Technologies",
+        "SMCI"
+      ],
+      [
+        "Company",
+        "Quarterly Operating Results"
+      ],
+      [
+        "California Privacy Rights Act of 2020",
+        "SMCI"
+      ],
+      [
+        "Charles Liang",
+        "Common Stock"
+      ],
+      [
+        "Business",
+        "Suppliers"
+      ],
+      [
+        "Company",
+        "Delinquent Reports"
+      ],
+      [
+        "Ablecom",
+        "Leadtek"
+      ],
+      [
+        "Credit Facilities",
+        "SMCI"
+      ],
+      [
+        "Cyber Threats",
+        "Russia-Ukraine War"
+      ],
+      [
+        "Business",
+        "Logistics Costs"
+      ],
+      [
+        "One Big Beautiful Bill Act",
+        "SMCI"
+      ],
+      [
+        "Design Wins",
+        "Research and Development"
+      ],
+      [
+        "Investment Risk",
+        "Legal Proceedings"
+      ],
+      [
+        "Executive Officers and Directors",
+        "Stockholders"
+      ],
+      [
+        "Business",
+        "Manufacturing Partners"
+      ],
+      [
+        "Charles Liang",
+        "Sara Liu"
+      ],
+      [
+        "European Unions General Data Protection Regulation",
+        "Total IT Solutions"
+      ],
+      [
+        "2028 Convertible Notes",
+        "SMCI"
+      ],
+      [
+        "Customer Demand",
+        "Macroeconomic Conditions"
+      ],
+      [
+        "Security Breach",
+        "Total IT Solutions"
+      ],
+      [
+        "Customer Demand",
+        "Gross Margin"
+      ],
+      [
+        "IP Rights",
+        "Technical Personnel"
+      ],
+      [
+        "Employee Retention",
+        "Stock Price"
+      ],
+      [
+        "Business",
+        "Eastern Europe"
+      ],
+      [
+        "2025 Form 10-K",
+        "SMCI"
+      ],
+      [
+        "Business",
+        "Total IT Solutions"
+      ],
+      [
+        "Company",
+        "Regulatory Investigations"
+      ],
+      [
+        "Data Center Space",
+        "MCSA"
+      ],
+      [
+        "Bylaws",
+        "Certificate of Incorporation"
+      ],
+      [
+        "Export Control Regulations",
+        "Middle East"
+      ],
+      [
+        "Company",
+        "Global Operating Business"
+      ],
+      [
+        "Malaysia",
+        "Taiwan"
+      ],
+      [
+        "AI Industry",
+        "Company Resources"
+      ],
+      [
+        "China",
+        "Export Control Regulations"
+      ],
+      [
+        "Common Stock",
+        "Delaware General Corporation Law"
+      ],
+      [
+        "Consumer Protection",
+        "SMCI"
+      ],
+      [
+        "Business",
+        "Middle East"
+      ],
+      [
+        "General Data Protection Law",
+        "SMCI"
+      ],
+      [
+        "Company Risks",
+        "International Business Operations"
+      ],
+      [
+        "$4.8 Billion Indebtedness",
+        "Convertible Notes"
+      ],
+      [
+        "2030 Convertible Notes",
+        "SMCI"
+      ],
+      [
+        "Customers",
+        "Total IT Solutions"
+      ],
+      [
+        "Compuware",
+        "SMCI"
+      ],
+      [
+        "Taiwan",
+        "United States"
+      ],
+      [
+        "Company Operations",
+        "Negative Publicity"
+      ],
+      [
+        "Climate Change Mitigation",
+        "SMCI"
+      ],
+      [
+        "China",
+        "U.S. Export Restrictions"
+      ],
+      [
+        "Competition",
+        "Technology"
+      ],
+      [
+        "IP Rights",
+        "Patent Infringement Lawsuits"
+      ],
+      [
+        "2030 Convertible Notes",
+        "2030 Convertible Notes Indenture"
+      ],
+      [
+        "Data Privacy and Protection Laws",
+        "Security Notifications"
+      ],
+      [
+        "Competitiveness",
+        "Intellectual Property Rights"
+      ],
+      [
+        "Advanced Integrated Circuits",
+        "U.S. Export Restrictions"
+      ],
+      [
+        "Risk Factors",
+        "SMCI"
+      ],
+      [
+        "Managements Discussion and Analysis of Financial Condition and Results of Operations",
+        "SMCI"
+      ],
+      [
+        "Core Components",
+        "SMCI"
+      ],
+      [
+        "Report",
+        "Special Committee Investigation"
+      ],
+      [
+        "2028 Convertible Notes Indenture",
+        "SMCI"
+      ],
+      [
+        "Charles Liang",
+        "Executive Management Team"
+      ],
+      [
+        "Channel Partners",
+        "SMCI"
+      ],
+      [
+        "Company",
+        "Customers"
+      ],
+      [
+        "Innovation",
+        "Markets"
+      ],
+      [
+        "Eastern Europe",
+        "SMCI"
+      ],
+      [
+        "California Consumer Privacy Act",
+        "SMCI"
+      ],
+      [
+        "Fiscal Year 2023",
+        "SMCI"
+      ],
+      [
+        "Business",
+        "Tensions in the Taiwan Strait"
+      ],
+      [
+        "Annual Report",
+        "SMCI"
+      ]
+    ],
+    "count": 164,
+    "create_time": 1777396196,
+    "update_time": 1777396196,
+    "_id": "doc-cc181ae539eec936fc57f4fba66824c7"
+  },
+  "doc-aa1e37497997cbb260a36a0365453b21": {
+    "relation_pairs": [
+      [
+        "Indictment",
+        "U.S. Attorneys Office for the Southern District of New York"
+      ],
+      [
+        "Server Building Block Solutions",
+        "Super Micro Computer, Inc."
+      ],
+      [
+        "Super Micro Computer, Inc.",
+        "Yih-Shyan \"Wally\" Liaw"
+      ],
+      [
+        "Ruei-Tsang \"Steven\" Chang",
+        "Super Micro Computer, Inc."
+      ],
+      [
+        "Application-Optimized Total IT Solutions",
+        "Super Micro Computer, Inc."
+      ],
+      [
+        "San Jose",
+        "Super Micro Computer, Inc."
+      ],
+      [
+        "Super Micro Computer, Inc.",
+        "Ting-Wei \"Willy\" Sun"
+      ],
+      [
+        "Super Micro Computer, Inc.",
+        "Supermicro"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777396221,
+    "update_time": 1777396221,
+    "_id": "doc-aa1e37497997cbb260a36a0365453b21"
+  },
+  "doc-abfc6b92688ed95d1f7755a4b40a7c77": {
+    "relation_pairs": [
+      [
+        "Broadcom Inc.",
+        "SMCI"
+      ],
+      [
+        "Operating Expenses",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "General and Administrative Expenses",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Rack-Scale Solutions",
+        "Total Net Sales"
+      ],
+      [
+        "Sales and Marketing Expenses",
+        "Workforce Expansion"
+      ],
+      [
+        "Financial Highlights",
+        "Three Months Ended December 31, 2024"
+      ],
+      [
+        "Income Tax Provision",
+        "US Dollar"
+      ],
+      [
+        "Average Selling Price (ASP)",
+        "Server and Storage Systems"
+      ],
+      [
+        "Server and Storage Systems",
+        "Subsystems and Accessories"
+      ],
+      [
+        "SMCI",
+        "Samsung Electronics Company Limited"
+      ],
+      [
+        "Period-over-Period Increase",
+        "Research and Development Expenses"
+      ],
+      [
+        "Cost of Sales",
+        "Logistic Costs"
+      ],
+      [
+        "Cost of Sales",
+        "Gross Profit"
+      ],
+      [
+        "Net Sales",
+        "United States"
+      ],
+      [
+        "Net Sales",
+        "Six Months Ended December 31, 2024"
+      ],
+      [
+        "Research and Development Expenses",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "2024",
+        "SMCI"
+      ],
+      [
+        "Net Sales",
+        "Three Months Ended December 31, 2023"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "December 31, 2024"
+      ],
+      [
+        "December 31, 2024",
+        "Net Cash Used in Investing Activities"
+      ],
+      [
+        "December 31, 2024",
+        "Income Tax Provision"
+      ],
+      [
+        "2029 Convertible Notes",
+        "Interest Expense"
+      ],
+      [
+        "Micron Technology, Inc.",
+        "SMCI"
+      ],
+      [
+        "SMCI",
+        "Silicon Valley"
+      ],
+      [
+        "SMCI",
+        "Working Capital"
+      ],
+      [
+        "Europe",
+        "Total Net Sales"
+      ],
+      [
+        "Q1 2025",
+        "Q2 2025 Form 10-Q"
+      ],
+      [
+        "Income Tax Provision",
+        "Taiwan"
+      ],
+      [
+        "Cost of Sales",
+        "Personnel Expenses"
+      ],
+      [
+        "General and Administrative Expenses",
+        "Period-over-Period Increase"
+      ],
+      [
+        "High Performance Computing (HPC)",
+        "Server and Storage Systems"
+      ],
+      [
+        "NVIDIA Corporation",
+        "SMCI"
+      ],
+      [
+        "Intel Corporation",
+        "SMCI"
+      ],
+      [
+        "Financing Activities",
+        "SMCI"
+      ],
+      [
+        "Income from Operations",
+        "Net Income"
+      ],
+      [
+        "Advanced Micro Devices, Inc.",
+        "SMCI"
+      ],
+      [
+        "Period-over-Period Increase",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Cost of Components",
+        "Cost of Sales"
+      ],
+      [
+        "Investing Activities",
+        "SMCI"
+      ],
+      [
+        "2029 Convertible Notes",
+        "February 11, 2025"
+      ],
+      [
+        "Operating Activities",
+        "SMCI"
+      ],
+      [
+        "December 31, 2024",
+        "Net Cash Provided by Financing Activities"
+      ],
+      [
+        "AI Market",
+        "Datacenter Capabilities"
+      ],
+      [
+        "Capital Expenditures",
+        "SMCI"
+      ],
+      [
+        "Q2 2025 Form 10-Q",
+        "SMCI"
+      ],
+      [
+        "2029 Convertible Notes",
+        "February 20, 2025"
+      ],
+      [
+        "2029 Convertible Notes",
+        "SMCI"
+      ],
+      [
+        "Net Sales",
+        "Operating Expenses"
+      ],
+      [
+        "General and Administrative Expenses",
+        "Operating Expenses"
+      ],
+      [
+        "Financial Highlights",
+        "Macroeconomic Conditions"
+      ],
+      [
+        "Operating Expenses",
+        "Research and Development Expenses"
+      ],
+      [
+        "December 31, 2024",
+        "SMCI"
+      ],
+      [
+        "Financial Highlights",
+        "Three Months Ended December 31, 2023"
+      ],
+      [
+        "2024 10-K",
+        "SMCI"
+      ],
+      [
+        "Personnel Expenses",
+        "Research and Development Expenses"
+      ],
+      [
+        "HPC",
+        "Total Net Sales"
+      ],
+      [
+        "General and Administrative Expenses",
+        "Research and Development Expenses"
+      ],
+      [
+        "Financial Highlights",
+        "Net Sales"
+      ],
+      [
+        "Net Sales",
+        "Three Months Ended December 31, 2024"
+      ],
+      [
+        "Europe",
+        "Net Sales"
+      ],
+      [
+        "Marketing Development Funds",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Income Tax Provision",
+        "Netherlands"
+      ],
+      [
+        "2028 Convertible Notes",
+        "SMCI"
+      ],
+      [
+        "General and Administrative Expenses",
+        "Workforce Expansion"
+      ],
+      [
+        "$700.0 Million",
+        "2028 Convertible Notes"
+      ],
+      [
+        "Securities Exchange Act of 1934",
+        "forward-looking statements"
+      ],
+      [
+        "Product Development Costs",
+        "Research and Development Expenses"
+      ],
+      [
+        "Securities Act of 1933",
+        "forward-looking statements"
+      ],
+      [
+        "Research and Development Expenses",
+        "Workforce Expansion"
+      ],
+      [
+        "AI Market",
+        "SMCI"
+      ],
+      [
+        "GPU Servers",
+        "Total Net Sales"
+      ],
+      [
+        "Net Sales",
+        "Six Months Ended December 31, 2023"
+      ],
+      [
+        "December 31, 2024",
+        "Net Cash Provided by Operating Activities"
+      ],
+      [
+        "Financial Highlights",
+        "SMCI"
+      ]
+    ],
+    "count": 74,
+    "create_time": 1777396436,
+    "update_time": 1777396436,
+    "_id": "doc-abfc6b92688ed95d1f7755a4b40a7c77"
+  },
+  "doc-193c943ca0bebc0d86c804d735662ce4": {
+    "relation_pairs": [
+      [
+        "Cash and Cash Equivalents",
+        "SMCI"
+      ],
+      [
+        "Broadcom Inc.",
+        "SMCI"
+      ],
+      [
+        "Cost of Sales",
+        "Inventory Write-Down Adjustment"
+      ],
+      [
+        "Server and Storage Systems",
+        "Subsystems and Accessories"
+      ],
+      [
+        "Europe",
+        "Subsystems and Accessories"
+      ],
+      [
+        "Macroeconomic Factors",
+        "Net Sales"
+      ],
+      [
+        "SMCI",
+        "Samsung Electronics Company Limited"
+      ],
+      [
+        "Contract Manufacturing Expenses",
+        "Cost of Sales"
+      ],
+      [
+        "Others",
+        "Total Net Sales"
+      ],
+      [
+        "Gross Profit",
+        "Net Sales"
+      ],
+      [
+        "2024 10-K",
+        "Quarterly Report"
+      ],
+      [
+        "Income Before Income Tax Provision",
+        "Interest Expense"
+      ],
+      [
+        "Artificial Intelligence",
+        "Data Centers"
+      ],
+      [
+        "Operating Expenses",
+        "Total Net Sales"
+      ],
+      [
+        "Income Tax Provision",
+        "Net Income"
+      ],
+      [
+        "March 31, 2025",
+        "Q3 2025 Form 10-Q"
+      ],
+      [
+        "Green Computing",
+        "SMCI"
+      ],
+      [
+        "Income Tax Provision",
+        "SMCI"
+      ],
+      [
+        "2029 Convertible Notes",
+        "Interest Expense"
+      ],
+      [
+        "Nine Months Ended March 31, 2024",
+        "SMCI"
+      ],
+      [
+        "Micron Technology, Inc.",
+        "SMCI"
+      ],
+      [
+        "Artificial Intelligence",
+        "SMCI"
+      ],
+      [
+        "SMCI",
+        "Working Capital"
+      ],
+      [
+        "General and Administrative Expenses",
+        "Total Net Sales"
+      ],
+      [
+        "High Performance Computing (HPC)",
+        "Server and Storage Systems"
+      ],
+      [
+        "Research and Development Expenses",
+        "Total Net Sales"
+      ],
+      [
+        "Income Tax Provision Benefit",
+        "Net Income"
+      ],
+      [
+        "Income Tax Provision",
+        "Taiwan"
+      ],
+      [
+        "$2,505.0 Million",
+        "Q3 2025 Form 10-Q"
+      ],
+      [
+        "SMCI",
+        "Three Months Ended March 31, 2024"
+      ],
+      [
+        "NVIDIA Corporation",
+        "SMCI"
+      ],
+      [
+        "Rack-Scale Solutions",
+        "SMCI"
+      ],
+      [
+        "Intel Corporation",
+        "SMCI"
+      ],
+      [
+        "Asia",
+        "Total Net Sales"
+      ],
+      [
+        "$2,634.1 Million",
+        "Q3 2025 Form 10-Q"
+      ],
+      [
+        "Gross Margin",
+        "Three Months Ended March 31, 2025"
+      ],
+      [
+        "Cost of Sales",
+        "SMCI"
+      ],
+      [
+        "SMCI",
+        "Three Months Ended March 31, 2025"
+      ],
+      [
+        "$130.8 Million",
+        "Q3 2025 Form 10-Q"
+      ],
+      [
+        "Cost of Materials",
+        "Cost of Sales"
+      ],
+      [
+        "Operating Expenses",
+        "SMCI"
+      ],
+      [
+        "March 31, 2024",
+        "Q3 2025 Form 10-Q"
+      ],
+      [
+        "Advanced Micro Devices, Inc.",
+        "SMCI"
+      ],
+      [
+        "Nine Months Ended March 31, 2025",
+        "SMCI"
+      ],
+      [
+        "Operating Expenses",
+        "Three Months Ended March 31, 2025"
+      ],
+      [
+        "Sales and Marketing Expenses",
+        "Total Net Sales"
+      ],
+      [
+        "2028 Convertible Notes",
+        "Interest Expense"
+      ],
+      [
+        "Europe",
+        "SMCI"
+      ],
+      [
+        "Income Before Income Tax Provision",
+        "Net Income"
+      ],
+      [
+        "NVIDIA Corporation",
+        "Net Sales"
+      ],
+      [
+        "Intel Corporation",
+        "Net Sales"
+      ],
+      [
+        "Interest Expense",
+        "Other (Expense) Income, Net"
+      ],
+      [
+        "Net Income",
+        "SMCI"
+      ],
+      [
+        "Capital Expenditures",
+        "SMCI"
+      ],
+      [
+        "Asia",
+        "SMCI"
+      ],
+      [
+        "2029 Convertible Notes",
+        "SMCI"
+      ],
+      [
+        "Advanced Micro Devices, Inc.",
+        "Net Sales"
+      ],
+      [
+        "Research and Development",
+        "Sales and Marketing"
+      ],
+      [
+        "Data Center Building Block Solutions",
+        "SMCI"
+      ],
+      [
+        "$3,136.9 Million",
+        "Q3 2025 Form 10-Q"
+      ],
+      [
+        "Q3 2025 Form 10-Q",
+        "SMCI"
+      ],
+      [
+        "Net Income",
+        "Operating Expenses"
+      ],
+      [
+        "SMCI",
+        "San Jose, California"
+      ],
+      [
+        "Convertible Notes",
+        "Interest Expense"
+      ],
+      [
+        "Effective Tax Rate",
+        "Three Months Ended March 31, 2025"
+      ],
+      [
+        "Macroeconomic Factors",
+        "SMCI"
+      ],
+      [
+        "Asia",
+        "Thailand"
+      ],
+      [
+        "2028 Convertible Notes",
+        "SMCI"
+      ],
+      [
+        "SMCI",
+        "Total IT Solutions"
+      ],
+      [
+        "Total Net Sales",
+        "United States"
+      ],
+      [
+        "Asia",
+        "Japan"
+      ],
+      [
+        "Income Tax Provision",
+        "United States"
+      ],
+      [
+        "HPC",
+        "SMCI"
+      ],
+      [
+        "GPU Servers",
+        "Server and Storage Systems"
+      ],
+      [
+        "SMCI",
+        "United States"
+      ]
+    ],
+    "count": 75,
+    "create_time": 1777396740,
+    "update_time": 1777396740,
+    "_id": "doc-193c943ca0bebc0d86c804d735662ce4"
+  },
+  "doc-4f25e17a74d128d3329e437d6bd5ed63": {
+    "relation_pairs": [
+      [
+        "Broadcom Inc.",
+        "SMCI"
+      ],
+      [
+        "Note 8",
+        "Quarterly Report"
+      ],
+      [
+        "Capital Expenditures",
+        "Manufacturing Capabilities"
+      ],
+      [
+        "SMCI",
+        "Samsung Electronics Company Limited"
+      ],
+      [
+        "Common Stock",
+        "Net Cash Used in Financing Activities"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "Restricted Cash"
+      ],
+      [
+        "Audit and Tax Fees",
+        "General and Administrative Expenses"
+      ],
+      [
+        "Gross Profit",
+        "Net Sales"
+      ],
+      [
+        "Financial Metrics",
+        "Gross Profit"
+      ],
+      [
+        "SMCI",
+        "San Jose"
+      ],
+      [
+        "Net Cash from Operating Activities",
+        "September 30, 2025"
+      ],
+      [
+        "Equity Awards",
+        "Financing Activities"
+      ],
+      [
+        "Quarter Ended September 30, 2024",
+        "SMCI"
+      ],
+      [
+        "SMCI",
+        "U.S. GAAP"
+      ],
+      [
+        "Server and Storage Systems",
+        "Total Net Sales"
+      ],
+      [
+        "Income Tax Provision",
+        "SMCI"
+      ],
+      [
+        "Research and Development Expenses",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Financing Activities",
+        "Term Loans"
+      ],
+      [
+        "Excise Tax Expense",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Credit Facilities",
+        "Liquidity and Capital Resources"
+      ],
+      [
+        "Micron Technology, Inc.",
+        "SMCI"
+      ],
+      [
+        "Other Income",
+        "SMCI"
+      ],
+      [
+        "Income Tax Provision",
+        "Taiwan"
+      ],
+      [
+        "Quarter Ended September 30, 2025",
+        "SMCI"
+      ],
+      [
+        "Income Tax Provision",
+        "September 30, 2025"
+      ],
+      [
+        "NVIDIA Corporation",
+        "SMCI"
+      ],
+      [
+        "SMCI",
+        "Sales and Marketing"
+      ],
+      [
+        "Intel Corporation",
+        "SMCI"
+      ],
+      [
+        "Server and Storage Systems",
+        "Traditional Storage"
+      ],
+      [
+        "Gross Margin",
+        "Net Income"
+      ],
+      [
+        "Asia",
+        "Total Net Sales"
+      ],
+      [
+        "Compuware",
+        "SMCI"
+      ],
+      [
+        "Capital Expenditures",
+        "Office Facilities"
+      ],
+      [
+        "Advanced Micro Devices, Inc.",
+        "SMCI"
+      ],
+      [
+        "Consulting Fees",
+        "General and Administrative Expenses"
+      ],
+      [
+        "Note 13",
+        "Quarterly Report"
+      ],
+      [
+        "Note 9",
+        "Quarterly Report"
+      ],
+      [
+        "General and Administrative",
+        "SMCI"
+      ],
+      [
+        "Financial Metrics",
+        "Operating Expenses"
+      ],
+      [
+        "Note 7",
+        "Quarterly Report"
+      ],
+      [
+        "September 30, 2024",
+        "September 30, 2025"
+      ],
+      [
+        "Net Cash Used in Financing Activities",
+        "Net Cash from Operating Activities"
+      ],
+      [
+        "Income Tax Provision",
+        "Stock-Based Compensation"
+      ],
+      [
+        "Bank of America",
+        "SMCI"
+      ],
+      [
+        "Net Sales",
+        "Operating Expenses"
+      ],
+      [
+        "Operating Expenses",
+        "Research and Development Expenses"
+      ],
+      [
+        "Convertible Notes",
+        "Obligations"
+      ],
+      [
+        "Financial Metrics",
+        "Net Sales"
+      ],
+      [
+        "Form 10-Q",
+        "SMCI"
+      ],
+      [
+        "6/30/2025",
+        "September 30, 2025"
+      ],
+      [
+        "Market Shares",
+        "Net Sales"
+      ],
+      [
+        "Effective Tax Rate",
+        "SMCI"
+      ],
+      [
+        "Net Income",
+        "Operating Expenses"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "Net Cash from Operating Activities"
+      ],
+      [
+        "AI",
+        "SMCI"
+      ],
+      [
+        "Research and Development",
+        "SMCI"
+      ],
+      [
+        "GPU & Super Racks",
+        "Server and Storage Systems"
+      ],
+      [
+        "Common Stock",
+        "Convertible Notes"
+      ],
+      [
+        "Condensed Consolidated Financial Statements",
+        "SMCI"
+      ],
+      [
+        "Fiscal Year 2026",
+        "Quarterly Report"
+      ],
+      [
+        "Quarterly Report on Form 10-Q",
+        "SMCI"
+      ],
+      [
+        "Income Tax Provision",
+        "Netherlands"
+      ],
+      [
+        "Net Cash Used in Investing Activities",
+        "Net Cash from Operating Activities"
+      ],
+      [
+        "Total Net Sales",
+        "United States"
+      ],
+      [
+        "Income Tax Provision",
+        "United States"
+      ],
+      [
+        "Critical Accounting Estimates",
+        "Net Income"
+      ],
+      [
+        "DCBBS",
+        "SMCI"
+      ],
+      [
+        "Financing Activities",
+        "Lines of Credit"
+      ],
+      [
+        "Ablecom",
+        "SMCI"
+      ],
+      [
+        "Income Tax Provision",
+        "Worldwide Income"
+      ],
+      [
+        "Convertible Notes",
+        "Interest Income"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "SMCI"
+      ]
+    ],
+    "count": 72,
+    "create_time": 1777396971,
+    "update_time": 1777396971,
+    "_id": "doc-4f25e17a74d128d3329e437d6bd5ed63"
+  },
+  "doc-d88a5a42b8efcdcfeb8cd935a9707344": {
+    "relation_pairs": [
+      [
+        "Condensed Consolidated Statements of Operations",
+        "Sales and Marketing"
+      ],
+      [
+        "Cost of Sales",
+        "Tariff Expenses"
+      ],
+      [
+        "Broadcom Inc.",
+        "SMCI"
+      ],
+      [
+        "$400.6 million",
+        "SMCI"
+      ],
+      [
+        "General and Administrative Expenses",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Average Selling Price",
+        "Net Sales"
+      ],
+      [
+        "Employee-Related Costs",
+        "Sales and Marketing"
+      ],
+      [
+        "SMCI",
+        "Samsung Electronics Company Limited"
+      ],
+      [
+        "December 31, 2025",
+        "Net Income"
+      ],
+      [
+        "December 31, 2025",
+        "Long-Term Debt"
+      ],
+      [
+        "Cost of Sales",
+        "Gross Profit"
+      ],
+      [
+        "HPC Systems",
+        "Operating Expenses"
+      ],
+      [
+        "SMCI",
+        "San Jose"
+      ],
+      [
+        "Income Tax Provision",
+        "Net Income"
+      ],
+      [
+        "AI GPU Related Products",
+        "Net Sales"
+      ],
+      [
+        "Current Obligations",
+        "Non-Cancelable Purchase Commitments"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "December 31, 2024"
+      ],
+      [
+        "Bank of America",
+        "Interest Expense"
+      ],
+      [
+        "Income from Operations",
+        "Interest Income"
+      ],
+      [
+        "2029 Convertible Notes",
+        "Interest Expense"
+      ],
+      [
+        "Cost of Sales",
+        "Inventory Write-Down Adjustments"
+      ],
+      [
+        "Micron Technology, Inc.",
+        "SMCI"
+      ],
+      [
+        "Fiscal Year 2026",
+        "Global Manufacturing Capabilities"
+      ],
+      [
+        "Current Obligations",
+        "SMCI"
+      ],
+      [
+        "Effective Tax Rate",
+        "Income Tax Provision"
+      ],
+      [
+        "NVIDIA Corporation",
+        "SMCI"
+      ],
+      [
+        "Intel Corporation",
+        "SMCI"
+      ],
+      [
+        "Condensed Consolidated Statements of Operations",
+        "General and Administrative"
+      ],
+      [
+        "Employee-Related Costs",
+        "Research and Development Expenses"
+      ],
+      [
+        "2030 Convertible Notes",
+        "SMCI"
+      ],
+      [
+        "Excise and Franchise Tax Expense",
+        "Research and Development Expenses"
+      ],
+      [
+        "Operating Expenses",
+        "Sales and Marketing"
+      ],
+      [
+        "Q2 2026 Form 10-Q",
+        "SMCI"
+      ],
+      [
+        "Income from Operations",
+        "Net Income"
+      ],
+      [
+        "GPU Servers",
+        "Operating Expenses"
+      ],
+      [
+        "December 31, 2025",
+        "Net Sales"
+      ],
+      [
+        "$320.6 million",
+        "SMCI"
+      ],
+      [
+        "Ablecom",
+        "Compuware"
+      ],
+      [
+        "Advanced Micro Devices, Inc.",
+        "SMCI"
+      ],
+      [
+        "2030 Convertible Notes",
+        "Interest Expense"
+      ],
+      [
+        "2028 Convertible Notes",
+        "Interest Expense"
+      ],
+      [
+        "Consulting Fees",
+        "General and Administrative Expenses"
+      ],
+      [
+        "Compuware",
+        "Condensed Consolidated Statements of Operations"
+      ],
+      [
+        "Net Sales",
+        "SMCI"
+      ],
+      [
+        "Current Obligations",
+        "Short-Term Obligations"
+      ],
+      [
+        "Interest Expense",
+        "Interest Income"
+      ],
+      [
+        "Net Income",
+        "Share of (Loss) Income from Equity Investee"
+      ],
+      [
+        "Convertible Debt Obligation",
+        "SMCI"
+      ],
+      [
+        "Current Obligations",
+        "Long-Term Obligations"
+      ],
+      [
+        "Condensed Consolidated Statements of Operations",
+        "Research and Development"
+      ],
+      [
+        "Foreign Locations",
+        "United States"
+      ],
+      [
+        "$568.8 million",
+        "SMCI"
+      ],
+      [
+        "Net Cash Used in Operating Activities",
+        "Net Income"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "December 31, 2025"
+      ],
+      [
+        "Form 10-Q",
+        "SMCI"
+      ],
+      [
+        "General and Administrative Expenses",
+        "Indirect Facilities Costs"
+      ],
+      [
+        "Employee-Related Costs",
+        "Research and Development"
+      ],
+      [
+        "Data Center Deployment",
+        "Net Sales"
+      ],
+      [
+        "Convertible Notes",
+        "Interest Expense"
+      ],
+      [
+        "Interest Expense",
+        "Net Income"
+      ],
+      [
+        "Critical Accounting Estimates",
+        "U.S. GAAP"
+      ],
+      [
+        "Convertible Notes",
+        "Fiscal Year 2026"
+      ],
+      [
+        "Ablecom",
+        "Condensed Consolidated Statements of Operations"
+      ],
+      [
+        "Net Income",
+        "Net Sales"
+      ],
+      [
+        "2028 Convertible Notes",
+        "SMCI"
+      ],
+      [
+        "Gross Profit",
+        "Net Income"
+      ],
+      [
+        "DCBBS",
+        "SMCI"
+      ],
+      [
+        "Condensed Consolidated Financial Statements",
+        "Condensed Consolidated Statements of Operations"
+      ],
+      [
+        "Marketing Development Fund",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Customer Datacenters Deployment",
+        "Net Sales"
+      ],
+      [
+        "$744.9 million",
+        "SMCI"
+      ],
+      [
+        "Income Tax Provision",
+        "Worldwide Income"
+      ],
+      [
+        "Convertible Notes",
+        "Interest Income"
+      ],
+      [
+        "December 31, 2025",
+        "Quarterly Effective Income Tax Rate"
+      ]
+    ],
+    "count": 74,
+    "create_time": 1777397249,
+    "update_time": 1777397249,
+    "_id": "doc-d88a5a42b8efcdcfeb8cd935a9707344"
+  },
+  "doc-99cf6bede30e6b36c6fbe7caf90929a4": {
+    "relation_pairs": [
+      [
+        "Ansys Merger",
+        "Term Loan Agreement"
+      ],
+      [
+        "Ansys",
+        "Contract Rights Intangible"
+      ],
+      [
+        "Middle East",
+        "Synopsys"
+      ],
+      [
+        "SNPS",
+        "Software Integrity Divestiture"
+      ],
+      [
+        "Design Automation Segment",
+        "Design IP Segment"
+      ],
+      [
+        "Employee-Related Costs",
+        "Fiscal 2024"
+      ],
+      [
+        "Fiscal 2023",
+        "SNPS"
+      ],
+      [
+        "Ansys Merger",
+        "Cash"
+      ],
+      [
+        "Design IP Segment",
+        "Tax Benefits"
+      ],
+      [
+        "Design IP",
+        "Synopsys"
+      ],
+      [
+        "Contract Rights Intangible",
+        "Economic Useful Life"
+      ],
+      [
+        "Revenue",
+        "Upfront Products Revenue"
+      ],
+      [
+        "IR Act",
+        "United States"
+      ],
+      [
+        "Design IP Segment",
+        "Employee-Related Costs"
+      ],
+      [
+        "Future Expected Cash Flows",
+        "Software License Sales"
+      ],
+      [
+        "Fiscal 2023",
+        "Revenue"
+      ],
+      [
+        "2026 Plan",
+        "Ansys Merger"
+      ],
+      [
+        "Design IP segment",
+        "SNPS"
+      ],
+      [
+        "Noah Carter",
+        "S&A Solutions"
+      ],
+      [
+        "Fiscal 2026",
+        "Synopsys"
+      ],
+      [
+        "2023 Plan",
+        "Restructuring Charges"
+      ],
+      [
+        "Maximum Consolidated Leverage Ratio",
+        "Term Loan Agreement"
+      ],
+      [
+        "Consultant and Contractor Costs",
+        "Fiscal 2025"
+      ],
+      [
+        "Bureau of Industry and Security",
+        "U.S. Export Regulations"
+      ],
+      [
+        "Projected Expenses",
+        "Revenue"
+      ],
+      [
+        "Ansys Merger",
+        "General and Administrative Expenses"
+      ],
+      [
+        "Cost of Revenue",
+        "Research and Development Expenses"
+      ],
+      [
+        "Fiscal 2025",
+        "IT and Facility Costs"
+      ],
+      [
+        "Board of Directors",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Annual Report",
+        "Critical Accounting Estimates"
+      ],
+      [
+        "Amortization of Acquired Intangible Assets",
+        "Ansys Merger"
+      ],
+      [
+        "2026 Plan",
+        "Restructuring Charges"
+      ],
+      [
+        "Design IP",
+        "Total Revenue"
+      ],
+      [
+        "Synopsys",
+        "U.S. Export Regulations"
+      ],
+      [
+        "Annual Report",
+        "Goodwill and Intangible Assets"
+      ],
+      [
+        "Fiscal 2025",
+        "Research and Development Expenses"
+      ],
+      [
+        "Perpetual License Arrangements",
+        "Technical Support"
+      ],
+      [
+        "China",
+        "U.S. Export Regulations"
+      ],
+      [
+        "Employee-Related Costs",
+        "Fiscal 2025"
+      ],
+      [
+        "Cash Provided by (Used in) Financing Activities",
+        "Fiscal 2025"
+      ],
+      [
+        "Acquired Intangible Assets",
+        "Design Automation Segment"
+      ],
+      [
+        "Revolving Credit Agreement",
+        "Synopsys"
+      ],
+      [
+        "Ansys Merger",
+        "Term Loan"
+      ],
+      [
+        "Fiscal 2024",
+        "General and Administrative Expenses"
+      ],
+      [
+        "Term Loan Agreement",
+        "Tranche 1"
+      ],
+      [
+        "Ansys Merger",
+        "Synopsys"
+      ],
+      [
+        "Term Loan Agreement",
+        "Tranche 2"
+      ],
+      [
+        "Change in Fair Value of Deferred Compensation",
+        "General and Administrative Expenses"
+      ],
+      [
+        "Discontinued Operations",
+        "Software Integrity Business"
+      ],
+      [
+        "Hardware Repairs",
+        "Technical Support"
+      ],
+      [
+        "Macroeconomic Environment",
+        "Synopsys"
+      ],
+      [
+        "Fiscal 2024",
+        "Fiscal 2025"
+      ],
+      [
+        "Principal Amount",
+        "Term Loan Agreement"
+      ],
+      [
+        "Design Automation segment",
+        "SNPS"
+      ],
+      [
+        "Design Automation",
+        "Design IP"
+      ],
+      [
+        "Amortization of Acquired Intangible Assets",
+        "Cost of Revenue"
+      ],
+      [
+        "Revenue",
+        "Time-Based Products Revenue"
+      ],
+      [
+        "Annual Report",
+        "Business Combinations"
+      ],
+      [
+        "ALTA Acquisition Corp.",
+        "Synopsys"
+      ],
+      [
+        "S&A Solutions",
+        "Software Subscription Arrangements"
+      ],
+      [
+        "Debt Obligations",
+        "Material Cash Requirements"
+      ],
+      [
+        "Adjusted Term SOFR Rate",
+        "Synopsys"
+      ],
+      [
+        "Software Integrity Divestiture",
+        "Synopsys"
+      ],
+      [
+        "ANSYS",
+        "Synopsys"
+      ],
+      [
+        "Design Automation",
+        "Synopsys"
+      ],
+      [
+        "Maintenance Revenue",
+        "Total Revenue"
+      ],
+      [
+        "Ansys Merger",
+        "Research and Development Expenses"
+      ],
+      [
+        "Annual Report",
+        "Revenue Recognition"
+      ],
+      [
+        "Rate Lock Agreements",
+        "Term Loan Agreement"
+      ],
+      [
+        "Ansys Merger",
+        "Fiscal 2025"
+      ],
+      [
+        "Cost of Products Revenue",
+        "Cost of Revenue"
+      ],
+      [
+        "FSA Commitments",
+        "Obligations Backlog"
+      ],
+      [
+        "Credit Agreement in China",
+        "Synopsys"
+      ],
+      [
+        "Stock Repurchase Program",
+        "Synopsys"
+      ],
+      [
+        "2025 Fiscal Year",
+        "Design Automation Segment"
+      ],
+      [
+        "Revolving Credit Agreement",
+        "Sixth Amendment Agreement"
+      ],
+      [
+        "Fiscal 2023",
+        "Fiscal 2024"
+      ],
+      [
+        "Ansys Merger",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Cost of Maintenance and Service Revenue",
+        "Cost of Revenue"
+      ],
+      [
+        "Ansys",
+        "Customer Relationships"
+      ],
+      [
+        "Interest Expense",
+        "Senior Notes"
+      ],
+      [
+        "Ansys Merger",
+        "Bridge Commitment Letter"
+      ],
+      [
+        "Future Expected Cash Flows",
+        "Subscriptions"
+      ],
+      [
+        "Software Updates",
+        "Technical Support"
+      ],
+      [
+        "Ansys Merger",
+        "SNPS"
+      ],
+      [
+        "Fiscal 2024",
+        "Revenue"
+      ],
+      [
+        "Backlog",
+        "Professional Service Contracts"
+      ],
+      [
+        "Q3 2025 BIS Restrictions",
+        "SNPS"
+      ],
+      [
+        "Cash Provided by Operating Activities",
+        "Fiscal 2025"
+      ],
+      [
+        "Fiscal 2024",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Cash Provided by (Used in) Investing Activities",
+        "Fiscal 2025"
+      ],
+      [
+        "Ansys Merger",
+        "Senior Notes"
+      ],
+      [
+        "Debt Obligations",
+        "Long Term Accrued Income Taxes"
+      ],
+      [
+        "Material Cash Requirements",
+        "Purchase Obligations"
+      ],
+      [
+        "Design Automation Segment",
+        "EDA Solutions"
+      ],
+      [
+        "ABR",
+        "Synopsys"
+      ],
+      [
+        "Synopsys",
+        "Trade Restrictions"
+      ],
+      [
+        "Design IP Segment",
+        "Market Demand"
+      ],
+      [
+        "Ansys Merger",
+        "Revenue"
+      ],
+      [
+        "Fiscal 2025",
+        "Fiscal Year End"
+      ],
+      [
+        "Synopsys",
+        "Term Loan Agreement"
+      ],
+      [
+        "Ansys Merger",
+        "Cash Consideration"
+      ],
+      [
+        "China",
+        "SNPS"
+      ],
+      [
+        "Ansys Merger",
+        "Stock Repurchase Program"
+      ],
+      [
+        "China Export Control Restrictions",
+        "Design IP Segment"
+      ],
+      [
+        "EDA Solutions",
+        "Technology Subscription License"
+      ],
+      [
+        "Annual Report",
+        "Other Income (Expense), Net"
+      ],
+      [
+        "Leases",
+        "Material Cash Requirements"
+      ],
+      [
+        "U.S. Export Regulations",
+        "U.S. Government"
+      ],
+      [
+        "2023 Plan",
+        "Annual Report"
+      ]
+    ],
+    "count": 110,
+    "create_time": 1777397599,
+    "update_time": 1777397599,
+    "_id": "doc-99cf6bede30e6b36c6fbe7caf90929a4"
   }
 }

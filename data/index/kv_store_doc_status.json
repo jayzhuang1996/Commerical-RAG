@@ -2706,7 +2706,7 @@
     }
   },
   "doc-cc181ae539eec936fc57f4fba66824c7": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 20,
     "chunks_list": [
       "chunk-70b29e35c9088a60772b380aae8f83b9",
@@ -2733,11 +2733,181 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: SMCI\nLayer: LAYER_G\nPeriod: Q3_2025\nDate: 2025-08-28\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A.              Risk Factors\n\nOur business involves significant risks, some of which are described below. Other events that...",
     "content_length": 120664,
     "created_at": "2026-04-28T16:59:14.172232+00:00",
-    "updated_at": "2026-04-28T16:59:14.224676+00:00",
+    "updated_at": "2026-04-28T17:09:56.680489+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_125914_69209d4e",
     "metadata": {
-      "processing_start_time": 1777395554
+      "processing_start_time": 1777395554,
+      "processing_end_time": 1777396196
+    }
+  },
+  "doc-aa1e37497997cbb260a36a0365453b21": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-aa1e37497997cbb260a36a0365453b21"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SMCI\nLayer: LAYER_G\nPeriod: Q1_2026\nDate: 2026-03-20\nDoc Type: earnings_press_release\n--- END INFO ---\n\nSuper Micro Computer Issues Statement on Action by U.S. Attorney’s  \n                               Office            ...",
+    "content_length": 3519,
+    "created_at": "2026-04-28T17:09:57.624985+00:00",
+    "updated_at": "2026-04-28T17:10:21.483896+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_130957_f8f1079d",
+    "metadata": {
+      "processing_start_time": 1777396197,
+      "processing_end_time": 1777396221
+    }
+  },
+  "doc-abfc6b92688ed95d1f7755a4b40a7c77": {
+    "status": "processed",
+    "chunks_count": 8,
+    "chunks_list": [
+      "chunk-dfa9b5e0a6bab2c8a114b78c598a6230",
+      "chunk-6a9a966641cbfb3646e998ff053a218f",
+      "chunk-72df842af61028dd35425a59706dce6c",
+      "chunk-4ccb9e8f56d1d24e4c36046caad463da",
+      "chunk-7b1692b99ef45b9b7ee7bef89151376d",
+      "chunk-e1a3136f6f265a7b84d73fc028d5c909",
+      "chunk-d71312a19c36e979b4a1cd09f94d0104",
+      "chunk-929aca952896cd653f9947c09f3ed37d"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SMCI\nLayer: LAYER_G\nPeriod: Q1_2025\nDate: 2025-02-25\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.        Management's Discussion and Analysis of Financial Condition and Results of Operations \n\nThis section and other p...",
+    "content_length": 37273,
+    "created_at": "2026-04-28T17:10:22.312449+00:00",
+    "updated_at": "2026-04-28T17:13:56.428334+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_131022_4ba57ac0",
+    "metadata": {
+      "processing_start_time": 1777396222,
+      "processing_end_time": 1777396436
+    }
+  },
+  "doc-193c943ca0bebc0d86c804d735662ce4": {
+    "status": "processed",
+    "chunks_count": 8,
+    "chunks_list": [
+      "chunk-4307af8ba9c31204d8738d02f2f9d926",
+      "chunk-be7dfc1fe645bad13144e9d06e22d2f1",
+      "chunk-fb15d9010f288d28bbc923e96a1baeb5",
+      "chunk-e16645759a6cde3facbb4db2b3b7ca8d",
+      "chunk-16355f37d54f9cf97b2cc83763622c97",
+      "chunk-04041a1d7d3e1b6c7d19faab971fb5f4",
+      "chunk-082cbc4e7c4b608343b0e20d15697918",
+      "chunk-d18638dd04de1494702cf9ad2a3b9fd1"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SMCI\nLayer: LAYER_G\nPeriod: Q2_2025\nDate: 2025-05-12\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.        Management's Discussion and Analysis of Financial Condition and Results of Operations \n\nThis section and other p...",
+    "content_length": 37872,
+    "created_at": "2026-04-28T17:13:57.367192+00:00",
+    "updated_at": "2026-04-28T17:19:00.638056+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_131357_7d262747",
+    "metadata": {
+      "processing_start_time": 1777396437,
+      "processing_end_time": 1777396740
+    }
+  },
+  "doc-4f25e17a74d128d3329e437d6bd5ed63": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-bfd5e8efd6345a89e832706a411001d4",
+      "chunk-e59f18ca54e9570ff90c2af5fb4a528a",
+      "chunk-418a932395d8db5f6176340ceaa6a6bd",
+      "chunk-22a04ab4f1d75e0381aa76fee591108c",
+      "chunk-cf323c922222070909bd513d07bc84f4",
+      "chunk-dc74f4b9cee291b84138ad0d50f1b800",
+      "chunk-6b5acca5c1b5a3aaca7514fd27ab5936"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SMCI\nLayer: LAYER_G\nPeriod: Q4_2025\nDate: 2025-11-07\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2.        Management's Discussion and Analysis of Financial Condition and Results of Operations \n\nThe following discussion...",
+    "content_length": 33357,
+    "created_at": "2026-04-28T17:19:01.653215+00:00",
+    "updated_at": "2026-04-28T17:22:51.212071+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_131901_e6e5fa48",
+    "metadata": {
+      "processing_start_time": 1777396741,
+      "processing_end_time": 1777396971
+    }
+  },
+  "doc-d88a5a42b8efcdcfeb8cd935a9707344": {
+    "status": "processed",
+    "chunks_count": 9,
+    "chunks_list": [
+      "chunk-b5ce1a3d543bbff5f732e1da3203c5fb",
+      "chunk-5bf14c7ce8e49fa89ed19f9c0e4ac4e9",
+      "chunk-e0c8d48bc5357f58fea520cc3e75c11d",
+      "chunk-37cff364d794fcb3cd6705192b7cccd4",
+      "chunk-86ff589f696a123b9653e2bd56465bba",
+      "chunk-fec4bf24c84e350ff21649e0fbf8ccab",
+      "chunk-beac367e1bd33733a5a3cd1c15d58f1b",
+      "chunk-5fef1986c3cff2620ee80ea48fffad37",
+      "chunk-b214b99d55273fa88e2bb926742d3c0b"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SMCI\nLayer: LAYER_G\nPeriod: Q1_2026\nDate: 2026-02-06\nDoc Type: quarterly_mda\n--- END INFO ---\n\nSMCI | Q2 2026 Form 10-Q | 36\n\n\n\nItem 2.        Management's Discussion and Analysis of Financial Condition and Results of Oper...",
+    "content_length": 39988,
+    "created_at": "2026-04-28T17:22:52.188303+00:00",
+    "updated_at": "2026-04-28T17:27:29.715499+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_132252_c5a5139c",
+    "metadata": {
+      "processing_start_time": 1777396972,
+      "processing_end_time": 1777397249
+    }
+  },
+  "doc-99cf6bede30e6b36c6fbe7caf90929a4": {
+    "status": "processed",
+    "chunks_count": 14,
+    "chunks_list": [
+      "chunk-960b2bec6c132e3d91074f5f54e54630",
+      "chunk-ede79fdacb594452679f0732409f3ef8",
+      "chunk-7a9c9e377fbad1ce03b881e38751eb48",
+      "chunk-af29580bb2ae83e62a5a3b55fd34aa35",
+      "chunk-4010638b7b766d69286ef378650f0286",
+      "chunk-9439dbc6d7a2950cbf201a260a14d59d",
+      "chunk-a4e83c901e360cdd7b9216abafe83206",
+      "chunk-4d2f205552766e293c94c4ed42afecc1",
+      "chunk-3314283d08d3a9c9a5c4bf68656e8f69",
+      "chunk-255a7c2c4fc2b8733f4de330bfb689af",
+      "chunk-f4e136bd1be5ba4079c3c00f68bb82c0",
+      "chunk-fdb71fb4b36881bf40f786427073acc2",
+      "chunk-d98b2d07d087d45971f9e0b1a9bb221d",
+      "chunk-fb486dfb56bf85d6ae14e7fb278c309f"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SNPS\nLayer: LAYER_G\nPeriod: Q4_2025\nDate: 2025-12-22\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7.     Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nOverview\n\nThe following ov...",
+    "content_length": 70849,
+    "created_at": "2026-04-28T17:27:30.720817+00:00",
+    "updated_at": "2026-04-28T17:33:19.395911+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_132730_e5243893",
+    "metadata": {
+      "processing_start_time": 1777397250,
+      "processing_end_time": 1777397599
+    }
+  },
+  "doc-371df1c46e2a8ceb0abc709b24947308": {
+    "status": "processing",
+    "chunks_count": 11,
+    "chunks_list": [
+      "chunk-de44d30f89cc1106a2371f3af63a2242",
+      "chunk-55b539d5687bf58a9b73e07a0422cb72",
+      "chunk-2c46bfbec7744879604d0d66060e60a1",
+      "chunk-081b87bdfa5b7b9240b8010a59287465",
+      "chunk-17d69b500f228a10d6798e84a71b7eec",
+      "chunk-efee087aea00c21f42847881e518eac1",
+      "chunk-7611194c018522261d1f3991ea13d779",
+      "chunk-d51ffe8791338a58411ed60dc6ed13a4",
+      "chunk-e3fba833bc4ae633534b6e23f44bb5bc",
+      "chunk-b34b4d71321fd4ecd5d0a2979a9f764d",
+      "chunk-fb7bbd5c5bf0f0f2827bf44f6118c7db"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SNPS\nLayer: LAYER_G\nPeriod: Q4_2025\nDate: 2025-12-22\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A.     Risk Factors\n\nFactors that May Affect Future Results\n\nDescriptions of risks associated with our business are set for...",
+    "content_length": 68462,
+    "created_at": "2026-04-28T17:33:20.412671+00:00",
+    "updated_at": "2026-04-28T17:33:20.458163+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_133320_ce12df3d",
+    "metadata": {
+      "processing_start_time": 1777397600
     }
   }
 }

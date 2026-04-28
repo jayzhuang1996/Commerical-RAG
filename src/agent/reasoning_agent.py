@@ -65,7 +65,9 @@ async def researcher_node(state: AgentState):
         only_need_context=True
     )
     response = await rag.aquery(state['augmented_query'], param=param)
-    return {"raw_context": response}
+    # aquery with only_need_context=True may return a QueryContext object — always coerce to str
+    raw = response if isinstance(response, str) else str(response)
+    return {"raw_context": raw}
 
 
 # ── DETERMINISTIC FILTER NODE ─────────────────────────────────────────────────
@@ -158,6 +160,7 @@ async def run_intelligence_briefing(query: str, filters: dict = None):
         "search_mode": "local",
         "augmented_query": query,
         "raw_context": "",
+        "filtered_context": "",   # must be initialised — analyst_node reads this
         "synthesized_answer": "",
         "sources": []
     }

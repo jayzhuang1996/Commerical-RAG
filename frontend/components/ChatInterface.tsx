@@ -43,21 +43,35 @@ export default function ChatInterface() {
   const [activeQuarters, setActiveQuarters] = useState<string[]>([]);
   const [activeLayers, setActiveLayers] = useState<string[]>([]);
 
+  // Draggable sidebar width
+  const [sidebarWidth, setSidebarWidth] = useState(260);
+  const isSidebarDragging = useRef(false);
+
   // Draggable split ratio between chat pane and graph pane (0–1)
   const [splitRatio, setSplitRatio] = useState(0.58);
   const isDragging = useRef(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
   const handleDragStart = () => { isDragging.current = true; document.body.style.cursor = 'col-resize'; document.body.style.userSelect = 'none'; };
-  const handleDragEnd   = () => { isDragging.current = false; document.body.style.cursor = ''; document.body.style.userSelect = ''; };
+  const handleDragEnd   = () => {
+    isDragging.current = false;
+    isSidebarDragging.current = false;
+    document.body.style.cursor = '';
+    document.body.style.userSelect = '';
+  };
   const handleDragMove  = useCallback((e: MouseEvent) => {
+    if (isSidebarDragging.current && containerRef.current) {
+      const rect = containerRef.current.getBoundingClientRect();
+      const newW = e.clientX - rect.left;
+      setSidebarWidth(Math.min(420, Math.max(180, newW)));
+      return;
+    }
     if (!isDragging.current || !containerRef.current) return;
     const rect = containerRef.current.getBoundingClientRect();
-    const leftOffset = 220; // filter sidebar width
-    const usable = rect.width - leftOffset;
-    const raw = (e.clientX - rect.left - leftOffset) / usable;
+    const usable = rect.width - sidebarWidth;
+    const raw = (e.clientX - rect.left - sidebarWidth) / usable;
     setSplitRatio(Math.min(0.8, Math.max(0.35, raw)));
-  }, []);
+  }, [sidebarWidth]);
 
   useEffect(() => {
     window.addEventListener('mousemove', handleDragMove);
@@ -123,30 +137,33 @@ export default function ChatInterface() {
   return (
     <div ref={containerRef} style={{ display: 'flex', height: '100%', width: '100%', gap: '0', position: 'relative', background: 'var(--bg-panel)' }}>
       
-      {/* Far-Left Pane: Intelligence Filters */}
+      {/* Far-Left Pane: Intelligence Filters (resizable) */}
       <div style={{ 
-        width: '220px', 
-        borderRight: '1px solid var(--border)', 
+        width: `${sidebarWidth}px`,
+        flexShrink: 0,
+        borderRight: 'none',
         background: 'var(--bg-card)', 
         padding: '24px 16px',
         display: 'flex',
         flexDirection: 'column',
-        gap: '32px'
+        gap: '24px',
+        overflowY: 'auto',
+        position: 'relative',
       }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-primary)', fontWeight: 700, fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-primary)', fontWeight: 700, fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', whiteSpace: 'nowrap' }}>
           <Filter size={14} /> Global Filters
         </div>
 
-        <details>
-          <summary style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, cursor: 'pointer', outline: 'none', userSelect: 'none' }}>
-            REPORTING PERIOD (CLICK TO EXPAND)
+        <details open>
+          <summary style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, cursor: 'pointer', outline: 'none', userSelect: 'none', whiteSpace: 'nowrap' }}>
+            REPORTING PERIOD
           </summary>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px', paddingLeft: '8px', borderLeft: '2px solid var(--border)' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginTop: '10px', paddingLeft: '8px', borderLeft: '2px solid var(--border)' }}>
             {['Q1 2025', 'Q2 2025', 'Q3 2025', 'Q4 2025', 'Q1 2026', 'Q2 2026'].map(q => (
               <button 
                 key={q} 
                 onClick={() => toggleFilter(setActiveQuarters, q)}
-                style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: activeQuarters.includes(q) ? 'var(--accent-main)' : 'var(--text-secondary)', cursor: 'pointer', fontSize: '13px', fontWeight: activeQuarters.includes(q) ? 600 : 500, textAlign: 'left', padding: '4px 0' }}
+                style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: activeQuarters.includes(q) ? 'var(--accent-main)' : 'var(--text-secondary)', cursor: 'pointer', fontSize: '13px', fontWeight: activeQuarters.includes(q) ? 700 : 500, textAlign: 'left', padding: '5px 0', whiteSpace: 'nowrap' }}
               >
                 {activeQuarters.includes(q) ? <CheckSquare size={14} /> : <Square size={14} />}
                 {q}
@@ -155,16 +172,16 @@ export default function ChatInterface() {
           </div>
         </details>
 
-        <details>
-          <summary style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, cursor: 'pointer', outline: 'none', userSelect: 'none' }}>
-            STRUCTURAL LAYER (CLICK TO EXPAND)
+        <details open>
+          <summary style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 700, cursor: 'pointer', outline: 'none', userSelect: 'none', whiteSpace: 'nowrap' }}>
+            STRUCTURAL LAYER
           </summary>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px', paddingLeft: '8px', borderLeft: '2px solid var(--border)' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginTop: '10px', paddingLeft: '8px', borderLeft: '2px solid var(--border)' }}>
             {['Designers', 'Foundry', 'Equipment', 'Networking'].map(l => (
               <button 
                 key={l} 
                 onClick={() => toggleFilter(setActiveLayers, l)}
-                style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: activeLayers.includes(l) ? 'var(--accent-main)' : 'var(--text-secondary)', cursor: 'pointer', fontSize: '13px', fontWeight: activeLayers.includes(l) ? 600 : 500, textAlign: 'left', padding: '4px 0' }}
+                style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: activeLayers.includes(l) ? 'var(--accent-main)' : 'var(--text-secondary)', cursor: 'pointer', fontSize: '13px', fontWeight: activeLayers.includes(l) ? 700 : 500, textAlign: 'left', padding: '5px 0', whiteSpace: 'nowrap' }}
               >
                 {activeLayers.includes(l) ? <CheckSquare size={14} /> : <Square size={14} />}
                 {l}
@@ -173,6 +190,20 @@ export default function ChatInterface() {
           </div>
         </details>
       </div>
+
+      {/* Sidebar resize handle */}
+      <div
+        onMouseDown={() => { isSidebarDragging.current = true; document.body.style.cursor = 'col-resize'; document.body.style.userSelect = 'none'; }}
+        style={{
+          width: '6px', flexShrink: 0, cursor: 'col-resize',
+          background: 'transparent',
+          borderRight: '2px solid var(--border)',
+          transition: 'border-color 0.15s',
+          zIndex: 5,
+        }}
+        onMouseEnter={e => (e.currentTarget.style.borderColor = 'var(--el-teal)')}
+        onMouseLeave={e => (e.currentTarget.style.borderColor = 'var(--border)')}
+      />
 
       {/* Center Pane: Chat & Text */}
       <div style={{ 
