@@ -186,7 +186,6 @@ export default function ForceGraph({ triples }: Props) {
         cooldownTicks={150}
         d3AlphaDecay={0.015}
         d3VelocityDecay={0.35}
-        d3Force="charge"
       />
     </div>
   );
