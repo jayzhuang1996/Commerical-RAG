@@ -13198,6 +13198,204 @@ The industry's historical cyclicality impacts the business, financial condition,
   <data key="d5">1777308127</data>
   <data key="d6"></data>
 </node>
+<node id="ASML Holding N.V.">
+  <data key="d0">ASML Holding N.V.</data>
+  <data key="d1">organization</data>
+  <data key="d2">ASML Holding N.V. is a leading multinational supplier to the semiconductor industry, providing hardware, software, and services for the mass production of integrated circuits. It is headquartered in Veldhoven, the Netherlands, and is traded on Euronext Amsterdam and NASDAQ under the symbol ASML.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Annual General Meeting">
+  <data key="d0">Annual General Meeting</data>
+  <data key="d1">event</data>
+  <data key="d2">The Annual General Meeting (AGM) of ASML Holding N.V. is an event where the company's financial statements are adopted, and various proposals and appointments are approved by the shareholders.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Veldhoven">
+  <data key="d0">Veldhoven</data>
+  <data key="d1">location</data>
+  <data key="d2">Veldhoven is the location where ASML Holding N.V. is headquartered and where the Annual General Meeting was held on April 22, 2026.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Terri Kelly">
+  <data key="d0">Terri Kelly</data>
+  <data key="d1">person</data>
+  <data key="d2">Terri Kelly is a reappointed member of the Supervisory Board of ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="An Steegen">
+  <data key="d0">An Steegen</data>
+  <data key="d1">person</data>
+  <data key="d2">An Steegen is a reappointed member of the Supervisory Board of ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Benjamin Loh">
+  <data key="d0">Benjamin Loh</data>
+  <data key="d1">person</data>
+  <data key="d2">Benjamin Loh is an appointed member of the Supervisory Board of ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="PricewaterhouseCoopers Accountants N.V.">
+  <data key="d0">PricewaterhouseCoopers Accountants N.V.</data>
+  <data key="d1">organization</data>
+  <data key="d2">PricewaterhouseCoopers Accountants N.V. is appointed as the external auditor for ASML Holding N.V.'s 2027 financial statements and to carry out the assurance of ASML’s sustainability statements for the reporting year 2027.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Roger Dassen">
+  <data key="d0">Roger Dassen</data>
+  <data key="d1">person</data>
+  <data key="d2">Roger Dassen is a reappointed member of the Board of Management of ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Frédéric Schneider-Maunoury">
+  <data key="d0">Frédéric Schneider-Maunoury</data>
+  <data key="d1">person</data>
+  <data key="d2">Frédéric Schneider-Maunoury is a reappointed member of the Board of Management of ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Marco Pieters">
+  <data key="d0">Marco Pieters</data>
+  <data key="d1">person</data>
+  <data key="d2">Marco Pieters is an appointed member of the Board of Management of ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Alexander Everke">
+  <data key="d0">Alexander Everke</data>
+  <data key="d1">person</data>
+  <data key="d2">Alexander Everke is a member of the Supervisory Board whose appointment term ends.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Nils Andersen">
+  <data key="d0">Nils Andersen</data>
+  <data key="d1">person</data>
+  <data key="d2">Nils Andersen is a member of the Supervisory Board whose appointment term will end per the 2027 AGM.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Jack de Kreij">
+  <data key="d0">Jack de Kreij</data>
+  <data key="d1">person</data>
+  <data key="d2">Jack de Kreij is a member of the Supervisory Board whose appointment term will end per the 2027 AGM.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Monique Mols">
+  <data key="d0">Monique Mols</data>
+  <data key="d1">person</data>
+  <data key="d2">Monique Mols is a Media Relations contact for ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Jim Kavanagh">
+  <data key="d0">Jim Kavanagh</data>
+  <data key="d1">person</data>
+  <data key="d2">Jim Kavanagh is an Investor Relations contact for ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Sarah de Crescenzo">
+  <data key="d0">Sarah de Crescenzo</data>
+  <data key="d1">person</data>
+  <data key="d2">Sarah de Crescenzo is a Media Relations contact for ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Pete Convertito">
+  <data key="d0">Pete Convertito</data>
+  <data key="d1">person</data>
+  <data key="d2">Pete Convertito is an Investor Relations contact for ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Karen Lo">
+  <data key="d0">Karen Lo</data>
+  <data key="d1">person</data>
+  <data key="d2">Karen Lo is a Media Relations contact for ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Peter Cheang">
+  <data key="d0">Peter Cheang</data>
+  <data key="d1">person</data>
+  <data key="d2">Peter Cheang is an Investor Relations contact for ASML Holding N.V.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Dividend">
+  <data key="d0">Dividend</data>
+  <data key="d1">concept</data>
+  <data key="d2">Dividend refers to the final dividend payment approved at ASML's AGM, amounting to €2.70 per ordinary share, contributing to a total dividend for 2025 of €7.50 per ordinary share.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Board of Management">
+  <data key="d0">Board of Management</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Board of Management at ASML is responsible for the company's daily operations and made several proposals at the AGM, including the issuance of shares and repurchase of share capital.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
+<node id="Supervisory Board">
+  <data key="d0">Supervisory Board</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Supervisory Board at ASML oversees the company's management and includes members who were reappointed or newly appointed at the AGM.</data>
+  <data key="d3">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1777339536</data>
+  <data key="d6"></data>
+</node>
 <edge source="NVIDIA" target="Annual Report on Form 10-K">
   <data key="d7">1.0</data>
   <data key="d8">NVIDIA's financial condition and operations are detailed in the Annual Report on Form 10-K.</data>
@@ -22133,6 +22331,51 @@ The industry's historical cyclicality impacts the business, financial condition,
   <data key="d10">chunk-2d1f6742e80ed84d267cfe46fa7c9e31</data>
   <data key="d11">unknown_source</data>
   <data key="d12">1777308178</data>
+  <data key="d13"></data>
+</edge>
+<edge source="ASML Holding N.V." target="Annual General Meeting">
+  <data key="d7">1.0</data>
+  <data key="d8">The Annual General Meeting is an event where ASML Holding N.V. discusses and approves various company matters.</data>
+  <data key="d9">company event,shareholder meeting</data>
+  <data key="d10">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1777339536</data>
+  <data key="d13"></data>
+</edge>
+<edge source="ASML Holding N.V." target="PricewaterhouseCoopers Accountants N.V.">
+  <data key="d7">1.0</data>
+  <data key="d8">ASML Holding N.V. appoints PricewaterhouseCoopers Accountants N.V. as the external auditor for its financial statements and sustainability statements.</data>
+  <data key="d9">auditor appointment,financial statement assurance</data>
+  <data key="d10">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1777339536</data>
+  <data key="d13"></data>
+</edge>
+<edge source="ASML Holding N.V." target="Dividend">
+  <data key="d7">1.0</data>
+  <data key="d8">ASML approved a final dividend payment of €2.70 per ordinary share at its AGM, contributing to a total dividend for 2025.</data>
+  <data key="d9">company policy,financial distribution</data>
+  <data key="d10">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1777339536</data>
+  <data key="d13"></data>
+</edge>
+<edge source="ASML Holding N.V." target="Board of Management">
+  <data key="d7">1.0</data>
+  <data key="d8">The AGM authorized the Board of Management of ASML to issue shares and repurchase share capital within specified limits.</data>
+  <data key="d9">authorization,company management</data>
+  <data key="d10">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1777339536</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Board of Management" target="Supervisory Board">
+  <data key="d7">1.0</data>
+  <data key="d8">Members of ASML's Board of Management and Supervisory Board were discharged from liability for their responsibilities in the 2025 financial year.</data>
+  <data key="d9">accountability,corporate governance</data>
+  <data key="d10">chunk-bb36fab71686f431e4ce3731f5e093ae</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1777339536</data>
   <data key="d13"></data>
 </edge>
 </graph></graphml>

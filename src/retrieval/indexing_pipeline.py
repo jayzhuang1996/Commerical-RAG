@@ -45,7 +45,7 @@ async def openai_model_complete(
                 await asyncio.sleep(0.5)
                 
                 # Point OpenAI client to Moonshot endpoint
-                client = AsyncOpenAI(api_key=MOONSHOT_API_KEY, base_url="https://api.moonshot.cn/v1")
+                client = AsyncOpenAI(api_key=MOONSHOT_API_KEY, base_url="https://api.moonshot.ai/v1")
                 
                 messages = []
                 if system_prompt:

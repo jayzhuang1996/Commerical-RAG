@@ -4286,5 +4286,33 @@
     "create_time": 1777308178,
     "update_time": 1777308178,
     "_id": "doc-907468a5364512a188636b1b56d460c3"
+  },
+  "doc-bb36fab71686f431e4ce3731f5e093ae": {
+    "relation_pairs": [
+      [
+        "ASML Holding N.V.",
+        "Annual General Meeting"
+      ],
+      [
+        "ASML Holding N.V.",
+        "Dividend"
+      ],
+      [
+        "Board of Management",
+        "Supervisory Board"
+      ],
+      [
+        "ASML Holding N.V.",
+        "Board of Management"
+      ],
+      [
+        "ASML Holding N.V.",
+        "PricewaterhouseCoopers Accountants N.V."
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777339536,
+    "update_time": 1777339536,
+    "_id": "doc-bb36fab71686f431e4ce3731f5e093ae"
   }
 }

@@ -17,48 +17,133 @@ export default function Home() {
   const [showIntro, setShowIntro] = useState(true);
 
   if (showIntro) {
+    const boxStyle = {
+      padding: '32px',
+      background: 'var(--bg-panel)',
+      border: '1px solid var(--border)',
+      borderRadius: '8px',
+      textAlign: 'left' as const,
+      flex: 1,
+      minHeight: '260px',
+      boxShadow: 'var(--shadow-sm)'
+    };
+    const titleStyle = { fontSize: '18px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '16px', color: 'var(--text-primary)' };
+    const listStyle = { fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)', margin: 0, paddingLeft: '20px' };
+
     return (
-      <div style={{ height: '100vh', overflowY: 'auto', scrollSnapType: 'y mandatory', scrollBehavior: 'smooth' }}>
-        <style dangerouslySetInnerHTML={{__html: `
-          @keyframes bounce { 0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 40% {transform: translateY(-10px);} 60% {transform: translateY(-5px);} }
-        `}} />
+      <div style={{ height: '100vh', overflowY: 'auto', scrollSnapType: 'y mandatory', scrollBehavior: 'smooth', background: 'var(--bg-base)' }}>
         
-        {/* Slide 1: Problem Statement */}
-        <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '40px', background: 'var(--bg-base)' }}>
-          <h1 style={{ fontSize: '48px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '24px', letterSpacing: '-0.02em', color: 'var(--text-primary)' }}>The Data Fragmentation Problem</h1>
-          <p style={{ fontSize: '20px', maxWidth: '800px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>
-            Every year, our teams conduct over <strong>150+ in-depth Business Reviews</strong> and Client Strategy sessions. 
-            However, this highly strategic, qualitative insight is trapped in PDFs, slide decks, and isolated emails. 
-          </p>
-          <p style={{ fontSize: '20px', maxWidth: '800px', lineHeight: 1.6, color: 'var(--text-secondary)', marginTop: '24px' }}>
-            When Senior Leadership or Hunters need to identify emerging demands across the industry or pitch a hyper-specific solution, the historical context is dead. The insight is simply lost.
-          </p>
-          <div style={{ marginTop: '80px', animation: 'bounce 2s infinite', fontSize: '14px', fontWeight: 600, color: 'var(--text-muted)' }}>
-            ↓ SCROLL DOWN
+        {/* Page 1: Problem -> Opportunity -> Solution */}
+        <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', padding: '80px 120px', position: 'relative' }}>
+          <h1 style={{ fontSize: '40px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '64px', color: 'var(--text-primary)', letterSpacing: '-0.02em' }}>
+            The Strategic Context
+          </h1>
+          <div style={{ display: 'flex', gap: '24px', width: '100%' }}>
+            
+            <div style={boxStyle}>
+              <h3 style={titleStyle}>1. The Problem</h3>
+              <ul style={listStyle}>
+                <li style={{ marginBottom: '12px' }}>Element conducts 150+ in-depth Business Reviews annually.</li>
+                <li style={{ marginBottom: '12px' }}>This high-signal qualitative data is trapped in fragmented PDFs, isolated slides, and localized notes.</li>
+                <li>Strategic cross-client context physically dies after the presentation is delivered.</li>
+              </ul>
+            </div>
+
+            <div style={boxStyle}>
+              <h3 style={titleStyle}>2. The Opportunity</h3>
+              <ul style={listStyle}>
+                <li style={{ marginBottom: '12px' }}>Proprietary client intelligence is our ultimate moat against competitors.</li>
+                <li style={{ marginBottom: '12px' }}>Aggregating macro-demands reveals hidden industry pain-points.</li>
+                <li>SVP and Hunter teams can leverage cross-referenced intel to immediately pitch hyper-specific solutions.</li>
+              </ul>
+            </div>
+
+            <div style={{...boxStyle, border: '2px solid var(--accent-main)', background: 'rgba(230,81,0,0.03)' }}>
+              <h3 style={titleStyle}>3. The Solution</h3>
+              <ul style={listStyle}>
+                <li style={{ marginBottom: '12px' }}><strong>A Corporate Memory Bank.</strong></li>
+                <li style={{ marginBottom: '12px' }}>An AI-native Knowledge Graph that mathematically ingests and links unstructured narratives.</li>
+                <li>Hunters query a living database of client constraints, strategies, and pain-points.</li>
+              </ul>
+            </div>
+
+          </div>
+          <div style={{ position: 'absolute', bottom: '40px', left: '50%', transform: 'translateX(-50%)', fontSize: '13px', fontWeight: 600, color: 'var(--text-muted)' }}>
+            SCROLL DOWN ↓
           </div>
         </div>
 
-        {/* Slide 2: The Solution Engine */}
-        <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '40px', background: 'var(--bg-panel)' }}>
-          <div style={{ width: '64px', height: '64px', background: 'var(--accent-main)', borderRadius: '16px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '32px', boxShadow: '0 10px 30px rgba(230,81,0,0.2)' }}>
-            <Layers size={32} color="#fff" />
+        {/* Page 2: Use Cases & Urgency */}
+        <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', padding: '80px 120px', position: 'relative' }}>
+          <h1 style={{ fontSize: '40px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '64px', color: 'var(--text-primary)', letterSpacing: '-0.02em' }}>
+            Deployment & Urgency
+          </h1>
+          <div style={{ display: 'flex', gap: '24px', width: '100%', marginBottom: '24px' }}>
+            <div style={boxStyle}>
+              <h3 style={titleStyle}>Business Development</h3>
+              <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>Hunters instantly find relevant stories, cross-reference industry constraints, and walk into pitches with unparalleled, data-backed insights.</p>
+            </div>
+            <div style={boxStyle}>
+              <h3 style={titleStyle}>Commercial Leadership</h3>
+              <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>SVPs gain a top-down, mathematically derived view of shifting demands across the entire managed fleet portfolio.</p>
+            </div>
+            <div style={boxStyle}>
+              <h3 style={titleStyle}>Qualitative Flywheel</h3>
+              <p style={{ fontSize: '15px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>The more Business Reviews we ingest, the denser the vector network becomes. The intelligence mathematically scales.</p>
+            </div>
           </div>
-          <h1 style={{ fontSize: '48px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '24px', letterSpacing: '-0.02em', color: 'var(--text-primary)' }}>The Element Insight Engine</h1>
-          <p style={{ fontSize: '20px', maxWidth: '800px', lineHeight: 1.6, color: 'var(--text-secondary)' }}>
-            We propose an AI-native <strong>Corporate Memory Bank</strong>. An engine that organically digests unstructured narratives from past engagements and mathematically links the ideas together.
-          </p>
-          <p style={{ fontSize: '20px', maxWidth: '800px', lineHeight: 1.6, color: 'var(--text-secondary)', marginTop: '24px' }}>
-            <em>Because client data is strictly confidential,</em> we built this sandbox using public <strong>Semiconductor industry filings</strong>. It serves as a structural proving ground to demonstrate the extreme density of insight we can extract.
-          </p>
-          <button 
-            onClick={() => setShowIntro(false)} 
-            style={{ marginTop: '64px', padding: '16px 40px', fontSize: '16px', fontWeight: 600, background: 'var(--accent-main)', color: '#fff', border: 'none', borderRadius: '32px', cursor: 'pointer', transition: 'transform 0.2s', boxShadow: 'var(--shadow-md)' }}
-            onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-            onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
-          >
-            Enter the Engine Sandbox
-          </button>
+          <div style={{ padding: '32px', background: 'var(--text-primary)', color: 'var(--bg-base)', borderRadius: '8px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
+            <h3 style={{ fontSize: '20px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '12px' }}>Why Now?</h3>
+            <p style={{ fontSize: '16px', lineHeight: 1.6, opacity: 0.9, maxWidth: '800px' }}>Every quarter we operate without this data pipeline is a quarter where thousands of unstructured insights are permanently left on the table. The technology to structure this organically is finally here.</p>
+          </div>
+          <div style={{ position: 'absolute', bottom: '40px', left: '50%', transform: 'translateX(-50%)', fontSize: '13px', fontWeight: 600, color: 'var(--text-muted)' }}>
+            SCROLL DOWN ↓
+          </div>
         </div>
+
+        {/* Page 3: The Sandbox Architecture */}
+        <div style={{ height: '100vh', scrollSnapAlign: 'start', display: 'flex', flexDirection: 'column', padding: '80px 120px', position: 'relative' }}>
+          <h1 style={{ fontSize: '40px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '64px', color: 'var(--text-primary)', letterSpacing: '-0.02em' }}>
+            The Sandbox Concept
+          </h1>
+          <div style={{ display: 'flex', gap: '40px', width: '100%' }}>
+            {/* Left Box */}
+            <div style={{ flex: 1, padding: '40px', border: '1px dashed var(--border)', borderRadius: '12px', background: 'var(--bg-panel)' }}>
+              <div style={{ display: 'inline-block', padding: '6px 12px', background: 'var(--border)', borderRadius: '24px', fontSize: '12px', fontWeight: 700, marginBottom: '24px' }}>CURRENT BARRIERS</div>
+              <h3 style={{ fontSize: '24px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '24px', color: 'var(--text-primary)' }}>Why Semiconductors?</h3>
+              <ul style={listStyle}>
+                <li style={{ marginBottom: '16px' }}><strong>IT Permissions:</strong> Proprietary BR forms are locked behind strict infosec compliance.</li>
+                <li style={{ marginBottom: '16px' }}><strong>Data Pipeline:</strong> No existing unified dump of Element Client BRs to experiment on.</li>
+                <li><strong>The Proxy:</strong> We are using public Semiconductor Earnings as our "mock portfolio" to definitively prove the AI's structural extraction capabilities.</li>
+              </ul>
+            </div>
+            
+            {/* VS divider */}
+            <div style={{ display: 'flex', alignItems: 'center', fontWeight: 700, color: 'var(--text-muted)' }}>VS</div>
+
+            {/* Right Box */}
+            <div style={{ flex: 1, padding: '40px', border: '2px solid var(--accent-main)', borderRadius: '12px', background: '#fff', boxShadow: '0 20px 40px rgba(230,81,0,0.08)' }}>
+              <div style={{ display: 'inline-block', padding: '6px 12px', background: 'rgba(230,81,0,0.1)', color: 'var(--accent-main)', borderRadius: '24px', fontSize: '12px', fontWeight: 700, marginBottom: '24px' }}>THE TARGET END-STATE</div>
+              <h3 style={{ fontSize: '24px', fontWeight: 700, fontFamily: 'var(--font-display)', marginBottom: '24px', color: '#111' }}>Real Element Database</h3>
+              <ul style={{ ...listStyle, color: '#444' }}>
+                <li style={{ marginBottom: '16px' }}><strong>Resolution:</strong> A private Knowledge Graph explicitly mapping Element clients, fleets, and demands.</li>
+                <li style={{ marginBottom: '16px' }}><strong>Output:</strong> SVP asks "Which clients are delaying EV transition due to infrastructure?", and receives an exact, sourced map of specific accounts.</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div style={{ position: 'absolute', bottom: '60px', left: '50%', transform: 'translateX(-50%)' }}>
+            <button 
+              onClick={() => setShowIntro(false)} 
+              style={{ padding: '16px 40px', fontSize: '16px', fontWeight: 600, background: 'var(--accent-main)', color: '#fff', border: 'none', borderRadius: '32px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: '0 10px 20px rgba(230,81,0,0.3)' }}
+              onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-4px)'; }}
+              onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; }}
+            >
+              Initialize Semiconductor Demo →
+            </button>
+          </div>
+        </div>
+
       </div>
     );
   }
