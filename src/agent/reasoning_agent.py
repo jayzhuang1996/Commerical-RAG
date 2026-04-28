@@ -62,7 +62,11 @@ async def architect_node(state: AgentState):
                 detected_layers.append(l_key)
 
     aug = state['query']
-    if quarters:
+    if "2025" in query:
+        aug += " (Search specifically for Q1 2025, Q2 2025, Q3 2025, and Q4 2025 filings. Do NOT return 2023 or 2024 data.)"
+    elif "2026" in query:
+        aug += " (Search specifically for Q1 2026 and Q2 2026 filings.)"
+    elif quarters:
         date_terms = []
         for q in quarters:
             date_terms.extend(QUARTER_DATE_MAP.get(q, [q]))

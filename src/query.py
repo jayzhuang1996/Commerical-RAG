@@ -142,6 +142,12 @@ async def query_rag(request: QueryRequest):
         for entry in scored:
             t = entry[2]["ticker"] or "?"
             seen_tickers[t] = seen_tickers.get(t, 0)
+        # Pick top 5, max 2 chunks per ticker
+        seen_tickers: dict = {}
+        top_chunks = []
+        for entry in scored:
+            t = entry[2]["ticker"] or "?"
+            seen_tickers[t] = seen_tickers.get(t, 0)
             if seen_tickers[t] < 2:
                 top_chunks.append(entry)
                 seen_tickers[t] += 1
@@ -159,15 +165,8 @@ async def query_rag(request: QueryRequest):
                 "video_id": cid,
             })
 
-        # Fallback: relationship graph labels
-        if not derived_sources:
-            for i, link in enumerate(graph_viz.get("links", [])[:5]):
-                derived_sources.append({
-                    "title":    f"{link.get('source','')} ↔ {link.get('target','')}",
-                    "text":     link.get("label", "No detail available."),
-                    "index":    i + 1,
-                    "video_id": "",
-                })
+        # CRITICAL FIX: Do NOT fall back to relationship graph labels if text retrieval failed.
+        # This was causing "random" sources to appear for 2023 queries.
 
         return QueryResponse(
             answer=answer_text,

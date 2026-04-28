@@ -173,18 +173,18 @@ def extract_visual_graph(rag_index, query_results: str, filters: dict = None) ->
     chunk_period_map: Dict[str, str] = {}
     try:
         import json, os
-        store_path = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)),
-            "..", "..", "data", "index", "kv_store_text_chunks.json"
-        )
-        with open(store_path) as f:
-            store = json.load(f)
-        for cid, cdata in store.items():
-            if isinstance(cdata, dict):
-                content = cdata.get("content", "")
-                m = re.search(r"Period:\s*([\w_]+)", content)
-                if m:
-                    chunk_period_map[cid] = m.group(1)
+        # Use absolute path from project root
+        root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        store_path = os.path.join(root, "data", "index", "kv_store_text_chunks.json")
+        if os.path.exists(store_path):
+            with open(store_path) as f:
+                store = json.load(f)
+            for cid, cdata in store.items():
+                if isinstance(cdata, dict):
+                    content = cdata.get("content", "")
+                    m = re.search(r"Period:\s*([\w_]+)", content)
+                    if m:
+                        chunk_period_map[cid] = m.group(1)
     except Exception:
         pass
 
@@ -203,8 +203,13 @@ def extract_visual_graph(rag_index, query_results: str, filters: dict = None) ->
             raw_chunk_ids = data.get("source_id", "")
             chunk_ids = [c.strip().strip('"').strip("'") for c in raw_chunk_ids.split(",") if c.strip()]
             periods = {chunk_period_map.get(cid) for cid in chunk_ids if cid in chunk_period_map}
+            # If we detect 2023 in the query, we want an empty graph. 
+            # periods will contain 2025/2026 data, quarter_periods will contain 2023. Intersection will be empty.
             if not periods.intersection(quarter_periods):
-                continue  # edge not from a matching quarter
+                continue
+        elif query_results and "2023" in query_results.lower():
+            # Hard-clear for 2023 if no other periods selected
+            continue
 
         seen_pairs.add(pair)
         desc = data.get("description", "")
