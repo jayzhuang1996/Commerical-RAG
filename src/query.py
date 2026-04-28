@@ -40,6 +40,10 @@ async def startup_event():
 def read_root():
     return {"status": "online", "message": "NABR"}
 
+@app.get("/health")
+def health_check():
+    return {"status": "healthy", "service": "NABR"}
+
 @app.post("/api/chat", response_model=QueryResponse)
 async def query_rag(request: QueryRequest):
     from retrieval.visual_utils import extract_visual_graph
