@@ -100,7 +100,7 @@ CANONICAL = {
     "qualcomm incorporated": "Qualcomm",
     "qualcomm technologies": "Qualcomm",
     "marvell technology group": "Marvell",
-
+}
 
 def _canonical(name: str) -> str:
     return CANONICAL.get(name.lower().strip(), name.strip())
