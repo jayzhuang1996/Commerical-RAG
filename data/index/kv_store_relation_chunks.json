@@ -660,10 +660,11 @@
       "chunk-0644a249b2d47b7e49a78f4bf359cb71",
       "chunk-9b09a1803ee2d2cee6197990dba07225",
       "chunk-ae103a3eee27a7dfe46c5edc5f9bad0b",
-      "chunk-d2d8e2c353215b61c18efc977d781831"
+      "chunk-d2d8e2c353215b61c18efc977d781831",
+      "chunk-e0083fd68679130e02045719a84d5b78"
     ],
-    "count": 8,
-    "update_time": 1777394331,
+    "count": 9,
+    "update_time": 1777395553,
     "_id": "Fiscal 2024<SEP>Fiscal 2025"
   },
   "Foundry<SEP>Semiconductor Systems": {
@@ -5093,10 +5094,15 @@
   "Fiscal Year 2024<SEP>Fiscal Year 2025": {
     "chunk_ids": [
       "chunk-4cef59817c38511355f56938f73f6db2",
-      "chunk-20ff684928510a0aa4726b57cf95bfc6"
+      "chunk-20ff684928510a0aa4726b57cf95bfc6",
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9",
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d",
+      "chunk-df6ba51ccfe3ced8afe085cf48037d14",
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb",
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
     ],
-    "count": 2,
-    "update_time": 1777380501,
+    "count": 7,
+    "update_time": 1777395545,
     "_id": "Fiscal Year 2024<SEP>Fiscal Year 2025"
   },
   "Samsung Electronics Co., Ltd.<SEP>Taiwan Semiconductor Manufacturing Company Limited": {
@@ -5137,11 +5143,14 @@
   },
   "Fiscal Year 2023<SEP>Fiscal Year 2024": {
     "chunk_ids": [
-      "chunk-4cef59817c38511355f56938f73f6db2"
+      "chunk-4cef59817c38511355f56938f73f6db2",
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d",
+      "chunk-df6ba51ccfe3ced8afe085cf48037d14",
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb",
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
     ],
-    "count": 1,
-    "create_time": 1777306961,
-    "update_time": 1777306961,
+    "count": 5,
+    "update_time": 1777395552,
     "_id": "Fiscal Year 2023<SEP>Fiscal Year 2024"
   },
   "China<SEP>Revenues": {
@@ -17302,10 +17311,11 @@
   "Deferred Tax Assets<SEP>Income Taxes": {
     "chunk_ids": [
       "chunk-2bcf7035b2263b22ce2270c9abedd363",
-      "chunk-8b3a58c3fd3e9f0c29982cd302a2e298"
+      "chunk-8b3a58c3fd3e9f0c29982cd302a2e298",
+      "chunk-235d7b98ae6bc97ba7e1bf3888ddf022"
     ],
-    "count": 2,
-    "update_time": 1777384494,
+    "count": 3,
+    "update_time": 1777395553,
     "_id": "Deferred Tax Assets<SEP>Income Taxes"
   },
   "Tax Planning Strategies<SEP>Unrecognized Tax Benefits": {
@@ -24691,11 +24701,11 @@
   },
   "Fiscal Year 2025<SEP>Gross Margin": {
     "chunk_ids": [
-      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e"
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e",
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
     ],
-    "count": 1,
-    "create_time": 1777383540,
-    "update_time": 1777383540,
+    "count": 2,
+    "update_time": 1777395552,
     "_id": "Fiscal Year 2025<SEP>Gross Margin"
   },
   "2025 Form 10-K<SEP>Research and Development": {
@@ -26973,10 +26983,11 @@
   "Common Stock<SEP>Fiscal 2025": {
     "chunk_ids": [
       "chunk-e7df4dee0e944309db53bb21714d81b4",
-      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4"
+      "chunk-5c16a0ed331c24f72f160dbbc3fd22d4",
+      "chunk-e0083fd68679130e02045719a84d5b78"
     ],
-    "count": 2,
-    "update_time": 1777394339,
+    "count": 3,
+    "update_time": 1777395552,
     "_id": "Common Stock<SEP>Fiscal 2025"
   },
   "Equity Incentive Plans<SEP>Fiscal 2026": {
@@ -38507,5 +38518,783 @@
     "create_time": 1777395209,
     "update_time": 1777395209,
     "_id": "Publicly Announced Plans or Programs<SEP>QCOM"
+  },
+  "Fiscal Year 2025<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9",
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 2,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "Fiscal Year 2025<SEP>SMCI"
+  },
+  "Net Sales<SEP>Server and Storage Systems": {
+    "chunk_ids": [
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "Net Sales<SEP>Server and Storage Systems"
+  },
+  "Net Sales by Geography<SEP>United States": {
+    "chunk_ids": [
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "Net Sales by Geography<SEP>United States"
+  },
+  "Income Before Income Tax Provision<SEP>Net Income": {
+    "chunk_ids": [
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "Income Before Income Tax Provision<SEP>Net Income"
+  },
+  "Asia<SEP>Net Sales by Geography": {
+    "chunk_ids": [
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "Asia<SEP>Net Sales by Geography"
+  },
+  "Income Tax Provision<SEP>Net Income": {
+    "chunk_ids": [
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "Income Tax Provision<SEP>Net Income"
+  },
+  "Income Before Income Tax Provision<SEP>Interest Expense": {
+    "chunk_ids": [
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "Income Before Income Tax Provision<SEP>Interest Expense"
+  },
+  "Europe<SEP>Net Sales by Geography": {
+    "chunk_ids": [
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "Europe<SEP>Net Sales by Geography"
+  },
+  "Net Income<SEP>Total Operating Expenses": {
+    "chunk_ids": [
+      "chunk-7257a6a7f62406e40b3e263ef8c13ff9"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "Net Income<SEP>Total Operating Expenses"
+  },
+  "2028 Convertible Notes<SEP>Interest Expense": {
+    "chunk_ids": [
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "2028 Convertible Notes<SEP>Interest Expense"
+  },
+  "OBBBA<SEP>Tax Cuts and Jobs Act": {
+    "chunk_ids": [
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "OBBBA<SEP>Tax Cuts and Jobs Act"
+  },
+  "Malaysia<SEP>OECD Pillar Two": {
+    "chunk_ids": [
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d"
+    ],
+    "count": 1,
+    "create_time": 1777395545,
+    "update_time": 1777395545,
+    "_id": "Malaysia<SEP>OECD Pillar Two"
+  },
+  "2029 Convertible Notes<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "2029 Convertible Notes<SEP>Fiscal Year 2025"
+  },
+  "Corporate Venture<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Corporate Venture<SEP>Fiscal Year 2025"
+  },
+  "Common Stock<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-df6ba51ccfe3ced8afe085cf48037d14"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Common Stock<SEP>SMCI"
+  },
+  "Fiscal Year 2024<SEP>Other Income": {
+    "chunk_ids": [
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2024<SEP>Other Income"
+  },
+  "Fiscal Year 2025<SEP>Interest Expense": {
+    "chunk_ids": [
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d",
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb"
+    ],
+    "count": 2,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Interest Expense"
+  },
+  "Corporate Venture<SEP>Share of Income from Equity Investee": {
+    "chunk_ids": [
+      "chunk-df6ba51ccfe3ced8afe085cf48037d14"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Corporate Venture<SEP>Share of Income from Equity Investee"
+  },
+  "Convertible Notes<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-df6ba51ccfe3ced8afe085cf48037d14"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Convertible Notes<SEP>SMCI"
+  },
+  "Fiscal Year 2025<SEP>Foreign Exchange Losses": {
+    "chunk_ids": [
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Foreign Exchange Losses"
+  },
+  "Cash and Cash Equivalents<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-df6ba51ccfe3ced8afe085cf48037d14"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Cash and Cash Equivalents<SEP>SMCI"
+  },
+  "Employee-Related Costs<SEP>Research and Development Expenses": {
+    "chunk_ids": [
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Employee-Related Costs<SEP>Research and Development Expenses"
+  },
+  "Fiscal Year 2025<SEP>Investment Gains/Losses": {
+    "chunk_ids": [
+      "chunk-fa3b9ef685b8c2c9dbb3c93c44dd4f6d"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Investment Gains/Losses"
+  },
+  "Employee-Related Costs<SEP>Sales and Marketing Expenses": {
+    "chunk_ids": [
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Employee-Related Costs<SEP>Sales and Marketing Expenses"
+  },
+  "Fiscal Year 2025<SEP>Net Cash Provided by (Used in) Operating Activities": {
+    "chunk_ids": [
+      "chunk-df6ba51ccfe3ced8afe085cf48037d14"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Net Cash Provided by (Used in) Operating Activities"
+  },
+  "Annual Report on Form 10-K<SEP>General and Administrative Expenses": {
+    "chunk_ids": [
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Annual Report on Form 10-K<SEP>General and Administrative Expenses"
+  },
+  "Product Development Costs<SEP>Sales and Marketing Expenses": {
+    "chunk_ids": [
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Product Development Costs<SEP>Sales and Marketing Expenses"
+  },
+  "Interest Expense<SEP>Other Income": {
+    "chunk_ids": [
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Interest Expense<SEP>Other Income"
+  },
+  "Fiscal Year 2025<SEP>Net Cash Used in Investing Activities": {
+    "chunk_ids": [
+      "chunk-df6ba51ccfe3ced8afe085cf48037d14"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Net Cash Used in Investing Activities"
+  },
+  "Employee-Related Costs<SEP>General and Administrative Expenses": {
+    "chunk_ids": [
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Employee-Related Costs<SEP>General and Administrative Expenses"
+  },
+  "Product Development Costs<SEP>Research and Development Expenses": {
+    "chunk_ids": [
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Product Development Costs<SEP>Research and Development Expenses"
+  },
+  "Fiscal Year 2024<SEP>Net Sales": {
+    "chunk_ids": [
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2024<SEP>Net Sales"
+  },
+  "Fiscal Year 2025<SEP>Net Cash Provided by (Used in) Financing Activities": {
+    "chunk_ids": [
+      "chunk-df6ba51ccfe3ced8afe085cf48037d14"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Net Cash Provided by (Used in) Financing Activities"
+  },
+  "Annual Report<SEP>U.S. GAAP": {
+    "chunk_ids": [
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Annual Report<SEP>U.S. GAAP"
+  },
+  "Fiscal Year 2024<SEP>Net Income": {
+    "chunk_ids": [
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2024<SEP>Net Income"
+  },
+  "Fiscal Year 2025<SEP>Other Income": {
+    "chunk_ids": [
+      "chunk-da0eeba7cd7fa6266b332c9958dfbddb"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Other Income"
+  },
+  "Fiscal Year 2024<SEP>Total Operating Expenses": {
+    "chunk_ids": [
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2024<SEP>Total Operating Expenses"
+  },
+  "Fiscal Year 2025<SEP>Net Sales": {
+    "chunk_ids": [
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Net Sales"
+  },
+  "Ablecom<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807",
+      "chunk-235d7b98ae6bc97ba7e1bf3888ddf022"
+    ],
+    "count": 2,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Ablecom<SEP>SMCI"
+  },
+  "Fiscal Year 2024<SEP>Income from Operations": {
+    "chunk_ids": [
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2024<SEP>Income from Operations"
+  },
+  "Fiscal Year 2025<SEP>Net Income": {
+    "chunk_ids": [
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Net Income"
+  },
+  "Compuware<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807",
+      "chunk-235d7b98ae6bc97ba7e1bf3888ddf022"
+    ],
+    "count": 2,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Compuware<SEP>SMCI"
+  },
+  "SMCI<SEP>United States": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "SMCI<SEP>United States"
+  },
+  "Ablecom<SEP>Compuware": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Ablecom<SEP>Compuware"
+  },
+  "Fiscal Year 2025<SEP>Total Operating Expenses": {
+    "chunk_ids": [
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Total Operating Expenses"
+  },
+  "SMCI<SEP>Taiwan": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "SMCI<SEP>Taiwan"
+  },
+  "Fiscal Year 2025<SEP>Income from Operations": {
+    "chunk_ids": [
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Income from Operations"
+  },
+  "Netherlands<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Netherlands<SEP>SMCI"
+  },
+  "Fiscal Year 2024<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2024<SEP>SMCI"
+  },
+  "Fiscal Year 2023<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2023<SEP>SMCI"
+  },
+  "Research and Development<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Research and Development<SEP>SMCI"
+  },
+  "SMCI<SEP>Sales and Marketing": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "SMCI<SEP>Sales and Marketing"
+  },
+  "General and Administrative<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "General and Administrative<SEP>SMCI"
+  },
+  "Other Income, Net and Interest Expense<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Other Income, Net and Interest Expense<SEP>SMCI"
+  },
+  "Income Tax Provision<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-bb3ea795aa615515be956c46cce98807"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Income Tax Provision<SEP>SMCI"
+  },
+  "Fiscal Year 2025<SEP>Total Net Sales": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Total Net Sales"
+  },
+  "SMCI<SEP>San Jose": {
+    "chunk_ids": [
+      "chunk-f623bee92ab601c185c2b3cb0be1e004"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "SMCI<SEP>San Jose"
+  },
+  "Demand for GPU Servers<SEP>Total Net Sales": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Demand for GPU Servers<SEP>Total Net Sales"
+  },
+  "AI<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-f623bee92ab601c185c2b3cb0be1e004"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "AI<SEP>SMCI"
+  },
+  "Demand for GPU Servers<SEP>United States": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Demand for GPU Servers<SEP>United States"
+  },
+  "DCBBS<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-f623bee92ab601c185c2b3cb0be1e004"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "DCBBS<SEP>SMCI"
+  },
+  "Demand for GPU Servers<SEP>Thailand": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Demand for GPU Servers<SEP>Thailand"
+  },
+  "Cost of Sales<SEP>Gross Profit": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Cost of Sales<SEP>Gross Profit"
+  },
+  "NVIDIA Corporation<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-f623bee92ab601c185c2b3cb0be1e004"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "NVIDIA Corporation<SEP>SMCI"
+  },
+  "Demand for GPU Servers<SEP>Japan": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Demand for GPU Servers<SEP>Japan"
+  },
+  "Fiscal Year 2025<SEP>Research and Development Expenses": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Fiscal Year 2025<SEP>Research and Development Expenses"
+  },
+  "Intel Corporation<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-f623bee92ab601c185c2b3cb0be1e004"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Intel Corporation<SEP>SMCI"
+  },
+  "Demand for GPU Servers<SEP>United Kingdom": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Demand for GPU Servers<SEP>United Kingdom"
+  },
+  "2028 Convertible Notes<SEP>Annual Report": {
+    "chunk_ids": [
+      "chunk-e0083fd68679130e02045719a84d5b78"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "2028 Convertible Notes<SEP>Annual Report"
+  },
+  "SMCI<SEP>Total IT Solutions": {
+    "chunk_ids": [
+      "chunk-f623bee92ab601c185c2b3cb0be1e004"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "SMCI<SEP>Total IT Solutions"
+  },
+  "Demand for GPU Servers<SEP>Singapore": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "Demand for GPU Servers<SEP>Singapore"
+  },
+  "2030 Convertible Notes<SEP>Annual Report": {
+    "chunk_ids": [
+      "chunk-e0083fd68679130e02045719a84d5b78"
+    ],
+    "count": 1,
+    "create_time": 1777395552,
+    "update_time": 1777395552,
+    "_id": "2030 Convertible Notes<SEP>Annual Report"
+  },
+  "Demand for GPU Servers<SEP>Taiwan": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Demand for GPU Servers<SEP>Taiwan"
+  },
+  "Capital Expenditures<SEP>Global Manufacturing Capabilities": {
+    "chunk_ids": [
+      "chunk-e0083fd68679130e02045719a84d5b78"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Capital Expenditures<SEP>Global Manufacturing Capabilities"
+  },
+  "Annual Report<SEP>Convertible Debt Obligation": {
+    "chunk_ids": [
+      "chunk-e0083fd68679130e02045719a84d5b78"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Annual Report<SEP>Convertible Debt Obligation"
+  },
+  "Demand for GPU Servers<SEP>South Africa": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Demand for GPU Servers<SEP>South Africa"
+  },
+  "Annual Report<SEP>Operating Leases": {
+    "chunk_ids": [
+      "chunk-e0083fd68679130e02045719a84d5b78"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Annual Report<SEP>Operating Leases"
+  },
+  "Net Realizable Value<SEP>Weighted Average Cost Method": {
+    "chunk_ids": [
+      "chunk-235d7b98ae6bc97ba7e1bf3888ddf022"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Net Realizable Value<SEP>Weighted Average Cost Method"
+  },
+  "Demand for GPU Servers<SEP>Germany": {
+    "chunk_ids": [
+      "chunk-2dde5f6cf64de278a08fae0dd65ce033"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Demand for GPU Servers<SEP>Germany"
+  },
+  "Annual Report<SEP>Note 7": {
+    "chunk_ids": [
+      "chunk-e0083fd68679130e02045719a84d5b78"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Annual Report<SEP>Note 7"
+  },
+  "Cost of Sales<SEP>Inventories": {
+    "chunk_ids": [
+      "chunk-235d7b98ae6bc97ba7e1bf3888ddf022"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Cost of Sales<SEP>Inventories"
+  },
+  "Income Taxes<SEP>SMCI": {
+    "chunk_ids": [
+      "chunk-235d7b98ae6bc97ba7e1bf3888ddf022"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Income Taxes<SEP>SMCI"
+  },
+  "Components of Results of Operations<SEP>Net Sales": {
+    "chunk_ids": [
+      "chunk-235d7b98ae6bc97ba7e1bf3888ddf022"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Components of Results of Operations<SEP>Net Sales"
+  },
+  "Annual Report<SEP>Note 8": {
+    "chunk_ids": [
+      "chunk-e0083fd68679130e02045719a84d5b78"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Annual Report<SEP>Note 8"
+  },
+  "Annual Report<SEP>Note 9": {
+    "chunk_ids": [
+      "chunk-e0083fd68679130e02045719a84d5b78"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Annual Report<SEP>Note 9"
+  },
+  "Annual Report<SEP>Note 13": {
+    "chunk_ids": [
+      "chunk-e0083fd68679130e02045719a84d5b78"
+    ],
+    "count": 1,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "Annual Report<SEP>Note 13"
   }
 }

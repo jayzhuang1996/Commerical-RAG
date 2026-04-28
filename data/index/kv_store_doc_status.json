@@ -2680,7 +2680,7 @@
     }
   },
   "doc-420258c78a57df852c22bc2fe808eb43": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 10,
     "chunks_list": [
       "chunk-f623bee92ab601c185c2b3cb0be1e004",
@@ -2697,11 +2697,47 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: SMCI\nLayer: LAYER_G\nPeriod: Q3_2025\nDate: 2025-08-28\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7.        Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussio...",
     "content_length": 48757,
     "created_at": "2026-04-28T16:53:30.177458+00:00",
-    "updated_at": "2026-04-28T16:53:30.218966+00:00",
+    "updated_at": "2026-04-28T16:59:13.285927+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_125330_fcbc1175",
     "metadata": {
-      "processing_start_time": 1777395210
+      "processing_start_time": 1777395210,
+      "processing_end_time": 1777395553
+    }
+  },
+  "doc-cc181ae539eec936fc57f4fba66824c7": {
+    "status": "processing",
+    "chunks_count": 20,
+    "chunks_list": [
+      "chunk-70b29e35c9088a60772b380aae8f83b9",
+      "chunk-5033388b8d0a5c086924e3a408d34276",
+      "chunk-287d1cec8627eeca65199ff175197028",
+      "chunk-382ed9633367ad75c9da85c6d46078ab",
+      "chunk-79519e3fe0abd084a51ef103e7626e8d",
+      "chunk-16d72dd93dd3a4f00beab948f3c19f46",
+      "chunk-236048c322ba6137a29d4dd4c22cab9c",
+      "chunk-dbd2e79155be8502c6e4b7b2d21a452a",
+      "chunk-148f875abfc6aeb383b7e43730d80094",
+      "chunk-cdfba309f31c9d4c0b53ea37125a23bd",
+      "chunk-d37351f58cea62bee19507fe9041e7b8",
+      "chunk-5fb1dde27927b891c4ed962514f9db4d",
+      "chunk-616a91d1eec88fbe138d4f3e4b62ee0a",
+      "chunk-d9f1889b3d52270eaa7c07e31779968a",
+      "chunk-7bd58e7ad9562fd2ac170cd4ddaf973c",
+      "chunk-d62094086a461807cb63372a0c3feff7",
+      "chunk-358d8155e824fa4b7916c8e766a3565a",
+      "chunk-58582ad8e07b36e454c4bc29331449d5",
+      "chunk-17937c53dbc7fb4db357f0035405f4cc",
+      "chunk-27114bc9c4f7fc9c99443806a6314da0"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: SMCI\nLayer: LAYER_G\nPeriod: Q3_2025\nDate: 2025-08-28\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A.              Risk Factors\n\nOur business involves significant risks, some of which are described below. Other events that...",
+    "content_length": 120664,
+    "created_at": "2026-04-28T16:59:14.172232+00:00",
+    "updated_at": "2026-04-28T16:59:14.224676+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_125914_69209d4e",
+    "metadata": {
+      "processing_start_time": 1777395554
     }
   }
 }

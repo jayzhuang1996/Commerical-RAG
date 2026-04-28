@@ -43,6 +43,28 @@ export default function ChatInterface() {
   const [activeQuarters, setActiveQuarters] = useState<string[]>([]);
   const [activeLayers, setActiveLayers] = useState<string[]>([]);
 
+  // Draggable split ratio between chat pane and graph pane (0–1)
+  const [splitRatio, setSplitRatio] = useState(0.58);
+  const isDragging = useRef(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const handleDragStart = () => { isDragging.current = true; document.body.style.cursor = 'col-resize'; document.body.style.userSelect = 'none'; };
+  const handleDragEnd   = () => { isDragging.current = false; document.body.style.cursor = ''; document.body.style.userSelect = ''; };
+  const handleDragMove  = useCallback((e: MouseEvent) => {
+    if (!isDragging.current || !containerRef.current) return;
+    const rect = containerRef.current.getBoundingClientRect();
+    const leftOffset = 220; // filter sidebar width
+    const usable = rect.width - leftOffset;
+    const raw = (e.clientX - rect.left - leftOffset) / usable;
+    setSplitRatio(Math.min(0.8, Math.max(0.35, raw)));
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener('mousemove', handleDragMove);
+    window.addEventListener('mouseup',   handleDragEnd);
+    return () => { window.removeEventListener('mousemove', handleDragMove); window.removeEventListener('mouseup', handleDragEnd); };
+  }, [handleDragMove]);
+
   const toggleFilter = (setFn: React.Dispatch<React.SetStateAction<string[]>>, val: string) => {
     setFn(prev => prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]);
   };
@@ -99,7 +121,7 @@ export default function ChatInterface() {
   const activeMsg = activeMessageIndex !== null ? messages[activeMessageIndex] : null;
 
   return (
-    <div style={{ display: 'flex', height: '100%', width: '100%', gap: '0', position: 'relative', background: 'var(--bg-panel)' }}>
+    <div ref={containerRef} style={{ display: 'flex', height: '100%', width: '100%', gap: '0', position: 'relative', background: 'var(--bg-panel)' }}>
       
       {/* Far-Left Pane: Intelligence Filters */}
       <div style={{ 
@@ -152,14 +174,16 @@ export default function ChatInterface() {
         </details>
       </div>
 
-      {/* Center Pane: Chat & Text (Splits if active graph) */}
+      {/* Center Pane: Chat & Text */}
       <div style={{ 
-        flex: activeMsg?.graph_data ? 1 : 1, 
+        flexBasis: activeMsg?.graph_data ? `${Math.round(splitRatio * 100)}%` : '100%',
+        flexShrink: 0,
+        flexGrow: 0,
         display: 'flex', 
         flexDirection: 'column', 
         height: '100%',
         borderRight: activeMsg?.graph_data ? '1px solid var(--border)' : 'none',
-        transition: 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)',
+        transition: isDragging.current ? 'none' : 'flex-basis 0.3s ease',
         minWidth: 0
       }}>
         {/* Messages */}
@@ -352,30 +376,47 @@ export default function ChatInterface() {
 
       {/* Right Pane: Visualization (Only visible when active message has graph data) */}
       {activeMsg?.graph_data && (
-        <div style={{ 
-          flex: 1, 
-          display: 'flex', 
-          flexDirection: 'column', 
-          background: 'var(--bg-base)',
-          animation: 'slideIn 0.4s ease-out'
-        }}>
-          <div style={{ padding: '20px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <Maximize2 size={16} color="var(--accent-main)" />
-            <span style={{ fontWeight: 600, fontSize: '14px', fontFamily: 'var(--font-display)' }}>Structural Relationship Map</span>
+        <>
+          {/* Drag handle */}
+          <div
+            onMouseDown={handleDragStart}
+            style={{
+              width: '6px', flexShrink: 0, cursor: 'col-resize',
+              background: 'transparent',
+              borderLeft: '2px solid var(--border)',
+              transition: 'border-color 0.15s',
+              zIndex: 5,
+            }}
+            onMouseEnter={e => (e.currentTarget.style.borderColor = 'var(--el-teal)')}
+            onMouseLeave={e => (e.currentTarget.style.borderColor = 'var(--border)')}
+          />
+          <div style={{ 
+            flex: 1, 
+            display: 'flex', 
+            flexDirection: 'column', 
+            background: 'var(--bg-base)',
+            animation: 'slideIn 0.4s ease-out',
+            minWidth: 0,
+          }}>
+            <div style={{ padding: '20px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <Maximize2 size={16} color="var(--accent-main)" />
+              <span style={{ fontWeight: 600, fontSize: '14px', fontFamily: 'var(--font-display)' }}>Structural Relationship Map</span>
+            </div>
+            <div style={{ flex: 1, minHeight: 0 }}>
+              <ForceGraph triples={activeMsg.graph_data} />
+            </div>
           </div>
-          <div style={{ flex: 1, minHeight: 0 }}>
-            <ForceGraph triples={activeMsg.graph_data} />
-          </div>
-        </div>
+        </>
       )}
 
-      {/* Transcript Modal */}
+      {/* Source Modal */}
       {selectedSource && (
         <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(10, 8, 5, 0.4)', backdropFilter: 'blur(4px)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '24px' }}>
-          <div style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)', borderRadius: '24px', width: '100%', maxWidth: '700px', maxHeight: '80%', display: 'flex', flexDirection: 'column', boxShadow: 'var(--shadow-lg)', overflow: 'hidden' }}>
-            <div style={{ padding: '20px 24px', borderBottom: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'var(--bg-card)' }}>
+          <div style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)', borderRadius: '16px', width: '100%', maxWidth: '720px', maxHeight: '80%', display: 'flex', flexDirection: 'column', boxShadow: 'var(--shadow-lg)', overflow: 'hidden' }}>
+            {/* Header */}
+            <div style={{ padding: '18px 24px', borderBottom: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'var(--bg-card)' }}>
               <div>
-                <span style={{ fontWeight: 700, fontSize: '16px', fontFamily: 'var(--font-display)', display: 'block' }}>[Source {selectedSource.index}] {selectedSource.title}</span>
+                <span style={{ fontWeight: 700, fontSize: '15px', fontFamily: 'var(--font-display)', color: 'var(--el-navy)', display: 'block' }}>{selectedSource.title}</span>
                 {selectedSource.timestamp !== undefined && (
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px', color: 'var(--accent-main)', marginTop: '4px' }}>
                     <Clock size={12} />
@@ -383,14 +424,12 @@ export default function ChatInterface() {
                   </div>
                 )}
               </div>
-              <button onClick={() => setSelectedSource(null)} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '28px', color: 'var(--text-muted)', lineHeight: 1 }}>&times;</button>
+              <button onClick={() => setSelectedSource(null)} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '24px', color: 'var(--text-muted)', lineHeight: 1 }}>&times;</button>
             </div>
-            <div style={{ padding: '32px', overflowY: 'auto', fontSize: '15px', lineHeight: '1.8', color: 'var(--text-secondary)' }}>
-              <div style={{ background: 'var(--accent-light)', padding: '20px', borderRadius: '12px', borderLeft: '4px solid var(--accent-main)', marginBottom: '20px', fontStyle: 'italic' }}>
-                "{selectedSource.text}"
-              </div>
-              <p style={{ fontSize: '12px', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '12px', fontWeight: 700 }}>Context Details</p>
-              <p>This chunk was retrieved because it contains the most semantically relevant information to your query. The intelligence engine has verified this bridge between entities.</p>
+            {/* Raw filing text */}
+            <div style={{ padding: '24px 28px', overflowY: 'auto', fontSize: '14px', lineHeight: '1.8', color: 'var(--text-secondary)' }}>
+              <p style={{ fontSize: '11px', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '12px' }}>Original Filing Extract</p>
+              <pre style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word', fontFamily: 'inherit', margin: 0, padding: '16px 20px', background: 'var(--bg-card)', borderRadius: '10px', borderLeft: '3px solid var(--el-teal)', color: 'var(--el-navy)', fontSize: '13.5px', lineHeight: '1.75' }}>{selectedSource.text}</pre>
             </div>
           </div>
         </div>

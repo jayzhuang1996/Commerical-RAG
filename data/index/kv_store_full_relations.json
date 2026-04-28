@@ -18827,5 +18827,381 @@
     "create_time": 1777395209,
     "update_time": 1777395209,
     "_id": "doc-6432d62e23ef5e58d14d1ac2c562842c"
+  },
+  "doc-420258c78a57df852c22bc2fe808eb43": {
+    "relation_pairs": [
+      [
+        "Fiscal Year 2024",
+        "Total Operating Expenses"
+      ],
+      [
+        "Fiscal Year 2025",
+        "SMCI"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Net Cash Provided by (Used in) Financing Activities"
+      ],
+      [
+        "Employee-Related Costs",
+        "General and Administrative Expenses"
+      ],
+      [
+        "Demand for GPU Servers",
+        "Thailand"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Fiscal Year 2025"
+      ],
+      [
+        "2030 Convertible Notes",
+        "Annual Report"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Net Sales"
+      ],
+      [
+        "Common Stock",
+        "SMCI"
+      ],
+      [
+        "Annual Report",
+        "Note 7"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Net Income"
+      ],
+      [
+        "SMCI",
+        "Taiwan"
+      ],
+      [
+        "2029 Convertible Notes",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Ablecom",
+        "Compuware"
+      ],
+      [
+        "2028 Convertible Notes",
+        "Interest Expense"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Income from Operations"
+      ],
+      [
+        "Income Before Income Tax Provision",
+        "Net Income"
+      ],
+      [
+        "OBBBA",
+        "Tax Cuts and Jobs Act"
+      ],
+      [
+        "AI",
+        "SMCI"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Other Income"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Investment Gains/Losses"
+      ],
+      [
+        "Ablecom",
+        "SMCI"
+      ],
+      [
+        "SMCI",
+        "United States"
+      ],
+      [
+        "Convertible Notes",
+        "SMCI"
+      ],
+      [
+        "Income Tax Provision",
+        "Net Income"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Research and Development Expenses"
+      ],
+      [
+        "NVIDIA Corporation",
+        "SMCI"
+      ],
+      [
+        "Intel Corporation",
+        "SMCI"
+      ],
+      [
+        "Employee-Related Costs",
+        "Research and Development Expenses"
+      ],
+      [
+        "Components of Results of Operations",
+        "Net Sales"
+      ],
+      [
+        "Fiscal Year 2024",
+        "SMCI"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Net Cash Provided by (Used in) Operating Activities"
+      ],
+      [
+        "Common Stock",
+        "Fiscal 2025"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Net Sales"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Interest Expense"
+      ],
+      [
+        "Employee-Related Costs",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Corporate Venture",
+        "Share of Income from Equity Investee"
+      ],
+      [
+        "Cost of Sales",
+        "Inventories"
+      ],
+      [
+        "Demand for GPU Servers",
+        "South Africa"
+      ],
+      [
+        "Corporate Venture",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Demand for GPU Servers",
+        "Germany"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Income from Operations"
+      ],
+      [
+        "Deferred Tax Assets",
+        "Income Taxes"
+      ],
+      [
+        "Annual Report",
+        "Operating Leases"
+      ],
+      [
+        "DCBBS",
+        "SMCI"
+      ],
+      [
+        "Malaysia",
+        "OECD Pillar Two"
+      ],
+      [
+        "Demand for GPU Servers",
+        "Taiwan"
+      ],
+      [
+        "Fiscal 2024",
+        "Fiscal 2025"
+      ],
+      [
+        "Annual Report",
+        "Convertible Debt Obligation"
+      ],
+      [
+        "Cost of Sales",
+        "Gross Profit"
+      ],
+      [
+        "Net Income",
+        "Total Operating Expenses"
+      ],
+      [
+        "Demand for GPU Servers",
+        "Japan"
+      ],
+      [
+        "Income Tax Provision",
+        "SMCI"
+      ],
+      [
+        "SMCI",
+        "Sales and Marketing"
+      ],
+      [
+        "Netherlands",
+        "SMCI"
+      ],
+      [
+        "General and Administrative",
+        "SMCI"
+      ],
+      [
+        "Demand for GPU Servers",
+        "United Kingdom"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Net Cash Used in Investing Activities"
+      ],
+      [
+        "Demand for GPU Servers",
+        "United States"
+      ],
+      [
+        "Interest Expense",
+        "Other Income"
+      ],
+      [
+        "Demand for GPU Servers",
+        "Total Net Sales"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Total Operating Expenses"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Gross Margin"
+      ],
+      [
+        "SMCI",
+        "Total IT Solutions"
+      ],
+      [
+        "Product Development Costs",
+        "Research and Development Expenses"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "General and Administrative Expenses"
+      ],
+      [
+        "Demand for GPU Servers",
+        "Singapore"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Net Income"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "SMCI"
+      ],
+      [
+        "Income Before Income Tax Provision",
+        "Interest Expense"
+      ],
+      [
+        "SMCI",
+        "San Jose"
+      ],
+      [
+        "Product Development Costs",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Annual Report",
+        "Note 9"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Other Income"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Foreign Exchange Losses"
+      ],
+      [
+        "Net Sales",
+        "Server and Storage Systems"
+      ],
+      [
+        "Income Taxes",
+        "SMCI"
+      ],
+      [
+        "Compuware",
+        "SMCI"
+      ],
+      [
+        "Net Sales by Geography",
+        "United States"
+      ],
+      [
+        "Other Income, Net and Interest Expense",
+        "SMCI"
+      ],
+      [
+        "Annual Report",
+        "Note 13"
+      ],
+      [
+        "Capital Expenditures",
+        "Global Manufacturing Capabilities"
+      ],
+      [
+        "Europe",
+        "Net Sales by Geography"
+      ],
+      [
+        "Net Realizable Value",
+        "Weighted Average Cost Method"
+      ],
+      [
+        "Asia",
+        "Net Sales by Geography"
+      ],
+      [
+        "Annual Report",
+        "Note 8"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Total Net Sales"
+      ],
+      [
+        "2028 Convertible Notes",
+        "Annual Report"
+      ],
+      [
+        "Research and Development",
+        "SMCI"
+      ],
+      [
+        "Fiscal Year 2023",
+        "Fiscal Year 2024"
+      ],
+      [
+        "Annual Report",
+        "U.S. GAAP"
+      ],
+      [
+        "Fiscal Year 2023",
+        "SMCI"
+      ]
+    ],
+    "count": 92,
+    "create_time": 1777395553,
+    "update_time": 1777395553,
+    "_id": "doc-420258c78a57df852c22bc2fe808eb43"
   }
 }

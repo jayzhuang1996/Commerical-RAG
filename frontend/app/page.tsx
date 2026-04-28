@@ -170,7 +170,7 @@ export default function Home() {
 
             <div style={{ ...boxStyle, background: 'var(--bg-panel)' }}>
               <div style={{ display: 'inline-block', padding: '4px 10px', background: 'var(--border)', borderRadius: '24px', fontSize: '10px', fontWeight: 700, marginBottom: '14px', letterSpacing: '0.06em' }}>PHASE 1: PROOF OF CONCEPT</div>
-              <h3 style={titleStyle}>Semiconductor Sandbox</h3>
+              <h3 style={titleStyle}>Semiconductor Sandbox <span style={{ fontWeight: 400, opacity: 0.6, fontSize: '0.8em' }}>(Demo Sample)</span></h3>
               <ul style={listStyle}>
                 <li style={{ marginBottom: '10px' }}><strong>What:</strong> Public semiconductor earnings ingested into the same AI engine</li>
                 <li style={{ marginBottom: '10px' }}><strong>Why semiconductor:</strong> Dense, technical, non-uniform — the hardest stress test for the architecture</li>
