@@ -291,32 +291,6 @@ export default function ChatInterface() {
                 </div>
               </div>
 
-              {/* Vertical Breakdown */}
-              <div style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)', borderRadius: '10px', padding: '18px 20px' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '14px' }}>
-                  <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.08em', color: 'var(--el-slate)', textTransform: 'uppercase' }}>Semiconductor Verticals in this Sandbox</div>
-                  <div style={{ fontSize: '10px', color: 'var(--el-teal)', fontWeight: 600 }}>↔ Analogous to Element client sub-industries</div>
-                </div>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
-                  {[
-                    { vertical: 'AI / GPU', companies: ['NVDA', 'AMD', 'INTC'], color: '#05AFDC' },
-                    { vertical: 'Foundry / EMS', companies: ['TSM', 'SSNLF', 'GFS'], color: '#00D7D2' },
-                    { vertical: 'Equipment', companies: ['AMAT', 'LRCX', 'KLAC', 'ASML'], color: '#4B6478' },
-                    { vertical: 'Memory', companies: ['MU', 'WDC', 'STX'], color: '#82C341' },
-                    { vertical: 'Analog / Power', companies: ['TXN', 'ADI', 'MCHP', 'ON'], color: '#96BED2' },
-                    { vertical: 'Networking / RF', companies: ['AVGO', 'QCOM', 'MRVL'], color: '#192E44' },
-                  ].map(({ vertical, companies, color }) => (
-                    <div key={vertical} style={{ background: 'var(--bg-card)', borderRadius: '8px', padding: '12px 14px', borderLeft: `3px solid ${color}` }}>
-                      <div style={{ fontSize: '11px', fontWeight: 700, color: 'var(--el-navy)', marginBottom: '8px' }}>{vertical}</div>
-                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
-                        {companies.map(c => (
-                          <span key={c} style={{ fontSize: '10px', fontWeight: 600, background: '#fff', border: '1px solid var(--border)', borderRadius: '4px', padding: '2px 6px', color: 'var(--el-slate)' }}>{c}</span>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
 
             </div>
           )}
