@@ -1,6 +1,7 @@
 """
 src/agent/reasoning_agent.py
-NABR Intelligence Agent — fixed filter enforcement at retrieval layer.
+NABR Intelligence Agent — REVERTED TO STABILITY.
+Removed aggressive hard-blocks to prevent "false positive" data denials.
 """
 
 import os
@@ -37,7 +38,7 @@ class AgentState(TypedDict):
     search_mode: str
     augmented_query: str
     raw_context: str
-    filtered_context: str   # deterministically stripped
+    filtered_context: str
     synthesized_answer: str
     sources: List[str]
 
@@ -48,57 +49,42 @@ async def architect_node(state: AgentState):
     else:
         mode = "local"
 
-    # --- Build augmented query with temporal/layer context ---
     f = state.get('filters', {})
     quarters = f.get('quarters', [])
     layers   = f.get('layers',   [])
 
-    # If the user query mentions a vertical (e.g. "memory") but the filter isn't checked,
-    # we automatically check it for the retrieval step to bias results.
-    detected_layers = list(layers)
-    for l_key, l_tickers in VERTICAL_TICKER_MAP.items():
-        if l_key.lower().replace(' ', '').split('/')[0] in query.replace(' ', ''):
-            if l_key not in detected_layers:
-                detected_layers.append(l_key)
-
+    # Simple bias injection
     aug = state['query']
-    if "2025" in query:
-        aug += " (Search specifically for Q1 2025, Q2 2025, Q3 2025, and Q4 2025 filings. Do NOT return 2023 or 2024 data.)"
-    elif "2026" in query:
-        aug += " (Search specifically for Q1 2026 and Q2 2026 filings.)"
-    elif quarters:
+    if quarters:
         date_terms = []
         for q in quarters:
             date_terms.extend(QUARTER_DATE_MAP.get(q, [q]))
-        aug += f" (Focus on periods: {', '.join(date_terms)})"
+        aug += f" (Focus on: {', '.join(date_terms)})"
     
-    if detected_layers:
-        ticker_bias = []
-        for l in detected_layers:
-            ticker_bias.extend(VERTICAL_TICKER_MAP.get(l, []))
-        if ticker_bias:
-            aug += f" (Prioritize data for: {', '.join(ticker_bias)})"
+    # Vertical bias
+    bias_layers = list(layers)
+    for l_key, l_tickers in VERTICAL_TICKER_MAP.items():
+        if l_key.lower().split('/')[0].strip() in query:
+            if l_key not in bias_layers:
+                bias_layers.append(l_key)
+
+    if bias_layers:
+        tickers = []
+        for bl in bias_layers:
+            tickers.extend(VERTICAL_TICKER_MAP.get(bl, []))
+        if tickers:
+            aug += f" (Prioritize: {', '.join(tickers)})"
 
     print(f"📐 [Architect] Mode: {mode} | AugQuery: {aug}")
     return {"search_mode": mode, "augmented_query": aug}
 
 async def researcher_node(state: AgentState):
-    print(f"🔎 [Researcher] Querying for: '{state['augmented_query'][:80]}'")
-    param = QueryParam(
-        mode=state['search_mode'],
-        top_k=20,
-        only_need_context=True
-    )
+    print(f"🔎 [Researcher] Querying: '{state['augmented_query'][:80]}'")
+    param = QueryParam(mode=state['search_mode'], top_k=20, only_need_context=True)
     response = await rag.aquery(state['augmented_query'], param=param)
-    # aquery with only_need_context=True may return a QueryContext object — always coerce to str
     raw = response if isinstance(response, str) else str(response)
     return {"raw_context": raw}
 
-
-# ── DETERMINISTIC FILTER NODE ─────────────────────────────────────────────────
-# Strips chunks whose Period tag doesn't match active quarters.
-# LightRAG returns raw_context as a text block that includes SOURCE INFO headers
-# from each retrieved chunk. We split on those headers and drop non-matching ones.
 QUARTER_PERIOD_MAP = {
     "Q1 2025": "Q1_2025", "Q2 2025": "Q2_2025",
     "Q3 2025": "Q3_2025", "Q4 2025": "Q4_2025",
@@ -109,54 +95,27 @@ async def filter_node(state: AgentState):
     quarters = state.get('filters', {}).get('quarters', [])
     raw = state['raw_context']
 
-    # If neither quarter nor layer filters active, pass everything through
-    layers_raw = state.get('filters', {}).get('layers', [])
-    if not quarters and not layers_raw:
-        print("🔓 [Filter] No filters active — passing full context")
+    # If no period filters, pass through (no aggressive ticker filtering)
+    if not quarters:
         return {"filtered_context": raw}
 
     allowed_periods = {QUARTER_PERIOD_MAP.get(q, q.replace(' ', '_')) for q in quarters}
-    if allowed_periods:
-        print(f"🔒 [Filter] Enforcing periods: {allowed_periods}")
-
-    # Also build allowed tickers from vertical filter
-    f = state.get('filters', {})
-    layers = f.get('layers', [])
-    allowed_tickers: set = set()
-    for layer in layers:
-        for ticker in VERTICAL_TICKER_MAP.get(layer, []):
-            allowed_tickers.add(ticker.upper())
-    if allowed_tickers:
-        print(f"🔒 [Filter] Enforcing verticals → tickers: {allowed_tickers}")
-
-    # Split on SOURCE INFO headers — enforce period AND ticker filters
+    
+    # Relaxed split
     blocks = re.split(r'(?=--- SOURCE INFO ---)', raw)
-    kept, dropped = [], 0
+    kept = []
     for block in blocks:
         period_match = re.search(r'Period:\s*([\w_]+)', block)
-        ticker_match = re.search(r'Ticker:\s*(\w+)',    block)
-
         if period_match:
-            period    = period_match.group(1)
-            ticker    = ticker_match.group(1).upper() if ticker_match else None
-            period_ok = (not allowed_periods) or period in allowed_periods
-            ticker_ok = (not allowed_tickers) or (ticker and ticker in allowed_tickers)
-            if period_ok and ticker_ok:
+            period = period_match.group(1)
+            if period in allowed_periods:
                 kept.append(block)
-            else:
-                dropped += 1
         else:
-            # No SOURCE INFO header — keep (LightRAG connector blocks)
             kept.append(block)
 
     filtered = ''.join(kept)
-    print(f"🔒 [Filter] Kept {len(kept)} blocks, dropped {dropped} out-of-scope blocks")
-
     if not filtered.strip():
-        scope = ', '.join(quarters) if quarters else 'all periods'
-        if allowed_tickers:
-            scope += f" | {', '.join(layers)}"
-        filtered = f"[No data found for the selected scope: {scope}.]"
+        filtered = f"[Note: No direct filings match the selected periods. Context below is for general reference.]\n\n{raw}"
 
     return {"filtered_context": filtered}
 
@@ -164,39 +123,21 @@ async def analyst_node(state: AgentState):
     print("🧠 [Analyst] Synthesizing...")
     context = state.get('filtered_context', '').strip()
     
-    # HARD BLOCK: Only if context is genuinely empty or a failure message.
-    if not context or "[No data found" in context:
-        # If the user specifically asked for 2023, be firm but helpful.
-        if "2023" in state['query']:
-            return {"synthesized_answer": "I'm sorry, but we don't have historical data for 2023 in the database. I can provide insights for 2025 and 2026 if you'd like."}
-        return {"synthesized_answer": "I found some sources, but they don't contain specific facts for that query. Try broadening your vertical filters."}
-
-    f = state.get('filters', {})
-    quarters = f.get('quarters', [])
-    layers   = f.get('layers',   [])
-
-    layer_note  = f"\n- VERTICALS: {', '.join(layers)}" if layers else ""
-    period_note = f"\n- PERIODS: {', '.join(quarters)}" if quarters else ""
+    # NO HARD BLOCK. Let the LLM handle empty context.
 
     prompt = f"""You are the Head of Semiconductor Advisory at Element. Synthesize the provided context into a strategic briefing.
 
-USER QUERY: {state['query']}{period_note}{layer_note}
+USER QUERY: {state['query']}
 
-⛔ ANTI-HALLUCINATION RULES:
-1. USE ONLY THE RAW INTELLIGENCE BELOW. NEVER use training data.
-2. Every fact MUST be cited with (TICKER PERIOD) — e.g. (NVDA Q1 2026).
-3. If the user asks about 2025/2026 and you see data for those years in the RAW INTELLIGENCE, you MUST summarize it. 
-4. If the user asks about 2023 and the RAW INTELLIGENCE is empty for 2023, state that no 2023 data is available. 
+STRICT RULE: USE ONLY THE RAW INTELLIGENCE PROVIDED BELOW. Do NOT use outside training data.
+CITE EVERY FACT with (TICKER PERIOD).
 
 RAW INTELLIGENCE:
 {context}
 
-FORMAT:
-- Bold key findings.
-- Use bullet points.
-- Cited sources on every line.
+If the context does not contain enough information to answer, state that clearly and mention what periods the available data covers.
 """
-    briefing = await openai_model_complete(prompt, system_prompt="You are an elite analyst. You only speak from provided context. You refuse to use outside knowledge.")
+    briefing = await openai_model_complete(prompt, system_prompt="You are an elite analyst. You only speak from provided context.")
     return {"synthesized_answer": briefing}
 
 workflow = StateGraph(AgentState)
@@ -218,19 +159,9 @@ async def run_intelligence_briefing(query: str, filters: dict = None):
         "search_mode": "local",
         "augmented_query": query,
         "raw_context": "",
-        "filtered_context": "",   # must be initialised — analyst_node reads this
+        "filtered_context": "",
         "synthesized_answer": "",
         "sources": []
     }
-    print("\n" + "═"*60)
-    print("🚀 [NABR ENGINE] INITIATING STRATEGIC SYNTHESIS")
-    print("═"*60)
     final_state = await engine.ainvoke(initial_state)
-    print("✅ [NABR ENGINE] BRIEFING COMPLETE\n")
     return final_state['synthesized_answer']
-
-if __name__ == "__main__":
-    asyncio.run(run_intelligence_briefing(
-        "What is NVIDIA's Blackwell outlook?",
-        filters={"quarters": ["Q1 2026"], "layers": []}
-    ))

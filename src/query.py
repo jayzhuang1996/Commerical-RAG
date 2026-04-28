@@ -132,14 +132,6 @@ async def query_rag(request: QueryRequest):
 
         scored.sort(key=lambda x: x[0], reverse=True)
         
-        # FILTER: Only keep chunks with a baseline relevancy score
-        # Prevents showing 2025/2026 sources for an empty 2023 query.
-        scored = [s for s in scored if s[0] >= 10]
-
-        # Pick top 5, max 2 chunks per ticker
-        # FILTER: Only keep chunks with a baseline relevancy score
-        scored = [s for s in scored if s[0] >= 10]
-
         # Pick top 5, max 2 chunks per ticker
         seen_tickers: dict = {}
         top_chunks = []

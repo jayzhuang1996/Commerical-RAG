@@ -162,9 +162,9 @@ def extract_visual_graph(rag_index, original_query: str, filters: dict = None) -
     
     # Auto-detect year in query if no filters are active
     if not quarter_periods and original_query:
-        for year in ["2023", "2025", "2026"]:
-            if year in original_query:
-                # Add all quarters for that year
+        q_low = original_query.lower()
+        for year in ["2025", "2026"]:
+            if year in q_low:
                 for q_key, q_val in qmap.items():
                     if year in q_key:
                         quarter_periods.add(q_val)
@@ -205,9 +205,6 @@ def extract_visual_graph(rag_index, original_query: str, filters: dict = None) -
             periods = {chunk_period_map.get(cid) for cid in chunk_ids if cid in chunk_period_map}
             if not periods.intersection(quarter_periods):
                 continue
-        elif original_query and "2023" in original_query:
-            # Explicitly block all edges for 2023 as we have no data
-            continue
 
         seen_pairs.add(pair)
         desc = data.get("description", "")
