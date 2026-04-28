@@ -55,7 +55,7 @@ export default function ForceGraph({ triples }: Props) {
     return () => ro.disconnect();
   }, []);
 
-  // Track mouse for tooltip positioning — only used when something is selected
+  // Track mouse for tooltip positioning
   useEffect(() => {
     const h = (e: MouseEvent) => {
       const el = containerRef.current;
@@ -71,98 +71,48 @@ export default function ForceGraph({ triples }: Props) {
     setTimeout(() => fgRef.current?.zoomToFit(600, 50), 300);
   }, []);
 
-  const graphData = useMemo(() => {
-    if (!triples || triples.length === 0) return { nodes: [], links: [] };
-
-    const degree = new Map<string, number>();
-    triples.forEach(t => {
-      if (!t.source || !t.target || t.source === t.target) return;
-      degree.set(t.source, (degree.get(t.source) || 0) + 1);
-      degree.set(t.target, (degree.get(t.target) || 0) + 1);
-    });
-
-    const validNodes = new Set<string>();
-    degree.forEach((deg, id) => { if (deg >= 1) validNodes.add(id); });
-
-    const links = triples
-      .filter(t => t.source && t.target && t.source !== t.target
-                && validNodes.has(t.source) && validNodes.has(t.target))
-      .slice(0, 60)
-      .map(t => ({
-        source: t.source,
-        target: t.target,
-        label:  t.label  || '',
-        type:   t.type   || 'related',
-        color:  t.color  || TYPE_COLORS[t.type || 'related'] || '#96BED2',
-      }));
-
-    const nodes = Array.from(validNodes).map(id => ({
-      id,
-      degree: degree.get(id) || 1,
-    }));
-
-    return { nodes, links };
-  }, [triples]);
-
-  // Tighten d3 forces
+  // Tighten d3 forces for "closely connected" look
   useEffect(() => {
     const fg = fgRef.current;
     if (!fg) return;
     const lf = fg.d3Force('link');
-    if (lf) lf.distance(50);
+    if (lf) lf.distance(30).strength(1);
     const cf = fg.d3Force('charge');
-    if (cf) cf.strength(-180);
+    if (cf) cf.strength(-400);
+    const center = fg.d3Force('center');
+    if (center) center.strength(0.15);
   }, [triples]);
 
-  const nodeRadius = (node: any) => Math.min(10 + (node.degree || 1) * 3, 44);
+  const nodeRadius = (node: any) => Math.min(8 + (node.degree || 1) * 2.5, 40);
 
   const nodeCanvasObject = useCallback((node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
-    const isSel = selectedNode?.id === node.id;
-    const isHov = hoveredNode === node.id;
+    const isHov = hoveredNode === node.id || selectedNode?.id === node.id;
     const r     = nodeRadius(node);
     const label = node.id as string;
 
+    // Node Body
     ctx.beginPath();
     ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
-    ctx.fillStyle   = (isSel || isHov) ? '#192E44' : '#FFFFFF';
-    ctx.strokeStyle = (isSel || isHov) ? '#00D7D2' : '#192E44';
-    ctx.lineWidth   = ((isSel || isHov) ? 3 : 1.8) / globalScale;
+    ctx.fillStyle   = isHov ? '#192E44' : '#FFFFFF';
+    ctx.strokeStyle = isHov ? '#00D7D2' : '#192E44';
+    ctx.lineWidth   = (isHov ? 3 : 1.5) / globalScale;
     ctx.fill();
     ctx.stroke();
 
-    const fontSize = Math.max(9, Math.min(r * 0.42, 13));
-    ctx.font         = `${(isSel || isHov) ? 700 : 600} ${fontSize}px 'Segoe UI',sans-serif`;
+    // Text
+    const fontSize = Math.max(8, Math.min(r * 0.45, 12));
+    ctx.font         = `${isHov ? 700 : 600} ${fontSize}px 'Segoe UI',sans-serif`;
     ctx.textAlign    = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillStyle    = (isSel || isHov) ? '#00D7D2' : '#192E44';
+    ctx.fillStyle    = isHov ? '#00D7D2' : '#192E44';
 
-    const maxW = r * 1.6;
+    const maxW = r * 1.7;
     let txt = label;
     if (ctx.measureText(txt).width > maxW) {
-      const firstWord = label.split(' ')[0];
-      txt = firstWord;
-      while (ctx.measureText(txt + '.').width > maxW && txt.length > 2) {
-        txt = txt.slice(0, -1);
-      }
-      if (txt !== firstWord) txt += '.';
+      txt = label.slice(0, 6) + '..';
     }
     ctx.fillText(txt, node.x, node.y);
   }, [selectedNode, hoveredNode]);
-
-  const handleLinkClick = useCallback((link: any) => {
-    setSelectedLink(link);
-    setSelectedNode(null);
-  }, []);
-
-  const handleNodeClick = useCallback((node: any) => {
-    setSelectedNode(node);
-    setSelectedLink(null);
-  }, []);
-
-  const handleBackgroundClick = useCallback(() => {
-    setSelectedNode(null);
-    setSelectedLink(null);
-  }, []);
 
   const ttLeft = mousePos.x > dims.w - 320 ? mousePos.x - 300 : mousePos.x + 14;
   const ttTop  = Math.max(10, mousePos.y - 20);
@@ -170,68 +120,77 @@ export default function ForceGraph({ triples }: Props) {
   return (
     <div
       ref={containerRef}
-      style={{ position: 'relative', width: '100%', height: '100%', background: '#F8F9FA', overflow: 'hidden', borderRadius: '8px' }}
-      onClick={(e) => {
-        // Only clear if clicking the background, not the graph itself handled by internal clicks
-        if (e.target === containerRef.current) handleBackgroundClick();
-      }}
+      style={{ position: 'relative', width: '100%', height: '100%', background: '#F8F9FA', overflow: 'hidden' }}
     >
-      {/* Legend */}
-      <div style={{
-        position: 'absolute', top: '12px', left: '12px', zIndex: 10,
-        background: 'rgba(255,255,255,0.96)', borderRadius: '8px',
-        padding: '10px 14px', border: '1px solid #E3E6EA',
-        boxShadow: '0 2px 8px rgba(25,46,68,0.08)',
-        display: 'flex', flexDirection: 'column', gap: '6px',
-      }}>
-        <div style={{ fontSize: '9px', fontWeight: 700, color: '#64748B', letterSpacing: '0.08em', marginBottom: '2px', textTransform: 'uppercase' }}>Relationship Type</div>
-        {LEGEND.map(({ type, label }) => (
-          <div key={type} style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '11px', color: '#192E44', fontWeight: 500 }}>
-            <div style={{ width: '20px', height: '2.5px', background: TYPE_COLORS[type], borderRadius: '2px', flexShrink: 0 }} />
-            {label}
-          </div>
-        ))}
-      </div>
+      <ForceGraph2D
+        ref={fgRef}
+        graphData={graphData}
+        width={dims.w}
+        height={dims.h}
+        nodeCanvasObject={nodeCanvasObject}
+        onNodeHover={(node) => {
+          setHoveredNode(node?.id || null);
+          setSelectedNode(node);
+          setSelectedLink(null);
+        }}
+        onLinkHover={(link) => {
+          setSelectedLink(link);
+          setSelectedNode(null);
+        }}
+        onEngineStop={handleEngineStop}
+        cooldownTicks={100}
+        linkColor={(l: any) => l.color}
+        linkWidth={(l: any) => (l === selectedLink ? 5 : 2.5)}
+        linkDirectionalParticles={2}
+        linkDirectionalParticleWidth={2}
+        linkDirectionalParticleSpeed={0.005}
+      />
 
-      {/* Insight Panel (Click triggered) */}
+      {/* Insight Panel (Hover triggered) */}
       {(selectedLink || selectedNode) && (
         <div style={{
           position: 'absolute',
           left:  ttLeft,
           top:   ttTop,
           zIndex: 100,
-          width: '300px',
-          padding: '16px',
-          background: '#fff',
+          width: '280px',
+          padding: '14px',
+          background: 'rgba(255, 255, 255, 0.98)',
+          backdropFilter: 'blur(4px)',
           border: '1px solid #192E44',
-          borderRadius: '12px',
-          boxShadow: '0 10px 30px rgba(25,46,68,0.25)',
-          fontSize: '13px',
-          lineHeight: '1.6',
-          animation: 'fadeIn 0.2s ease-out'
+          borderRadius: '10px',
+          boxShadow: '0 8px 24px rgba(25,46,68,0.15)',
+          fontSize: '12px',
+          pointerEvents: 'none', // Allow cursor to pass through to graph
+          animation: 'fadeIn 0.15s ease-out'
         }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-            <span style={{ fontWeight: 800, color: '#192E44', textTransform: 'uppercase', fontSize: '11px', letterSpacing: '0.05em' }}>
-              {selectedLink ? 'Relationship Insight' : 'Company Context'}
-            </span>
-            <button 
-              onClick={handleBackgroundClick}
-              style={{ border: 'none', background: 'none', cursor: 'pointer', color: '#94A3B8', fontSize: '16px', padding: '0 4px' }}
-            >
-              ×
-            </button>
+          <div style={{ fontWeight: 800, color: '#192E44', textTransform: 'uppercase', fontSize: '10px', letterSpacing: '0.05em', marginBottom: '6px' }}>
+            {selectedLink ? 'Relationship Insight' : 'Company Context'}
           </div>
 
           {selectedLink && (
             <>
-              <div style={{ color: '#192E44', fontWeight: 700, marginBottom: '8px', fontSize: '14px' }}>
-                {selectedLink.source.id} → {selectedLink.target.id}
+              <div style={{ color: '#192E44', fontWeight: 700, marginBottom: '6px', fontSize: '13px' }}>
+                {selectedLink.source.id} ↔ {selectedLink.target.id}
               </div>
-              <div style={{ color: '#3C4A5A' }}>
-                {selectedLink.label || 'Deep structural relationship extracted from company filings.'}
+              <div style={{ color: '#3C4A5A', fontStyle: 'italic' }}>
+                "{selectedLink.label || 'Direct industry dependency identified in company transcripts.'}"
               </div>
             </>
           )}
+
+          {selectedNode && (
+            <>
+              <div style={{ color: '#192E44', fontWeight: 700, marginBottom: '4px', fontSize: '13px' }}>
+                {selectedNode.id}
+              </div>
+              <div style={{ color: '#3C4A5A' }}>
+                Strategic node with <b>{selectedNode.degree}</b> deep-link relationships in the current vertical.
+              </div>
+            </>
+          )}
+        </div>
+      )}
 
           {selectedNode && (
             <>
