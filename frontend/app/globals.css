@@ -1,46 +1,53 @@
 @import "tailwindcss";
 
-@import "tailwindcss";
-
 :root {
-  /* BACKGROUNDS */
-  --bg-base: #FAF7F2;
-  --bg-warm: #F5F0E8;
-  --bg-code: #1E1E2E;
-  
-  /* TEXT */
-  --text-primary: #2C2A28;
-  --text-secondary: #6B6560;
-  --text-muted: #9E9790;
-  
-  /* BORDERS */
-  --border: #E5DFD6;
-  --border-light: #EEEBE5;
-  
-  /* SURFACES */
-  --bg-panel: #FFFFFF;
-  --bg-card: #FDF9F3;
-  --bg-hover: #F2ECE1;
+  /* ── Element 2025 Brand Palette ── */
+  --el-navy:       #192E44;   /* primary text, headers */
+  --el-teal:       #00D7D2;   /* primary accent */
+  --el-blue:       #05AFDC;   /* secondary accent */
+  --el-teal-light: #AAFFD2;   /* highlight / good */
+  --el-teal-pale:  #A7E8E0;   /* grid / subtle tint */
+  --el-slate:      #4B6478;   /* muted text */
+  --el-blue-mist:  #96BED2;   /* table accent */
+  --el-blue-pale:  #C8DCEB;   /* soft panels */
+  --el-green:      #82C341;   /* data point green */
+  --el-neutral:    #46505A;   /* body text */
+  --el-bg-page:    #E9EBEB;   /* page outspace */
+  --el-bg-light:   #F5F5F5;   /* card background */
+  --el-border:     #E3E3E3;   /* borders */
+  --el-fg:         #3C3C3C;   /* foreground text */
 
-  /* ACCENTS */
-  --accent-main: #D94F30;
-  --accent-hover: #C4432A;
-  --accent-light: #FDEEE9;
-  --accent-muted: #E8836C;
+  /* ── Semantic aliases (referenced by components) ── */
+  --bg-base:        var(--el-bg-page);
+  --bg-panel:       #FFFFFF;
+  --bg-card:        var(--el-bg-light);
+  --bg-hover:       var(--el-blue-pale);
 
-  /* SEMANTIC */
-  --accent-blue: #2A7B9B;
-  --accent-blue-dim: #E4F2F7;
-  --accent-purple: #7B6DAA;
+  --text-primary:   var(--el-navy);
+  --text-secondary: var(--el-neutral);
+  --text-muted:     var(--el-slate);
+
+  --border:         var(--el-border);
+  --border-light:   #EEEEEE;
+
+  /* Primary accent = Teal */
+  --accent-main:    var(--el-teal);
+  --accent-hover:   #00B8B4;
+  --accent-light:   rgba(0, 215, 210, 0.08);
+  --accent-muted:   var(--el-teal-light);
+
+  /* Secondary */
+  --accent-blue:       var(--el-blue);
+  --accent-blue-dim:   var(--el-blue-pale);
+  --accent-teal:       var(--el-teal);
+  --accent-teal-dim:   var(--el-teal-pale);
+  --accent-purple:     #7B6DAA;
   --accent-purple-dim: #F0EDF6;
-  --accent-teal: #2D8B55;
-  --accent-teal-dim: #E8F5EE;
-  
-  /* SHADOWS */
-  --shadow-sm: 0 1px 2px rgba(44,42,40,0.05);
-  --shadow-md: 0 4px 12px rgba(44,42,40,0.08);
 
-  /* TYPE SCALE */
+  --shadow-sm: 0 1px 3px rgba(25,46,68,0.06);
+  --shadow-md: 0 4px 14px rgba(25,46,68,0.10);
+
+  /* Type scale */
   --text-xs:   0.75rem;
   --text-sm:   0.875rem;
   --text-base: 1rem;
@@ -49,14 +56,16 @@
   --text-2xl:  1.5rem;
   --text-3xl:  1.875rem;
   --text-4xl:  2.25rem;
-  --text-5xl:  3rem;
-  --text-6xl:  3.75rem;
 
-  /* LINE HEIGHTS */
+  /* Line heights */
   --leading-tight:  1.15;
   --leading-snug:   1.3;
   --leading-normal: 1.6;
-  --leading-loose:  1.8;
+
+  /* Font stack — DIN is Element's brand typeface */
+  --font-display: 'DIN', 'DIN Condensed', 'Segoe UI', 'Inter', sans-serif;
+  --font-body:    'DIN', 'Segoe UI', 'Inter', system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', 'Fira Code', monospace;
 }
 
 * { box-sizing: border-box; }
@@ -65,19 +74,24 @@ html, body {
   height: 100%;
   margin: 0;
   background: var(--bg-base);
-  background-image: radial-gradient(ellipse at 20% 50%, rgba(217,79,48,0.03) 0%, transparent 50%);
   color: var(--text-primary);
-  font-family: var(--font-body), -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-body), sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
-::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+::-webkit-scrollbar-thumb { background: var(--el-blue-mist); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--el-slate); }
 
-/* Editorial Prose for Chat */
+/* ── Bounce animation for scroll cue ── */
+@keyframes bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); opacity: 0.7; }
+  50% { transform: translateX(-50%) translateY(6px); opacity: 1; }
+}
+
+/* Editorial Prose */
 .prose-editorial {
   line-height: var(--leading-normal);
   color: var(--text-primary);
@@ -112,8 +126,8 @@ html, body {
   font-family: var(--font-mono), monospace;
 }
 .prose-editorial pre {
-  background: var(--bg-code);
-  color: #CDD6F4;
+  background: var(--el-navy);
+  color: #AAFFD2;
   border-radius: 8px;
   padding: 1.25em;
   overflow-x: auto;
@@ -129,24 +143,24 @@ html, body {
   font-family: var(--font-mono), monospace;
 }
 .prose-editorial a {
-  color: var(--accent-main);
+  color: var(--el-blue);
   text-decoration: underline;
   text-decoration-color: var(--accent-light);
   text-underline-offset: 2px;
   transition: all 0.15s;
 }
-.prose-editorial a:hover { text-decoration-color: var(--accent-main); }
+.prose-editorial a:hover { text-decoration-color: var(--el-blue); }
 .prose-editorial hr {
   border: none;
-  border-top: 1px dashed var(--border);
+  border-top: 1px solid var(--border);
   margin: 1.5em 0;
 }
 
-/* Glass-card -> Warm shadow card */
+/* Cards */
 .glass-card {
   background: var(--bg-panel);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 10px;
   box-shadow: var(--shadow-md);
 }
 
@@ -155,7 +169,7 @@ html, body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--accent-main);
+  background: var(--el-teal);
   animation: pulse 2s infinite;
 }
 @keyframes pulse {
@@ -163,7 +177,7 @@ html, body {
   50% { opacity: 0.5; transform: scale(0.8); }
 }
 
-/* Shimmer loading */
+/* Shimmer */
 .shimmer {
   background: linear-gradient(90deg, var(--bg-panel) 25%, var(--bg-hover) 50%, var(--bg-panel) 75%);
   background-size: 200% 100%;
@@ -179,7 +193,7 @@ html, body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--bg-hover);
+  background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 20px;
   padding: 3px 10px;
@@ -195,7 +209,7 @@ html, body {
   align-items: center;
   gap: 10px;
   padding: 10px 14px;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
   color: var(--text-secondary);
   font-size: var(--text-sm);
@@ -203,25 +217,25 @@ html, body {
   transition: all 0.15s;
 }
 .nav-item:hover {
-  background: var(--bg-hover);
-  color: var(--text-primary);
+  background: var(--el-blue-pale);
+  color: var(--el-navy);
 }
 .nav-item.active {
-  background: var(--accent-light);
-  color: var(--accent-main);
-  border: 1px solid var(--accent-light);
-  font-weight: 600;
+  background: rgba(0, 215, 210, 0.12);
+  color: var(--el-navy);
+  border: 1px solid rgba(0, 215, 210, 0.3);
+  font-weight: 700;
 }
 
-/* Graph node badge */
+/* Graph badges */
 .verb-badge {
   display: inline-block;
   padding: 2px 8px;
   border-radius: 4px;
   font-size: 11px;
   font-weight: 600;
-  background: var(--accent-purple-dim);
-  color: var(--accent-purple);
+  background: var(--el-blue-pale);
+  color: var(--el-navy);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-family: var(--font-mono);
@@ -238,7 +252,7 @@ html, body {
   box-shadow: var(--shadow-sm);
 }
 .community-card:hover {
-  border-color: var(--accent-main);
+  border-color: var(--el-teal);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }

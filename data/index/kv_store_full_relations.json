@@ -7083,5 +7083,3529 @@
     "create_time": 1777381025,
     "update_time": 1777381025,
     "_id": "doc-5d62a266a8d6df68a2672eb570383d0e"
+  },
+  "doc-e7978c9e303ad77a6cb4edeefa5f61bc": {
+    "relation_pairs": [
+      [
+        "Debt",
+        "Net Cash Provided by (Used For) Financing Activities"
+      ],
+      [
+        "Intel",
+        "Media Relations"
+      ],
+      [
+        "Employee Severance",
+        "Intel Corporation"
+      ],
+      [
+        "Custom ASIC Infrastructure Processing Units (IPUs)",
+        "Intel"
+      ],
+      [
+        "Intel Corporation",
+        "Long-Term Liabilities"
+      ],
+      [
+        "Intel",
+        "Ireland"
+      ],
+      [
+        "Foundry Business",
+        "Intel"
+      ],
+      [
+        "GAAP Gross Profit",
+        "Intel"
+      ],
+      [
+        "GAAP Tax Rate",
+        "Intel"
+      ],
+      [
+        "Intel",
+        "Non-GAAP Tax Rate"
+      ],
+      [
+        "Intel",
+        "Process Performance"
+      ],
+      [
+        "Income Taxes",
+        "Total Adjustments"
+      ],
+      [
+        "Intel",
+        "Terafab Project"
+      ],
+      [
+        "Altera",
+        "Intel Corporation"
+      ],
+      [
+        "2026 Non-GAAP Tax Rate",
+        "Intel Corporation"
+      ],
+      [
+        "Intel Corporation",
+        "New Technologies"
+      ],
+      [
+        "Financial Report",
+        "Intel Corporation"
+      ],
+      [
+        "Google",
+        "Intel"
+      ],
+      [
+        "Income Taxes",
+        "Net Cash Provided by (Used For) Operating Activities"
+      ],
+      [
+        "Financial Report",
+        "Mar 28, 2026"
+      ],
+      [
+        "Intel",
+        "Taiwan"
+      ],
+      [
+        "Abby Zhang",
+        "Media Relations"
+      ],
+      [
+        "Consolidated Condensed Balance Sheets",
+        "Intel Corporation"
+      ],
+      [
+        "Intel Corporation",
+        "Intel Products"
+      ],
+      [
+        "David Zinsner",
+        "Intel Corporation"
+      ],
+      [
+        "Intel",
+        "Intel® Xeon® 600 Processors"
+      ],
+      [
+        "China",
+        "Intel"
+      ],
+      [
+        "Earnings Press Release",
+        "Intel Corporation"
+      ],
+      [
+        "Intel Corporation",
+        "Q2 2026 Outlook"
+      ],
+      [
+        "Intel",
+        "Non-GAAP Gross Profit"
+      ],
+      [
+        "Intel Corporation",
+        "Santa Clara"
+      ],
+      [
+        "Intel Corporation",
+        "Long-term Non-GAAP Tax Rate"
+      ],
+      [
+        "Catastrophic Events",
+        "Evolving Laws and Regulations"
+      ],
+      [
+        "Intel",
+        "Intel 18A"
+      ],
+      [
+        "Intel",
+        "Israel"
+      ],
+      [
+        "Intel",
+        "Intel® Core™ Series 3 Processors"
+      ],
+      [
+        "Intel Corporation",
+        "Non-GAAP Measures"
+      ],
+      [
+        "Equity Securities",
+        "Intel Corporation"
+      ],
+      [
+        "Intel",
+        "NVIDIA"
+      ],
+      [
+        "Common Stock",
+        "Net Cash Provided by (Used For) Financing Activities"
+      ],
+      [
+        "Intel",
+        "U.S."
+      ],
+      [
+        "Financial Results Q1 2026",
+        "Intel Corporation"
+      ],
+      [
+        "Divestitures",
+        "Intel Corporation"
+      ],
+      [
+        "Cash Flows Provided by (Used For) Investing Activities",
+        "Proceeds from Capital-Related Government Incentives"
+      ],
+      [
+        "Intel Corporation",
+        "Periodic Goodwill"
+      ],
+      [
+        "Intel Corporation",
+        "Short-Term Debt"
+      ],
+      [
+        "Escrowed Shares",
+        "Intel Corporation"
+      ],
+      [
+        "Intel",
+        "Ukraine"
+      ],
+      [
+        "Adjusted Free Cash Flow",
+        "Intel Corporation"
+      ],
+      [
+        "Intel",
+        "R&D"
+      ],
+      [
+        "Intel",
+        "Restructuring and Other Charges"
+      ],
+      [
+        "Intel Corporation",
+        "Mobileye"
+      ],
+      [
+        "Consolidated Condensed Balance Sheets",
+        "Total Liabilities and Stockholders' Equity"
+      ],
+      [
+        "Consolidated Condensed Statements of Cash Flows",
+        "Intel Corporation"
+      ],
+      [
+        "2025 Form 10-K",
+        "Intel Corporation"
+      ],
+      [
+        "Consolidated Condensed Balance Sheets",
+        "Total Current Assets"
+      ],
+      [
+        "Intel",
+        "Penang"
+      ],
+      [
+        "Management",
+        "Non-GAAP Measures"
+      ],
+      [
+        "Acquisition-Related Adjustments",
+        "Intel"
+      ],
+      [
+        "AI Era",
+        "Intel Corporation"
+      ],
+      [
+        "Accounts Payable",
+        "Total Adjustments"
+      ],
+      [
+        "Intel Corporation",
+        "Q1 2026 Form 10-Q"
+      ],
+      [
+        "Forward-Looking Statements",
+        "Management's Expectations"
+      ],
+      [
+        "Goodwill",
+        "Intel Corporation"
+      ],
+      [
+        "Net Cash Provided by (Used For) Investing Activities",
+        "Property, Plant, and Equipment"
+      ],
+      [
+        "Intel Corporation",
+        "Investor Relations"
+      ],
+      [
+        "Environmental Regulations",
+        "Health and Safety Regulations"
+      ],
+      [
+        "Intel Corporation",
+        "Q2 2026"
+      ],
+      [
+        "GAAP Operating Income",
+        "Intel"
+      ],
+      [
+        "Dec 27, 2025",
+        "Financial Report"
+      ],
+      [
+        "Intel Corporation",
+        "Lip-Bu Tan"
+      ],
+      [
+        "Intel",
+        "SambaNova"
+      ],
+      [
+        "Intel",
+        "Non-GAAP Operating Income"
+      ],
+      [
+        "Intel",
+        "Investor Relations"
+      ],
+      [
+        "Intel",
+        "Middle East"
+      ],
+      [
+        "Intel Corporation",
+        "Restructuring Charges"
+      ],
+      [
+        "2025 Non-GAAP Tax Rate",
+        "Intel Corporation"
+      ],
+      [
+        "Intel Corporation",
+        "Share-Based Compensation"
+      ],
+      [
+        "Intel Corporation",
+        "Intel Logo"
+      ],
+      [
+        "Intel Corporation",
+        "Share-based Compensation"
+      ],
+      [
+        "Currency Exchange Rates",
+        "Effective Tax Rate"
+      ],
+      [
+        "Intel Corporation",
+        "Non-GAAP Financial Measures"
+      ],
+      [
+        "Intel",
+        "Supply Chain"
+      ],
+      [
+        "Intel",
+        "Share-Based Compensation"
+      ],
+      [
+        "AI",
+        "Intel"
+      ],
+      [
+        "Abby Zhang",
+        "Investor Relations"
+      ],
+      [
+        "Intel Corporation",
+        "Media Relations"
+      ],
+      [
+        "Investor",
+        "Non-GAAP Measures"
+      ],
+      [
+        "Consolidated Condensed Statements of Operations",
+        "Intel Corporation"
+      ]
+    ],
+    "count": 89,
+    "create_time": 1777381772,
+    "update_time": 1777381772,
+    "_id": "doc-e7978c9e303ad77a6cb4edeefa5f61bc"
+  },
+  "doc-4c92ddfbda6d40994ad4c0e9a965d022": {
+    "relation_pairs": [
+      [
+        "Regulations",
+        "Risk Factors"
+      ],
+      [
+        "Arizona Campus",
+        "Intel"
+      ],
+      [
+        "Future Grants",
+        "U.S. Government"
+      ],
+      [
+        "AMD",
+        "INTC"
+      ],
+      [
+        "Secure Enclave Agreement",
+        "U.S. Government"
+      ],
+      [
+        "Geopolitical Tensions",
+        "Trade Policies"
+      ],
+      [
+        "Gaudi AI Accelerators",
+        "Intel Foundry"
+      ],
+      [
+        "Directors and Officers",
+        "Quarter Ended December 27, 2025"
+      ],
+      [
+        "Global Foundries",
+        "Intel Foundry"
+      ],
+      [
+        "Eaton Corp.",
+        "Ms. Miller Boise"
+      ],
+      [
+        "New Leading-Edge Fabrication Facilities",
+        "Ohio"
+      ],
+      [
+        "Debt Obligations",
+        "Senior Unsecured Notes"
+      ],
+      [
+        "IP Rights",
+        "VLSI Litigation"
+      ],
+      [
+        "Manufacturing Facilities",
+        "Poland"
+      ],
+      [
+        "AI Workloads",
+        "Public Cloud"
+      ],
+      [
+        "COVID-19-related Port Shutdowns",
+        "Demand"
+      ],
+      [
+        "Directors and Officers",
+        "Rule 10b5-1 Trading Arrangements"
+      ],
+      [
+        "AI Technology",
+        "Competitors"
+      ],
+      [
+        "Intel Foundry",
+        "SMIC"
+      ],
+      [
+        "Intel",
+        "Intel 3"
+      ],
+      [
+        "Competitors",
+        "Supply Chain"
+      ],
+      [
+        "David Zinsner",
+        "Intel Corporation"
+      ],
+      [
+        "Intel",
+        "Intel 14A"
+      ],
+      [
+        "Investment Firms",
+        "Non-Practicing Entities"
+      ],
+      [
+        "Intel 14A",
+        "Intel 18A"
+      ],
+      [
+        "U.S. Department of Commerce",
+        "U.S. Government"
+      ],
+      [
+        "Dusseldorf Regional Court",
+        "R2 Semiconductor, Inc."
+      ],
+      [
+        "Litigation",
+        "Regulatory Matters"
+      ],
+      [
+        "Intel 14A",
+        "Samsung"
+      ],
+      [
+        "Consumer Confidence",
+        "Macroeconomic Conditions"
+      ],
+      [
+        "Israel",
+        "Mobileye"
+      ],
+      [
+        "April Miller Boise",
+        "Eaton Corp."
+      ],
+      [
+        "INTC",
+        "Market Developments"
+      ],
+      [
+        "Disaggregated Design Architecture",
+        "TSMC"
+      ],
+      [
+        "China",
+        "SMIC"
+      ],
+      [
+        "Asia",
+        "TSMC"
+      ],
+      [
+        "Currency Exchange Rates",
+        "Financial Position"
+      ],
+      [
+        "Demand",
+        "Memory Chips"
+      ],
+      [
+        "Foundry Services",
+        "SCIP Agreements"
+      ],
+      [
+        "Copyrights",
+        "IP Rights"
+      ],
+      [
+        "Competitive Pricing Pressures",
+        "Geopolitical Conditions"
+      ],
+      [
+        "China",
+        "U.S."
+      ],
+      [
+        "INTC",
+        "Samsung"
+      ],
+      [
+        "Intel",
+        "Semiconductor Innovation"
+      ],
+      [
+        "Cash Flows",
+        "INTC"
+      ],
+      [
+        "Product Defects",
+        "Product Issues"
+      ],
+      [
+        "CHIPS Act",
+        "U.S. Government"
+      ],
+      [
+        "Financial Impact",
+        "Mobileye Goodwill"
+      ],
+      [
+        "Key Talent",
+        "RSUs"
+      ],
+      [
+        "Israel",
+        "Manufacturing Facilities"
+      ],
+      [
+        "Security Vulnerabilities",
+        "Spectre"
+      ],
+      [
+        "Intel Foundry",
+        "Israel"
+      ],
+      [
+        "Licenses",
+        "Third-Party IP"
+      ],
+      [
+        "Intel Foundry",
+        "Samsung"
+      ],
+      [
+        "David Zinsner",
+        "Micron Technology, Inc."
+      ],
+      [
+        "Russia",
+        "Ukraine"
+      ],
+      [
+        "Intel Foundry",
+        "UMC"
+      ],
+      [
+        "Capital Expenditures",
+        "Semiconductor Manufacturing Industry"
+      ],
+      [
+        "Business Operations",
+        "Semiconductor Process Technologies"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Malicious Attackers"
+      ],
+      [
+        "Intel 14A",
+        "TSMC"
+      ],
+      [
+        "Intel Core 13th and 14th Gen Desktop Processors",
+        "TSMC"
+      ],
+      [
+        "Intel Corporation",
+        "Ms. Miller Boise"
+      ],
+      [
+        "Foundry Services",
+        "Intel 14A"
+      ],
+      [
+        "Intel Foundry",
+        "Poland"
+      ],
+      [
+        "Germany",
+        "Manufacturing Facilities"
+      ],
+      [
+        "Albertsons Companies Inc.",
+        "David Zinsner"
+      ],
+      [
+        "Affirmed Networks",
+        "David Zinsner"
+      ],
+      [
+        "Micron Technology, Inc.",
+        "Nagasubramaniyan Chandrasekaran"
+      ],
+      [
+        "China",
+        "INTC"
+      ],
+      [
+        "Intel Corporation",
+        "S&P 500 IT Index"
+      ],
+      [
+        "Apollo",
+        "Fab 34"
+      ],
+      [
+        "Intel Corporation",
+        "S&P 500 Index"
+      ],
+      [
+        "Debt Obligations",
+        "Financial Condition"
+      ],
+      [
+        "Mitigation Techniques",
+        "Security Vulnerabilities"
+      ],
+      [
+        "Netherlands",
+        "U.S."
+      ],
+      [
+        "Future Grants",
+        "Government Entities"
+      ],
+      [
+        "Environmental Regulations",
+        "Risk Factors"
+      ],
+      [
+        "Employee Morale",
+        "Headcount Reductions"
+      ],
+      [
+        "AI Technology",
+        "Regulatory Risks"
+      ],
+      [
+        "Intel Foundry",
+        "TSMC"
+      ],
+      [
+        "Compliance Costs",
+        "Laws"
+      ],
+      [
+        "Intel",
+        "Nagasubramaniyan Chandrasekaran"
+      ],
+      [
+        "Japan",
+        "U.S."
+      ],
+      [
+        "ASML Holding N.V.",
+        "EUV Lithography Tools"
+      ],
+      [
+        "Natural Disasters",
+        "Risk Factors"
+      ],
+      [
+        "Costa Rica",
+        "Manufacturing Facilities"
+      ],
+      [
+        "Intel",
+        "Intel 18A-P"
+      ],
+      [
+        "Cadence Design Systems",
+        "Lip-Bu Tan"
+      ],
+      [
+        "Antitrust Laws",
+        "U.S. Administration"
+      ],
+      [
+        "TSMC",
+        "Third-Party Foundries"
+      ],
+      [
+        "Sales Outside the U.S.",
+        "U.S. Government"
+      ],
+      [
+        "Intel Corporation",
+        "SOX Index"
+      ],
+      [
+        "Directors and Officers",
+        "Exchange Act"
+      ],
+      [
+        "Intel Corporation",
+        "S&P 100 Index"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Generative AI Technologies"
+      ],
+      [
+        "Key Talent",
+        "Performance-Based Cash Incentive Awards"
+      ],
+      [
+        "Supply Chain",
+        "Supply Chain Issues"
+      ],
+      [
+        "Intel Foundry",
+        "Malaysia"
+      ],
+      [
+        "Executive Vice President and Chief Legal Officer",
+        "Ms. Miller Boise"
+      ],
+      [
+        "Intel Corporation",
+        "Nasdaq Global Select Market"
+      ],
+      [
+        "Intel Foundry",
+        "R&D"
+      ],
+      [
+        "Intel Core 13th and 14th Gen Desktop Processors",
+        "Security Vulnerabilities"
+      ],
+      [
+        "Intel",
+        "Intel 7"
+      ],
+      [
+        "April Miller Boise",
+        "Intel"
+      ],
+      [
+        "Company Success",
+        "Key Talent"
+      ],
+      [
+        "IP Rights",
+        "Patents"
+      ],
+      [
+        "Meltdown",
+        "Security Vulnerabilities"
+      ],
+      [
+        "Debt Obligations",
+        "Limited Number of Customers"
+      ],
+      [
+        "Intel 14A",
+        "Intel 18A-P"
+      ],
+      [
+        "COVID-19",
+        "Supply Chain"
+      ],
+      [
+        "INTC",
+        "NVIDIA"
+      ],
+      [
+        "Financial Position",
+        "Market Conditions"
+      ],
+      [
+        "IP Rights",
+        "Licensing Agreements"
+      ],
+      [
+        "Manufacturing Facilities",
+        "R&D Investments"
+      ],
+      [
+        "Malaysia",
+        "Manufacturing Facilities"
+      ],
+      [
+        "Supply Chain",
+        "TSMC"
+      ],
+      [
+        "Costs Related to Cybersecurity",
+        "Regulatory Inquiries"
+      ],
+      [
+        "INTC",
+        "Results of Operations"
+      ],
+      [
+        "INTC",
+        "TSMC"
+      ],
+      [
+        "Intellectual Property Rights",
+        "Third Parties"
+      ],
+      [
+        "David Zinsner",
+        "Executive Vice President and Chief Financial Officer"
+      ],
+      [
+        "Financial Condition",
+        "INTC"
+      ],
+      [
+        "Stakeholder Expectations",
+        "Supply Chain"
+      ],
+      [
+        "Intel 14A",
+        "Next-Generation Process Technologies"
+      ],
+      [
+        "Cybersecurity",
+        "Federal Reserve"
+      ],
+      [
+        "Fab 34",
+        "Intel"
+      ],
+      [
+        "Authorized Common Stock Repurchase Program",
+        "Withheld Shares of Common Stock"
+      ],
+      [
+        "AI Workloads",
+        "Intel Foundry"
+      ],
+      [
+        "Costa Rica",
+        "Intel Foundry"
+      ],
+      [
+        "CHIPS Act Agreement",
+        "U.S. Government"
+      ],
+      [
+        "Intel",
+        "Intel 4"
+      ],
+      [
+        "Disaggregated Design Architecture",
+        "Operational Efficiency"
+      ],
+      [
+        "April Miller Boise",
+        "Meritor Inc."
+      ],
+      [
+        "EUV Lithography Tools",
+        "Semiconductor Manufacturing Industry"
+      ],
+      [
+        "INTC",
+        "Qualcomm"
+      ],
+      [
+        "AI Workloads",
+        "Limited Number of Customers"
+      ],
+      [
+        "Financial Condition",
+        "Opportunity Costs"
+      ],
+      [
+        "Taiwan",
+        "U.S. Administration"
+      ],
+      [
+        "Distributors",
+        "Products"
+      ],
+      [
+        "Apple",
+        "INTC"
+      ],
+      [
+        "IP Rights",
+        "Trade Secrets"
+      ],
+      [
+        "Intel Foundry",
+        "Ohio"
+      ],
+      [
+        "Manufacturing Facilities",
+        "Ohio"
+      ],
+      [
+        "Impact of Mitigation Techniques",
+        "Third Parties"
+      ],
+      [
+        "Sanctions Lists",
+        "Third Parties"
+      ],
+      [
+        "Risks and Uncertainties",
+        "U.S. Government"
+      ],
+      [
+        "Commercial Paper Program",
+        "Credit Facilities"
+      ],
+      [
+        "Risk Factors",
+        "Tax Laws"
+      ],
+      [
+        "Capital Investments",
+        "Intel 14A"
+      ],
+      [
+        "PC TAM",
+        "Risks and Uncertainties"
+      ],
+      [
+        "AI Capabilities",
+        "GPUs"
+      ],
+      [
+        "Non-Practicing Entities",
+        "R2 Semiconductor, Inc."
+      ],
+      [
+        "Competitors",
+        "Financial Resources"
+      ],
+      [
+        "Ms. Miller Boise",
+        "Trane Technologies, plc"
+      ],
+      [
+        "Meritor Inc.",
+        "Ms. Miller Boise"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Supply Chain Risk"
+      ],
+      [
+        "Costs Related to Cybersecurity",
+        "Cybersecurity Incident"
+      ],
+      [
+        "Other Current Grant Arrangements",
+        "U.S. Government"
+      ],
+      [
+        "Germany",
+        "Intel Foundry"
+      ],
+      [
+        "Errata",
+        "Product Issues"
+      ],
+      [
+        "Intel",
+        "U.S. Government"
+      ],
+      [
+        "Arizona Campus",
+        "Brookfield"
+      ],
+      [
+        "Customers",
+        "Third Parties"
+      ],
+      [
+        "December 27, 2025",
+        "Intel 14A"
+      ]
+    ],
+    "count": 165,
+    "create_time": 1777381775,
+    "update_time": 1777381775,
+    "_id": "doc-4c92ddfbda6d40994ad4c0e9a965d022"
+  },
+  "doc-0292dbc49bc4382dc3bccb8e9b403c95": {
+    "relation_pairs": [
+      [
+        "Board of Directors",
+        "KLAC"
+      ],
+      [
+        "Inflation Reduction Act of 2022",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Average Price Paid per Share",
+        "Total Number of Shares Purchased"
+      ],
+      [
+        "KLAC",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Stock Repurchase Program",
+        "Total Number of Shares Purchased"
+      ],
+      [
+        "Approximate Dollar Value of Shares",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Board of Directors",
+        "Q2 2025"
+      ],
+      [
+        "KLAC",
+        "Quarterly MDA"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777381817,
+    "update_time": 1777381817,
+    "_id": "doc-0292dbc49bc4382dc3bccb8e9b403c95"
+  },
+  "doc-e87a4f351685e936b673b5d8beb0687a": {
+    "relation_pairs": [
+      [
+        "Board of Directors",
+        "KLAC"
+      ],
+      [
+        "Inflation Reduction Act of 2022",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Layer D",
+        "Q4 2025"
+      ],
+      [
+        "KLAC",
+        "Q4 2025 Quarterly MDA"
+      ],
+      [
+        "KLAC",
+        "Q4 2025"
+      ],
+      [
+        "KLAC",
+        "Stock Repurchase Program"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1777381832,
+    "update_time": 1777381832,
+    "_id": "doc-e87a4f351685e936b673b5d8beb0687a"
+  },
+  "doc-dd7521f9a2af5468bfd407a10851d384": {
+    "relation_pairs": [
+      [
+        "Cash, Cash Equivalents, and Marketable Securities",
+        "Liquidity and Capital Resources"
+      ],
+      [
+        "Customer Demand",
+        "Product Revenue"
+      ],
+      [
+        "Accounts Receivable",
+        "Operating Activities"
+      ],
+      [
+        "Liquidity and Capital Resources",
+        "Marketable Securities"
+      ],
+      [
+        "Common Stock",
+        "Prior Repurchase Program"
+      ],
+      [
+        "Liquidity and Capital Resources",
+        "Santa Clara, California"
+      ],
+      [
+        "Gross Profit",
+        "Revenue"
+      ],
+      [
+        "Arista",
+        "Core"
+      ],
+      [
+        "Contracts",
+        "PCS"
+      ],
+      [
+        "Management",
+        "Unrecognized Tax Benefits"
+      ],
+      [
+        "Arista",
+        "Supplier Liabilities"
+      ],
+      [
+        "Capital Expenditures",
+        "Property Project"
+      ],
+      [
+        "Equity-Based Compensation",
+        "Provision for Income Taxes"
+      ],
+      [
+        "Arista",
+        "Income Taxes"
+      ],
+      [
+        "Revenue",
+        "Revenue by Geography"
+      ],
+      [
+        "Cash Flows",
+        "Operating Activities"
+      ],
+      [
+        "AI Centers",
+        "Arista"
+      ],
+      [
+        "Form 10-K",
+        "Income Taxes"
+      ],
+      [
+        "Customer Demand",
+        "Switching and Routing Platforms"
+      ],
+      [
+        "Common Stock",
+        "Financing Activities"
+      ],
+      [
+        "Contract Manufacturers",
+        "Purchase Obligations"
+      ],
+      [
+        "Cost of Revenue",
+        "Service Revenue"
+      ],
+      [
+        "Cost of Revenue",
+        "Net Excess/Obsolete Inventory"
+      ],
+      [
+        "Tax Examination",
+        "Unrecognized Tax Benefits"
+      ],
+      [
+        "Operating Expenses",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Effective Tax Rate",
+        "Stock-Based Compensation"
+      ],
+      [
+        "Arista",
+        "Ethernet Switching"
+      ],
+      [
+        "Arista",
+        "Forward-looking Statements"
+      ],
+      [
+        "EOS Software",
+        "Products"
+      ],
+      [
+        "Arista",
+        "Centers of Data Strategy"
+      ],
+      [
+        "Deferred Income Taxes",
+        "Operating Activities"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "Recently Adopted Accounting Pronouncements"
+      ],
+      [
+        "Special Purpose Entities",
+        "Structured Finance"
+      ],
+      [
+        "AI and Specialty Providers",
+        "Arista"
+      ],
+      [
+        "Deferred Income Taxes",
+        "Stock-Based Compensation Expenses"
+      ],
+      [
+        "Product Revenue",
+        "Service Revenue"
+      ],
+      [
+        "Cash Flows",
+        "Investing Activities"
+      ],
+      [
+        "Interest Income",
+        "Provision for Income Taxes"
+      ],
+      [
+        "Effective Tax Rate",
+        "State Taxes"
+      ],
+      [
+        "Contract Manufacturers",
+        "Supply Chain"
+      ],
+      [
+        "Common Stock",
+        "Employee Equity Incentive Plans"
+      ],
+      [
+        "Deferred Tax Assets",
+        "Income Taxes"
+      ],
+      [
+        "General and Administrative Expenses",
+        "Professional Fees"
+      ],
+      [
+        "Property Project",
+        "Santa Clara"
+      ],
+      [
+        "AI Ethernet Market",
+        "Customer Trials"
+      ],
+      [
+        "Arista",
+        "Data Centers"
+      ],
+      [
+        "Off-balance Sheet Arrangements",
+        "Unconsolidated Entities"
+      ],
+      [
+        "Cash Flows",
+        "Financing Activities"
+      ],
+      [
+        "Personnel Costs",
+        "Research and Development"
+      ],
+      [
+        "Annual Business",
+        "Arista"
+      ],
+      [
+        "Tax Planning Strategies",
+        "Unrecognized Tax Benefits"
+      ],
+      [
+        "Accounts Payable",
+        "Operating Activities"
+      ],
+      [
+        "Deferred Income Taxes",
+        "Deferred Tax Assets"
+      ],
+      [
+        "Arista",
+        "Enterprise"
+      ],
+      [
+        "Global Economic and Business Activities",
+        "Supply Chain"
+      ],
+      [
+        "Revenue Recognition",
+        "SSP"
+      ],
+      [
+        "Common Stock",
+        "New Repurchase Program"
+      ],
+      [
+        "Capital Expenditures",
+        "Cash Flows from Investing Activities"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "Liquidity and Capital Resources"
+      ],
+      [
+        "Personnel Costs",
+        "Research and Development Expenses"
+      ],
+      [
+        "Cost of Revenue",
+        "Gross Profit"
+      ],
+      [
+        "Deferred Revenue Balances",
+        "Revenue"
+      ],
+      [
+        "OBBB Act",
+        "U.S."
+      ],
+      [
+        "Provision for Income Taxes",
+        "U.S."
+      ],
+      [
+        "Operating Activities",
+        "Stock-Based Compensation Expenses"
+      ],
+      [
+        "Personnel Costs",
+        "Sales and Marketing Expenses"
+      ],
+      [
+        "Arista",
+        "Risk Factors"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "U.S. GAAP"
+      ],
+      [
+        "PCS Contracts",
+        "Service Revenue"
+      ],
+      [
+        "Arista",
+        "WAN Centers"
+      ],
+      [
+        "Arista",
+        "Inventory Valuation"
+      ],
+      [
+        "Taxable Temporary Differences",
+        "Unrecognized Tax Benefits"
+      ],
+      [
+        "New Product Introduction Costs",
+        "Research and Development Expenses"
+      ],
+      [
+        "Foreign Jurisdictions",
+        "U.S."
+      ],
+      [
+        "Arista",
+        "Campus Centers"
+      ],
+      [
+        "Arista",
+        "Network Data Lake"
+      ],
+      [
+        "Pre-Tax Income",
+        "Provision for Income Taxes"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "IRC Section 174"
+      ],
+      [
+        "Liquidity and Capital Resources",
+        "U.S."
+      ],
+      [
+        "Arista",
+        "Extensible Operating System"
+      ],
+      [
+        "Investing Activities",
+        "VeloCloud"
+      ],
+      [
+        "AI Networks",
+        "Liquidity and Capital Resources"
+      ],
+      [
+        "Cash Flows from Financing Activities",
+        "Common Stock Repurchases"
+      ],
+      [
+        "Non-Americas Revenues",
+        "Service Revenue"
+      ],
+      [
+        "Operating Expenses",
+        "Research and Development Expenses"
+      ],
+      [
+        "Research and Development",
+        "Sales and Marketing"
+      ],
+      [
+        "Cost of Revenue",
+        "Gross Margin"
+      ],
+      [
+        "Integrated Circuits",
+        "Purchase Obligations"
+      ],
+      [
+        "Cost of Revenue",
+        "Product Revenue"
+      ],
+      [
+        "Leases",
+        "Operating Lease Arrangements"
+      ],
+      [
+        "Arista",
+        "Evaluation Inventory"
+      ],
+      [
+        "Interest Income",
+        "Other Income (Expense), Net"
+      ],
+      [
+        "Deferred Revenue",
+        "Operating Activities"
+      ],
+      [
+        "Arista",
+        "Cloud and AI Titans"
+      ],
+      [
+        "Business Acquisition",
+        "Cash Flows from Investing Activities"
+      ],
+      [
+        "Deferred Tax Assets",
+        "Valuation Allowance"
+      ]
+    ],
+    "count": 96,
+    "create_time": 1777381885,
+    "update_time": 1777381885,
+    "_id": "doc-dd7521f9a2af5468bfd407a10851d384"
+  },
+  "doc-149cf092dea98bd9fdac16f80b212954": {
+    "relation_pairs": [
+      [
+        "Large Customers",
+        "Revenue"
+      ],
+      [
+        "Inflation Reduction Act of 2022",
+        "United States"
+      ],
+      [
+        "AI Ethernet products",
+        "Customer Trials"
+      ],
+      [
+        "Channel Partners",
+        "Systems Integrators"
+      ],
+      [
+        "Purchase Orders",
+        "Retail Customers"
+      ],
+      [
+        "Currency Fluctuations",
+        "Sales Prices"
+      ],
+      [
+        "End-Customer Needs",
+        "Products"
+      ],
+      [
+        "China",
+        "International Operations"
+      ],
+      [
+        "ANET",
+        "United States"
+      ],
+      [
+        "Executive Officers",
+        "Litigation"
+      ],
+      [
+        "AI Networks",
+        "Agentic AI Models"
+      ],
+      [
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      [
+        "Export Controls",
+        "Semiconductors"
+      ],
+      [
+        "Communication Equipment Products",
+        "Vietnam"
+      ],
+      [
+        "Foreign Currency Exchange Rates",
+        "U.S. Dollars"
+      ],
+      [
+        "New Technologies",
+        "Products"
+      ],
+      [
+        "AI Ethernet",
+        "Switching and Routing Platforms"
+      ],
+      [
+        "Annual_risk",
+        "Intellectual Property"
+      ],
+      [
+        "Contract Manufacturer",
+        "Tariffs"
+      ],
+      [
+        "Trade Expansion Act of 1962",
+        "U.S. Government"
+      ],
+      [
+        "AI",
+        "Switching and Routing Platforms"
+      ],
+      [
+        "Component Inventory",
+        "Excess and Obsolete Inventory-Related Charges"
+      ],
+      [
+        "Company",
+        "Litigation"
+      ],
+      [
+        "Communication Equipment Products",
+        "U.S."
+      ],
+      [
+        "Channel Partners",
+        "Value-Added Resellers"
+      ],
+      [
+        "Change of Control",
+        "Delaware General Corporation Law"
+      ],
+      [
+        "AI and Cloud Technology",
+        "Company"
+      ],
+      [
+        "Manufacturing Capacity",
+        "Supply Chain Delays"
+      ],
+      [
+        "AI Market",
+        "Wi-Fi Networking Markets"
+      ],
+      [
+        "General Data Protection Regulation",
+        "United Kingdom"
+      ],
+      [
+        "China",
+        "U.S. Congress"
+      ],
+      [
+        "Merchant Silicon Vendors",
+        "White Boxes"
+      ],
+      [
+        "AI Ethernet products",
+        "White Box Networking Vendors"
+      ],
+      [
+        "Industry Consolidation",
+        "Supply Constraints"
+      ],
+      [
+        "Tariffs",
+        "Trade-Related Costs"
+      ],
+      [
+        "Anti-Bribery",
+        "Company"
+      ],
+      [
+        "False Positives",
+        "Security Platform"
+      ],
+      [
+        "ANET",
+        "Q1_2026"
+      ],
+      [
+        "China",
+        "Unreliable Entity List"
+      ],
+      [
+        "Memory Market",
+        "Supply Constraints"
+      ],
+      [
+        "Component Supply",
+        "Semiconductors"
+      ],
+      [
+        "AI Ethernet products",
+        "AI-Driven Campus and Branch Networking Offerings"
+      ],
+      [
+        "Products",
+        "Technological Shifts"
+      ],
+      [
+        "Annual_risk",
+        "Customers"
+      ],
+      [
+        "IRS",
+        "Tax Compliance"
+      ],
+      [
+        "China",
+        "Communication Equipment Products"
+      ],
+      [
+        "Competitors",
+        "Source Code"
+      ],
+      [
+        "Component Inventory",
+        "Demand Forecasts"
+      ],
+      [
+        "End-Customer Orders",
+        "Manufacturing Delays"
+      ],
+      [
+        "Confidentiality Agreements",
+        "Proprietary Technology"
+      ],
+      [
+        "U.S. Government",
+        "U.S. Tariffs"
+      ],
+      [
+        "AI Customers",
+        "Switching and Routing Platforms"
+      ],
+      [
+        "Networking Market",
+        "Virtualization"
+      ],
+      [
+        "Arista Guardian",
+        "Artificial Intelligence"
+      ],
+      [
+        "Cloud Service Providers",
+        "White Box Networking Products"
+      ],
+      [
+        "Inventory Requirements",
+        "Sales Forecasts"
+      ],
+      [
+        "Export Controls",
+        "U.S. Government"
+      ],
+      [
+        "Excess or Obsolete Inventory",
+        "Gross Margins"
+      ],
+      [
+        "Intellectual Property Litigation",
+        "Royalty or License Agreements"
+      ],
+      [
+        "China",
+        "Micron"
+      ],
+      [
+        "Broadcom",
+        "Brocade Communications"
+      ],
+      [
+        "Financial Condition",
+        "Results of Operations"
+      ],
+      [
+        "Claims for Liability",
+        "Operational Results"
+      ],
+      [
+        "AI Market",
+        "Company"
+      ],
+      [
+        "International Operations",
+        "Russia"
+      ],
+      [
+        "California Consumer Privacy Act",
+        "Governmental Laws and Regulations"
+      ],
+      [
+        "Chinese Government",
+        "United States"
+      ],
+      [
+        "Company",
+        "U.S. Foreign Corrupt Practices Act"
+      ],
+      [
+        "Ethernet Networking Solutions",
+        "InfiniBand Products"
+      ],
+      [
+        "Channel Partners",
+        "Government Entities"
+      ],
+      [
+        "Licenses",
+        "Open Source Software"
+      ],
+      [
+        "Government Regulations",
+        "Networking Market"
+      ],
+      [
+        "AI Networks",
+        "Generative AI Models"
+      ],
+      [
+        "International Production",
+        "Malaysia"
+      ],
+      [
+        "Macroeconomic Factors",
+        "Sales Prices"
+      ],
+      [
+        "AI Ethernet Products",
+        "Company"
+      ],
+      [
+        "Economic Sanctions",
+        "United States Export Controls"
+      ],
+      [
+        "Costs",
+        "Regulatory Compliance"
+      ],
+      [
+        "AI Ethernet",
+        "Products"
+      ],
+      [
+        "Estimated Demand Forecasts",
+        "Purchase Orders"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Manufacturing Process"
+      ],
+      [
+        "Contracts",
+        "Liability Provisions"
+      ],
+      [
+        "Channel Partners",
+        "Customers"
+      ],
+      [
+        "Business",
+        "Economic Disruptions"
+      ],
+      [
+        "Order Fulfillment",
+        "Timing of Inventory Receipts"
+      ],
+      [
+        "China and Hong Kong",
+        "U.S. Government"
+      ],
+      [
+        "Contract Manufacturer",
+        "Shelter in Place Orders"
+      ],
+      [
+        "Customer Orders",
+        "Sales"
+      ],
+      [
+        "Affiliates",
+        "Stockholders"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Regulatory Bodies"
+      ],
+      [
+        "Customers",
+        "Tariffs"
+      ],
+      [
+        "Artificial Intelligence",
+        "Company"
+      ],
+      [
+        "OECD",
+        "One Big Beautiful Bill Act"
+      ],
+      [
+        "AI Ethernet",
+        "Network Infrastructure"
+      ],
+      [
+        "Canada",
+        "International Operations"
+      ],
+      [
+        "Competitors",
+        "Networking Market"
+      ],
+      [
+        "International Operations",
+        "Mexico"
+      ],
+      [
+        "Geopolpolitical Conditions",
+        "Supply Chain"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "Purchase Commitments"
+      ],
+      [
+        "Company",
+        "Government Trade Restrictions"
+      ],
+      [
+        "Component Inventory",
+        "Manufacturing and Engineering Change Orders"
+      ],
+      [
+        "Economic Sanctions",
+        "U.S. Government"
+      ],
+      [
+        "U.S. Government",
+        "UFLPA"
+      ],
+      [
+        "Consultants",
+        "Cybersecurity Incidents"
+      ],
+      [
+        "Component Supply",
+        "Manufacturing Capacity"
+      ],
+      [
+        "Company",
+        "Distributors"
+      ],
+      [
+        "Channel Partners",
+        "Global Economic Conditions"
+      ],
+      [
+        "Annual_risk",
+        "Risk Factors"
+      ],
+      [
+        "Annual_risk",
+        "Supply Chain and Manufacturing"
+      ],
+      [
+        "Cloud Computing",
+        "Networking Market"
+      ],
+      [
+        "Our Partners",
+        "Our Software"
+      ],
+      [
+        "Global Economic Conditions",
+        "U.S. Tariffs"
+      ],
+      [
+        "Products",
+        "Services"
+      ],
+      [
+        "Company",
+        "Supply Chain Integrity"
+      ],
+      [
+        "Section 301 Trade Authorities",
+        "U.S. Government"
+      ],
+      [
+        "Manufacturing Capacity",
+        "Supply Chain"
+      ],
+      [
+        "Common Stock",
+        "Insider Control"
+      ],
+      [
+        "Common Stock",
+        "Financial Reporting"
+      ],
+      [
+        "Digital Personal Data Protection Act",
+        "India"
+      ],
+      [
+        "Products",
+        "Third-Party Claims"
+      ],
+      [
+        "Intellectual Property Rights",
+        "Royalty or License Agreements"
+      ],
+      [
+        "European Union",
+        "U.S."
+      ],
+      [
+        "Intellectual Property Rights",
+        "International Trade Commission"
+      ],
+      [
+        "Customer Trials",
+        "Networking Solutions Market"
+      ],
+      [
+        "AI Market",
+        "Network Security Markets"
+      ],
+      [
+        "Confidentiality or License Agreements",
+        "Source Code"
+      ],
+      [
+        "Cloud Networking Platform",
+        "Research and Development"
+      ],
+      [
+        "Company",
+        "Government Laws and Regulations"
+      ],
+      [
+        "Economic Conditions",
+        "International Trade Restrictions"
+      ],
+      [
+        "Component Inventory",
+        "Product Priorities"
+      ],
+      [
+        "Broadcom",
+        "Merchant Silicon Vendors"
+      ],
+      [
+        "Large Customers",
+        "Switching and Routing Platforms"
+      ],
+      [
+        "Financial Reporting",
+        "Internal Control"
+      ],
+      [
+        "Claims for Liability",
+        "Financial Performance"
+      ],
+      [
+        "Company",
+        "Data Protection"
+      ],
+      [
+        "Component Suppliers",
+        "Supply Shortages"
+      ],
+      [
+        "Governmental Laws and Regulations",
+        "U.S. Foreign Corrupt Practices Act"
+      ],
+      [
+        "Campus",
+        "Campus Workspace"
+      ],
+      [
+        "Campus Customers",
+        "Switching and Routing Platforms"
+      ],
+      [
+        "Company",
+        "Public Sector"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Services"
+      ],
+      [
+        "Business Resources",
+        "Legal Proceedings"
+      ],
+      [
+        "Common Stock",
+        "Stock Repurchase Programs"
+      ],
+      [
+        "Company",
+        "Systems Integrators"
+      ],
+      [
+        "Open Source Software",
+        "Third-Party Authors"
+      ],
+      [
+        "Corporate Headquarters",
+        "San Francisco Bay Area"
+      ],
+      [
+        "UFLPA",
+        "Xinjiang Uyghur Autonomous Region"
+      ],
+      [
+        "Cloud Computing Environments",
+        "Products"
+      ],
+      [
+        "Geopolitical Conditions",
+        "Supply Constraints"
+      ],
+      [
+        "Business Uncertainty",
+        "Macroeconomic Factors"
+      ],
+      [
+        "Common Stock",
+        "Inflation Reduction Act of 2022"
+      ],
+      [
+        "Cloud Service Solutions",
+        "Customers"
+      ],
+      [
+        "Business",
+        "Sales Structure"
+      ],
+      [
+        "Company",
+        "Component Suppliers"
+      ],
+      [
+        "Competitors",
+        "Switching and Routing Platforms"
+      ],
+      [
+        "Economic Instability",
+        "IT"
+      ],
+      [
+        "Customer Orders",
+        "Cybersecurity Incidents"
+      ],
+      [
+        "AI Market",
+        "Customers"
+      ],
+      [
+        "Annual_risk",
+        "Our Business"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Third Parties"
+      ],
+      [
+        "Component Inventory",
+        "Contract Manufacturer"
+      ],
+      [
+        "Partners",
+        "Source Code"
+      ],
+      [
+        "800 GbE",
+        "AI Ethernet products"
+      ],
+      [
+        "International Emergency Economic Powers Act",
+        "U.S. Government"
+      ],
+      [
+        "Company",
+        "Value-Added Resellers"
+      ],
+      [
+        "China",
+        "Taiwan"
+      ],
+      [
+        "Ethernet Speeds",
+        "Products"
+      ],
+      [
+        "European Union",
+        "International Operations"
+      ],
+      [
+        "AI Markets",
+        "Enterprise"
+      ],
+      [
+        "China",
+        "U.S."
+      ],
+      [
+        "Industry Standards",
+        "Interoperability"
+      ],
+      [
+        "Switching and Routing Platforms",
+        "White Box Solutions"
+      ],
+      [
+        "Common Stock",
+        "Executive Officers"
+      ],
+      [
+        "Communications Equipment",
+        "U.S. Tariffs"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Employees"
+      ],
+      [
+        "Global Banking and Financial Services Markets",
+        "Global Economy"
+      ],
+      [
+        "Capital Expenditures",
+        "Efficiency Efforts"
+      ],
+      [
+        "China",
+        "United States"
+      ],
+      [
+        "AI Ethernet products",
+        "InfiniBand products"
+      ],
+      [
+        "Annual_risk",
+        "Cybersecurity and Data Privacy"
+      ],
+      [
+        "Manufacturing Partners",
+        "Product Lines"
+      ],
+      [
+        "Acacia Communications",
+        "Cisco"
+      ],
+      [
+        "Business Operations",
+        "Natural Disasters"
+      ],
+      [
+        "Financial Reporting",
+        "Managements Discussion and Analysis of Financial Condition and Results of Operations"
+      ],
+      [
+        "White Box Networking Products",
+        "White Box Networking Vendors"
+      ],
+      [
+        "Intellectual Property Rights",
+        "Trademarks"
+      ],
+      [
+        "Digital Personal Data Protection Act 2023",
+        "India"
+      ],
+      [
+        "Communication Equipment Products",
+        "Malaysia"
+      ],
+      [
+        "Communication Equipment Products",
+        "Mexico"
+      ],
+      [
+        "General Data Protection Regulation",
+        "Governmental Laws and Regulations"
+      ],
+      [
+        "Claims for Liability",
+        "Regulatory Investigations"
+      ],
+      [
+        "ANET",
+        "China"
+      ],
+      [
+        "ANET",
+        "LAYER_E"
+      ],
+      [
+        "Company",
+        "Qualified Personnel and Senior Management"
+      ],
+      [
+        "Customer Lead Times",
+        "Supply Chain"
+      ],
+      [
+        "AI Market",
+        "Campus Switching"
+      ],
+      [
+        "Company",
+        "InfiniBand Products"
+      ],
+      [
+        "Governmental Agencies",
+        "Governmental Laws and Regulations"
+      ],
+      [
+        "One Big Beautiful Bill Act",
+        "Tax Compliance"
+      ],
+      [
+        "Company",
+        "Economic Sanctions"
+      ],
+      [
+        "Products",
+        "Third-Party Merchant Silicon Chip Suppliers"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Products"
+      ],
+      [
+        "AI Networks",
+        "Networking Market"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Systems"
+      ],
+      [
+        "AI Ethernet products",
+        "Campus and Wi-Fi Networking"
+      ],
+      [
+        "Consultants",
+        "Source Code"
+      ],
+      [
+        "Network Infrastructure",
+        "Network Security Markets"
+      ],
+      [
+        "Board of Directors",
+        "Executive Officers"
+      ],
+      [
+        "Company",
+        "Privacy"
+      ],
+      [
+        "Gross Profits",
+        "Sales Prices"
+      ],
+      [
+        "Board of Directors",
+        "Common Stock"
+      ],
+      [
+        "Dell",
+        "Force10 Networks"
+      ],
+      [
+        "Change of Control",
+        "Common Stock"
+      ],
+      [
+        "Products",
+        "White Box Hardware"
+      ],
+      [
+        "Common Stock",
+        "Market Price"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Software"
+      ],
+      [
+        "Consolidation of Customer Base",
+        "Large Customers"
+      ],
+      [
+        "California Consumer Privacy Act",
+        "California Privacy Rights Act"
+      ],
+      [
+        "Competitors",
+        "Intellectual Property Rights"
+      ],
+      [
+        "China",
+        "U.S. Government"
+      ],
+      [
+        "Enterprise Customers",
+        "Switching and Routing Platforms"
+      ],
+      [
+        "Company",
+        "Natural Disasters"
+      ],
+      [
+        "Products",
+        "Sales and Marketing Activities"
+      ],
+      [
+        "Company",
+        "Global Macroeconomic Conditions"
+      ],
+      [
+        "Draft Digital Personal Data Protection Rules",
+        "Ministry of Electronics and Information Technology"
+      ],
+      [
+        "Network Infrastructure",
+        "Products"
+      ],
+      [
+        "Company",
+        "Government Entities"
+      ],
+      [
+        "Advanced Integrated Circuits",
+        "U.S. Government"
+      ],
+      [
+        "Accounting, Compliance, Regulation and Tax",
+        "Annual_risk"
+      ],
+      [
+        "Delaware General Corporation Law",
+        "Takeover Attempts"
+      ],
+      [
+        "Common Stock",
+        "Volatility"
+      ],
+      [
+        "Customer Orders",
+        "Financial Performance"
+      ],
+      [
+        "Geopolitical Pressures",
+        "International Trade"
+      ],
+      [
+        "Digital Operational Resiliency Act (DORA)",
+        "financial sector"
+      ],
+      [
+        "Revenue",
+        "Sales Cycle"
+      ],
+      [
+        "Company",
+        "Customers"
+      ],
+      [
+        "Our Software",
+        "Source Code"
+      ],
+      [
+        "Products",
+        "Sales Cycle"
+      ],
+      [
+        "Component Supply",
+        "Purchase Orders"
+      ],
+      [
+        "Campus Workspace",
+        "Products"
+      ],
+      [
+        "Cisco",
+        "U.S. Customs and Border Protection"
+      ],
+      [
+        "Communication Equipment Products",
+        "Taiwan"
+      ],
+      [
+        "Company",
+        "Foreign Investment Laws and Regulations"
+      ],
+      [
+        "Customers",
+        "Networking Market"
+      ],
+      [
+        "ANET",
+        "Annual Report on Form 10-K"
+      ],
+      [
+        "Common Stock",
+        "Tax Laws"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Our Products"
+      ],
+      [
+        "Budgeting Processes",
+        "Customers"
+      ],
+      [
+        "Chinese Government",
+        "Unreliable Entity List"
+      ],
+      [
+        "Common Stock",
+        "Stockholders"
+      ],
+      [
+        "AI Neoclouds",
+        "Nvidia"
+      ],
+      [
+        "AI Market",
+        "Agentic AI Models"
+      ],
+      [
+        "Acquisition",
+        "Investment"
+      ],
+      [
+        "International Operations",
+        "U.S."
+      ],
+      [
+        "Accounting Principles Generally Accepted in the United States",
+        "Financial Reporting"
+      ],
+      [
+        "San Francisco Bay Area",
+        "Technology Sector"
+      ],
+      [
+        "Network Security",
+        "Switching and Routing Platforms"
+      ],
+      [
+        "Global Geopolitical and Macroeconomic Uncertainties",
+        "Supply Chain"
+      ],
+      [
+        "Campus Workspace",
+        "Network Infrastructure"
+      ],
+      [
+        "Acquisition",
+        "Common Stock"
+      ],
+      [
+        "Enterprise, Campus and AI Markets",
+        "Products"
+      ],
+      [
+        "Analyst and Investor Expectations",
+        "Common Stock"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Russia-Ukraine Conflict"
+      ],
+      [
+        "Common Stock",
+        "Dividends"
+      ],
+      [
+        "Broadcom",
+        "VMware"
+      ],
+      [
+        "Business Operations",
+        "Financial Condition"
+      ],
+      [
+        "Intellectual Property Rights",
+        "Litigation"
+      ],
+      [
+        "Inputs",
+        "Manufacturing Partners"
+      ],
+      [
+        "Business",
+        "Global Economy"
+      ],
+      [
+        "Customers",
+        "Open Source Software"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Distribution Channels"
+      ],
+      [
+        "Customers",
+        "Products"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "State Sponsors"
+      ],
+      [
+        "Component Supply",
+        "Manufacturing Disruptions"
+      ],
+      [
+        "Operating Margins",
+        "Products"
+      ],
+      [
+        "Campus Workspace",
+        "Switching and Routing Platforms"
+      ],
+      [
+        "Board of Directors",
+        "Stockholders"
+      ],
+      [
+        "EU",
+        "Network and Information Security Directive II (NIS2)"
+      ],
+      [
+        "Board of Directors",
+        "Management Entrenchment"
+      ],
+      [
+        "AI Ethernet Market",
+        "Networking Solutions Market"
+      ],
+      [
+        "Debt Financing",
+        "Equity Financing"
+      ],
+      [
+        "Employees",
+        "Source Code"
+      ],
+      [
+        "Form 10-K",
+        "Notes to Consolidated Financial Statements"
+      ],
+      [
+        "Company",
+        "VeloCloud"
+      ],
+      [
+        "Customers",
+        "U.S."
+      ],
+      [
+        "Ethernet Networking Solutions",
+        "Networking Market"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Malicious Software"
+      ],
+      [
+        "Channel Partners",
+        "Distributors"
+      ],
+      [
+        "Interoperability",
+        "Network Infrastructure"
+      ],
+      [
+        "Economic Disruptions",
+        "Global Pandemics"
+      ],
+      [
+        "Intellectual Property Rights",
+        "Third-Party"
+      ],
+      [
+        "Contract Manufacturer",
+        "Intellectual Property Rights"
+      ],
+      [
+        "Customers",
+        "Forecasting Difficulties"
+      ],
+      [
+        "Internal Control",
+        "Sarbanes-Oxley Act"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "Intellectual Property"
+      ],
+      [
+        "Business",
+        "Enterprise Market"
+      ],
+      [
+        "Anti-Corruption",
+        "Company"
+      ],
+      [
+        "Cybersecurity Incidents",
+        "U.S.-China Relations"
+      ],
+      [
+        "Hewlett Packard Enterprise",
+        "Juniper Networks"
+      ],
+      [
+        "Common Stock",
+        "Common Stockholders"
+      ],
+      [
+        "Intellectual Property",
+        "Security Breach"
+      ],
+      [
+        "Channel Partnerships",
+        "Global Sales Force"
+      ],
+      [
+        "Taiwan",
+        "U.S."
+      ],
+      [
+        "One Big Beautiful Bill Act",
+        "U.S."
+      ],
+      [
+        "Licenses",
+        "Third-Party Software"
+      ],
+      [
+        "Personal Data",
+        "Security Breach"
+      ],
+      [
+        "Business",
+        "Economic Recession"
+      ],
+      [
+        "Estimated Demand Forecasts",
+        "Excess and Obsolete Inventory Charges"
+      ],
+      [
+        "Channel Partners",
+        "Company"
+      ],
+      [
+        "Patent Applications",
+        "Proprietary Technology"
+      ],
+      [
+        "Company",
+        "Cybersecurity"
+      ],
+      [
+        "Contract Manufacturer",
+        "Non-Cancellable Commitments"
+      ],
+      [
+        "Company",
+        "Intellectual Property Rights"
+      ],
+      [
+        "Non-Cancellable Commitments",
+        "Notes to Consolidated Financial Statements"
+      ],
+      [
+        "Annual_risk",
+        "Products and Services"
+      ],
+      [
+        "AI-enabled Solutions",
+        "Large Customers"
+      ],
+      [
+        "Network Security",
+        "Products"
+      ],
+      [
+        "AI Market",
+        "Generative AI Models"
+      ]
+    ],
+    "count": 318,
+    "create_time": 1777382153,
+    "update_time": 1777382153,
+    "_id": "doc-149cf092dea98bd9fdac16f80b212954"
+  },
+  "doc-36251365c3f6def0b3bb91f5da5e27dc": {
+    "relation_pairs": [
+      [
+        "Arista Networks, Inc.",
+        "Fourth Quarter of 2025"
+      ],
+      [
+        "Gartner",
+        "Mike Leibovitz"
+      ],
+      [
+        "Arista Networks, Inc.",
+        "New York Stock Exchange"
+      ],
+      [
+        "Change in Methodology",
+        "Non-GAAP Diluted Net Income Per Share"
+      ],
+      [
+        "2025 Gartner® Magic Quadrant™ for Enterprise Wired and Wireless LAN Infrastructure",
+        "Arista Networks"
+      ],
+      [
+        "Arista Networks, Inc.",
+        "Chantelle Breithaupt"
+      ],
+      [
+        "+1 (240) 789-2713",
+        "Arista's financial results conference call"
+      ],
+      [
+        "Arista Networks",
+        "Todd Nightingale"
+      ],
+      [
+        "Arista Networks, Inc.",
+        "Rod Hall"
+      ],
+      [
+        "Change in Methodology",
+        "Non-GAAP Income"
+      ],
+      [
+        "Company",
+        "One Big Beautiful Bill Act"
+      ],
+      [
+        "Arista Networks, Inc.",
+        "Data Center"
+      ],
+      [
+        "5655862",
+        "Arista's financial results conference call"
+      ],
+      [
+        "Company",
+        "Securities and Exchange Commission"
+      ],
+      [
+        "CASH FLOWS FROM OPERATING ACTIVITIES",
+        "Net Income"
+      ],
+      [
+        "CASH FLOWS FROM OPERATING ACTIVITIES",
+        "Deferred Income Taxes"
+      ],
+      [
+        "Arista Networks",
+        "Kenneth Duda"
+      ],
+      [
+        "ARISTA NETWORKS, INC.",
+        "Change in Methodology"
+      ],
+      [
+        "Arista Networks, Inc.",
+        "Rudolph Araujo"
+      ],
+      [
+        "Arista Networks",
+        "Arista's investor relations website"
+      ],
+      [
+        "Reconciliation of Selected GAAP to Non-GAAP Financial Measures",
+        "Unaudited Financial Data"
+      ],
+      [
+        "Arista Networks, Inc.",
+        "Full Year of 2025"
+      ],
+      [
+        "2025 Gartner® Magic Quadrant™ for Data Center Switching",
+        "Arista Networks"
+      ],
+      [
+        "ARISTA NETWORKS, INC.",
+        "GAAP"
+      ],
+      [
+        "Company",
+        "Gartner"
+      ],
+      [
+        "Arista Networks",
+        "Tyson Lamoreaux"
+      ],
+      [
+        "Arista Networks, Inc.",
+        "Campus Network"
+      ],
+      [
+        "Arista Networks, Inc.",
+        "R4 series platforms"
+      ],
+      [
+        "Adjustments to Reconcile Net Income",
+        "CASH FLOWS FROM OPERATING ACTIVITIES"
+      ],
+      [
+        "Arista 2.0",
+        "Arista Networks, Inc."
+      ],
+      [
+        "CASH FLOWS FROM OPERATING ACTIVITIES",
+        "Depreciation and Amortization"
+      ],
+      [
+        "Arista Networks",
+        "Gartner® Magic Quadrant™"
+      ],
+      [
+        "CASH FLOWS FROM OPERATING ACTIVITIES",
+        "Stock-Based Compensation"
+      ],
+      [
+        "Change in Methodology",
+        "Non-GAAP Income Taxes"
+      ],
+      [
+        "Arista Networks",
+        "Etherlink"
+      ],
+      [
+        "AI",
+        "Arista Networks, Inc."
+      ],
+      [
+        "Arista Networks, Inc.",
+        "Routing Environment"
+      ],
+      [
+        "ARISTA NETWORKS, INC.",
+        "Non-GAAP Financial Measures"
+      ],
+      [
+        "ARISTA NETWORKS, INC.",
+        "Unaudited Financial Data"
+      ],
+      [
+        "ARISTA",
+        "Arista Networks"
+      ],
+      [
+        "Arista Networks, Inc.",
+        "Jayshree Ullal"
+      ],
+      [
+        "(888) 330-2502",
+        "Arista's financial results conference call"
+      ],
+      [
+        "Gartner",
+        "Gartner Content"
+      ],
+      [
+        "Company",
+        "OBBB Act"
+      ],
+      [
+        "Andrew Lerner",
+        "Gartner"
+      ],
+      [
+        "Arista Networks",
+        "Broadcom"
+      ],
+      [
+        "CASH FLOWS FROM OPERATING ACTIVITIES",
+        "Changes in Operating Assets and Liabilities"
+      ],
+      [
+        "Arista Networks",
+        "CloudVision"
+      ],
+      [
+        "1:30 p.m. Pacific time",
+        "Arista's financial results conference call"
+      ],
+      [
+        "Arista Networks",
+        "Ethernet for Scale-Up Networks"
+      ],
+      [
+        "Arista Networks",
+        "VeloCloud"
+      ],
+      [
+        "ARISTA NETWORKS, INC.",
+        "Condensed Consolidated Balance Sheets"
+      ]
+    ],
+    "count": 52,
+    "create_time": 1777382156,
+    "update_time": 1777382156,
+    "_id": "doc-36251365c3f6def0b3bb91f5da5e27dc"
+  },
+  "doc-f6c2882daa1ec6a56270d1197f7a79d5": {
+    "relation_pairs": [
+      [
+        "ANET",
+        "July 1, 2024 - July 31, 2024"
+      ],
+      [
+        "Prior Repurchase Program",
+        "Repurchase Programs"
+      ],
+      [
+        "ANET",
+        "August 1, 2024 - August 31, 2024"
+      ],
+      [
+        "ANET",
+        "Note 6"
+      ],
+      [
+        "New Repurchase Program",
+        "Repurchase Programs"
+      ],
+      [
+        "ANET",
+        "Prior Repurchase Program"
+      ],
+      [
+        "ANET",
+        "New Repurchase Program"
+      ],
+      [
+        "ANET",
+        "Form 10-Q"
+      ],
+      [
+        "ANET",
+        "September 30, 2024"
+      ],
+      [
+        "Board of Directors",
+        "New Repurchase Program"
+      ],
+      [
+        "ANET",
+        "September 1, 2024 - September 30, 2024"
+      ],
+      [
+        "Board of Directors",
+        "Prior Repurchase Program"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1777382165,
+    "update_time": 1777382165,
+    "_id": "doc-f6c2882daa1ec6a56270d1197f7a79d5"
+  },
+  "doc-af924d24274505e948110654fd090f0c": {
+    "relation_pairs": [
+      [
+        "ANET",
+        "Note 6"
+      ],
+      [
+        "ANET",
+        "June 30, 2025"
+      ],
+      [
+        "ANET",
+        "Prior Repurchase Program"
+      ],
+      [
+        "ANET",
+        "New Repurchase Program"
+      ],
+      [
+        "ANET",
+        "Form 10-Q"
+      ],
+      [
+        "New Repurchase Program",
+        "Prior Repurchase Program"
+      ],
+      [
+        "Board of Directors",
+        "New Repurchase Program"
+      ],
+      [
+        "Board of Directors",
+        "Prior Repurchase Program"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1777382167,
+    "update_time": 1777382167,
+    "_id": "doc-af924d24274505e948110654fd090f0c"
+  },
+  "doc-41d8e02bddab5bcdf259b2f8e2f6a009": {
+    "relation_pairs": [
+      [
+        "ANET",
+        "Common Stock"
+      ],
+      [
+        "$62.0 million",
+        "ANET"
+      ],
+      [
+        "ANET",
+        "Note 6"
+      ],
+      [
+        "$1.5 billion",
+        "New Repurchase Program"
+      ],
+      [
+        "$1.4 billion",
+        "New Repurchase Program"
+      ],
+      [
+        "ANET",
+        "Prior Repurchase Program"
+      ],
+      [
+        "ANET",
+        "September 30, 2025"
+      ],
+      [
+        "ANET",
+        "New Repurchase Program"
+      ],
+      [
+        "New Repurchase Program",
+        "Prior Repurchase Program"
+      ],
+      [
+        "$921.0 million",
+        "ANET"
+      ],
+      [
+        "$1.2 billion",
+        "Prior Repurchase Program"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1777382168,
+    "update_time": 1777382168,
+    "_id": "doc-41d8e02bddab5bcdf259b2f8e2f6a009"
+  },
+  "doc-99f470f40b8d0a206196ebb8b3121434": {
+    "relation_pairs": [
+      [
+        "Cadence",
+        "Secure-IC"
+      ],
+      [
+        "Cost of Revenue",
+        "Fiscal 2024"
+      ],
+      [
+        "Cadence",
+        "Q1_2026"
+      ],
+      [
+        "Assumed Royalty Rate",
+        "Discount Rates"
+      ],
+      [
+        "Cadence",
+        "Fiscal 2025"
+      ],
+      [
+        "Hungary",
+        "Pillar Two Model Rules"
+      ],
+      [
+        "Goodwill",
+        "Intangible Assets"
+      ],
+      [
+        "Recurring Revenue",
+        "Revenue Contract"
+      ],
+      [
+        "Revenue Contract",
+        "Up-Front Revenue"
+      ],
+      [
+        "March 4, 2027",
+        "September 4, 2026"
+      ],
+      [
+        "2024 Fiscal Year",
+        "Financing Activities"
+      ],
+      [
+        "Income Tax Position",
+        "Tax Benefit"
+      ],
+      [
+        "EMEA",
+        "Fiscal 2025"
+      ],
+      [
+        "Department of Justice",
+        "Settlement Agreements"
+      ],
+      [
+        "Fiscal 2025",
+        "Research and Development"
+      ],
+      [
+        "Fiscal 2025",
+        "General and Administrative Expense"
+      ],
+      [
+        "Fiscal 2025",
+        "Marketing and Sales Expense"
+      ],
+      [
+        "Income Tax Payable",
+        "Total"
+      ],
+      [
+        "Effective Tax Rate",
+        "Stock-Based Compensation"
+      ],
+      [
+        "Fiscal 2025",
+        "General and Administrative"
+      ],
+      [
+        "Fiscal 2025",
+        "Intangible Assets"
+      ],
+      [
+        "Intangible Assets",
+        "VLAB Works"
+      ],
+      [
+        "Fiscal 2025",
+        "Product and Maintenance Revenue"
+      ],
+      [
+        "Bureau of Industry and Security",
+        "United States"
+      ],
+      [
+        "Effective Tax Rate",
+        "Foreign Earnings"
+      ],
+      [
+        "Cost of Revenue",
+        "Fiscal 2025"
+      ],
+      [
+        "Russia",
+        "Ukraine"
+      ],
+      [
+        "Intangible Assets",
+        "Secure-IC"
+      ],
+      [
+        "Contractual Interest Payments",
+        "Total"
+      ],
+      [
+        "Cadence Giving Foundation",
+        "Fiscal 2025"
+      ],
+      [
+        "2024 Credit Facility",
+        "2025 Fiscal Year"
+      ],
+      [
+        "Fiscal 2025",
+        "Stock-Based Compensation"
+      ],
+      [
+        "Consideration",
+        "Variable Consideration"
+      ],
+      [
+        "March 4, 2027",
+        "€175 Million"
+      ],
+      [
+        "Common Stock",
+        "Employee Stock Purchase Plan"
+      ],
+      [
+        "Assumed Royalty Rate",
+        "Technological Obsolescence"
+      ],
+      [
+        "Management",
+        "Restructuring Plans"
+      ],
+      [
+        "Consideration",
+        "Contracts with Customers"
+      ],
+      [
+        "Fiscal 2024",
+        "Fiscal 2025"
+      ],
+      [
+        "Artisan Foundation IP Business",
+        "Intangible Assets"
+      ],
+      [
+        "Critical Accounting Estimates",
+        "Total"
+      ],
+      [
+        "Intangible Assets",
+        "Multi-Period Excess Earnings Method"
+      ],
+      [
+        "Interest Expense for Fiscal 2024",
+        "Interest Expense for Fiscal 2025"
+      ],
+      [
+        "Foreign Currencies",
+        "Item 7A"
+      ],
+      [
+        "Existing Customers",
+        "Operating Cash Flows"
+      ],
+      [
+        "Fiscal 2025",
+        "Research and Development Expense"
+      ],
+      [
+        "Fiscal 2025",
+        "Operating Expenses"
+      ],
+      [
+        "Fiscal 2025",
+        "Salary, Benefits and Other Employee-Related Costs"
+      ],
+      [
+        "Other Long-term Contractual Obligations",
+        "Total"
+      ],
+      [
+        "One Big Beautiful Bill Act",
+        "United States"
+      ],
+      [
+        "Cadence",
+        "Pillar Two Model Rules"
+      ],
+      [
+        "OECD",
+        "Pillar Two Model Rules"
+      ],
+      [
+        "Customer Retention Rates",
+        "Existing Customers"
+      ],
+      [
+        "Critical Accounting Estimates",
+        "Revenue Recognition"
+      ],
+      [
+        "Bureau of Industry and Security",
+        "China"
+      ],
+      [
+        "Cadence",
+        "Hexagon"
+      ],
+      [
+        "Cost of Revenue",
+        "Product and Maintenance"
+      ],
+      [
+        "2025 Fiscal Year",
+        "Senior Notes"
+      ],
+      [
+        "Fiscal 2025",
+        "Other Americas"
+      ],
+      [
+        "Cadence",
+        "annual_business"
+      ],
+      [
+        "Fiscal 2025",
+        "Total Operating Expenses"
+      ],
+      [
+        "Intangible Assets",
+        "Relief-from-Royalty Method"
+      ],
+      [
+        "Arm",
+        "Artisan Foundation IP Business"
+      ],
+      [
+        "Interest Expense",
+        "Senior Notes"
+      ],
+      [
+        "BIS",
+        "Loss Related to Contingent Liability"
+      ],
+      [
+        "DOJ",
+        "Loss Related to Contingent Liability"
+      ],
+      [
+        "Operating Lease Obligations",
+        "Total"
+      ],
+      [
+        "Income Taxes",
+        "United States"
+      ],
+      [
+        "Cash Payments for Income Taxes",
+        "OBBBA"
+      ],
+      [
+        "Fair Value",
+        "Multi-Period Excess Earnings Method"
+      ],
+      [
+        "BETA CAE Systems International AG",
+        "Cadence"
+      ],
+      [
+        "China",
+        "Fiscal 2025"
+      ],
+      [
+        "Cadence",
+        "Hexagon Design and Engineering Business"
+      ],
+      [
+        "December 31, 2025",
+        "Total"
+      ],
+      [
+        "Artisan Foundation IP",
+        "Cadence"
+      ],
+      [
+        "BIS",
+        "DOJ"
+      ],
+      [
+        "Royalty Rate",
+        "Technological Obsolescence"
+      ],
+      [
+        "Fiscal 2025",
+        "Japan"
+      ],
+      [
+        "Ireland",
+        "Pillar Two Model Rules"
+      ],
+      [
+        "Cloud and IP Service Offerings",
+        "Fiscal 2025"
+      ],
+      [
+        "Fiscal 2025",
+        "Restructuring Plans"
+      ],
+      [
+        "Consolidated Financial Statements",
+        "New Accounting Standards"
+      ],
+      [
+        "Bureau of Industry and Security",
+        "Department of Justice"
+      ],
+      [
+        "Cash Flows from Operating Activities",
+        "Fiscal 2025"
+      ],
+      [
+        "Cadence",
+        "China"
+      ],
+      [
+        "Fiscal 2025",
+        "United States"
+      ],
+      [
+        "Common Stock",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Fiscal 2025",
+        "Marketing and Sales"
+      ],
+      [
+        "Cadence",
+        "VLAB Works"
+      ],
+      [
+        "Fiscal 2024",
+        "Operating Expenses"
+      ],
+      [
+        "Fiscal 2025",
+        "Other Asia"
+      ],
+      [
+        "Cash Flows from Operating Activities",
+        "Employee Stock Purchase Plan"
+      ],
+      [
+        "Facilities and Other Infrastructure Costs",
+        "Fiscal 2025"
+      ],
+      [
+        "China",
+        "U.S. Tariffs"
+      ]
+    ],
+    "count": 94,
+    "create_time": 1777382544,
+    "update_time": 1777382544,
+    "_id": "doc-99f470f40b8d0a206196ebb8b3121434"
   }
 }

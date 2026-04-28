@@ -597,7 +597,7 @@
     }
   },
   "doc-4c92ddfbda6d40994ad4c0e9a965d022": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 18,
     "chunks_list": [
       "chunk-8d9c25644243f4d529d06cf43465d4b4",
@@ -622,15 +622,16 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q1_2026\nDate: 2026-01-23\nDoc Type: annual_risk\n--- END INFO ---\n\nThe following summarizes what we believe to be the material factors that make an investment in our securities speculative or risk...",
     "content_length": 104992,
     "created_at": "2026-04-27T08:03:05.439798+00:00",
-    "updated_at": "2026-04-28T12:53:40.006662+00:00",
+    "updated_at": "2026-04-28T13:09:35.611239+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_040305_cf43c412",
     "metadata": {
-      "processing_start_time": 1777380820
+      "processing_start_time": 1777380820,
+      "processing_end_time": 1777381775
     }
   },
   "doc-e7978c9e303ad77a6cb4edeefa5f61bc": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 11,
     "chunks_list": [
       "chunk-b480c5210abfe43758664694d9847802",
@@ -648,11 +649,12 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: INTC\nLayer: LAYER_C\nPeriod: Q2_2026\nDate: 2026-04-23\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1\n                                                                                           \n  Intel Corpo...",
     "content_length": 99249,
     "created_at": "2026-04-27T08:36:54.923285+00:00",
-    "updated_at": "2026-04-28T12:57:06.152732+00:00",
+    "updated_at": "2026-04-28T13:09:32.895454+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_043654_4cd1dff7",
     "metadata": {
-      "processing_start_time": 1777381026
+      "processing_start_time": 1777381026,
+      "processing_end_time": 1777381772
     }
   },
   "doc-f60be1d369008dda0461cefaf2ff61fa": {
@@ -832,34 +834,38 @@
     }
   },
   "doc-0292dbc49bc4382dc3bccb8e9b403c95": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q2_2025\nDate: 2025-05-01\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nEquity Repurchase Plans\n\nThe following is a summary of ...",
-    "content_length": 1971,
+    "status": "processed",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-0292dbc49bc4382dc3bccb8e9b403c95"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q2_2025\nDate: 2025-05-01\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nEquity Repurchase Plans\n\nThe following is a summary of ...",
+    "content_length": 1971,
     "created_at": "2026-04-27T16:37:51.360893+00:00",
-    "updated_at": "2026-04-28T12:48:13.476043+00:00",
+    "updated_at": "2026-04-28T13:10:17.828908+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_123751_f3987531",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777381773,
+      "processing_end_time": 1777381817
+    }
   },
   "doc-e87a4f351685e936b673b5d8beb0687a": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q4_2025\nDate: 2025-10-31\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nEquity Repurchase Plans\n\nThe following is a summary of ...",
-    "content_length": 1980,
+    "status": "processed",
     "chunks_count": 1,
     "chunks_list": [
       "chunk-e87a4f351685e936b673b5d8beb0687a"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q4_2025\nDate: 2025-10-31\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nEquity Repurchase Plans\n\nThe following is a summary of ...",
+    "content_length": 1980,
     "created_at": "2026-04-27T17:24:37.741056+00:00",
-    "updated_at": "2026-04-28T12:48:13.476102+00:00",
+    "updated_at": "2026-04-28T13:10:32.579844+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260427_132437_a39ac6f2",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777381775,
+      "processing_end_time": 1777381832
+    }
   },
   "dup-7fb7229560ce8458a22177fc1efb2588": {
     "status": "failed",
@@ -1015,9 +1021,7 @@
     }
   },
   "doc-dd7521f9a2af5468bfd407a10851d384": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: ANET\nLayer: LAYER_E\nPeriod: Q1_2026\nDate: 2026-02-17\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7.  Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nYou should read the following...",
-    "content_length": 43200,
+    "status": "processed",
     "chunks_count": 9,
     "chunks_list": [
       "chunk-860e208223be2b88258c7bc409f5f9bb",
@@ -1030,17 +1034,19 @@
       "chunk-9c9d9262cc591e5a663ff1343e1ab5b9",
       "chunk-2bcf7035b2263b22ce2270c9abedd363"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: ANET\nLayer: LAYER_E\nPeriod: Q1_2026\nDate: 2026-02-17\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7.  Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nYou should read the following...",
+    "content_length": 43200,
     "created_at": "2026-04-28T07:50:10.569226+00:00",
-    "updated_at": "2026-04-28T12:48:13.476171+00:00",
+    "updated_at": "2026-04-28T13:11:25.914324+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_035010_9365ea48",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777381818,
+      "processing_end_time": 1777381885
+    }
   },
   "doc-149cf092dea98bd9fdac16f80b212954": {
-    "status": "pending",
-    "content_summary": "--- SOURCE INFO ---\nTicker: ANET\nLayer: LAYER_E\nPeriod: Q1_2026\nDate: 2026-02-17\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A. Risk Factors\n\nYou should consider carefully the risks and uncertainties described below, together with all of the other ...",
-    "content_length": 190119,
+    "status": "processed",
     "chunks_count": 30,
     "chunks_list": [
       "chunk-3c2950a5595514c07bb3ab4a5efe970d",
@@ -1074,12 +1080,16 @@
       "chunk-e31bb121b1f8d055ee99592a3cbb3ab5",
       "chunk-bcdb56d17ac1eb82b3c9275186c6d84a"
     ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: ANET\nLayer: LAYER_E\nPeriod: Q1_2026\nDate: 2026-02-17\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A. Risk Factors\n\nYou should consider carefully the risks and uncertainties described below, together with all of the other ...",
+    "content_length": 190119,
     "created_at": "2026-04-28T12:37:16.582627+00:00",
-    "updated_at": "2026-04-28T12:48:13.476250+00:00",
+    "updated_at": "2026-04-28T13:15:53.679820+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_083716_497de03d",
-    "error_msg": "",
-    "metadata": {}
+    "metadata": {
+      "processing_start_time": 1777381833,
+      "processing_end_time": 1777382153
+    }
   },
   "dup-684729b8937721ff0771497371adbfcb": {
     "status": "failed",
@@ -1096,6 +1106,500 @@
       "is_duplicate": true,
       "original_doc_id": "doc-cc2be43c14d5eb448da16c8704fd6c9c",
       "original_track_id": "insert_20260426_225830_7824feeb"
+    }
+  },
+  "dup-527cfb906c9df8826a5aca8c61cba6e3": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-9b6f467dbee4fa6c378a40aad1bf2ccd",
+    "content_length": 73669,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:15:54.228761+00:00",
+    "updated_at": "2026-04-28T13:15:54.228765+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091554_4e03cbc4",
+    "error_msg": "Content already exists. Original doc_id: doc-9b6f467dbee4fa6c378a40aad1bf2ccd, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-9b6f467dbee4fa6c378a40aad1bf2ccd",
+      "original_track_id": "insert_20260426_230714_44cca5cd"
+    }
+  },
+  "dup-baf6eb78684ff3e766fdb62b3ab05b8e": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-f6c928ce31f332f03832f27c94e20430",
+    "content_length": 67008,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:15:54.234433+00:00",
+    "updated_at": "2026-04-28T13:15:54.234436+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091554_f294e7ed",
+    "error_msg": "Content already exists. Original doc_id: doc-f6c928ce31f332f03832f27c94e20430, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-f6c928ce31f332f03832f27c94e20430",
+      "original_track_id": "insert_20260426_232216_cb823beb"
+    }
+  },
+  "dup-38bc3c924451a52ea1920c697490f809": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-da0a0a4b6d9e543cfcc7a6ab6f5ac923",
+    "content_length": 16014,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:15:54.238376+00:00",
+    "updated_at": "2026-04-28T13:15:54.238378+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091554_ac09162f",
+    "error_msg": "Content already exists. Original doc_id: doc-da0a0a4b6d9e543cfcc7a6ab6f5ac923, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-da0a0a4b6d9e543cfcc7a6ab6f5ac923",
+      "original_track_id": "insert_20260426_233947_a85c3500"
+    }
+  },
+  "dup-73f9948abcc5caae0fde00f53ec2bd15": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-bde81dfa7c0130867695a7023e89cf63",
+    "content_length": 2032,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:15:54.241831+00:00",
+    "updated_at": "2026-04-28T13:15:54.241833+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091554_c68a9bd9",
+    "error_msg": "Content already exists. Original doc_id: doc-bde81dfa7c0130867695a7023e89cf63, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-bde81dfa7c0130867695a7023e89cf63",
+      "original_track_id": "insert_20260426_234246_2813286a"
+    }
+  },
+  "dup-82bf2e4987fbf8f96b8a626b56977499": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-b0a83ce1ab52e2df80576ef179eeec72",
+    "content_length": 2058,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:15:54.245300+00:00",
+    "updated_at": "2026-04-28T13:15:54.245303+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091554_b5fe23f4",
+    "error_msg": "Content already exists. Original doc_id: doc-b0a83ce1ab52e2df80576ef179eeec72, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-b0a83ce1ab52e2df80576ef179eeec72",
+      "original_track_id": "insert_20260426_234333_f9ae1c7b"
+    }
+  },
+  "dup-3f5d654d71e9df16f69700cea965910b": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-42b87cf93df46f504c0e370bbcbc6d94",
+    "content_length": 2681,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:15:54.248726+00:00",
+    "updated_at": "2026-04-28T13:15:54.248729+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091554_beadde5d",
+    "error_msg": "Content already exists. Original doc_id: doc-42b87cf93df46f504c0e370bbcbc6d94, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-42b87cf93df46f504c0e370bbcbc6d94",
+      "original_track_id": "insert_20260426_234421_0d3c3dfb"
+    }
+  },
+  "dup-eb18949faba797515094945a892547e5": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-54b2dd7afb5853f7b9fcb8fff6544b20",
+    "content_length": 3052,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:15:54.252123+00:00",
+    "updated_at": "2026-04-28T13:15:54.252126+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091554_9c9d13df",
+    "error_msg": "Content already exists. Original doc_id: doc-54b2dd7afb5853f7b9fcb8fff6544b20, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-54b2dd7afb5853f7b9fcb8fff6544b20",
+      "original_track_id": "insert_20260426_234506_4febde01"
+    }
+  },
+  "dup-113f2e1f6b1477ec345b431f06f854ab": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-dd7521f9a2af5468bfd407a10851d384",
+    "content_length": 43200,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:15:54.256717+00:00",
+    "updated_at": "2026-04-28T13:15:54.256720+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091554_02031ae4",
+    "error_msg": "Content already exists. Original doc_id: doc-dd7521f9a2af5468bfd407a10851d384, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-dd7521f9a2af5468bfd407a10851d384",
+      "original_track_id": "insert_20260428_035010_9365ea48"
+    }
+  },
+  "dup-0a4c9ef1be5ac2cf3121a9176530de21": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-149cf092dea98bd9fdac16f80b212954",
+    "content_length": 190119,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:15:54.264486+00:00",
+    "updated_at": "2026-04-28T13:15:54.264488+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091554_d215b3bc",
+    "error_msg": "Content already exists. Original doc_id: doc-149cf092dea98bd9fdac16f80b212954, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-149cf092dea98bd9fdac16f80b212954",
+      "original_track_id": "insert_20260428_083716_497de03d"
+    }
+  },
+  "doc-36251365c3f6def0b3bb91f5da5e27dc": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-fea8491f252c8025652bea92e9c43d2a",
+      "chunk-31dc5de5694e64a393f6bb8bdb1ee1fe",
+      "chunk-5fd247a952683a47a5830843ce2924e4",
+      "chunk-4cc34f322e2a22a4398038a51363be52",
+      "chunk-3c21ae3c35debcd28aecb74f55451ec4",
+      "chunk-c2201ee5164eca6f8a4fed098d64357e",
+      "chunk-1f683649d33f58f1759bf7001deddc60"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: ANET\nLayer: LAYER_E\nPeriod: Q1_2026\nDate: 2026-02-12\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.1                                                       \n                                                  ...",
+    "content_length": 46498,
+    "created_at": "2026-04-28T13:15:54.269026+00:00",
+    "updated_at": "2026-04-28T13:15:56.928192+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091554_5123923e",
+    "metadata": {
+      "processing_start_time": 1777382154,
+      "processing_end_time": 1777382156
+    }
+  },
+  "doc-f6c2882daa1ec6a56270d1197f7a79d5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f6c2882daa1ec6a56270d1197f7a79d5"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: ANET\nLayer: LAYER_E\nPeriod: Q4_2024\nDate: 2024-11-08\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds \n\n(c) Issuer Purchase of Equity Securities\n\nIn October 2021...",
+    "content_length": 2130,
+    "created_at": "2026-04-28T13:15:57.328083+00:00",
+    "updated_at": "2026-04-28T13:16:05.971081+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091557_3a565d80",
+    "metadata": {
+      "processing_start_time": 1777382157,
+      "processing_end_time": 1777382165
+    }
+  },
+  "doc-683091575803d2c43354404f5e33c81c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-683091575803d2c43354404f5e33c81c"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: ANET\nLayer: LAYER_E\nPeriod: Q2_2025\nDate: 2025-05-07\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds \n\n(c) Issuer Purchase of Equity Securities\n\nFrom time to ti...",
+    "content_length": 2438,
+    "created_at": "2026-04-28T13:16:06.529027+00:00",
+    "updated_at": "2026-04-28T13:16:06.621046+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091606_0fbe7d57",
+    "metadata": {
+      "processing_start_time": 1777382166,
+      "processing_end_time": 1777382166
+    }
+  },
+  "doc-af924d24274505e948110654fd090f0c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-af924d24274505e948110654fd090f0c"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: ANET\nLayer: LAYER_E\nPeriod: Q3_2025\nDate: 2025-08-06\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds \n\n(c) Issuer Purchase of Equity Securities\n\nFrom time to ti...",
+    "content_length": 2741,
+    "created_at": "2026-04-28T13:16:07.000413+00:00",
+    "updated_at": "2026-04-28T13:16:07.619136+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091607_b6a651b1",
+    "metadata": {
+      "processing_start_time": 1777382167,
+      "processing_end_time": 1777382167
+    }
+  },
+  "doc-41d8e02bddab5bcdf259b2f8e2f6a009": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-41d8e02bddab5bcdf259b2f8e2f6a009"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: ANET\nLayer: LAYER_E\nPeriod: Q4_2025\nDate: 2025-11-05\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds \n\n(c) Issuer Purchase of Equity Securities\n\nFrom time to ti...",
+    "content_length": 1376,
+    "created_at": "2026-04-28T13:16:08.028579+00:00",
+    "updated_at": "2026-04-28T13:16:08.567694+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091608_3d825f07",
+    "metadata": {
+      "processing_start_time": 1777382168,
+      "processing_end_time": 1777382168
+    }
+  },
+  "dup-1104ede8607d65808edb7e8b021490b0": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-144cc534028ba5aa46e63302766af73e",
+    "content_length": 73522,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.000191+00:00",
+    "updated_at": "2026-04-28T13:16:09.000197+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091608_a15f460c",
+    "error_msg": "Content already exists. Original doc_id: doc-144cc534028ba5aa46e63302766af73e, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-144cc534028ba5aa46e63302766af73e",
+      "original_track_id": "insert_20260426_234623_faba2d92"
+    }
+  },
+  "dup-e6489972cf7e8bbc9e350f5b4aafd5d9": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-fb1fde295160ad2250494cce02ebb07b",
+    "content_length": 272014,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.009768+00:00",
+    "updated_at": "2026-04-28T13:16:09.009773+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_0d630011",
+    "error_msg": "Content already exists. Original doc_id: doc-fb1fde295160ad2250494cce02ebb07b, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-fb1fde295160ad2250494cce02ebb07b",
+      "original_track_id": "insert_20260427_000138_a1cfa11f"
+    }
+  },
+  "dup-a1b491cdd3f8d9f4927e5506e00152c2": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-907468a5364512a188636b1b56d460c3",
+    "content_length": 23744,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.014927+00:00",
+    "updated_at": "2026-04-28T13:16:09.014931+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_91538c02",
+    "error_msg": "Content already exists. Original doc_id: doc-907468a5364512a188636b1b56d460c3, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-907468a5364512a188636b1b56d460c3",
+      "original_track_id": "insert_20260427_002448_71aee1e9"
+    }
+  },
+  "dup-d71cdded79f69070264a7b40361667e8": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-bb36fab71686f431e4ce3731f5e093ae",
+    "content_length": 5132,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.019291+00:00",
+    "updated_at": "2026-04-28T13:16:09.019294+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_5d361924",
+    "error_msg": "Content already exists. Original doc_id: doc-bb36fab71686f431e4ce3731f5e093ae, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-bb36fab71686f431e4ce3731f5e093ae",
+      "original_track_id": "insert_20260427_003431_da0c04c6"
+    }
+  },
+  "dup-29df2273a9bc0475b006cafe9e627b40": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-be6012d4490b311c332210488579b21e",
+    "content_length": 49536,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.024743+00:00",
+    "updated_at": "2026-04-28T13:16:09.024745+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_249a294e",
+    "error_msg": "Content already exists. Original doc_id: doc-be6012d4490b311c332210488579b21e, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-be6012d4490b311c332210488579b21e",
+      "original_track_id": "insert_20260427_005002_ff07f127"
+    }
+  },
+  "dup-2cbdaffe9a98944ee68d7b32473b42ca": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-640b8ee8b9f1d6c8b56dcf5a4511e94a",
+    "content_length": 90482,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.030759+00:00",
+    "updated_at": "2026-04-28T13:16:09.030762+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_6b04bcaa",
+    "error_msg": "Content already exists. Original doc_id: doc-640b8ee8b9f1d6c8b56dcf5a4511e94a, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-640b8ee8b9f1d6c8b56dcf5a4511e94a",
+      "original_track_id": "insert_20260427_010352_1d518a93"
+    }
+  },
+  "dup-9ca7a570f644fbff9caf6836676b1844": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-5d62a266a8d6df68a2672eb570383d0e",
+    "content_length": 63677,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.036759+00:00",
+    "updated_at": "2026-04-28T13:16:09.036762+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_fa85f6aa",
+    "error_msg": "Content already exists. Original doc_id: doc-5d62a266a8d6df68a2672eb570383d0e, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-5d62a266a8d6df68a2672eb570383d0e",
+      "original_track_id": "insert_20260427_012600_c3e5feaa"
+    }
+  },
+  "dup-78d06c849deb66be0d8e41998f711311": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-4fe22c3df0c95dfd5e0bb46ade8554b0",
+    "content_length": 622,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.041141+00:00",
+    "updated_at": "2026-04-28T13:16:09.041144+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_72c8f75a",
+    "error_msg": "Content already exists. Original doc_id: doc-4fe22c3df0c95dfd5e0bb46ade8554b0, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-4fe22c3df0c95dfd5e0bb46ade8554b0",
+      "original_track_id": "insert_20260427_015322_a49bc2b8"
+    }
+  },
+  "dup-46e9d13bbd50927002885a5ae2bf14e5": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-db16028b865589c8deb5630190c22030",
+    "content_length": 1793,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.045946+00:00",
+    "updated_at": "2026-04-28T13:16:09.045949+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_3e240ff6",
+    "error_msg": "Content already exists. Original doc_id: doc-db16028b865589c8deb5630190c22030, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-db16028b865589c8deb5630190c22030",
+      "original_track_id": "insert_20260427_022631_1262ff51"
+    }
+  },
+  "dup-ca1b6edbf996dd7435d836e7f13e293e": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-f1585698465a222f7fe085213a2892ab",
+    "content_length": 197,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.050330+00:00",
+    "updated_at": "2026-04-28T13:16:09.050333+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_d339f1f5",
+    "error_msg": "Content already exists. Original doc_id: doc-f1585698465a222f7fe085213a2892ab, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-f1585698465a222f7fe085213a2892ab",
+      "original_track_id": "insert_20260427_025754_bf99e5f5"
+    }
+  },
+  "dup-b3f2a039bb85e2c8a606319740ff81ba": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-ab4fed2451ba98a9b8f9ac6037703d67",
+    "content_length": 1790,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:16:09.054807+00:00",
+    "updated_at": "2026-04-28T13:16:09.054810+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_03650f05",
+    "error_msg": "Content already exists. Original doc_id: doc-ab4fed2451ba98a9b8f9ac6037703d67, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-ab4fed2451ba98a9b8f9ac6037703d67",
+      "original_track_id": "insert_20260427_032949_8ea09b75"
+    }
+  },
+  "doc-99f470f40b8d0a206196ebb8b3121434": {
+    "status": "processed",
+    "chunks_count": 11,
+    "chunks_list": [
+      "chunk-101b5c99777399059ee552bd297fedd2",
+      "chunk-ed2b32ad29a09feed46df0c963169feb",
+      "chunk-71dff42efadaa177f60791628d62844c",
+      "chunk-56d1a6abe12ff0346c565b00be1a824f",
+      "chunk-aa0903de4275b3766162843253dfdcd3",
+      "chunk-3fdce1044a2c44a0e983bbcf60375f53",
+      "chunk-0644a249b2d47b7e49a78f4bf359cb71",
+      "chunk-5ff8c5ead4252ae2a31532cc82caa936",
+      "chunk-1442e3c91c8552eddf70d0f36cf38e91",
+      "chunk-c5e7cc3c7c57e107c4d688872735f76a",
+      "chunk-0a5582252ed15279da3f293d02cea1b9"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: CDNS\nLayer: LAYER_G\nPeriod: Q1_2026\nDate: 2026-02-19\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion shoul...",
+    "content_length": 56994,
+    "created_at": "2026-04-28T13:16:09.060819+00:00",
+    "updated_at": "2026-04-28T13:22:24.851413+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_091609_e3cbd722",
+    "metadata": {
+      "processing_start_time": 1777382169,
+      "processing_end_time": 1777382544
+    }
+  },
+  "doc-b82d1cbb3c2f5cb0d86dcee0826edd98": {
+    "status": "processing",
+    "chunks_count": 21,
+    "chunks_list": [
+      "chunk-01078d1f415f096c2fb4fa02821fcee6",
+      "chunk-fb71b591cd7fd1bde27be09c1df94b7a",
+      "chunk-fad2d95019f549519335aeb3649bfad8",
+      "chunk-bd5ea776dd0bc037e9d5bef333467033",
+      "chunk-99b4fd14d31fc562542d2d9ed36002d0",
+      "chunk-9bf6029098cad4038c77d1ed792d6580",
+      "chunk-883fa267b425453e9fcdb6f40c0bbe98",
+      "chunk-cbc3a3f974de17a039ed4db1339b857b",
+      "chunk-44cc657b3838619fdf1779c252cd593e",
+      "chunk-d722a2f5e5f8781a54fe68d3a69ce013",
+      "chunk-8542065d43b91c486c36e79758a997ce",
+      "chunk-cffa3ef2e0cb4970bbf34edb3ab1e8e8",
+      "chunk-64a5dfa2caa88be5ba9c87673de65b94",
+      "chunk-84d2a71ea2009312a9e9a3f2278582e7",
+      "chunk-77cc0b3aa03170499de9e46486a775d2",
+      "chunk-aa8b487dd698d0096dc8e4a00e2c9214",
+      "chunk-0fbb9f691ae77d12a48197b0006cfdce",
+      "chunk-454133b60a29bc02b1310f366babe070",
+      "chunk-03f1c2044014aa913849fd22489e3bbd",
+      "chunk-b50b4ce63937ac2026355bce67dc24fb",
+      "chunk-9e4d6ae2c3b5aaba482aed12758d11e6"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: CDNS\nLayer: LAYER_G\nPeriod: Q1_2026\nDate: 2026-02-19\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A. Risk Factors\n\nOur operations and financial results are subject to various risks and uncertainties, including those descr...",
+    "content_length": 132753,
+    "created_at": "2026-04-28T13:22:25.425831+00:00",
+    "updated_at": "2026-04-28T13:22:25.471160+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_092225_6b8c24d2",
+    "metadata": {
+      "processing_start_time": 1777382545
     }
   }
 }

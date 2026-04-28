@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import { MessageSquare, Layers, ArrowRight, Database, Shield, Zap } from 'lucide-react';
 
@@ -15,6 +15,8 @@ const NAV = [
 export default function Home() {
   const [activeTab, setActiveTab] = useState('chat');
   const [showIntro, setShowIntro] = useState(true);
+  // Track which slide the user was on when they clicked Initialize
+  const presentationRef = useRef<HTMLDivElement>(null);
 
   if (showIntro) {
     const boxStyle = {
@@ -105,7 +107,7 @@ export default function Home() {
               <ul style={listStyle}>
                 <li style={{ marginBottom: '12px' }}>A private, searchable database of all our Business Reviews</li>
                 <li style={{ marginBottom: '12px' }}>Teams ask questions in plain English — exactly like ChatGPT</li>
-                <li><strong>Why not just ChatGPT?</strong> It cannot securely access or map private enterprise data</li>
+                <li><strong>Why not just ChatGPT?</strong> Even with SharePoint access, ChatGPT cannot semantically map relationships across proprietary documents or surface cross-client intelligence</li>
               </ul>
             </div>
 
@@ -180,12 +182,13 @@ export default function Home() {
 
             <div style={{ ...boxStyle, background: 'var(--bg-base)', border: '1px dashed var(--border)' }}>
               <div style={{ display: 'inline-block', padding: '4px 10px', background: 'rgba(0,0,0,0.05)', borderRadius: '24px', fontSize: '10px', fontWeight: 700, marginBottom: '14px', letterSpacing: '0.06em' }}>
-                <Shield size={10} style={{ display: 'inline', marginRight: '3px', verticalAlign: '-1px' }} />CURRENT BARRIERS
+                <Shield size={10} style={{ display: 'inline', marginRight: '3px', verticalAlign: '-1px' }} />REQUIRED ENABLERS
               </div>
-              <h3 style={titleStyle}>Why not Element data immediately?</h3>
+              <h3 style={titleStyle}>What needs to happen first</h3>
               <ul style={listStyle}>
-                <li style={{ marginBottom: '10px' }}><strong>Infosec:</strong> Client data requires formal IT clearances before any ingestion pipeline can run</li>
-                <li><strong>Data gap:</strong> BRs not yet systematically recorded → no unified source to feed the engine</li>
+                <li style={{ marginBottom: '10px' }}><strong>IT Permission</strong></li>
+                <li style={{ marginBottom: '10px' }}><strong>Cloud Integration</strong></li>
+                <li><strong>Greenlights to record Business Reviews</strong></li>
               </ul>
             </div>
 
@@ -207,8 +210,10 @@ export default function Home() {
 
           <div style={{ position: 'absolute', bottom: '32px', left: '50%', transform: 'translateX(-50%)' }}>
             <button
-              onClick={() => setShowIntro(false)}
-              style={{ padding: '14px 36px', fontSize: '15px', fontWeight: 600, background: 'var(--accent-main)', color: '#fff', border: 'none', borderRadius: '32px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: '0 8px 20px rgba(230,81,0,0.3)' }}
+              onClick={() => {
+                setShowIntro(false);
+              }}
+              style={{ padding: '14px 36px', fontSize: '15px', fontWeight: 600, background: 'var(--el-navy)', color: '#fff', border: 'none', borderRadius: '6px', cursor: 'pointer', transition: 'all 0.2s', boxShadow: '0 8px 20px rgba(25,46,68,0.25)', letterSpacing: '0.04em' }}
               onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-3px)'; }}
               onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; }}
             >
@@ -306,13 +311,13 @@ export default function Home() {
           <div style={{ flexShrink: 0 }}>
             {activeTab === 'chat' && (
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <MessageSquare size={16} color="var(--accent-main)" />
-                <span style={{ fontSize: '16px', fontWeight: 600, fontFamily: 'var(--font-display)' }}>Intelligence Chat</span>
+                <MessageSquare size={16} color="var(--el-teal)" />
+                <span style={{ fontSize: '16px', fontWeight: 600, fontFamily: 'var(--font-display)' }}>Semiconductor Intelligence Database</span>
               </div>
             )}
             {activeTab === 'communities' && (
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Layers size={16} color="var(--accent-main)" />
+                <Layers size={16} color="var(--el-teal)" />
                 <span style={{ fontSize: '16px', fontWeight: 600, fontFamily: 'var(--font-display)' }}>Knowledge Clusters</span>
               </div>
             )}
@@ -320,7 +325,18 @@ export default function Home() {
 
           <div style={{ marginLeft: 'auto', display: 'flex', gap: '8px', alignItems: 'center' }}>
             <button
-              onClick={() => setShowIntro(true)}
+              onClick={() => {
+                setShowIntro(true);
+                // After state update, scroll snap to slide 3 (the sandbox slide)
+                setTimeout(() => {
+                  const container = document.querySelector('[style*="scrollSnapType"]') as HTMLElement;
+                  if (container) {
+                    const slides = container.querySelectorAll('[style*="scrollSnapAlign"]');
+                    const slide3 = slides[2] as HTMLElement;
+                    if (slide3) slide3.scrollIntoView({ behavior: 'instant' });
+                  }
+                }, 50);
+              }}
               style={{ padding: '8px 16px', fontSize: '13px', fontWeight: 600, background: 'transparent', color: 'var(--text-secondary)', border: '1px solid var(--border)', borderRadius: '24px', cursor: 'pointer', transition: 'all 0.2s' }}
               onMouseOver={(e) => { e.currentTarget.style.background = 'var(--border)'; }}
               onMouseOut={(e) => { e.currentTarget.style.background = 'transparent'; }}
