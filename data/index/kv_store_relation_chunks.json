@@ -1042,11 +1042,11 @@
   },
   "Capital Expenditures<SEP>Investing Activities": {
     "chunk_ids": [
-      "chunk-b976a275590777e7877d2d66b5f6379c"
+      "chunk-b976a275590777e7877d2d66b5f6379c",
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
     ],
-    "count": 1,
-    "create_time": 1777259233,
-    "update_time": 1777259233,
+    "count": 2,
+    "update_time": 1777398226,
     "_id": "Capital Expenditures<SEP>Investing Activities"
   },
   "AMAT<SEP>Europe": {
@@ -4711,11 +4711,11 @@
   },
   "Company<SEP>Income Taxes": {
     "chunk_ids": [
-      "chunk-37906de44c22f23501372f2b90cd5aa7"
+      "chunk-37906de44c22f23501372f2b90cd5aa7",
+      "chunk-2065990bed72d8fafd2ab17ec531838a"
     ],
-    "count": 1,
-    "create_time": 1777306961,
-    "update_time": 1777306961,
+    "count": 2,
+    "update_time": 1777398227,
     "_id": "Company<SEP>Income Taxes"
   },
   "$202.5 Million<SEP>Investing Activities": {
@@ -7537,11 +7537,11 @@
   },
   "Cash and Cash Equivalents<SEP>Revolving Credit Facility": {
     "chunk_ids": [
-      "chunk-6914852673b586e472efa313d90a7cbf"
+      "chunk-6914852673b586e472efa313d90a7cbf",
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
     ],
-    "count": 1,
-    "create_time": 1777307868,
-    "update_time": 1777307868,
+    "count": 2,
+    "update_time": 1777398226,
     "_id": "Cash and Cash Equivalents<SEP>Revolving Credit Facility"
   },
   "Product Revenues<SEP>Taiwan": {
@@ -17325,10 +17325,11 @@
     "chunk_ids": [
       "chunk-2bcf7035b2263b22ce2270c9abedd363",
       "chunk-8b3a58c3fd3e9f0c29982cd302a2e298",
-      "chunk-235d7b98ae6bc97ba7e1bf3888ddf022"
+      "chunk-235d7b98ae6bc97ba7e1bf3888ddf022",
+      "chunk-2065990bed72d8fafd2ab17ec531838a"
     ],
-    "count": 3,
-    "update_time": 1777395553,
+    "count": 4,
+    "update_time": 1777398227,
     "_id": "Deferred Tax Assets<SEP>Income Taxes"
   },
   "Tax Planning Strategies<SEP>Unrecognized Tax Benefits": {
@@ -17820,11 +17821,11 @@
   },
   "One Big Beautiful Bill Act<SEP>U.S.": {
     "chunk_ids": [
-      "chunk-7de7e1241f8ebf9e1a462ee7b32a55fb"
+      "chunk-7de7e1241f8ebf9e1a462ee7b32a55fb",
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
     ],
-    "count": 1,
-    "create_time": 1777382149,
-    "update_time": 1777382149,
+    "count": 2,
+    "update_time": 1777398227,
     "_id": "One Big Beautiful Bill Act<SEP>U.S."
   },
   "Company<SEP>Government Entities": {
@@ -23421,11 +23422,11 @@
   },
   "One Big Beautiful Bill Act<SEP>Tax Cuts and Jobs Act": {
     "chunk_ids": [
-      "chunk-0fbb9f691ae77d12a48197b0006cfdce"
+      "chunk-0fbb9f691ae77d12a48197b0006cfdce",
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
     ],
-    "count": 1,
-    "create_time": 1777383104,
-    "update_time": 1777383104,
+    "count": 2,
+    "update_time": 1777398227,
     "_id": "One Big Beautiful Bill Act<SEP>Tax Cuts and Jobs Act"
   },
   "Foreign Trade Barriers<SEP>International Operations": {
@@ -24717,10 +24718,11 @@
   "Fiscal Year 2025<SEP>Gross Margin": {
     "chunk_ids": [
       "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e",
-      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da",
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
     ],
-    "count": 2,
-    "update_time": 1777395552,
+    "count": 3,
+    "update_time": 1777398227,
     "_id": "Fiscal Year 2025<SEP>Gross Margin"
   },
   "2025 Form 10-K<SEP>Research and Development": {
@@ -24745,11 +24747,11 @@
   },
   "Fiscal Year 2024<SEP>Gross Margin": {
     "chunk_ids": [
-      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e"
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e",
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
     ],
-    "count": 1,
-    "create_time": 1777383540,
-    "update_time": 1777383540,
+    "count": 2,
+    "update_time": 1777398227,
     "_id": "Fiscal Year 2024<SEP>Gross Margin"
   },
   "2025 Form 10-K<SEP>Selling, General, and Administrative": {
@@ -35381,11 +35383,11 @@
   },
   "Fiscal Year 2025<SEP>Operating Expenses": {
     "chunk_ids": [
-      "chunk-120ad10078f172fd82d9f8fee9c4989e"
+      "chunk-120ad10078f172fd82d9f8fee9c4989e",
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
     ],
-    "count": 1,
-    "create_time": 1777394101,
-    "update_time": 1777394101,
+    "count": 2,
+    "update_time": 1777398227,
     "_id": "Fiscal Year 2025<SEP>Operating Expenses"
   },
   "Compute & Networking Segment<SEP>Indirect Customers": {
@@ -38905,11 +38907,11 @@
   },
   "Fiscal Year 2025<SEP>Net Income": {
     "chunk_ids": [
-      "chunk-4c854d4a1f4f3ab257a106820b14f9da"
+      "chunk-4c854d4a1f4f3ab257a106820b14f9da",
+      "chunk-fb667f9c34d7b27dfeaa2c171ea1abee"
     ],
-    "count": 1,
-    "create_time": 1777395552,
-    "update_time": 1777395552,
+    "count": 2,
+    "update_time": 1777398227,
     "_id": "Fiscal Year 2025<SEP>Net Income"
   },
   "Compuware<SEP>SMCI": {
@@ -44652,5 +44654,491 @@
     "create_time": 1777398038,
     "update_time": 1777398038,
     "_id": "Common Stock<SEP>SNPS"
+  },
+  "Accounts Receivable<SEP>Revenue": {
+    "chunk_ids": [
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
+    ],
+    "count": 1,
+    "create_time": 1777398226,
+    "update_time": 1777398226,
+    "_id": "Accounts Receivable<SEP>Revenue"
+  },
+  "Cash Proceeds<SEP>Interest Rate Swap Agreements": {
+    "chunk_ids": [
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
+    ],
+    "count": 1,
+    "create_time": 1777398226,
+    "update_time": 1777398226,
+    "_id": "Cash Proceeds<SEP>Interest Rate Swap Agreements"
+  },
+  "Accrued Expenses<SEP>Restructuring Activities": {
+    "chunk_ids": [
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
+    ],
+    "count": 1,
+    "create_time": 1777398226,
+    "update_time": 1777398226,
+    "_id": "Accrued Expenses<SEP>Restructuring Activities"
+  },
+  "Inventories<SEP>Raw Materials": {
+    "chunk_ids": [
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
+    ],
+    "count": 1,
+    "create_time": 1777398226,
+    "update_time": 1777398226,
+    "_id": "Inventories<SEP>Raw Materials"
+  },
+  "Dividends<SEP>Long-term Debt": {
+    "chunk_ids": [
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
+    ],
+    "count": 1,
+    "create_time": 1777398226,
+    "update_time": 1777398226,
+    "_id": "Dividends<SEP>Long-term Debt"
+  },
+  "Debt Agreements<SEP>Financial Covenants": {
+    "chunk_ids": [
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
+    ],
+    "count": 1,
+    "create_time": 1777398226,
+    "update_time": 1777398226,
+    "_id": "Debt Agreements<SEP>Financial Covenants"
+  },
+  "Liquidity Requirements<SEP>Operational Needs": {
+    "chunk_ids": [
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Liquidity Requirements<SEP>Operational Needs"
+  },
+  "Fiscal Year 2024<SEP>Net Cash Used in Financing Activities": {
+    "chunk_ids": [
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2024<SEP>Net Cash Used in Financing Activities"
+  },
+  "$1.2 Billion Commitments<SEP>$516 Million Future Minimum Rent": {
+    "chunk_ids": [
+      "chunk-036390b69ac235df2596dbcdfc06f76e"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "$1.2 Billion Commitments<SEP>$516 Million Future Minimum Rent"
+  },
+  "$1.8 Billion Future Interest Payments<SEP>$5.0 Billion Long-Term Debt": {
+    "chunk_ids": [
+      "chunk-036390b69ac235df2596dbcdfc06f76e"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "$1.8 Billion Future Interest Payments<SEP>$5.0 Billion Long-Term Debt"
+  },
+  "$15 Million Quarterly Payments<SEP>$300 Million Settlement Penalty": {
+    "chunk_ids": [
+      "chunk-036390b69ac235df2596dbcdfc06f76e"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "$15 Million Quarterly Payments<SEP>$300 Million Settlement Penalty"
+  },
+  "$0.72 Cash Dividend<SEP>$14 Million Cash Payments": {
+    "chunk_ids": [
+      "chunk-036390b69ac235df2596dbcdfc06f76e"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "$0.72 Cash Dividend<SEP>$14 Million Cash Payments"
+  },
+  "Dividend Payments<SEP>Net Cash Used in Financing Activities": {
+    "chunk_ids": [
+      "chunk-cd6f362b5927d2c55f3c4f5515a8eb29"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Dividend Payments<SEP>Net Cash Used in Financing Activities"
+  },
+  "Fiscal Year 2025<SEP>June 27, 2025": {
+    "chunk_ids": [
+      "chunk-036390b69ac235df2596dbcdfc06f76e"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2025<SEP>June 27, 2025"
+  },
+  "$1.2 Billion Commitments<SEP>$5.0 Billion Repurchase Authorization": {
+    "chunk_ids": [
+      "chunk-036390b69ac235df2596dbcdfc06f76e"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "$1.2 Billion Commitments<SEP>$5.0 Billion Repurchase Authorization"
+  },
+  "BIS<SEP>Settlement Agreement": {
+    "chunk_ids": [
+      "chunk-036390b69ac235df2596dbcdfc06f76e"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "BIS<SEP>Settlement Agreement"
+  },
+  "Company<SEP>Financial Statements": {
+    "chunk_ids": [
+      "chunk-2065990bed72d8fafd2ab17ec531838a"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Company<SEP>Financial Statements"
+  },
+  "Critical Accounting Policies<SEP>Financial Statements": {
+    "chunk_ids": [
+      "chunk-2065990bed72d8fafd2ab17ec531838a"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Critical Accounting Policies<SEP>Financial Statements"
+  },
+  "Company<SEP>Sales Program Accruals": {
+    "chunk_ids": [
+      "chunk-2065990bed72d8fafd2ab17ec531838a"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Company<SEP>Sales Program Accruals"
+  },
+  "Fiscal Year 2025<SEP>STX": {
+    "chunk_ids": [
+      "chunk-fb667f9c34d7b27dfeaa2c171ea1abee"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2025<SEP>STX"
+  },
+  "Accounting Estimates<SEP>Financial Statements": {
+    "chunk_ids": [
+      "chunk-2065990bed72d8fafd2ab17ec531838a"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Accounting Estimates<SEP>Financial Statements"
+  },
+  "Accounting Policies<SEP>Critical Accounting Policies": {
+    "chunk_ids": [
+      "chunk-2065990bed72d8fafd2ab17ec531838a"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Accounting Policies<SEP>Critical Accounting Policies"
+  },
+  "Intevac, Inc.<SEP>STX": {
+    "chunk_ids": [
+      "chunk-fb667f9c34d7b27dfeaa2c171ea1abee"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Intevac, Inc.<SEP>STX"
+  },
+  "Fiscal Year 2025<SEP>Revenue": {
+    "chunk_ids": [
+      "chunk-fb667f9c34d7b27dfeaa2c171ea1abee"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2025<SEP>Revenue"
+  },
+  "Accounting Policies<SEP>Warranty": {
+    "chunk_ids": [
+      "chunk-2065990bed72d8fafd2ab17ec531838a"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Accounting Policies<SEP>Warranty"
+  },
+  "Annual Report on Form 10-K<SEP>SEC": {
+    "chunk_ids": [
+      "chunk-fb667f9c34d7b27dfeaa2c171ea1abee"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Annual Report on Form 10-K<SEP>SEC"
+  },
+  "Accounting Policies<SEP>Goodwill": {
+    "chunk_ids": [
+      "chunk-2065990bed72d8fafd2ab17ec531838a"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Accounting Policies<SEP>Goodwill"
+  },
+  "OEMs<SEP>Revenues by Channel": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "OEMs<SEP>Revenues by Channel"
+  },
+  "Fiscal Year 2025<SEP>Operating Cash Flow": {
+    "chunk_ids": [
+      "chunk-fb667f9c34d7b27dfeaa2c171ea1abee"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2025<SEP>Operating Cash Flow"
+  },
+  "Distributors<SEP>Revenues by Channel": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Distributors<SEP>Revenues by Channel"
+  },
+  "Asia Pacific<SEP>Revenues by Geography": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Asia Pacific<SEP>Revenues by Geography"
+  },
+  "Fiscal Year 2025<SEP>HDD Storage Capacity": {
+    "chunk_ids": [
+      "chunk-fb667f9c34d7b27dfeaa2c171ea1abee"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2025<SEP>HDD Storage Capacity"
+  },
+  "Retailers<SEP>Revenues by Channel": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Retailers<SEP>Revenues by Channel"
+  },
+  "HDD Exabytes Shipped<SEP>Mass Capacity": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "HDD Exabytes Shipped<SEP>Mass Capacity"
+  },
+  "Americas<SEP>Revenues by Geography": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Americas<SEP>Revenues by Geography"
+  },
+  "Dividends<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-fb667f9c34d7b27dfeaa2c171ea1abee"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Dividends<SEP>Fiscal Year 2025"
+  },
+  "HDD Exabytes Shipped<SEP>Legacy": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "HDD Exabytes Shipped<SEP>Legacy"
+  },
+  "EMEA<SEP>Revenues by Geography": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "EMEA<SEP>Revenues by Geography"
+  },
+  "Fiscal Year 2025<SEP>Fiscal Year 2026": {
+    "chunk_ids": [
+      "chunk-fb667f9c34d7b27dfeaa2c171ea1abee"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2025<SEP>Fiscal Year 2026"
+  },
+  "Company<SEP>Fiscal Year 2025 Revenues": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Company<SEP>Fiscal Year 2025 Revenues"
+  },
+  "Company<SEP>Fiscal Year 2024 Revenues": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Company<SEP>Fiscal Year 2024 Revenues"
+  },
+  "Fiscal Year 2024<SEP>Income Tax Provision": {
+    "chunk_ids": [
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2024<SEP>Income Tax Provision"
+  },
+  "Cost of Revenue<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Cost of Revenue<SEP>Fiscal Year 2025"
+  },
+  "Singapore<SEP>Tax Incentive Programs": {
+    "chunk_ids": [
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Singapore<SEP>Tax Incentive Programs"
+  },
+  "Cash and Cash Equivalents<SEP>Financial Resources": {
+    "chunk_ids": [
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Cash and Cash Equivalents<SEP>Financial Resources"
+  },
+  "Cost of Revenue<SEP>Fiscal Year 2024": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Cost of Revenue<SEP>Fiscal Year 2024"
+  },
+  "Cash and Cash Equivalents<SEP>June 27, 2025": {
+    "chunk_ids": [
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Cash and Cash Equivalents<SEP>June 27, 2025"
+  },
+  "Fiscal Year 2025<SEP>Income Taxes": {
+    "chunk_ids": [
+      "chunk-e71ca44218163585d7349bdb6fa90d17"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2025<SEP>Income Taxes"
+  },
+  "Fiscal Year 2025<SEP>Income Tax Provision": {
+    "chunk_ids": [
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2025<SEP>Income Tax Provision"
+  },
+  "Cash and Cash Equivalents<SEP>June 28, 2024": {
+    "chunk_ids": [
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Cash and Cash Equivalents<SEP>June 28, 2024"
+  },
+  "Accounts Receivable<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Accounts Receivable<SEP>Fiscal Year 2025"
+  },
+  "Accounts Payable<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Accounts Payable<SEP>Fiscal Year 2025"
+  },
+  "Accrued Employee Compensation<SEP>Fiscal Year 2025": {
+    "chunk_ids": [
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Accrued Employee Compensation<SEP>Fiscal Year 2025"
+  },
+  "Fiscal Year 2025<SEP>Inventories": {
+    "chunk_ids": [
+      "chunk-08d5d9f064c5dea15c94458a7eab8b82"
+    ],
+    "count": 1,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "Fiscal Year 2025<SEP>Inventories"
   }
 }

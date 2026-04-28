@@ -64,7 +64,6 @@ async def query_rag(request: QueryRequest):
         graph_viz = extract_visual_graph(rag, answer_text, filters=dict(request.filters))
 
         # 3. Real source chunks ─────────────────────────────────────────────
-        # Load the text chunk store once per request (it's an in-process JSON file)
         chunk_store_path = os.path.join(
             os.path.dirname(os.path.abspath(__file__)),
             "..", "data", "index", "kv_store_text_chunks.json"
@@ -76,29 +75,38 @@ async def query_rag(request: QueryRequest):
         except Exception:
             pass
 
-        def _parse_source_info(content: str):
-            """Extract Ticker, Period, DocType from the SOURCE INFO header."""
-            ticker  = re.search(r"Ticker:\s*(\w+)",   content)
-            period  = re.search(r"Period:\s*([\w_]+)", content)
-            dtype   = re.search(r"Doc Type:\s*([\w_]+)", content)
-            date    = re.search(r"Date:\s*([\d-]+)",   content)
+        # Map internal doc type codes → human-readable SEC form names
+        DOC_TYPE_LABELS = {
+            "annual_business":        "10-K",
+            "annual_risk":            "10-K (Risk)",
+            "quarterly_mda":          "10-Q",
+            "earnings_press_release": "Press Release",
+            "8k":                     "8-K",
+        }
+
+        def _parse_source_info(content: str) -> dict:
+            has_info = "--- SOURCE INFO ---" in content
+            ticker = re.search(r"Ticker:\s*(\w+)",    content)
+            period = re.search(r"Period:\s*([\w_]+)", content)
+            dtype  = re.search(r"Doc Type:\s*([\w_]+)", content)
+            date   = re.search(r"Date:\s*([\d-]+)",   content)
+            raw_dt = dtype.group(1) if dtype else ""
             return {
-                "ticker":  ticker.group(1)  if ticker  else "Unknown",
-                "period":  period.group(1).replace("_", " ") if period  else "",
-                "doctype": dtype.group(1).replace("_", " ")  if dtype   else "Filing",
-                "date":    date.group(1)    if date    else "",
+                "ticker":   ticker.group(1) if ticker else None,
+                "period":   period.group(1).replace("_", " ") if period else "",
+                "doctype":  DOC_TYPE_LABELS.get(raw_dt, raw_dt.replace("_", " ")) if raw_dt else "",
+                "date":     date.group(1) if date else "",
+                "has_info": has_info,
             }
 
         def _clean_content(content: str) -> str:
-            """Strip the SOURCE INFO header, return the raw paragraph text."""
-            # Remove the metadata header block
             content = re.sub(r"--- SOURCE INFO ---.*?--- END INFO ---\s*", "", content, flags=re.DOTALL)
             return content.strip()
 
-        # Find chunks relevant to the answer by matching company/entity names
-        # Pull up to 5 most relevant chunks
         answer_lower = answer_text.lower()
+        quarters = request.filters.get("quarters", [])
         scored: list = []
+
         for cid, cdata in chunk_store.items():
             if not isinstance(cdata, dict):
                 continue
@@ -106,39 +114,54 @@ async def query_rag(request: QueryRequest):
             if not raw:
                 continue
             info = _parse_source_info(raw)
+            # Skip chunks without SOURCE INFO — no attribution possible
+            if not info["has_info"] or not info["ticker"]:
+                continue
             text = _clean_content(raw)
             if not text:
                 continue
-            # Score by how many answer words appear in the chunk
+            # Score: word overlap with answer
             score = sum(1 for word in answer_lower.split() if len(word) > 5 and word in text.lower())
-            # Boost chunks whose period matches the active filter
-            quarters = request.filters.get("quarters", [])
-            if quarters and info["period"].replace("_", " ") in " ".join(quarters):
-                score += 10
+            # Boost if ticker appears in answer
+            if info["ticker"].lower() in answer_lower:
+                score += 5
+            # Boost if period matches active filter
+            if quarters and any(q.replace(" ", "_") in info["period"].replace(" ", "_") for q in quarters):
+                score += 8
             scored.append((score, cid, info, text))
 
         scored.sort(key=lambda x: x[0], reverse=True)
-        top_chunks = scored[:5]
+
+        # Pick top 5, max 2 chunks per ticker
+        seen_tickers: dict = {}
+        top_chunks = []
+        for entry in scored:
+            t = entry[2]["ticker"] or "?"
+            seen_tickers[t] = seen_tickers.get(t, 0)
+            if seen_tickers[t] < 2:
+                top_chunks.append(entry)
+                seen_tickers[t] += 1
+            if len(top_chunks) >= 5:
+                break
 
         derived_sources = []
         for i, (score, cid, info, text) in enumerate(top_chunks):
-            label = f"{info['ticker']} {info['doctype']} {info['period']}" if info['ticker'] != 'Unknown' else f"SEC Filing [{i+1}]"
-            # Trim to a readable window (~600 chars)
-            snippet = text[:600] + ("…" if len(text) > 600 else "")
+            label   = f"{info['ticker']} · {info['doctype']} · {info['period']}"
+            snippet = text[:700] + ("…" if len(text) > 700 else "")
             derived_sources.append({
-                "title": f"[{i+1}] {label}",
-                "text":  snippet,
-                "index": i + 1,
+                "title":    label,
+                "text":     snippet,
+                "index":    i + 1,
                 "video_id": cid,
             })
 
-        # Fallback if nothing scored
+        # Fallback: relationship graph labels
         if not derived_sources:
             for i, link in enumerate(graph_viz.get("links", [])[:5]):
                 derived_sources.append({
-                    "title": f"[{i+1}] {link.get('source','')} ↔ {link.get('target','')}",
-                    "text":  link.get("label", "No detail available."),
-                    "index": i + 1,
+                    "title":    f"{link.get('source','')} ↔ {link.get('target','')}",
+                    "text":     link.get("label", "No detail available."),
+                    "index":    i + 1,
                     "video_id": "",
                 })
 

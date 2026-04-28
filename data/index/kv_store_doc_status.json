@@ -2997,7 +2997,7 @@
     }
   },
   "doc-9a681ea3d0615e9cddac841fb8c8bad3": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 6,
     "chunks_list": [
       "chunk-fb667f9c34d7b27dfeaa2c171ea1abee",
@@ -3010,11 +3010,44 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: STX\nLayer: UNKNOWN_LAYER\nPeriod: Q3_2025\nDate: 2025-08-01\nDoc Type: annual_business\n--- END INFO ---\n\nITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\n\nThe following is a discus...",
     "content_length": 30260,
     "created_at": "2026-04-28T17:40:39.409186+00:00",
-    "updated_at": "2026-04-28T17:40:39.447975+00:00",
+    "updated_at": "2026-04-28T17:43:47.908970+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_134039_54d54b6a",
     "metadata": {
-      "processing_start_time": 1777398039
+      "processing_start_time": 1777398039,
+      "processing_end_time": 1777398227
+    }
+  },
+  "doc-ea88a7035bff930c1085e868f2dcad48": {
+    "status": "processing",
+    "chunks_count": 17,
+    "chunks_list": [
+      "chunk-c570cd74c0581c2e191c5dc289053810",
+      "chunk-2e9e8a526f4b80cbd4cefd5d47e7b4fc",
+      "chunk-10de68f1cd1c731456a6fcaebe90ad1c",
+      "chunk-c362896393bafdcaa734a60e100b46e4",
+      "chunk-1ad1e8a93fc6631aa8216a667dbc9463",
+      "chunk-886e71f023f6e8e45f1b96b1193c4006",
+      "chunk-2eb8d7f7870ee3d0304f06d39a9b7fc0",
+      "chunk-c7ded237e23f2ad5a9822137f9cba400",
+      "chunk-6907b096e795fee204a124794f63d267",
+      "chunk-f0367fb7f91176ed1fac2d989d091197",
+      "chunk-77903e136e9b17f1c8947a66f5bdf13d",
+      "chunk-1dc7134c72c4f98bcd3e65aecaea5abe",
+      "chunk-0e02f277680c6e4be4bfa635af270484",
+      "chunk-ad5050736ded5975c598c55f5f60b517",
+      "chunk-4b84f36b1741468fb696df530c462ab8",
+      "chunk-b0131f3fbe87b9cfc002f399c13bf603",
+      "chunk-079510ca28f77f1743a729097dd5dff6"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: STX\nLayer: UNKNOWN_LAYER\nPeriod: Q3_2025\nDate: 2025-08-01\nDoc Type: annual_risk\n--- END INFO ---\n\nITEM 1A.RISK FACTORS\n\nSummary of Risk Factors\n\nThe following is a summary of the principal risks and uncertainties that coul...",
+    "content_length": 106214,
+    "created_at": "2026-04-28T17:43:48.936811+00:00",
+    "updated_at": "2026-04-28T17:43:48.994514+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_134348_312580ea",
+    "metadata": {
+      "processing_start_time": 1777398228
     }
   }
 }

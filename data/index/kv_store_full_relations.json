@@ -22103,5 +22103,269 @@
     "create_time": 1777398038,
     "update_time": 1777398038,
     "_id": "doc-846bdf1d395dc1649253880da1608056"
+  },
+  "doc-9a681ea3d0615e9cddac841fb8c8bad3": {
+    "relation_pairs": [
+      [
+        "Cash and Cash Equivalents",
+        "Financial Resources"
+      ],
+      [
+        "Accounting Policies",
+        "Critical Accounting Policies"
+      ],
+      [
+        "BIS",
+        "Settlement Agreement"
+      ],
+      [
+        "Critical Accounting Policies",
+        "Financial Statements"
+      ],
+      [
+        "One Big Beautiful Bill Act",
+        "U.S."
+      ],
+      [
+        "Fiscal Year 2025",
+        "Operating Expenses"
+      ],
+      [
+        "Accounts Receivable",
+        "Revenue"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Gross Margin"
+      ],
+      [
+        "EMEA",
+        "Revenues by Geography"
+      ],
+      [
+        "Asia Pacific",
+        "Revenues by Geography"
+      ],
+      [
+        "Singapore",
+        "Tax Incentive Programs"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Net Cash Used in Financing Activities"
+      ],
+      [
+        "Americas",
+        "Revenues by Geography"
+      ],
+      [
+        "Dividends",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Accounting Estimates",
+        "Financial Statements"
+      ],
+      [
+        "Debt Agreements",
+        "Financial Covenants"
+      ],
+      [
+        "Company",
+        "Fiscal Year 2024 Revenues"
+      ],
+      [
+        "One Big Beautiful Bill Act",
+        "Tax Cuts and Jobs Act"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Inventories"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "June 27, 2025"
+      ],
+      [
+        "Accounting Policies",
+        "Warranty"
+      ],
+      [
+        "Fiscal Year 2025",
+        "June 27, 2025"
+      ],
+      [
+        "Distributors",
+        "Revenues by Channel"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "SEC"
+      ],
+      [
+        "$1.8 Billion Future Interest Payments",
+        "$5.0 Billion Long-Term Debt"
+      ],
+      [
+        "Dividend Payments",
+        "Net Cash Used in Financing Activities"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Revenue"
+      ],
+      [
+        "Fiscal Year 2025",
+        "HDD Storage Capacity"
+      ],
+      [
+        "$1.2 Billion Commitments",
+        "$516 Million Future Minimum Rent"
+      ],
+      [
+        "HDD Exabytes Shipped",
+        "Mass Capacity"
+      ],
+      [
+        "Accounts Receivable",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Cash Proceeds",
+        "Interest Rate Swap Agreements"
+      ],
+      [
+        "$0.72 Cash Dividend",
+        "$14 Million Cash Payments"
+      ],
+      [
+        "Accounts Payable",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Dividends",
+        "Long-term Debt"
+      ],
+      [
+        "Liquidity Requirements",
+        "Operational Needs"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Income Tax Provision"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Fiscal Year 2026"
+      ],
+      [
+        "Accounting Policies",
+        "Goodwill"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Income Taxes"
+      ],
+      [
+        "Accrued Expenses",
+        "Restructuring Activities"
+      ],
+      [
+        "HDD Exabytes Shipped",
+        "Legacy"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Gross Margin"
+      ],
+      [
+        "Inventories",
+        "Raw Materials"
+      ],
+      [
+        "Accrued Employee Compensation",
+        "Fiscal Year 2025"
+      ],
+      [
+        "$1.2 Billion Commitments",
+        "$5.0 Billion Repurchase Authorization"
+      ],
+      [
+        "$15 Million Quarterly Payments",
+        "$300 Million Settlement Penalty"
+      ],
+      [
+        "Cost of Revenue",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Capital Expenditures",
+        "Investing Activities"
+      ],
+      [
+        "Retailers",
+        "Revenues by Channel"
+      ],
+      [
+        "Cost of Revenue",
+        "Fiscal Year 2024"
+      ],
+      [
+        "Company",
+        "Fiscal Year 2025 Revenues"
+      ],
+      [
+        "Fiscal Year 2025",
+        "STX"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "June 28, 2024"
+      ],
+      [
+        "OEMs",
+        "Revenues by Channel"
+      ],
+      [
+        "Company",
+        "Income Taxes"
+      ],
+      [
+        "Deferred Tax Assets",
+        "Income Taxes"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Operating Cash Flow"
+      ],
+      [
+        "Company",
+        "Sales Program Accruals"
+      ],
+      [
+        "Intevac, Inc.",
+        "STX"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Income Tax Provision"
+      ],
+      [
+        "Fiscal Year 2025",
+        "Net Income"
+      ],
+      [
+        "Company",
+        "Financial Statements"
+      ]
+    ],
+    "count": 64,
+    "create_time": 1777398227,
+    "update_time": 1777398227,
+    "_id": "doc-9a681ea3d0615e9cddac841fb8c8bad3"
   }
 }
