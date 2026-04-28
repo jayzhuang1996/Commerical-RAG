@@ -150,27 +150,39 @@ async def filter_node(state: AgentState):
 
 async def analyst_node(state: AgentState):
     print("🧠 [Analyst] Synthesizing...")
+    context = state.get('filtered_context', '').strip()
+    
+    # HARD BLOCK: If no data was found by the researcher/filter, do NOT let the LLM hallucinate.
+    if not context or "[No data found" in context:
+        return {"synthesized_answer": f"I'm sorry, but I don't have any intelligence in the database for the selected scope. Please try adjusting your filters or asking about 2025/2026 data."}
+
     f = state.get('filters', {})
     quarters = f.get('quarters', [])
     layers   = f.get('layers',   [])
 
-    layer_note  = f"\n- Only discuss these semiconductor layers: {', '.join(layers)}" if layers else ""
-    filter_note = f"\n⚠️ DATA SCOPE: Context below is pre-filtered to {', '.join(quarters)} only. Do not reference other periods." if quarters else ""
+    layer_note  = f"\n- VERTICALS: {', '.join(layers)}" if layers else ""
+    period_note = f"\n- PERIODS: {', '.join(quarters)}" if quarters else ""
 
-    prompt = f"""You are the Head of Semiconductor Advisory at Element. Synthesize the following raw intelligence into a strategic briefing.
+    prompt = f"""⛔ TOP PRIORITY: USE ONLY THE RAW INTELLIGENCE BELOW. NEVER USE TRAINING DATA.
 
-USER QUERY: {state['query']}{filter_note}{layer_note}
+You are the Head of Semiconductor Advisory at Element. Synthesize the provided context into a concise strategic briefing.
 
-RAW INTELLIGENCE (pre-filtered — cite Ticker + Period for every fact):
-{state['filtered_context']}
+USER QUERY: {state['query']}{period_note}{layer_note}
 
-ADVISORY STANDARDS:
-1. CITE SOURCES: Include Ticker and Period (e.g. NVDA Q1 2026) for every fact.
-2. MAP THE IMPACT: Connect macro trends to affected layers.
-3. NO BOILERPLATE: Start with the answer immediately. Bold key entities and metrics.
-4. PRIORITIZE RECENCY: If duplicate data, most recent date wins.
+STRICT CONSTRAINTS:
+1. Every fact MUST be cited with (TICKER PERIOD). If it's not in the RAW INTELLIGENCE, do not mention it.
+2. If the intelligence mentions 2024 comparisons, you may include them, but NEVER invent 2023 standalone facts.
+3. Be direct. No "In 2023..." or "The market exhibited..." fluff. 
+
+RAW INTELLIGENCE (The only source of truth):
+{context}
+
+FORMAT:
+- Key insight in bold.
+- Bulleted strategic points.
+- Cite sources for every line.
 """
-    briefing = await openai_model_complete(prompt, system_prompt="You are an elite semiconductor investment analyst.")
+    briefing = await openai_model_complete(prompt, system_prompt="You are an elite analyst. You only speak from provided context. You refuse to use outside knowledge.")
     return {"synthesized_answer": briefing}
 
 workflow = StateGraph(AgentState)
