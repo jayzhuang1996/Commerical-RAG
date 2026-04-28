@@ -43,6 +43,7 @@ export default function ForceGraph({ triples }: Props) {
   const fgRef        = useRef<any>(null);
   const [dims, setDims] = useState({ w: 600, h: 400 });
 
+
   // ResizeObserver — drives canvas size
   useEffect(() => {
     const el = containerRef.current;
@@ -66,22 +67,18 @@ export default function ForceGraph({ triples }: Props) {
     return () => el.removeEventListener('mousemove', h);
   }, []);
 
-  // After graph loads — tighten d3 forces for dense clustering
-  const handleEngineStop = useCallback(() => {
-    if (!fgRef.current) return;
+  // Tighten d3 forces once graph is ready for dense cluster look
+  useEffect(() => {
     const fg = fgRef.current;
-    // Zoom to fit all nodes with padding
-    fg.zoomToFit(400, 40);
-  }, []);
-
-  const handleRef = useCallback((ref: any) => {
-    if (!ref) return;
-    fgRef.current = ref;
-    // Short link distance creates the tight cluster look
-    const linkForce = ref.d3Force('link');
+    if (!fg) return;
+    const linkForce = fg.d3Force('link');
     if (linkForce) linkForce.distance(50);
-    const chargeForce = ref.d3Force('charge');
+    const chargeForce = fg.d3Force('charge');
     if (chargeForce) chargeForce.strength(-180);
+  }, [graphData]);
+
+  const handleEngineStop = useCallback(() => {
+    fgRef.current?.zoomToFit(400, 40);
   }, []);
 
   const graphData = useMemo(() => {
@@ -240,7 +237,7 @@ export default function ForceGraph({ triples }: Props) {
       )}
 
       <ForceGraph2D
-        ref={handleRef}
+        ref={fgRef}
         graphData={graphData}
         nodeId="id"
         nodeCanvasObject={nodeCanvasObject}
