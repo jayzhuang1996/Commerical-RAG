@@ -166,7 +166,7 @@ export default function Home() {
             <h1 style={headingStyle}>Proving the Architecture: The Intelligence Sandbox</h1>
             <p style={subtitleStyle}>Built on public data to demonstrate what becomes possible with private data</p>
           </div>
-          <div style={{ display: 'flex', gap: '14px', width: '100%', alignItems: 'stretch' }}>
+          <div style={{ display: 'flex', gap: '0', width: '100%', alignItems: 'stretch' }}>
 
             <div style={{ ...boxStyle, background: 'var(--bg-panel)' }}>
               <div style={{ display: 'inline-block', padding: '4px 10px', background: 'var(--border)', borderRadius: '24px', fontSize: '10px', fontWeight: 700, marginBottom: '14px', letterSpacing: '0.06em' }}>PHASE 1: PROOF OF CONCEPT</div>
@@ -178,30 +178,50 @@ export default function Home() {
               </ul>
             </div>
 
-            <ArrowRight size={26} color="var(--text-muted)" style={{ flexShrink: 0, alignSelf: 'center' }} />
-
-            <div style={{ ...boxStyle, background: 'var(--bg-base)', border: '1px dashed var(--border)' }}>
-              <div style={{ display: 'inline-block', padding: '4px 10px', background: 'rgba(0,0,0,0.05)', borderRadius: '24px', fontSize: '10px', fontWeight: 700, marginBottom: '14px', letterSpacing: '0.06em' }}>
-                <Shield size={10} style={{ display: 'inline', marginRight: '3px', verticalAlign: '-1px' }} />REQUIRED ENABLERS
-              </div>
-              <h3 style={titleStyle}>What needs to happen first</h3>
-              <ul style={listStyle}>
-                <li style={{ marginBottom: '10px' }}><strong>IT Permission</strong></li>
-                <li style={{ marginBottom: '10px' }}><strong>Cloud Integration</strong></li>
-                <li><strong>Greenlights to record Business Reviews</strong></li>
-              </ul>
+            {/* Connector 1 → 2 */}
+            <div style={{ display: 'flex', alignItems: 'center', padding: '0 4px', flexShrink: 0 }}>
+              <div style={{ width: '28px', height: '2px', background: 'var(--el-blue-mist)' }} />
+              <div style={{ width: 0, height: 0, borderTop: '6px solid transparent', borderBottom: '6px solid transparent', borderLeft: '9px solid var(--el-blue-mist)' }} />
             </div>
 
-            <ArrowRight size={26} color="var(--accent-main)" style={{ flexShrink: 0, alignSelf: 'center' }} />
-
-            <div style={{ ...boxStyle, border: '2px solid var(--accent-main)', background: '#fff', boxShadow: '0 16px 32px rgba(230,81,0,0.08)' }}>
-              <div style={{ display: 'inline-block', padding: '4px 10px', background: 'rgba(230,81,0,0.1)', color: 'var(--accent-main)', borderRadius: '24px', fontSize: '10px', fontWeight: 700, marginBottom: '14px', letterSpacing: '0.06em' }}>
-                <Database size={10} style={{ display: 'inline', marginRight: '3px', verticalAlign: '-1px' }} />TARGET END-STATE
+            {/* Box 2: Required Enablers — same bg as Box 1 */}
+            <div style={{ ...boxStyle, flex: 1, background: 'var(--bg-panel)' }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', padding: '4px 10px', background: 'rgba(25,46,68,0.07)', color: 'var(--el-navy)', borderRadius: '24px', fontSize: '10px', fontWeight: 700, marginBottom: '14px', letterSpacing: '0.06em' }}>
+                <Shield size={10} />REQUIRED ENABLERS
               </div>
-              <h3 style={{ ...titleStyle, color: '#111' }}>Enterprise AI Strategy Graph</h3>
-              <ul style={{ ...listStyle, color: '#444' }}>
-                <li style={{ marginBottom: '10px' }}>Type a business question → system searches 150+ BRs instantly → sourced, structured answer returned</li>
+              <h3 style={titleStyle}>What needs to happen first</h3>
+              <ol style={{ ...listStyle, paddingLeft: '20px' }}>
+                <li style={{ marginBottom: '14px' }}>
+                  <strong>IT Permission</strong><br />
+                  <span style={{ fontSize: 'clamp(11px, 1vw, 13px)', color: 'var(--el-slate)' }}>Formal approval to run an ingestion pipeline on client-adjacent data</span>
+                </li>
+                <li style={{ marginBottom: '14px' }}>
+                  <strong>Cloud Integration</strong><br />
+                  <span style={{ fontSize: 'clamp(11px, 1vw, 13px)', color: 'var(--el-slate)' }}>Connect AI engine to Element's existing cloud infrastructure and document storage</span>
+                </li>
+                <li>
+                  <strong>Greenlights to Record Business Reviews</strong><br />
+                  <span style={{ fontSize: 'clamp(11px, 1vw, 13px)', color: 'var(--el-slate)' }}>Establish policy to systematically capture BR sessions as structured data</span>
+                </li>
+              </ol>
+            </div>
+
+            {/* Connector 2 → 3 */}
+            <div style={{ display: 'flex', alignItems: 'center', padding: '0 4px', flexShrink: 0 }}>
+              <div style={{ width: '28px', height: '2px', background: 'var(--el-teal)' }} />
+              <div style={{ width: 0, height: 0, borderTop: '6px solid transparent', borderBottom: '6px solid transparent', borderLeft: '9px solid var(--el-teal)' }} />
+            </div>
+
+            {/* Box 3: Target State */}
+            <div style={{ ...boxStyle, flex: 1, border: '2px solid var(--el-teal)', background: '#fff', boxShadow: '0 12px 28px rgba(0,215,210,0.12)' }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', padding: '4px 10px', background: 'rgba(0,215,210,0.1)', color: 'var(--el-navy)', borderRadius: '24px', fontSize: '10px', fontWeight: 700, marginBottom: '14px', letterSpacing: '0.06em' }}>
+                <Database size={10} />TARGET END-STATE
+              </div>
+              <h3 style={titleStyle}>Corporate Memory Bank</h3>
+              <ul style={listStyle}>
+                <li style={{ marginBottom: '10px' }}>Ask any business question in plain English → system scans all 150+ BRs instantly → structured, sourced answer returned</li>
                 <li style={{ marginBottom: '10px' }}>No spreadsheets. No digging. No guesswork.</li>
+                <li style={{ marginBottom: '10px' }}><strong>Why not just ChatGPT?</strong> Even with SharePoint access, ChatGPT cannot map relationships across private documents or surface cross-client patterns</li>
                 <li><em>"Which clients face EV delay risk due to infrastructure?"</em><br />→ Pinpoint account map. In seconds.</li>
               </ul>
             </div>
@@ -217,7 +237,7 @@ export default function Home() {
               onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-3px)'; }}
               onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; }}
             >
-              Initialize Semiconductor Demo →
+              Initialize Demo →
             </button>
           </div>
         </div>

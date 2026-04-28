@@ -1567,7 +1567,7 @@
     }
   },
   "doc-b82d1cbb3c2f5cb0d86dcee0826edd98": {
-    "status": "processing",
+    "status": "processed",
     "chunks_count": 21,
     "chunks_list": [
       "chunk-01078d1f415f096c2fb4fa02821fcee6",
@@ -1595,11 +1595,348 @@
     "content_summary": "--- SOURCE INFO ---\nTicker: CDNS\nLayer: LAYER_G\nPeriod: Q1_2026\nDate: 2026-02-19\nDoc Type: annual_risk\n--- END INFO ---\n\nItem 1A. Risk Factors\n\nOur operations and financial results are subject to various risks and uncertainties, including those descr...",
     "content_length": 132753,
     "created_at": "2026-04-28T13:22:25.425831+00:00",
-    "updated_at": "2026-04-28T13:22:25.471160+00:00",
+    "updated_at": "2026-04-28T13:31:44.713270+00:00",
     "file_path": "unknown_source",
     "track_id": "insert_20260428_092225_6b8c24d2",
     "metadata": {
-      "processing_start_time": 1777382545
+      "processing_start_time": 1777382545,
+      "processing_end_time": 1777383104
+    }
+  },
+  "doc-2fb271031f5d81694d9f95e47d9b341b": {
+    "status": "processed",
+    "chunks_count": 9,
+    "chunks_list": [
+      "chunk-4d8f6db3894dac48fef690c5596b2f8c",
+      "chunk-07446f72694f65f027f464ddd080bc79",
+      "chunk-7ffe41f924d5b4fff7655ab174927447",
+      "chunk-35609869c8005b31edf85a1b650ff4bc",
+      "chunk-5a6833038c2c1259de908285824e0b90",
+      "chunk-10bb3b5cfe164ea5f774f21c51b27976",
+      "chunk-29fe1d97686478770465f3899fb4b5c3",
+      "chunk-e9d86a138571df482d38452320875279",
+      "chunk-19e4d11c5b4a3dcafedcbbbffe1e4bcf"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: CDNS\nLayer: LAYER_G\nPeriod: Q1_2026\nDate: 2026-02-17\nDoc Type: earnings_press_release\n--- END INFO ---\n\nExhibit 99.01                                                      \n                                                  ...",
+    "content_length": 72390,
+    "created_at": "2026-04-28T13:31:45.349788+00:00",
+    "updated_at": "2026-04-28T13:32:17.751973+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093145_a1c626a5",
+    "metadata": {
+      "processing_start_time": 1777383105,
+      "processing_end_time": 1777383137
+    }
+  },
+  "doc-dd4e969409ce2819cebf7ad3b6fd53ee": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dd4e969409ce2819cebf7ad3b6fd53ee"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: CDNS\nLayer: LAYER_G\nPeriod: Q4_2024\nDate: 2024-10-30\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nWe are authorized to repurchase shares of our common stock...",
+    "content_length": 2501,
+    "created_at": "2026-04-28T13:32:18.315937+00:00",
+    "updated_at": "2026-04-28T13:32:18.796013+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093218_44f67583",
+    "metadata": {
+      "processing_start_time": 1777383138,
+      "processing_end_time": 1777383138
+    }
+  },
+  "doc-b03324ccc325282eb3c70e924945876c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b03324ccc325282eb3c70e924945876c"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: CDNS\nLayer: LAYER_G\nPeriod: Q2_2025\nDate: 2025-04-30\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nWe are authorized to repurchase shares of our common stock...",
+    "content_length": 2500,
+    "created_at": "2026-04-28T13:32:19.610290+00:00",
+    "updated_at": "2026-04-28T13:32:55.123488+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093219_f9d9d31e",
+    "metadata": {
+      "processing_start_time": 1777383139,
+      "processing_end_time": 1777383175
+    }
+  },
+  "doc-f1103f2d78fea8fdef8cc09ec697f22e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f1103f2d78fea8fdef8cc09ec697f22e"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: CDNS\nLayer: LAYER_G\nPeriod: Q3_2025\nDate: 2025-07-30\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nWe are authorized to repurchase shares of our common stock...",
+    "content_length": 2475,
+    "created_at": "2026-04-28T13:32:55.740118+00:00",
+    "updated_at": "2026-04-28T13:33:47.297039+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093255_7ad3cdba",
+    "metadata": {
+      "processing_start_time": 1777383175,
+      "processing_end_time": 1777383227
+    }
+  },
+  "doc-4faac4ea3e197ab89aebdabb67419563": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4faac4ea3e197ab89aebdabb67419563"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: CDNS\nLayer: LAYER_G\nPeriod: Q4_2025\nDate: 2025-10-29\nDoc Type: quarterly_mda\n--- END INFO ---\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\nWe are authorized to repurchase shares of our common stock...",
+    "content_length": 2496,
+    "created_at": "2026-04-28T13:33:48.037996+00:00",
+    "updated_at": "2026-04-28T13:34:17.080413+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093348_00f1ae6d",
+    "metadata": {
+      "processing_start_time": 1777383228,
+      "processing_end_time": 1777383257
+    }
+  },
+  "dup-c5fcdef2578373e4eb704c07e6b02b4d": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-4c92ddfbda6d40994ad4c0e9a965d022",
+    "content_length": 104992,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.683261+00:00",
+    "updated_at": "2026-04-28T13:34:17.683267+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_34d730cf",
+    "error_msg": "Content already exists. Original doc_id: doc-4c92ddfbda6d40994ad4c0e9a965d022, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-4c92ddfbda6d40994ad4c0e9a965d022",
+      "original_track_id": "insert_20260427_040305_cf43c412"
+    }
+  },
+  "dup-363ac8af95a9eda50395f668b3538468": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-e7978c9e303ad77a6cb4edeefa5f61bc",
+    "content_length": 99249,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.691350+00:00",
+    "updated_at": "2026-04-28T13:34:17.691356+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_74a3adc4",
+    "error_msg": "Content already exists. Original doc_id: doc-e7978c9e303ad77a6cb4edeefa5f61bc, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-e7978c9e303ad77a6cb4edeefa5f61bc",
+      "original_track_id": "insert_20260427_043654_4cd1dff7"
+    }
+  },
+  "dup-9117e057d9a14290e52d9a17ec8dd255": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-f60be1d369008dda0461cefaf2ff61fa",
+    "content_length": 3259,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.696925+00:00",
+    "updated_at": "2026-04-28T13:34:17.696928+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_08db0f88",
+    "error_msg": "Content already exists. Original doc_id: doc-f60be1d369008dda0461cefaf2ff61fa, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-f60be1d369008dda0461cefaf2ff61fa",
+      "original_track_id": "insert_20260427_052146_b8b3797d"
+    }
+  },
+  "dup-590c4b68a0bcd9fc8145884e8d2435fa": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-c4845686f7704c5c80e402305d19f7ce",
+    "content_length": 3969,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.702163+00:00",
+    "updated_at": "2026-04-28T13:34:17.702165+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_b0d7fc4a",
+    "error_msg": "Content already exists. Original doc_id: doc-c4845686f7704c5c80e402305d19f7ce, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-c4845686f7704c5c80e402305d19f7ce",
+      "original_track_id": "insert_20260427_061535_bb7cd051"
+    }
+  },
+  "dup-d9601607a41de732614c50782929ea09": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-77d86694dce1fc1e9c3d3ac3bab4c5be",
+    "content_length": 3279,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.707341+00:00",
+    "updated_at": "2026-04-28T13:34:17.707344+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_fb2855c7",
+    "error_msg": "Content already exists. Original doc_id: doc-77d86694dce1fc1e9c3d3ac3bab4c5be, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-77d86694dce1fc1e9c3d3ac3bab4c5be",
+      "original_track_id": "insert_20260427_070157_2a2ce2ac"
+    }
+  },
+  "dup-63e4f496c5c972a436dc23874062a71e": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-01ee832930ff813d9db8fa5bfa02507e",
+    "content_length": 2568,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.712306+00:00",
+    "updated_at": "2026-04-28T13:34:17.712309+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_4f947f95",
+    "error_msg": "Content already exists. Original doc_id: doc-01ee832930ff813d9db8fa5bfa02507e, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-01ee832930ff813d9db8fa5bfa02507e",
+      "original_track_id": "insert_20260427_074831_ca4e37c4"
+    }
+  },
+  "dup-ee872923c364c20f01b09d78f7c00928": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-42f53a7a013b4ea3f40ae02d0580650e",
+    "content_length": 52334,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.719861+00:00",
+    "updated_at": "2026-04-28T13:34:17.719864+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_119a05cd",
+    "error_msg": "Content already exists. Original doc_id: doc-42f53a7a013b4ea3f40ae02d0580650e, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-42f53a7a013b4ea3f40ae02d0580650e",
+      "original_track_id": "insert_20260427_083910_5257eb21"
+    }
+  },
+  "dup-317cd8c7eb2a21a92ad49f272ebf8c36": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-c22edc0f49803e029a935a9524737c28",
+    "content_length": 124775,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.728661+00:00",
+    "updated_at": "2026-04-28T13:34:17.728664+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_ee35e15b",
+    "error_msg": "Content already exists. Original doc_id: doc-c22edc0f49803e029a935a9524737c28, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-c22edc0f49803e029a935a9524737c28",
+      "original_track_id": "insert_20260427_092959_4f3c003c"
+    }
+  },
+  "dup-d36cefbd9e110049f0f4828ddc82fcab": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-a0875cdce54018cd923f6cab7e6b6692",
+    "content_length": 1688,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.734235+00:00",
+    "updated_at": "2026-04-28T13:34:17.734237+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_2d6b222b",
+    "error_msg": "Content already exists. Original doc_id: doc-a0875cdce54018cd923f6cab7e6b6692, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-a0875cdce54018cd923f6cab7e6b6692",
+      "original_track_id": "insert_20260427_102857_cecda624"
+    }
+  },
+  "dup-6b81ffb2ad216a4de14f629082f83667": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-5683e0e31bc2c33bc785c82d9af45ff5",
+    "content_length": 61698,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.741742+00:00",
+    "updated_at": "2026-04-28T13:34:17.741745+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_41dd36e1",
+    "error_msg": "Content already exists. Original doc_id: doc-5683e0e31bc2c33bc785c82d9af45ff5, Status: processed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-5683e0e31bc2c33bc785c82d9af45ff5",
+      "original_track_id": "insert_20260427_113254_b42d0e70"
+    }
+  },
+  "dup-ebf8128394f5762a7a0cee9a2ae074e4": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-0292dbc49bc4382dc3bccb8e9b403c95",
+    "content_length": 1971,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.748003+00:00",
+    "updated_at": "2026-04-28T13:34:17.748007+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_5bb52e83",
+    "error_msg": "Content already exists. Original doc_id: doc-0292dbc49bc4382dc3bccb8e9b403c95, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-0292dbc49bc4382dc3bccb8e9b403c95",
+      "original_track_id": "insert_20260427_123751_f3987531"
+    }
+  },
+  "dup-041c7d73237ab04d8eca0b14f0a7c5bc": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-e87a4f351685e936b673b5d8beb0687a",
+    "content_length": 1980,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-04-28T13:34:17.754462+00:00",
+    "updated_at": "2026-04-28T13:34:17.754465+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_1d5b7365",
+    "error_msg": "Content already exists. Original doc_id: doc-e87a4f351685e936b673b5d8beb0687a, Status: DocStatus.PROCESSED",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-e87a4f351685e936b673b5d8beb0687a",
+      "original_track_id": "insert_20260427_132437_a39ac6f2"
+    }
+  },
+  "doc-aebaa8b8f02fb277d7eeae3030ea5a02": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-aebaa8b8f02fb277d7eeae3030ea5a02"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: KLAC\nLayer: LAYER_D\nPeriod: Q1_2026\nDate: 2026-01-30\nDoc Type: quarterly_mda\n--- END INFO ---\n\nITEM 2.    UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS\n\nEquity Repurchase Plans\n\nThe following is a summary of ...",
+    "content_length": 1992,
+    "created_at": "2026-04-28T13:34:17.760442+00:00",
+    "updated_at": "2026-04-28T13:34:47.470608+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093417_6e41739e",
+    "metadata": {
+      "processing_start_time": 1777383257,
+      "processing_end_time": 1777383287
+    }
+  },
+  "doc-bfdf031da0ef4ad5de41000a428b4800": {
+    "status": "processing",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-4f4a3122187e873b883c3ae983dcfbd1",
+      "chunk-4560dd9c4d75c0c949685cd5e1bc44ac",
+      "chunk-909b4a6e7d2d44ead63c7c68c8a07f6e",
+      "chunk-2725c6348566925d28592418e83522ee",
+      "chunk-5912cd27946bb79a39a642a53e9f8ab0",
+      "chunk-40bdbcc57796bdfaf2433e0e540d9057",
+      "chunk-6a85fc6b24bbbe3eb5473e7f317c3b93"
+    ],
+    "content_summary": "--- SOURCE INFO ---\nTicker: LRCX\nLayer: LAYER_D\nPeriod: Q3_2025\nDate: 2025-08-11\nDoc Type: annual_business\n--- END INFO ---\n\nItem 7.    Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion of...",
+    "content_length": 32055,
+    "created_at": "2026-04-28T13:34:48.098032+00:00",
+    "updated_at": "2026-04-28T13:34:48.134413+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260428_093448_410ef982",
+    "metadata": {
+      "processing_start_time": 1777383288
     }
   }
 }

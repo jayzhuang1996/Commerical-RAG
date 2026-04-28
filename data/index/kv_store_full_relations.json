@@ -10607,5 +10607,1257 @@
     "create_time": 1777382544,
     "update_time": 1777382544,
     "_id": "doc-99f470f40b8d0a206196ebb8b3121434"
+  },
+  "doc-b82d1cbb3c2f5cb0d86dcee0826edd98": {
+    "relation_pairs": [
+      [
+        "Financial Resources",
+        "Intellectual Property Rights"
+      ],
+      [
+        "Share Dilution",
+        "Share Repurchase Authorization"
+      ],
+      [
+        "Interest Rate Swaps",
+        "Revolving Credit Facility"
+      ],
+      [
+        "Open Source Software",
+        "Third Parties"
+      ],
+      [
+        "Cloud Solutions",
+        "Third-Party Hosting Services"
+      ],
+      [
+        "Acquisitions",
+        "Management Attention"
+      ],
+      [
+        "Corporate Governance",
+        "Litigation Expenses"
+      ],
+      [
+        "AI",
+        "CDNS"
+      ],
+      [
+        "Research and Development",
+        "Semiconductor Industry"
+      ],
+      [
+        "Russia",
+        "United States"
+      ],
+      [
+        "AI Technologies",
+        "Competitors"
+      ],
+      [
+        "Jurisdictions",
+        "Tax Law Changes"
+      ],
+      [
+        "Customer Consolidation",
+        "Operating Results"
+      ],
+      [
+        "Economic Conditions",
+        "Global Market"
+      ],
+      [
+        "Cyberattacks",
+        "Regulatory Investigations"
+      ],
+      [
+        "Design Projects",
+        "Electronics Systems Industry"
+      ],
+      [
+        "CDNS",
+        "Reputation"
+      ],
+      [
+        "Board of Directors",
+        "Delaware General Corporation Law"
+      ],
+      [
+        "United States",
+        "Visa Restrictions"
+      ],
+      [
+        "Foreign Currencies",
+        "International Operations"
+      ],
+      [
+        "Securities and Exchange Commission",
+        "United States"
+      ],
+      [
+        "Contract Award",
+        "Public Sector Customers"
+      ],
+      [
+        "Acquisitions",
+        "Compliance Programs"
+      ],
+      [
+        "Critical Accounting Estimates",
+        "Management's Discussion and Analysis of Financial Condition and Results of Operations"
+      ],
+      [
+        "Credit Ratings",
+        "Senior Notes"
+      ],
+      [
+        "Trade Restrictions",
+        "Vendors"
+      ],
+      [
+        "China",
+        "Trade Restrictions"
+      ],
+      [
+        "CDNS",
+        "semiconductor and electronics systems industries"
+      ],
+      [
+        "Tax Examinations",
+        "U.S. Tax Law Changes"
+      ],
+      [
+        "Tax",
+        "Tax Authorities"
+      ],
+      [
+        "Customer Purchasing Decisions",
+        "Market Environment for Hardware and IP"
+      ],
+      [
+        "CDNS",
+        "Personal Information"
+      ],
+      [
+        "Investment Portfolio",
+        "Monetary Policy"
+      ],
+      [
+        "Contract Manufacturers",
+        "Suppliers"
+      ],
+      [
+        "Acquisitions",
+        "Debt Financing"
+      ],
+      [
+        "AI Technologies",
+        "Federal Trade Commission"
+      ],
+      [
+        "Foreign Currencies",
+        "Israeli Shekel"
+      ],
+      [
+        "Taiwan Dollar",
+        "U.S. Dollar"
+      ],
+      [
+        "Data Privacy Laws",
+        "Personal Information"
+      ],
+      [
+        "Bid Protest Process",
+        "Contract Award"
+      ],
+      [
+        "BIS (Bureau of Industry and Security)",
+        "Trade Restrictions"
+      ],
+      [
+        "Natural Disasters",
+        "Silicon Valley"
+      ],
+      [
+        "BIS",
+        "China"
+      ],
+      [
+        "Credit Ratings",
+        "Indebtedness"
+      ],
+      [
+        "Companies",
+        "Customer Vertical Sectors"
+      ],
+      [
+        "Cyberattacks",
+        "Geopolitical Conditions"
+      ],
+      [
+        "AI Technologies",
+        "Semiconductor and Electronics Systems Industries"
+      ],
+      [
+        "Board of Directors",
+        "Share Repurchase Authorization"
+      ],
+      [
+        "One Big Beautiful Bill Act",
+        "Organisation for Economic Co-operation and Development"
+      ],
+      [
+        "British Pound",
+        "U.S. Dollar"
+      ],
+      [
+        "Financial Accounting Standards Board",
+        "United States"
+      ],
+      [
+        "Competitors",
+        "Strategic Alliances"
+      ],
+      [
+        "Reported Financial Results",
+        "United States Generally Accepted Accounting Principles"
+      ],
+      [
+        "IRS",
+        "Tax Examination"
+      ],
+      [
+        "Federal Open Market Committee",
+        "U.S. Dollar"
+      ],
+      [
+        "Debt Obligations",
+        "Interest Rate Risk"
+      ],
+      [
+        "BIS",
+        "Government Authorities"
+      ],
+      [
+        "Governments",
+        "Regulated Industries"
+      ],
+      [
+        "Competitors",
+        "Revenue"
+      ],
+      [
+        "Share Repurchase Authorization",
+        "Stock Price Fluctuations"
+      ],
+      [
+        "4.300% Senior Notes",
+        "Senior Notes"
+      ],
+      [
+        "Compliance Costs",
+        "Environmental, Social and Governance Targets"
+      ],
+      [
+        "Employee Acquisition",
+        "Hiring Claims"
+      ],
+      [
+        "Cadence",
+        "U.S. Department of Justice (DOJ)"
+      ],
+      [
+        "IRS",
+        "One Big Beautiful Bill Act"
+      ],
+      [
+        "Common Stock",
+        "Preferred Stock"
+      ],
+      [
+        "Environmental, Social and Governance Targets",
+        "President Trump"
+      ],
+      [
+        "Euro",
+        "U.S. Dollar"
+      ],
+      [
+        "IT Systems",
+        "Third-Party Providers"
+      ],
+      [
+        "Companies",
+        "Operational Proficiency"
+      ],
+      [
+        "Acquisitions",
+        "U.S. Government"
+      ],
+      [
+        "Design Projects",
+        "Semiconductor Industry"
+      ],
+      [
+        "Acquisition Targets",
+        "Export Privileges"
+      ],
+      [
+        "AI Technologies",
+        "IT Systems"
+      ],
+      [
+        "China",
+        "DOJ"
+      ],
+      [
+        "Research and Development of IP",
+        "Revenue Recognition"
+      ],
+      [
+        "Common Stock",
+        "Securities Class Action Lawsuits"
+      ],
+      [
+        "Business",
+        "Regulatory Investigations"
+      ],
+      [
+        "Natural Disasters",
+        "Restructuring Plans"
+      ],
+      [
+        "4.200% Senior Notes",
+        "Debt Obligations"
+      ],
+      [
+        "Intellectual Property Rights",
+        "Patents"
+      ],
+      [
+        "Foreign Trade Barriers",
+        "International Operations"
+      ],
+      [
+        "Acquisitions",
+        "Investment Opportunities"
+      ],
+      [
+        "Debt Obligations",
+        "Liquidity Problems"
+      ],
+      [
+        "AI Technologies",
+        "EU Artificial Intelligence Act"
+      ],
+      [
+        "European Union Euro",
+        "Foreign Currencies"
+      ],
+      [
+        "BIS (Bureau of Industry and Security)",
+        "Entity List"
+      ],
+      [
+        "China",
+        "United States"
+      ],
+      [
+        "Interim Final Rule",
+        "September 29, 2025"
+      ],
+      [
+        "Companies",
+        "Vertical Sectors"
+      ],
+      [
+        "Cash Flow",
+        "Indebtedness"
+      ],
+      [
+        "Debt Obligations",
+        "Senior Notes"
+      ],
+      [
+        "China's National Policy",
+        "United States"
+      ],
+      [
+        "Business Operations",
+        "Debt Obligations"
+      ],
+      [
+        "Bylaws",
+        "Court of Chancery of the State of Delaware"
+      ],
+      [
+        "Market Risk",
+        "U.S. Dollar"
+      ],
+      [
+        "4.300% Senior Notes",
+        "Debt Obligations"
+      ],
+      [
+        "Indian Rupee",
+        "U.S. Dollar"
+      ],
+      [
+        "Integrated Circuits",
+        "Product Demand"
+      ],
+      [
+        "EDA Products",
+        "Foundries"
+      ],
+      [
+        "Acquisitions",
+        "Equity Financing"
+      ],
+      [
+        "AI Technologies",
+        "Generative AI Platform"
+      ],
+      [
+        "Foreign Currencies",
+        "U.S. Dollar"
+      ],
+      [
+        "Credit Agreement",
+        "Debt Obligations"
+      ],
+      [
+        "Installed Customer Base",
+        "Revenue"
+      ],
+      [
+        "CDNS",
+        "United States"
+      ],
+      [
+        "Financial Accounting Standards Board",
+        "U.S. GAAP"
+      ],
+      [
+        "IP Rights",
+        "Litigation"
+      ],
+      [
+        "CDNS",
+        "Market Value"
+      ],
+      [
+        "4.700% Senior Notes",
+        "Senior Notes"
+      ],
+      [
+        "Employee",
+        "Stock Options"
+      ],
+      [
+        "Administrative Settlement Agreement",
+        "November 11, 2025"
+      ],
+      [
+        "Securities Act",
+        "United States"
+      ],
+      [
+        "Customers",
+        "Entity List"
+      ],
+      [
+        "CDNS",
+        "Operating Results"
+      ],
+      [
+        "IP Rights",
+        "Patents"
+      ],
+      [
+        "H1-B Visa",
+        "United States"
+      ],
+      [
+        "Tariffs",
+        "Trade Restrictions"
+      ],
+      [
+        "Cloud Computing",
+        "IT Systems"
+      ],
+      [
+        "Employee",
+        "Senior Management"
+      ],
+      [
+        "Operating Results",
+        "Revenue Recognition"
+      ],
+      [
+        "Bureau of Industry and Security (BIS)",
+        "China"
+      ],
+      [
+        "Confidential Information",
+        "Cyberattacks"
+      ],
+      [
+        "Company Acquisition",
+        "Delaware Law"
+      ],
+      [
+        "China",
+        "Suppliers"
+      ],
+      [
+        "Foreign Currencies",
+        "Japanese Yen"
+      ],
+      [
+        "CDNS",
+        "IP rights"
+      ],
+      [
+        "Revolving Credit Facility",
+        "Senior Notes"
+      ],
+      [
+        "Cloud Solutions",
+        "Government Procurement Processes"
+      ],
+      [
+        "Bankruptcy",
+        "Indebtedness"
+      ],
+      [
+        "4.700% Senior Notes",
+        "Debt Obligations"
+      ],
+      [
+        "CDNS",
+        "third-party data center providers"
+      ],
+      [
+        "AI Technologies",
+        "Companies"
+      ],
+      [
+        "Tax Audits",
+        "Tax Authorities"
+      ],
+      [
+        "Acquisitions",
+        "Common Stock"
+      ],
+      [
+        "Customer Consolidation",
+        "Technology Segments"
+      ],
+      [
+        "Compliance Costs",
+        "Stock Price"
+      ],
+      [
+        "British Pound",
+        "Foreign Currencies"
+      ],
+      [
+        "Cloud Computing Technologies",
+        "Companies"
+      ],
+      [
+        "Tax Authorities",
+        "Tax Rates"
+      ],
+      [
+        "EU/UK General Data Protection Regulation",
+        "Personal Information"
+      ],
+      [
+        "Bookings",
+        "Economic Conditions"
+      ],
+      [
+        "Acquisitions",
+        "Strategic Investments"
+      ],
+      [
+        "Copyright",
+        "Intellectual Property Rights"
+      ],
+      [
+        "Acquisitions",
+        "Geopolitical Conflicts"
+      ],
+      [
+        "Bookings",
+        "Customer Demand"
+      ],
+      [
+        "Cloud Solutions",
+        "Cybersecurity Incidents"
+      ],
+      [
+        "California Consumer Privacy Act",
+        "Personal Information"
+      ],
+      [
+        "Corporate Governance",
+        "Evolving Regulations"
+      ],
+      [
+        "Middle East",
+        "United States"
+      ],
+      [
+        "CDNS",
+        "public sector"
+      ],
+      [
+        "One Big Beautiful Bill Act",
+        "Tax Cuts and Jobs Act"
+      ],
+      [
+        "CDNS",
+        "annual_risk"
+      ],
+      [
+        "Israeli Shekel",
+        "U.S. Dollar"
+      ],
+      [
+        "Intellectual Property Rights",
+        "Trademark"
+      ],
+      [
+        "Taiwan",
+        "United States"
+      ],
+      [
+        "BIS",
+        "DOJ"
+      ],
+      [
+        "Capital Expenditures",
+        "Debt Obligations"
+      ],
+      [
+        "Acquisitions",
+        "Customers"
+      ],
+      [
+        "Cadence Cloud",
+        "Cyberattacks"
+      ],
+      [
+        "Cyberattacks",
+        "IT Systems"
+      ],
+      [
+        "Global Tax Framework",
+        "Jurisdictions"
+      ],
+      [
+        "Liability Risks",
+        "Products and Services"
+      ],
+      [
+        "AI Technologies",
+        "business"
+      ],
+      [
+        "Foreign Currencies",
+        "Taiwan Dollar"
+      ],
+      [
+        "Financial Market",
+        "Investment Portfolio"
+      ],
+      [
+        "Annual Report",
+        "United States"
+      ],
+      [
+        "4.200% Senior Notes",
+        "Senior Notes"
+      ],
+      [
+        "Cloud Solutions",
+        "Data Centers"
+      ],
+      [
+        "Complex ICs and Systems",
+        "Hardware and IP Sales"
+      ],
+      [
+        "Moore's Law",
+        "Semiconductor Industry"
+      ],
+      [
+        "Chinese Renminbi",
+        "Foreign Currencies"
+      ],
+      [
+        "CDNS",
+        "Q1_2026"
+      ],
+      [
+        "Foreign Currencies",
+        "Indian Rupee"
+      ],
+      [
+        "Acquisitions",
+        "Financial Resources"
+      ],
+      [
+        "Business Partners",
+        "Government Procurement Processes"
+      ],
+      [
+        "CDNS",
+        "LAYER_G"
+      ],
+      [
+        "Board of Directors",
+        "Certificate of Incorporation"
+      ],
+      [
+        "Intellectual Property Rights",
+        "Proprietary Technology"
+      ],
+      [
+        "CDNS",
+        "Customer Payment Delays"
+      ],
+      [
+        "AI Technologies",
+        "U.S. Courts"
+      ],
+      [
+        "Companies",
+        "International Markets"
+      ]
+    ],
+    "count": 182,
+    "create_time": 1777383104,
+    "update_time": 1777383104,
+    "_id": "doc-b82d1cbb3c2f5cb0d86dcee0826edd98"
+  },
+  "doc-2fb271031f5d81694d9f95e47d9b341b": {
+    "relation_pairs": [
+      [
+        "Cadence",
+        "Cadences IP Business"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Marketing and Sales"
+      ],
+      [
+        "Cadence",
+        "Protium X3"
+      ],
+      [
+        "Cadence",
+        "SerDes"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Research and Development"
+      ],
+      [
+        "Cadence",
+        "Hexagon's design and engineering business"
+      ],
+      [
+        "Cadence",
+        "Form 10-K"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Impact of Non-GAAP Adjustments on Forward Looking Diluted Net Income Per Share"
+      ],
+      [
+        "Amortization of Acquired Intangibles",
+        "Non-GAAP Operating Margin"
+      ],
+      [
+        "Cadence",
+        "Hexagon's Design and Engineering Business"
+      ],
+      [
+        "Cadence",
+        "PCIe"
+      ],
+      [
+        "Diluted Net Income Per Share",
+        "GAAP"
+      ],
+      [
+        "Divestitures",
+        "Other Income"
+      ],
+      [
+        "GAAP Operating Margin",
+        "Non-GAAP Operating Margin"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Three Months Ending March 31, 2026"
+      ],
+      [
+        "Cadence",
+        "Non-GAAP"
+      ],
+      [
+        "Legal Proceedings",
+        "Resolution"
+      ],
+      [
+        "Cadence",
+        "John Wall"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "General and Administrative"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Cadence Newsroom"
+      ],
+      [
+        "Non-GAAP operating margin",
+        "Non-qualified deferred compensation"
+      ],
+      [
+        "Amortization of Acquired Intangibles",
+        "GAAP"
+      ],
+      [
+        "Cadence",
+        "U.S. Department of Justice"
+      ],
+      [
+        "GAAP",
+        "Non-GAAP Measures"
+      ],
+      [
+        "Non-GAAP Operating Margin",
+        "Stock-based Compensation Expense"
+      ],
+      [
+        "Non-GAAP operating margin",
+        "Restructuring"
+      ],
+      [
+        "Cadence",
+        "Cadences Intelligent System Design™"
+      ],
+      [
+        "GAAP",
+        "Stock-based Compensation Expense"
+      ],
+      [
+        "CDNS",
+        "Cadence"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Cadence Investor Relations"
+      ],
+      [
+        "Investments",
+        "Other Income"
+      ],
+      [
+        "Acquisition and Integration-related Costs",
+        "Non-GAAP Operating Margin"
+      ],
+      [
+        "Cadence",
+        "U.S. Securities and Exchange Commission"
+      ],
+      [
+        "Acquisition and Integration-related Costs",
+        "Net Income on a GAAP Basis"
+      ],
+      [
+        "Bureau of Industry and Security",
+        "Cadence"
+      ],
+      [
+        "Cadence",
+        "D&E"
+      ],
+      [
+        "Cadence",
+        "ChipStack"
+      ],
+      [
+        "Cadence",
+        "DDR"
+      ],
+      [
+        "Cadence",
+        "Fourth Quarter 2025"
+      ],
+      [
+        "Income Tax Effect of Non-GAAP Adjustments",
+        "Investments, Divestitures, and Non-Qualified Deferred Compensation Plan Assets"
+      ],
+      [
+        "Diluted Net Income Per Share",
+        "Shares Used in Calculation"
+      ],
+      [
+        "Exchange Contract",
+        "Pending Acquisition"
+      ],
+      [
+        "Loss Related to Contingent Liability",
+        "Special Charges"
+      ],
+      [
+        "Cadence",
+        "Wall Street Journal"
+      ],
+      [
+        "Acquisition and Integration Costs",
+        "Foreign Currency Forward Exchange Contract"
+      ],
+      [
+        "Forward Looking Diluted Net Income Per Share",
+        "GAAP"
+      ],
+      [
+        "Cadence",
+        "HBM"
+      ],
+      [
+        "Cadence",
+        "Cadences Core EDA Business"
+      ],
+      [
+        "Cadence",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Cadence",
+        "San Jose"
+      ],
+      [
+        "GAAP",
+        "Non-GAAP Net Income"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Impact of Non-GAAP Adjustments on Forward Looking Operating Margin"
+      ],
+      [
+        "Cadence",
+        "GAAP"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Condensed Consolidated Balance Sheets"
+      ],
+      [
+        "CDNS",
+        "Nasdaq"
+      ],
+      [
+        "Cadence",
+        "System Design and Analysis Business"
+      ],
+      [
+        "Income Tax Effect of Non-GAAP Adjustments",
+        "Net Income on a Non-GAAP Basis"
+      ],
+      [
+        "BIS",
+        "Loss related to contingent liability*"
+      ],
+      [
+        "Amortization of Acquisition Intangibles",
+        "Cadence Design Systems, Inc."
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Condensed Consolidated Statements of Cash Flows"
+      ],
+      [
+        "Non-GAAP operating margin",
+        "Special charges"
+      ],
+      [
+        "DOJ",
+        "Loss related to contingent liability*"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "DOJ"
+      ],
+      [
+        "3D-IC Platform",
+        "Cadence"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Year Ending December 31, 2026"
+      ],
+      [
+        "Anirudh Devgan",
+        "Cadence"
+      ],
+      [
+        "Cadence",
+        "Palladium Z3"
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Condensed Consolidated Income Statements"
+      ],
+      [
+        "Cadence",
+        "UCIe"
+      ],
+      [
+        "Income Tax",
+        "Non-GAAP Adjustments"
+      ],
+      [
+        "Cadence",
+        "Form 10-Q"
+      ],
+      [
+        "BIS",
+        "Cadence Design Systems, Inc."
+      ],
+      [
+        "Cadence Design Systems, Inc.",
+        "Cost of Service"
+      ]
+    ],
+    "count": 73,
+    "create_time": 1777383137,
+    "update_time": 1777383137,
+    "_id": "doc-2fb271031f5d81694d9f95e47d9b341b"
+  },
+  "doc-dd4e969409ce2819cebf7ad3b6fd53ee": {
+    "relation_pairs": [
+      [
+        "August 2, 2023",
+        "CDNS"
+      ],
+      [
+        "CDNS",
+        "February 1, 2017"
+      ],
+      [
+        "CDNS",
+        "Exchange Act"
+      ],
+      [
+        "CDNS",
+        "Tax Withholding Obligations"
+      ],
+      [
+        "August 2, 2023 Additional Authorization",
+        "CDNS"
+      ],
+      [
+        "CDNS",
+        "Restricted Stock"
+      ],
+      [
+        "CDNS",
+        "September 1, 2024 - September 30, 2024"
+      ],
+      [
+        "Board of Directors",
+        "CDNS"
+      ],
+      [
+        "CDNS",
+        "July 1, 2024 - July 31, 2024"
+      ],
+      [
+        "August 1, 2024 - August 31, 2024",
+        "CDNS"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1777383138,
+    "update_time": 1777383138,
+    "_id": "doc-dd4e969409ce2819cebf7ad3b6fd53ee"
+  },
+  "doc-b03324ccc325282eb3c70e924945876c": {
+    "relation_pairs": [
+      [
+        "August 2, 2023",
+        "CDNS"
+      ],
+      [
+        "CDNS",
+        "Publicly Announced Repurchase Program"
+      ],
+      [
+        "April 30, 2025",
+        "Q2_2025"
+      ],
+      [
+        "CDNS",
+        "Rule 10b5-1"
+      ],
+      [
+        "$1.0 Billion",
+        "CDNS"
+      ],
+      [
+        "Rule 10b5-1",
+        "Share Repurchase Transactions"
+      ],
+      [
+        "CDNS",
+        "Q2_2025"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777383175,
+    "update_time": 1777383175,
+    "_id": "doc-b03324ccc325282eb3c70e924945876c"
+  },
+  "doc-f1103f2d78fea8fdef8cc09ec697f22e": {
+    "relation_pairs": [
+      [
+        "CDNS",
+        "June 30, 2025"
+      ],
+      [
+        "CDNS",
+        "Exchange Act"
+      ],
+      [
+        "April 1, 2025",
+        "CDNS"
+      ],
+      [
+        "Board of Directors",
+        "May 8, 2025"
+      ],
+      [
+        "CDNS",
+        "Publicly Announced Repurchase Program"
+      ],
+      [
+        "CDNS",
+        "total repurchases"
+      ],
+      [
+        "April 1, 2025",
+        "total repurchases"
+      ],
+      [
+        "CDNS",
+        "Rule 10b5-1"
+      ],
+      [
+        "CDNS",
+        "May 1, 2025"
+      ],
+      [
+        "Board of Directors",
+        "CDNS"
+      ],
+      [
+        "June 1, 2025",
+        "total repurchases"
+      ],
+      [
+        "CDNS",
+        "June 1, 2025"
+      ],
+      [
+        "CDNS",
+        "Stock Price"
+      ],
+      [
+        "Acquisition Opportunities",
+        "CDNS"
+      ],
+      [
+        "May 1, 2025",
+        "total repurchases"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1777383227,
+    "update_time": 1777383227,
+    "_id": "doc-f1103f2d78fea8fdef8cc09ec697f22e"
+  },
+  "doc-4faac4ea3e197ab89aebdabb67419563": {
+    "relation_pairs": [
+      [
+        "CDNS",
+        "September 30, 2025"
+      ],
+      [
+        "Board of Directors",
+        "May 8, 2025"
+      ],
+      [
+        "CDNS",
+        "Q4 2025"
+      ],
+      [
+        "Publicly Announced Repurchase Program",
+        "Rule 10b5-1"
+      ],
+      [
+        "CDNS",
+        "Publicly Announced Repurchase Program"
+      ],
+      [
+        "Board of Directors",
+        "CDNS"
+      ],
+      [
+        "CDNS",
+        "quarterly MDA"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1777383257,
+    "update_time": 1777383257,
+    "_id": "doc-4faac4ea3e197ab89aebdabb67419563"
+  },
+  "doc-aebaa8b8f02fb277d7eeae3030ea5a02": {
+    "relation_pairs": [
+      [
+        "Board of Directors",
+        "KLAC"
+      ],
+      [
+        "Inflation Reduction Act of 2022",
+        "Stock Repurchase Program"
+      ],
+      [
+        "KLAC",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Q1 2026",
+        "Quarterly MDA"
+      ],
+      [
+        "KLAC",
+        "Publicly Announced Plans"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1777383287,
+    "update_time": 1777383287,
+    "_id": "doc-aebaa8b8f02fb277d7eeae3030ea5a02"
   }
 }
