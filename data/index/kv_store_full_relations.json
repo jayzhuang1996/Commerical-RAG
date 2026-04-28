@@ -4314,5 +4314,2774 @@
     "create_time": 1777339536,
     "update_time": 1777339536,
     "_id": "doc-bb36fab71686f431e4ce3731f5e093ae"
+  },
+  "doc-be6012d4490b311c332210488579b21e": {
+    "relation_pairs": [
+      [
+        "Fiscal Year 2025",
+        "VMware"
+      ],
+      [
+        "Global Minimum Tax",
+        "Provision for Income Taxes"
+      ],
+      [
+        "Fair Value",
+        "Long-lived Assets"
+      ],
+      [
+        "Net Revenue",
+        "Semiconductor Solutions Customer"
+      ],
+      [
+        "Cash Flows",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Fiscal Year 2024",
+        "Fiscal Year 2025"
+      ],
+      [
+        "IPR&D",
+        "Long-Lived Assets"
+      ],
+      [
+        "Financial Statements",
+        "Form 10-K"
+      ],
+      [
+        "Goodwill",
+        "Intangible Assets"
+      ],
+      [
+        "Stock-Based Compensation Expense",
+        "VMware"
+      ],
+      [
+        "Customers",
+        "Net Revenue"
+      ],
+      [
+        "Private Cloud Infrastructure Suite",
+        "VMware Cloud Service Provider Partners"
+      ],
+      [
+        "2023 Term Loans",
+        "Broadcom"
+      ],
+      [
+        "Board of Directors",
+        "Cash Dividend Payments"
+      ],
+      [
+        "Cash Flows",
+        "Operating Activities"
+      ],
+      [
+        "November 3, 2024",
+        "operating income"
+      ],
+      [
+        "Unallocated expenses",
+        "operating income"
+      ],
+      [
+        "Revenue",
+        "Unclaimed Rebates"
+      ],
+      [
+        "Net Revenue",
+        "Top Five End Customers"
+      ],
+      [
+        "Broadcom",
+        "VMware"
+      ],
+      [
+        "Corporate Income Tax Rate in Singapore",
+        "Provision for Income Taxes"
+      ],
+      [
+        "397 million",
+        "benefit from income taxes"
+      ],
+      [
+        "Cash Flows",
+        "Fiscal Year 2024"
+      ],
+      [
+        "Outstanding Indebtedness",
+        "Short-Term Debt"
+      ],
+      [
+        "Acquisition-Related Intangible Assets",
+        "General and Administrative Expense"
+      ],
+      [
+        "Deferred Tax Assets",
+        "Valuation Allowances"
+      ],
+      [
+        "Deferred Tax Assets",
+        "Income Tax Liabilities"
+      ],
+      [
+        "Fiscal Year 2024",
+        "VMware"
+      ],
+      [
+        "AI and Wireless Applications",
+        "Quarterly Net Revenue"
+      ],
+      [
+        "Capital Expenditure Needs",
+        "Research and Development"
+      ],
+      [
+        "3,748 million",
+        "provision for income taxes"
+      ],
+      [
+        "Stock-Based Compensation Expense",
+        "Two-Year Equity Awards"
+      ],
+      [
+        "Malaysia",
+        "Provision for Income Taxes"
+      ],
+      [
+        "Cash Flows",
+        "Investing Activities"
+      ],
+      [
+        "EUC Business",
+        "VMware"
+      ],
+      [
+        "Two-Year Equity Awards",
+        "stock-based compensation expense"
+      ],
+      [
+        "Acquisition-Related Intangible Assets",
+        "In-Process Research and Development"
+      ],
+      [
+        "Broadcom",
+        "VMware Merger"
+      ],
+      [
+        "Cash Flows",
+        "Financing Activities"
+      ],
+      [
+        "Gross Margin",
+        "Net Revenue"
+      ],
+      [
+        "Economic Trends",
+        "Long-lived Assets"
+      ],
+      [
+        "Long-lived Assets",
+        "Real Estate Market"
+      ],
+      [
+        "Broadcom",
+        "Part II, Item 8"
+      ],
+      [
+        "China (including Hong Kong)",
+        "Net Revenue"
+      ],
+      [
+        "Long-Lived Assets",
+        "Right-of-Use Assets"
+      ],
+      [
+        "Distributor Credits",
+        "Revenue"
+      ],
+      [
+        "Customer",
+        "Rebates"
+      ],
+      [
+        "Provision for Income Taxes",
+        "Singapore Economic Development Board"
+      ],
+      [
+        "Broadcom",
+        "VMware Cloud Foundation"
+      ],
+      [
+        "Broadcom",
+        "SEC"
+      ],
+      [
+        "Board of Directors",
+        "Fiscal Year 2024"
+      ],
+      [
+        "Business Combinations",
+        "Intangible Assets"
+      ],
+      [
+        "Assumptions and Estimates",
+        "Business Strategy"
+      ],
+      [
+        "Cost of Revenue",
+        "Net Revenue"
+      ],
+      [
+        "Form 10-K",
+        "U.S. Securities and Exchange Commission"
+      ],
+      [
+        "VMware acquisition",
+        "stock-based compensation expense"
+      ],
+      [
+        "Unsecured Revolving Credit Facility",
+        "Working Capital Requirements"
+      ],
+      [
+        "Deferred Tax Liabilities",
+        "Income Tax Liabilities"
+      ],
+      [
+        "Broadcom",
+        "Note 10"
+      ],
+      [
+        "Board of Directors",
+        "Common Stock"
+      ],
+      [
+        "Restructuring and Other Charges",
+        "VMware Business Integration"
+      ],
+      [
+        "Broadcom",
+        "Part I, Item 1A"
+      ],
+      [
+        "Private Cloud Infrastructure Suite",
+        "Value-Added OEMs"
+      ],
+      [
+        "Infrastructure software",
+        "operating income"
+      ],
+      [
+        "Semiconductor solutions",
+        "operating income"
+      ],
+      [
+        "Penang, Malaysia",
+        "Revenue Recognition"
+      ],
+      [
+        "November 2, 2025",
+        "stock-based compensation expense"
+      ],
+      [
+        "Broadcom",
+        "Original Equipment Manufacturers"
+      ],
+      [
+        "Selling, General and Administrative Expense",
+        "VMware Acquisition"
+      ],
+      [
+        "Amortization of Acquisition-Related Intangible Assets",
+        "Software Acquisitions"
+      ],
+      [
+        "Assumptions and Estimates",
+        "Internal Forecasts"
+      ],
+      [
+        "Provision for Income Taxes",
+        "Singapore"
+      ],
+      [
+        "Research and Development Expense",
+        "Stock-Based Compensation"
+      ],
+      [
+        "Dividends Per Share",
+        "Dividends to Common Stockholders"
+      ],
+      [
+        "Gross Margin",
+        "Operating Income"
+      ],
+      [
+        "Goodwill",
+        "Reporting Units"
+      ],
+      [
+        "Hyperscale Cloud Providers",
+        "Private Cloud Infrastructure Suite"
+      ],
+      [
+        "General and Administrative Expense",
+        "Goodwill"
+      ],
+      [
+        "Broadcom",
+        "Distributors"
+      ],
+      [
+        "Broadcom",
+        "Net Revenue"
+      ],
+      [
+        "Income Taxes",
+        "Outstanding Indebtedness"
+      ],
+      [
+        "Broadcom",
+        "Seagate Technology Holdings plc"
+      ],
+      [
+        "Infrastructure Software",
+        "Quarterly Net Revenue"
+      ],
+      [
+        "Annual Report on Form 10-K",
+        "Broadcom"
+      ]
+    ],
+    "count": 84,
+    "update_time": 1777380501,
+    "_id": "doc-be6012d4490b311c332210488579b21e"
+  },
+  "doc-640b8ee8b9f1d6c8b56dcf5a4511e94a": {
+    "relation_pairs": [
+      [
+        "Qualified Personnel",
+        "Southeast Asia"
+      ],
+      [
+        "Cybersecurity",
+        "Regulatory Compliance"
+      ],
+      [
+        "AVGO",
+        "Layer A"
+      ],
+      [
+        "Business Operations",
+        "Cybersecurity Threats"
+      ],
+      [
+        "Qualified Personnel",
+        "Research and Development Personnel"
+      ],
+      [
+        "Board of Directors",
+        "Cash Dividends"
+      ],
+      [
+        "Global Economic Conditions",
+        "Risks Related to Our Business"
+      ],
+      [
+        "AI Data Centers",
+        "Customers"
+      ],
+      [
+        "Corporate Responsibility",
+        "Stakeholders"
+      ],
+      [
+        "U.S.",
+        "VMware"
+      ],
+      [
+        "End Customers",
+        "Top Five Customers"
+      ],
+      [
+        "Tax Benefits",
+        "Tax Incentives"
+      ],
+      [
+        "Fiscal Year 2025",
+        "TSMC"
+      ],
+      [
+        "International Operations",
+        "Macroeconomic Factors"
+      ],
+      [
+        "Cloud Providers",
+        "Software Solutions"
+      ],
+      [
+        "Foreign Regulatory Agencies",
+        "U.S. Federal Trade Commission"
+      ],
+      [
+        "Business Operations",
+        "IT Systems"
+      ],
+      [
+        "Customer Default Risks",
+        "Operating Results"
+      ],
+      [
+        "Malware",
+        "Unauthorized Access"
+      ],
+      [
+        "Government Regulations",
+        "Legal Requirements"
+      ],
+      [
+        "Technology Claims",
+        "Third Parties"
+      ],
+      [
+        "AVGO",
+        "Q4 2025"
+      ],
+      [
+        "Acquisitions",
+        "Expenses"
+      ],
+      [
+        "International Revenue",
+        "Macroeconomic Weakness"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Software Portfolio"
+      ],
+      [
+        "Corporate Responsibility",
+        "Legal Claims"
+      ],
+      [
+        "Open Source Software",
+        "Software Solutions"
+      ],
+      [
+        "AI Racks",
+        "Custom AI Accelerators"
+      ],
+      [
+        "Product Recalls",
+        "Warranty Claims"
+      ],
+      [
+        "AVGO",
+        "Risks Related to Our Business"
+      ],
+      [
+        "Market Acceptance",
+        "Product Recalls"
+      ],
+      [
+        "Intellectual Property (IP)",
+        "Revenue from Licensing"
+      ],
+      [
+        "Cybersecurity Incident",
+        "Insider Threat"
+      ],
+      [
+        "Customers",
+        "Manufacturing Capacity"
+      ],
+      [
+        "Tax Holiday",
+        "Tax Incentives"
+      ],
+      [
+        "China",
+        "U.S."
+      ],
+      [
+        "Customer Default Risks",
+        "End Customers"
+      ],
+      [
+        "Cybersecurity Threats",
+        "IT Systems"
+      ],
+      [
+        "Mergers and Acquisitions",
+        "VMware"
+      ],
+      [
+        "Litigation",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Cash Dividends",
+        "Stock Repurchases"
+      ],
+      [
+        "Financial Resources",
+        "Mergers and Acquisitions"
+      ],
+      [
+        "Business Strategy",
+        "New Business Models"
+      ],
+      [
+        "Contract Manufacturing",
+        "TSMC"
+      ],
+      [
+        "Cash Dividends",
+        "Subsidiaries"
+      ],
+      [
+        "End Customers",
+        "VMware"
+      ],
+      [
+        "Stock Repurchase Program",
+        "Stockholders"
+      ],
+      [
+        "Business Disruption",
+        "Unauthorized Access"
+      ],
+      [
+        "Contract Manufacturing",
+        "Semiconductor Industry"
+      ],
+      [
+        "AVGO",
+        "Risks Related to Owning Our Common Stock"
+      ],
+      [
+        "Customer Relationships",
+        "VMware"
+      ],
+      [
+        "Operating Systems",
+        "Software Solutions"
+      ],
+      [
+        "Acquisition-Related Lawsuits",
+        "Litigation"
+      ],
+      [
+        "Confidential Information",
+        "Proprietary Information"
+      ],
+      [
+        "Fort Collins",
+        "Natural Disasters"
+      ],
+      [
+        "AI Racks and Systems",
+        "Semiconductor Solutions"
+      ],
+      [
+        "Accelerate Program",
+        "VMware"
+      ],
+      [
+        "AI",
+        "AVGO"
+      ],
+      [
+        "Common Stock",
+        "Stock Price Volatility"
+      ],
+      [
+        "Customers",
+        "Environmental Risks"
+      ],
+      [
+        "Components",
+        "Supply Chain"
+      ],
+      [
+        "Software Solutions",
+        "U.S. Federal Government"
+      ],
+      [
+        "International Laws and Regulations",
+        "Semiconductor Products"
+      ],
+      [
+        "Corporate Responsibility",
+        "Governance Obligations"
+      ],
+      [
+        "International Operations",
+        "Semiconductor Industry"
+      ],
+      [
+        "Materials Suppliers",
+        "TSMC"
+      ],
+      [
+        "Government Contracts",
+        "Software Solutions"
+      ],
+      [
+        "Customers",
+        "Warranty Claims"
+      ],
+      [
+        "Customer Requirements",
+        "Research and Development"
+      ],
+      [
+        "Intellectual Property (IP)",
+        "Licenses"
+      ],
+      [
+        "AVGO",
+        "Risks Related to Our Taxes"
+      ],
+      [
+        "One Big Beautiful Bill Act",
+        "Tax Policies"
+      ],
+      [
+        "Acquisitions",
+        "Liabilities"
+      ],
+      [
+        "AVGO",
+        "SEC"
+      ],
+      [
+        "Customers",
+        "Intellectual Property Rights"
+      ],
+      [
+        "AI",
+        "Semiconductor Industry"
+      ],
+      [
+        "International Jurisdictions",
+        "Regulatory Approval"
+      ],
+      [
+        "AVGO",
+        "Risks Related to Our Indebtedness"
+      ],
+      [
+        "Customers",
+        "Product Liability"
+      ],
+      [
+        "Contractual Lifecycle",
+        "Software Solutions"
+      ],
+      [
+        "Business Continuity Events",
+        "Operational Disruption"
+      ],
+      [
+        "Litigation",
+        "Management"
+      ],
+      [
+        "Competitors",
+        "Operating Results"
+      ],
+      [
+        "Intellectual Property (IP)",
+        "Management"
+      ],
+      [
+        "Income Taxes",
+        "Tax Policies"
+      ],
+      [
+        "Catalyst Initiative",
+        "VMware"
+      ],
+      [
+        "Customers",
+        "Non-U.S. Regulators"
+      ],
+      [
+        "Lawsuits",
+        "Litigation"
+      ],
+      [
+        "Dell",
+        "VMware"
+      ],
+      [
+        "Corporate Income Taxes",
+        "Tax Benefits"
+      ],
+      [
+        "Creating Helpful Incentives to Produce Semiconductors for America Act",
+        "TSMC"
+      ],
+      [
+        "Global Economic Conditions",
+        "Trade Tensions"
+      ],
+      [
+        "Custom AI Accelerators",
+        "XPUs"
+      ],
+      [
+        "Cash Dividends",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Natural Disasters",
+        "Singapore"
+      ],
+      [
+        "Internal Revenue Code",
+        "VMware"
+      ],
+      [
+        "End Customers",
+        "Fiscal Year 2025"
+      ],
+      [
+        "Customers",
+        "Privacy and Data Security Laws"
+      ],
+      [
+        "Breinigsville",
+        "Natural Disasters"
+      ],
+      [
+        "Software Solutions",
+        "State and Local Government"
+      ],
+      [
+        "Infrastructure Software Solutions",
+        "Semiconductor Solutions"
+      ],
+      [
+        "Qualified Personnel",
+        "Silicon Valley"
+      ],
+      [
+        "Competitors",
+        "Public Cloud Providers"
+      ],
+      [
+        "Cyber-Attacks",
+        "Geopolitical Instability"
+      ],
+      [
+        "Semiconductor Manufacturing",
+        "U.S. Government"
+      ],
+      [
+        "International Operations",
+        "U.S. Tariffs"
+      ],
+      [
+        "Hock E. Tan",
+        "TSMC"
+      ],
+      [
+        "Design Wins",
+        "Semiconductor Industry"
+      ],
+      [
+        "Financial Condition",
+        "Government Regulations"
+      ],
+      [
+        "Financial Markets",
+        "Global Economic Conditions"
+      ],
+      [
+        "AI Racks",
+        "XPUs"
+      ],
+      [
+        "Customers",
+        "Qualified Personnel"
+      ],
+      [
+        "Semiconductor Industry",
+        "Technological Advancements"
+      ],
+      [
+        "Computing and AI",
+        "Personal Data"
+      ],
+      [
+        "Cybersecurity Threats",
+        "Data Center Virtualization Portfolio"
+      ],
+      [
+        "Customers",
+        "U.S. Regulators"
+      ],
+      [
+        "Intellectual Property Rights",
+        "Suppliers"
+      ],
+      [
+        "AI Racks",
+        "Operating Margin"
+      ],
+      [
+        "Sole Distribution Relationships",
+        "VMware"
+      ],
+      [
+        "Accelerate Program",
+        "Customer Relationships"
+      ],
+      [
+        "Corporate Income Taxes",
+        "Tax Incentives"
+      ],
+      [
+        "Corporate Infrastructure Vendors",
+        "IT Systems"
+      ]
+    ],
+    "count": 122,
+    "update_time": 1777380607,
+    "_id": "doc-640b8ee8b9f1d6c8b56dcf5a4511e94a"
+  },
+  "doc-4fe22c3df0c95dfd5e0bb46ade8554b0": {
+    "relation_pairs": [
+      [
+        "AVGO",
+        "Q1 2025"
+      ],
+      [
+        "8 million shares",
+        "AVGO"
+      ],
+      [
+        "$2,036 million",
+        "AVGO"
+      ],
+      [
+        "AVGO",
+        "February 2, 2025"
+      ],
+      [
+        "AVGO",
+        "average price of $235.69"
+      ]
+    ],
+    "count": 5,
+    "update_time": 1777380784,
+    "_id": "doc-4fe22c3df0c95dfd5e0bb46ade8554b0"
+  },
+  "doc-db16028b865589c8deb5630190c22030": {
+    "relation_pairs": [
+      [
+        "$10 Billion Stock Repurchase Program",
+        "December 31, 2025"
+      ],
+      [
+        "May 4, 2025",
+        "Q2 2025"
+      ],
+      [
+        "$196.42",
+        "May 4, 2025"
+      ],
+      [
+        "$10 Billion Stock Repurchase Program",
+        "Q2 2025"
+      ],
+      [
+        "AVGO",
+        "Board of Directors"
+      ]
+    ],
+    "count": 5,
+    "update_time": 1777380784,
+    "_id": "doc-db16028b865589c8deb5630190c22030"
+  },
+  "doc-fb1fde295160ad2250494cce02ebb07b": {
+    "relation_pairs": [
+      [
+        "Customers",
+        "Embedded Chips"
+      ],
+      [
+        "Organization",
+        "RAND"
+      ],
+      [
+        "Company",
+        "U.K."
+      ],
+      [
+        "Automotive",
+        "Business Growth"
+      ],
+      [
+        "DTC Clearance System",
+        "U.K. Stamp Duty"
+      ],
+      [
+        "ADSs",
+        "DTC"
+      ],
+      [
+        "London City Code on Takeovers and Mergers",
+        "SoftBank Group"
+      ],
+      [
+        "Company",
+        "OEMs"
+      ],
+      [
+        "ARM",
+        "Third Parties"
+      ],
+      [
+        "Competition",
+        "RISC-V"
+      ],
+      [
+        "Chiplets",
+        "Technological Changes"
+      ],
+      [
+        "Consumer Behavior",
+        "Smartphones"
+      ],
+      [
+        "Safety Critical Systems",
+        "Security Vulnerabilities"
+      ],
+      [
+        "Open-Source Licenses",
+        "Source Code"
+      ],
+      [
+        "Global Markets",
+        "Middle East Conflicts"
+      ],
+      [
+        "Mobile and Consumer Electronics",
+        "Our Products"
+      ],
+      [
+        "People's Republic of China",
+        "Taiwan"
+      ],
+      [
+        "Competition for Talent",
+        "Qualified Engineers"
+      ],
+      [
+        "International Trade",
+        "Russia and Belarus"
+      ],
+      [
+        "Deposit Agreement",
+        "Trial Court"
+      ],
+      [
+        "PRC Market",
+        "U.K."
+      ],
+      [
+        "Acquisition",
+        "Debt"
+      ],
+      [
+        "Deposit Agreement",
+        "Federal Securities Laws"
+      ],
+      [
+        "High-Performance Computing",
+        "Neoverse V Series Processors"
+      ],
+      [
+        "AI",
+        "South Korea"
+      ],
+      [
+        "Articles of Association",
+        "SoftBank Group"
+      ],
+      [
+        "Management",
+        "Market Price"
+      ],
+      [
+        "Board of Directors",
+        "Company"
+      ],
+      [
+        "Machine Learning",
+        "Technological Changes"
+      ],
+      [
+        "Market Price",
+        "Technology Companies"
+      ],
+      [
+        "Enterprise Electronics",
+        "Our Products"
+      ],
+      [
+        "ADSs",
+        "Civil Liabilities"
+      ],
+      [
+        "Bureau of Industry and Security",
+        "Semiconductors"
+      ],
+      [
+        "Deposit Agreement",
+        "Depositary"
+      ],
+      [
+        "Competing Technology",
+        "Market Share"
+      ],
+      [
+        "Cyberattacks",
+        "Malware"
+      ],
+      [
+        "Geographical Challenges",
+        "Operational Risks"
+      ],
+      [
+        "Arm China",
+        "Mr. Haas"
+      ],
+      [
+        "Neoverse Series Processor Family",
+        "U.S. Government"
+      ],
+      [
+        "European Union",
+        "GDPR"
+      ],
+      [
+        "Consumer Electronics",
+        "Customers"
+      ],
+      [
+        "Shareholder Governance Agreement",
+        "SoftBank Group"
+      ],
+      [
+        "AI Software Products",
+        "Enterprise Products"
+      ],
+      [
+        "Exchange Act",
+        "Public Company"
+      ],
+      [
+        "Customers",
+        "Licensing"
+      ],
+      [
+        "Export Administration Regulations",
+        "U.S. Department of Commerce"
+      ],
+      [
+        "Personal Information",
+        "Privacy Policies"
+      ],
+      [
+        "Organization",
+        "Standards-Setting Organizations"
+      ],
+      [
+        "Exchange Act",
+        "Our Products"
+      ],
+      [
+        "Company",
+        "Delaware General Corporation Law"
+      ],
+      [
+        "Collaboration",
+        "SoftBank Group"
+      ],
+      [
+        "Development Costs",
+        "Loan Agreements"
+      ],
+      [
+        "CAC Assessments",
+        "China"
+      ],
+      [
+        "SoftBank Group",
+        "Us"
+      ],
+      [
+        "Nasdaq",
+        "U.S."
+      ],
+      [
+        "Company",
+        "Russia"
+      ],
+      [
+        "Investment Alternatives",
+        "Market Price"
+      ],
+      [
+        "GDPR",
+        "U.S. Department of Justice"
+      ],
+      [
+        "Deposit Agreement",
+        "Jury Trial Waiver"
+      ],
+      [
+        "Articles",
+        "Takeover Code"
+      ],
+      [
+        "Competitors",
+        "Software Products"
+      ],
+      [
+        "PRC",
+        "U.S."
+      ],
+      [
+        "CFC",
+        "United States Shareholder"
+      ],
+      [
+        "CFC",
+        "IRS"
+      ],
+      [
+        "ARM",
+        "IP Rights"
+      ],
+      [
+        "Geopolitical Tensions",
+        "Global Semiconductor Chip Supply Chain"
+      ],
+      [
+        "Mr. Grisenthwaite",
+        "Organization"
+      ],
+      [
+        "Investments",
+        "Strategic Transactions"
+      ],
+      [
+        "Acetone Limited",
+        "SoftBank Group"
+      ],
+      [
+        "OECD",
+        "U.K."
+      ],
+      [
+        "Our Products",
+        "Systems Companies"
+      ],
+      [
+        "Goodwill",
+        "March 31, 2024"
+      ],
+      [
+        "Tax Audits",
+        "Tax Policy Initiatives"
+      ],
+      [
+        "Internal Control",
+        "Material Weakness"
+      ],
+      [
+        "End-Market Applications",
+        "Our Products"
+      ],
+      [
+        "Our Products",
+        "Semiconductor and Electronics Industries"
+      ],
+      [
+        "Competitors",
+        "Research and Development Efforts"
+      ],
+      [
+        "14th Five-Year Plan",
+        "Arm China"
+      ],
+      [
+        "Offer",
+        "Takeover Offer"
+      ],
+      [
+        "Cyberattacks",
+        "Ransomware Events"
+      ],
+      [
+        "R&D Expenditure Credit",
+        "U.K."
+      ],
+      [
+        "ARM",
+        "Customers"
+      ],
+      [
+        "Artificial Intelligence",
+        "Graphics Processing Units"
+      ],
+      [
+        "Chiplets",
+        "End Chip Solutions"
+      ],
+      [
+        "Original Equipment Manufacturers",
+        "Our Products"
+      ],
+      [
+        "ARM",
+        "Annual Report"
+      ],
+      [
+        "Automotive",
+        "Our Products"
+      ],
+      [
+        "Arm China",
+        "HOPU Investment Management Company"
+      ],
+      [
+        "Third Parties",
+        "Trust"
+      ],
+      [
+        "ADS",
+        "Deposit Agreement"
+      ],
+      [
+        "England and Wales",
+        "U.S. District Court for the Northern District of California"
+      ],
+      [
+        "Financial Statements",
+        "Internal Control"
+      ],
+      [
+        "England",
+        "Ordinary Shares"
+      ],
+      [
+        "Chiplets",
+        "Competitive Risks"
+      ],
+      [
+        "Employee Attrition",
+        "Inflation Rates"
+      ],
+      [
+        "Deposit Agreement",
+        "SoftBank Group"
+      ],
+      [
+        "Complete Chips",
+        "Royalty Revenue"
+      ],
+      [
+        "Mobile Applications Processors",
+        "Royalty Revenue"
+      ],
+      [
+        "IP Rights",
+        "Legal Proceedings"
+      ],
+      [
+        "Export Restrictions",
+        "Our Products"
+      ],
+      [
+        "AI",
+        "Technological Changes"
+      ],
+      [
+        "Currency Hedging Transactions",
+        "Financial Derivatives"
+      ],
+      [
+        "CCPA",
+        "United States"
+      ],
+      [
+        "Personal Information",
+        "Third-Party Partners"
+      ],
+      [
+        "New Technologies",
+        "Operational Risks"
+      ],
+      [
+        "Foreign Private Issuer",
+        "The Nasdaq Stock Market LLC"
+      ],
+      [
+        "Securities Act",
+        "SoftBank Group"
+      ],
+      [
+        "Arm China",
+        "SoftBank Group"
+      ],
+      [
+        "IP Portfolio",
+        "RTL-based CSSs"
+      ],
+      [
+        "RAND Licensing",
+        "Standards-Setting Organizations"
+      ],
+      [
+        "IP Rights",
+        "Trademark Laws"
+      ],
+      [
+        "AI Software Products",
+        "Consumer Products"
+      ],
+      [
+        "Financial Condition",
+        "Market Conditions"
+      ],
+      [
+        "IP Rights",
+        "Third Parties"
+      ],
+      [
+        "Articles",
+        "Company"
+      ],
+      [
+        "Company",
+        "Competitors"
+      ],
+      [
+        "Arm China",
+        "Revenue"
+      ],
+      [
+        "Business Growth",
+        "Management Team"
+      ],
+      [
+        "Chip Development",
+        "OEMs"
+      ],
+      [
+        "Competitive Market",
+        "Environmental, Social and Governance (ESG)"
+      ],
+      [
+        "Business Strategy",
+        "Strategic Transactions"
+      ],
+      [
+        "Business Growth",
+        "Channel Partners"
+      ],
+      [
+        "Annual Report",
+        "Cyberattacks"
+      ],
+      [
+        "PRC",
+        "export licenses"
+      ],
+      [
+        "Ordinary Shares",
+        "U.K. Stamp Duty"
+      ],
+      [
+        "Export Administration Regulations",
+        "U.S. Government"
+      ],
+      [
+        "Customers",
+        "Smartphones"
+      ],
+      [
+        "Articles",
+        "Northern District of California"
+      ],
+      [
+        "ARM",
+        "Semiconductor and Electronics Industries"
+      ],
+      [
+        "Government Contracts",
+        "U.K. Bribery Act 2010"
+      ],
+      [
+        "Mr. Collins",
+        "Organization"
+      ],
+      [
+        "Passive Foreign Investment Company",
+        "U.S. Federal Income Tax Return"
+      ],
+      [
+        "SoftBank Group",
+        "Stargate Project"
+      ],
+      [
+        "ARM",
+        "PRC"
+      ],
+      [
+        "New Technologies",
+        "Technological Risks"
+      ],
+      [
+        "Consumer Spending",
+        "Semiconductor Industry"
+      ],
+      [
+        "CSS",
+        "Competitive Risks"
+      ],
+      [
+        "AI",
+        "European Union"
+      ],
+      [
+        "Open-Source Licenses",
+        "Open-Source Software"
+      ],
+      [
+        "Embedded",
+        "Our Products"
+      ],
+      [
+        "Information Technology Systems",
+        "Vendors"
+      ],
+      [
+        "Next-Generation Technology",
+        "Research and Development Efforts"
+      ],
+      [
+        "Cybersecurity",
+        "New Technologies"
+      ],
+      [
+        "EU Cyber Resilience Act",
+        "NIS2"
+      ],
+      [
+        "Final Rule",
+        "U.S. Department of Treasury"
+      ],
+      [
+        "Acquisitions",
+        "Strategic Transactions"
+      ],
+      [
+        "Arm China",
+        "IPLA"
+      ],
+      [
+        "Business Operations",
+        "Financial Covenants"
+      ],
+      [
+        "Arm China",
+        "Company"
+      ],
+      [
+        "Cybersecurity",
+        "Global Insurance Policies"
+      ],
+      [
+        "Regulations",
+        "Strategic Transactions"
+      ],
+      [
+        "Annual Report",
+        "Deposit Agreement"
+      ],
+      [
+        "Brand",
+        "Damage to Reputation"
+      ],
+      [
+        "Arm China",
+        "Semiconductor IP Products"
+      ],
+      [
+        "Acetone Limited",
+        "Arm China"
+      ],
+      [
+        "General Purpose CPU",
+        "New Technologies"
+      ],
+      [
+        "Mr. Son",
+        "SoftBank Group"
+      ],
+      [
+        "CAC Assessments",
+        "Significant Expense"
+      ],
+      [
+        "ADS",
+        "Ordinary Shares"
+      ],
+      [
+        "Mr. Child",
+        "Organization"
+      ],
+      [
+        "Attrition",
+        "Organization"
+      ],
+      [
+        "Qualcomm Inc.",
+        "Qualcomm Technologies, Inc."
+      ],
+      [
+        "ADS Facility",
+        "Depositary"
+      ],
+      [
+        "Cloud Computing",
+        "Technological Changes"
+      ],
+      [
+        "Geopolitical Factors",
+        "Global Semiconductor Market"
+      ],
+      [
+        "Customers",
+        "Cyberattacks"
+      ],
+      [
+        "Global Markets",
+        "War in Ukraine"
+      ],
+      [
+        "Cyberattacks",
+        "Service Providers"
+      ],
+      [
+        "CSS",
+        "February 21, 2024"
+      ],
+      [
+        "ADS",
+        "Fees for Services"
+      ],
+      [
+        "Board of Directors",
+        "Public Company"
+      ],
+      [
+        "Legal Proceedings",
+        "Trade Secrets"
+      ],
+      [
+        "Central Processing Unit",
+        "Company"
+      ],
+      [
+        "Cyberattacks",
+        "Insurance Coverage"
+      ],
+      [
+        "Arm China",
+        "Intellectual Property License Agreement"
+      ],
+      [
+        "Cybersecurity Liabilities",
+        "Insurance Coverage"
+      ],
+      [
+        "Joint Venture",
+        "RISC-V architecture"
+      ],
+      [
+        "Clearance or Settlement System",
+        "Depositary"
+      ],
+      [
+        "Internal Control",
+        "Public Company"
+      ],
+      [
+        "Operating Systems",
+        "Organization"
+      ],
+      [
+        "Euro",
+        "USD"
+      ],
+      [
+        "Anti-ESG Sentiment",
+        "Environmental, Social and Governance (ESG)"
+      ],
+      [
+        "Economic Conditions",
+        "Smartphones"
+      ],
+      [
+        "U.K.",
+        "U.K. Advanced Compute Export Control Rules"
+      ],
+      [
+        "ADSs",
+        "Depositary"
+      ],
+      [
+        "Data Centers",
+        "Technological Changes"
+      ],
+      [
+        "British Pounds Sterling",
+        "USD"
+      ],
+      [
+        "Joint Venture",
+        "competitors"
+      ],
+      [
+        "Goodwill",
+        "Intangible Assets"
+      ],
+      [
+        "Public Company",
+        "Sarbanes-Oxley Act"
+      ],
+      [
+        "Company",
+        "Legal Proceedings"
+      ],
+      [
+        "Cyberattacks",
+        "Information Technology Systems"
+      ],
+      [
+        "Mr. Haas",
+        "SoftBank Group"
+      ],
+      [
+        "Antitrust Laws",
+        "Qualcomm"
+      ],
+      [
+        "Fiscal Year Ended March 31, 2025",
+        "Material Weakness"
+      ],
+      [
+        "Company",
+        "Nasdaq"
+      ],
+      [
+        "Gross Domestic Product",
+        "Semiconductor Industry"
+      ],
+      [
+        "National Security Laws",
+        "Third-Party Partners"
+      ],
+      [
+        "RISC-V architecture",
+        "x86 architecture"
+      ],
+      [
+        "SDRT",
+        "U.K. Stamp Duty"
+      ],
+      [
+        "Company",
+        "Ordinary Shares"
+      ],
+      [
+        "IP",
+        "New Technologies"
+      ],
+      [
+        "ADS",
+        "DTC"
+      ],
+      [
+        "14th Five-Year Plan",
+        "PRC"
+      ],
+      [
+        "Debt",
+        "Loan Agreements"
+      ],
+      [
+        "Brand",
+        "Reputation"
+      ],
+      [
+        "Arm",
+        "Qualcomm Inc."
+      ],
+      [
+        "Open-Source Software",
+        "Our Products"
+      ],
+      [
+        "Company",
+        "Shareholder Rights"
+      ],
+      [
+        "Controlled Foreign Corporation (CFC)",
+        "U.S."
+      ],
+      [
+        "China",
+        "U.S."
+      ],
+      [
+        "Allen Wu",
+        "Arm China"
+      ],
+      [
+        "Arm CSS",
+        "Company"
+      ],
+      [
+        "Automobiles",
+        "Economic Conditions"
+      ],
+      [
+        "Company",
+        "Qualcomm"
+      ],
+      [
+        "Credential Stuffing",
+        "Cyberattacks"
+      ],
+      [
+        "ADS Holders",
+        "Ordinary Shares"
+      ],
+      [
+        "Public Company",
+        "SoftBank Group"
+      ],
+      [
+        "Goodwill",
+        "Impairments"
+      ],
+      [
+        "Custom Chip Designs",
+        "Substantial Investments"
+      ],
+      [
+        "PRC",
+        "Russia"
+      ],
+      [
+        "Nuvia, Inc.",
+        "Qualcomm Inc."
+      ],
+      [
+        "Metaverse",
+        "Technological Changes"
+      ],
+      [
+        "IP Rights",
+        "Trade Secret Protection"
+      ],
+      [
+        "China",
+        "United States"
+      ],
+      [
+        "Company",
+        "Smartphone Users"
+      ],
+      [
+        "Advanced Compute Chips",
+        "Malaysian Government"
+      ],
+      [
+        "Pending Litigation",
+        "U.S. District Court for the District of Delaware"
+      ],
+      [
+        "Export Restrictions",
+        "U.S. Government"
+      ],
+      [
+        "ADS",
+        "Securities Act"
+      ],
+      [
+        "Company",
+        "High Valuations"
+      ],
+      [
+        "Our Products",
+        "SoftBank Group"
+      ],
+      [
+        "Internet of Things",
+        "Our Products"
+      ],
+      [
+        "Litigation",
+        "New Technologies"
+      ],
+      [
+        "India",
+        "U.K. Bribery Act 2010"
+      ],
+      [
+        "Company",
+        "Nuvia"
+      ],
+      [
+        "SEC",
+        "U.S. Foreign Corrupt Practices Act"
+      ],
+      [
+        "Competitive Risks",
+        "End Chip Solutions"
+      ],
+      [
+        "East Asia",
+        "Semiconductor Industry"
+      ],
+      [
+        "California Consumer Privacy Act",
+        "General Data Protection Regulation"
+      ],
+      [
+        "Disaster Recovery Plans",
+        "Information Technology Systems"
+      ],
+      [
+        "Economic Sanctions",
+        "Tariffs"
+      ],
+      [
+        "IP Rights",
+        "Patent Laws"
+      ],
+      [
+        "Bribery Offense",
+        "Compliance Safeguards"
+      ],
+      [
+        "PRC Market",
+        "Royalty Revenues"
+      ],
+      [
+        "AI Models",
+        "Third-Party Partners"
+      ],
+      [
+        "EDA Tools",
+        "Organization"
+      ],
+      [
+        "Cash Flow",
+        "Research and Development Expenditures"
+      ],
+      [
+        "Company",
+        "Exchange Act"
+      ],
+      [
+        "ADSs",
+        "SoftBank Group"
+      ],
+      [
+        "Business Growth",
+        "IoT"
+      ],
+      [
+        "ARM",
+        "Arm China"
+      ],
+      [
+        "Middle East",
+        "Russia"
+      ],
+      [
+        "Shareholder Governance Agreement",
+        "SoftBank Group Facility"
+      ],
+      [
+        "Royalty Revenue",
+        "Semiconductor Companies"
+      ],
+      [
+        "Chiplets",
+        "SoftBank Group"
+      ],
+      [
+        "ARM",
+        "U.S. Securities and Exchange Commission"
+      ],
+      [
+        "EDA Tools",
+        "Our Products"
+      ],
+      [
+        "Arm China",
+        "U.S."
+      ],
+      [
+        "Retained EU Law (Revocation and Reform) Act 2023",
+        "U.K. Stamp Duty"
+      ],
+      [
+        "Company",
+        "Consolidation"
+      ],
+      [
+        "Organization",
+        "Systems Software"
+      ],
+      [
+        "Arm core",
+        "Bespoke Accelerators"
+      ],
+      [
+        "Company",
+        "IP Rights"
+      ],
+      [
+        "ADS Holders",
+        "Deposit Agreement"
+      ],
+      [
+        "European Union",
+        "U.K."
+      ],
+      [
+        "Goodwill",
+        "March 31, 2025"
+      ],
+      [
+        "Public Company",
+        "United States Shareholder"
+      ],
+      [
+        "Controlled Foreign Corporation (CFC)",
+        "U.S. Securities Laws"
+      ],
+      [
+        "Final Rule",
+        "PRC"
+      ],
+      [
+        "Company",
+        "U.S."
+      ],
+      [
+        "ARM",
+        "CSS"
+      ],
+      [
+        "Corporate Social Responsibility Programs",
+        "Environmental, Social and Governance (ESG)"
+      ],
+      [
+        "Made in China 2025",
+        "PRC"
+      ],
+      [
+        "Company",
+        "Customers"
+      ],
+      [
+        "Market Disruptions",
+        "Ukraine"
+      ],
+      [
+        "End Chip Solutions",
+        "IP Portfolio"
+      ],
+      [
+        "Cyberattacks",
+        "Phishing Attacks"
+      ],
+      [
+        "Litigation",
+        "Qualcomm"
+      ],
+      [
+        "Licensing Agreements",
+        "Royalty Revenue"
+      ],
+      [
+        "Inflation Reduction Act",
+        "U.S."
+      ],
+      [
+        "New Technologies",
+        "Smartphone and Consumer Electronics Markets"
+      ],
+      [
+        "Consumer Behavior",
+        "Consumer Electronics"
+      ],
+      [
+        "Semiconductor Industry",
+        "Taiwan"
+      ],
+      [
+        "Deposit Agreement",
+        "New York"
+      ],
+      [
+        "IP",
+        "Vendors"
+      ],
+      [
+        "Global Architecture Fragmentation",
+        "United States"
+      ],
+      [
+        "Companies Act",
+        "SoftBank Group"
+      ],
+      [
+        "Patent Box Regime",
+        "U.K."
+      ],
+      [
+        "ARM",
+        "SoftBank Group"
+      ],
+      [
+        "U.K.",
+        "U.S."
+      ],
+      [
+        "Social Engineering Techniques",
+        "Unauthorized Access"
+      ],
+      [
+        "PRC Market",
+        "U.S."
+      ],
+      [
+        "Company",
+        "European Union"
+      ],
+      [
+        "European Union",
+        "ePrivacy Regulation"
+      ],
+      [
+        "Business Operations",
+        "COVID-19 Pandemic"
+      ],
+      [
+        "IRS",
+        "Internal Revenue Code of 1986"
+      ],
+      [
+        "ADSs",
+        "Company"
+      ],
+      [
+        "ARM",
+        "Competitors"
+      ],
+      [
+        "Cyberattacks",
+        "Third-Party Partners"
+      ],
+      [
+        "Takeover Code",
+        "U.K."
+      ],
+      [
+        "Company",
+        "Semiconductor Industry"
+      ],
+      [
+        "Market Disruptions",
+        "Middle East"
+      ],
+      [
+        "Data Protection",
+        "GDPR"
+      ],
+      [
+        "Board of Directors",
+        "Shareholder Governance Agreement"
+      ],
+      [
+        "Company",
+        "Middle East"
+      ],
+      [
+        "Consulting Agreement",
+        "SoftBank Group"
+      ],
+      [
+        "Public Limited Company",
+        "Shareholder Approval"
+      ],
+      [
+        "Customers",
+        "Ecosystems"
+      ],
+      [
+        "IP Rights",
+        "Legal Jurisdictions"
+      ],
+      [
+        "PRC",
+        "Taiwan"
+      ],
+      [
+        "Business Model",
+        "Customers"
+      ],
+      [
+        "5G",
+        "Business Growth"
+      ],
+      [
+        "SoftBank Group",
+        "U.K. City Code on Takeovers and Mergers"
+      ],
+      [
+        "Image Sensors",
+        "Technological Changes"
+      ],
+      [
+        "ARM",
+        "Demand"
+      ],
+      [
+        "Russia",
+        "Ukraine"
+      ],
+      [
+        "Data Protection",
+        "New Technologies"
+      ],
+      [
+        "Competitors",
+        "Hardware Products"
+      ],
+      [
+        "Organization",
+        "Third-Party Partners"
+      ],
+      [
+        "Market Price",
+        "Securities Class Action Litigation"
+      ],
+      [
+        "Annual Report",
+        "Market Price"
+      ],
+      [
+        "Semiconductor Industry",
+        "Trade Secrets"
+      ],
+      [
+        "Development Tools",
+        "Organization"
+      ],
+      [
+        "Artificial Intelligence",
+        "Neural Processing Units"
+      ],
+      [
+        "Legal Proceedings",
+        "Third Parties"
+      ],
+      [
+        "Business Growth",
+        "Cloud Computing"
+      ],
+      [
+        "IP",
+        "Open-Source Software"
+      ],
+      [
+        "Arm China",
+        "PRC"
+      ],
+      [
+        "Competition",
+        "x86"
+      ],
+      [
+        "ADS",
+        "SoftBank Group"
+      ],
+      [
+        "PRC",
+        "Semiconductor IP Products"
+      ],
+      [
+        "ADS Holders",
+        "Depositary"
+      ],
+      [
+        "U.K. Bribery Act 2010",
+        "U.S. Foreign Corrupt Practices Act"
+      ],
+      [
+        "SEC",
+        "foreign private issuer"
+      ],
+      [
+        "Ordinary Shareholders",
+        "Shareholder Approval"
+      ],
+      [
+        "RISC-V",
+        "SoftBank Group"
+      ],
+      [
+        "Operational Risks",
+        "Supply Chain Constraints"
+      ],
+      [
+        "Business Continuity Plans",
+        "Cyberattacks"
+      ],
+      [
+        "Economic Conditions",
+        "Servers"
+      ],
+      [
+        "Company Compliance",
+        "SoftBank Group"
+      ],
+      [
+        "U.K. Stamp Duty",
+        "ordinary shares"
+      ],
+      [
+        "Company",
+        "PRC"
+      ],
+      [
+        "Industry Standards",
+        "Organization"
+      ],
+      [
+        "Governmental or Regulatory Scrutiny",
+        "New Technologies"
+      ],
+      [
+        "Ethical Concerns",
+        "New Technologies"
+      ],
+      [
+        "Internal Control",
+        "Section 404 of the Sarbanes-Oxley Act of 2002"
+      ],
+      [
+        "ADSs",
+        "Ordinary Shares"
+      ],
+      [
+        "Market Conditions",
+        "Market Price"
+      ],
+      [
+        "New Products",
+        "Slow Adoption"
+      ],
+      [
+        "Product Mix",
+        "Profit Margins"
+      ],
+      [
+        "AI",
+        "Business Growth"
+      ],
+      [
+        "ADSs",
+        "ordinary shares"
+      ],
+      [
+        "AI and Machine Learning (ML)",
+        "Reputation"
+      ],
+      [
+        "Material Weakness",
+        "Remediation Plan"
+      ],
+      [
+        "Organization",
+        "U.K."
+      ],
+      [
+        "Consolidation",
+        "Semiconductor and Electronics Industries"
+      ],
+      [
+        "Chinese Yuan Renminbi",
+        "USD"
+      ],
+      [
+        "Company",
+        "Sarbanes-Oxley Act"
+      ],
+      [
+        "Our Products",
+        "The Nasdaq Stock Market LLC"
+      ],
+      [
+        "Ordinary Shares",
+        "SoftBank Group"
+      ],
+      [
+        "CCPA",
+        "Personal Information"
+      ],
+      [
+        "GDPR",
+        "Marketing Activities"
+      ],
+      [
+        "Qualcomm Architecture License Agreement",
+        "Qualcomm Inc."
+      ],
+      [
+        "CSS",
+        "Infrastructure Space"
+      ],
+      [
+        "CSS",
+        "Company"
+      ],
+      [
+        "Industry Standards",
+        "Our Products"
+      ],
+      [
+        "Depositary",
+        "Holders of ADS"
+      ],
+      [
+        "Distraction from Core Business",
+        "Human Capital"
+      ],
+      [
+        "Panel on Takeovers and Mergers",
+        "Takeover Code"
+      ],
+      [
+        "China",
+        "U.K. Bribery Act 2010"
+      ],
+      [
+        "Tax Advisors",
+        "U.S. Investor"
+      ],
+      [
+        "Board of Directors",
+        "SoftBank Group"
+      ],
+      [
+        "BIS",
+        "U.S."
+      ],
+      [
+        "Bribery Offense",
+        "U.K. Bribery Act 2010"
+      ],
+      [
+        "GDPR",
+        "U.K. GDPR"
+      ],
+      [
+        "English Law",
+        "Public Limited Company"
+      ],
+      [
+        "Qualcomm",
+        "Third-Party Partners"
+      ],
+      [
+        "Majority Voting Power",
+        "SoftBank Group"
+      ],
+      [
+        "Competition for Talent",
+        "Consultants"
+      ],
+      [
+        "Mr. Haas",
+        "Organization"
+      ],
+      [
+        "Intellectual Property (IP) Infringement",
+        "Patent Litigation"
+      ],
+      [
+        "Registrable Securities",
+        "SoftBank Group"
+      ],
+      [
+        "Competition for Talent",
+        "Sales and Marketing Talent"
+      ],
+      [
+        "AI",
+        "ML"
+      ],
+      [
+        "Arm China",
+        "U.K."
+      ],
+      [
+        "Company",
+        "Contracts"
+      ],
+      [
+        "GDSII-based CSSs",
+        "IP Portfolio"
+      ],
+      [
+        "SoftBank Group",
+        "SoftBank Group Facility"
+      ],
+      [
+        "SoftBank Group",
+        "ordinary shares"
+      ],
+      [
+        "Arm China",
+        "PRC Market"
+      ],
+      [
+        "Ordinary Shareholders",
+        "Shareholders"
+      ],
+      [
+        "G20 Inclusive Framework on Base Erosion and Profit Shifting",
+        "OECD"
+      ]
+    ],
+    "count": 393,
+    "update_time": 1777380783,
+    "_id": "doc-fb1fde295160ad2250494cce02ebb07b"
+  },
+  "doc-f1585698465a222f7fe085213a2892ab": {
+    "relation_pairs": [
+      [
+        "AVGO",
+        "LAYER A"
+      ],
+      [
+        "2025-09-10",
+        "AVGO"
+      ],
+      [
+        "AVGO",
+        "Q3 2025"
+      ],
+      [
+        "LAYER A",
+        "Q3 2025"
+      ],
+      [
+        "LAYER A",
+        "quarterly mda"
+      ]
+    ],
+    "count": 5,
+    "update_time": 1777380785,
+    "_id": "doc-f1585698465a222f7fe085213a2892ab"
+  },
+  "doc-ab4fed2451ba98a9b8f9ac6037703d67": {
+    "relation_pairs": [
+      [
+        "February 1, 2026",
+        "Fiscal Quarter Ended February 1, 2026"
+      ],
+      [
+        "$10 Billion",
+        "Board of Directors"
+      ],
+      [
+        "December 31, 2026",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Publicly Announced Plan",
+        "Stock Repurchase Program"
+      ],
+      [
+        "Board of Directors",
+        "Stock Repurchase Program"
+      ],
+      [
+        "AVGO",
+        "Fiscal Quarter Ended February 1, 2026"
+      ],
+      [
+        "AVGO",
+        "Board of Directors"
+      ]
+    ],
+    "count": 7,
+    "update_time": 1777380819,
+    "_id": "doc-ab4fed2451ba98a9b8f9ac6037703d67"
+  },
+  "doc-5d62a266a8d6df68a2672eb570383d0e": {
+    "relation_pairs": [
+      [
+        "Net Income",
+        "Provision for Income Taxes"
+      ],
+      [
+        "Broadcom",
+        "Cash Dividend"
+      ],
+      [
+        "Net Income",
+        "Non-GAAP Tax Reconciling Adjustments"
+      ],
+      [
+        "$7,349 Million GAAP Net Income",
+        "Broadcom Inc."
+      ],
+      [
+        "Broadcom Inc.",
+        "Palo Alto, CA"
+      ],
+      [
+        "$10,185 Million Non-GAAP Net Income",
+        "Broadcom Inc."
+      ],
+      [
+        "Total Current Liabilities",
+        "Total Liabilities"
+      ],
+      [
+        "Broadcom",
+        "Broadcom Inc."
+      ],
+      [
+        "Broadcom Inc.",
+        "Long-term Assets"
+      ],
+      [
+        "Broadcom Inc.",
+        "Forward-Looking Statements"
+      ],
+      [
+        "Broadcom Inc.",
+        "Goodwill"
+      ],
+      [
+        "Broadcom Inc.",
+        "Ji Yoo"
+      ],
+      [
+        "68% Adjusted EBITDA Margin",
+        "Broadcom Inc."
+      ],
+      [
+        "Interest Expense",
+        "Loss on Debt Extinguishment"
+      ],
+      [
+        "Total Liabilities",
+        "Total Stockholders' Equity"
+      ],
+      [
+        "Broadcom Inc.",
+        "Securities Exchange Act of 1934"
+      ],
+      [
+        "GAAP",
+        "Non-GAAP Financial Measures"
+      ],
+      [
+        "Broadcom",
+        "Cash and Cash Equivalents"
+      ],
+      [
+        "Adjusted EBITDA",
+        "Broadcom"
+      ],
+      [
+        "Broadcom Inc.",
+        "Non-GAAP"
+      ],
+      [
+        "Broadcom Inc.",
+        "Liabilities and Equity"
+      ],
+      [
+        "Broadcom Inc.",
+        "Financial Reconciliation"
+      ],
+      [
+        "Broadcom Inc.",
+        "Fiscal Quarter Ending"
+      ],
+      [
+        "Cash Flows from Operating Activities",
+        "Net Income"
+      ],
+      [
+        "Broadcom Inc.",
+        "Stockholders' Equity"
+      ],
+      [
+        "Broadcom Inc.",
+        "SEC"
+      ],
+      [
+        "Broadcom Inc.",
+        "November 2, 2025"
+      ],
+      [
+        "Broadcom Inc.",
+        "SECs Website"
+      ],
+      [
+        "First Quarter Financial Results",
+        "Kirsten Spears"
+      ],
+      [
+        "GAAP Basis",
+        "Stock-Based Compensation"
+      ],
+      [
+        "Restructuring and Other Charges",
+        "Total Operating Expenses"
+      ],
+      [
+        "Excise Tax Benefit",
+        "Net Income"
+      ],
+      [
+        "Broadcom Inc.",
+        "Total Assets"
+      ],
+      [
+        "AI Semiconductor Solutions",
+        "Broadcom Inc."
+      ],
+      [
+        "Common Stock",
+        "Repurchases"
+      ],
+      [
+        "Broadcom",
+        "Share Repurchase Program"
+      ],
+      [
+        "Broadcom Inc.",
+        "Free Cash Flow"
+      ],
+      [
+        "Cash Paid for Interest",
+        "Supplemental Disclosure"
+      ],
+      [
+        "Broadcom Inc.",
+        "Q1 2026"
+      ],
+      [
+        "Cash Flows from Financing Activities",
+        "Cash Flows from Investing Activities"
+      ],
+      [
+        "Broadcom",
+        "Free Cash Flow"
+      ],
+      [
+        "Non-GAAP Basis",
+        "Research and Development"
+      ],
+      [
+        "Acquisition-Related Costs",
+        "Total Operating Expenses"
+      ],
+      [
+        "Cash and Cash Equivalents",
+        "Net Cash Used in Financing Activities"
+      ],
+      [
+        "Cash Paid for Income Taxes",
+        "Supplemental Disclosure"
+      ],
+      [
+        "Broadcom",
+        "Second Quarter"
+      ],
+      [
+        "Broadcom Inc.",
+        "GAAP"
+      ],
+      [
+        "Net Income",
+        "Operating Income"
+      ],
+      [
+        "Broadcom Inc.",
+        "February 2, 2025"
+      ],
+      [
+        "Broadcom Inc.",
+        "Total Liabilities"
+      ],
+      [
+        "AI Semiconductor Solutions",
+        "Hock Tan"
+      ],
+      [
+        "$19,311 Million Revenue",
+        "Broadcom Inc."
+      ],
+      [
+        "Broadcom Inc.",
+        "Current Assets"
+      ],
+      [
+        "Adjusted EBITDA",
+        "Broadcom Inc."
+      ],
+      [
+        "Broadcom Inc.",
+        "Intangible Assets"
+      ],
+      [
+        "Broadcom Inc.",
+        "February 1, 2026"
+      ],
+      [
+        "Broadcom Inc.",
+        "Securities Act of 1933"
+      ]
+    ],
+    "count": 57,
+    "create_time": 1777381025,
+    "update_time": 1777381025,
+    "_id": "doc-5d62a266a8d6df68a2672eb570383d0e"
   }
 }

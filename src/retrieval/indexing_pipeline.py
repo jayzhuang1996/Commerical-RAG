@@ -38,13 +38,10 @@ async def openai_model_complete(
     """OpenAI API wrapper with strict rate-limit throttling"""
     
     async with openai_semaphore:
-        for attempt in range(5): 
+        for attempt in range(6): 
             try:
-                # 🛑 CRITICAL THROTTLE: Force a 10-second pause between EVERY API call
-                # This explicitly prevents OpenAI from throwing a 429 TooManyRequests
-                # due to Tokens-Per-Minute (TPM) limits on complex RAG ingests.
-                print("   ⏳ Throttling: Pausing for 10 seconds to respect OpenAI TPM limit...")
-                await asyncio.sleep(10.0)
+                # Modest baseline sleep to sip tokens
+                await asyncio.sleep(2.0)
                 
                 client = AsyncOpenAI(api_key=OPENAI_API_KEY)
                 
