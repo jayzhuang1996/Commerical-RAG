@@ -17,13 +17,44 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState('chat');
   const [showIntro, setShowIntro] = useState(true);
   const [graphTriples, setGraphTriples] = useState<{ source: string; target: string; label?: string; type?: string; color?: string }[]>([]);
-  const presentationRef = useRef<HTMLDivElement>(null);
+  const [chatWidth, setChatWidth] = useState(55); // percentage
+  const isResizing = useRef(false);
 
   const handleGraphData = useCallback((triples: { source: string; target: string; label?: string; type?: string; color?: string }[]) => {
     setGraphTriples(triples);
   }, []);
 
+  const startResizing = useCallback(() => {
+    isResizing.current = true;
+    document.body.style.cursor = 'col-resize';
+    document.body.style.userSelect = 'none';
+  }, []);
+
+  const stopResizing = useCallback(() => {
+    isResizing.current = false;
+    document.body.style.cursor = '';
+    document.body.style.userSelect = '';
+  }, []);
+
+  const handleMouseMove = useCallback((e: MouseEvent) => {
+    if (!isResizing.current) return;
+    const offsetLeft = 240; // Sidebar width
+    const containerWidth = window.innerWidth - offsetLeft;
+    const newChatWidth = ((e.clientX - offsetLeft) / containerWidth) * 100;
+    setChatWidth(Math.min(80, Math.max(30, newChatWidth)));
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mouseup', stopResizing);
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseup', stopResizing);
+    };
+  }, [handleMouseMove, stopResizing]);
+
   if (showIntro) {
+    // ... existing intro code ...
     const boxStyle = {
       padding: '28px',
       background: 'var(--bg-panel)',
@@ -377,25 +408,62 @@ export default function Home() {
           padding: activeTab === 'chat' ? '0' : '24px 32px',
         }}>
           {/* Chat layout: chat pane + graph pane side by side, always mounted */}
-          <div style={{ display: activeTab === 'chat' ? 'flex' : 'none', height: '100%', width: '100%', flexDirection: 'row' }}>
+          <div style={{ display: activeTab === 'chat' ? 'flex' : 'none', height: '100%', width: '100%', flexDirection: 'row', position: 'relative' }}>
             {/* Chat pane */}
-            <div style={{ flex: graphTriples.length > 0 ? '0 0 55%' : '1 1 100%', minWidth: 0, height: '100%', overflow: 'hidden', transition: 'flex-basis 0.3s ease' }}>
+            <div style={{ 
+              flex: graphTriples.length > 0 ? `0 0 ${chatWidth}%` : '1 1 100%', 
+              minWidth: 0, 
+              height: '100%', 
+              overflow: 'hidden', 
+              transition: isResizing.current ? 'none' : 'flex-basis 0.2s ease' 
+            }}>
               <ChatInterface onGraphData={handleGraphData} />
             </div>
+
+            {/* Resizer Handle */}
+            {graphTriples.length > 0 && (
+              <div
+                onMouseDown={startResizing}
+                style={{
+                  width: '8px',
+                  margin: '0 -4px',
+                  cursor: 'col-resize',
+                  zIndex: 10,
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  background: 'transparent',
+                  position: 'relative'
+                }}
+              >
+                <div style={{
+                  width: '2px',
+                  height: '100%',
+                  background: 'var(--border)',
+                  transition: 'background 0.2s',
+                }} className="resizer-line" />
+              </div>
+            )}
+
             {/* Graph pane — lives in page.tsx so it never unmounts with ChatInterface */}
             {graphTriples.length > 0 && (
-              <>
-                <div style={{ width: '1px', flexShrink: 0, background: 'var(--border)' }} />
-                <div style={{ flex: '0 0 45%', minWidth: '300px', display: 'flex', flexDirection: 'column', background: 'var(--bg-base)', height: '100%' }}>
-                  <div style={{ padding: '16px 20px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
-                    <Maximize2 size={15} color="var(--accent-main)" />
-                    <span style={{ fontWeight: 600, fontSize: '14px', fontFamily: 'var(--font-display)' }}>Structural Relationship Map</span>
-                  </div>
-                  <div style={{ flex: 1, minHeight: 0 }}>
-                    <ForceGraph triples={graphTriples} />
-                  </div>
+              <div style={{ 
+                flex: `0 0 ${100 - chatWidth}%`, 
+                minWidth: '200px', 
+                display: 'flex', 
+                flexDirection: 'column', 
+                background: 'var(--bg-base)', 
+                height: '100%',
+                borderLeft: '1px solid var(--border)'
+              }}>
+                <div style={{ padding: '16px 20px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
+                  <Maximize2 size={15} color="var(--accent-main)" />
+                  <span style={{ fontWeight: 600, fontSize: '14px', fontFamily: 'var(--font-display)' }}>Structural Relationship Map</span>
                 </div>
-              </>
+                <div style={{ flex: 1, minHeight: 0 }}>
+                  <ForceGraph triples={graphTriples} />
+                </div>
+              </div>
             )}
           </div>
           {activeTab === 'communities' && (
@@ -429,6 +497,16 @@ export default function Home() {
           )}
         </div>
       </main>
+      <style jsx global>{`
+        .resizer-line:hover, .resizer-line-active {
+          background: var(--el-teal) !important;
+          width: 4px !important;
+        }
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(4px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+      `}</style>
     </div>
   );
 }

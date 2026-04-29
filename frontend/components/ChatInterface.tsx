@@ -46,40 +46,34 @@ export default function ChatInterface({ onGraphData }: ChatInterfaceProps) {
   const [activeLayers, setActiveLayers] = useState<string[]>([]);
 
   // Draggable sidebar width
-  const [sidebarWidth, setSidebarWidth] = useState(260);
+  const [sidebarWidth, setSidebarWidth] = useState(240);
   const isSidebarDragging = useRef(false);
 
-  // Draggable split ratio between chat pane and graph pane (0–1)
-  const [splitRatio, setSplitRatio] = useState(0.58);
-  const isDragging = useRef(false);
-  const containerRef = useRef<HTMLDivElement>(null);
+  const handleMouseMove = useCallback((e: MouseEvent) => {
+    if (isSidebarDragging.current) {
+      const newW = e.clientX - 240; // Subtract the fixed navigation sidebar width
+      setSidebarWidth(Math.min(450, Math.max(160, newW)));
+    }
+  }, []);
 
-  const handleDragStart = () => { isDragging.current = true; document.body.style.cursor = 'col-resize'; document.body.style.userSelect = 'none'; };
-  const handleDragEnd   = () => {
-    isDragging.current = false;
+  const handleMouseUp = useCallback(() => {
     isSidebarDragging.current = false;
     document.body.style.cursor = '';
     document.body.style.userSelect = '';
-  };
-  const handleDragMove  = useCallback((e: MouseEvent) => {
-    if (isSidebarDragging.current && containerRef.current) {
-      const rect = containerRef.current.getBoundingClientRect();
-      const newW = e.clientX - rect.left;
-      setSidebarWidth(Math.min(420, Math.max(180, newW)));
-      return;
-    }
-    if (!isDragging.current || !containerRef.current) return;
-    const rect = containerRef.current.getBoundingClientRect();
-    const usable = rect.width - sidebarWidth;
-    const raw = (e.clientX - rect.left - sidebarWidth) / usable;
-    setSplitRatio(Math.min(0.8, Math.max(0.35, raw)));
-  }, [sidebarWidth]);
+  }, []);
 
   useEffect(() => {
-    window.addEventListener('mousemove', handleDragMove);
-    window.addEventListener('mouseup',   handleDragEnd);
-    return () => { window.removeEventListener('mousemove', handleDragMove); window.removeEventListener('mouseup', handleDragEnd); };
-  }, [handleDragMove]);
+    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mouseup', handleMouseUp);
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, [handleMouseMove, handleMouseUp]);
+
+  const toggleFilter = (setFn: React.Dispatch<React.SetStateAction<string[]>>, val: string) => {
+    setFn(prev => prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]);
+  };
 
   const toggleFilter = (setFn: React.Dispatch<React.SetStateAction<string[]>>, val: string) => {
     setFn(prev => prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]);
@@ -203,11 +197,15 @@ export default function ChatInterface({ onGraphData }: ChatInterfaceProps) {
 
       {/* Sidebar resize handle */}
       <div
-        onMouseDown={() => { isSidebarDragging.current = true; document.body.style.cursor = 'col-resize'; document.body.style.userSelect = 'none'; }}
+        onMouseDown={() => { 
+          isSidebarDragging.current = true; 
+          document.body.style.cursor = 'col-resize'; 
+          document.body.style.userSelect = 'none'; 
+        }}
         style={{
           width: '6px', flexShrink: 0, cursor: 'col-resize',
           background: 'transparent',
-          borderRight: '2px solid var(--border)',
+          borderRight: '1px solid var(--border)',
           transition: 'border-color 0.15s',
           zIndex: 5,
         }}
@@ -289,6 +287,34 @@ export default function ChatInterface({ onGraphData }: ChatInterfaceProps) {
               </div>
 
 
+            </div>
+          )}
+
+          {/* Suggested Queries */}
+          {messages.length === 0 && (
+            <div style={{ maxWidth: '820px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px', paddingBottom: '40px' }}>
+              {SUGGESTED.map((q, i) => (
+                <button
+                  key={i}
+                  onClick={() => handleSubmit(q)}
+                  style={{
+                    textAlign: 'left',
+                    padding: '14px 18px',
+                    background: 'var(--bg-panel)',
+                    border: '1px solid var(--border)',
+                    borderRadius: '10px',
+                    fontSize: '13px',
+                    color: 'var(--text-secondary)',
+                    cursor: 'pointer',
+                    transition: 'all 0.2s',
+                    lineHeight: '1.5',
+                  }}
+                  onMouseOver={e => { e.currentTarget.style.borderColor = 'var(--el-teal)'; e.currentTarget.style.background = '#fff'; }}
+                  onMouseOut={e => { e.currentTarget.style.borderColor = 'var(--border)'; e.currentTarget.style.background = 'var(--bg-panel)'; }}
+                >
+                  {q}
+                </button>
+              ))}
             </div>
           )}
 
