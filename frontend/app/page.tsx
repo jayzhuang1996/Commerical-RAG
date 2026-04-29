@@ -369,17 +369,16 @@ export default function Home() {
         <div style={{
           flex: 1,
           overflow: 'hidden',
-          padding: '24px 32px',
+          padding: activeTab === 'chat' ? '0' : '24px 32px',
         }}>
-          {activeTab === 'chat' && (
-            <div style={{ height: '100%', maxWidth: '1000px', margin: '0 auto' }}>
-              <ChatInterface />
-            </div>
-          )}
+          {/* ChatInterface is always mounted (display:none when hidden) to preserve state */}
+          <div style={{ display: activeTab === 'chat' ? 'flex' : 'none', height: '100%', width: '100%', flexDirection: 'column' }}>
+            <ChatInterface />
+          </div>
           {activeTab === 'communities' && (
             <div style={{
               height: '100%',
-              maxWidth: '1000px',
+              maxWidth: '900px',
               margin: '0 auto',
               background: 'var(--bg-panel)',
               border: '1px solid var(--border)',
