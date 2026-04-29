@@ -389,8 +389,8 @@ export default function ChatInterface() {
         </div>
       </div>
 
-      {/* Right Pane: Visualization (Only visible when active message has graph data) */}
-      {activeMsg?.graph_data && (
+      {/* Right Pane: Structural Relationship Map — always visible once messages exist */}
+      {messages.some(m => m.role === 'assistant') && (
         <>
           {/* Drag handle */}
           <div
@@ -405,20 +405,27 @@ export default function ChatInterface() {
             onMouseEnter={e => (e.currentTarget.style.borderColor = 'var(--el-teal)')}
             onMouseLeave={e => (e.currentTarget.style.borderColor = 'var(--border)')}
           />
-          <div style={{ 
-            flex: 1, 
-            display: 'flex', 
-            flexDirection: 'column', 
+          <div style={{
+            flex: 1,
+            minWidth: '320px',
+            display: 'flex',
+            flexDirection: 'column',
             background: 'var(--bg-base)',
             animation: 'slideIn 0.4s ease-out',
-            minWidth: 0,
           }}>
-            <div style={{ padding: '20px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <div style={{ padding: '16px 20px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '12px' }}>
               <Maximize2 size={16} color="var(--accent-main)" />
               <span style={{ fontWeight: 600, fontSize: '14px', fontFamily: 'var(--font-display)' }}>Structural Relationship Map</span>
             </div>
             <div style={{ flex: 1, minHeight: 0 }}>
-              <ForceGraph triples={activeMsg.graph_data} />
+              {activeMsg?.graph_data && activeMsg.graph_data.length > 0 ? (
+                <ForceGraph triples={activeMsg.graph_data} />
+              ) : (
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', gap: '12px', color: 'var(--text-muted)', fontSize: '13px', padding: '24px', textAlign: 'center' }}>
+                  <Maximize2 size={28} color="var(--border)" />
+                  <span>Graph will appear here after a query returns relationship data.</span>
+                </div>
+              )}
             </div>
           </div>
         </>
