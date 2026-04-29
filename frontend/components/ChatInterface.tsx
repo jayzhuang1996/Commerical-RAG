@@ -119,7 +119,7 @@ export default function ChatInterface() {
           sources: data.sources
         }
       ]);
-      setActiveMessageIndex(messages.length + 1);
+      setActiveMessageIndex(prev => (prev ?? 0) + 2); // unused now — kept for state compat
     } catch (err: any) {
       setMessages(prev => [...prev, { role: 'error', content: err.message }]);
     } finally {
@@ -132,7 +132,8 @@ export default function ChatInterface() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
-  const activeMsg = activeMessageIndex !== null ? messages[activeMessageIndex] : null;
+  // Always use the most recent assistant message so graph_data is never stale/undefined
+  const activeMsg = [...messages].reverse().find(m => m.role === 'assistant') ?? null;
 
   return (
     <div ref={containerRef} style={{ display: 'flex', height: '100%', width: '100%', gap: '0', position: 'relative', background: 'var(--bg-panel)' }}>
