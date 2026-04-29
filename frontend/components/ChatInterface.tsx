@@ -38,6 +38,8 @@ export default function ChatInterface() {
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
   const [selectedSource, setSelectedSource] = useState<{ title: string; text: string; index: number; video_id: string; timestamp?: number } | null>(null);
+  // Graph data stored separately — never cleared, persists across re-renders
+  const [graphTriples, setGraphTriples] = useState<{ source: string; label: string; target: string; type?: string; color?: string }[]>([]);
 
   // Filters State
   const [activeQuarters, setActiveQuarters] = useState<string[]>([]);
@@ -83,9 +85,7 @@ export default function ChatInterface() {
     setFn(prev => prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]);
   };
   
-  // Animation/UI states
   const [isTyping, setIsTyping] = useState(false);
-  const [activeMessageIndex, setActiveMessageIndex] = useState<number | null>(null);
 
   const handleSubmit = async (q?: string) => {
     const question = q || query;
@@ -95,7 +95,6 @@ export default function ChatInterface() {
     setMessages(prev => [...prev, userMsg]);
     setQuery('');
     setLoading(true);
-    setActiveMessageIndex(null);
 
     try {
       const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || ''}/api/chat`, {
@@ -119,7 +118,9 @@ export default function ChatInterface() {
           sources: data.sources
         }
       ]);
-      setActiveMessageIndex(prev => (prev ?? 0) + 2); // unused now — kept for state compat
+      if (data.graph_data && data.graph_data.length > 0) {
+        setGraphTriples(data.graph_data);
+      }
     } catch (err: any) {
       setMessages(prev => [...prev, { role: 'error', content: err.message }]);
     } finally {
@@ -132,8 +133,6 @@ export default function ChatInterface() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
-  // Always use the most recent assistant message so graph_data is never stale/undefined
-  const activeMsg = [...messages].reverse().find(m => m.role === 'assistant') ?? null;
 
   return (
     <div ref={containerRef} style={{ display: 'flex', height: '100%', width: '100%', gap: '0', position: 'relative', background: 'var(--bg-panel)' }}>
@@ -218,13 +217,13 @@ export default function ChatInterface() {
 
       {/* Center Pane: Chat & Text */}
       <div style={{ 
-        flexBasis: activeMsg?.graph_data ? `${Math.round(splitRatio * 100)}%` : '100%',
+        flexBasis: graphTriples.length > 0 ? `${Math.round(splitRatio * 100)}%` : '100%',
         flexShrink: 0,
         flexGrow: 0,
         display: 'flex', 
         flexDirection: 'column', 
         height: '100%',
-        borderRight: activeMsg?.graph_data ? '1px solid var(--border)' : 'none',
+        borderRight: graphTriples.length > 0 ? '1px solid var(--border)' : 'none',
         transition: isDragging.current ? 'none' : 'flex-basis 0.3s ease',
         minWidth: 0
       }}>
@@ -390,10 +389,9 @@ export default function ChatInterface() {
         </div>
       </div>
 
-      {/* Right Pane: Structural Relationship Map — always visible once messages exist */}
-      {messages.some(m => m.role === 'assistant') && (
+      {/* Right Pane: Structural Relationship Map — shown once graph data arrives, never hidden */}
+      {graphTriples.length > 0 && (
         <>
-          {/* Drag handle */}
           <div
             onMouseDown={handleDragStart}
             style={{
@@ -412,21 +410,13 @@ export default function ChatInterface() {
             display: 'flex',
             flexDirection: 'column',
             background: 'var(--bg-base)',
-            animation: 'slideIn 0.4s ease-out',
           }}>
             <div style={{ padding: '16px 20px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '12px' }}>
               <Maximize2 size={16} color="var(--accent-main)" />
               <span style={{ fontWeight: 600, fontSize: '14px', fontFamily: 'var(--font-display)' }}>Structural Relationship Map</span>
             </div>
             <div style={{ flex: 1, minHeight: 0 }}>
-              {activeMsg?.graph_data && activeMsg.graph_data.length > 0 ? (
-                <ForceGraph triples={activeMsg.graph_data} />
-              ) : (
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', gap: '12px', color: 'var(--text-muted)', fontSize: '13px', padding: '24px', textAlign: 'center' }}>
-                  <Maximize2 size={28} color="var(--border)" />
-                  <span>Graph will appear here after a query returns relationship data.</span>
-                </div>
-              )}
+              <ForceGraph triples={graphTriples} />
             </div>
           </div>
         </>
