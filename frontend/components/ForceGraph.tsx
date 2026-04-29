@@ -27,51 +27,14 @@ const TYPE_COLORS: Record<string, string> = {
 };
 
 export default function ForceGraph({ triples }: Props) {
-  const [selectedNode, setSelectedNode] = useState<any>(null);
-  const [selectedLink, setSelectedLink] = useState<any>(null);
   const [pinnedNode, setPinnedNode] = useState<any>(null);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [pinnedLink, setPinnedLink] = useState<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const fgRef = useRef<any>(null);
   const [dims, setDims] = useState({ w: 600, h: 400 });
+  const frozenRef = useRef(false);
 
-  useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    const update = () => setDims({ w: el.clientWidth, h: el.clientHeight });
-    update();
-    const ro = new ResizeObserver(update);
-    ro.observe(el);
-    return () => ro.disconnect();
-  }, []);
-
-  useEffect(() => {
-    const h = (e: MouseEvent) => {
-      const el = containerRef.current;
-      if (!el) return;
-      const r = el.getBoundingClientRect();
-      setMousePos({ x: e.clientX - r.left, y: e.clientY - r.top });
-    };
-    document.addEventListener('mousemove', h);
-    return () => document.removeEventListener('mousemove', h);
-  }, []);
-
-  const handleEngineStop = useCallback(() => {
-    setTimeout(() => fgRef.current?.zoomToFit(600, 50), 300);
-  }, []);
-
-  useEffect(() => {
-    const fg = fgRef.current;
-    if (!fg) return;
-    const lf = fg.d3Force('link');
-    if (lf) lf.distance(30).strength(1);
-    const cf = fg.d3Force('charge');
-    if (cf) cf.strength(-400);
-    const center = fg.d3Force('center');
-    if (center) center.strength(0.15);
-  }, [triples]);
-
-  // Build graph data from triples
+  // Build graph data once — stable reference prevents re-simulation
   const nodeSet = new Set<string>();
   const degreeMap: Record<string, number> = {};
   triples.forEach(t => {
@@ -87,44 +50,108 @@ export default function ForceGraph({ triples }: Props) {
       target: t.target,
       label: t.label,
       color: t.color || TYPE_COLORS[t.type || 'related'] || '#96BED2',
+      type: t.type || 'related',
     })),
   };
 
-  const nodeRadius = (node: any) => Math.min(8 + (node.degree || 1) * 2.5, 40);
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const update = () => setDims({ w: el.clientWidth, h: el.clientHeight });
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  // Set forces once on mount
+  useEffect(() => {
+    frozenRef.current = false;
+    const fg = fgRef.current;
+    if (!fg) return;
+    const lf = fg.d3Force('link');
+    if (lf) lf.distance(80).strength(0.6);
+    const cf = fg.d3Force('charge');
+    if (cf) cf.strength(-300);
+    const center = fg.d3Force('center');
+    if (center) center.strength(0.1);
+  }, [triples]);
+
+  // After simulation settles: freeze all node positions so hover can't restart it
+  const handleEngineStop = useCallback(() => {
+    const fg = fgRef.current;
+    if (!fg || frozenRef.current) return;
+    frozenRef.current = true;
+    // Fix every node in place
+    fg.graphData().nodes.forEach((n: any) => {
+      n.fx = n.x;
+      n.fy = n.y;
+    });
+    setTimeout(() => fg.zoomToFit(400, 40), 100);
+  }, []);
+
+  const nodeRadius = (node: any) => Math.min(10 + (node.degree || 1) * 3, 36);
 
   const nodeCanvasObject = useCallback((node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
-    const isHov = selectedNode?.id === node.id;
+    const isPinned = pinnedNode?.id === node.id;
     const r = nodeRadius(node);
     const label = node.id as string;
 
     ctx.beginPath();
     ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
-    ctx.fillStyle   = isHov ? '#192E44' : '#FFFFFF';
-    ctx.strokeStyle = isHov ? '#00D7D2' : '#192E44';
-    ctx.lineWidth   = (isHov ? 3 : 1.5) / globalScale;
+    ctx.fillStyle   = isPinned ? '#192E44' : '#FFFFFF';
+    ctx.strokeStyle = isPinned ? '#00D7D2' : '#192E44';
+    ctx.lineWidth   = (isPinned ? 3 : 1.5) / globalScale;
     ctx.fill();
     ctx.stroke();
 
-    const fontSize = Math.max(8, Math.min(r * 0.45, 12));
-    ctx.font         = `${isHov ? 700 : 600} ${fontSize}px 'Segoe UI',sans-serif`;
+    const fontSize = Math.max(7, Math.min(r * 0.5, 11));
+    ctx.font         = `${isPinned ? 700 : 600} ${fontSize}px 'Segoe UI',sans-serif`;
     ctx.textAlign    = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillStyle    = isHov ? '#00D7D2' : '#192E44';
+    ctx.fillStyle    = isPinned ? '#00D7D2' : '#192E44';
 
-    const maxW = r * 1.7;
+    const maxW = r * 1.6;
     let txt = label;
-    if (ctx.measureText(txt).width > maxW) {
-      txt = label.slice(0, 6) + '..';
+    while (ctx.measureText(txt).width > maxW && txt.length > 4) {
+      txt = txt.slice(0, -2);
     }
+    if (txt !== label) txt = txt.slice(0, -1) + '…';
     ctx.fillText(txt, node.x, node.y);
-  }, [selectedNode]);
+  }, [pinnedNode]);
 
-  const nodeCanvasObjectMode = useCallback((_node: any) => 'replace' as const, []);
-  const getLinkColor = useCallback((l: any) => l.color || '#96BED2', []);
-  const getLinkWidth = useCallback((l: any) => l === selectedLink ? 5 : 2.5, [selectedLink]);
+  const nodeCanvasObjectMode = useCallback(() => 'replace' as const, []);
+  const getLinkColor = useCallback((l: any) => {
+    const isPinned = pinnedNode && (
+      (l.source?.id || l.source) === pinnedNode.id ||
+      (l.target?.id || l.target) === pinnedNode.id
+    );
+    return isPinned ? '#00D7D2' : (l.color || '#96BED2');
+  }, [pinnedNode]);
+  const getLinkWidth = useCallback((l: any) => {
+    if (pinnedLink && l === pinnedLink) return 5;
+    if (pinnedNode) {
+      const src = l.source?.id || l.source;
+      const tgt = l.target?.id || l.target;
+      if (src === pinnedNode.id || tgt === pinnedNode.id) return 3;
+    }
+    return 1.5;
+  }, [pinnedLink, pinnedNode]);
 
-  const ttLeft = mousePos.x > dims.w - 320 ? mousePos.x - 300 : mousePos.x + 14;
-  const ttTop  = Math.max(10, mousePos.y - 20);
+  const handleNodeClick = useCallback((node: any) => {
+    setPinnedLink(null);
+    setPinnedNode((prev: any) => prev?.id === node.id ? null : node);
+  }, []);
+
+  const handleLinkClick = useCallback((link: any) => {
+    setPinnedNode(null);
+    setPinnedLink((prev: any) => prev === link ? null : link);
+  }, []);
+
+  // Edges for the pinned node detail panel
+  const pinnedEdges = pinnedNode
+    ? triples.filter(t => t.source === pinnedNode.id || t.target === pinnedNode.id)
+    : [];
 
   return (
     <div
@@ -140,116 +167,91 @@ export default function ForceGraph({ triples }: Props) {
         nodeCanvasObjectMode={nodeCanvasObjectMode}
         linkColor={getLinkColor}
         linkWidth={getLinkWidth}
-        linkDirectionalParticles={2}
+        linkDirectionalParticles={1}
         linkDirectionalParticleWidth={2}
-        linkDirectionalParticleSpeed={0.005}
-        cooldownTicks={100}
-        onNodeHover={(node: any) => { if (!pinnedNode) { setSelectedNode(node); setSelectedLink(null); } }}
-        onLinkHover={(link: any) => { if (!pinnedNode) { setSelectedLink(link); setSelectedNode(null); } }}
-        onNodeClick={(node: any) => {
-          if (pinnedNode?.id === node.id) {
-            setPinnedNode(null);
-            setSelectedNode(null);
-          } else {
-            setPinnedNode(node);
-            setSelectedNode(node);
-            setSelectedLink(null);
-          }
-        }}
+        linkDirectionalParticleSpeed={0.004}
+        cooldownTicks={120}
         onEngineStop={handleEngineStop}
+        onNodeClick={handleNodeClick}
+        onLinkClick={handleLinkClick}
+        enableNodeDrag={true}
       />
 
-      {/* Hover / pinned tooltip */}
-      {(selectedLink || selectedNode) && !pinnedNode && (
+      {/* Link click tooltip */}
+      {pinnedLink && !pinnedNode && (
         <div style={{
-          position: 'absolute',
-          left: ttLeft,
-          top: ttTop,
-          zIndex: 100,
-          width: '300px',
-          padding: '14px',
-          background: 'rgba(255,255,255,0.98)',
-          backdropFilter: 'blur(4px)',
-          border: '1px solid #192E44',
-          borderRadius: '10px',
-          boxShadow: '0 8px 24px rgba(25,46,68,0.15)',
-          fontSize: '12px',
-          pointerEvents: 'none',
+          position: 'absolute', top: '16px', right: '16px',
+          zIndex: 200, width: '290px',
+          background: 'rgba(255,255,255,0.99)',
+          border: '1.5px solid #192E44', borderRadius: '12px',
+          boxShadow: '0 8px 24px rgba(25,46,68,0.18)',
+          fontSize: '12px', overflow: 'hidden',
         }}>
-          <div style={{ fontWeight: 800, color: '#192E44', textTransform: 'uppercase', fontSize: '10px', letterSpacing: '0.05em', marginBottom: '6px' }}>
-            {selectedLink ? 'Relationship' : 'Company'}
+          <div style={{ padding: '12px 14px 10px', borderBottom: '1px solid #E3E6EA', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div style={{ fontWeight: 800, color: '#192E44', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Relationship</div>
+            <button onClick={() => setPinnedLink(null)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#94A3B8', fontSize: '16px', lineHeight: 1 }}>×</button>
           </div>
-          {selectedLink && (
-            <>
-              <div style={{ color: '#192E44', fontWeight: 700, marginBottom: '6px', fontSize: '13px' }}>
-                {selectedLink.source.id || selectedLink.source} ↔ {selectedLink.target.id || selectedLink.target}
+          <div style={{ padding: '12px 14px' }}>
+            <div style={{ fontWeight: 700, color: '#192E44', fontSize: '13px', marginBottom: '8px' }}>
+              {pinnedLink.source?.id || pinnedLink.source} ↔ {pinnedLink.target?.id || pinnedLink.target}
+            </div>
+            {pinnedLink.type && (
+              <div style={{ display: 'inline-block', padding: '2px 8px', borderRadius: '10px', background: TYPE_COLORS[pinnedLink.type] + '20', color: TYPE_COLORS[pinnedLink.type], fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', marginBottom: '8px' }}>
+                {pinnedLink.type}
               </div>
-              <div style={{ color: '#3C4A5A', fontStyle: 'italic', lineHeight: '1.5' }}>
-                "{selectedLink.label || 'Direct industry dependency identified in filings.'}"
+            )}
+            {pinnedLink.label && (
+              <div style={{ color: '#3C4A5A', lineHeight: '1.55', fontSize: '12px' }}>
+                {pinnedLink.label}
               </div>
-            </>
-          )}
-          {selectedNode && (
-            <div style={{ color: '#192E44', fontWeight: 700, fontSize: '13px' }}>{selectedNode.id}</div>
-          )}
+            )}
+          </div>
         </div>
       )}
 
-      {/* Pinned node panel — shows all connected edges with real labels */}
-      {pinnedNode && (() => {
-        const nodeId = pinnedNode.id;
-        const edges = triples.filter(t => t.source === nodeId || t.target === nodeId);
-        return (
-          <div style={{
-            position: 'absolute',
-            top: '12px',
-            right: '12px',
-            zIndex: 200,
-            width: '300px',
-            maxHeight: 'calc(100% - 48px)',
-            overflowY: 'auto',
-            background: 'rgba(255,255,255,0.99)',
-            border: '1.5px solid #192E44',
-            borderRadius: '12px',
-            boxShadow: '0 12px 32px rgba(25,46,68,0.2)',
-            fontSize: '12px',
-          }}>
-            <div style={{ padding: '14px 16px 10px', borderBottom: '1px solid #E3E6EA', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <div>
-                <div style={{ fontWeight: 800, color: '#192E44', fontSize: '14px' }}>{nodeId}</div>
-                <div style={{ fontSize: '10px', color: '#94A3B8', marginTop: '2px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                  {edges.length} relationship{edges.length !== 1 ? 's' : ''} in dataset
-                </div>
+      {/* Node click detail panel */}
+      {pinnedNode && (
+        <div style={{
+          position: 'absolute', top: '12px', right: '12px',
+          zIndex: 200, width: '290px',
+          maxHeight: 'calc(100% - 48px)', overflowY: 'auto',
+          background: 'rgba(255,255,255,0.99)',
+          border: '1.5px solid #192E44', borderRadius: '12px',
+          boxShadow: '0 12px 32px rgba(25,46,68,0.2)',
+          fontSize: '12px',
+        }}>
+          <div style={{ padding: '12px 14px 10px', borderBottom: '1px solid #E3E6EA', display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'sticky', top: 0, background: '#fff', zIndex: 1 }}>
+            <div>
+              <div style={{ fontWeight: 800, color: '#192E44', fontSize: '14px' }}>{pinnedNode.id}</div>
+              <div style={{ fontSize: '10px', color: '#94A3B8', marginTop: '2px', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                {pinnedEdges.length} connection{pinnedEdges.length !== 1 ? 's' : ''} in dataset
               </div>
-              <button
-                onClick={() => { setPinnedNode(null); setSelectedNode(null); }}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '18px', color: '#94A3B8', lineHeight: 1, padding: '2px 4px' }}
-              >×</button>
             </div>
-            <div style={{ padding: '10px 14px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
-              {edges.length === 0 ? (
-                <div style={{ color: '#94A3B8', fontSize: '12px' }}>No relationships found for this node.</div>
-              ) : edges.map((e, i) => {
-                const other = e.source === nodeId ? e.target : e.source;
-                const edgeColor = TYPE_COLORS[e.type || 'related'] || '#96BED2';
-                return (
-                  <div key={i} style={{ borderLeft: `3px solid ${edgeColor}`, paddingLeft: '10px' }}>
-                    <div style={{ fontWeight: 700, color: '#192E44', fontSize: '12px', marginBottom: '3px' }}>
-                      ↔ {other}
-                      {e.type && <span style={{ marginLeft: '6px', fontSize: '10px', color: edgeColor, textTransform: 'uppercase', fontWeight: 600 }}>{e.type}</span>}
-                    </div>
-                    {e.label && (
-                      <div style={{ color: '#3C4A5A', lineHeight: '1.5', fontSize: '11.5px' }}>
-                        {e.label}
-                      </div>
+            <button onClick={() => setPinnedNode(null)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#94A3B8', fontSize: '18px', lineHeight: 1, flexShrink: 0 }}>×</button>
+          </div>
+          <div style={{ padding: '10px 14px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            {pinnedEdges.length === 0 ? (
+              <div style={{ color: '#94A3B8', fontSize: '12px' }}>No relationships found for this node.</div>
+            ) : pinnedEdges.map((e, i) => {
+              const other = e.source === pinnedNode.id ? e.target : e.source;
+              const edgeColor = TYPE_COLORS[e.type || 'related'] || '#96BED2';
+              return (
+                <div key={i} style={{ borderLeft: `3px solid ${edgeColor}`, paddingLeft: '10px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '3px' }}>
+                    <span style={{ fontWeight: 700, color: '#192E44', fontSize: '12px' }}>↔ {other}</span>
+                    {e.type && (
+                      <span style={{ fontSize: '9px', color: edgeColor, textTransform: 'uppercase', fontWeight: 700, background: edgeColor + '18', padding: '1px 5px', borderRadius: '6px' }}>{e.type}</span>
                     )}
                   </div>
-                );
-              })}
-            </div>
+                  {e.label && (
+                    <div style={{ color: '#3C4A5A', lineHeight: '1.5', fontSize: '11.5px' }}>{e.label}</div>
+                  )}
+                </div>
+              );
+            })}
           </div>
-        );
-      })()}
+        </div>
+      )}
 
       <div style={{
         position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)',
@@ -257,7 +259,7 @@ export default function ForceGraph({ triples }: Props) {
         background: 'rgba(255,255,255,0.85)', borderRadius: '20px', padding: '3px 12px',
         border: '1px solid #E3E6EA', whiteSpace: 'nowrap',
       }}>
-        Click node for details · Hover edge for relationship · Scroll to zoom
+        Click node or edge for details · Drag to reposition · Scroll to zoom
       </div>
     </div>
   );

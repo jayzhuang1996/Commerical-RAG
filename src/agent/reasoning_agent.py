@@ -115,19 +115,32 @@ async def architect_node(state: AgentState):
 
     return {"search_mode": mode, "augmented_query": aug}
 
+def _allowed_tickers(filters: dict) -> set:
+    """Return the set of tickers permitted by the active vertical filters.
+    Empty set means no filter (all tickers allowed)."""
+    layers = filters.get("layers", [])
+    if not layers:
+        return set()
+    allowed: set = set()
+    for layer in layers:
+        for ticker in VERTICAL_TICKER_MAP.get(layer, []):
+            allowed.add(ticker.upper())
+    return allowed
+
 async def researcher_node(state: AgentState):
     print(f"🔎 [Researcher] Querying: '{state['augmented_query'][:80]}'")
     param = QueryParam(mode=state['search_mode'], top_k=20, only_need_context=True)
     response = await rag.aquery(state['augmented_query'], param=param)
     raw = response if isinstance(response, str) else str(response)
 
-    sources = []
-    clean_context_parts = []
+    allowed_tickers = _allowed_tickers(state.get("filters", {}))
+    if allowed_tickers:
+        print(f"🔍 [Researcher] Filtering to tickers: {allowed_tickers}")
+
+    all_chunks = []
+    seen_snippets: set = set()
 
     # LightRAG returns chunks as JSON lines: {"reference_id": "...", "content": "..."}
-    # We can't use [^{}]* because content values contain nested text with braces.
-    # Instead parse each line that looks like a JSON object.
-    seen_snippets: set = set()
     for line in raw.splitlines():
         line = line.strip()
         if not line.startswith('{') or '"content"' not in line:
@@ -144,7 +157,7 @@ async def researcher_node(state: AgentState):
             continue
         seen_snippets.add(snippet_key)
 
-        # If the chunk itself embeds SOURCE INFO header, parse inline.
+        # Resolve ticker/period/doc_type
         inline_ticker = re.search(r"Ticker:\s*(\w+)", text)
         inline_period = re.search(r"Period:\s*([\w_]+)", text)
         inline_dtype  = re.search(r"Doc Type:\s*([\w_]+)", text)
@@ -153,29 +166,37 @@ async def researcher_node(state: AgentState):
             p = inline_period.group(1).replace("_", " ") if inline_period else "Unknown"
             d = inline_dtype.group(1).replace("_", " ") if inline_dtype else "Filing"
         else:
-            # Fall back to scanning the chunk store by content similarity.
             meta = _lookup_chunk_metadata(text)
             t = meta["ticker"]
             p = meta["period"]
             d = meta["doc_type"]
 
+        # Apply vertical filter: skip chunks whose ticker isn't in the allowed set
+        if allowed_tickers and t.upper() not in allowed_tickers:
+            print(f"   ⏭  Skipping {t} (not in active filter)")
+            continue
+
         display_text = re.sub(r"--- SOURCE INFO ---.*?--- END INFO ---\s*", "", text, flags=re.DOTALL).strip()
         if not display_text:
             continue
 
-        idx = len(sources) + 1
-        sources.append({
-            "title": f"{t} · {d} · {p}",
-            "text": display_text[:2000],
-            "index": idx,
-        })
-        clean_context_parts.append(f"SOURCE [{idx}] ({t} {d} {p}):\n{display_text[:2000]}\n")
+        all_chunks.append({"ticker": t, "period": p, "doc_type": d, "text": display_text})
 
-    print(f"✅ [Researcher] Parsed {len(sources)} source chunks.")
+    # Re-index after filtering so citation numbers are contiguous
+    sources = []
+    clean_context_parts = []
+    for chunk in all_chunks:
+        idx = len(sources) + 1
+        t, p, d = chunk["ticker"], chunk["period"], chunk["doc_type"]
+        txt = chunk["text"][:2000]
+        sources.append({"title": f"{t} · {d} · {p}", "text": txt, "index": idx})
+        clean_context_parts.append(f"SOURCE [{idx}] ({t} {d} {p}):\n{txt}\n")
+
+    print(f"✅ [Researcher] {len(sources)} source chunks after filter.")
 
     # Always pass something to the analyst — use raw as last resort.
     if not clean_context_parts:
-        print("⚠️  [Researcher] No JSON chunks parsed — using raw context as fallback.")
+        print("⚠️  [Researcher] No chunks after filter — using raw context.")
         clean_context_parts = [raw]
 
     return {
