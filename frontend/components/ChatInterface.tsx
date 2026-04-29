@@ -74,10 +74,6 @@ export default function ChatInterface({ onGraphData }: ChatInterfaceProps) {
   const toggleFilter = (setFn: React.Dispatch<React.SetStateAction<string[]>>, val: string) => {
     setFn(prev => prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]);
   };
-
-  const toggleFilter = (setFn: React.Dispatch<React.SetStateAction<string[]>>, val: string) => {
-    setFn(prev => prev.includes(val) ? prev.filter(x => x !== val) : [...prev, val]);
-  };
   
   const [isTyping, setIsTyping] = useState(false);
 
