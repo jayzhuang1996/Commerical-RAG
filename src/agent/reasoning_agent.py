@@ -127,6 +127,16 @@ def _allowed_tickers(filters: dict) -> set:
             allowed.add(ticker.upper())
     return allowed
 
+def _allowed_periods(filters: dict) -> set:
+    """Return normalised period strings permitted by the active quarter filters.
+    Empty set means no filter (all periods allowed).
+    UI sends 'Q1 2025'; stored values are 'Q1_2025' or 'Q1 2025' after replace.
+    We normalise both sides to 'Q1_2025' for comparison."""
+    quarters = filters.get("quarters", [])
+    if not quarters:
+        return set()
+    return {q.replace(" ", "_") for q in quarters}
+
 async def researcher_node(state: AgentState):
     print(f"🔎 [Researcher] Querying: '{state['augmented_query'][:80]}'")
     param = QueryParam(mode=state['search_mode'], top_k=20, only_need_context=True)
@@ -134,8 +144,11 @@ async def researcher_node(state: AgentState):
     raw = response if isinstance(response, str) else str(response)
 
     allowed_tickers = _allowed_tickers(state.get("filters", {}))
+    allowed_periods = _allowed_periods(state.get("filters", {}))
     if allowed_tickers:
         print(f"🔍 [Researcher] Filtering to tickers: {allowed_tickers}")
+    if allowed_periods:
+        print(f"🔍 [Researcher] Filtering to periods: {allowed_periods}")
 
     all_chunks = []
     seen_snippets: set = set()
@@ -171,9 +184,14 @@ async def researcher_node(state: AgentState):
             p = meta["period"]
             d = meta["doc_type"]
 
-        # Apply vertical filter: skip chunks whose ticker isn't in the allowed set
+        # Apply vertical filter
         if allowed_tickers and t.upper() not in allowed_tickers:
-            print(f"   ⏭  Skipping {t} (not in active filter)")
+            print(f"   ⏭  Skipping {t} (ticker not in filter)")
+            continue
+
+        # Apply period filter — normalise stored period to Q1_2025 format for comparison
+        if allowed_periods and p.replace(" ", "_") not in allowed_periods:
+            print(f"   ⏭  Skipping {t} {p} (period not in filter)")
             continue
 
         display_text = re.sub(r"--- SOURCE INFO ---.*?--- END INFO ---\s*", "", text, flags=re.DOTALL).strip()
