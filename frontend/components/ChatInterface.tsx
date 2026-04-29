@@ -48,6 +48,7 @@ export default function ChatInterface({ onGraphData }: ChatInterfaceProps) {
   // Draggable sidebar width
   const [sidebarWidth, setSidebarWidth] = useState(240);
   const isSidebarDragging = useRef(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const handleMouseMove = useCallback((e: MouseEvent) => {
     if (isSidebarDragging.current) {
