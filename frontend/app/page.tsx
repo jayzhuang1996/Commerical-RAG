@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { MessageSquare, Layers, ArrowRight, Database, Shield, Zap, Maximize2 } from 'lucide-react';
 import ForceGraph from '../components/ForceGraph';
