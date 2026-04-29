@@ -69,23 +69,42 @@ export default function ForceGraph({ triples }: Props) {
   // Tune forces once per new graph data, then freeze after simulation ends
   useEffect(() => {
     const fg = fgRef.current;
-    if (!fg) return;
-    // Unfix nodes from previous run
-    fg.graphData().nodes.forEach((n: any) => { n.fx = undefined; n.fy = undefined; });
-    const lf = fg.d3Force('link');
-    if (lf) lf.distance(90).strength(0.5);
-    const cf = fg.d3Force('charge');
-    if (cf) cf.strength(-250);
-    const center = fg.d3Force('center');
-    if (center) center.strength(0.08);
+    if (!fg || typeof fg.graphData !== 'function') return;
+    
+    try {
+      // Unfix nodes from previous run to allow new simulation
+      const data = fg.graphData();
+      if (data && data.nodes) {
+        data.nodes.forEach((n: any) => { n.fx = undefined; n.fy = undefined; });
+      }
+      
+      const lf = fg.d3Force('link');
+      if (lf) lf.distance(90).strength(0.5);
+      const cf = fg.d3Force('charge');
+      if (cf) cf.strength(-250);
+      const center = fg.d3Force('center');
+      if (center) center.strength(0.08);
+    } catch (e) {
+      console.warn("ForceGraph: Failed to initialize forces", e);
+    }
   }, [graphData]);
 
   // Once simulation settles: pin every node in place so nothing ever moves again
   const handleEngineStop = useCallback(() => {
     const fg = fgRef.current;
-    if (!fg) return;
-    fg.graphData().nodes.forEach((n: any) => { n.fx = n.x; n.fy = n.y; });
-    setTimeout(() => fg.zoomToFit(300, 32), 50);
+    if (!fg || typeof fg.graphData !== 'function') return;
+    
+    try {
+      const data = fg.graphData();
+      if (data && data.nodes) {
+        data.nodes.forEach((n: any) => { n.fx = n.x; n.fy = n.y; });
+      }
+      if (typeof fg.zoomToFit === 'function') {
+        setTimeout(() => fg.zoomToFit(300, 32), 50);
+      }
+    } catch (e) {
+      console.warn("ForceGraph: Failed to pin nodes on engine stop", e);
+    }
   }, []);
 
   const nodeRadius = (node: any) => Math.min(10 + (node.degree || 1) * 3, 34);
