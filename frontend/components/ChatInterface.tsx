@@ -3,9 +3,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Send, Sparkles, BookOpen, Clock, Maximize2, Layout, List, Filter, CheckSquare, Square } from 'lucide-react';
-import ForceGraph from './ForceGraph';
-import TypewriterText from './TypewriterText';
+import { Send, Sparkles, BookOpen, Clock, Filter, CheckSquare, Square } from 'lucide-react';
 
 interface Message {
   role: 'user' | 'assistant' | 'error';
@@ -33,13 +31,15 @@ const SUGGESTED = [
   "Summarize the current HBM yield issues discussed in 2026 memory filings.",
 ];
 
-export default function ChatInterface() {
+interface ChatInterfaceProps {
+  onGraphData: (triples: { source: string; target: string; label?: string; type?: string; color?: string }[]) => void;
+}
+
+export default function ChatInterface({ onGraphData }: ChatInterfaceProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
   const [selectedSource, setSelectedSource] = useState<{ title: string; text: string; index: number; video_id: string; timestamp?: number } | null>(null);
-  // Graph data stored separately — never cleared, persists across re-renders
-  const [graphTriples, setGraphTriples] = useState<{ source: string; label: string; target: string; type?: string; color?: string }[]>([]);
 
   // Filters State
   const [activeQuarters, setActiveQuarters] = useState<string[]>([]);
@@ -119,7 +119,7 @@ export default function ChatInterface() {
         }
       ]);
       if (data.graph_data && data.graph_data.length > 0) {
-        setGraphTriples(data.graph_data);
+        onGraphData(data.graph_data);
       }
     } catch (err: any) {
       setMessages(prev => [...prev, { role: 'error', content: err.message }]);
@@ -216,16 +216,13 @@ export default function ChatInterface() {
       />
 
       {/* Center Pane: Chat & Text */}
-      <div style={{ 
-        flexBasis: graphTriples.length > 0 ? `${Math.round(splitRatio * 100)}%` : '100%',
-        flexShrink: 0,
-        flexGrow: 0,
-        display: 'flex', 
-        flexDirection: 'column', 
+      <div style={{
+        flex: 1,
+        display: 'flex',
+        flexDirection: 'column',
         height: '100%',
-        borderRight: graphTriples.length > 0 ? '1px solid var(--border)' : 'none',
-        transition: isDragging.current ? 'none' : 'flex-basis 0.3s ease',
-        minWidth: 0
+        minWidth: 0,
+        overflow: 'hidden',
       }}>
         {/* Messages */}
         <div style={{ flex: 1, overflowY: 'auto', padding: '32px' }}>
@@ -389,38 +386,6 @@ export default function ChatInterface() {
         </div>
       </div>
 
-      {/* Right Pane: Structural Relationship Map — shown once graph data arrives, never hidden */}
-      {graphTriples.length > 0 && (
-        <>
-          <div
-            onMouseDown={handleDragStart}
-            style={{
-              width: '6px', flexShrink: 0, cursor: 'col-resize',
-              background: 'transparent',
-              borderLeft: '2px solid var(--border)',
-              transition: 'border-color 0.15s',
-              zIndex: 5,
-            }}
-            onMouseEnter={e => (e.currentTarget.style.borderColor = 'var(--el-teal)')}
-            onMouseLeave={e => (e.currentTarget.style.borderColor = 'var(--border)')}
-          />
-          <div style={{
-            flex: 1,
-            minWidth: '320px',
-            display: 'flex',
-            flexDirection: 'column',
-            background: 'var(--bg-base)',
-          }}>
-            <div style={{ padding: '16px 20px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <Maximize2 size={16} color="var(--accent-main)" />
-              <span style={{ fontWeight: 600, fontSize: '14px', fontFamily: 'var(--font-display)' }}>Structural Relationship Map</span>
-            </div>
-            <div style={{ flex: 1, minHeight: 0 }}>
-              <ForceGraph triples={graphTriples} />
-            </div>
-          </div>
-        </>
-      )}
 
       {/* Source Modal */}
       {selectedSource && (

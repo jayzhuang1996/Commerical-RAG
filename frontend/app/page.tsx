@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import dynamic from 'next/dynamic';
-import { MessageSquare, Layers, ArrowRight, Database, Shield, Zap } from 'lucide-react';
+import { MessageSquare, Layers, ArrowRight, Database, Shield, Zap, Maximize2 } from 'lucide-react';
+import ForceGraph from '../components/ForceGraph';
 
 const ChatInterface = dynamic(() => import('../components/ChatInterface'), { ssr: false });
 const CommunityExplorer = dynamic(() => import('../components/CommunityExplorer'), { ssr: false });
@@ -15,8 +16,12 @@ const NAV = [
 export default function Home() {
   const [activeTab, setActiveTab] = useState('chat');
   const [showIntro, setShowIntro] = useState(true);
-  // Track which slide the user was on when they clicked Initialize
+  const [graphTriples, setGraphTriples] = useState<{ source: string; target: string; label?: string; type?: string; color?: string }[]>([]);
   const presentationRef = useRef<HTMLDivElement>(null);
+
+  const handleGraphData = useCallback((triples: { source: string; target: string; label?: string; type?: string; color?: string }[]) => {
+    setGraphTriples(triples);
+  }, []);
 
   if (showIntro) {
     const boxStyle = {
@@ -371,9 +376,27 @@ export default function Home() {
           overflow: 'hidden',
           padding: activeTab === 'chat' ? '0' : '24px 32px',
         }}>
-          {/* ChatInterface is always mounted (display:none when hidden) to preserve state */}
-          <div style={{ display: activeTab === 'chat' ? 'flex' : 'none', height: '100%', width: '100%', flexDirection: 'column' }}>
-            <ChatInterface />
+          {/* Chat layout: chat pane + graph pane side by side, always mounted */}
+          <div style={{ display: activeTab === 'chat' ? 'flex' : 'none', height: '100%', width: '100%', flexDirection: 'row' }}>
+            {/* Chat pane */}
+            <div style={{ flex: graphTriples.length > 0 ? '0 0 55%' : '1 1 100%', minWidth: 0, height: '100%', overflow: 'hidden', transition: 'flex-basis 0.3s ease' }}>
+              <ChatInterface onGraphData={handleGraphData} />
+            </div>
+            {/* Graph pane — lives in page.tsx so it never unmounts with ChatInterface */}
+            {graphTriples.length > 0 && (
+              <>
+                <div style={{ width: '1px', flexShrink: 0, background: 'var(--border)' }} />
+                <div style={{ flex: '0 0 45%', minWidth: '300px', display: 'flex', flexDirection: 'column', background: 'var(--bg-base)', height: '100%' }}>
+                  <div style={{ padding: '16px 20px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
+                    <Maximize2 size={15} color="var(--accent-main)" />
+                    <span style={{ fontWeight: 600, fontSize: '14px', fontFamily: 'var(--font-display)' }}>Structural Relationship Map</span>
+                  </div>
+                  <div style={{ flex: 1, minHeight: 0 }}>
+                    <ForceGraph triples={graphTriples} />
+                  </div>
+                </div>
+              </>
+            )}
           </div>
           {activeTab === 'communities' && (
             <div style={{
