@@ -8,7 +8,10 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Dict, Any
-import json, re, os
+import json, re, os, yaml
+from pathlib import Path
+
+KNOWLEDGE_DIR = Path(__file__).parent.parent / "knowledge"
 
 app = FastAPI()
 
@@ -44,14 +47,37 @@ def read_root():
 def health_check():
     return {"status": "healthy", "service": "NABR"}
 
-@app.get("/api/communities")
-async def get_communities():
-    """Return the 6 semiconductor vertical clusters derived from the knowledge graph."""
-    from retrieval.indexing_pipeline import rag
-    from retrieval.visual_utils import extract_cluster_data
+def _load_vertical_meta() -> dict:
+    """
+    Load vertical summaries from knowledge/Layers/ if available,
+    otherwise fall back to hardcoded strings.
+    """
+    layers_dir = KNOWLEDGE_DIR / "Layers"
+    if layers_dir.exists():
+        meta = {}
+        for md_file in sorted(layers_dir.glob("*.md")):
+            try:
+                content = md_file.read_text(encoding="utf-8")
+                lines = content.split("\n")
+                fm = {}
+                if lines[0].startswith("---"):
+                    end = next(i for i, l in enumerate(lines[1:], 1) if l.startswith("---"))
+                    fm = yaml.safe_load("\n".join(lines[1:end])) or {}
+                layer_id = fm.get("layer_id", md_file.stem.replace("_", " / "))
+                body = "\n".join(lines[end + 2:]) if lines[0].startswith("---") else content
+                meta[layer_id] = {
+                    "title":    fm.get("title", layer_id),
+                    "summary":  body[:400].strip(),
+                    "insight":  body[:800].strip(),
+                    "tensions": "",
+                }
+            except Exception:
+                continue
+        if meta:
+            return meta
 
-    # Vertical → summary / insight descriptions drawn from ingested filings
-    VERTICAL_META = {
+    # Fallback — hardcoded until knowledge/Layers/ is populated
+    return {
         "AI / GPU": {
             "title": "AI & GPU Computing",
             "summary": "NVIDIA, AMD, and Intel are at the center of the AI compute race. Blackwell demand, data center GPU buildout, and export controls are defining dynamics.",
@@ -90,6 +116,14 @@ async def get_communities():
         },
     }
 
+
+@app.get("/api/communities")
+async def get_communities():
+    """Return the 6 semiconductor vertical clusters derived from the knowledge graph."""
+    from retrieval.indexing_pipeline import rag
+    from retrieval.visual_utils import extract_cluster_data
+
+    VERTICAL_META = _load_vertical_meta()
     clusters = extract_cluster_data(rag)
 
     communities = []
