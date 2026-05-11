@@ -8,7 +8,11 @@ Produces clean, insight-rich graph data:
 
 import networkx as nx
 import re
+import yaml
+from pathlib import Path
 from typing import List, Dict, Any
+
+KNOWLEDGE_DIR = Path(__file__).parent.parent.parent / "knowledge"
 
 # ── Company whitelist ──────────────────────────────────────────────────────────
 # All canonical forms found in the graph (case-insensitive matching)
@@ -139,6 +143,58 @@ EDGE_COLORS = {
     "related":      "#96BED2",   # Blue-mist     — generic
 }
 
+# ── Knowledge graph edges (from entity notes in knowledge/Companies/) ──────────
+def _extract_knowledge_graph_edges() -> List[Dict[str, Any]]:
+    """
+    Read typed relationships from YAML frontmatter of knowledge/Companies/*.md.
+    These are explicit facts extracted from filings, not similarity scores.
+    """
+    companies_dir = KNOWLEDGE_DIR / "Companies"
+    if not companies_dir.exists():
+        return []
+
+    # Map relationship_type → visual edge type
+    type_map = {
+        "competes_with": "competitive",
+        "buys_from":     "supply",
+        "supplies":      "supply",
+        "partner":       "partnership",
+        "customer":      "supply",
+        "vendor":        "supply",
+    }
+
+    edges = []
+    for md_file in companies_dir.glob("*.md"):
+        ticker = md_file.stem.upper()
+        content = md_file.read_text(encoding="utf-8")
+        lines = content.split("\n")
+        if not lines or not lines[0].startswith("---"):
+            continue
+        try:
+            end = next(i for i, l in enumerate(lines[1:], 1) if l.startswith("---"))
+            fm = yaml.safe_load("\n".join(lines[1:end])) or {}
+        except Exception:
+            continue
+
+        for rel in fm.get("relationships", []):
+            target = (rel.get("target") or "").strip()
+            if not target:
+                continue
+            rel_type = rel.get("type", "related")
+            viz_type = type_map.get(rel_type, "related")
+            # Canonicalize target if possible
+            canonical_target = _canonical(target)
+            edges.append({
+                "source":      ticker,
+                "target":      canonical_target,
+                "description": rel.get("context", ""),
+                "type":        viz_type,
+                "kg":          True,  # marks this as a knowledge-graph edge
+            })
+
+    return edges
+
+
 # ── Main extraction ────────────────────────────────────────────────────────────
 def extract_visual_graph(rag_index, original_query: str, filters: dict = None) -> Dict[str, Any]:
     """
@@ -214,14 +270,36 @@ def extract_visual_graph(rag_index, original_query: str, filters: dict = None) -
             "type": _classify_edge(desc),
         })
 
-    # Sort by query relevance
+    # Merge in knowledge-graph edges (explicit, typed, higher confidence)
+    kg_edges = _extract_knowledge_graph_edges()
+    if original_query:
+        q_lower = original_query.lower()
+        # Keep KG edges where source or target appears in the query, plus all if no filter
+        relevant_kg = [
+            e for e in kg_edges
+            if e["source"].lower() in q_lower or e["target"].lower() in q_lower
+        ]
+        # If nothing matches the query specifically, include all KG edges (general query)
+        if not relevant_kg:
+            relevant_kg = kg_edges
+    else:
+        relevant_kg = kg_edges
+
+    for e in relevant_kg:
+        pair = tuple(sorted([e["source"], e["target"]]))
+        if pair not in seen_pairs:
+            seen_pairs.add(pair)
+            all_cross_edges.append(e)
+
+    # Sort by query relevance — KG edges (kg=True) get a bonus
     if original_query:
         q_lower = original_query.lower()
         def relevance(e):
             score = 0
             if e["source"].lower() in q_lower: score += 2
             if e["target"].lower() in q_lower: score += 2
-            if e["type"] in ("supply", "partnership"): score += 1
+            if e["type"] in ("supply", "competitive"): score += 1
+            if e.get("kg"): score += 1  # prefer explicit over inferred
             return score
         all_cross_edges.sort(key=relevance, reverse=True)
 
