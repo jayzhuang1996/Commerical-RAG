@@ -192,18 +192,18 @@ export default function ForceGraph({ triples }: Props) {
     const cx = dims.w / 2;
     const cy = dims.h / 2;
 
-    // Spread nodes initially around center
+    // Spread nodes in a wide circle initially so they never start bunched
+    const spreadR = Math.min(dims.w, dims.h) * 0.38;
     nodes.forEach((n, i) => {
       const angle = (i / nodes.length) * Math.PI * 2;
-      const r = Math.min(dims.w, dims.h) * 0.3;
-      n.x = cx + Math.cos(angle) * r;
-      n.y = cy + Math.sin(angle) * r;
+      n.x = cx + Math.cos(angle) * spreadR + (Math.random() - 0.5) * 40;
+      n.y = cy + Math.sin(angle) * spreadR + (Math.random() - 0.5) * 40;
       n.vx = 0; n.vy = 0;
     });
 
     let alpha = 1;
-    const alphaDecay = 0.02;
-    const velocityDecay = 0.4;
+    const alphaDecay = 0.015;   // slower cool-down → more time to spread
+    const velocityDecay = 0.6;  // more momentum retained per tick
 
     const tick = () => {
       if (alpha < 0.001) {
@@ -211,35 +211,37 @@ export default function ForceGraph({ triples }: Props) {
         return;
       }
 
-      // Link force
+      // Link force — longer rest length so linked nodes stay readable
       links.forEach(l => {
         const dx = l.target.x - l.source.x;
         const dy = l.target.y - l.source.y;
         const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        const targetDist = 100;
-        const strength = 0.4;
+        const targetDist = 160;
+        const strength = 0.25;
         const f = (dist - targetDist) / dist * strength * alpha;
         l.source.vx += dx * f; l.source.vy += dy * f;
         l.target.vx -= dx * f; l.target.vy -= dy * f;
       });
 
-      // Many-body repulsion
+      // Many-body repulsion — use dist (not dist²) for longer-range push
       for (let i = 0; i < nodes.length; i++) {
         for (let j = i + 1; j < nodes.length; j++) {
           const dx = nodes[j].x - nodes[i].x;
           const dy = nodes[j].y - nodes[i].y;
-          const dist2 = dx * dx + dy * dy || 1;
-          const force = -300 / dist2 * alpha;
-          const fx = dx * force; const fy = dy * force;
+          const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+          const force = (-600 / dist) * alpha;  // linear falloff → nodes spread far
+          const fx = (dx / dist) * force;
+          const fy = (dy / dist) * force;
           nodes[i].vx -= fx; nodes[i].vy -= fy;
           nodes[j].vx += fx; nodes[j].vy += fy;
         }
       }
 
-      // Center gravity
+      // Soft center gravity — keeps graph from drifting off canvas
+
       nodes.forEach(n => {
-        n.vx += (cx - n.x) * 0.05 * alpha;
-        n.vy += (cy - n.y) * 0.05 * alpha;
+        n.vx += (cx - n.x) * 0.02 * alpha;
+        n.vy += (cy - n.y) * 0.02 * alpha;
       });
 
       // Integrate
