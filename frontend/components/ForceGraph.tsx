@@ -23,6 +23,10 @@ const TYPE_COLORS: Record<string, string> = {
   related:      '#96BED2',
 };
 
+const TYPE_PRIORITY: Record<string, number> = {
+  competitive: 0, supply: 1, partnership: 2, geopolitical: 3, investment: 4, related: 5,
+};
+
 interface SimNode { id: string; degree: number; x: number; y: number; vx: number; vy: number; }
 interface SimLink { source: SimNode; target: SimNode; label: string; type: string; color: string; }
 interface PinnedLink { source: SimNode; target: SimNode; label: string; type: string; }
@@ -30,25 +34,22 @@ interface PinnedLink { source: SimNode; target: SimNode; label: string; type: st
 function nodeRadius(n: SimNode) { return Math.min(10 + n.degree * 3, 34); }
 
 export default function ForceGraph({ triples }: Props) {
-  const canvasRef    = useRef<HTMLCanvasElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
-  const nodesRef     = useRef<SimNode[]>([]);
-  const linksRef     = useRef<SimLink[]>([]);
-  const rafRef       = useRef<number>(0);
-  const transformRef = useRef({ x: 0, y: 0, k: 1 });
-  const alphaRef     = useRef(0);           // 0 = sim stopped
-  const dimsRef      = useRef({ w: 800, h: 500 });
+  const canvasRef     = useRef<HTMLCanvasElement>(null);
+  const containerRef  = useRef<HTMLDivElement>(null);
+  const nodesRef      = useRef<SimNode[]>([]);
+  const linksRef      = useRef<SimLink[]>([]);
+  const rafRef        = useRef<number>(0);
+  const transformRef  = useRef({ x: 0, y: 0, k: 1 });
+  const alphaRef      = useRef(0);
+  const simActiveRef  = useRef(false);   // true while the RAF loop is running
+  const dimsRef       = useRef({ w: 800, h: 500 });
 
-  // Interaction state kept in refs so draw never needs to re-subscribe
   const pinnedNodeRef = useRef<SimNode | null>(null);
   const pinnedLinkRef = useRef<PinnedLink | null>(null);
-
-  // Mirror to React state only for panel rendering
   const [pinnedNode, setPinnedNode] = useState<SimNode | null>(null);
   const [pinnedLink, setPinnedLink] = useState<PinnedLink | null>(null);
-  const [, forceRepaint] = useState(0);
 
-  // ── Draw (reads all state from refs — never stale) ─────────────────────────
+  // ── Draw — reads everything from refs, never stale ─────────────────────────
   const drawRef = useRef<() => void>(() => {});
   drawRef.current = () => {
     const canvas = canvasRef.current;
@@ -66,29 +67,18 @@ export default function ForceGraph({ triples }: Props) {
     ctx.translate(tx, ty);
     ctx.scale(k, k);
 
-    // Edges
+    // Edges — no labels on canvas, only in click panel
     links.forEach(l => {
-      const isPL = pl && pl.source === l.source && pl.target === l.target;
-      const isConn = pn && (l.source.id === pn.id || l.target.id === pn.id);
-      const color = isPL ? '#00D7D2' : isConn ? '#00D7D2' : pn ? '#D1D5DB' : l.color;
-      const width = isPL ? 3 : isConn ? 2 : pn ? 0.5 : 1.5;
+      const isPL    = pl && pl.source === l.source && pl.target === l.target;
+      const isConn  = pn && (l.source.id === pn.id || l.target.id === pn.id);
+      const color   = isPL ? '#00D7D2' : isConn ? '#00D7D2' : pn ? '#E2E8F0' : l.color;
+      const width   = isPL ? 3 : isConn ? 2.5 : pn ? 0.5 : 1.8;
       ctx.beginPath();
       ctx.moveTo(l.source.x, l.source.y);
       ctx.lineTo(l.target.x, l.target.y);
       ctx.strokeStyle = color;
-      ctx.lineWidth = width;
+      ctx.lineWidth   = width;
       ctx.stroke();
-      // Short edge label when nothing is selected
-      if (!pn && !pl && l.label) {
-        const mx = (l.source.x + l.target.x) / 2;
-        const my = (l.source.y + l.target.y) / 2;
-        ctx.font = '7px sans-serif';
-        ctx.fillStyle = '#B0BEC5';
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'middle';
-        const short = l.label.length > 22 ? l.label.slice(0, 22) + '…' : l.label;
-        ctx.fillText(short, mx, my);
-      }
     });
 
     // Nodes
@@ -120,20 +110,15 @@ export default function ForceGraph({ triples }: Props) {
     ctx.restore();
   };
 
-  // ── Simulation tick loop (self-contained, reads/writes refs only) ───────────
+  // ── Simulation — one tick, called in RAF loop ──────────────────────────────
   const tickRef = useRef<() => void>(() => {});
   tickRef.current = () => {
-    if (alphaRef.current <= 0.001) {
-      drawRef.current();
-      return;
-    }
     const nodes = nodesRef.current;
     const links = linksRef.current;
     const { w, h } = dimsRef.current;
     const cx = w / 2, cy = h / 2;
     const alpha = alphaRef.current;
 
-    // Link force
     links.forEach(l => {
       const dx = l.target.x - l.source.x;
       const dy = l.target.y - l.source.y;
@@ -143,7 +128,6 @@ export default function ForceGraph({ triples }: Props) {
       l.target.vx -= dx * f; l.target.vy -= dy * f;
     });
 
-    // Repulsion
     for (let i = 0; i < nodes.length; i++) {
       for (let j = i + 1; j < nodes.length; j++) {
         const dx = nodes[j].x - nodes[i].x;
@@ -156,32 +140,47 @@ export default function ForceGraph({ triples }: Props) {
       }
     }
 
-    // Center gravity
     nodes.forEach(n => {
       n.vx += (cx - n.x) * 0.015 * alpha;
       n.vy += (cy - n.y) * 0.015 * alpha;
     });
 
-    // Integrate
     nodes.forEach(n => {
-      n.vx *= 0.65;
-      n.vy *= 0.65;
-      n.x += n.vx;
-      n.y += n.vy;
+      n.vx *= 0.65; n.vy *= 0.65;
+      n.x += n.vx;  n.y += n.vy;
     });
 
     alphaRef.current -= 0.012;
     drawRef.current();
-    rafRef.current = requestAnimationFrame(() => tickRef.current());
   };
 
-  // ── Start simulation only when triples actually change ─────────────────────
-  const triplesKey = useMemo(() => triples.map(t => `${t.source}>${t.target}`).join('|'), [triples]);
+  // ── Start/restart the RAF loop ─────────────────────────────────────────────
+  const startSim = () => {
+    if (simActiveRef.current) return;
+    simActiveRef.current = true;
+    const loop = () => {
+      if (alphaRef.current > 0.001) {
+        tickRef.current();
+        rafRef.current = requestAnimationFrame(loop);
+      } else {
+        simActiveRef.current = false;
+        drawRef.current();
+      }
+    };
+    rafRef.current = requestAnimationFrame(loop);
+  };
+
+  // ── Build graph when triples change ────────────────────────────────────────
+  const triplesKey = useMemo(
+    () => triples.map(t => `${t.source}>${t.target}`).join('|'),
+    [triples]
+  );
 
   useEffect(() => {
     if (triples.length === 0) return;
 
     cancelAnimationFrame(rafRef.current);
+    simActiveRef.current = false;
 
     const nodeMap = new Map<string, number>();
     triples.forEach(t => {
@@ -193,19 +192,26 @@ export default function ForceGraph({ triples }: Props) {
     const cx = w / 2, cy = h / 2;
     const spreadR = Math.min(w, h) * 0.36;
 
-    const nodes: SimNode[] = Array.from(nodeMap.entries()).map(([id, degree], i, arr) => {
-      const angle = (i / arr.length) * Math.PI * 2;
-      return {
-        id, degree,
-        x: cx + Math.cos(angle) * spreadR + (Math.random() - 0.5) * 30,
-        y: cy + Math.sin(angle) * spreadR + (Math.random() - 0.5) * 30,
-        vx: 0, vy: 0,
-      };
-    });
+    const nodes: SimNode[] = Array.from(nodeMap.entries()).map(([id, degree], i, arr) => ({
+      id, degree,
+      x: cx + Math.cos((i / arr.length) * Math.PI * 2) * spreadR + (Math.random() - 0.5) * 30,
+      y: cy + Math.sin((i / arr.length) * Math.PI * 2) * spreadR + (Math.random() - 0.5) * 30,
+      vx: 0, vy: 0,
+    }));
 
     const nodeById = new Map(nodes.map(n => [n.id, n]));
+
+    // Cap at 20 links, deduplicate, prefer high-signal types
+    const seen = new Set<string>();
     const links: SimLink[] = triples
       .filter(t => nodeById.has(t.source) && nodeById.has(t.target))
+      .sort((a, b) => (TYPE_PRIORITY[a.type || 'related'] ?? 5) - (TYPE_PRIORITY[b.type || 'related'] ?? 5))
+      .filter(t => {
+        const key = [t.source, t.target].sort().join('|');
+        if (seen.has(key)) return false;
+        seen.add(key); return true;
+      })
+      .slice(0, 20)
       .map(t => ({
         source: nodeById.get(t.source)!,
         target: nodeById.get(t.target)!,
@@ -221,23 +227,20 @@ export default function ForceGraph({ triples }: Props) {
     setPinnedNode(null);
     setPinnedLink(null);
     alphaRef.current = 1;
+    startSim();
 
-    rafRef.current = requestAnimationFrame(() => tickRef.current());
-    return () => cancelAnimationFrame(rafRef.current);
+    return () => { cancelAnimationFrame(rafRef.current); simActiveRef.current = false; };
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [triplesKey]);
 
-  // ── Canvas size — update ref + resize canvas, no sim restart ───────────────
+  // ── Canvas resize — never restarts sim ─────────────────────────────────────
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
     const update = () => {
       const w = el.clientWidth, h = el.clientHeight;
       dimsRef.current = { w, h };
-      if (canvasRef.current) {
-        canvasRef.current.width  = w;
-        canvasRef.current.height = h;
-      }
+      if (canvasRef.current) { canvasRef.current.width = w; canvasRef.current.height = h; }
       drawRef.current();
     };
     update();
@@ -246,7 +249,7 @@ export default function ForceGraph({ triples }: Props) {
     return () => ro.disconnect();
   }, []);
 
-  // ── Interaction ─────────────────────────────────────────────────────────────
+  // ── Interaction — runs once, all state via refs ────────────────────────────
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -272,9 +275,9 @@ export default function ForceGraph({ triples }: Props) {
         const abx = bx - ax, aby = by - ay;
         const len2 = abx * abx + aby * aby;
         if (!len2) return false;
-        const t = Math.max(0, Math.min(1, ((wx - ax) * abx + (wy - ay) * aby) / len2));
-        const px = ax + t * abx - wx, py = ay + t * aby - wy;
-        return Math.sqrt(px * px + py * py) < 8;
+        const t2 = Math.max(0, Math.min(1, ((wx - ax) * abx + (wy - ay) * aby) / len2));
+        const px = ax + t2 * abx - wx, py = ay + t2 * aby - wy;
+        return Math.sqrt(px * px + py * py) < 10;
       }) ?? null;
 
     const onDown = (e: MouseEvent) => {
@@ -282,19 +285,20 @@ export default function ForceGraph({ triples }: Props) {
       const { x: wx, y: wy } = toWorld(e.clientX - r.left, e.clientY - r.top);
       didDrag = false;
       dragging = hitNode(wx, wy);
-      if (!dragging) panStart = { x: e.clientX - transformRef.current.x, y: e.clientY - transformRef.current.y };
+      if (!dragging) {
+        panStart = { x: e.clientX - transformRef.current.x, y: e.clientY - transformRef.current.y };
+      }
     };
 
     const onMove = (e: MouseEvent) => {
-      const r = canvas.getBoundingClientRect();
       if (dragging) {
         didDrag = true;
+        const r = canvas.getBoundingClientRect();
         const { x: wx, y: wy } = toWorld(e.clientX - r.left, e.clientY - r.top);
         dragging.x = wx; dragging.y = wy; dragging.vx = 0; dragging.vy = 0;
-        // Reheat sim slightly so connected nodes adjust
-        if (alphaRef.current < 0.3) alphaRef.current = 0.3;
-        if (!rafRef.current) rafRef.current = requestAnimationFrame(() => tickRef.current());
-        drawRef.current();
+        // Reheat so connected nodes spring toward the dragged node
+        alphaRef.current = Math.max(alphaRef.current, 0.4);
+        startSim();
       } else if (panStart) {
         didDrag = true;
         transformRef.current.x = e.clientX - panStart.x;
@@ -312,28 +316,23 @@ export default function ForceGraph({ triples }: Props) {
           pinnedLinkRef.current = null;
           const next = pinnedNodeRef.current?.id === node.id ? null : node;
           pinnedNodeRef.current = next;
-          setPinnedNode(next);
-          setPinnedLink(null);
+          setPinnedNode(next); setPinnedLink(null);
         } else {
           const link = hitLink(wx, wy);
           if (link) {
             pinnedNodeRef.current = null;
-            const next = (pinnedLinkRef.current?.source === link.source && pinnedLinkRef.current?.target === link.target) ? null : link;
+            const isSame = pinnedLinkRef.current?.source === link.source && pinnedLinkRef.current?.target === link.target;
+            const next = isSame ? null : link;
             pinnedLinkRef.current = next;
-            setPinnedLink(next);
-            setPinnedNode(null);
+            setPinnedLink(next); setPinnedNode(null);
           } else {
-            pinnedNodeRef.current = null;
-            pinnedLinkRef.current = null;
-            setPinnedNode(null);
-            setPinnedLink(null);
+            pinnedNodeRef.current = null; pinnedLinkRef.current = null;
+            setPinnedNode(null); setPinnedLink(null);
           }
         }
         drawRef.current();
-        forceRepaint(x => x + 1);
       }
-      dragging = null;
-      panStart = null;
+      dragging = null; panStart = null;
     };
 
     const onWheel = (e: WheelEvent) => {
@@ -356,7 +355,7 @@ export default function ForceGraph({ triples }: Props) {
       window.removeEventListener('mouseup', onUp);
       canvas.removeEventListener('wheel', onWheel);
     };
-  }, []); // runs once — all state via refs
+  }, []); // runs once only
 
   const pinnedEdges = pinnedNode
     ? triples.filter(t => t.source === pinnedNode.id || t.target === pinnedNode.id)
@@ -412,7 +411,7 @@ export default function ForceGraph({ triples }: Props) {
       )}
 
       <div style={{ position: 'absolute', bottom: 8, left: '50%', transform: 'translateX(-50%)', fontSize: 10, color: '#94A3B8', zIndex: 10, background: 'rgba(255,255,255,0.9)', borderRadius: 20, padding: '3px 12px', border: '1px solid #E3E6EA', whiteSpace: 'nowrap', pointerEvents: 'none' }}>
-        Click node or edge · Drag to reposition · Scroll to zoom
+        Drag node · Pan background · Scroll to zoom · Click to inspect
       </div>
     </div>
   );
